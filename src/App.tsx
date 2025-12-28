@@ -38,6 +38,7 @@ import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
 import TermsAndConditionsPage from "./pages/TermsAndConditionsPage/TermsAndConditionsPage";
 import AdminTestimonials from "./pages/Admin/Testimonials/AdminTestimonials";
 import LandingPage from "./landingPage";
+import { StyleWrapper } from "./components/StyledWrapper";
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
           path="/login"
           element={
             <PublicRoute>
+              <StyleWrapper>
               <LoginPage />
+              </StyleWrapper>
             </PublicRoute>
           }
         />
@@ -55,7 +58,9 @@ function App() {
           path="/signup"
           element={
             <PublicRoute>
+              <StyleWrapper>
               <SignupPage />
+              </StyleWrapper>
             </PublicRoute>
           }
         />
@@ -63,7 +68,9 @@ function App() {
           path="/verify-email"
           element={
             <PublicRoute>
+              <StyleWrapper>
               <VerifyEmailPage />
+              </StyleWrapper>
             </PublicRoute>
           }
         />
@@ -71,7 +78,9 @@ function App() {
           path="/admin/login"
           element={
             <PublicRoute>
+              <StyleWrapper>
               <AdminLoginPage />
+              </StyleWrapper>
             </PublicRoute>
           }
         />
@@ -82,12 +91,12 @@ function App() {
           </PublicRoute>
         } />
 
-        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+        <Route path="/forgot-password" element={<StyleWrapper><ForgotPasswordPage /></StyleWrapper>} />
         <Route
           path="/terms-and-conditions"
           element={
             <PublicRoute>
-              <TermsAndConditionsPage />
+              <StyleWrapper><TermsAndConditionsPage /></StyleWrapper>
             </PublicRoute>
           }
         />
@@ -107,6 +116,7 @@ function App() {
                             path="/admin/*"
                             element={
                               <AdminProtectedRoute>
+                                <StyleWrapper>
                                 <Routes>
                                   <Route element={<AdminLayout />}>
                                     <Route
@@ -134,6 +144,7 @@ function App() {
                                     />
                                   </Route>
                                 </Routes>
+                                </StyleWrapper>
                               </AdminProtectedRoute>
                             }
                           />
@@ -143,6 +154,7 @@ function App() {
                             path="*"
                             element={
                               <UserProtectedRoute>
+                                <StyleWrapper>
                                 <Layout>
                                   <Routes>
                                     <Route path="/home" element={<HomePage />} />
@@ -196,6 +208,7 @@ function App() {
                                     />
                                   </Routes>
                                 </Layout>
+                                </StyleWrapper>
                               </UserProtectedRoute>
                             }
                           />
