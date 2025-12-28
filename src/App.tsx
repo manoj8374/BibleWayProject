@@ -76,7 +76,11 @@ function App() {
           }
         />
 
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={ 
+          <PublicRoute>
+            <LandingPage />
+          </PublicRoute>
+        } />
 
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route
