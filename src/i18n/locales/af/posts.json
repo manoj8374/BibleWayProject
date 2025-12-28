@@ -1,0 +1,20 @@
+{
+  "edit": "Wysig",
+  "delete": "Vee Uit",
+  "deleteConfirm": "Vee hierdie plasing uit?",
+  "cancel": "Kanselleer",
+  "save": "Stoor",
+  "likes": "Hou Van",
+  "like": "Hou Van",
+  "comments": "Kommentare",
+  "comment": "Kommentaar",
+  "share": "Deel",
+  "shares": "Dele",
+  "writeComment": "Skryf 'n kommentaar...",
+  "writeYourComment": "Skryf jou kommentaar...",
+  "failedToComment": "Kon nie kommentaar lewer nie",
+  "actionFailed": "Aksie het misluk",
+  "commentAdded": "Kommentaar suksesvol bygevoeg",
+  "failedToCreateComment": "Kon nie kommentaar skep nie",
+  "failedToUpdateLike": "Kon nie hou van status opdateer nie"
+}

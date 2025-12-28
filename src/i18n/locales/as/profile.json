@@ -1,0 +1,19 @@
+{
+  "back": "পিছলৈ",
+  "follow": "ফলোৱ কৰক",
+  "unfollow": "ফলোৱ বন্ধ কৰক",
+  "message": "বার্তা",
+  "follower": "ফলোৱাৰ",
+  "following": "ফলোৱ কৰি আছে",
+  "followers": "ফলোৱাৰসমূহ",
+  "loadingProfile": "প্ৰ'ফাইল ল'ড হৈছে...",
+  "profileNotFound": "প্ৰ'ফাইল পোৱা নগ'ল",
+  "loadingPosts": "প'ষ্টসমূহ ল'ড হৈছে...",
+  "noPostsYet": "এতিয়াও কোনো প'ষ্ট নাই",
+  "unknownUser": "অজ্ঞাত ব্যৱহাৰকাৰী",
+  "checkOutProfile": "BibleWay-ত {{name}} ৰ প্ৰ'ফাইল চাওক",
+  "profileTitle": "{{name}} ৰ প্ৰ'ফাইল",
+  "unfollowedSuccessfully": "সফলভাবে ফলোৱ বন্ধ কৰা হ'ল",
+  "followedSuccessfully": "সফলভাবে ফলোৱ কৰা হ'ল",
+  "failedToFetchUserPosts": "ব্যৱহাৰকাৰীৰ প'ষ্টসমূহ আনিবলৈ ব্যৰ্থ"
+}

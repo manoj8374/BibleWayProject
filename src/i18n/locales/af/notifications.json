@@ -1,0 +1,18 @@
+{
+  "title": "Kennisgewings",
+  "markAllAsRead": "Merk almal as gelees",
+  "loading": "Laai kennisgewings...",
+  "noNotifications": "Nog geen kennisgewings nie",
+  "allCaughtUp": "Jy is bygewerk!",
+  "justNow": "Net nou",
+  "minuteAgo": "{{count}} minuut gelede",
+  "minutesAgo": "{{count}} minute gelede",
+  "hourAgo": "{{count}} uur gelede",
+  "hoursAgo": "{{count}} ure gelede",
+  "dayAgo": "{{count}} dag gelede",
+  "daysAgo": "{{count}} dae gelede",
+  "weekAgo": "{{count}} week gelede",
+  "weeksAgo": "{{count}} weke gelede",
+  "monthAgo": "{{count}} maand gelede",
+  "monthsAgo": "{{count}} maande gelede"
+}

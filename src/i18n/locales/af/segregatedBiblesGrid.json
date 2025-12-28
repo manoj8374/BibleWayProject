@@ -1,0 +1,14 @@
+{
+  "title": "Gesegregeerde Bybels",
+  "loadingAgeGroups": "Laai ouderdomsgroepe...",
+  "failedToLoadAgeGroups": "Kon nie ouderdomsgroepe laai nie",
+  "unexpectedErrorLoadingAgeGroups": "Onverwagte fout het voorgekom tydens laai van ouderdomsgroepe",
+  "noAgeGroupsAvailable": "Geen ouderdomsgroepe beskikbaar nie",
+  "pleaseSelectCategoryFirst": "Kies asseblief eers 'n kategorie",
+  "noBooksAvailable": "Geen boeke beskikbaar vir hierdie keuse nie",
+  "failedToFetchBooks": "Kon nie boeke haal nie",
+  "categoryNotFound": "Kategorie nie gevind nie",
+  "ageGroupNotFound": "Ouderdomsgroep nie gevind nie",
+  "languageNotFound": "Taal nie gevind nie",
+  "unexpectedErrorFetchingBooks": "Onverwagte fout het voorgekom tydens haal van boeke"
+}

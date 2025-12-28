@@ -1,0 +1,34 @@
+{
+  "title": "प्रार्थना मागि",
+  "labels": {
+    "description": "बेबेनाय",
+    "name": "मुं",
+    "email": "इ-मेल",
+    "phoneNumber": "फोन नम्बर (आखाइ)",
+    "media": "मिडिया (आखाइ)"
+  },
+  "placeholders": {
+    "enterDescription": "गाहायाव आंनि समाजनि नेरसननि थाखाय प्रार्थना खालाम...",
+    "yourName": "नोंथांनि मुं",
+    "yourEmail": "नोंथांनि इ-मेल थांखि",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "सावगारि एबा भिडिअ' आपल'ड खालाम (बांसिन ५ फाइल, फिन्ना 10MB)",
+    "addMoreFiles": "+ गोबां फाइल हमना"
+  },
+  "buttons": {
+    "submitPrayerRequest": "प्रार्थना मागि जाहोना",
+    "submitting": "जाहोनाय जा़दोंगे..."
+  },
+  "errors": {
+    "descriptionRequired": "नोंथांनि प्रार्थना मागिनि थाखाय मोनसे बेबेनाय हाबना।",
+    "failedToCreateRequest": "प्रार्थना मागि सोमोन्दो खालामनो हाया।",
+    "maxFilesExceeded": "नोंथां बांसिन ५ फाइल आपल'ड खालामनो हायो।",
+    "invalidFileType": "जाखां फाइल रोखोम: {{filename}}। गोबां सावगारि आरो भिडिअ' जाखां।",
+    "fileSizeExceeded": "फाइलनि साइज 10MB सिमा लोगोसे लांदोंगे: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "प्रार्थना मागि सोमोन्दै सोमोन्दो खालामबोयि!"
+  }
+}

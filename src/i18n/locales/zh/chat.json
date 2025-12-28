@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "在线",
+    "offline": "离线"
+  },
+  "messages": {
+    "loading": "加载消息中...",
+    "noMessages": "暂无消息",
+    "deleted": "此消息已删除",
+    "sharedImage": "共享的图片",
+    "viewAttachment": "查看附件",
+    "seen": "已读",
+    "deleteMessage": "删除消息"
+  },
+  "typing": {
+    "isTyping": "正在输入...",
+    "peopleTyping": "正在输入..."
+  },
+  "input": {
+    "placeholder": "输入消息...",
+    "pressEnterToSend": "按Enter发送"
+  },
+  "deleteModal": {
+    "title": "删除消息？",
+    "message": "您确定要删除此消息吗？此操作无法撤销。",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+  "uploadModal": {
+    "title": "发送文件",
+    "uploading": "上传并发送中...",
+    "sendFile": "发送 {{filename}}？",
+    "sending": "发送中...",
+    "send": "发送",
+    "cancel": "取消"
+  },
+  "errors": {
+    "fetchConversation": "获取对话失败",
+    "invalidFileType": "无效的文件类型。仅允许图片和视频。",
+    "fileSizeExceeded": "文件大小超过10MB限制。",
+    "uploadFailed": "文件上传失败",
+    "failedToLoadStickers": "加载贴纸失败"
+  },
+  "stickers": {
+    "loading": "加载贴纸中...",
+    "noStickers": "无可用贴纸"
+  }
+}
+

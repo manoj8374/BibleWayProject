@@ -1,0 +1,26 @@
+{
+  "loading": "Laai...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute moet binne 'n ProfileProvider gebruik word"
+  },
+  "testimonials": {
+    "title": "Getuigskrifbestuur",
+    "pending": "Hangend",
+    "verified": "Geverifieer",
+    "all": "Alles",
+    "loading": "Getuigskrifte laai...",
+    "noTestimonials": "Geen getuigskrifte gevind",
+    "approve": "Goedkeur",
+    "reject": "Verwerp",
+    "processing": "Verwerk...",
+    "approvedSuccessfully": "Getuigskrif suksesvol goedgekeur",
+    "rejectedSuccessfully": "Getuigskrif suksesvol verwerp",
+    "failedToLoad": "Getuigskrifte kon nie gelaai word nie",
+    "failedToApprove": "Getuigskrif kon nie goedgekeur word nie",
+    "failedToReject": "Getuigskrif kon nie verwerp word nie",
+    "confirmReject": "Is jy seker jy wil hierdie getuigskrif verwerp? Hierdie aksie kan nie ongedaan gemaak word nie.",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "pageInfo": "Bladsy {{current}} van {{total}}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Skep Plasing",
+  "labels": {
+    "title": "Titel",
+    "description": "Beskrywing"
+  },
+  "placeholders": {
+    "enterPostTitle": "Voer plasing titel in...",
+    "enterDescription": "Ek het 'n werk by Google bekom..."
+  },
+  "upload": {
+    "uploadFiles": "Laai jou lêers hier op (Maks 5)",
+    "addMoreFiles": "+ Voeg meer lêers by"
+  },
+  "buttons": {
+    "createPost": "Skep Plasing",
+    "creating": "Skep..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Jy kan maksimum 5 lêers oplaai.",
+    "atLeastOneFile": "Laai asseblief ten minste een medialêer op.",
+    "failedToCreatePost": "Kon nie plasing skep nie."
+  },
+  "success": {
+    "postCreated": "Plasing suksesvol geskep!"
+  }
+}

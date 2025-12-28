@@ -1,0 +1,20 @@
+{
+  "title": "完成注册",
+  "description": "我们需要更多详细信息来完成账户创建。",
+  "labels": {
+    "age": "年龄",
+    "language": "语言",
+    "country": "国家"
+  },
+  "placeholders": {
+    "age": "例如：25",
+    "language": "例如：英语",
+    "country": "例如：印度"
+  },
+  "buttons": {
+    "cancel": "取消",
+    "continue": "继续",
+    "creating": "创建中..."
+  }
+}
+

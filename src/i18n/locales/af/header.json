@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Soek boek, naam, skrywer...",
+  "addNewPost": "Voeg Nuwe Plasing By",
+  "noResultsFound": "Geen resultate gevind nie",
+  "languageSelector": {
+    "searchLanguages": "Soek tale...",
+    "noLanguagesFound": "Geen tale gevind nie"
+  },
+  "filter": {
+    "selectLanguage": "Kies Taal",
+    "selectVersion": "Kies Boek"
+  }
+}

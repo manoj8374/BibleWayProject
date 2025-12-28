@@ -1,0 +1,39 @@
+{
+  "title": "प्रचार बनाएं",
+  "labels": {
+    "title": "शीर्षक *",
+    "description": "विवरण",
+    "price": "कीमत",
+    "redirectLink": "रीडायरेक्ट लिंक *",
+    "metaData": "मेटा डेटा (JSON)",
+    "mediaFile": "मीडिया फ़ाइल (छवि/वीडियो/ऑडियो)",
+    "images": "छवियां (कई)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "प्रचार शीर्षक दर्ज करें",
+    "enterDescription": "प्रचार विवरण दर्ज करें (वैकल्पिक)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "चयनित:",
+  "buttons": {
+    "cancel": "रद्द करें",
+    "createPromotion": "प्रचार बनाएं",
+    "creating": "बनाया जा रहा है..."
+  },
+  "errors": {
+    "titleRequired": "शीर्षक आवश्यक है",
+    "priceRequired": "कीमत आवश्यक है",
+    "priceInvalid": "कीमत एक वैध संख्या होनी चाहिए",
+    "redirectLinkRequired": "रीडायरेक्ट लिंक आवश्यक है",
+    "redirectLinkInvalid": "रीडायरेक्ट लिंक एक वैध URL होना चाहिए",
+    "metaDataInvalid": "मेटा डेटा वैध JSON प्रारूप में होना चाहिए",
+    "failedToCreatePromotion": "प्रचार बनाने में विफल",
+    "unexpectedError": "एक अप्रत्याशित त्रुटि हुई"
+  },
+  "success": {
+    "promotionCreated": "प्रचार सफलतापूर्वक बनाया गया"
+  }
+}
+

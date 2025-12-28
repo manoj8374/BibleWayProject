@@ -1,0 +1,19 @@
+{
+  "title": "నోటిఫికేషన్‌లు",
+  "markAllAsRead": "అన్నింటినీ చదివినట్లుగా గుర్తించండి",
+  "loading": "నోటిఫికేషన్‌లు లోడ్ అవుతోంది...",
+  "noNotifications": "ఇంకా నోటిఫికేషన్‌లు లేవు",
+  "allCaughtUp": "మీరు అన్నింటినీ చూసారు!",
+  "justNow": "ఇప్పుడే",
+  "minuteAgo": "{{count}} నిమిషం క్రితం",
+  "minutesAgo": "{{count}} నిమిషాల క్రితం",
+  "hourAgo": "{{count}} గంట క్రితం",
+  "hoursAgo": "{{count}} గంటల క్రితం",
+  "dayAgo": "{{count}} రోజు క్రితం",
+  "daysAgo": "{{count}} రోజుల క్రితం",
+  "weekAgo": "{{count}} వారం క్రితం",
+  "weeksAgo": "{{count}} వారాల క్రితం",
+  "monthAgo": "{{count}} నెల క్రితం",
+  "monthsAgo": "{{count}} నెలల క్రితం"
+}
+

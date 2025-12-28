@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "పుస్తకం, పేరు, రచయితను శోధించండి...",
+  "addNewPost": "కొత్త పోస్ట్ జోడించండి",
+  "noResultsFound": "ఫలితాలు కనుగొనబడలేదు",
+  "languageSelector": {
+    "searchLanguages": "భాషలను శోధించండి...",
+    "noLanguagesFound": "భాషలు కనుగొనబడలేదు"
+  },
+  "filter": {
+    "selectLanguage": "భాషను ఎంచుకోండి",
+    "selectVersion": "వెర్షన్‌ను ఎంచుకోండి"
+  }
+}
+

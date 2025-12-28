@@ -1,0 +1,34 @@
+{
+  "title": "Hoofstuk Notas",
+  "noBookSelected": "Geen boek gekies nie",
+  "selectBookMessage": "Kies asseblief 'n boek om notas te sien",
+  "noChapterSelected": "Geen hoofstuk gekies nie",
+  "selectChapterMessage": "Kies 'n hoofstuk om notas te sien en te skep",
+  "loadingNotes": "Laai notas...",
+  "noNotesYet": "Geen notas nog nie",
+  "startWritingMessage": "Begin om jou gedagtes en insigte oor hierdie hoofstuk te skryf",
+  "placeholder": "Skryf jou notas hier...",
+  "cancel": "Kanselleer",
+  "saving": "Stoor...",
+  "updateNote": "Werk Nota Op",
+  "saveNote": "Stoor Nota",
+  "editNote": "Wysig nota",
+  "deleteNote": "Verwyder nota",
+  "justNow": "Nou net",
+  "note": "nota",
+  "notes": "notas",
+  "deleteConfirmation": "Is jy seker jy wil hierdie nota verwyder?",
+  "success": {
+    "noteCreated": "Nota suksesvol geskep",
+    "noteUpdated": "Nota suksesvol opgedateer",
+    "noteDeleted": "Nota suksesvol verwyder"
+  },
+  "errors": {
+    "failedToLoad": "Kon notas nie laai nie",
+    "failedToCreate": "Kon nota nie skep nie",
+    "failedToUpdate": "Kon nota nie opdateer nie",
+    "failedToDelete": "Kon nota nie verwyder nie",
+    "failedToSave": "Kon nota nie stoor nie"
+  }
+}
+

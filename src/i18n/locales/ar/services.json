@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "حدث خطأ غير متوقع.",
+    "receivedToken": "تم استلام الرمز المميز"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "حدث خطأ غير متوقع أثناء إنشاء المنشور.",
+    "failedToFetchPosts": "فشل جلب المنشورات.",
+    "failedToFetchUserPosts": "فشل جلب منشورات المستخدم.",
+    "failedToUpdatePost": "فشل تحديث المنشور",
+    "failedToDeletePost": "فشل حذف المنشور",
+    "failedToCreateComment": "فشل إنشاء التعليق.",
+    "failedToFetchComments": "فشل جلب التعليقات.",
+    "failedToLikeComment": "فشل الإعجاب بالتعليق.",
+    "failedToUnlikeComment": "فشل إلغاء الإعجاب بالتعليق.",
+    "failedToLikePost": "فشل الإعجاب بالمنشور.",
+    "failedToUnlikePost": "فشل إلغاء الإعجاب بالمنشور."
+  },
+  "user": {
+    "failedToFetchUserProfile": "فشل جلب ملف المستخدم الشخصي.",
+    "failedToFollowUser": "فشل متابعة المستخدم.",
+    "failedToUnfollowUser": "فشل إلغاء متابعة المستخدم.",
+    "failedToGetRecommendedUsers": "فشل الحصول على المستخدمين الموصى بهم.",
+    "failedToGetUserProfile": "فشل الحصول على ملف المستخدم الشخصي."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "فشل تحميل خلفيات الشاشة"
+  },
+  "verse": {
+    "failedToLoadVerses": "فشل تحميل الآيات",
+    "failedToLikeVerse": "فشل الإعجاب بالآية",
+    "failedToUnlikeVerse": "فشل إلغاء الإعجاب بالآية"
+  },
+  "admin": {
+    "failedToLoadBooks": "فشل تحميل الكتب"
+  }
+}

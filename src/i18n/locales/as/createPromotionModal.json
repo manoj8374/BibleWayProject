@@ -1,0 +1,38 @@
+{
+  "title": "প্ৰম'শ্যন সৃষ্টি কৰক",
+  "labels": {
+    "title": "শিৰোনামা *",
+    "description": "বিৱৰণ",
+    "price": "মূল্য *",
+    "redirectLink": "ৰিডাইৰেক্ট লিংক *",
+    "metaData": "মেটা ডাটা (JSON)",
+    "mediaFile": "মিডিয়া ফাইল (ছবি/ভিডিঅ'/অডিঅ')",
+    "images": "ছবিসমূহ (একাধিক)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "প্ৰম'শ্যনৰ শিৰোনামা সুমুৱাওক",
+    "enterDescription": "প্ৰম'শ্যনৰ বিৱৰণ সুমুৱাওক (ঐচ্ছিক)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "নিৰ্বাচিত:",
+  "buttons": {
+    "cancel": "বাতিল",
+    "createPromotion": "প্ৰম'শ্যন সৃষ্টি কৰক",
+    "creating": "সৃষ্টি কৰি আছে..."
+  },
+  "errors": {
+    "titleRequired": "শিৰোনামা আবশ্যক",
+    "priceRequired": "মূল্য আবশ্যক",
+    "priceInvalid": "মূল্য এটা বৈধ সংখ্যা হ'ব লাগিব",
+    "redirectLinkRequired": "ৰিডাইৰেক্ট লিংক আবশ্যক",
+    "redirectLinkInvalid": "ৰিডাইৰেক্ট লিংক এটা বৈধ URL হ'ব লাগিব",
+    "metaDataInvalid": "মেটা ডাটা বৈধ JSON ফৰ্মেটত হ'ব লাগিব",
+    "failedToCreatePromotion": "প্ৰম'শ্যন সৃষ্টি কৰিবলৈ ব্যৰ্থ",
+    "unexpectedError": "এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল"
+  },
+  "success": {
+    "promotionCreated": "প্ৰম'শ্যন সফলভাবে সৃষ্টি কৰা হ'ল"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "edit": "सुस्रांना खालाम",
+  "delete": "डिलिट खालाम",
+  "deleteConfirm": "बे प'स्टखौ डिलिट खालामना?",
+  "cancel": "रादायलां",
+  "save": "रैखा खालाम",
+  "likes": "मोजाङा",
+  "like": "मोजाङा",
+  "comments": "उल्थाफोर",
+  "comment": "उल्था",
+  "share": "शेयार खालाम",
+  "shares": "शेयारफोर",
+  "writeComment": "मोनसे उल्था लिर...",
+  "writeYourComment": "नोंथांनि उल्था लिर...",
+  "failedToComment": "उल्था होनाय हाया",
+  "actionFailed": "खामानि हाया",
+  "commentAdded": "उल्था सोमोन्दै हमबोयि",
+  "failedToCreateComment": "उल्था सोमोन्दो खालामनो हाया",
+  "failedToUpdateLike": "मोजाङानि थाखो आपडेट खालामनो हाया"
+}

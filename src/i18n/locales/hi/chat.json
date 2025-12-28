@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन"
+  },
+  "messages": {
+    "loading": "संदेश लोड हो रहे हैं...",
+    "noMessages": "अभी तक कोई संदेश नहीं",
+    "deleted": "यह संदेश हटा दिया गया था",
+    "sharedImage": "साझा की गई छवि",
+    "viewAttachment": "अटैचमेंट देखें",
+    "seen": "देखा गया",
+    "deleteMessage": "संदेश हटाएं"
+  },
+  "typing": {
+    "isTyping": "टाइप कर रहे हैं...",
+    "peopleTyping": "लोग टाइप कर रहे हैं..."
+  },
+  "input": {
+    "placeholder": "संदेश लिखें...",
+    "pressEnterToSend": "भेजने के लिए Enter दबाएं"
+  },
+  "deleteModal": {
+    "title": "संदेश हटाएं?",
+    "message": "क्या आप वाकई इस संदेश को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता।",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं"
+  },
+  "uploadModal": {
+    "title": "फ़ाइल भेजें",
+    "uploading": "अपलोड और भेजा जा रहा है...",
+    "sendFile": "{{filename}} भेजें?",
+    "sending": "भेजा जा रहा है...",
+    "send": "भेजें",
+    "cancel": "रद्द करें"
+  },
+  "errors": {
+    "fetchConversation": "वार्तालाप प्राप्त करने में विफल",
+    "invalidFileType": "अमान्य फ़ाइल प्रकार। केवल छवियां और वीडियो की अनुमति है।",
+    "fileSizeExceeded": "फ़ाइल का आकार 10MB सीमा से अधिक है।",
+    "uploadFailed": "फ़ाइल अपलोड विफल",
+    "failedToLoadStickers": "स्टिकर लोड करने में विफल"
+  },
+  "stickers": {
+    "loading": "स्टिकर लोड हो रहे हैं...",
+    "noStickers": "कोई स्टिकर उपलब्ध नहीं"
+  }
+}

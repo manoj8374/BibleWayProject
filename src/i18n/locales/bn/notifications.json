@@ -1,0 +1,18 @@
+{
+  "title": "বিজ্ঞপ্তি",
+  "markAllAsRead": "সব পড়া হিসাবে চিহ্নিত করুন",
+  "loading": "বিজ্ঞপ্তি লোড হচ্ছে...",
+  "noNotifications": "এখনও কোন বিজ্ঞপ্তি নেই",
+  "allCaughtUp": "আপনি সবকিছু দেখে ফেলেছেন!",
+  "justNow": "এখনই",
+  "minuteAgo": "{{count}} মিনিট আগে",
+  "minutesAgo": "{{count}} মিনিট আগে",
+  "hourAgo": "{{count}} ঘন্টা আগে",
+  "hoursAgo": "{{count}} ঘন্টা আগে",
+  "dayAgo": "{{count}} দিন আগে",
+  "daysAgo": "{{count}} দিন আগে",
+  "weekAgo": "{{count}} সপ্তাহ আগে",
+  "weeksAgo": "{{count}} সপ্তাহ আগে",
+  "monthAgo": "{{count}} মাস আগে",
+  "monthsAgo": "{{count}} মাস আগে"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "إنشاء فئة",
+  "labels": {
+    "categoryName": "اسم الفئة *",
+    "description": "الوصف",
+    "displayOrder": "ترتيب العرض",
+    "coverImage": "صورة الغلاف"
+  },
+  "placeholders": {
+    "selectCategoryName": "اختر اسم فئة",
+    "enterDescription": "أدخل وصف الفئة (اختياري)"
+  },
+  "selected": "المحدد:",
+  "buttons": {
+    "cancel": "إلغاء",
+    "createCategory": "إنشاء فئة",
+    "creating": "جاري الإنشاء..."
+  },
+  "errors": {
+    "categoryNameRequired": "اسم الفئة مطلوب",
+    "failedToCreateCategory": "فشل إنشاء الفئة",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  },
+  "success": {
+    "categoryCreated": "تم إنشاء الفئة بنجاح"
+  }
+}

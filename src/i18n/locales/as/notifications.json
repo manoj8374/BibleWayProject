@@ -1,0 +1,18 @@
+{
+  "title": "বিজ্ঞপ্তিসমূহ",
+  "markAllAsRead": "সকলো পঢ়া হিচাপে চিহ্নিত কৰক",
+  "loading": "বিজ্ঞপ্তিসমূহ ল'ড হৈছে...",
+  "noNotifications": "এতিয়াও কোনো বিজ্ঞপ্তি নাই",
+  "allCaughtUp": "আপুনি সকলো দেখি শেষ কৰিছে!",
+  "justNow": "এতিয়া",
+  "minuteAgo": "{{count}} মিনিট আগতে",
+  "minutesAgo": "{{count}} মিনিট আগতে",
+  "hourAgo": "{{count}} ঘণ্টা আগতে",
+  "hoursAgo": "{{count}} ঘণ্টা আগতে",
+  "dayAgo": "{{count}} দিন আগতে",
+  "daysAgo": "{{count}} দিন আগতে",
+  "weekAgo": "{{count}} সপ্তাহ আগতে",
+  "weeksAgo": "{{count}} সপ্তাহ আগতে",
+  "monthAgo": "{{count}} মাহ আগতে",
+  "monthsAgo": "{{count}} মাহ আগতে"
+}

@@ -1,0 +1,26 @@
+{
+  "loading": "লোড হচ্ছে...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute অবশ্যই ProfileProvider এর মধ্যে ব্যবহার করতে হবে"
+  },
+  "testimonials": {
+    "title": "প্রশংসাপত্র ব্যবস্থাপনা",
+    "pending": "অপেক্ষমাণ",
+    "verified": "যাচাইকৃত",
+    "all": "সব",
+    "loading": "প্রশংসাপত্র লোড হচ্ছে...",
+    "noTestimonials": "কোনো প্রশংসাপত্র পাওয়া যায়নি",
+    "approve": "অনুমোদন করুন",
+    "reject": "প্রত্যাখ্যান করুন",
+    "processing": "প্রক্রিয়াকরণ হচ্ছে...",
+    "approvedSuccessfully": "প্রশংসাপত্র সফলভাবে অনুমোদিত হয়েছে",
+    "rejectedSuccessfully": "প্রশংসাপত্র সফলভাবে প্রত্যাখ্যান করা হয়েছে",
+    "failedToLoad": "প্রশংসাপত্র লোড করতে ব্যর্থ",
+    "failedToApprove": "প্রশংসাপত্র অনুমোদন করতে ব্যর্থ",
+    "failedToReject": "প্রশংসাপত্র প্রত্যাখ্যান করতে ব্যর্থ",
+    "confirmReject": "আপনি কি নিশ্চিত যে আপনি এই প্রশংসাপত্রটি প্রত্যাখ্যান করতে চান? এই কাজটি পূর্বাবস্থায় ফেরানো যাবে না।",
+    "previous": "পূর্ববর্তী",
+    "next": "পরবর্তী",
+    "pageInfo": "পৃষ্ঠা {{current}} / {{total}}"
+  }
+}

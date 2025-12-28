@@ -1,0 +1,39 @@
+{
+  "title": "Promotie aanmaken",
+  "labels": {
+    "title": "Titel *",
+    "description": "Beschrijving",
+    "price": "Prijs",
+    "redirectLink": "Doorverwijslink *",
+    "metaData": "Metadata (JSON)",
+    "mediaFile": "Mediabestand (Afbeelding/Video/Audio)",
+    "images": "Afbeeldingen (Meerdere)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Voer promotietitel in",
+    "enterDescription": "Voer promotiebeschrijving in (optioneel)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Geselecteerd:",
+  "buttons": {
+    "cancel": "Annuleren",
+    "createPromotion": "Promotie aanmaken",
+    "creating": "Aanmaken..."
+  },
+  "errors": {
+    "titleRequired": "Titel is vereist",
+    "priceRequired": "Prijs is vereist",
+    "priceInvalid": "Prijs moet een geldig nummer zijn",
+    "redirectLinkRequired": "Doorverwijslink is vereist",
+    "redirectLinkInvalid": "Doorverwijslink moet een geldige URL zijn",
+    "metaDataInvalid": "Metadata moet geldig JSON formaat zijn",
+    "failedToCreatePromotion": "Promotie aanmaken mislukt",
+    "unexpectedError": "Er is een onverwachte fout opgetreden"
+  },
+  "success": {
+    "promotionCreated": "Promotie succesvol aangemaakt"
+  }
+}
+

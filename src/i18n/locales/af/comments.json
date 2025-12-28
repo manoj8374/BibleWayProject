@@ -1,0 +1,11 @@
+{
+  "loading": "Laai kommentare...",
+  "error": "Kon nie kommentare laai nie",
+  "noComments": "Nog geen kommentare nie. Wees die eerste om iets te sê!",
+  "time": {
+    "justNow": "Net nou",
+    "minutesAgo": "{{count}}m gelede",
+    "hoursAgo": "{{count}}u gelede",
+    "daysAgo": "{{count}}d gelede"
+  }
+}

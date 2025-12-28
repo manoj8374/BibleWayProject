@@ -1,0 +1,182 @@
+{
+  "homePage": {
+    "posts": "पोस्ट",
+    "prayerRequest": "प्रार्थना अनुरोध",
+    "categories": "श्रेणियां",
+    "createPrayerRequest": "प्रार्थना अनुरोध बनाएं",
+    "loading": "लोड हो रहा है...",
+    "noItemsFound": "कोई आइटम नहीं मिला।",
+    "unknownUser": "अज्ञात उपयोगकर्ता",
+    "member": "सदस्य"
+  },
+  "profilePage": {
+    "myPosts": "मेरी पोस्ट",
+    "myPrayerRequests": "मेरे प्रार्थना अनुरोध",
+    "loadingContent": "सामग्री लोड हो रही है...",
+    "noItemsFound": "कोई आइटम नहीं मिला।",
+    "username": "उपयोगकर्ता नाम",
+    "email": "ईमेल",
+    "country": "देश",
+    "age": "उम्र",
+    "preferredLanguage": "पसंदीदा भाषा",
+    "logOut": "लॉग आउट",
+    "loading": "लोड हो रहा है...",
+    "postDeletedSuccessfully": "पोस्ट सफलतापूर्वक हटाई गई",
+    "postUpdatedSuccessfully": "पोस्ट सफलतापूर्वक अपडेट की गई",
+    "failedToDeletePost": "पोस्ट हटाने में विफल",
+    "failedToUpdatePost": "पोस्ट अपडेट करने में विफल",
+    "failedToLoadProfile": "प्रोफ़ाइल लोड करने में विफल",
+    "you": "आप",
+    "followers": "फॉलोअर्स",
+    "following": "फॉलो कर रहे हैं",
+    "follow": "फॉलो करें",
+    "failedToLoadFollowers": "फॉलोअर्स लोड करने में विफल",
+    "failedToLoadFollowing": "फॉलो करने वालों को लोड करने में विफल",
+    "userNotFound": "उपयोगकर्ता नहीं मिला",
+    "followedSuccessfully": "सफलतापूर्वक फॉलो किया गया",
+    "unfollowedSuccessfully": "सफलतापूर्वक अनफॉलो किया गया",
+    "failedToUpdateFollowStatus": "फॉलो स्थिति अपडेट करने में विफल",
+    "noFollowers": "अभी तक कोई फॉलोअर्स नहीं",
+    "noFollowing": "अभी तक किसी को फॉलो नहीं कर रहे"
+  },
+  "peoplePage": {
+    "noConversationSelected": "कोई बातचीत चयनित नहीं",
+    "selectConversationDescription": "बातचीत शुरू करने के लिए कृपया सूची से एक बातचीत चुनें"
+  },
+  "downloadsPage": {
+    "downloads": "डाउनलोड",
+    "loadingWallpapers": "वॉलपेपर लोड हो रहे हैं...",
+    "noWallpapersAvailable": "कोई वॉलपेपर उपलब्ध नहीं",
+    "downloading": "डाउनलोड हो रहा है...",
+    "download": "डाउनलोड",
+    "failedToLoadWallpapers": "वॉलपेपर लोड करने में विफल",
+    "failedToDownload": "डाउनलोड करने में विफल"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "मेरे बुकमार्क",
+    "loadingBookmarks": "बुकमार्क लोड हो रहे हैं...",
+    "noBookmarksYet": "अभी तक कोई बुकमार्क नहीं",
+    "continueReading": "पढ़ना जारी रखें",
+    "failedToLoadBookmarks": "बुकमार्क लोड करने में विफल"
+  },
+  "versesPage": {
+    "verses": "आयतें",
+    "loadingVerses": "आयतें लोड हो रही हैं...",
+    "noVersesAvailable": "अभी तक कोई आयतें उपलब्ध नहीं।",
+    "likes": "पसंद",
+    "failedToLoadVerses": "आयतें लोड करने में विफल",
+    "failedToLikeVerse": "आयत को पसंद करने में विफल"
+  },
+  "userProfilePage": {
+    "invalidUserId": "अमान्य उपयोगकर्ता ID"
+  },
+  "postViewPage": {
+    "loading": "पोस्ट लोड हो रही है...",
+    "invalidPostId": "अमान्य पोस्ट ID",
+    "postNotFound": "पोस्ट नहीं मिली",
+    "failedToLoadPost": "पोस्ट लोड करने में विफल"
+  },
+  "prayerRequestViewPage": {
+    "loading": "प्रार्थना अनुरोध लोड हो रहा है...",
+    "invalidRequestId": "अमान्य प्रार्थना अनुरोध ID",
+    "requestNotFound": "प्रार्थना अनुरोध नहीं मिला",
+    "failedToLoadRequest": "प्रार्थना अनुरोध लोड करने में विफल"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "विभाजित बाइबल"
+  },
+  "bibleViewer": {
+    "loading": "लोड हो रहा है…"
+  },
+  "adminDashboard": {
+    "dashboard": "डैशबोर्ड",
+    "createPromotion": "प्रचार बनाएं",
+    "createCategory": "श्रेणी बनाएं",
+    "welcomeAdmin": "स्वागत है, एडमिन",
+    "welcomeDescription": "यहां आप एप्लिकेशन सामग्री प्रबंधित कर सकते हैं। विशिष्ट प्रबंधन अनुभागों पर नेविगेट करने के लिए साइडबार का उपयोग करें।",
+    "dailyVerse": "दैनिक आयत",
+    "dailyVerseDescription": "सभी उपयोगकर्ताओं को दिखाए जाने वाले दैनिक उद्धरण को अपडेट करें। यह हर 24 घंटे में स्वचालित रूप से रीसेट हो जाता है।",
+    "bookManagement": "पुस्तक प्रबंधन",
+    "bookManagementDescription": "Markdown प्रारूप में नई किताबें अपलोड करें। सिस्टम स्वचालित रूप से अध्याय और आयतों को पार्स करेगा।"
+  },
+  "createBook": {
+    "books": "किताबें",
+    "uploadBook": "किताब अपलोड करें",
+    "loadingBooks": "किताबें लोड हो रही हैं...",
+    "noBooksYet": "अभी तक कोई किताबें नहीं। अपनी पहली किताब जोड़ने के लिए \"किताब अपलोड करें\" पर क्लिक करें।",
+    "failedToLoadBooks": "किताबें लोड करने में विफल",
+    "category": "श्रेणी",
+    "ageGroup": "आयु समूह",
+    "language": "भाषा",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "आयतें",
+    "createVerse": "आयत बनाएं",
+    "loadingVerses": "आयतें लोड हो रही हैं...",
+    "noVersesYet": "अभी तक कोई आयतें नहीं। अपनी पहली आयत जोड़ने के लिए \"आयत बनाएं\" पर क्लिक करें।",
+    "failedToLoadVerses": "आयतें लोड करने में विफल",
+    "quoteOfTheDay": "दिन का उद्धरण",
+    "likes": "पसंद",
+    "created": "बनाया गया",
+    "updated": "अपडेट किया गया"
+  },
+  "loginPage": {
+    "logIn": "लॉग इन",
+    "logInUsingGoogle": "Google का उपयोग करके लॉग इन करें",
+    "or": "या",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "staySignedIn": "साइन इन रहें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "loggingIn": "लॉग इन हो रहे हैं...",
+    "login": "लॉग इन",
+    "needAnAccount": "खाते की आवश्यकता है?",
+    "createOne": "एक बनाएं",
+    "loginSuccessful": "लॉग इन सफल"
+  },
+  "signupPage": {
+    "signUp": "साइन अप",
+    "signUpUsingGoogle": "Google का उपयोग करके साइन अप करें",
+    "or": "या",
+    "username": "उपयोगकर्ता नाम",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड कन्फर्म करें",
+    "age": "उम्र",
+    "language": "भाषा",
+    "country": "देश",
+    "searchLanguages": "भाषाएं खोजें...",
+    "noLanguagesFound": "कोई भाषा नहीं मिली",
+    "searchCountries": "देश खोजें...",
+    "noCountriesFound": "कोई देश नहीं मिला",
+    "creatingAccount": "खाता बनाया जा रहा है...",
+    "signUpButton": "साइन अप",
+    "alreadyHaveAccount": "पहले से खाता है?",
+    "logIn": "लॉग इन",
+    "signupSuccessful": "साइन अप सफल",
+    "passwordsDoNotMatch": "पासवर्ड मेल नहीं खाते"
+  },
+  "notesPage": {
+    "title": "मेरे नोट्स",
+    "loading": "नोट्स लोड हो रहे हैं...",
+    "noNotes": "कोई नोट्स नहीं मिले",
+    "failedToLoad": "नोट्स लोड करने में विफल",
+    "note": "नोट",
+    "notes": "नोट्स",
+    "noChapter": "कोई अध्याय नहीं",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "saving": "सहेजा जा रहा है...",
+    "edited": "संपादित",
+    "updatedSuccessfully": "नोट सफलतापूर्वक अपडेट किया गया",
+    "deletedSuccessfully": "नोट सफलतापूर्वक हटाया गया",
+    "failedToUpdate": "नोट अपडेट करने में विफल",
+    "failedToDelete": "नोट हटाने में विफल",
+    "contentRequired": "नोट सामग्री आवश्यक है",
+    "confirmDelete": "क्या आप वाकई इस नोट को हटाना चाहते हैं? यह कार्रवाई पूर्ववत नहीं की जा सकती।",
+    "notePlaceholder": "अपना नोट यहाँ दर्ज करें..."
+  }
+}

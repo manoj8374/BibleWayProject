@@ -1,0 +1,21 @@
+{
+  "edit": "సవరించు",
+  "delete": "తొలగించు",
+  "deleteConfirm": "ఈ పోస్ట్‌ను తొలగించాలా?",
+  "cancel": "రద్దు చేయి",
+  "save": "సేవ్",
+  "likes": "లైక్‌లు",
+  "like": "లైక్",
+  "comments": "కామెంట్‌లు",
+  "comment": "కామెంట్",
+  "share": "షేర్ చేయి",
+  "shares": "షేర్‌లు",
+  "writeComment": "కామెంట్ వ్రాయండి...",
+  "writeYourComment": "మీ కామెంట్ వ్రాయండి...",
+  "failedToComment": "కామెంట్ చేయడంలో విఫలమైంది",
+  "actionFailed": "చర్య విఫలమైంది",
+  "commentAdded": "కామెంట్ విజయవంతంగా జోడించబడింది",
+  "failedToCreateComment": "కామెంట్ సృష్టించడంలో విఫలమైంది",
+  "failedToUpdateLike": "లైక్ స్థితిని నవీకరించడంలో విఫలమైంది"
+}
+

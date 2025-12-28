@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "Onverwagte fout het voorgekom.",
+    "receivedToken": "Token Ontvang"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Onverwagte fout het voorgekom tydens plasing skepping.",
+    "failedToFetchPosts": "Kon nie plasings haal nie.",
+    "failedToFetchUserPosts": "Kon nie gebruiker plasings haal nie.",
+    "failedToUpdatePost": "Kon nie plasing opdateer nie",
+    "failedToDeletePost": "Kon nie plasing uitvee nie",
+    "failedToCreateComment": "Kon nie kommentaar skep nie.",
+    "failedToFetchComments": "Kon nie kommentare haal nie.",
+    "failedToLikeComment": "Kon nie kommentaar hou van nie.",
+    "failedToUnlikeComment": "Kon nie kommentaar ontlike nie.",
+    "failedToLikePost": "Kon nie plasing hou van nie.",
+    "failedToUnlikePost": "Kon nie plasing ontlike nie."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Kon nie gebruiker profiel haal nie.",
+    "failedToFollowUser": "Kon nie gebruiker volg nie.",
+    "failedToUnfollowUser": "Kon nie gebruiker ontvolg nie.",
+    "failedToGetRecommendedUsers": "Kon nie aanbevole gebruikers kry nie.",
+    "failedToGetUserProfile": "Kon nie gebruiker profiel kry nie."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Kon nie agtergronde laai nie"
+  },
+  "verse": {
+    "failedToLoadVerses": "Kon nie verse laai nie",
+    "failedToLikeVerse": "Kon nie vers hou van nie",
+    "failedToUnlikeVerse": "Kon nie vers ontlike nie"
+  },
+  "admin": {
+    "failedToLoadBooks": "Kon nie boeke laai nie"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "విభజించబడిన బైబిల్స్",
+  "loadingAgeGroups": "వయస్సు గ్రూప్‌లు లోడ్ అవుతోంది...",
+  "failedToLoadAgeGroups": "వయస్సు గ్రూప్‌లను లోడ్ చేయడంలో విఫలమైంది",
+  "unexpectedErrorLoadingAgeGroups": "వయస్సు గ్రూప్‌లను లోడ్ చేస్తున్నప్పుడు అనూహ్యమైన దోషం సంభవించింది",
+  "noAgeGroupsAvailable": "వయస్సు గ్రూప్‌లు అందుబాటులో లేవు",
+  "pleaseSelectCategoryFirst": "దయచేసి మొదట కేటగరీని ఎంచుకోండి",
+  "noBooksAvailable": "ఈ ఎంపికకు పుస్తకాలు అందుబాటులో లేవు",
+  "failedToFetchBooks": "పుస్తకాలను పొందడంలో విఫలమైంది",
+  "categoryNotFound": "కేటగరీ కనుగొనబడలేదు",
+  "ageGroupNotFound": "వయస్సు గ్రూప్ కనుగొనబడలేదు",
+  "languageNotFound": "భాష కనుగొనబడలేదు",
+  "unexpectedErrorFetchingBooks": "పుస్తకాలను పొందుతున్నప్పుడు అనూహ్యమైన దోషం సంభవించింది"
+}
+

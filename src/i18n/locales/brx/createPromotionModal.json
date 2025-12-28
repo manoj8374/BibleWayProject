@@ -1,0 +1,38 @@
+{
+  "title": "प्रम'शन सोमोन्दो खालाम",
+  "labels": {
+    "title": "मुं *",
+    "description": "बेबेनाय",
+    "price": "बेसेन *",
+    "redirectLink": "रिदाइरेक्ट लिंक *",
+    "metaData": "मेटा डाटा (JSON)",
+    "mediaFile": "मिडिया फाइल (सावगारि/भिडिअ'/अदिअ')",
+    "images": "सावगारि (गासै)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "प्रम'शननि मुं हाबना",
+    "enterDescription": "प्रम'शननि बेबेनाय हाबना (आखाइ)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "सायख'नाय:",
+  "buttons": {
+    "cancel": "रादायलां",
+    "createPromotion": "प्रम'शन सोमोन्दो खालाम",
+    "creating": "सोमोन्दो जा़दोंगे..."
+  },
+  "errors": {
+    "titleRequired": "मुं मोननै",
+    "priceRequired": "बेसेन मोननै",
+    "priceInvalid": "बेसेन मोनसे जाखां सांख्रि जायो",
+    "redirectLinkRequired": "रिदाइरेक्ट लिंक मोननै",
+    "redirectLinkInvalid": "रिदाइरेक्ट लिंक मोनसे जाखां URL जायो",
+    "metaDataInvalid": "मेटा डाटा जाखां JSON फर्मेटाव जायो",
+    "failedToCreatePromotion": "प्रम'शन सोमोन्दो खालामनो हाया",
+    "unexpectedError": "मोनसे मानि फुंखा जाबोयि"
+  },
+  "success": {
+    "promotionCreated": "प्रम'शन सोमोन्दै सोमोन्दो खालामबोयि"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "किताब अपलोड करें",
+  "labels": {
+    "sourceFile": "स्रोत फ़ाइल (.md) *",
+    "coverImage": "कवर छवि",
+    "category": "श्रेणी *",
+    "ageGroup": "आयु समूह *",
+    "language": "भाषा *",
+    "bookTitle": "शीर्षक *",
+    "description": "विवरण",
+    "bookOrder": "पुस्तक क्रम"
+  },
+  "placeholders": {
+    "selectCategory": "एक श्रेणी चुनें",
+    "selectAgeGroup": "एक आयु समूह चुनें",
+    "selectLanguage": "एक भाषा चुनें",
+    "enterBookTitle": "पुस्तक शीर्षक दर्ज करें",
+    "enterBookDescription": "पुस्तक विवरण दर्ज करें (वैकल्पिक)"
+  },
+  "loading": {
+    "categories": "श्रेणियां लोड हो रही हैं...",
+    "ageGroups": "आयु समूह लोड हो रहे हैं...",
+    "languages": "भाषाएं लोड हो रही हैं...",
+    "uploading": "अपलोड हो रहा है..."
+  },
+  "selected": "चयनित:",
+  "buttons": {
+    "cancel": "रद्द करें",
+    "uploadBook": "किताब अपलोड करें"
+  },
+  "errors": {
+    "sourceFileRequired": "स्रोत फ़ाइल आवश्यक है",
+    "titleRequired": "शीर्षक आवश्यक है",
+    "categoryRequired": "श्रेणी आवश्यक है",
+    "ageGroupRequired": "आयु समूह आवश्यक है",
+    "languageRequired": "भाषा आवश्यक है",
+    "failedToLoadCategories": "श्रेणियां लोड करने में विफल",
+    "failedToLoadAgeGroups": "आयु समूह लोड करने में विफल",
+    "failedToLoadLanguages": "भाषाएं लोड करने में विफल",
+    "failedToUploadBook": "किताब अपलोड करने में विफल",
+    "unexpectedError": "एक अप्रत्याशित त्रुटि हुई"
+  },
+  "success": {
+    "bookCreated": "किताब सफलतापूर्वक बनाई गई"
+  }
+}
+

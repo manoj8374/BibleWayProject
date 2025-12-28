@@ -1,0 +1,27 @@
+{
+  "title": "Kategorie erstellen",
+  "labels": {
+    "categoryName": "Kategoriename *",
+    "description": "Beschreibung",
+    "displayOrder": "Anzeigereihenfolge",
+    "coverImage": "Titelbild"
+  },
+  "placeholders": {
+    "selectCategoryName": "Kategoriename auswählen",
+    "enterDescription": "Kategoriebeschreibung eingeben (optional)"
+  },
+  "selected": "Ausgewählt:",
+  "buttons": {
+    "cancel": "Abbrechen",
+    "createCategory": "Kategorie erstellen",
+    "creating": "Wird erstellt..."
+  },
+  "errors": {
+    "categoryNameRequired": "Kategoriename ist erforderlich",
+    "failedToCreateCategory": "Kategorie konnte nicht erstellt werden",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten"
+  },
+  "success": {
+    "categoryCreated": "Kategorie erfolgreich erstellt"
+  }
+}

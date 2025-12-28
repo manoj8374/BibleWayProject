@@ -1,0 +1,46 @@
+{
+  "title": "বই আপলোড করুন",
+  "labels": {
+    "sourceFile": "সোর্স ফাইল (.md) *",
+    "coverImage": "কভার ছবি",
+    "category": "ক্যাটাগরি *",
+    "ageGroup": "বয়স গ্রুপ *",
+    "language": "ভাষা *",
+    "bookTitle": "শিরোনাম *",
+    "description": "বিবরণ",
+    "bookOrder": "বই ক্রম"
+  },
+  "placeholders": {
+    "selectCategory": "একটি ক্যাটাগরি নির্বাচন করুন",
+    "selectAgeGroup": "একটি বয়স গ্রুপ নির্বাচন করুন",
+    "selectLanguage": "একটি ভাষা নির্বাচন করুন",
+    "enterBookTitle": "বই শিরোনাম লিখুন",
+    "enterBookDescription": "বই বিবরণ লিখুন (ঐচ্ছিক)"
+  },
+  "loading": {
+    "categories": "ক্যাটাগরি লোড হচ্ছে...",
+    "ageGroups": "বয়স গ্রুপ লোড হচ্ছে...",
+    "languages": "ভাষা লোড হচ্ছে...",
+    "uploading": "আপলোড করা হচ্ছে..."
+  },
+  "selected": "নির্বাচিত:",
+  "buttons": {
+    "cancel": "বাতিল",
+    "uploadBook": "বই আপলোড করুন"
+  },
+  "errors": {
+    "sourceFileRequired": "সোর্স ফাইল আবশ্যক",
+    "titleRequired": "শিরোনাম আবশ্যক",
+    "categoryRequired": "ক্যাটাগরি আবশ্যক",
+    "ageGroupRequired": "বয়স গ্রুপ আবশ্যক",
+    "languageRequired": "ভাষা আবশ্যক",
+    "failedToLoadCategories": "ক্যাটাগরি লোড করতে ব্যর্থ",
+    "failedToLoadAgeGroups": "বয়স গ্রুপ লোড করতে ব্যর্থ",
+    "failedToLoadLanguages": "ভাষা লোড করতে ব্যর্থ",
+    "failedToUploadBook": "বই আপলোড করতে ব্যর্থ",
+    "unexpectedError": "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে"
+  },
+  "success": {
+    "bookCreated": "বই সফলভাবে তৈরি হয়েছে"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "unexpectedError": "Er is een onverwachte fout opgetreden.",
+    "receivedToken": "Token ontvangen"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Er is een onverwachte fout opgetreden tijdens het aanmaken van het bericht.",
+    "failedToFetchPosts": "Berichten ophalen mislukt.",
+    "failedToFetchUserPosts": "Gebruikersberichten ophalen mislukt.",
+    "failedToUpdatePost": "Bericht bijwerken mislukt",
+    "failedToDeletePost": "Bericht verwijderen mislukt",
+    "failedToCreateComment": "Reactie aanmaken mislukt.",
+    "failedToFetchComments": "Reacties ophalen mislukt.",
+    "failedToLikeComment": "Reactie leuk vinden mislukt.",
+    "failedToUnlikeComment": "Reactie niet meer leuk vinden mislukt.",
+    "failedToLikePost": "Bericht leuk vinden mislukt.",
+    "failedToUnlikePost": "Bericht niet meer leuk vinden mislukt."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Gebruikersprofiel ophalen mislukt.",
+    "failedToFollowUser": "Gebruiker volgen mislukt.",
+    "failedToUnfollowUser": "Gebruiker ontvolgen mislukt.",
+    "failedToGetRecommendedUsers": "Aanbevolen gebruikers ophalen mislukt.",
+    "failedToGetUserProfile": "Gebruikersprofiel ophalen mislukt."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Achtergronden laden mislukt"
+  },
+  "verse": {
+    "failedToLoadVerses": "Versregels laden mislukt",
+    "failedToLikeVerse": "Versregel leuk vinden mislukt",
+    "failedToUnlikeVerse": "Versregel niet meer leuk vinden mislukt"
+  },
+  "admin": {
+    "failedToLoadBooks": "Boeken laden mislukt"
+  }
+}
+

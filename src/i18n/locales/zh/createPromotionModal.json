@@ -1,0 +1,39 @@
+{
+  "title": "创建促销",
+  "labels": {
+    "title": "标题 *",
+    "description": "描述",
+    "price": "价格",
+    "redirectLink": "重定向链接 *",
+    "metaData": "元数据 (JSON)",
+    "mediaFile": "媒体文件（图片/视频/音频）",
+    "images": "图片（多个）"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "输入促销标题",
+    "enterDescription": "输入促销描述（可选）",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "已选择：",
+  "buttons": {
+    "cancel": "取消",
+    "createPromotion": "创建促销",
+    "creating": "创建中..."
+  },
+  "errors": {
+    "titleRequired": "标题为必填项",
+    "priceRequired": "价格为必填项",
+    "priceInvalid": "价格必须是有效数字",
+    "redirectLinkRequired": "重定向链接为必填项",
+    "redirectLinkInvalid": "重定向链接必须是有效的URL",
+    "metaDataInvalid": "元数据必须是有效的JSON格式",
+    "failedToCreatePromotion": "创建促销失败",
+    "unexpectedError": "发生了意外错误"
+  },
+  "success": {
+    "promotionCreated": "促销创建成功"
+  }
+}
+

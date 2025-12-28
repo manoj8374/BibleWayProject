@@ -1,0 +1,20 @@
+{
+  "back": "返回",
+  "follow": "关注",
+  "unfollow": "取消关注",
+  "message": "消息",
+  "follower": "粉丝",
+  "following": "关注中",
+  "followers": "粉丝",
+  "loadingProfile": "加载个人资料中...",
+  "profileNotFound": "未找到个人资料",
+  "loadingPosts": "加载帖子中...",
+  "noPostsYet": "暂无帖子",
+  "unknownUser": "未知用户",
+  "checkOutProfile": "查看 {{name}} 在BibleWay上的个人资料",
+  "profileTitle": "{{name}} 的个人资料",
+  "unfollowedSuccessfully": "取消关注成功",
+  "followedSuccessfully": "关注成功",
+  "failedToFetchUserPosts": "获取用户帖子失败"
+}
+

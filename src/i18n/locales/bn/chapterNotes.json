@@ -1,0 +1,34 @@
+{
+  "title": "অধ্যায় নোট",
+  "noBookSelected": "কোনো বই নির্বাচিত হয়নি",
+  "selectBookMessage": "নোট দেখতে অনুগ্রহ করে একটি বই নির্বাচন করুন",
+  "noChapterSelected": "কোনো অধ্যায় নির্বাচিত হয়নি",
+  "selectChapterMessage": "নোট দেখতে এবং তৈরি করতে একটি অধ্যায় নির্বাচন করুন",
+  "loadingNotes": "নোট লোড হচ্ছে...",
+  "noNotesYet": "এখনও কোনো নোট নেই",
+  "startWritingMessage": "এই অধ্যায় সম্পর্কে আপনার চিন্তাভাবনা এবং অন্তর্দৃষ্টি লেখা শুরু করুন",
+  "placeholder": "আপনার নোট এখানে লিখুন...",
+  "cancel": "বাতিল",
+  "saving": "সংরক্ষণ করা হচ্ছে...",
+  "updateNote": "নোট আপডেট করুন",
+  "saveNote": "নোট সংরক্ষণ করুন",
+  "editNote": "নোট সম্পাদনা করুন",
+  "deleteNote": "নোট মুছুন",
+  "justNow": "এইমাত্র",
+  "note": "নোট",
+  "notes": "নোট",
+  "deleteConfirmation": "আপনি কি নিশ্চিত যে আপনি এই নোটটি মুছতে চান?",
+  "success": {
+    "noteCreated": "নোট সফলভাবে তৈরি হয়েছে",
+    "noteUpdated": "নোট সফলভাবে আপডেট হয়েছে",
+    "noteDeleted": "নোট সফলভাবে মুছে ফেলা হয়েছে"
+  },
+  "errors": {
+    "failedToLoad": "নোট লোড করতে ব্যর্থ",
+    "failedToCreate": "নোট তৈরি করতে ব্যর্থ",
+    "failedToUpdate": "নোট আপডেট করতে ব্যর্থ",
+    "failedToDelete": "নোট মুছতে ব্যর্থ",
+    "failedToSave": "নোট সংরক্ষণ করতে ব্যর্থ"
+  }
+}
+

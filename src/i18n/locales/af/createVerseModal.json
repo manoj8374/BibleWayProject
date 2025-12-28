@@ -1,0 +1,25 @@
+{
+  "title": "Skep Daaglikse Aanhaling",
+  "note": "Nota: Om 'n nuwe vers te skep sal die bestaande daaglikse aanhaling skoonmaak. Hierdie aksie kan nie ongedaan gemaak word nie. Die nuwe aanhaling sal onmiddellik aan alle gebruikers vertoon word.",
+  "labels": {
+    "title": "Titel (Opsioneel)",
+    "quoteDescription": "Aanhaling / Beskrywing (Verpligtend)"
+  },
+  "placeholders": {
+    "title": "bv. Aanhaling van die dag",
+    "quoteDescription": "Voer die skrif of aanhaling hier in..."
+  },
+  "buttons": {
+    "cancel": "Kanselleer",
+    "publishQuote": "Publiseer Aanhaling",
+    "publishing": "Publiseer..."
+  },
+  "errors": {
+    "descriptionRequired": "Beskrywing is verpligtend",
+    "failedToCreateVerse": "Kon nie vers skep nie",
+    "unexpectedError": "Onverwagte fout het voorgekom"
+  },
+  "success": {
+    "verseCreated": "Vers suksesvol geskep"
+  }
+}

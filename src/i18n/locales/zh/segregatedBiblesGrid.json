@@ -1,0 +1,15 @@
+{
+  "title": "分类圣经",
+  "loadingAgeGroups": "加载年龄段中...",
+  "failedToLoadAgeGroups": "加载年龄段失败",
+  "unexpectedErrorLoadingAgeGroups": "加载年龄段时发生意外错误",
+  "noAgeGroupsAvailable": "无可用年龄段",
+  "pleaseSelectCategoryFirst": "请先选择一个分类",
+  "noBooksAvailable": "此选择没有可用的书籍",
+  "failedToFetchBooks": "获取书籍失败",
+  "categoryNotFound": "未找到分类",
+  "ageGroupNotFound": "未找到年龄段",
+  "languageNotFound": "未找到语言",
+  "unexpectedErrorFetchingBooks": "获取书籍时发生意外错误"
+}
+

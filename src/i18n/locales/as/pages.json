@@ -1,0 +1,148 @@
+{
+  "homePage": {
+    "posts": "প'ষ্টসমূহ",
+    "prayerRequest": "প্ৰাৰ্থনা অনুৰোধ",
+    "createPrayerRequest": "প্ৰাৰ্থনা অনুৰোধ সৃষ্টি কৰক",
+    "loading": "ল'ড হৈছে...",
+    "noItemsFound": "কোনো বস্তু পোৱা নগ'ল।",
+    "unknownUser": "অজ্ঞাত ব্যৱহাৰকাৰী",
+    "member": "সদস্য"
+  },
+  "profilePage": {
+    "myPosts": "মোৰ প'ষ্টসমূহ",
+    "myPrayerRequests": "মোৰ প্ৰাৰ্থনা অনুৰোধসমূহ",
+    "loadingContent": "সমল ল'ড হৈছে...",
+    "noItemsFound": "কোনো বস্তু পোৱা নগ'ল।",
+    "username": "ব্যৱহাৰকাৰীৰ নাম",
+    "email": "ইমেইল",
+    "country": "দেশ",
+    "age": "বয়স",
+    "preferredLanguage": "পছন্দৰ ভাষা",
+    "logOut": "লগআউট কৰক",
+    "loading": "ল'ড হৈছে...",
+    "postDeletedSuccessfully": "প'ষ্ট সফলভাবে ডিলিট কৰা হ'ল",
+    "postUpdatedSuccessfully": "প'ষ্ট সফলভাবে আপডেট কৰা হ'ল",
+    "failedToDeletePost": "প'ষ্ট ডিলিট কৰিবলৈ ব্যৰ্থ",
+    "failedToUpdatePost": "প'ষ্ট আপডেট কৰিবলৈ ব্যৰ্থ",
+    "failedToLoadProfile": "প্ৰ'ফাইল ল'ড কৰিবলৈ ব্যৰ্থ",
+    "you": "আপুনি"
+  },
+  "peoplePage": {
+    "noConversationSelected": "কোনো কথোপকথন নিৰ্বাচিত নহয়",
+    "selectConversationDescription": "কথোপকথন আৰম্ভ কৰিবলৈ অনুগ্ৰহ কৰি তালিকাৰ পৰা এটা কথোপকথন নিৰ্বাচন কৰক"
+  },
+  "downloadsPage": {
+    "downloads": "ডাউনল'ডসমূহ",
+    "loadingWallpapers": "ৱালপেপাৰসমূহ ল'ড হৈছে...",
+    "noWallpapersAvailable": "কোনো ৱালপেপাৰ উপলব্ধ নাই",
+    "downloading": "ডাউনল'ড হৈছে...",
+    "download": "ডাউনল'ড কৰক",
+    "failedToLoadWallpapers": "ৱালপেপাৰসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToDownload": "ডাউনল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "মোৰ বুকমাৰ্কসমূহ",
+    "loadingBookmarks": "বুকমাৰ্কসমূহ ল'ড হৈছে...",
+    "noBookmarksYet": "এতিয়াও কোনো বুকমাৰ্ক নাই",
+    "continueReading": "পঢ়া অব্যাহত ৰাখক",
+    "failedToLoadBookmarks": "বুকমাৰ্কসমূহ ল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "versesPage": {
+    "verses": "পদসমূহ",
+    "loadingVerses": "পদসমূহ ল'ড হৈছে...",
+    "noVersesAvailable": "এতিয়াও কোনো পদ উপলব্ধ নাই।",
+    "likes": "পছন্দসমূহ",
+    "failedToLoadVerses": "পদসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToLikeVerse": "পদ পছন্দ কৰিবলৈ ব্যৰ্থ"
+  },
+  "userProfilePage": {
+    "invalidUserId": "অবৈধ ব্যৱহাৰকাৰী ID"
+  },
+  "postViewPage": {
+    "loading": "প'ষ্ট ল'ড হৈছে...",
+    "invalidPostId": "অবৈধ প'ষ্ট ID",
+    "postNotFound": "প'ষ্ট পোৱা নগ'ল",
+    "failedToLoadPost": "প'ষ্ট ল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "prayerRequestViewPage": {
+    "loading": "প্ৰাৰ্থনা অনুৰোধ ল'ড হৈছে...",
+    "invalidRequestId": "অবৈধ প্ৰাৰ্থনা অনুৰোধ ID",
+    "requestNotFound": "প্ৰাৰ্থনা অনুৰোধ পোৱা নগ'ল",
+    "failedToLoadRequest": "প্ৰাৰ্থনা অনুৰোধ ল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "বিভাজিত বাইবেলসমূহ"
+  },
+  "bibleViewer": {
+    "loading": "ল'ড হৈছে…"
+  },
+  "adminDashboard": {
+    "dashboard": "ডেশ্ববৰ্ড",
+    "createPromotion": "প্ৰম'শ্যন সৃষ্টি কৰক",
+    "createCategory": "কেটেগৰী সৃষ্টি কৰক",
+    "welcomeAdmin": "স্বাগতম, এডমিন",
+    "welcomeDescription": "ইয়াত আপুনি এপ্লিকেচনৰ সমল পৰিচালনা কৰিব পাৰে। নিৰ্দিষ্ট পৰিচালনা বিভাগসমূহলৈ নেভিগেট কৰিবলৈ ছাইডবাৰ ব্যৱহাৰ কৰক।",
+    "dailyVerse": "দৈনিক পদ",
+    "dailyVerseDescription": "সকলো ব্যৱহাৰকাৰীলৈ দেখুওৱা দৈনিক উদ্ধৃতিটো আপডেট কৰক। এইটো স্বয়ংক্ৰিয়ভাৱে প্ৰতিটো ২৪ ঘণ্টাত ৰিসেট হয়।",
+    "bookManagement": "কিতাপ পৰিচালনা",
+    "bookManagementDescription": "Markdown ফৰ্মেটত নতুন কিতাপ আপলোড কৰক। চিষ্টেমটোৱে স্বয়ংক্ৰিয়ভাৱে অধ্যায় আৰু পদসমূহ পাৰ্চ কৰিব।"
+  },
+  "createBook": {
+    "books": "কিতাপসমূহ",
+    "uploadBook": "কিতাপ আপলোড কৰক",
+    "loadingBooks": "কিতাপসমূহ ল'ড হৈছে...",
+    "noBooksYet": "এতিয়াও কোনো কিতাপ নাই। আপোনাৰ প্ৰথম কিতাপ যোগ কৰিবলৈ \"কিতাপ আপলোড কৰক\" ক্লিক কৰক।",
+    "failedToLoadBooks": "কিতাপসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "category": "কেটেগৰী",
+    "ageGroup": "বয়সৰ গোট",
+    "language": "ভাষা",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "পদসমূহ",
+    "createVerse": "পদ সৃষ্টি কৰক",
+    "loadingVerses": "পদসমূহ ল'ড হৈছে...",
+    "noVersesYet": "এতিয়াও কোনো পদ নাই। আপোনাৰ প্ৰথম পদ যোগ কৰিবলৈ \"পদ সৃষ্টি কৰক\" ক্লিক কৰক।",
+    "failedToLoadVerses": "পদসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "quoteOfTheDay": "দিনটোৰ উদ্ধৃতি",
+    "likes": "পছন্দসমূহ",
+    "created": "সৃষ্টি কৰা হ'ল",
+    "updated": "আপডেট কৰা হ'ল"
+  },
+  "loginPage": {
+    "logIn": "লগইন কৰক",
+    "logInUsingGoogle": "Google ব্যৱহাৰ কৰি লগইন কৰক",
+    "or": "বা",
+    "email": "ইমেইল",
+    "password": "পাছৱৰ্ড",
+    "staySignedIn": "ছাইন ইন কৰি ৰাখক",
+    "forgotPassword": "পাছৱৰ্ড পাহৰিলে?",
+    "loggingIn": "লগইন কৰি আছে...",
+    "login": "লগইন",
+    "needAnAccount": "একাউণ্টৰ প্ৰয়োজন?",
+    "createOne": "এটা সৃষ্টি কৰক",
+    "loginSuccessful": "লগইন সফল"
+  },
+  "signupPage": {
+    "signUp": "ছাইন আপ কৰক",
+    "signUpUsingGoogle": "Google ব্যৱহাৰ কৰি ছাইন আপ কৰক",
+    "or": "বা",
+    "username": "ব্যৱহাৰকাৰীৰ নাম",
+    "email": "ইমেইল",
+    "password": "পাছৱৰ্ড",
+    "confirmPassword": "পাছৱৰ্ড নিশ্চিত কৰক",
+    "age": "বয়স",
+    "language": "ভাষা",
+    "country": "দেশ",
+    "searchLanguages": "ভাষা সন্ধান কৰক...",
+    "noLanguagesFound": "কোনো ভাষা পোৱা নগ'ল",
+    "searchCountries": "দেশ সন্ধান কৰক...",
+    "noCountriesFound": "কোনো দেশ পোৱা নগ'ল",
+    "creatingAccount": "একাউণ্ট সৃষ্টি কৰি আছে...",
+    "signUpButton": "ছাইন আপ কৰক",
+    "alreadyHaveAccount": "ইতিমধ্যে একাউণ্ট আছে?",
+    "logIn": "লগইন কৰক",
+    "signupSuccessful": "ছাইন আপ সফল",
+    "passwordsDoNotMatch": "পাছৱৰ্ডসমূহ মিলা নাই"
+  }
+}

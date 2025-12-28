@@ -1,0 +1,182 @@
+{
+  "homePage": {
+    "posts": "Berichten",
+    "prayerRequest": "Gebedsverzoek",
+    "categories": "Categorieën",
+    "createPrayerRequest": "Gebedsverzoek aanmaken",
+    "loading": "Laden...",
+    "noItemsFound": "Geen items gevonden.",
+    "unknownUser": "Onbekende gebruiker",
+    "member": "Lid"
+  },
+  "profilePage": {
+    "myPosts": "Mijn berichten",
+    "myPrayerRequests": "Mijn gebedsverzoeken",
+    "loadingContent": "Inhoud laden...",
+    "noItemsFound": "Geen items gevonden.",
+    "username": "Gebruikersnaam",
+    "email": "E-mail",
+    "country": "Land",
+    "age": "Leeftijd",
+    "preferredLanguage": "Voorkeurstaal",
+    "logOut": "uitloggen",
+    "loading": "Laden...",
+    "postDeletedSuccessfully": "Bericht succesvol verwijderd",
+    "postUpdatedSuccessfully": "Bericht succesvol bijgewerkt",
+    "failedToDeletePost": "Bericht verwijderen mislukt",
+    "failedToUpdatePost": "Bericht bijwerken mislukt",
+    "failedToLoadProfile": "Profiel laden mislukt",
+    "you": "U",
+    "followers": "Volgers",
+    "following": "Volgend",
+    "follow": "Volgen",
+    "failedToLoadFollowers": "Volgers laden mislukt",
+    "failedToLoadFollowing": "Volgend laden mislukt",
+    "userNotFound": "Gebruiker niet gevonden",
+    "followedSuccessfully": "Succesvol gevolgd",
+    "unfollowedSuccessfully": "Succesvol ontvolgd",
+    "failedToUpdateFollowStatus": "Volgstatus bijwerken mislukt",
+    "noFollowers": "Nog geen volgers",
+    "noFollowing": "Volgt nog niemand"
+  },
+  "peoplePage": {
+    "noConversationSelected": "Geen gesprek geselecteerd",
+    "selectConversationDescription": "Selecteer een gesprek uit de lijst om een gesprek te beginnen"
+  },
+  "downloadsPage": {
+    "downloads": "Downloads",
+    "loadingWallpapers": "Achtergronden laden...",
+    "noWallpapersAvailable": "Geen achtergronden beschikbaar",
+    "downloading": "Downloaden...",
+    "download": "Downloaden",
+    "failedToLoadWallpapers": "Achtergronden laden mislukt",
+    "failedToDownload": "Downloaden mislukt"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "Mijn bladwijzers",
+    "loadingBookmarks": "Bladwijzers laden...",
+    "noBookmarksYet": "Nog geen bladwijzers",
+    "continueReading": "Verder lezen",
+    "failedToLoadBookmarks": "Bladwijzers laden mislukt"
+  },
+  "versesPage": {
+    "verses": "Versregels",
+    "loadingVerses": "Versregels laden...",
+    "noVersesAvailable": "Nog geen versregels beschikbaar.",
+    "likes": "Vind-ik-leuks",
+    "failedToLoadVerses": "Versregels laden mislukt",
+    "failedToLikeVerse": "Versregel leuk vinden mislukt"
+  },
+  "userProfilePage": {
+    "invalidUserId": "Ongeldig gebruikers-ID"
+  },
+  "postViewPage": {
+    "loading": "Bericht laden...",
+    "invalidPostId": "Ongeldig bericht-ID",
+    "postNotFound": "Bericht niet gevonden",
+    "failedToLoadPost": "Bericht laden mislukt"
+  },
+  "prayerRequestViewPage": {
+    "loading": "Gebedsverzoek laden...",
+    "invalidRequestId": "Ongeldig gebedsverzoek-ID",
+    "requestNotFound": "Gebedsverzoek niet gevonden",
+    "failedToLoadRequest": "Gebedsverzoek laden mislukt"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "Gescheiden Bijbels"
+  },
+  "bibleViewer": {
+    "loading": "Laden…"
+  },
+  "adminDashboard": {
+    "dashboard": "Dashboard",
+    "createPromotion": "Promotie aanmaken",
+    "createCategory": "Categorie aanmaken",
+    "welcomeAdmin": "Welkom, Admin",
+    "welcomeDescription": "Hier kunt u de applicatie-inhoud beheren. Gebruik de zijbalk om naar specifieke beheersecties te navigeren.",
+    "dailyVerse": "Dagelijkse versregel",
+    "dailyVerseDescription": "Werk de dagelijkse quote bij die aan alle gebruikers wordt getoond. Dit wordt elke 24 uur automatisch gereset.",
+    "bookManagement": "Boekenbeheer",
+    "bookManagementDescription": "Upload nieuwe boeken in Markdown-formaat. Het systeem zal automatisch hoofdstukken en versregels parseren."
+  },
+  "createBook": {
+    "books": "Boeken",
+    "uploadBook": "Boek uploaden",
+    "loadingBooks": "Boeken laden...",
+    "noBooksYet": "Nog geen boeken. Klik op \"Boek uploaden\" om uw eerste boek toe te voegen.",
+    "failedToLoadBooks": "Boeken laden mislukt",
+    "category": "Categorie",
+    "ageGroup": "Leeftijdsgroep",
+    "language": "Taal",
+    "nA": "N.v.t."
+  },
+  "createVerse": {
+    "verses": "Versregels",
+    "createVerse": "Versregel aanmaken",
+    "loadingVerses": "Versregels laden...",
+    "noVersesYet": "Nog geen versregels. Klik op \"Versregel aanmaken\" om uw eerste versregel toe te voegen.",
+    "failedToLoadVerses": "Versregels laden mislukt",
+    "quoteOfTheDay": "Quote van de dag",
+    "likes": "vind-ik-leuks",
+    "created": "Aangemaakt",
+    "updated": "Bijgewerkt"
+  },
+  "loginPage": {
+    "logIn": "Inloggen",
+    "logInUsingGoogle": "Inloggen met Google",
+    "or": "Of",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "staySignedIn": "Ingelogd blijven",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "loggingIn": "Inloggen...",
+    "login": "Inloggen",
+    "needAnAccount": "Heeft u een account nodig?",
+    "createOne": "Maak er een aan",
+    "loginSuccessful": "Inloggen succesvol"
+  },
+  "signupPage": {
+    "signUp": "Registreren",
+    "signUpUsingGoogle": "Registreren met Google",
+    "or": "Of",
+    "username": "Gebruikersnaam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "age": "Leeftijd",
+    "language": "Taal",
+    "country": "Land",
+    "searchLanguages": "Zoek talen...",
+    "noLanguagesFound": "Geen talen gevonden",
+    "searchCountries": "Zoek landen...",
+    "noCountriesFound": "Geen landen gevonden",
+    "creatingAccount": "Account aanmaken...",
+    "signUpButton": "Registreren",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "logIn": "Inloggen",
+    "signupSuccessful": "Registratie succesvol",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen"
+  },
+  "notesPage": {
+    "title": "Mijn notities",
+    "loading": "Notities laden...",
+    "noNotes": "Geen notities gevonden",
+    "failedToLoad": "Notities laden mislukt",
+    "note": "notitie",
+    "notes": "notities",
+    "noChapter": "Geen hoofdstuk",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "saving": "Opslaan...",
+    "edited": "Bewerkt",
+    "updatedSuccessfully": "Notitie succesvol bijgewerkt",
+    "deletedSuccessfully": "Notitie succesvol verwijderd",
+    "failedToUpdate": "Notitie bijwerken mislukt",
+    "failedToDelete": "Notitie verwijderen mislukt",
+    "contentRequired": "Notitie-inhoud is vereist",
+    "confirmDelete": "Weet u zeker dat u deze notitie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "notePlaceholder": "Voer uw notitie hier in..."
+  }
+}

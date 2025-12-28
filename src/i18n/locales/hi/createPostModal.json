@@ -1,0 +1,27 @@
+{
+  "title": "पोस्ट बनाएं",
+  "labels": {
+    "title": "शीर्षक",
+    "description": "विवरण"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट का शीर्षक दर्ज करें...",
+    "enterDescription": "मुझे Google में नौकरी मिल गई..."
+  },
+  "upload": {
+    "uploadFiles": "अपनी फ़ाइलें यहां अपलोड करें (अधिकतम 5)",
+    "addMoreFiles": "+ और फ़ाइलें जोड़ें"
+  },
+  "buttons": {
+    "createPost": "पोस्ट बनाएं",
+    "creating": "बनाया जा रहा है..."
+  },
+  "errors": {
+    "maxFilesExceeded": "आप अधिकतम 5 फ़ाइलें अपलोड कर सकते हैं।",
+    "atLeastOneFile": "कृपया कम से कम एक मीडिया फ़ाइल अपलोड करें।",
+    "failedToCreatePost": "पोस्ट बनाने में विफल।"
+  },
+  "success": {
+    "postCreated": "पोस्ट सफलतापूर्वक बनाई गई!"
+  }
+}

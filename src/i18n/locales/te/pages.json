@@ -1,0 +1,204 @@
+{
+  "homePage": {
+    "posts": "పోస్ట్‌లు",
+    "prayerRequest": "ప్రార్థన అభ్యర్థన",
+    "createPrayerRequest": "ప్రార్థన అభ్యర్థన సృష్టించండి",
+    "loading": "లోడ్ అవుతోంది...",
+    "noItemsFound": "అంశాలు కనుగొనబడలేదు.",
+    "unknownUser": "తెలియని వినియోగదారు",
+    "member": "సభ్యుడు"
+  },
+  "profilePage": {
+    "myPosts": "నా పోస్ట్‌లు",
+    "myPrayerRequests": "నా ప్రార్థన అభ్యర్థనలు",
+    "loadingContent": "కంటెంట్ లోడ్ అవుతోంది...",
+    "noItemsFound": "అంశాలు కనుగొనబడలేదు.",
+    "username": "వినియోగదారు పేరు",
+    "email": "ఇమెయిల్",
+    "country": "దేశం",
+    "age": "వయస్సు",
+    "preferredLanguage": "ఇష్టమైన భాష",
+    "logOut": "లాగ్అవుట్",
+    "loading": "లోడ్ అవుతోంది...",
+    "postDeletedSuccessfully": "పోస్ట్ విజయవంతంగా తొలగించబడింది",
+    "postUpdatedSuccessfully": "పోస్ట్ విజయవంతంగా నవీకరించబడింది",
+    "failedToDeletePost": "పోస్ట్‌ను తొలగించడంలో విఫలమైంది",
+    "failedToUpdatePost": "పోస్ట్‌ను నవీకరించడంలో విఫలమైంది",
+    "failedToLoadProfile": "ప్రొఫైల్‌ను లోడ్ చేయడంలో విఫలమైంది",
+    "you": "మీరు",
+    "followers": "అనుచరులు",
+    "following": "అనుసరిస్తున్నారు",
+    "follow": "అనుసరించు",
+    "failedToLoadFollowers": "అనుచరులను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToLoadFollowing": "అనుసరిస్తున్న వారిని లోడ్ చేయడంలో విఫలమైంది",
+    "userNotFound": "వినియోగదారు కనుగొనబడలేదు",
+    "followedSuccessfully": "విజయవంతంగా అనుసరించబడింది",
+    "unfollowedSuccessfully": "విజయవంతంగా అనుసరించడం ఆపబడింది",
+    "failedToUpdateFollowStatus": "అనుసరించే స్థితిని నవీకరించడంలో విఫలమైంది",
+    "noFollowers": "ఇంకా అనుచరులు లేరు",
+    "noFollowing": "ఇంకా ఎవరినీ అనుసరించడం లేదు"
+  },
+  "peoplePage": {
+    "noConversationSelected": "సంభాషణ ఎంచుకోబడలేదు",
+    "selectConversationDescription": "సంభాషణను ప్రారంభించడానికి దయచేసి జాబితా నుండి సంభాషణను ఎంచుకోండి"
+  },
+  "downloadsPage": {
+    "downloads": "డౌన్‌లోడ్‌లు",
+    "loadingWallpapers": "వాల్‌పేపర్‌లు లోడ్ అవుతోంది...",
+    "noWallpapersAvailable": "వాల్‌పేపర్‌లు అందుబాటులో లేవు",
+    "downloading": "డౌన్‌లోడ్ అవుతోంది...",
+    "download": "డౌన్‌లోడ్",
+    "failedToLoadWallpapers": "వాల్‌పేపర్‌లను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToDownload": "డౌన్‌లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "నా బుక్‌మార్క్‌లు",
+    "loadingBookmarks": "బుక్‌మార్క్‌లు లోడ్ అవుతోంది...",
+    "noBookmarksYet": "ఇంకా బుక్‌మార్క్‌లు లేవు",
+    "continueReading": "కొనసాగించు",
+    "failedToLoadBookmarks": "బుక్‌మార్క్‌లను లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "versesPage": {
+    "verses": "వచనాలు",
+    "loadingVerses": "వచనాలు లోడ్ అవుతోంది...",
+    "noVersesAvailable": "ఇంకా వచనాలు అందుబాటులో లేవు.",
+    "likes": "లైక్‌లు",
+    "failedToLoadVerses": "వచనాలను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToLikeVerse": "వచనాన్ని లైక్ చేయడంలో విఫలమైంది"
+  },
+  "userProfilePage": {
+    "invalidUserId": "చెల్లని వినియోగదారు ID"
+  },
+  "postViewPage": {
+    "loading": "పోస్ట్ లోడ్ అవుతోంది...",
+    "invalidPostId": "చెల్లని పోస్ట్ ID",
+    "postNotFound": "పోస్ట్ కనుగొనబడలేదు",
+    "failedToLoadPost": "పోస్ట్‌ను లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "prayerRequestViewPage": {
+    "loading": "ప్రార్థన అభ్యర్థన లోడ్ అవుతోంది...",
+    "invalidRequestId": "చెల్లని ప్రార్థన అభ్యర్థన ID",
+    "requestNotFound": "ప్రార్థన అభ్యర్థన కనుగొనబడలేదు",
+    "failedToLoadRequest": "ప్రార్థన అభ్యర్థనను లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "విభజించబడిన బైబిల్స్"
+  },
+  "bibleViewer": {
+    "loading": "లోడ్ అవుతోంది…"
+  },
+  "adminDashboard": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "createPromotion": "ప్రమోషన్ సృష్టించండి",
+    "createCategory": "కేటగరీ సృష్టించండి",
+    "welcomeAdmin": "స్వాగతం, అడ్మిన్",
+    "welcomeDescription": "ఇక్కడ మీరు అప్లికేషన్ కంటెంట్‌ను నిర్వహించవచ్చు. నిర్దిష్ట నిర్వహణ విభాగాలకు నావిగేట్ చేయడానికి సైడ్‌బార్‌ను ఉపయోగించండి.",
+    "dailyVerse": "రోజువారీ వచనం",
+    "dailyVerseDescription": "అన్ని వినియోగదారులకు చూపబడే రోజువారీ కోట్‌ను నవీకరించండి. ఇది ప్రతి 24 గంటలకు స్వయంచాలకంగా రీసెట్ అవుతుంది.",
+    "bookManagement": "పుస్తక నిర్వహణ",
+    "bookManagementDescription": "మార్క్‌డౌన్ ఫార్మాట్‌లో కొత్త పుస్తకాలను అప్‌లోడ్ చేయండి. సిస్టమ్ స్వయంచాలకంగా అధ్యాయాలు మరియు వచనాలను పార్స్ చేస్తుంది."
+  },
+  "createBook": {
+    "books": "పుస్తకాలు",
+    "uploadBook": "పుస్తకాన్ని అప్‌లోడ్ చేయండి",
+    "loadingBooks": "పుస్తకాలు లోడ్ అవుతోంది...",
+    "noBooksYet": "ఇంకా పుస్తకాలు లేవు. మీ మొదటి పుస్తకాన్ని జోడించడానికి \"పుస్తకాన్ని అప్‌లోడ్ చేయండి\" క్లిక్ చేయండి.",
+    "failedToLoadBooks": "పుస్తకాలను లోడ్ చేయడంలో విఫలమైంది",
+    "category": "కేటగరీ",
+    "ageGroup": "వయస్సు గ్రూప్",
+    "language": "భాష",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "వచనాలు",
+    "createVerse": "వచనం సృష్టించండి",
+    "loadingVerses": "వచనాలు లోడ్ అవుతోంది...",
+    "noVersesYet": "ఇంకా వచనాలు లేవు. మీ మొదటి వచనాన్ని జోడించడానికి \"వచనం సృష్టించండి\" క్లిక్ చేయండి.",
+    "failedToLoadVerses": "వచనాలను లోడ్ చేయడంలో విఫలమైంది",
+    "quoteOfTheDay": "రోజు కోట్",
+    "likes": "లైక్‌లు",
+    "created": "సృష్టించబడింది",
+    "updated": "నవీకరించబడింది"
+  },
+  "loginPage": {
+    "logIn": "లాగిన్",
+    "logInUsingGoogle": "Google ఉపయోగించి లాగిన్",
+    "or": "లేదా",
+    "email": "ఇమెయిల్",
+    "password": "పాస్‌వర్డ్",
+    "staySignedIn": "సైన్ ఇన్‌లో ఉండండి",
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "loggingIn": "లాగిన్ అవుతోంది...",
+    "login": "లాగిన్",
+    "needAnAccount": "ఖాతా కావాలా?",
+    "createOne": "ఒకటి సృష్టించండి",
+    "loginSuccessful": "లాగిన్ విజయవంతమైంది"
+  },
+  "signupPage": {
+    "signUp": "సైన్ అప్",
+    "signUpUsingGoogle": "Google ఉపయోగించి సైన్ అప్",
+    "or": "లేదా",
+    "username": "వినియోగదారు పేరు",
+    "email": "ఇమెయిల్",
+    "password": "పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "age": "వయస్సు",
+    "language": "భాష",
+    "country": "దేశం",
+    "searchLanguages": "భాషలను శోధించండి...",
+    "noLanguagesFound": "భాషలు కనుగొనబడలేదు",
+    "searchCountries": "దేశాలను శోధించండి...",
+    "noCountriesFound": "దేశాలు కనుగొనబడలేదు",
+    "creatingAccount": "ఖాతా సృష్టిస్తోంది...",
+    "signUpButton": "సైన్ అప్",
+    "alreadyHaveAccount": "ఇప్పటికే ఖాతా ఉందా?",
+    "logIn": "లాగిన్",
+    "signupSuccessful": "సైన్ అప్ విజయవంతమైంది",
+    "passwordsDoNotMatch": "పాస్‌వర్డ్‌లు సరిపోలడం లేదు",
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "clickHere": "ఇక్కడ క్లిక్ చేయండి"
+  },
+  "forgotPassword": {
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా",
+    "resetPassword": "పాస్‌వర్డ్ రీసెట్ చేయండి",
+    "email": "ఇమెయిల్",
+    "otp": "OTP",
+    "newPassword": "కొత్త పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "sendOTP": "OTP పంపండి",
+    "sending": "పంపుతోంది...",
+    "resetting": "రీసెట్ చేస్తోంది...",
+    "rememberPassword": "మీ పాస్‌వర్డ్ గుర్తుందా?",
+    "backToLogin": "లాగిన్‌కు తిరిగి వెళ్ళండి",
+    "emailRequired": "ఇమెయిల్ అవసరం",
+    "otpRequired": "OTP అవసరం",
+    "passwordRequired": "పాస్‌వర్డ్ అవసరం",
+    "passwordMinLength": "పాస్‌వర్డ్ కనీసం 8 అక్షరాలుగా ఉండాలి",
+    "passwordsDoNotMatch": "పాస్‌వర్డ్‌లు సరిపోలడం లేదు",
+    "failedToSendOTP": "OTP పంపడంలో విఫలమైంది",
+    "failedToResetPassword": "పాస్‌వర్డ్ రీసెట్ చేయడంలో విఫలమైంది"
+  },
+  "notesPage": {
+    "title": "నా నోట్‌లు",
+    "loading": "నోట్‌లను లోడ్ చేస్తోంది...",
+    "noNotes": "నోట్‌లు కనుగొనబడలేదు",
+    "failedToLoad": "నోట్‌లను లోడ్ చేయడంలో విఫలమైంది",
+    "note": "నోట్",
+    "notes": "నోట్‌లు",
+    "noChapter": "అధ్యాయం లేదు",
+    "edit": "సవరించు",
+    "delete": "తొలగించు",
+    "save": "సేవ్ చేయి",
+    "cancel": "రద్దు చేయి",
+    "saving": "సేవ్ చేస్తోంది...",
+    "edited": "సవరించబడింది",
+    "updatedSuccessfully": "నోట్ విజయవంతంగా నవీకరించబడింది",
+    "deletedSuccessfully": "నోట్ విజయవంతంగా తొలగించబడింది",
+    "failedToUpdate": "నోట్‌ను నవీకరించడంలో విఫలమైంది",
+    "failedToDelete": "నోట్‌ను తొలగించడంలో విఫలమైంది",
+    "contentRequired": "నోట్ కంటెంట్ అవసరం",
+    "confirmDelete": "మీరు ఖచ్చితంగా ఈ నోట్‌ను తొలగించాలనుకుంటున్నారా? ఈ చర్యను రద్దు చేయలేరు.",
+    "notePlaceholder": "మీ నోట్‌ను ఇక్కడ నమోదు చేయండి..."
+  }
+}
+

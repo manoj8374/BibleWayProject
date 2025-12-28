@@ -1,0 +1,27 @@
+{
+  "title": "कटेगरि सोमोन्दो खालाम",
+  "labels": {
+    "categoryName": "कटेगरिनि मुं *",
+    "description": "बेबेनाय",
+    "displayOrder": "देखानाय क्रम",
+    "coverImage": "कभार सावगारि"
+  },
+  "placeholders": {
+    "selectCategoryName": "मोनसे कटेगरिनि मुं सायख'ना",
+    "enterDescription": "कटेगरिनि बेबेनाय हाबना (आखाइ)"
+  },
+  "selected": "सायख'नाय:",
+  "buttons": {
+    "cancel": "रादायलां",
+    "createCategory": "कटेगरि सोमोन्दो खालाम",
+    "creating": "सोमोन्दो जा़दोंगे..."
+  },
+  "errors": {
+    "categoryNameRequired": "कटेगरिनि मुं मोननै",
+    "failedToCreateCategory": "कटेगरि सोमोन्दो खालामनो हाया",
+    "unexpectedError": "मोनसे मानि फुंखा जाबोयि"
+  },
+  "success": {
+    "categoryCreated": "कटेगरि सोमोन्दै सोमोन्दो खालामबोयि"
+  }
+}

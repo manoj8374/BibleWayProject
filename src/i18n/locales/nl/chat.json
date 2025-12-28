@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "messages": {
+    "loading": "Berichten laden...",
+    "noMessages": "Nog geen berichten",
+    "deleted": "Dit bericht is verwijderd",
+    "sharedImage": "Gedeelde afbeelding",
+    "viewAttachment": "Bijlage bekijken",
+    "seen": "Gezien",
+    "deleteMessage": "Bericht verwijderen"
+  },
+  "typing": {
+    "isTyping": "is aan het typen...",
+    "peopleTyping": "personen zijn aan het typen..."
+  },
+  "input": {
+    "placeholder": "Typ een bericht...",
+    "pressEnterToSend": "Druk op Enter om te verzenden"
+  },
+  "deleteModal": {
+    "title": "Bericht verwijderen?",
+    "message": "Weet u zeker dat u dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen"
+  },
+  "uploadModal": {
+    "title": "Bestand verzenden",
+    "uploading": "Uploaden & Verzenden...",
+    "sendFile": "{{filename}} verzenden?",
+    "sending": "Verzenden...",
+    "send": "Verzenden",
+    "cancel": "Annuleren"
+  },
+  "errors": {
+    "fetchConversation": "Conversatie ophalen mislukt",
+    "invalidFileType": "Ongeldig bestandstype. Alleen afbeeldingen en video's zijn toegestaan.",
+    "fileSizeExceeded": "Bestandsgrootte overschrijdt 10MB limiet.",
+    "uploadFailed": "Bestandsupload mislukt",
+    "failedToLoadStickers": "Stickers laden mislukt"
+  },
+  "stickers": {
+    "loading": "Stickers laden...",
+    "noStickers": "Geen stickers beschikbaar"
+  }
+}
+

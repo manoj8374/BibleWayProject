@@ -1,0 +1,148 @@
+{
+  "homePage": {
+    "posts": "المنشورات",
+    "prayerRequest": "طلب الصلاة",
+    "createPrayerRequest": "إنشاء طلب صلاة",
+    "loading": "جاري التحميل...",
+    "noItemsFound": "لم يتم العثور على عناصر.",
+    "unknownUser": "مستخدم غير معروف",
+    "member": "عضو"
+  },
+  "profilePage": {
+    "myPosts": "منشوراتي",
+    "myPrayerRequests": "طلبات الصلاة الخاصة بي",
+    "loadingContent": "جاري تحميل المحتوى...",
+    "noItemsFound": "لم يتم العثور على عناصر.",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "country": "البلد",
+    "age": "العمر",
+    "preferredLanguage": "اللغة المفضلة",
+    "logOut": "تسجيل الخروج",
+    "loading": "جاري التحميل...",
+    "postDeletedSuccessfully": "تم حذف المنشور بنجاح",
+    "postUpdatedSuccessfully": "تم تحديث المنشور بنجاح",
+    "failedToDeletePost": "فشل حذف المنشور",
+    "failedToUpdatePost": "فشل تحديث المنشور",
+    "failedToLoadProfile": "فشل تحميل الملف الشخصي",
+    "you": "أنت"
+  },
+  "peoplePage": {
+    "noConversationSelected": "لم يتم اختيار محادثة",
+    "selectConversationDescription": "يرجى اختيار محادثة من القائمة لبدء محادثة"
+  },
+  "downloadsPage": {
+    "downloads": "التنزيلات",
+    "loadingWallpapers": "جاري تحميل خلفيات الشاشة...",
+    "noWallpapersAvailable": "لا توجد خلفيات شاشة متاحة",
+    "downloading": "جاري التنزيل...",
+    "download": "تنزيل",
+    "failedToLoadWallpapers": "فشل تحميل خلفيات الشاشة",
+    "failedToDownload": "فشل التنزيل"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "إشاراتي المرجعية",
+    "loadingBookmarks": "جاري تحميل الإشارات المرجعية...",
+    "noBookmarksYet": "لا توجد إشارات مرجعية بعد",
+    "continueReading": "متابعة القراءة",
+    "failedToLoadBookmarks": "فشل تحميل الإشارات المرجعية"
+  },
+  "versesPage": {
+    "verses": "الآيات",
+    "loadingVerses": "جاري تحميل الآيات...",
+    "noVersesAvailable": "لا توجد آيات متاحة بعد.",
+    "likes": "الإعجابات",
+    "failedToLoadVerses": "فشل تحميل الآيات",
+    "failedToLikeVerse": "فشل الإعجاب بالآية"
+  },
+  "userProfilePage": {
+    "invalidUserId": "معرف المستخدم غير صالح"
+  },
+  "postViewPage": {
+    "loading": "جاري تحميل المنشور...",
+    "invalidPostId": "معرف المنشور غير صالح",
+    "postNotFound": "لم يتم العثور على المنشور",
+    "failedToLoadPost": "فشل تحميل المنشور"
+  },
+  "prayerRequestViewPage": {
+    "loading": "جاري تحميل طلب الصلاة...",
+    "invalidRequestId": "معرف طلب الصلاة غير صالح",
+    "requestNotFound": "لم يتم العثور على طلب الصلاة",
+    "failedToLoadRequest": "فشل تحميل طلب الصلاة"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "الكتب المقدسة المقسمة"
+  },
+  "bibleViewer": {
+    "loading": "جاري التحميل…"
+  },
+  "adminDashboard": {
+    "dashboard": "لوحة التحكم",
+    "createPromotion": "إنشاء عرض ترويجي",
+    "createCategory": "إنشاء فئة",
+    "welcomeAdmin": "مرحباً، المشرف",
+    "welcomeDescription": "هنا يمكنك إدارة محتوى التطبيق. استخدم الشريط الجانبي للتنقل إلى أقسام الإدارة المحددة.",
+    "dailyVerse": "الآية اليومية",
+    "dailyVerseDescription": "تحديث الاقتباس اليومي المعروض لجميع المستخدمين. يتم إعادة تعيين هذا تلقائياً كل 24 ساعة.",
+    "bookManagement": "إدارة الكتب",
+    "bookManagementDescription": "رفع كتب جديدة بتنسيق Markdown. سيقوم النظام بتحليل الفصول والآيات تلقائياً."
+  },
+  "createBook": {
+    "books": "الكتب",
+    "uploadBook": "رفع كتاب",
+    "loadingBooks": "جاري تحميل الكتب...",
+    "noBooksYet": "لا توجد كتب بعد. انقر على \"رفع كتاب\" لإضافة كتابك الأول.",
+    "failedToLoadBooks": "فشل تحميل الكتب",
+    "category": "الفئة",
+    "ageGroup": "الفئة العمرية",
+    "language": "اللغة",
+    "nA": "غير متاح"
+  },
+  "createVerse": {
+    "verses": "الآيات",
+    "createVerse": "إنشاء آية",
+    "loadingVerses": "جاري تحميل الآيات...",
+    "noVersesYet": "لا توجد آيات بعد. انقر على \"إنشاء آية\" لإضافة آيتك الأولى.",
+    "failedToLoadVerses": "فشل تحميل الآيات",
+    "quoteOfTheDay": "اقتباس اليوم",
+    "likes": "إعجابات",
+    "created": "تم الإنشاء",
+    "updated": "تم التحديث"
+  },
+  "loginPage": {
+    "logIn": "تسجيل الدخول",
+    "logInUsingGoogle": "تسجيل الدخول باستخدام Google",
+    "or": "أو",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "staySignedIn": "البقاء متصلاً",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loggingIn": "جاري تسجيل الدخول...",
+    "login": "تسجيل الدخول",
+    "needAnAccount": "تحتاج إلى حساب؟",
+    "createOne": "إنشاء واحد",
+    "loginSuccessful": "تم تسجيل الدخول بنجاح"
+  },
+  "signupPage": {
+    "signUp": "إنشاء حساب",
+    "signUpUsingGoogle": "إنشاء حساب باستخدام Google",
+    "or": "أو",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "age": "العمر",
+    "language": "اللغة",
+    "country": "البلد",
+    "searchLanguages": "البحث عن اللغات...",
+    "noLanguagesFound": "لم يتم العثور على لغات",
+    "searchCountries": "البحث عن البلدان...",
+    "noCountriesFound": "لم يتم العثور على بلدان",
+    "creatingAccount": "جاري إنشاء الحساب...",
+    "signUpButton": "إنشاء حساب",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "logIn": "تسجيل الدخول",
+    "signupSuccessful": "تم إنشاء الحساب بنجاح",
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة"
+  }
+}

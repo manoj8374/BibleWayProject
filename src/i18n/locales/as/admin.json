@@ -1,0 +1,26 @@
+{
+  "loading": "ল'ড হৈছে...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute এটা ProfileProvider ৰ ভিতৰত ব্যৱহাৰ কৰিব লাগিব"
+  },
+  "testimonials": {
+    "title": "সাক্ষ্য ব্যৱস্থাপনা",
+    "pending": "বিচাৰাধীন",
+    "verified": "যাচাই কৰা",
+    "all": "সকলো",
+    "loading": "সাক্ষ্য ল'ড কৰা হৈছে...",
+    "noTestimonials": "সাক্ষ্য পোৱা নগ'ল",
+    "approve": "অনুমোদন কৰক",
+    "reject": "অস্বীকাৰ কৰক",
+    "processing": "প্ৰক্ৰিয়াকৰণ হৈছে...",
+    "approvedSuccessfully": "সাক্ষ্য সফলভাৱে অনুমোদন কৰা হ'ল",
+    "rejectedSuccessfully": "সাক্ষ্য সফলভাৱে অস্বীকাৰ কৰা হ'ল",
+    "failedToLoad": "সাক্ষ্য ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToApprove": "সাক্ষ্য অনুমোদন কৰিবলৈ ব্যৰ্থ",
+    "failedToReject": "সাক্ষ্য অস্বীকাৰ কৰিবলৈ ব্যৰ্থ",
+    "confirmReject": "আপুনি নিশ্চিত নে যে আপুনি এই সাক্ষ্য অস্বীকাৰ কৰিব বিচাৰে? এই কাৰ্য্য পিছলৈ উভতি যাব নোৱাৰে।",
+    "previous": "পূৰ্বৱতী",
+    "next": "পৰৱৰ্তী",
+    "pageInfo": "পৃষ্ঠা {{current}} {{total}} ৰ"
+  }
+}

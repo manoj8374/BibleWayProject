@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "কিতাপ, নাম, লেখক সন্ধান কৰক...",
+  "addNewPost": "নতুন প'ষ্ট যোগ কৰক",
+  "noResultsFound": "কোনো ফলাফল পোৱা নগ'ল",
+  "languageSelector": {
+    "searchLanguages": "ভাষা সন্ধান কৰক...",
+    "noLanguagesFound": "কোনো ভাষা পোৱা নগ'ল"
+  },
+  "filter": {
+    "selectLanguage": "ভাষা নিৰ্বাচন কৰক",
+    "selectVersion": "কিতাপ নিৰ্বাচন কৰক"
+  }
+}

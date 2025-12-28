@@ -1,0 +1,34 @@
+{
+  "title": "طلب الصلاة",
+  "labels": {
+    "description": "الوصف",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف (اختياري)",
+    "media": "الوسائط (اختياري)"
+  },
+  "placeholders": {
+    "enterDescription": "يرجى الصلاة من أجل صحة عائلتي...",
+    "yourName": "اسمك",
+    "yourEmail": "عنوان بريدك الإلكتروني",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "رفع الصور أو الفيديوهات (حد أقصى 5 ملفات، 10 ميجابايت لكل ملف)",
+    "addMoreFiles": "+ إضافة المزيد من الملفات"
+  },
+  "buttons": {
+    "submitPrayerRequest": "إرسال طلب الصلاة",
+    "submitting": "جاري الإرسال..."
+  },
+  "errors": {
+    "descriptionRequired": "يرجى إدخال وصف لطلب الصلاة الخاص بك.",
+    "failedToCreateRequest": "فشل إنشاء طلب الصلاة.",
+    "maxFilesExceeded": "يمكنك رفع حد أقصى 5 ملفات.",
+    "invalidFileType": "نوع الملف غير صالح: {{filename}}. يُسمح بالصور والفيديوهات فقط.",
+    "fileSizeExceeded": "حجم الملف يتجاوز حد 10 ميجابايت: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "تم إنشاء طلب الصلاة بنجاح!"
+  }
+}

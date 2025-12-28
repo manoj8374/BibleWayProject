@@ -1,0 +1,19 @@
+{
+  "back": "رجوع",
+  "follow": "متابعة",
+  "unfollow": "إلغاء المتابعة",
+  "message": "رسالة",
+  "follower": "متابع",
+  "following": "متابع",
+  "followers": "المتابعون",
+  "loadingProfile": "جاري تحميل الملف الشخصي...",
+  "profileNotFound": "لم يتم العثور على الملف الشخصي",
+  "loadingPosts": "جاري تحميل المنشورات...",
+  "noPostsYet": "لا توجد منشورات بعد",
+  "unknownUser": "مستخدم غير معروف",
+  "checkOutProfile": "تحقق من ملف {{name}} الشخصي على BibleWay",
+  "profileTitle": "ملف {{name}} الشخصي",
+  "unfollowedSuccessfully": "تم إلغاء المتابعة بنجاح",
+  "followedSuccessfully": "تمت المتابعة بنجاح",
+  "failedToFetchUserPosts": "فشل جلب منشورات المستخدم"
+}

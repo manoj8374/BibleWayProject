@@ -1,0 +1,21 @@
+{
+  "edit": "编辑",
+  "delete": "删除",
+  "deleteConfirm": "删除此帖子？",
+  "cancel": "取消",
+  "save": "保存",
+  "likes": "赞",
+  "like": "赞",
+  "comments": "评论",
+  "comment": "评论",
+  "share": "分享",
+  "shares": "分享",
+  "writeComment": "写评论...",
+  "writeYourComment": "写您的评论...",
+  "failedToComment": "评论失败",
+  "actionFailed": "操作失败",
+  "commentAdded": "评论添加成功",
+  "failedToCreateComment": "创建评论失败",
+  "failedToUpdateLike": "更新点赞状态失败"
+}
+

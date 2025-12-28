@@ -1,0 +1,16 @@
+{
+  "searchPeople": "搜索用户",
+  "searchPeoplePlaceholder": "搜索用户...",
+  "searching": "搜索中...",
+  "noUsersFound": "未找到用户",
+  "follow": "关注",
+  "following": "关注中",
+  "failedToUpdateFollowStatus": "更新关注状态失败",
+  "loadingInbox": "加载收件箱中...",
+  "noMessages": "暂无消息",
+  "you": "您：",
+  "attachment": "附件",
+  "noMessagesText": "暂无消息",
+  "sticker": "📷 贴纸"
+}
+

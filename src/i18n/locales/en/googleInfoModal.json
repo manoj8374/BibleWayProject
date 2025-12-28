@@ -1,0 +1,20 @@
+{
+  "title": "Complete Signup",
+  "description": "We need a few more details to finish creating your account.",
+  "labels": {
+    "age": "Age",
+    "language": "Language",
+    "country": "Country"
+  },
+  "placeholders": {
+    "age": "e.g. 25",
+    "language": "e.g. English",
+    "country": "e.g. India"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "creating": "Creating..."
+  }
+}
+

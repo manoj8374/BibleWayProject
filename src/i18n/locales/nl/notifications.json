@@ -1,0 +1,19 @@
+{
+  "title": "Meldingen",
+  "markAllAsRead": "Markeer alles als gelezen",
+  "loading": "Meldingen laden...",
+  "noNotifications": "Nog geen meldingen",
+  "allCaughtUp": "U bent helemaal bij!",
+  "justNow": "Zojuist",
+  "minuteAgo": "{{count}} minuut geleden",
+  "minutesAgo": "{{count}} minuten geleden",
+  "hourAgo": "{{count}} uur geleden",
+  "hoursAgo": "{{count}} uur geleden",
+  "dayAgo": "{{count}} dag geleden",
+  "daysAgo": "{{count}} dagen geleden",
+  "weekAgo": "{{count}} week geleden",
+  "weeksAgo": "{{count}} weken geleden",
+  "monthAgo": "{{count}} maand geleden",
+  "monthsAgo": "{{count}} maanden geleden"
+}
+

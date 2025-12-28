@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "搜索书籍、姓名、作者...",
+  "addNewPost": "添加新帖子",
+  "noResultsFound": "未找到结果",
+  "languageSelector": {
+    "searchLanguages": "搜索语言...",
+    "noLanguagesFound": "未找到语言"
+  },
+  "filter": {
+    "selectLanguage": "选择语言",
+    "selectVersion": "选择书籍"
+  }
+}
+

@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "unexpectedError": "发生了意外错误。",
+    "receivedToken": "已收到令牌"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "创建帖子时发生意外错误。",
+    "failedToFetchPosts": "获取帖子失败。",
+    "failedToFetchUserPosts": "获取用户帖子失败。",
+    "failedToUpdatePost": "更新帖子失败",
+    "failedToDeletePost": "删除帖子失败",
+    "failedToCreateComment": "创建评论失败。",
+    "failedToFetchComments": "获取评论失败。",
+    "failedToLikeComment": "点赞评论失败。",
+    "failedToUnlikeComment": "取消点赞评论失败。",
+    "failedToLikePost": "点赞帖子失败。",
+    "failedToUnlikePost": "取消点赞帖子失败。"
+  },
+  "user": {
+    "failedToFetchUserProfile": "获取用户资料失败。",
+    "failedToFollowUser": "关注用户失败。",
+    "failedToUnfollowUser": "取消关注用户失败。",
+    "failedToGetRecommendedUsers": "获取推荐用户失败。",
+    "failedToGetUserProfile": "获取用户资料失败。"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "加载壁纸失败"
+  },
+  "verse": {
+    "failedToLoadVerses": "加载经文失败",
+    "failedToLikeVerse": "点赞经文失败",
+    "failedToUnlikeVerse": "取消点赞经文失败"
+  },
+  "admin": {
+    "failedToLoadBooks": "加载书籍失败"
+  }
+}
+

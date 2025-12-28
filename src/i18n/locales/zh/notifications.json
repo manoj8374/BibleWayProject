@@ -1,0 +1,19 @@
+{
+  "title": "通知",
+  "markAllAsRead": "全部标记为已读",
+  "loading": "加载通知中...",
+  "noNotifications": "暂无通知",
+  "allCaughtUp": "您已全部查看完毕！",
+  "justNow": "刚刚",
+  "minuteAgo": "{{count}} 分钟前",
+  "minutesAgo": "{{count}} 分钟前",
+  "hourAgo": "{{count}} 小时前",
+  "hoursAgo": "{{count}} 小时前",
+  "dayAgo": "{{count}} 天前",
+  "daysAgo": "{{count}} 天前",
+  "weekAgo": "{{count}} 周前",
+  "weeksAgo": "{{count}} 周前",
+  "monthAgo": "{{count}} 个月前",
+  "monthsAgo": "{{count}} 个月前"
+}
+

@@ -1,0 +1,34 @@
+{
+  "title": "अध्याय न'ट",
+  "noBookSelected": "मोनसेबो बिब्लि सायख'बाय",
+  "selectBookMessage": "न'ट नुथाय थाखाय बिब्लि सायख'ना",
+  "noChapterSelected": "मोनसेबो अध्याय सायख'बाय",
+  "selectChapterMessage": "न'ट नुथाय आरो दिहुनथाय थाखाय अध्याय सायख'ना",
+  "loadingNotes": "न'ट लोड खालामो...",
+  "noNotesYet": "गाहायाव न'ट नायबोयि",
+  "startWritingMessage": "बे अध्यायाव गाहाय थाखाय आरो मोननै थाखाय लिरना शुरु कर",
+  "placeholder": "नोंथानि न'ट बेयाव लिर...",
+  "cancel": "रादायलाबो",
+  "saving": "सेभ खालामो...",
+  "updateNote": "न'ट अपडेट खालाम",
+  "saveNote": "न'ट सेभ खालाम",
+  "editNote": "न'ट एडिट खालाम",
+  "deleteNote": "न'ट डिलिट खालाम",
+  "justNow": "जाहाथिं",
+  "note": "न'ट",
+  "notes": "न'टफोर",
+  "deleteConfirmation": "नोंथानि न'टखौ डिलिट खालामनो नोंथाङा मोजांना?",
+  "success": {
+    "noteCreated": "न'ट आसामारि जायो",
+    "noteUpdated": "न'ट अपडेट जायो",
+    "noteDeleted": "न'ट डिलिट जायो"
+  },
+  "errors": {
+    "failedToLoad": "न'ट लोड खालामनायै बारियो",
+    "failedToCreate": "न'ट दिहुनथायै बारियो",
+    "failedToUpdate": "न'ट अपडेट खालामनायै बारियो",
+    "failedToDelete": "न'ट डिलिट खालामनायै बारियो",
+    "failedToSave": "न'ट सेभ खालामनायै बারियो"
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "title": "创建帖子",
+  "labels": {
+    "title": "标题",
+    "description": "描述"
+  },
+  "placeholders": {
+    "enterPostTitle": "输入帖子标题...",
+    "enterDescription": "我在Google找到了一份工作..."
+  },
+  "upload": {
+    "uploadFiles": "在此上传您的文件（最多5个）",
+    "addMoreFiles": "+ 添加更多文件"
+  },
+  "buttons": {
+    "createPost": "创建帖子",
+    "creating": "创建中..."
+  },
+  "errors": {
+    "maxFilesExceeded": "您最多可以上传5个文件。",
+    "atLeastOneFile": "请至少上传一个媒体文件。",
+    "failedToCreatePost": "创建帖子失败。"
+  },
+  "success": {
+    "postCreated": "帖子创建成功！"
+  }
+}
+

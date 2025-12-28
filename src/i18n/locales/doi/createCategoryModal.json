@@ -1,0 +1,28 @@
+{
+  "title": "श्रेणी बनाएं",
+  "labels": {
+    "categoryName": "श्रेणी नाम *",
+    "description": "विवरण",
+    "displayOrder": "प्रदर्शन क्रम",
+    "coverImage": "कवर छवि"
+  },
+  "placeholders": {
+    "selectCategoryName": "एक श्रेणी नाम चुनें",
+    "enterDescription": "श्रेणी विवरण दर्ज करें (वैकल्पिक)"
+  },
+  "selected": "चयनित:",
+  "buttons": {
+    "cancel": "रद्द करें",
+    "createCategory": "श्रेणी बनाएं",
+    "creating": "बनाया जा रहा है..."
+  },
+  "errors": {
+    "categoryNameRequired": "श्रेणी नाम आवश्यक है",
+    "failedToCreateCategory": "श्रेणी बनाने में विफल",
+    "unexpectedError": "एक अप्रत्याशित त्रुटि हुई"
+  },
+  "success": {
+    "categoryCreated": "श्रेणी सफलतापूर्वक बनाई गई"
+  }
+}
+

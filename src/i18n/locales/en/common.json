@@ -1,0 +1,22 @@
+{
+  "welcome": "Welcome",
+  "login": "Login",
+  "signup": "Sign Up",
+  "logout": "Logout",
+  "home": "Home",
+  "profile": "Profile",
+  "settings": "Settings",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "submit": "Submit",
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "linkCopied": "Link copied to clipboard!",
+  "failedToCopy": "Failed to copy link",
+  "sharePost": "Share Post",
+  "sharePrayerRequest": "Share Prayer Request"
+}
+

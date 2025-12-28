@@ -1,0 +1,35 @@
+{
+  "title": "प्रार्थना अनुरोध",
+  "labels": {
+    "description": "विवरण",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phoneNumber": "फोन नंबर (वैकल्पिक)",
+    "media": "मीडिया (वैकल्पिक)"
+  },
+  "placeholders": {
+    "enterDescription": "कृपया मेरे परिवार के स्वास्थ्य के लिए प्रार्थना करें...",
+    "yourName": "आपका नाम",
+    "yourEmail": "आपका ईमेल पता",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "छवियां या वीडियो अपलोड करें (अधिकतम 5 फ़ाइलें, प्रत्येक 10MB)",
+    "addMoreFiles": "+ अधिक फ़ाइलें जोड़ें"
+  },
+  "buttons": {
+    "submitPrayerRequest": "प्रार्थना अनुरोध सबमिट करें",
+    "submitting": "सबमिट किया जा रहा है..."
+  },
+  "errors": {
+    "descriptionRequired": "कृपया अपने प्रार्थना अनुरोध के लिए एक विवरण दर्ज करें।",
+    "failedToCreateRequest": "प्रार्थना अनुरोध बनाने में विफल।",
+    "maxFilesExceeded": "आप अधिकतम 5 फ़ाइलें अपलोड कर सकते हैं।",
+    "invalidFileType": "अवैध फ़ाइल प्रकार: {{filename}}। केवल छवियां और वीडियो अनुमत हैं।",
+    "fileSizeExceeded": "फ़ाइल का आकार 10MB सीमा से अधिक है: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "प्रार्थना अनुरोध सफलतापूर्वक बनाया गया!"
+  }
+}
+

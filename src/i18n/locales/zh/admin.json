@@ -1,0 +1,27 @@
+{
+  "loading": "加载中...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute必须在ProfileProvider内使用"
+  },
+  "testimonials": {
+    "title": "见证管理",
+    "pending": "待处理",
+    "verified": "已验证",
+    "all": "全部",
+    "loading": "加载见证中...",
+    "noTestimonials": "未找到见证",
+    "approve": "批准",
+    "reject": "拒绝",
+    "processing": "处理中...",
+    "approvedSuccessfully": "见证已成功批准",
+    "rejectedSuccessfully": "见证已成功拒绝",
+    "failedToLoad": "加载见证失败",
+    "failedToApprove": "批准见证失败",
+    "failedToReject": "拒绝见证失败",
+    "confirmReject": "您确定要拒绝此见证吗？此操作无法撤销。",
+    "previous": "上一页",
+    "next": "下一页",
+    "pageInfo": "第 {{current}} 页，共 {{total}} 页"
+  }
+}
+

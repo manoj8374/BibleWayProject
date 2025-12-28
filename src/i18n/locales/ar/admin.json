@@ -1,0 +1,26 @@
+{
+  "loading": "جاري التحميل...",
+  "error": {
+    "mustBeInProfileProvider": "يجب استخدام AdminProtectedRoute داخل ProfileProvider"
+  },
+  "testimonials": {
+    "title": "إدارة الشهادات",
+    "pending": "قيد الانتظار",
+    "verified": "م verified",
+    "all": "الكل",
+    "loading": "جاري تحميل الشهادات...",
+    "noTestimonials": "لم يتم العثور على شهادات",
+    "approve": "الموافقة",
+    "reject": "رفض",
+    "processing": "جاري المعالجة...",
+    "approvedSuccessfully": "تمت الموافقة على الشهادة بنجاح",
+    "rejectedSuccessfully": "تم رفض الشهادة بنجاح",
+    "failedToLoad": "فشل تحميل الشهادات",
+    "failedToApprove": "فشلت الموافقة على الشهادة",
+    "failedToReject": "فشل رفض الشهادة",
+    "confirmReject": "هل أنت متأكد أنك تريد رفض هذه الشهادة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "previous": "السابق",
+    "next": "التالي",
+    "pageInfo": "الصفحة {{current}} من {{total}}"
+  }
+}

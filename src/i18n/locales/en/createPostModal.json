@@ -1,0 +1,28 @@
+{
+  "title": "Create Post",
+  "labels": {
+    "title": "Title",
+    "description": "Description"
+  },
+  "placeholders": {
+    "enterPostTitle": "Enter post title...",
+    "enterDescription": "I secured a job at Google..."
+  },
+  "upload": {
+    "uploadFiles": "Upload your files here (Max 5)",
+    "addMoreFiles": "+ Add more files"
+  },
+  "buttons": {
+    "createPost": "Create Post",
+    "creating": "Creating..."
+  },
+  "errors": {
+    "maxFilesExceeded": "You can upload a maximum of 5 files.",
+    "atLeastOneFile": "Please upload at least one media file.",
+    "failedToCreatePost": "Failed to create post."
+  },
+  "success": {
+    "postCreated": "Post created successfully!"
+  }
+}
+

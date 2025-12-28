@@ -1,0 +1,203 @@
+{
+  "homePage": {
+    "posts": "পোস্ট",
+    "prayerRequest": "প্রার্থনার অনুরোধ",
+    "createPrayerRequest": "প্রার্থনার অনুরোধ তৈরি করুন",
+    "loading": "লোড হচ্ছে...",
+    "noItemsFound": "কোন আইটেম পাওয়া যায়নি।",
+    "unknownUser": "অজানা ব্যবহারকারী",
+    "member": "সদস্য"
+  },
+  "profilePage": {
+    "myPosts": "আমার পোস্ট",
+    "myPrayerRequests": "আমার প্রার্থনার অনুরোধ",
+    "loadingContent": "কনটেন্ট লোড হচ্ছে...",
+    "noItemsFound": "কোন আইটেম পাওয়া যায়নি।",
+    "username": "ব্যবহারকারীর নাম",
+    "email": "ইমেইল",
+    "country": "দেশ",
+    "age": "বয়স",
+    "preferredLanguage": "পছন্দের ভাষা",
+    "logOut": "লগ আউট",
+    "loading": "লোড হচ্ছে...",
+    "postDeletedSuccessfully": "পোস্ট সফলভাবে মুছে ফেলা হয়েছে",
+    "postUpdatedSuccessfully": "পোস্ট সফলভাবে আপডেট করা হয়েছে",
+    "failedToDeletePost": "পোস্ট মুছতে ব্যর্থ",
+    "failedToUpdatePost": "পোস্ট আপডেট করতে ব্যর্থ",
+    "failedToLoadProfile": "প্রোফাইল লোড করতে ব্যর্থ",
+    "you": "আপনি",
+    "followers": "অনুসারী",
+    "following": "অনুসরণ করছেন",
+    "follow": "অনুসরণ করুন",
+    "failedToLoadFollowers": "অনুসারী লোড করতে ব্যর্থ",
+    "failedToLoadFollowing": "অনুসরণ করা লোড করতে ব্যর্থ",
+    "userNotFound": "ব্যবহারকারী পাওয়া যায়নি",
+    "followedSuccessfully": "সফলভাবে অনুসরণ করা হয়েছে",
+    "unfollowedSuccessfully": "সফলভাবে অনুসরণ বন্ধ করা হয়েছে",
+    "failedToUpdateFollowStatus": "অনুসরণের অবস্থা আপডেট করতে ব্যর্থ",
+    "noFollowers": "এখনও কোন অনুসারী নেই",
+    "noFollowing": "এখনও কাউকে অনুসরণ করছেন না"
+  },
+  "peoplePage": {
+    "noConversationSelected": "কোন কথোপকথন নির্বাচিত নেই",
+    "selectConversationDescription": "কথোপকথন শুরু করতে অনুগ্রহ করে তালিকা থেকে একটি কথোপকথন নির্বাচন করুন"
+  },
+  "downloadsPage": {
+    "downloads": "ডাউনলোড",
+    "loadingWallpapers": "ওয়ালপেপার লোড হচ্ছে...",
+    "noWallpapersAvailable": "কোন ওয়ালপেপার উপলব্ধ নেই",
+    "downloading": "ডাউনলোড হচ্ছে...",
+    "download": "ডাউনলোড",
+    "failedToLoadWallpapers": "ওয়ালপেপার লোড করতে ব্যর্থ",
+    "failedToDownload": "ডাউনলোড করতে ব্যর্থ"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "আমার বুকমার্ক",
+    "loadingBookmarks": "বুকমার্ক লোড হচ্ছে...",
+    "noBookmarksYet": "এখনও কোন বুকমার্ক নেই",
+    "continueReading": "পড়া চালিয়ে যান",
+    "failedToLoadBookmarks": "বুকমার্ক লোড করতে ব্যর্থ"
+  },
+  "versesPage": {
+    "verses": "শ্লোক",
+    "loadingVerses": "শ্লোক লোড হচ্ছে...",
+    "noVersesAvailable": "এখনও কোন শ্লোক উপলব্ধ নেই।",
+    "likes": "লাইক",
+    "failedToLoadVerses": "শ্লোক লোড করতে ব্যর্থ",
+    "failedToLikeVerse": "শ্লোক লাইক করতে ব্যর্থ"
+  },
+  "userProfilePage": {
+    "invalidUserId": "অবৈধ ব্যবহারকারী ID"
+  },
+  "postViewPage": {
+    "loading": "পোস্ট লোড হচ্ছে...",
+    "invalidPostId": "অবৈধ পোস্ট ID",
+    "postNotFound": "পোস্ট পাওয়া যায়নি",
+    "failedToLoadPost": "পোস্ট লোড করতে ব্যর্থ"
+  },
+  "prayerRequestViewPage": {
+    "loading": "প্রার্থনার অনুরোধ লোড হচ্ছে...",
+    "invalidRequestId": "অবৈধ প্রার্থনার অনুরোধ ID",
+    "requestNotFound": "প্রার্থনার অনুরোধ পাওয়া যায়নি",
+    "failedToLoadRequest": "প্রার্থনার অনুরোধ লোড করতে ব্যর্থ"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "বিভক্ত বাইবেল"
+  },
+  "bibleViewer": {
+    "loading": "লোড হচ্ছে…"
+  },
+  "adminDashboard": {
+    "dashboard": "ড্যাশবোর্ড",
+    "createPromotion": "প্রমোশন তৈরি করুন",
+    "createCategory": "ক্যাটাগরি তৈরি করুন",
+    "welcomeAdmin": "স্বাগতম, অ্যাডমিন",
+    "welcomeDescription": "এখানে আপনি অ্যাপ্লিকেশনের কনটেন্ট পরিচালনা করতে পারেন। নির্দিষ্ট পরিচালনা বিভাগে নেভিগেট করতে সাইডবার ব্যবহার করুন।",
+    "dailyVerse": "দৈনিক শ্লোক",
+    "dailyVerseDescription": "সব ব্যবহারকারীকে দেখানো দৈনিক উদ্ধৃতি আপডেট করুন। এটি প্রতি ২৪ ঘন্টায় স্বয়ংক্রিয়ভাবে রিসেট হয়।",
+    "bookManagement": "বই পরিচালনা",
+    "bookManagementDescription": "Markdown ফরম্যাটে নতুন বই আপলোড করুন। সিস্টেম স্বয়ংক্রিয়ভাবে অধ্যায় এবং শ্লোক পার্স করবে।"
+  },
+  "createBook": {
+    "books": "বই",
+    "uploadBook": "বই আপলোড করুন",
+    "loadingBooks": "বই লোড হচ্ছে...",
+    "noBooksYet": "এখনও কোন বই নেই। আপনার প্রথম বই যোগ করতে \"বই আপলোড করুন\" ক্লিক করুন।",
+    "failedToLoadBooks": "বই লোড করতে ব্যর্থ",
+    "category": "ক্যাটাগরি",
+    "ageGroup": "বয়স গ্রুপ",
+    "language": "ভাষা",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "শ্লোক",
+    "createVerse": "শ্লোক তৈরি করুন",
+    "loadingVerses": "শ্লোক লোড হচ্ছে...",
+    "noVersesYet": "এখনও কোন শ্লোক নেই। আপনার প্রথম শ্লোক যোগ করতে \"শ্লোক তৈরি করুন\" ক্লিক করুন।",
+    "failedToLoadVerses": "শ্লোক লোড করতে ব্যর্থ",
+    "quoteOfTheDay": "দিনের উদ্ধৃতি",
+    "likes": "লাইক",
+    "created": "তৈরি হয়েছে",
+    "updated": "আপডেট হয়েছে"
+  },
+  "loginPage": {
+    "logIn": "লগ ইন",
+    "logInUsingGoogle": "Google ব্যবহার করে লগ ইন করুন",
+    "or": "অথবা",
+    "email": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "staySignedIn": "সাইন ইন থাকুন",
+    "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+    "loggingIn": "লগ ইন করা হচ্ছে...",
+    "login": "লগইন",
+    "needAnAccount": "অ্যাকাউন্ট প্রয়োজন?",
+    "createOne": "একটি তৈরি করুন",
+    "loginSuccessful": "লগইন সফল"
+  },
+  "signupPage": {
+    "signUp": "সাইন আপ",
+    "signUpUsingGoogle": "Google ব্যবহার করে সাইন আপ করুন",
+    "or": "অথবা",
+    "username": "ব্যবহারকারীর নাম",
+    "email": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+    "age": "বয়স",
+    "language": "ভাষা",
+    "country": "দেশ",
+    "searchLanguages": "ভাষা খুঁজুন...",
+    "noLanguagesFound": "কোন ভাষা পাওয়া যায়নি",
+    "searchCountries": "দেশ খুঁজুন...",
+    "noCountriesFound": "কোন দেশ পাওয়া যায়নি",
+    "creatingAccount": "অ্যাকাউন্ট তৈরি করা হচ্ছে...",
+    "signUpButton": "সাইন আপ",
+    "alreadyHaveAccount": "ইতিমধ্যে একটি অ্যাকাউন্ট আছে?",
+    "logIn": "লগ ইন",
+    "signupSuccessful": "সাইনআপ সফল",
+    "passwordsDoNotMatch": "পাসওয়ার্ড মিলছে না",
+    "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+    "clickHere": "এখানে ক্লিক করুন"
+  },
+  "forgotPassword": {
+    "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন",
+    "resetPassword": "পাসওয়ার্ড রিসেট করুন",
+    "email": "ইমেইল",
+    "otp": "OTP",
+    "newPassword": "নতুন পাসওয়ার্ড",
+    "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+    "sendOTP": "OTP পাঠান",
+    "sending": "পাঠানো হচ্ছে...",
+    "resetting": "রিসেট করা হচ্ছে...",
+    "rememberPassword": "আপনার পাসওয়ার্ড মনে আছে?",
+    "backToLogin": "লগইনে ফিরে যান",
+    "emailRequired": "ইমেইল প্রয়োজন",
+    "otpRequired": "OTP প্রয়োজন",
+    "passwordRequired": "পাসওয়ার্ড প্রয়োজন",
+    "passwordMinLength": "পাসওয়ার্ড কমপক্ষে ৮ অক্ষরের হতে হবে",
+    "passwordsDoNotMatch": "পাসওয়ার্ড মিলছে না",
+    "failedToSendOTP": "OTP পাঠাতে ব্যর্থ",
+    "failedToResetPassword": "পাসওয়ার্ড রিসেট করতে ব্যর্থ"
+  },
+  "notesPage": {
+    "title": "আমার নোট",
+    "loading": "নোট লোড হচ্ছে...",
+    "noNotes": "কোনো নোট পাওয়া যায়নি",
+    "failedToLoad": "নোট লোড করতে ব্যর্থ",
+    "note": "নোট",
+    "notes": "নোট",
+    "noChapter": "কোনো অধ্যায় নেই",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছুন",
+    "save": "সংরক্ষণ করুন",
+    "cancel": "বাতিল করুন",
+    "saving": "সংরক্ষণ করা হচ্ছে...",
+    "edited": "সম্পাদিত",
+    "updatedSuccessfully": "নোট সফলভাবে আপডেট করা হয়েছে",
+    "deletedSuccessfully": "নোট সফলভাবে মুছে ফেলা হয়েছে",
+    "failedToUpdate": "নোট আপডেট করতে ব্যর্থ",
+    "failedToDelete": "নোট মুছতে ব্যর্থ",
+    "contentRequired": "নোট কনটেন্ট প্রয়োজন",
+    "confirmDelete": "আপনি কি নিশ্চিত যে আপনি এই নোটটি মুছতে চান? এই কাজটি পূর্বাবস্থায় ফেরানো যাবে না।",
+    "notePlaceholder": "আপনার নোট এখানে লিখুন..."
+  }
+}

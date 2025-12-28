@@ -1,0 +1,26 @@
+{
+  "title": "创建每日语录",
+  "note": "注意：创建新的经文将清除现有的每日语录。此操作无法撤销。新语录将立即显示给所有用户。",
+  "labels": {
+    "title": "标题（可选）",
+    "quoteDescription": "语录 / 描述（必填）"
+  },
+  "placeholders": {
+    "title": "例如：每日语录",
+    "quoteDescription": "在此输入经文或语录..."
+  },
+  "buttons": {
+    "cancel": "取消",
+    "publishQuote": "发布语录",
+    "publishing": "发布中..."
+  },
+  "errors": {
+    "descriptionRequired": "描述为必填项",
+    "failedToCreateVerse": "创建经文失败",
+    "unexpectedError": "发生了意外错误"
+  },
+  "success": {
+    "verseCreated": "经文创建成功"
+  }
+}
+

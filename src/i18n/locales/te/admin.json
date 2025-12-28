@@ -1,0 +1,27 @@
+{
+  "loading": "లోడ్ అవుతోంది...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute ProfileProvider లోపల ఉపయోగించబడాలి"
+  },
+  "testimonials": {
+    "title": "సాక్ష్యాల నిర్వహణ",
+    "pending": "పెండింగ్",
+    "verified": "ధృవీకరించబడింది",
+    "all": "అన్నీ",
+    "loading": "సాక్ష్యాలను లోడ్ చేస్తోంది...",
+    "noTestimonials": "సాక్ష్యాలు కనుగొనబడలేదు",
+    "approve": "అనుమతించు",
+    "reject": "తిరస్కరించు",
+    "processing": "ప్రాసెస్ చేస్తోంది...",
+    "approvedSuccessfully": "సాక్ష్యం విజయవంతంగా అనుమతించబడింది",
+    "rejectedSuccessfully": "సాక్ష్యం విజయవంతంగా తిరస్కరించబడింది",
+    "failedToLoad": "సాక్ష్యాలను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToApprove": "సాక్ష్యాన్ని అనుమతించడంలో విఫలమైంది",
+    "failedToReject": "సాక్ష్యాన్ని తిరస్కరించడంలో విఫలమైంది",
+    "confirmReject": "మీరు ఖచ్చితంగా ఈ సాక్ష్యాన్ని తిరస్కరించాలనుకుంటున్నారా? ఈ చర్యను రద్దు చేయలేరు.",
+    "previous": "మునుపటి",
+    "next": "తరువాత",
+    "pageInfo": "పేజీ {{current}} / {{total}}"
+  }
+}
+

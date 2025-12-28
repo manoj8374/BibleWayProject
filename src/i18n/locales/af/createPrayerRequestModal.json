@@ -1,0 +1,34 @@
+{
+  "title": "Gebedsversoek",
+  "labels": {
+    "description": "Beskrywing",
+    "name": "Naam",
+    "email": "E-pos",
+    "phoneNumber": "Telefoonnommer (opsioneel)",
+    "media": "Media (Opsioneel)"
+  },
+  "placeholders": {
+    "enterDescription": "Bid asseblief vir my gesin se gesondheid...",
+    "yourName": "Jou Naam",
+    "yourEmail": "Jou E-posadres",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "Laai beelde of video's op (Maks 5 lêers, 10MB elk)",
+    "addMoreFiles": "+ Voeg meer lêers by"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Dien Gebedsversoek In",
+    "submitting": "Dien In..."
+  },
+  "errors": {
+    "descriptionRequired": "Voer asseblief 'n beskrywing vir jou gebedsversoek in.",
+    "failedToCreateRequest": "Kon nie gebedsversoek skep nie.",
+    "maxFilesExceeded": "Jy kan maksimum 5 lêers oplaai.",
+    "invalidFileType": "Ongeldige lêertipe: {{filename}}. Slegs beelde en video's word toegelaat.",
+    "fileSizeExceeded": "Lêergrootte oorskry 10MB limiet: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Gebedsversoek suksesvol geskep!"
+  }
+}

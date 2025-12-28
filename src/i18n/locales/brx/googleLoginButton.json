@@ -1,0 +1,9 @@
+{
+  "buttonText": "गुगल लोगोसे गोसारना",
+  "success": {
+    "loginSuccessful": "लग इन सोमोन्दै"
+  },
+  "errors": {
+    "loginFailed": "लग इन हाया"
+  }
+}

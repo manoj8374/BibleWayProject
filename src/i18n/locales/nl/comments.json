@@ -1,0 +1,12 @@
+{
+  "loading": "Reacties laden...",
+  "error": "Reacties laden mislukt",
+  "noComments": "Nog geen reacties. Wees de eerste om iets te zeggen!",
+  "time": {
+    "justNow": "Zojuist",
+    "minutesAgo": "{{count}} min geleden",
+    "hoursAgo": "{{count}} u geleden",
+    "daysAgo": "{{count}} d geleden"
+  }
+}
+

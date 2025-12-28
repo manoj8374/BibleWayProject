@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten.",
+    "receivedToken": "Token erhalten"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Ein unerwarteter Fehler ist beim Erstellen des Beitrags aufgetreten.",
+    "failedToFetchPosts": "Beiträge konnten nicht abgerufen werden.",
+    "failedToFetchUserPosts": "Benutzerbeiträge konnten nicht abgerufen werden.",
+    "failedToUpdatePost": "Beitrag konnte nicht aktualisiert werden",
+    "failedToDeletePost": "Beitrag konnte nicht gelöscht werden",
+    "failedToCreateComment": "Kommentar konnte nicht erstellt werden.",
+    "failedToFetchComments": "Kommentare konnten nicht abgerufen werden.",
+    "failedToLikeComment": "Kommentar gefällt mir konnte nicht gesetzt werden.",
+    "failedToUnlikeComment": "Gefällt mir bei Kommentar konnte nicht entfernt werden.",
+    "failedToLikePost": "Beitrag gefällt mir konnte nicht gesetzt werden.",
+    "failedToUnlikePost": "Gefällt mir bei Beitrag konnte nicht entfernt werden."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Benutzerprofil konnte nicht abgerufen werden.",
+    "failedToFollowUser": "Benutzer konnte nicht gefolgt werden.",
+    "failedToUnfollowUser": "Benutzer konnte nicht entfolgt werden.",
+    "failedToGetRecommendedUsers": "Empfohlene Benutzer konnten nicht abgerufen werden.",
+    "failedToGetUserProfile": "Benutzerprofil konnte nicht abgerufen werden."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Hintergrundbilder konnten nicht geladen werden"
+  },
+  "verse": {
+    "failedToLoadVerses": "Verse konnten nicht geladen werden",
+    "failedToLikeVerse": "Vers gefällt mir konnte nicht gesetzt werden",
+    "failedToUnlikeVerse": "Gefällt mir bei Vers konnte nicht entfernt werden"
+  },
+  "admin": {
+    "failedToLoadBooks": "Bücher konnten nicht geladen werden"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "البحث عن كتاب، اسم، مؤلف...",
+  "addNewPost": "إضافة منشور جديد",
+  "noResultsFound": "لم يتم العثور على نتائج",
+  "languageSelector": {
+    "searchLanguages": "البحث عن اللغات...",
+    "noLanguagesFound": "لم يتم العثور على لغات"
+  },
+  "filter": {
+    "selectLanguage": "اختر اللغة",
+    "selectVersion": "اختر الكتاب"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Dagelijkse quote aanmaken",
+  "note": "Opmerking: Het aanmaken van een nieuwe versregel wist de bestaande dagelijkse quote. Deze actie kan niet ongedaan worden gemaakt. De nieuwe quote wordt onmiddellijk aan alle gebruikers getoond.",
+  "labels": {
+    "title": "Titel (Optioneel)",
+    "quoteDescription": "Quote / Beschrijving (Vereist)"
+  },
+  "placeholders": {
+    "title": "bijv. Quote van de dag",
+    "quoteDescription": "Voer hier de schrift of quote in..."
+  },
+  "buttons": {
+    "cancel": "Annuleren",
+    "publishQuote": "Quote publiceren",
+    "publishing": "Publiceren..."
+  },
+  "errors": {
+    "descriptionRequired": "Beschrijving is vereist",
+    "failedToCreateVerse": "Versregel aanmaken mislukt",
+    "unexpectedError": "Er is een onverwachte fout opgetreden"
+  },
+  "success": {
+    "verseCreated": "Versregel succesvol aangemaakt"
+  }
+}
+

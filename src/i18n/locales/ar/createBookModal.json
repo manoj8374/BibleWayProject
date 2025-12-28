@@ -1,0 +1,46 @@
+{
+  "title": "رفع كتاب",
+  "labels": {
+    "sourceFile": "الملف المصدر (.md) *",
+    "coverImage": "صورة الغلاف",
+    "category": "الفئة *",
+    "ageGroup": "الفئة العمرية *",
+    "language": "اللغة *",
+    "bookTitle": "العنوان *",
+    "description": "الوصف",
+    "bookOrder": "ترتيب الكتاب"
+  },
+  "placeholders": {
+    "selectCategory": "اختر فئة",
+    "selectAgeGroup": "اختر فئة عمرية",
+    "selectLanguage": "اختر لغة",
+    "enterBookTitle": "أدخل عنوان الكتاب",
+    "enterBookDescription": "أدخل وصف الكتاب (اختياري)"
+  },
+  "loading": {
+    "categories": "جاري تحميل الفئات...",
+    "ageGroups": "جاري تحميل الفئات العمرية...",
+    "languages": "جاري تحميل اللغات...",
+    "uploading": "جاري الرفع..."
+  },
+  "selected": "المحدد:",
+  "buttons": {
+    "cancel": "إلغاء",
+    "uploadBook": "رفع الكتاب"
+  },
+  "errors": {
+    "sourceFileRequired": "الملف المصدر مطلوب",
+    "titleRequired": "العنوان مطلوب",
+    "categoryRequired": "الفئة مطلوبة",
+    "ageGroupRequired": "الفئة العمرية مطلوبة",
+    "languageRequired": "اللغة مطلوبة",
+    "failedToLoadCategories": "فشل تحميل الفئات",
+    "failedToLoadAgeGroups": "فشل تحميل الفئات العمرية",
+    "failedToLoadLanguages": "فشل تحميل اللغات",
+    "failedToUploadBook": "فشل رفع الكتاب",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  },
+  "success": {
+    "bookCreated": "تم إنشاء الكتاب بنجاح"
+  }
+}

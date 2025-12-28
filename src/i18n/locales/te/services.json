@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "unexpectedError": "అనూహ్యమైన దోషం సంభవించింది.",
+    "receivedToken": "టోకెన్ అందింది"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "పోస్ట్ సృష్టికరణ సమయంలో అనూహ్యమైన దోషం సంభవించింది.",
+    "failedToFetchPosts": "పోస్ట్‌లను పొందడంలో విఫలమైంది.",
+    "failedToFetchUserPosts": "వినియోగదారు పోస్ట్‌లను పొందడంలో విఫలమైంది.",
+    "failedToUpdatePost": "పోస్ట్‌ను నవీకరించడంలో విఫలమైంది",
+    "failedToDeletePost": "పోస్ట్‌ను తొలగించడంలో విఫలమైంది",
+    "failedToCreateComment": "కామెంట్ సృష్టించడంలో విఫలమైంది.",
+    "failedToFetchComments": "కామెంట్‌లను పొందడంలో విఫలమైంది.",
+    "failedToLikeComment": "కామెంట్‌ను లైక్ చేయడంలో విఫలమైంది.",
+    "failedToUnlikeComment": "కామెంట్‌ను అన్‌లైక్ చేయడంలో విఫలమైంది.",
+    "failedToLikePost": "పోస్ట్‌ను లైక్ చేయడంలో విఫలమైంది.",
+    "failedToUnlikePost": "పోస్ట్‌ను అన్‌లైక్ చేయడంలో విఫలమైంది."
+  },
+  "user": {
+    "failedToFetchUserProfile": "వినియోగదారు ప్రొఫైల్‌ను పొందడంలో విఫలమైంది.",
+    "failedToFollowUser": "వినియోగదారును ఫాలో చేయడంలో విఫలమైంది.",
+    "failedToUnfollowUser": "వినియోగదారును అన్‌ఫాలో చేయడంలో విఫలమైంది.",
+    "failedToGetRecommendedUsers": "సిఫార్సు చేయబడిన వినియోగదారులను పొందడంలో విఫలమైంది.",
+    "failedToGetUserProfile": "వినియోగదారు ప్రొఫైల్‌ను పొందడంలో విఫలమైంది."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "వాల్‌పేపర్‌లను లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "verse": {
+    "failedToLoadVerses": "వచనాలను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToLikeVerse": "వచనాన్ని లైక్ చేయడంలో విఫలమైంది",
+    "failedToUnlikeVerse": "వచనాన్ని అన్‌లైక్ చేయడంలో విఫలమైంది"
+  },
+  "admin": {
+    "failedToLoadBooks": "పుస్తకాలను లోడ్ చేయడంలో విఫలమైంది"
+  }
+}
+

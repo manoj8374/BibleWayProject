@@ -1,0 +1,39 @@
+{
+  "title": "ప్రమోషన్ సృష్టించండి",
+  "labels": {
+    "title": "శీర్షిక *",
+    "description": "వివరణ",
+    "price": "ధర *",
+    "redirectLink": "రీడైరెక్ట్ లింక్ *",
+    "metaData": "మెటా డేటా (JSON)",
+    "mediaFile": "మీడియా ఫైల్ (చిత్రం/వీడియో/ఆడియో)",
+    "images": "చిత్రాలు (బహుళ)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "ప్రమోషన్ శీర్షికను నమోదు చేయండి",
+    "enterDescription": "ప్రమోషన్ వివరణను నమోదు చేయండి (ఐచ్ఛికం)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "ఎంచుకోబడింది:",
+  "buttons": {
+    "cancel": "రద్దు చేయి",
+    "createPromotion": "ప్రమోషన్ సృష్టించండి",
+    "creating": "సృష్టిస్తోంది..."
+  },
+  "errors": {
+    "titleRequired": "శీర్షిక అవసరం",
+    "priceRequired": "ధర అవసరం",
+    "priceInvalid": "ధర చెల్లుబాటు అయ్యే సంఖ్యగా ఉండాలి",
+    "redirectLinkRequired": "రీడైరెక్ట్ లింక్ అవసరం",
+    "redirectLinkInvalid": "రీడైరెక్ట్ లింక్ చెల్లుబాటు అయ్యే URLగా ఉండాలి",
+    "metaDataInvalid": "మెటా డేటా చెల్లుబాటు అయ్యే JSON ఫార్మాట్‌లో ఉండాలి",
+    "failedToCreatePromotion": "ప్రమోషన్‌ను సృష్టించడంలో విఫలమైంది",
+    "unexpectedError": "అనూహ్యమైన దోషం సంభవించింది"
+  },
+  "success": {
+    "promotionCreated": "ప్రమోషన్ విజయవంతంగా సృష్టించబడింది"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "buttonText": "Doorgaan met Google",
+  "success": {
+    "loginSuccessful": "Inloggen succesvol"
+  },
+  "errors": {
+    "loginFailed": "Inloggen mislukt"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "title": "الكتب المقدسة المقسمة",
+  "loadingAgeGroups": "جاري تحميل الفئات العمرية...",
+  "failedToLoadAgeGroups": "فشل تحميل الفئات العمرية",
+  "unexpectedErrorLoadingAgeGroups": "حدث خطأ غير متوقع أثناء تحميل الفئات العمرية",
+  "noAgeGroupsAvailable": "لا توجد فئات عمرية متاحة",
+  "pleaseSelectCategoryFirst": "يرجى اختيار فئة أولاً",
+  "noBooksAvailable": "لا توجد كتب متاحة لهذا الاختيار",
+  "failedToFetchBooks": "فشل جلب الكتب",
+  "categoryNotFound": "لم يتم العثور على الفئة",
+  "ageGroupNotFound": "لم يتم العثور على الفئة العمرية",
+  "languageNotFound": "لم يتم العثور على اللغة",
+  "unexpectedErrorFetchingBooks": "حدث خطأ غير متوقع أثناء جلب الكتب"
+}

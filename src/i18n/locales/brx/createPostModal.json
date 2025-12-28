@@ -1,0 +1,27 @@
+{
+  "title": "प'स्ट सोमोन्दो खालाम",
+  "labels": {
+    "title": "मुं",
+    "description": "बेबेनाय"
+  },
+  "placeholders": {
+    "enterPostTitle": "प'स्टनि मुं हाबना...",
+    "enterDescription": "आं गुगलाव काम मोनबोयि..."
+  },
+  "upload": {
+    "uploadFiles": "नोंथांनि फाइलफोर बेयाव आपल'ड खालाम (बांसिन ५)",
+    "addMoreFiles": "+ गोबां फाइल हमना"
+  },
+  "buttons": {
+    "createPost": "प'स्ट सोमोन्दो खालाम",
+    "creating": "सोमोन्दो जा़दोंगे..."
+  },
+  "errors": {
+    "maxFilesExceeded": "नोंथां बांसिन ५ फाइल आपल'ड खालामनो हायो।",
+    "atLeastOneFile": "गाहायाव मोनसेबो मिडिया फाइल आपल'ड खालाम।",
+    "failedToCreatePost": "प'स्ट सोमोन्दो खालामनो हाया।"
+  },
+  "success": {
+    "postCreated": "प'स्ट सोमोन्दै सोमोन्दो खालामबोयि!"
+  }
+}

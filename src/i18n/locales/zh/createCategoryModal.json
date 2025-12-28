@@ -1,0 +1,28 @@
+{
+  "title": "创建分类",
+  "labels": {
+    "categoryName": "分类名称 *",
+    "description": "描述",
+    "displayOrder": "显示顺序",
+    "coverImage": "封面图片"
+  },
+  "placeholders": {
+    "selectCategoryName": "选择分类名称",
+    "enterDescription": "输入分类描述（可选）"
+  },
+  "selected": "已选择：",
+  "buttons": {
+    "cancel": "取消",
+    "createCategory": "创建分类",
+    "creating": "创建中..."
+  },
+  "errors": {
+    "categoryNameRequired": "分类名称为必填项",
+    "failedToCreateCategory": "创建分类失败",
+    "unexpectedError": "发生了意外错误"
+  },
+  "success": {
+    "categoryCreated": "分类创建成功"
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল।",
+    "receivedToken": "টকেন পোৱা গ'ল"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "প'ষ্ট সৃষ্টি কৰোতে এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল।",
+    "failedToFetchPosts": "প'ষ্টসমূহ আনিবলৈ ব্যৰ্থ।",
+    "failedToFetchUserPosts": "ব্যৱহাৰকাৰীৰ প'ষ্টসমূহ আনিবলৈ ব্যৰ্থ।",
+    "failedToUpdatePost": "প'ষ্ট আপডেট কৰিবলৈ ব্যৰ্থ",
+    "failedToDeletePost": "প'ষ্ট ডিলিট কৰিবলৈ ব্যৰ্থ",
+    "failedToCreateComment": "মন্তব্য সৃষ্টি কৰিবলৈ ব্যৰ্থ।",
+    "failedToFetchComments": "মন্তব্যসমূহ আনিবলৈ ব্যৰ্থ।",
+    "failedToLikeComment": "মন্তব্য পছন্দ কৰিবলৈ ব্যৰ্থ।",
+    "failedToUnlikeComment": "মন্তব্যৰ পৰা পছন্দ আঁতৰাবলৈ ব্যৰ্থ।",
+    "failedToLikePost": "প'ষ্ট পছন্দ কৰিবলৈ ব্যৰ্থ।",
+    "failedToUnlikePost": "প'ষ্টৰ পৰা পছন্দ আঁতৰাবলৈ ব্যৰ্থ।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "ব্যৱহাৰকাৰীৰ প্ৰ'ফাইল আনিবলৈ ব্যৰ্থ।",
+    "failedToFollowUser": "ব্যৱহাৰকাৰীক ফলোৱ কৰিবলৈ ব্যৰ্থ।",
+    "failedToUnfollowUser": "ব্যৱহাৰকাৰীৰ ফলোৱ বন্ধ কৰিবলৈ ব্যৰ্থ।",
+    "failedToGetRecommendedUsers": "পৰামৰ্শ দিয়া ব্যৱহাৰকাৰীসমূহ পাবলৈ ব্যৰ্থ।",
+    "failedToGetUserProfile": "ব্যৱহাৰকাৰীৰ প্ৰ'ফাইল পাবলৈ ব্যৰ্থ।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ৱালপেপাৰসমূহ ল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "verse": {
+    "failedToLoadVerses": "পদসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToLikeVerse": "পদ পছন্দ কৰিবলৈ ব্যৰ্থ",
+    "failedToUnlikeVerse": "পদৰ পৰা পছন্দ আঁতৰাবলৈ ব্যৰ্থ"
+  },
+  "admin": {
+    "failedToLoadBooks": "কিতাপসমূহ ল'ড কৰিবলৈ ব্যৰ্থ"
+  }
+}

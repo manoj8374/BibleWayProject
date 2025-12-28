@@ -1,0 +1,46 @@
+{
+  "title": "Laai Boek Op",
+  "labels": {
+    "sourceFile": "Bronlêer (.md) *",
+    "coverImage": "Voorbladbeeld",
+    "category": "Kategorie *",
+    "ageGroup": "Ouderdomsgroep *",
+    "language": "Taal *",
+    "bookTitle": "Titel *",
+    "description": "Beskrywing",
+    "bookOrder": "Boek Volgorde"
+  },
+  "placeholders": {
+    "selectCategory": "Kies 'n kategorie",
+    "selectAgeGroup": "Kies 'n ouderdomsgroep",
+    "selectLanguage": "Kies 'n taal",
+    "enterBookTitle": "Voer boek titel in",
+    "enterBookDescription": "Voer boek beskrywing in (opsioneel)"
+  },
+  "loading": {
+    "categories": "Laai kategorieë...",
+    "ageGroups": "Laai ouderdomsgroepe...",
+    "languages": "Laai tale...",
+    "uploading": "Laai op..."
+  },
+  "selected": "Gekies:",
+  "buttons": {
+    "cancel": "Kanselleer",
+    "uploadBook": "Laai Boek Op"
+  },
+  "errors": {
+    "sourceFileRequired": "Bronlêer is verpligtend",
+    "titleRequired": "Titel is verpligtend",
+    "categoryRequired": "Kategorie is verpligtend",
+    "ageGroupRequired": "Ouderdomsgroep is verpligtend",
+    "languageRequired": "Taal is verpligtend",
+    "failedToLoadCategories": "Kon nie kategorieë laai nie",
+    "failedToLoadAgeGroups": "Kon nie ouderdomsgroepe laai nie",
+    "failedToLoadLanguages": "Kon nie tale laai nie",
+    "failedToUploadBook": "Kon nie boek oplaai nie",
+    "unexpectedError": "Onverwagte fout het voorgekom"
+  },
+  "success": {
+    "bookCreated": "Boek suksesvol geskep"
+  }
+}

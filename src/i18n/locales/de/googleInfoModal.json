@@ -1,0 +1,19 @@
+{
+  "title": "Registrierung abschließen",
+  "description": "Wir benötigen noch einige Details, um die Erstellung Ihres Kontos abzuschließen.",
+  "labels": {
+    "age": "Alter",
+    "language": "Sprache",
+    "country": "Land"
+  },
+  "placeholders": {
+    "age": "z.B. 25",
+    "language": "z.B. Englisch",
+    "country": "z.B. Indien"
+  },
+  "buttons": {
+    "cancel": "Abbrechen",
+    "continue": "Fortfahren",
+    "creating": "Wird erstellt..."
+  }
+}

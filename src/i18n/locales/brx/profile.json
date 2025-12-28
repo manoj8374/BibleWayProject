@@ -1,0 +1,19 @@
+{
+  "back": "फिनना",
+  "follow": "फलो खालाम",
+  "unfollow": "फलो बन्द खालाम",
+  "message": "खबर",
+  "follower": "फलो खालामग्रा",
+  "following": "फलो खालाम जा़दोंगे",
+  "followers": "फलो खालामग्राफोर",
+  "loadingProfile": "प्र'फाइल ल'ड जा़दोंगे...",
+  "profileNotFound": "प्र'फाइल नायबोयि",
+  "loadingPosts": "प'स्टफोर ल'ड जा़दोंगे...",
+  "noPostsYet": "आजिबाव मोनसेबो प'स्ट नङा",
+  "unknownUser": "दिगौ बाहायगिरि",
+  "checkOutProfile": "BibleWay आव {{name}} नि प्र'फाइल नायना",
+  "profileTitle": "{{name}} नि प्र'फाइल",
+  "unfollowedSuccessfully": "सोमोन्दै फलो बन्द खालामबोयि",
+  "followedSuccessfully": "सोमोन्दै फलो खालामबोयि",
+  "failedToFetchUserPosts": "बाहायगिरिनि प'स्टफोर सोरगिदिंनो हाया"
+}

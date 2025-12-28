@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "অনলাইন",
+    "offline": "অফলাইন"
+  },
+  "messages": {
+    "loading": "বার্তা লোড হচ্ছে...",
+    "noMessages": "এখনও কোন বার্তা নেই",
+    "deleted": "এই বার্তাটি মুছে ফেলা হয়েছে",
+    "sharedImage": "শেয়ার করা ছবি",
+    "viewAttachment": "সংযুক্তি দেখুন",
+    "seen": "দেখা হয়েছে",
+    "deleteMessage": "বার্তা মুছুন"
+  },
+  "typing": {
+    "isTyping": "টাইপ করছেন...",
+    "peopleTyping": "জন টাইপ করছেন..."
+  },
+  "input": {
+    "placeholder": "একটি বার্তা লিখুন...",
+    "pressEnterToSend": "প্রেরণ করতে Enter চাপুন"
+  },
+  "deleteModal": {
+    "title": "বার্তা মুছবেন?",
+    "message": "আপনি কি নিশ্চিত যে আপনি এই বার্তাটি মুছতে চান? এই কর্মটি পূর্বাবস্থায় ফেরানো যাবে না।",
+    "cancel": "বাতিল",
+    "delete": "মুছুন"
+  },
+  "uploadModal": {
+    "title": "ফাইল পাঠান",
+    "uploading": "আপলোড করা হচ্ছে এবং পাঠানো হচ্ছে...",
+    "sendFile": "{{filename}} পাঠাবেন?",
+    "sending": "পাঠানো হচ্ছে...",
+    "send": "পাঠান",
+    "cancel": "বাতিল"
+  },
+  "errors": {
+    "fetchConversation": "কথোপকথন আনতে ব্যর্থ",
+    "invalidFileType": "অবৈধ ফাইল টাইপ। শুধুমাত্র ছবি এবং ভিডিও অনুমোদিত।",
+    "fileSizeExceeded": "ফাইল সাইজ ১০MB সীমা অতিক্রম করেছে।",
+    "uploadFailed": "ফাইল আপলোড ব্যর্থ",
+    "failedToLoadStickers": "স্টিকার লোড করতে ব্যর্থ"
+  },
+  "stickers": {
+    "loading": "স্টিকার লোড হচ্ছে...",
+    "noStickers": "কোন স্টিকার উপলব্ধ নেই"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "buttonText": "Google के साथ जारी रखें",
+  "success": {
+    "loginSuccessful": "लॉगिन सफल"
+  },
+  "errors": {
+    "loginFailed": "लॉगिन विफल"
+  }
+}

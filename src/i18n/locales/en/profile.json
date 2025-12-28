@@ -1,0 +1,20 @@
+{
+  "back": "Back",
+  "follow": "Follow",
+  "unfollow": "Unfollow",
+  "message": "Message",
+  "follower": "Follower",
+  "following": "Following",
+  "followers": "Followers",
+  "loadingProfile": "Loading profile...",
+  "profileNotFound": "Profile not found",
+  "loadingPosts": "Loading posts...",
+  "noPostsYet": "No posts yet",
+  "unknownUser": "Unknown User",
+  "checkOutProfile": "Check out {{name}}'s profile on BibleWay",
+  "profileTitle": "{{name}}'s Profile",
+  "unfollowedSuccessfully": "Unfollowed successfully",
+  "followedSuccessfully": "Followed successfully",
+  "failedToFetchUserPosts": "Failed to fetch user posts"
+}
+

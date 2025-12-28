@@ -1,0 +1,182 @@
+{
+  "homePage": {
+    "posts": "帖子",
+    "prayerRequest": "祈祷请求",
+    "categories": "分类",
+    "createPrayerRequest": "创建祈祷请求",
+    "loading": "加载中...",
+    "noItemsFound": "未找到项目。",
+    "unknownUser": "未知用户",
+    "member": "成员"
+  },
+  "profilePage": {
+    "myPosts": "我的帖子",
+    "myPrayerRequests": "我的祈祷请求",
+    "loadingContent": "加载内容中...",
+    "noItemsFound": "未找到项目。",
+    "username": "用户名",
+    "email": "电子邮箱",
+    "country": "国家",
+    "age": "年龄",
+    "preferredLanguage": "首选语言",
+    "logOut": "登出",
+    "loading": "加载中...",
+    "postDeletedSuccessfully": "帖子删除成功",
+    "postUpdatedSuccessfully": "帖子更新成功",
+    "failedToDeletePost": "删除帖子失败",
+    "failedToUpdatePost": "更新帖子失败",
+    "failedToLoadProfile": "加载个人资料失败",
+    "you": "您",
+    "followers": "粉丝",
+    "following": "关注中",
+    "follow": "关注",
+    "failedToLoadFollowers": "加载粉丝失败",
+    "failedToLoadFollowing": "加载关注列表失败",
+    "userNotFound": "未找到用户",
+    "followedSuccessfully": "关注成功",
+    "unfollowedSuccessfully": "取消关注成功",
+    "failedToUpdateFollowStatus": "更新关注状态失败",
+    "noFollowers": "暂无粉丝",
+    "noFollowing": "尚未关注任何人"
+  },
+  "peoplePage": {
+    "noConversationSelected": "未选择对话",
+    "selectConversationDescription": "请从列表中选择一个对话以开始对话"
+  },
+  "downloadsPage": {
+    "downloads": "下载",
+    "loadingWallpapers": "加载壁纸中...",
+    "noWallpapersAvailable": "暂无壁纸",
+    "downloading": "下载中...",
+    "download": "下载",
+    "failedToLoadWallpapers": "加载壁纸失败",
+    "failedToDownload": "下载失败"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "我的书签",
+    "loadingBookmarks": "加载书签中...",
+    "noBookmarksYet": "暂无书签",
+    "continueReading": "继续阅读",
+    "failedToLoadBookmarks": "加载书签失败"
+  },
+  "versesPage": {
+    "verses": "经文",
+    "loadingVerses": "加载经文中...",
+    "noVersesAvailable": "暂无经文。",
+    "likes": "赞",
+    "failedToLoadVerses": "加载经文失败",
+    "failedToLikeVerse": "点赞经文失败"
+  },
+  "userProfilePage": {
+    "invalidUserId": "无效的用户ID"
+  },
+  "postViewPage": {
+    "loading": "加载帖子中...",
+    "invalidPostId": "无效的帖子ID",
+    "postNotFound": "未找到帖子",
+    "failedToLoadPost": "加载帖子失败"
+  },
+  "prayerRequestViewPage": {
+    "loading": "加载祈祷请求中...",
+    "invalidRequestId": "无效的祈祷请求ID",
+    "requestNotFound": "未找到祈祷请求",
+    "failedToLoadRequest": "加载祈祷请求失败"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "分类圣经"
+  },
+  "bibleViewer": {
+    "loading": "加载中…"
+  },
+  "adminDashboard": {
+    "dashboard": "仪表板",
+    "createPromotion": "创建促销",
+    "createCategory": "创建分类",
+    "welcomeAdmin": "欢迎，管理员",
+    "welcomeDescription": "您可以在这里管理应用程序内容。使用侧边栏导航到特定的管理部分。",
+    "dailyVerse": "每日经文",
+    "dailyVerseDescription": "更新向所有用户显示的每日语录。这会每24小时自动重置。",
+    "bookManagement": "书籍管理",
+    "bookManagementDescription": "以Markdown格式上传新书籍。系统将自动解析章节和经文。"
+  },
+  "createBook": {
+    "books": "书籍",
+    "uploadBook": "上传书籍",
+    "loadingBooks": "加载书籍中...",
+    "noBooksYet": "暂无书籍。点击\"上传书籍\"添加您的第一本书。",
+    "failedToLoadBooks": "加载书籍失败",
+    "category": "分类",
+    "ageGroup": "年龄段",
+    "language": "语言",
+    "nA": "不适用"
+  },
+  "createVerse": {
+    "verses": "经文",
+    "createVerse": "创建经文",
+    "loadingVerses": "加载经文中...",
+    "noVersesYet": "暂无经文。点击\"创建经文\"添加您的第一节经文。",
+    "failedToLoadVerses": "加载经文失败",
+    "quoteOfTheDay": "每日语录",
+    "likes": "赞",
+    "created": "已创建",
+    "updated": "已更新"
+  },
+  "loginPage": {
+    "logIn": "登录",
+    "logInUsingGoogle": "使用Google登录",
+    "or": "或",
+    "email": "电子邮箱",
+    "password": "密码",
+    "staySignedIn": "保持登录",
+    "forgotPassword": "忘记密码？",
+    "loggingIn": "登录中...",
+    "login": "登录",
+    "needAnAccount": "需要账户？",
+    "createOne": "创建一个",
+    "loginSuccessful": "登录成功"
+  },
+  "signupPage": {
+    "signUp": "注册",
+    "signUpUsingGoogle": "使用Google注册",
+    "or": "或",
+    "username": "用户名",
+    "email": "电子邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "age": "年龄",
+    "language": "语言",
+    "country": "国家",
+    "searchLanguages": "搜索语言...",
+    "noLanguagesFound": "未找到语言",
+    "searchCountries": "搜索国家...",
+    "noCountriesFound": "未找到国家",
+    "creatingAccount": "创建账户中...",
+    "signUpButton": "注册",
+    "alreadyHaveAccount": "已有账户？",
+    "logIn": "登录",
+    "signupSuccessful": "注册成功",
+    "passwordsDoNotMatch": "密码不匹配"
+  },
+  "notesPage": {
+    "title": "我的笔记",
+    "loading": "加载笔记中...",
+    "noNotes": "未找到笔记",
+    "failedToLoad": "加载笔记失败",
+    "note": "笔记",
+    "notes": "笔记",
+    "noChapter": "无章节",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "saving": "保存中...",
+    "edited": "已编辑",
+    "updatedSuccessfully": "笔记更新成功",
+    "deletedSuccessfully": "笔记删除成功",
+    "failedToUpdate": "更新笔记失败",
+    "failedToDelete": "删除笔记失败",
+    "contentRequired": "笔记内容为必填项",
+    "confirmDelete": "您确定要删除此笔记吗？此操作无法撤销。",
+    "notePlaceholder": "在此输入您的笔记..."
+  }
+}

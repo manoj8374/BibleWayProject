@@ -1,0 +1,20 @@
+{
+  "back": "వెనక్కి",
+  "follow": "ఫాలో చేయి",
+  "unfollow": "అన్‌ఫాలో చేయి",
+  "message": "సందేశం",
+  "follower": "ఫాలోవర్",
+  "following": "ఫాలో అవుతోంది",
+  "followers": "ఫాలోవర్‌లు",
+  "loadingProfile": "ప్రొఫైల్ లోడ్ అవుతోంది...",
+  "profileNotFound": "ప్రొఫైల్ కనుగొనబడలేదు",
+  "loadingPosts": "పోస్ట్‌లు లోడ్ అవుతోంది...",
+  "noPostsYet": "ఇంకా పోస్ట్‌లు లేవు",
+  "unknownUser": "తెలియని వినియోగదారు",
+  "checkOutProfile": "BibleWayలో {{name}} ప్రొఫైల్‌ను చూడండి",
+  "profileTitle": "{{name}} ప్రొఫైల్",
+  "unfollowedSuccessfully": "విజయవంతంగా అన్‌ఫాలో చేయబడింది",
+  "followedSuccessfully": "విజయవంతంగా ఫాలో చేయబడింది",
+  "failedToFetchUserPosts": "వినియోగదారు పోస్ట్‌లను పొందడంలో విఫలమైంది"
+}
+

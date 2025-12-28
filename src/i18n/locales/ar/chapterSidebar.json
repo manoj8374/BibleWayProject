@@ -1,0 +1,10 @@
+{
+  "list": "قائمة",
+  "bookmark": "إشارة مرجعية",
+  "quickNote": "ملاحظة سريعة",
+  "noChaptersAvailable": "لا توجد فصول متاحة",
+  "chapter": "الفصل",
+  "noChapterSelected": "لم يتم اختيار فصل",
+  "selectChapterToBegin": "حدد فصلاً من الشريط الجانبي للبدء في القراءة",
+  "ttsLanguage": "لغة TTS:"
+}

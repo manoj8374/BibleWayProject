@@ -1,0 +1,27 @@
+{
+  "loading": "Loading...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute must be used within a ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Testimonials Management",
+    "pending": "Pending",
+    "verified": "Verified",
+    "all": "All",
+    "loading": "Loading testimonials...",
+    "noTestimonials": "No testimonials found",
+    "approve": "Approve",
+    "reject": "Reject",
+    "processing": "Processing...",
+    "approvedSuccessfully": "Testimonial approved successfully",
+    "rejectedSuccessfully": "Testimonial rejected successfully",
+    "failedToLoad": "Failed to load testimonials",
+    "failedToApprove": "Failed to approve testimonial",
+    "failedToReject": "Failed to reject testimonial",
+    "confirmReject": "Are you sure you want to reject this testimonial? This action cannot be undone.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {{current}} of {{total}}"
+  }
+}
+

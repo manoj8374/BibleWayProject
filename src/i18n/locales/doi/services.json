@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "unexpectedError": "एक अप्रत्याशित त्रुटि हुई।",
+    "receivedToken": "टोकन प्राप्त हुआ"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट बनाते समय एक अप्रत्याशित त्रुटि हुई।",
+    "failedToFetchPosts": "पोस्ट प्राप्त करने में विफल।",
+    "failedToFetchUserPosts": "उपयोगकर्ता पोस्ट प्राप्त करने में विफल।",
+    "failedToUpdatePost": "पोस्ट अपडेट करने में विफल",
+    "failedToDeletePost": "पोस्ट हटाने में विफल",
+    "failedToCreateComment": "टिप्पणी बनाने में विफल।",
+    "failedToFetchComments": "टिप्पणियां प्राप्त करने में विफल।",
+    "failedToLikeComment": "टिप्पणी को पसंद करने में विफल।",
+    "failedToUnlikeComment": "टिप्पणी को नापसंद करने में विफल।",
+    "failedToLikePost": "पोस्ट को पसंद करने में विफल।",
+    "failedToUnlikePost": "पोस्ट को नापसंद करने में विफल।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "उपयोगकर्ता प्रोफ़ाइल प्राप्त करने में विफल।",
+    "failedToFollowUser": "उपयोगकर्ता को फॉलो करने में विफल।",
+    "failedToUnfollowUser": "उपयोगकर्ता को अनफॉलो करने में विफल।",
+    "failedToGetRecommendedUsers": "अनुशंसित उपयोगकर्ता प्राप्त करने में विफल।",
+    "failedToGetUserProfile": "उपयोगकर्ता प्रोफ़ाइल प्राप्त करने में विफल।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वॉलपेपर लोड करने में विफल"
+  },
+  "verse": {
+    "failedToLoadVerses": "आयतें लोड करने में विफल",
+    "failedToLikeVerse": "आयत को पसंद करने में विफल",
+    "failedToUnlikeVerse": "आयत को नापसंद करने में विफल"
+  },
+  "admin": {
+    "failedToLoadBooks": "किताबें लोड करने में विफल"
+  }
+}
+

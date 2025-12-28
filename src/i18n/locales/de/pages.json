@@ -1,0 +1,149 @@
+{
+  "homePage": {
+    "posts": "Beiträge",
+    "prayerRequest": "Gebetsanfrage",
+    "createPrayerRequest": "Gebetsanfrage erstellen",
+    "loading": "Laden...",
+    "noItemsFound": "Keine Einträge gefunden.",
+    "unknownUser": "Unbekannter Benutzer",
+    "member": "Mitglied"
+  },
+  "profilePage": {
+    "myPosts": "Meine Beiträge",
+    "myPrayerRequests": "Meine Gebetsanfragen",
+    "loadingContent": "Inhalt wird geladen...",
+    "noItemsFound": "Keine Einträge gefunden.",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "country": "Land",
+    "age": "Alter",
+    "preferredLanguage": "Bevorzugte Sprache",
+    "logOut": "abmelden",
+    "loading": "Laden...",
+    "postDeletedSuccessfully": "Beitrag erfolgreich gelöscht",
+    "postUpdatedSuccessfully": "Beitrag erfolgreich aktualisiert",
+    "failedToDeletePost": "Beitrag konnte nicht gelöscht werden",
+    "failedToUpdatePost": "Beitrag konnte nicht aktualisiert werden",
+    "failedToLoadProfile": "Profil konnte nicht geladen werden",
+    "you": "Sie"
+  },
+  "peoplePage": {
+    "noConversationSelected": "Keine Konversation ausgewählt",
+    "selectConversationDescription": "Bitte wählen Sie eine Konversation aus der Liste aus, um eine Unterhaltung zu beginnen"
+  },
+  "downloadsPage": {
+    "downloads": "Downloads",
+    "loadingWallpapers": "Hintergrundbilder werden geladen...",
+    "noWallpapersAvailable": "Keine Hintergrundbilder verfügbar",
+    "downloading": "Wird heruntergeladen...",
+    "download": "Herunterladen",
+    "failedToLoadWallpapers": "Hintergrundbilder konnten nicht geladen werden",
+    "failedToDownload": "Download fehlgeschlagen"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "Meine Lesezeichen",
+    "loadingBookmarks": "Lesezeichen werden geladen...",
+    "noBookmarksYet": "Noch keine Lesezeichen",
+    "continueReading": "Weiterlesen",
+    "failedToLoadBookmarks": "Lesezeichen konnten nicht geladen werden"
+  },
+  "versesPage": {
+    "verses": "Verse",
+    "loadingVerses": "Verse werden geladen...",
+    "noVersesAvailable": "Noch keine Verse verfügbar.",
+    "likes": "Gefällt mir",
+    "failedToLoadVerses": "Verse konnten nicht geladen werden",
+    "failedToLikeVerse": "Vers konnte nicht geliked werden"
+  },
+  "userProfilePage": {
+    "invalidUserId": "Ungültige Benutzer-ID"
+  },
+  "postViewPage": {
+    "loading": "Beitrag wird geladen...",
+    "invalidPostId": "Ungültige Beitrags-ID",
+    "postNotFound": "Beitrag nicht gefunden",
+    "failedToLoadPost": "Beitrag konnte nicht geladen werden"
+  },
+  "prayerRequestViewPage": {
+    "loading": "Gebetsanfrage wird geladen...",
+    "invalidRequestId": "Ungültige Gebetsanfrage-ID",
+    "requestNotFound": "Gebetsanfrage nicht gefunden",
+    "failedToLoadRequest": "Gebetsanfrage konnte nicht geladen werden"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "Getrennte Bibeln"
+  },
+  "bibleViewer": {
+    "loading": "Wird geladen…"
+  },
+  "adminDashboard": {
+    "dashboard": "Dashboard",
+    "createPromotion": "Aktion erstellen",
+    "createCategory": "Kategorie erstellen",
+    "welcomeAdmin": "Willkommen, Admin",
+    "welcomeDescription": "Hier können Sie den Anwendungsinhalt verwalten. Verwenden Sie die Seitenleiste, um zu bestimmten Verwaltungsbereichen zu navigieren.",
+    "dailyVerse": "Tagesvers",
+    "dailyVerseDescription": "Aktualisieren Sie den Tagesvers, der allen Benutzern angezeigt wird. Dies wird automatisch alle 24 Stunden zurückgesetzt.",
+    "bookManagement": "Buchverwaltung",
+    "bookManagementDescription": "Laden Sie neue Bücher im Markdown-Format hoch. Das System analysiert automatisch Kapitel und Verse."
+  },
+  "createBook": {
+    "books": "Bücher",
+    "uploadBook": "Buch hochladen",
+    "loadingBooks": "Bücher werden geladen...",
+    "noBooksYet": "Noch keine Bücher. Klicken Sie auf \"Buch hochladen\", um Ihr erstes Buch hinzuzufügen.",
+    "failedToLoadBooks": "Bücher konnten nicht geladen werden",
+    "category": "Kategorie",
+    "ageGroup": "Altersgruppe",
+    "language": "Sprache",
+    "nA": "N/V"
+  },
+  "createVerse": {
+    "verses": "Verse",
+    "createVerse": "Vers erstellen",
+    "loadingVerses": "Verse werden geladen...",
+    "noVersesYet": "Noch keine Verse. Klicken Sie auf \"Vers erstellen\", um Ihren ersten Vers hinzuzufügen.",
+    "failedToLoadVerses": "Verse konnten nicht geladen werden",
+    "quoteOfTheDay": "Vers des Tages",
+    "likes": "Gefällt mir",
+    "created": "Erstellt",
+    "updated": "Aktualisiert"
+  },
+  "loginPage": {
+    "logIn": "Anmelden",
+    "logInUsingGoogle": "Mit Google anmelden",
+    "or": "Oder",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "staySignedIn": "Angemeldet bleiben",
+    "forgotPassword": "Passwort vergessen?",
+    "loggingIn": "Wird angemeldet...",
+    "login": "Anmelden",
+    "needAnAccount": "Benötigen Sie ein Konto?",
+    "createOne": "Erstellen",
+    "loginSuccessful": "Anmeldung erfolgreich"
+  },
+  "signupPage": {
+    "signUp": "Registrieren",
+    "signUpUsingGoogle": "Mit Google registrieren",
+    "or": "Oder",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "age": "Alter",
+    "language": "Sprache",
+    "country": "Land",
+    "searchLanguages": "Sprachen suchen...",
+    "noLanguagesFound": "Keine Sprachen gefunden",
+    "searchCountries": "Länder suchen...",
+    "noCountriesFound": "Keine Länder gefunden",
+    "creatingAccount": "Konto wird erstellt...",
+    "signUpButton": "Registrieren",
+    "alreadyHaveAccount": "Bereits ein Konto?",
+    "logIn": "Anmelden",
+    "signupSuccessful": "Registrierung erfolgreich",
+    "passwordsDoNotMatch": "Die Passwörter stimmen nicht überein"
+  }
+}
+

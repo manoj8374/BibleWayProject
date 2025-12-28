@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "messages": {
+    "loading": "Nachrichten werden geladen...",
+    "noMessages": "Noch keine Nachrichten",
+    "deleted": "Diese Nachricht wurde gelöscht",
+    "sharedImage": "Geteiltes Bild",
+    "viewAttachment": "Anhang anzeigen",
+    "seen": "Gesehen",
+    "deleteMessage": "Nachricht löschen"
+  },
+  "typing": {
+    "isTyping": "tippt...",
+    "peopleTyping": "Personen tippen..."
+  },
+  "input": {
+    "placeholder": "Nachricht eingeben...",
+    "pressEnterToSend": "Enter drücken zum Senden"
+  },
+  "deleteModal": {
+    "title": "Nachricht löschen?",
+    "message": "Sind Sie sicher, dass Sie diese Nachricht löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "cancel": "Abbrechen",
+    "delete": "Löschen"
+  },
+  "uploadModal": {
+    "title": "Datei senden",
+    "uploading": "Hochladen & Senden...",
+    "sendFile": "{{filename}} senden?",
+    "sending": "Wird gesendet...",
+    "send": "Senden",
+    "cancel": "Abbrechen"
+  },
+  "errors": {
+    "fetchConversation": "Konversation konnte nicht abgerufen werden",
+    "invalidFileType": "Ungültiger Dateityp. Nur Bilder und Videos sind erlaubt.",
+    "fileSizeExceeded": "Dateigröße überschreitet das Limit von 10MB.",
+    "uploadFailed": "Datei-Upload fehlgeschlagen",
+    "failedToLoadStickers": "Sticker konnten nicht geladen werden"
+  },
+  "stickers": {
+    "loading": "Sticker werden geladen...",
+    "noStickers": "Keine Sticker verfügbar"
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "title": "上传书籍",
+  "labels": {
+    "sourceFile": "源文件 (.md) *",
+    "coverImage": "封面图片",
+    "category": "分类 *",
+    "ageGroup": "年龄段 *",
+    "language": "语言 *",
+    "bookTitle": "标题 *",
+    "description": "描述",
+    "bookOrder": "书籍顺序"
+  },
+  "placeholders": {
+    "selectCategory": "选择一个分类",
+    "selectAgeGroup": "选择一个年龄段",
+    "selectLanguage": "选择一种语言",
+    "enterBookTitle": "输入书籍标题",
+    "enterBookDescription": "输入书籍描述（可选）"
+  },
+  "loading": {
+    "categories": "加载分类中...",
+    "ageGroups": "加载年龄段中...",
+    "languages": "加载语言中...",
+    "uploading": "上传中..."
+  },
+  "selected": "已选择：",
+  "buttons": {
+    "cancel": "取消",
+    "uploadBook": "上传书籍"
+  },
+  "errors": {
+    "sourceFileRequired": "源文件为必填项",
+    "titleRequired": "标题为必填项",
+    "categoryRequired": "分类为必填项",
+    "ageGroupRequired": "年龄段为必填项",
+    "languageRequired": "语言为必填项",
+    "failedToLoadCategories": "加载分类失败",
+    "failedToLoadAgeGroups": "加载年龄段失败",
+    "failedToLoadLanguages": "加载语言失败",
+    "failedToUploadBook": "上传书籍失败",
+    "unexpectedError": "发生了意外错误"
+  },
+  "success": {
+    "bookCreated": "书籍创建成功"
+  }
+}
+

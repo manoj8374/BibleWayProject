@@ -1,0 +1,19 @@
+{
+  "back": "Terug",
+  "follow": "Volg",
+  "unfollow": "Ontvolg",
+  "message": "Boodskap",
+  "follower": "Volger",
+  "following": "Volg",
+  "followers": "Volgers",
+  "loadingProfile": "Laai profiel...",
+  "profileNotFound": "Profiel nie gevind nie",
+  "loadingPosts": "Laai plasings...",
+  "noPostsYet": "Nog geen plasings nie",
+  "unknownUser": "Onbekende Gebruiker",
+  "checkOutProfile": "Kyk na {{name}} se profiel op BibleWay",
+  "profileTitle": "{{name}} se Profiel",
+  "unfollowedSuccessfully": "Suksesvol ontvolg",
+  "followedSuccessfully": "Suksesvol gevolg",
+  "failedToFetchUserPosts": "Kon nie gebruiker plasings haal nie"
+}

@@ -1,0 +1,7 @@
+{
+  "required": "Hierdie veld is verpligtend",
+  "invalidEmail": "Voer asseblief 'n geldige e-posadres in",
+  "passwordTooShort": "Wagwoord moet ten minste 8 karakters wees",
+  "passwordsDoNotMatch": "Wagwoorde stem nie ooreen nie",
+  "somethingWentWrong": "Iets het verkeerd geloop. Probeer asseblief weer."
+}

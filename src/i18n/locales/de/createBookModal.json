@@ -1,0 +1,46 @@
+{
+  "title": "Buch hochladen",
+  "labels": {
+    "sourceFile": "Quelldatei (.md) *",
+    "coverImage": "Titelbild",
+    "category": "Kategorie *",
+    "ageGroup": "Altersgruppe *",
+    "language": "Sprache *",
+    "bookTitle": "Titel *",
+    "description": "Beschreibung",
+    "bookOrder": "Buchreihenfolge"
+  },
+  "placeholders": {
+    "selectCategory": "Kategorie auswählen",
+    "selectAgeGroup": "Altersgruppe auswählen",
+    "selectLanguage": "Sprache auswählen",
+    "enterBookTitle": "Buchtitel eingeben",
+    "enterBookDescription": "Buchbeschreibung eingeben (optional)"
+  },
+  "loading": {
+    "categories": "Kategorien werden geladen...",
+    "ageGroups": "Altersgruppen werden geladen...",
+    "languages": "Sprachen werden geladen...",
+    "uploading": "Wird hochgeladen..."
+  },
+  "selected": "Ausgewählt:",
+  "buttons": {
+    "cancel": "Abbrechen",
+    "uploadBook": "Buch hochladen"
+  },
+  "errors": {
+    "sourceFileRequired": "Quelldatei ist erforderlich",
+    "titleRequired": "Titel ist erforderlich",
+    "categoryRequired": "Kategorie ist erforderlich",
+    "ageGroupRequired": "Altersgruppe ist erforderlich",
+    "languageRequired": "Sprache ist erforderlich",
+    "failedToLoadCategories": "Kategorien konnten nicht geladen werden",
+    "failedToLoadAgeGroups": "Altersgruppen konnten nicht geladen werden",
+    "failedToLoadLanguages": "Sprachen konnten nicht geladen werden",
+    "failedToUploadBook": "Buch konnte nicht hochgeladen werden",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten"
+  },
+  "success": {
+    "bookCreated": "Buch erfolgreich erstellt"
+  }
+}

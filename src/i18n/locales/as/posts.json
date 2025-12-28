@@ -1,0 +1,20 @@
+{
+  "edit": "সম্পাদনা কৰক",
+  "delete": "ডিলিট কৰক",
+  "deleteConfirm": "এই প'ষ্টটো ডিলিট কৰিব?",
+  "cancel": "বাতিল",
+  "save": "সংৰক্ষণ কৰক",
+  "likes": "পছন্দসমূহ",
+  "like": "পছন্দ",
+  "comments": "মন্তব্যসমূহ",
+  "comment": "মন্তব্য",
+  "share": "শ্বেয়াৰ কৰক",
+  "shares": "শ্বেয়াৰসমূহ",
+  "writeComment": "এটা মন্তব্য লিখক...",
+  "writeYourComment": "আপোনাৰ মন্তব্য লিখক...",
+  "failedToComment": "মন্তব্য দিবলৈ ব্যৰ্থ",
+  "actionFailed": "কাৰ্য্য ব্যৰ্থ",
+  "commentAdded": "মন্তব্য সফলভাবে যোগ কৰা হ'ল",
+  "failedToCreateComment": "মন্তব্য সৃষ্টি কৰিবলৈ ব্যৰ্থ",
+  "failedToUpdateLike": "পছন্দৰ স্থিতি আপডেট কৰিবলৈ ব্যৰ্থ"
+}

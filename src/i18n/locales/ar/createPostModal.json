@@ -1,0 +1,27 @@
+{
+  "title": "إنشاء منشور",
+  "labels": {
+    "title": "العنوان",
+    "description": "الوصف"
+  },
+  "placeholders": {
+    "enterPostTitle": "أدخل عنوان المنشور...",
+    "enterDescription": "حصلت على وظيفة في Google..."
+  },
+  "upload": {
+    "uploadFiles": "قم برفع ملفاتك هنا (حد أقصى 5)",
+    "addMoreFiles": "+ إضافة المزيد من الملفات"
+  },
+  "buttons": {
+    "createPost": "إنشاء منشور",
+    "creating": "جاري الإنشاء..."
+  },
+  "errors": {
+    "maxFilesExceeded": "يمكنك رفع حد أقصى 5 ملفات.",
+    "atLeastOneFile": "يرجى رفع ملف وسائط واحد على الأقل.",
+    "failedToCreatePost": "فشل إنشاء المنشور."
+  },
+  "success": {
+    "postCreated": "تم إنشاء المنشور بنجاح!"
+  }
+}

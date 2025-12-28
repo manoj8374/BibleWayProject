@@ -1,0 +1,297 @@
+import api from '../../AxiosClient';
+import type { ApiError } from '../../constants/Error';
+import { GET_BOOKS, GET_BOOK_CHAPTERS, CREATE_READING_PROGRESS, GET_TOP_BOOKS, GET_LATEST_CHAPTERS_BY_AGE_GROUP } from '../../constants/ApiUrls';
+import type { AxiosError } from 'axios';
+
+export interface Book {
+  book_id: string;
+  title: string;
+  description: string;
+  category_id: string;
+  age_group_id: string;
+  language_id: string;
+  cover_image_url: string | null;
+  book_order: number;
+  is_active: boolean;
+  is_bookmarked?: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface GetBooksByCategoryAndAgeGroupResponse {
+  success: boolean;
+  message: string;
+  data: Book[];
+  error?: string;
+  error_code?: string;
+}
+
+export interface Chapter {
+  chapter_id: string;
+  book_id: string;
+  title: string;
+  description: string;
+  chapter_number: number;
+  chapter_name: string | null;
+  chapter_url: string | null;
+  metadata: Record<string, unknown>;
+  created_at: string;
+  updated_at: string;
+  video_url: string | null;
+}
+
+export interface GetBookChaptersResponse {
+  success: boolean;
+  message: string;
+  data: Chapter[];
+  error?: string;
+  error_code?: string;
+}
+
+export interface UpdateReadingProgressRequest {
+  book_id: string;
+  chapter_id: string;
+  block_id?: string; // Optional as per user spec (not listed but might be useful)
+  progress_percentage: number;
+}
+
+export interface GetReadingProgressResponse {
+  success: boolean;
+  data: {
+    book_id: string;
+    chapter_id: string;
+    block_id: string;
+    percentage: number;
+    updated_at: string;
+  } | null;
+  message?: string;
+  error?: string;
+}
+
+export interface CreateBookmarkRequest {
+  book_id: string;
+}
+
+export interface CreateBookmarkResponse {
+  success: boolean;
+  message: string;
+  bookmark_id?: string;
+  error?: string;
+  error_code?: string;
+}
+
+export interface BookDetails {
+  book_id: string;
+  title: string;
+  description: string;
+  cover_image_url: string;
+  category_id: string;
+  category_name: string;
+  age_group_id: string;
+  age_group_name: string;
+  language_id: string;
+  language_name: string;
+  book_order: number;
+  is_active: boolean;
+  is_bookmarked: boolean;
+}
+
+export interface TopBookReadingProgress {
+  reading_progress_id: string;
+  book_id: string;
+  progress_percentage: number;
+  block_id: string | null;
+  chapter_id: string | null;
+  last_read_at: string;
+  created_at: string;
+  updated_at: string;
+  book_details: BookDetails;
+}
+
+export interface GetTopBooksResponse {
+  success: boolean;
+  message: string;
+  data: TopBookReadingProgress[];
+  error?: string;
+  error_code?: string;
+}
+
+export const getLatestChaptersByAgeGroup = async (): Promise<GetLatestChaptersByAgeGroupResponse> => {
+  try {
+    const response = await api.get<GetLatestChaptersByAgeGroupResponse>(
+      GET_LATEST_CHAPTERS_BY_AGE_GROUP
+    );
+    return response.data;
+  } catch (error: unknown) {
+    const err = error as ApiError;
+    console.error('Failed to get latest chapters by age group:', error);
+    return {
+      success: false,
+      data: [],
+      error: err?.message || 'Failed to get latest chapters by age group',
+      error_code: err?.error_code || 'INTERNAL_ERROR'
+    };
+  }
+};
+
+export const bookService = {
+  getBooksByCategoryAndAgeGroup: async (
+    categoryId: string,
+    ageGroupId: string
+  ): Promise<GetBooksByCategoryAndAgeGroupResponse> => {
+    try {
+      const response = await api.post<GetBooksByCategoryAndAgeGroupResponse>(
+        GET_BOOKS,
+        {
+          category_id: categoryId,
+          age_group: ageGroupId
+        },
+        {
+          headers: {
+            "ngrok-skip-browser-warning": "true"
+          }
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<GetBooksByCategoryAndAgeGroupResponse>;
+      if (axiosError.response && axiosError.response.data) {
+        return axiosError.response.data;
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to fetch books.',
+        data: [],
+        error: err?.message || 'Failed to fetch books.',
+        error_code: err?.error_code
+      };
+    }
+  },
+
+  getBookChapters: async (bookId: string): Promise<GetBookChaptersResponse> => {
+    try {
+      const response = await api.post<GetBookChaptersResponse>(
+        GET_BOOK_CHAPTERS,
+        {
+          book_id: bookId
+        },
+        {
+          headers: {
+            "ngrok-skip-browser-warning": "true"
+          }
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<GetBookChaptersResponse>;
+      if (axiosError.response && axiosError.response.data) {
+        return axiosError.response.data;
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to fetch chapters.',
+        data: [],
+        error: err?.message || 'Failed to fetch chapters.',
+        error_code: err?.error_code
+      };
+    }
+  },
+
+  updateReadingProgress: async (
+    progress: UpdateReadingProgressRequest
+  ): Promise<{ success: boolean; message: string }> => {
+    try {
+      const response = await api.post<{ success: boolean; message: string; progress_percentage: string }>(
+        CREATE_READING_PROGRESS,
+        progress
+      );
+      return response.data;
+    } catch (error) {
+      console.error('Failed to update reading progress:', error);
+      return { success: false, message: 'Failed to update progress' };
+    }
+  },
+
+  getReadingProgress: async (
+    bookId: string
+  ): Promise<GetReadingProgressResponse> => {
+    // Dummy implementation
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        // Return null or mock data to test resume
+        resolve({
+          success: true,
+          data: null, // Change this to test resume functionality
+          // data: {
+          //   book_id: bookId,
+          //   chapter_id: "some-chapter-id", 
+          //   block_id: "some-block-id",
+          //   percentage: 10,
+          //   updated_at: new Date().toISOString()
+          // }
+        });
+      }, 500);
+    });
+    /*
+    // Real implementation:
+    try {
+      const response = await api.get(`/books/${bookId}/progress`);
+      return response.data;
+    } catch (error) { ... }
+    */
+  },
+
+  getTopBooks: async (): Promise<GetTopBooksResponse> => {
+    try {
+      const response = await api.get<GetTopBooksResponse>(
+        GET_TOP_BOOKS,
+        {
+          headers: {
+            "ngrok-skip-browser-warning": "true"
+          }
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<GetTopBooksResponse>;
+      if (axiosError.response && axiosError.response.data) {
+        return axiosError.response.data;
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to fetch top books.',
+        data: [],
+        error: err?.message || 'Failed to fetch top books.',
+        error_code: err?.error_code
+      };
+    }
+  },
+  getLatestChaptersByAgeGroup
+};
+
+/**
+ * Create a bookmark for a book
+ */
+export const createBookmark = async (bookId: string): Promise<CreateBookmarkResponse> => {
+  try {
+    const response = await api.post<CreateBookmarkResponse>(
+      CREATE_BOOKMARK,
+      { book_id: bookId }
+    );
+    return response.data;
+  } catch (error) {
+    console.error('Failed to create bookmark:', error);
+    return {
+      success: false,
+      message: 'Failed to create bookmark',
+      error: 'Failed to create bookmark'
+    };
+  }
+};
+

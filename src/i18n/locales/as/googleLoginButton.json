@@ -1,0 +1,9 @@
+{
+  "buttonText": "Google ৰ সৈতে অব্যাহত ৰাখক",
+  "success": {
+    "loginSuccessful": "লগইন সফল"
+  },
+  "errors": {
+    "loginFailed": "লগইন ব্যৰ্থ"
+  }
+}

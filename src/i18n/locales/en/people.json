@@ -1,0 +1,16 @@
+{
+  "searchPeople": "Search People",
+  "searchPeoplePlaceholder": "Search people...",
+  "searching": "Searching...",
+  "noUsersFound": "No users found",
+  "follow": "Follow",
+  "following": "Following",
+  "failedToUpdateFollowStatus": "Failed to update follow status",
+  "loadingInbox": "Loading inbox...",
+  "noMessages": "No messages",
+  "you": "You: ",
+  "attachment": "Attachment",
+  "noMessagesText": "No messages",
+  "sticker": "📷 Sticker"
+}
+

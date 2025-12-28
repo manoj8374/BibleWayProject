@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "बिब्लि, मुं, लेखक सुस्रांना...",
+  "addNewPost": "गोदान प'स्ट हमना",
+  "noResultsFound": "मोनसेबो निनैबो",
+  "languageSelector": {
+    "searchLanguages": "राव सुस्रांना...",
+    "noLanguagesFound": "गाहायाव मोनसेबो राव नायबोयि"
+  },
+  "filter": {
+    "selectLanguage": "राव सायख'ना",
+    "selectVersion": "बिब्लि सायख'ना"
+  }
+}

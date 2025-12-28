@@ -1,0 +1,148 @@
+{
+  "homePage": {
+    "posts": "प'स्टफोर",
+    "prayerRequest": "प्रार्थना मागि",
+    "createPrayerRequest": "प्रार्थना मागि सोमोन्दो खालाम",
+    "loading": "ल'ड जा़दोंगे...",
+    "noItemsFound": "गाहायाव मोनसेबो बेसाद नायबोयि।",
+    "unknownUser": "दिगौ बाहायगिरि",
+    "member": "समाज"
+  },
+  "profilePage": {
+    "myPosts": "आंनि प'स्टफोर",
+    "myPrayerRequests": "आंनि प्रार्थना मागि",
+    "loadingContent": "बेसाद ल'ड जा़दोंगे...",
+    "noItemsFound": "गाहायाव मोनसेबो बेसाद नायबोयि।",
+    "username": "बाहायगिरिनि मुं",
+    "email": "इ-मेल",
+    "country": "हादर",
+    "age": "जोबोर",
+    "preferredLanguage": "मोजां राव",
+    "logOut": "लग आउट खालाम",
+    "loading": "ल'ड जा़दोंगे...",
+    "postDeletedSuccessfully": "प'स्ट सोमोन्दै डिलिट खालामबोयि",
+    "postUpdatedSuccessfully": "प'स्ट सोमोन्दै आपडेट खालामबोयि",
+    "failedToDeletePost": "प'स्ट डिलिट खालामनो हाया",
+    "failedToUpdatePost": "प'स्ट आपडेट खालामनो हाया",
+    "failedToLoadProfile": "प्र'फाइल ल'ड खालामनो हाया",
+    "you": "नोंथां"
+  },
+  "peoplePage": {
+    "noConversationSelected": "गाहायाव मोनसेबो राव सायख'नाय जाया",
+    "selectConversationDescription": "राव जागायनायनि थाखाय गाहायाव थारनिफ्राय मोनसे राव सायख'ना"
+  },
+  "downloadsPage": {
+    "downloads": "डाउनल'डफोर",
+    "loadingWallpapers": "वालपेपारफोर ल'ड जा़दोंगे...",
+    "noWallpapersAvailable": "गाहायाव मोनसेबो वालपेपार नङा",
+    "downloading": "डाउनल'ड जा़दोंगे...",
+    "download": "डाउनल'ड खालाम",
+    "failedToLoadWallpapers": "वालपेपारफोर ल'ड खालामनो हाया",
+    "failedToDownload": "डाउनल'ड खालामनो हाया"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "आंनि बुकमार्क",
+    "loadingBookmarks": "बुकमार्क ल'ड जा़दोंगे...",
+    "noBookmarksYet": "आजिबाव मोनसेबो बुकमार्क नङा",
+    "continueReading": "फरानो गोसारना",
+    "failedToLoadBookmarks": "बुकमार्क ल'ड खालामनो हाया"
+  },
+  "versesPage": {
+    "verses": "खोथोफोर",
+    "loadingVerses": "खोथोफोर ल'ड जा़दोंगे...",
+    "noVersesAvailable": "आजिबाव मोनसेबो खोथो नङा।",
+    "likes": "मोजाङा",
+    "failedToLoadVerses": "खोथोफोर ल'ड खालामनो हाया",
+    "failedToLikeVerse": "खोथो मोजाङा खालामनो हाया"
+  },
+  "userProfilePage": {
+    "invalidUserId": "जाखां बाहायगिरि ID"
+  },
+  "postViewPage": {
+    "loading": "प'स्ट ल'ड जा़दोंगे...",
+    "invalidPostId": "जाखां प'स्ट ID",
+    "postNotFound": "प'स्ट नायबोयि",
+    "failedToLoadPost": "प'स्ट ल'ड खालामनो हाया"
+  },
+  "prayerRequestViewPage": {
+    "loading": "प्रार्थना मागि ल'ड जा़दोंगे...",
+    "invalidRequestId": "जाखां प्रार्थना मागि ID",
+    "requestNotFound": "प्रार्थना मागि नायबोयि",
+    "failedToLoadRequest": "प्रार्थना मागि ल'ड खालामनो हाया"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "बेबेनाय बाइबलफोर"
+  },
+  "bibleViewer": {
+    "loading": "ल'ड जा़दोंगे…"
+  },
+  "adminDashboard": {
+    "dashboard": "डासबर्ड",
+    "createPromotion": "प्रम'शन सोमोन्दो खालाम",
+    "createCategory": "कटेगरि सोमोन्दो खालाम",
+    "welcomeAdmin": "हांसोआ, एडमिन",
+    "welcomeDescription": "बेयाव नोंथां एप्लिकेशननि बेसाद बाहायना हायो। गाहायाव खामानि फोरखौ देखानो थाखाय साइदबार बाहायना।",
+    "dailyVerse": "सानै खोथो",
+    "dailyVerseDescription": "गासै बाहायगिरिफोरनो देखानाय सानै खोथोखौ आपडेट खालाम। बेखौ गासै 24 घन्टायाव गोसोखैनि थाखाय रिसेट खालामगोन।",
+    "bookManagement": "बिब्लि बाहायना",
+    "bookManagementDescription": "Markdown फर्मेटाव गोदान बिब्लि आपल'ड खालाम। सिस्टेमा गोसोखैनि थाखाय खामानि आरो खोथोफोर पार्स खालामगोन।"
+  },
+  "createBook": {
+    "books": "बिब्लिफोर",
+    "uploadBook": "बिब्लि आपल'ड खालाम",
+    "loadingBooks": "बिब्लिफोर ल'ड जा़दोंगे...",
+    "noBooksYet": "आजिबाव मोनसेबो बिब्लि नङा। नोंथांनि गाहायाव बिब्लि हमनायनि थाखाय \"बिब्लि आपल'ड खालाम\" खालाम।",
+    "failedToLoadBooks": "बिब्लिफोर ल'ड खालामनो हाया",
+    "category": "कटेगरि",
+    "ageGroup": "जोबोर गुबुन",
+    "language": "राव",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "खोथोफोर",
+    "createVerse": "खोथो सोमोन्दो खालाम",
+    "loadingVerses": "खोथोफोर ल'ड जा़दोंगे...",
+    "noVersesYet": "आजिबाव मोनसेबो खोथो नङा। नोंथांनि गाहायाव खोथो हमनायनि थाखाय \"खोथो सोमोन्दो खालाम\" खालाम।",
+    "failedToLoadVerses": "खोथोफोर ल'ड खालामनो हाया",
+    "quoteOfTheDay": "साननि खोथो",
+    "likes": "मोजाङा",
+    "created": "सोमोन्दो खालामबोयि",
+    "updated": "आपडेट खालामबोयि"
+  },
+  "loginPage": {
+    "logIn": "लग इन खालाम",
+    "logInUsingGoogle": "गुगल बाहायना लग इन खालाम",
+    "or": "एबा",
+    "email": "इ-मेल",
+    "password": "पासवर्ड",
+    "staySignedIn": "साइन इन जा़दोंगे रैखा",
+    "forgotPassword": "पासवर्ड फोनांबोनाय?",
+    "loggingIn": "लग इन जा़दोंगे...",
+    "login": "लग इन",
+    "needAnAccount": "आकाउन्ट मोननै?",
+    "createOne": "मोनसे सोमोन्दो खालाम",
+    "loginSuccessful": "लग इन सोमोन्दै"
+  },
+  "signupPage": {
+    "signUp": "साइन आप खालाम",
+    "signUpUsingGoogle": "गुगल बाहायना साइन आप खालाम",
+    "or": "एबा",
+    "username": "बाहायगिरिनि मुं",
+    "email": "इ-मेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड नांगारना",
+    "age": "जोबोर",
+    "language": "राव",
+    "country": "हादर",
+    "searchLanguages": "राव सुस्रांना...",
+    "noLanguagesFound": "गाहायाव मोनसेबो राव नायबोयि",
+    "searchCountries": "हादर सुस्रांना...",
+    "noCountriesFound": "गाहायाव मोनसेबो हादर नायबोयि",
+    "creatingAccount": "आकाउन्ट सोमोन्दो जा़दोंगे...",
+    "signUpButton": "साइन आप खालाम",
+    "alreadyHaveAccount": "गाहायाव गोनां आकाउन्ट?",
+    "logIn": "लग इन खालाम",
+    "signupSuccessful": "साइन आप सोमोन्दै",
+    "passwordsDoNotMatch": "पासवर्डफोर दंनाय नङा"
+  }
+}

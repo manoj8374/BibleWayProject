@@ -1,0 +1,28 @@
+{
+  "title": "కేటగరీ సృష్టించండి",
+  "labels": {
+    "categoryName": "కేటగరీ పేరు *",
+    "description": "వివరణ",
+    "displayOrder": "డిస్ప్లే క్రమం",
+    "coverImage": "కవర్ చిత్రం"
+  },
+  "placeholders": {
+    "selectCategoryName": "కేటగరీ పేరును ఎంచుకోండి",
+    "enterDescription": "కేటగరీ వివరణను నమోదు చేయండి (ఐచ్ఛికం)"
+  },
+  "selected": "ఎంచుకోబడింది:",
+  "buttons": {
+    "cancel": "రద్దు చేయి",
+    "createCategory": "కేటగరీ సృష్టించండి",
+    "creating": "సృష్టిస్తోంది..."
+  },
+  "errors": {
+    "categoryNameRequired": "కేటగరీ పేరు అవసరం",
+    "failedToCreateCategory": "కేటగరీని సృష్టించడంలో విఫలమైంది",
+    "unexpectedError": "అనూహ్యమైన దోషం సంభవించింది"
+  },
+  "success": {
+    "categoryCreated": "కేటగరీ విజయవంతంగా సృష్టించబడింది"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "title": "बेबेनाय बाइबलफोर",
+  "loadingAgeGroups": "जोबोर गुबुन ल'ड जा़दोंगे...",
+  "failedToLoadAgeGroups": "जोबोर गुबुन ल'ड खालामनो हाया",
+  "unexpectedErrorLoadingAgeGroups": "जोबोर गुबुन ल'ड खालामनायाव मोनसे मानि फुंखा जाबोयि",
+  "noAgeGroupsAvailable": "गाहायाव मोनसेबो जोबोर गुबुन नङा",
+  "pleaseSelectCategoryFirst": "गाहायाव गाहायाव मोनसे कटेगरि सायख'ना",
+  "noBooksAvailable": "बे सायख'नायनि थाखाय गाहायाव मोनसेबो बिब्लि नङा",
+  "failedToFetchBooks": "बिब्लिफोर सोरगिदिंनो हाया",
+  "categoryNotFound": "कटेगरि नायबोयि",
+  "ageGroupNotFound": "जोबोर गुबुन नायबोयि",
+  "languageNotFound": "राव नायबोयि",
+  "unexpectedErrorFetchingBooks": "बिब्लिफोर सोरगिदिंनायाव मोनसे मानि फुंखा जाबोयि"
+}

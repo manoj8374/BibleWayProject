@@ -1,0 +1,148 @@
+{
+  "homePage": {
+    "posts": "Plasings",
+    "prayerRequest": "Gebedsversoek",
+    "createPrayerRequest": "Skep Gebedsversoek",
+    "loading": "Laai...",
+    "noItemsFound": "Geen items gevind nie.",
+    "unknownUser": "Onbekende Gebruiker",
+    "member": "Lid"
+  },
+  "profilePage": {
+    "myPosts": "My Plasings",
+    "myPrayerRequests": "My Gebedsversoeke",
+    "loadingContent": "Laai inhoud...",
+    "noItemsFound": "Geen items gevind nie.",
+    "username": "Gebruikersnaam",
+    "email": "E-pos",
+    "country": "Land",
+    "age": "Ouderdom",
+    "preferredLanguage": "Voorkeur Taal",
+    "logOut": "teken uit",
+    "loading": "Laai...",
+    "postDeletedSuccessfully": "Plasing suksesvol uitgevee",
+    "postUpdatedSuccessfully": "Plasing suksesvol opgedateer",
+    "failedToDeletePost": "Kon nie plasing uitvee nie",
+    "failedToUpdatePost": "Kon nie plasing opdateer nie",
+    "failedToLoadProfile": "Kon nie profiel laai nie",
+    "you": "Jy"
+  },
+  "peoplePage": {
+    "noConversationSelected": "Geen Gesprek Gekies Nie",
+    "selectConversationDescription": "Kies asseblief 'n gesprek uit die lys om 'n gesprek te begin"
+  },
+  "downloadsPage": {
+    "downloads": "Aflaaie",
+    "loadingWallpapers": "Laai agtergronde...",
+    "noWallpapersAvailable": "Geen agtergronde beskikbaar nie",
+    "downloading": "Laai af...",
+    "download": "Laai Af",
+    "failedToLoadWallpapers": "Kon nie agtergronde laai nie",
+    "failedToDownload": "Kon nie aflaai nie"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "My Boekmerke",
+    "loadingBookmarks": "Laai boekmerke...",
+    "noBookmarksYet": "Nog geen boekmerke nie",
+    "continueReading": "Gaan Voort Met Lees",
+    "failedToLoadBookmarks": "Kon nie boekmerke laai nie"
+  },
+  "versesPage": {
+    "verses": "Verse",
+    "loadingVerses": "Laai verse...",
+    "noVersesAvailable": "Nog geen verse beskikbaar nie.",
+    "likes": "Hou Van",
+    "failedToLoadVerses": "Kon nie verse laai nie",
+    "failedToLikeVerse": "Kon nie vers hou van nie"
+  },
+  "userProfilePage": {
+    "invalidUserId": "Ongeldige gebruiker ID"
+  },
+  "postViewPage": {
+    "loading": "Laai plasing...",
+    "invalidPostId": "Ongeldige plasing ID",
+    "postNotFound": "Plasing nie gevind nie",
+    "failedToLoadPost": "Kon nie plasing laai nie"
+  },
+  "prayerRequestViewPage": {
+    "loading": "Laai gebedsversoek...",
+    "invalidRequestId": "Ongeldige gebedsversoek ID",
+    "requestNotFound": "Gebedsversoek nie gevind nie",
+    "failedToLoadRequest": "Kon nie gebedsversoek laai nie"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "Gesegregeerde Bybels"
+  },
+  "bibleViewer": {
+    "loading": "Laai…"
+  },
+  "adminDashboard": {
+    "dashboard": "Dashbord",
+    "createPromotion": "Skep Promosie",
+    "createCategory": "Skep Kategorie",
+    "welcomeAdmin": "Welkom, Admin",
+    "welcomeDescription": "Hier kan jy die toepassing se inhoud bestuur. Gebruik die sylbalk om na spesifieke bestuursafdelings te navigeer.",
+    "dailyVerse": "Daaglikse Vers",
+    "dailyVerseDescription": "Dateer die daaglikse aanhaling op wat aan alle gebruikers gewys word. Dit stel elke 24 uur outomaties terug.",
+    "bookManagement": "Boek Bestuur",
+    "bookManagementDescription": "Laai nuwe boeke in Markdown formaat op. Die stelsel sal outomaties hoofstukke en verse parseer."
+  },
+  "createBook": {
+    "books": "Boeke",
+    "uploadBook": "Laai Boek Op",
+    "loadingBooks": "Laai boeke...",
+    "noBooksYet": "Nog geen boeke nie. Klik \"Laai Boek Op\" om jou eerste boek by te voeg.",
+    "failedToLoadBooks": "Kon nie boeke laai nie",
+    "category": "Kategorie",
+    "ageGroup": "Ouderdomsgroep",
+    "language": "Taal",
+    "nA": "N.v.t."
+  },
+  "createVerse": {
+    "verses": "Verse",
+    "createVerse": "Skep Vers",
+    "loadingVerses": "Laai verse...",
+    "noVersesYet": "Nog geen verse nie. Klik \"Skep Vers\" om jou eerste vers by te voeg.",
+    "failedToLoadVerses": "Kon nie verse laai nie",
+    "quoteOfTheDay": "Aanhaling van die dag",
+    "likes": "hou van",
+    "created": "Geskep",
+    "updated": "Opgedateer"
+  },
+  "loginPage": {
+    "logIn": "Teken in",
+    "logInUsingGoogle": "Teken in met Google",
+    "or": "Of",
+    "email": "E-pos",
+    "password": "Wagwoord",
+    "staySignedIn": "Bly ingeteken",
+    "forgotPassword": "Wagwoord vergeet?",
+    "loggingIn": "Teken In...",
+    "login": "Teken In",
+    "needAnAccount": "Benodig 'n rekening?",
+    "createOne": "Skep een",
+    "loginSuccessful": "Teken in suksesvol"
+  },
+  "signupPage": {
+    "signUp": "Registreer",
+    "signUpUsingGoogle": "Registreer met Google",
+    "or": "Of",
+    "username": "Gebruikersnaam",
+    "email": "E-pos",
+    "password": "Wagwoord",
+    "confirmPassword": "Bevestig Wagwoord",
+    "age": "Ouderdom",
+    "language": "Taal",
+    "country": "Land",
+    "searchLanguages": "Soek tale...",
+    "noLanguagesFound": "Geen tale gevind nie",
+    "searchCountries": "Soek lande...",
+    "noCountriesFound": "Geen lande gevind nie",
+    "creatingAccount": "Skep Rekening...",
+    "signUpButton": "Registreer",
+    "alreadyHaveAccount": "Het jy reeds 'n rekening?",
+    "logIn": "Teken in",
+    "signupSuccessful": "Registrasie suksesvol",
+    "passwordsDoNotMatch": "Wagwoorde stem nie ooreen nie"
+  }
+}

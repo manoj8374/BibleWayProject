@@ -1,0 +1,38 @@
+{
+  "title": "إنشاء عرض ترويجي",
+  "labels": {
+    "title": "العنوان *",
+    "description": "الوصف",
+    "price": "السعر *",
+    "redirectLink": "رابط إعادة التوجيه *",
+    "metaData": "البيانات الوصفية (JSON)",
+    "mediaFile": "ملف الوسائط (صورة/فيديو/صوت)",
+    "images": "الصور (متعددة)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "أدخل عنوان العرض الترويجي",
+    "enterDescription": "أدخل وصف العرض الترويجي (اختياري)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "المحدد:",
+  "buttons": {
+    "cancel": "إلغاء",
+    "createPromotion": "إنشاء عرض ترويجي",
+    "creating": "جاري الإنشاء..."
+  },
+  "errors": {
+    "titleRequired": "العنوان مطلوب",
+    "priceRequired": "السعر مطلوب",
+    "priceInvalid": "يجب أن يكون السعر رقماً صالحاً",
+    "redirectLinkRequired": "رابط إعادة التوجيه مطلوب",
+    "redirectLinkInvalid": "يجب أن يكون رابط إعادة التوجيه عنوان URL صالحاً",
+    "metaDataInvalid": "يجب أن تكون البيانات الوصفية بتنسيق JSON صالح",
+    "failedToCreatePromotion": "فشل إنشاء العرض الترويجي",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  },
+  "success": {
+    "promotionCreated": "تم إنشاء العرض الترويجي بنجاح"
+  }
+}

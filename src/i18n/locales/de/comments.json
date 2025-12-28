@@ -1,0 +1,11 @@
+{
+  "loading": "Kommentare werden geladen...",
+  "error": "Kommentare konnten nicht geladen werden",
+  "noComments": "Noch keine Kommentare. Seien Sie der Erste, der etwas sagt!",
+  "time": {
+    "justNow": "Gerade eben",
+    "minutesAgo": "vor {{count}} Min.",
+    "hoursAgo": "vor {{count}} Std.",
+    "daysAgo": "vor {{count}} Tag"
+  }
+}

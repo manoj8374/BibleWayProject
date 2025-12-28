@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে।",
+    "receivedToken": "টোকেন প্রাপ্ত হয়েছে"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "পোস্ট তৈরির সময় একটি অপ্রত্যাশিত ত্রুটি ঘটেছে।",
+    "failedToFetchPosts": "পোস্ট আনতে ব্যর্থ।",
+    "failedToFetchUserPosts": "ব্যবহারকারীর পোস্ট আনতে ব্যর্থ।",
+    "failedToUpdatePost": "পোস্ট আপডেট করতে ব্যর্থ",
+    "failedToDeletePost": "পোস্ট মুছতে ব্যর্থ",
+    "failedToCreateComment": "মন্তব্য তৈরি করতে ব্যর্থ।",
+    "failedToFetchComments": "মন্তব্য আনতে ব্যর্থ।",
+    "failedToLikeComment": "মন্তব্য লাইক করতে ব্যর্থ।",
+    "failedToUnlikeComment": "মন্তব্য আনলাইক করতে ব্যর্থ।",
+    "failedToLikePost": "পোস্ট লাইক করতে ব্যর্থ।",
+    "failedToUnlikePost": "পোস্ট আনলাইক করতে ব্যর্থ।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "ব্যবহারকারীর প্রোফাইল আনতে ব্যর্থ।",
+    "failedToFollowUser": "ব্যবহারকারীকে ফলো করতে ব্যর্থ।",
+    "failedToUnfollowUser": "ব্যবহারকারীকে আনফলো করতে ব্যর্থ।",
+    "failedToGetRecommendedUsers": "সুপারিশকৃত ব্যবহারকারী পেতে ব্যর্থ।",
+    "failedToGetUserProfile": "ব্যবহারকারীর প্রোফাইল পেতে ব্যর্থ।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ওয়ালপেপার লোড করতে ব্যর্থ"
+  },
+  "verse": {
+    "failedToLoadVerses": "শ্লোক লোড করতে ব্যর্থ",
+    "failedToLikeVerse": "শ্লোক লাইক করতে ব্যর্থ",
+    "failedToUnlikeVerse": "শ্লোক আনলাইক করতে ব্যর্থ"
+  },
+  "admin": {
+    "failedToLoadBooks": "বই লোড করতে ব্যর্থ"
+  }
+}

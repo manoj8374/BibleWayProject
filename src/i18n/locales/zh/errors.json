@@ -1,0 +1,8 @@
+{
+  "required": "此字段为必填项",
+  "invalidEmail": "请输入有效的电子邮件地址",
+  "passwordTooShort": "密码至少需要8个字符",
+  "passwordsDoNotMatch": "密码不匹配",
+  "somethingWentWrong": "出了点问题。请重试。"
+}
+

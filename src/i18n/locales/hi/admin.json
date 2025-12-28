@@ -1,0 +1,26 @@
+{
+  "loading": "लोड हो रहा है...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute का उपयोग ProfileProvider के अंदर होना चाहिए"
+  },
+  "testimonials": {
+    "title": "प्रशंसापत्र प्रबंधन",
+    "pending": "लंबित",
+    "verified": "सत्यापित",
+    "all": "सभी",
+    "loading": "प्रशंसापत्र लोड हो रहे हैं...",
+    "noTestimonials": "कोई प्रशंसापत्र नहीं मिला",
+    "approve": "अनुमोदन करें",
+    "reject": "अस्वीकार करें",
+    "processing": "प्रसंस्करण हो रहा है...",
+    "approvedSuccessfully": "प्रशंसापत्र सफलतापूर्वक अनुमोदित किया गया",
+    "rejectedSuccessfully": "प्रशंसापत्र सफलतापूर्वक अस्वीकार किया गया",
+    "failedToLoad": "प्रशंसापत्र लोड करने में विफल",
+    "failedToApprove": "प्रशंसापत्र अनुमोदन करने में विफल",
+    "failedToReject": "प्रशंसापत्र अस्वीकार करने में विफल",
+    "confirmReject": "क्या आप वाकई इस प्रशंसापत्र को अस्वीकार करना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता।",
+    "previous": "पिछला",
+    "next": "अगला",
+    "pageInfo": "पृष्ठ {{current}} / {{total}}"
+  }
+}

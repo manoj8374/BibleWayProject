@@ -1,0 +1,14 @@
+{
+  "title": "বিভক্ত বাইবেল",
+  "loadingAgeGroups": "বয়স গ্রুপ লোড হচ্ছে...",
+  "failedToLoadAgeGroups": "বয়স গ্রুপ লোড করতে ব্যর্থ",
+  "unexpectedErrorLoadingAgeGroups": "বয়স গ্রুপ লোড করার সময় একটি অপ্রত্যাশিত ত্রুটি ঘটেছে",
+  "noAgeGroupsAvailable": "কোন বয়স গ্রুপ উপলব্ধ নেই",
+  "pleaseSelectCategoryFirst": "অনুগ্রহ করে প্রথমে একটি ক্যাটাগরি নির্বাচন করুন",
+  "noBooksAvailable": "এই নির্বাচনের জন্য কোন বই উপলব্ধ নেই",
+  "failedToFetchBooks": "বই আনতে ব্যর্থ",
+  "categoryNotFound": "ক্যাটাগরি পাওয়া যায়নি",
+  "ageGroupNotFound": "বয়স গ্রুপ পাওয়া যায়নি",
+  "languageNotFound": "ভাষা পাওয়া যায়নি",
+  "unexpectedErrorFetchingBooks": "বই আনার সময় একটি অপ্রত্যাশিত ত্রুটি ঘটেছে"
+}

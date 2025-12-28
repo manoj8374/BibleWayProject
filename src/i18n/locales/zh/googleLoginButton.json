@@ -1,0 +1,10 @@
+{
+  "buttonText": "使用Google继续",
+  "success": {
+    "loginSuccessful": "登录成功"
+  },
+  "errors": {
+    "loginFailed": "登录失败"
+  }
+}
+

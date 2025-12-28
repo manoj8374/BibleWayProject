@@ -1,0 +1,27 @@
+{
+  "loading": "Laden...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute moet worden gebruikt binnen een ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Getuigenissenbeheer",
+    "pending": "In behandeling",
+    "verified": "Geverifieerd",
+    "all": "Alle",
+    "loading": "Getuigenissen laden...",
+    "noTestimonials": "Geen getuigenissen gevonden",
+    "approve": "Goedkeuren",
+    "reject": "Afwijzen",
+    "processing": "Verwerken...",
+    "approvedSuccessfully": "Getuigenis succesvol goedgekeurd",
+    "rejectedSuccessfully": "Getuigenis succesvol afgewezen",
+    "failedToLoad": "Getuigenissen laden mislukt",
+    "failedToApprove": "Getuigenis goedkeuren mislukt",
+    "failedToReject": "Getuigenis afwijzen mislukt",
+    "confirmReject": "Weet u zeker dat u dit getuigenis wilt afwijzen? Deze actie kan niet ongedaan worden gemaakt.",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "pageInfo": "Pagina {{current}} van {{total}}"
+  }
+}
+

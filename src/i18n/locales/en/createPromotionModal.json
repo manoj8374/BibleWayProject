@@ -1,0 +1,39 @@
+{
+  "title": "Create Promotion",
+  "labels": {
+    "title": "Title *",
+    "description": "Description",
+    "price": "Price",
+    "redirectLink": "Redirect Link *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "Media File (Image/Video/Audio)",
+    "images": "Images (Multiple)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Enter promotion title",
+    "enterDescription": "Enter promotion description (optional)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Selected:",
+  "buttons": {
+    "cancel": "Cancel",
+    "createPromotion": "Create Promotion",
+    "creating": "Creating..."
+  },
+  "errors": {
+    "titleRequired": "Title is required",
+    "priceRequired": "Price is required",
+    "priceInvalid": "Price must be a valid number",
+    "redirectLinkRequired": "Redirect link is required",
+    "redirectLinkInvalid": "Redirect link must be a valid URL",
+    "metaDataInvalid": "Meta data must be valid JSON format",
+    "failedToCreatePromotion": "Failed to create promotion",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "success": {
+    "promotionCreated": "Promotion created successfully"
+  }
+}
+

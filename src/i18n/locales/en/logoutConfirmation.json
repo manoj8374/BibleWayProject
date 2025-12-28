@@ -1,0 +1,10 @@
+{
+  "title": "Confirm Logout",
+  "description": "Are you sure you want to log out? You will need to sign in again to access your account.",
+  "buttons": {
+    "cancel": "Cancel",
+    "confirm": "Logout",
+    "loggingOut": "Logging out..."
+  }
+}
+

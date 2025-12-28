@@ -1,0 +1,18 @@
+{
+  "title": "खुंथाइफोर",
+  "markAllAsRead": "गासैखौ फरा जानाय जुगानाय खालाम",
+  "loading": "खुंथाइफोर ल'ड जा़दोंगे...",
+  "noNotifications": "आजिबाव मोनसेबो खुंथाइ नङा",
+  "allCaughtUp": "नोंथां गासै नायबोयि!",
+  "justNow": "आजि",
+  "minuteAgo": "{{count}} मिनिट आगे",
+  "minutesAgo": "{{count}} मिनिट आगे",
+  "hourAgo": "{{count}} घन्टा आगे",
+  "hoursAgo": "{{count}} घन्टा आगे",
+  "dayAgo": "{{count}} सान आगे",
+  "daysAgo": "{{count}} सान आगे",
+  "weekAgo": "{{count}} हप्ता आगे",
+  "weeksAgo": "{{count}} हप्ता आगे",
+  "monthAgo": "{{count}} माहा आगे",
+  "monthsAgo": "{{count}} माहा आगे"
+}

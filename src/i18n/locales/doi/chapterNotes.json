@@ -1,0 +1,34 @@
+{
+  "title": "अध्याय नोट्स",
+  "noBookSelected": "कोई किताब चयनित नहीं",
+  "selectBookMessage": "नोट्स देखने के लिए कृपया एक किताब चुनें",
+  "noChapterSelected": "कोई अध्याय चयनित नहीं",
+  "selectChapterMessage": "नोट्स देखने और बनाने के लिए एक अध्याय चुनें",
+  "loadingNotes": "नोट्स लोड हो रहे हैं...",
+  "noNotesYet": "अभी तक कोई नोट्स नहीं",
+  "startWritingMessage": "इस अध्याय के बारे में अपने विचार और अंतर्दृष्टि लिखना शुरू करें",
+  "placeholder": "अपने नोट्स यहाँ लिखें...",
+  "cancel": "रद्द करें",
+  "saving": "सहेजा जा रहा है...",
+  "updateNote": "नोट अपडेट करें",
+  "saveNote": "नोट सहेजें",
+  "editNote": "नोट संपादित करें",
+  "deleteNote": "नोट हटाएं",
+  "justNow": "अभी-अभी",
+  "note": "नोट",
+  "notes": "नोट्स",
+  "deleteConfirmation": "क्या आप वाकई इस नोट को हटाना चाहते हैं?",
+  "success": {
+    "noteCreated": "नोट सफलतापूर्वक बनाया गया",
+    "noteUpdated": "नोट सफलतापूर्वक अपडेट किया गया",
+    "noteDeleted": "नोट सफलतापूर्वक हटाया गया"
+  },
+  "errors": {
+    "failedToLoad": "नोट्स लोड करने में विफल",
+    "failedToCreate": "नोट बनाने में विफल",
+    "failedToUpdate": "नोट अपडेट करने में विफल",
+    "failedToDelete": "नोट हटाने में विफल",
+    "failedToSave": "नोट सहेजने में विफल"
+  }
+}
+

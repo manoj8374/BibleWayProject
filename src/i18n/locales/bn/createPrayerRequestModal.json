@@ -1,0 +1,34 @@
+{
+  "title": "প্রার্থনার অনুরোধ",
+  "labels": {
+    "description": "বিবরণ",
+    "name": "নাম",
+    "email": "ইমেইল",
+    "phoneNumber": "ফোন নম্বর (ঐচ্ছিক)",
+    "media": "মিডিয়া (ঐচ্ছিক)"
+  },
+  "placeholders": {
+    "enterDescription": "অনুগ্রহ করে আমার পরিবারের স্বাস্থ্যের জন্য প্রার্থনা করুন...",
+    "yourName": "আপনার নাম",
+    "yourEmail": "আপনার ইমেইল ঠিকানা",
+    "phoneNumber": "৮০২৩৪৫৬৭৮৯"
+  },
+  "upload": {
+    "uploadText": "ছবি বা ভিডিও আপলোড করুন (সর্বোচ্চ ৫টি ফাইল, প্রতিটি ১০MB)",
+    "addMoreFiles": "+ আরও ফাইল যোগ করুন"
+  },
+  "buttons": {
+    "submitPrayerRequest": "প্রার্থনার অনুরোধ জমা দিন",
+    "submitting": "জমা দেওয়া হচ্ছে..."
+  },
+  "errors": {
+    "descriptionRequired": "অনুগ্রহ করে আপনার প্রার্থনার অনুরোধের জন্য একটি বিবরণ লিখুন।",
+    "failedToCreateRequest": "প্রার্থনার অনুরোধ তৈরি করতে ব্যর্থ।",
+    "maxFilesExceeded": "আপনি সর্বোচ্চ ৫টি ফাইল আপলোড করতে পারেন।",
+    "invalidFileType": "অবৈধ ফাইল টাইপ: {{filename}}। শুধুমাত্র ছবি এবং ভিডিও অনুমোদিত।",
+    "fileSizeExceeded": "ফাইল সাইজ ১০MB সীমা অতিক্রম করেছে: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "প্রার্থনার অনুরোধ সফলভাবে তৈরি হয়েছে!"
+  }
+}

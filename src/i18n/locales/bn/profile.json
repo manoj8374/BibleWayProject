@@ -1,0 +1,19 @@
+{
+  "back": "পিছনে",
+  "follow": "ফলো করুন",
+  "unfollow": "আনফলো করুন",
+  "message": "বার্তা",
+  "follower": "ফলোয়ার",
+  "following": "ফলো করছেন",
+  "followers": "ফলোয়ার",
+  "loadingProfile": "প্রোফাইল লোড হচ্ছে...",
+  "profileNotFound": "প্রোফাইল পাওয়া যায়নি",
+  "loadingPosts": "পোস্ট লোড হচ্ছে...",
+  "noPostsYet": "এখনও কোন পোস্ট নেই",
+  "unknownUser": "অজানা ব্যবহারকারী",
+  "checkOutProfile": "BibleWay-এ {{name}}-এর প্রোফাইল দেখুন",
+  "profileTitle": "{{name}}-এর প্রোফাইল",
+  "unfollowedSuccessfully": "সফলভাবে আনফলো করা হয়েছে",
+  "followedSuccessfully": "সফলভাবে ফলো করা হয়েছে",
+  "failedToFetchUserPosts": "ব্যবহারকারীর পোস্ট আনতে ব্যর্থ"
+}

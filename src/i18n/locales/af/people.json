@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Soek Mense",
+  "searchPeoplePlaceholder": "Soek mense...",
+  "searching": "Soek...",
+  "noUsersFound": "Geen gebruikers gevind nie",
+  "follow": "Volg",
+  "following": "Volg",
+  "failedToUpdateFollowStatus": "Kon nie volg status opdateer nie",
+  "loadingInbox": "Laai posbus...",
+  "noMessages": "Geen boodskappe nie",
+  "you": "Jy: ",
+  "attachment": "Bylae",
+  "noMessagesText": "Geen boodskappe nie",
+  "sticker": "📷 Plakker"
+}

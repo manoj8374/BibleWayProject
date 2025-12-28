@@ -1,0 +1,34 @@
+{
+  "title": "Kapitelnotizen",
+  "noBookSelected": "Kein Buch ausgewählt",
+  "selectBookMessage": "Bitte wählen Sie ein Buch aus, um Notizen anzuzeigen",
+  "noChapterSelected": "Kein Kapitel ausgewählt",
+  "selectChapterMessage": "Wählen Sie ein Kapitel aus, um Notizen anzuzeigen und zu erstellen",
+  "loadingNotes": "Notizen werden geladen...",
+  "noNotesYet": "Noch keine Notizen",
+  "startWritingMessage": "Beginnen Sie, Ihre Gedanken und Erkenntnisse zu diesem Kapitel zu schreiben",
+  "placeholder": "Schreiben Sie Ihre Notizen hier...",
+  "cancel": "Abbrechen",
+  "saving": "Wird gespeichert...",
+  "updateNote": "Notiz aktualisieren",
+  "saveNote": "Notiz speichern",
+  "editNote": "Notiz bearbeiten",
+  "deleteNote": "Notiz löschen",
+  "justNow": "Gerade eben",
+  "note": "Notiz",
+  "notes": "Notizen",
+  "deleteConfirmation": "Sind Sie sicher, dass Sie diese Notiz löschen möchten?",
+  "success": {
+    "noteCreated": "Notiz erfolgreich erstellt",
+    "noteUpdated": "Notiz erfolgreich aktualisiert",
+    "noteDeleted": "Notiz erfolgreich gelöscht"
+  },
+  "errors": {
+    "failedToLoad": "Notizen konnten nicht geladen werden",
+    "failedToCreate": "Notiz konnte nicht erstellt werden",
+    "failedToUpdate": "Notiz konnte nicht aktualisiert werden",
+    "failedToDelete": "Notiz konnte nicht gelöscht werden",
+    "failedToSave": "Notiz konnte nicht gespeichert werden"
+  }
+}
+

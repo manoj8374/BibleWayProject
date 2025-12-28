@@ -1,0 +1,38 @@
+{
+  "title": "Skep Promosie",
+  "labels": {
+    "title": "Titel *",
+    "description": "Beskrywing",
+    "price": "Prys *",
+    "redirectLink": "Herlei Skakel *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "Media Lêer (Beeld/Video/Klank)",
+    "images": "Beelde (Meervoudig)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Voer promosie titel in",
+    "enterDescription": "Voer promosie beskrywing in (opsioneel)",
+    "price": "0.00",
+    "redirectLink": "https://voorbeeld.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Gekies:",
+  "buttons": {
+    "cancel": "Kanselleer",
+    "createPromotion": "Skep Promosie",
+    "creating": "Skep..."
+  },
+  "errors": {
+    "titleRequired": "Titel is verpligtend",
+    "priceRequired": "Prys is verpligtend",
+    "priceInvalid": "Prys moet 'n geldige nommer wees",
+    "redirectLinkRequired": "Herlei skakel is verpligtend",
+    "redirectLinkInvalid": "Herlei skakel moet 'n geldige URL wees",
+    "metaDataInvalid": "Meta data moet geldige JSON formaat wees",
+    "failedToCreatePromotion": "Kon nie promosie skep nie",
+    "unexpectedError": "Onverwagte fout het voorgekom"
+  },
+  "success": {
+    "promotionCreated": "Promosie suksesvol geskep"
+  }
+}

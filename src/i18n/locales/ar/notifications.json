@@ -1,0 +1,18 @@
+{
+  "title": "الإشعارات",
+  "markAllAsRead": "وضع علامة مقروءة على الكل",
+  "loading": "جاري تحميل الإشعارات...",
+  "noNotifications": "لا توجد إشعارات بعد",
+  "allCaughtUp": "لقد انتهيت من كل شيء!",
+  "justNow": "الآن",
+  "minuteAgo": "منذ {{count}} دقيقة",
+  "minutesAgo": "منذ {{count}} دقيقة",
+  "hourAgo": "منذ {{count}} ساعة",
+  "hoursAgo": "منذ {{count}} ساعة",
+  "dayAgo": "منذ {{count}} يوم",
+  "daysAgo": "منذ {{count}} يوم",
+  "weekAgo": "منذ {{count}} أسبوع",
+  "weeksAgo": "منذ {{count}} أسبوع",
+  "monthAgo": "منذ {{count}} شهر",
+  "monthsAgo": "منذ {{count}} شهر"
+}

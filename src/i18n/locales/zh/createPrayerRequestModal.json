@@ -1,0 +1,35 @@
+{
+  "title": "祈祷请求",
+  "labels": {
+    "description": "描述",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "phoneNumber": "电话号码（可选）",
+    "media": "媒体（可选）"
+  },
+  "placeholders": {
+    "enterDescription": "请为我家人的健康祈祷...",
+    "yourName": "您的姓名",
+    "yourEmail": "您的电子邮箱地址",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "上传图片或视频（最多5个文件，每个10MB）",
+    "addMoreFiles": "+ 添加更多文件"
+  },
+  "buttons": {
+    "submitPrayerRequest": "提交祈祷请求",
+    "submitting": "提交中..."
+  },
+  "errors": {
+    "descriptionRequired": "请输入您的祈祷请求描述。",
+    "failedToCreateRequest": "创建祈祷请求失败。",
+    "maxFilesExceeded": "您最多可以上传5个文件。",
+    "invalidFileType": "无效的文件类型：{{filename}}。仅允许图片和视频。",
+    "fileSizeExceeded": "文件大小超过10MB限制：{{filename}}"
+  },
+  "success": {
+    "requestCreated": "祈祷请求创建成功！"
+  }
+}
+

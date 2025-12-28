@@ -1,0 +1,9 @@
+{
+  "buttonText": "Google দিয়ে চালিয়ে যান",
+  "success": {
+    "loginSuccessful": "লগইন সফল"
+  },
+  "errors": {
+    "loginFailed": "লগইন ব্যর্থ"
+  }
+}

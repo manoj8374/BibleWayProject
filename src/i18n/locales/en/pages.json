@@ -1,0 +1,218 @@
+{
+  "homePage": {
+    "posts": "Posts",
+    "prayerRequest": "Prayer Request",
+    "categories": "Categories",
+    "createPrayerRequest": "Create Prayer Request",
+    "loading": "Loading...",
+    "noItemsFound": "No items found.",
+    "unknownUser": "Unknown User",
+    "member": "Member"
+  },
+  "profilePage": {
+    "myPosts": "My Posts",
+    "myPrayerRequests": "My Prayer Requests",
+    "loadingContent": "Loading content...",
+    "noItemsFound": "No items found.",
+    "username": "Username",
+    "email": "Email",
+    "country": "Country",
+    "age": "Age",
+    "preferredLanguage": "Preferred Language",
+    "logOut": "log out",
+    "loading": "Loading...",
+    "postDeletedSuccessfully": "Post deleted successfully",
+    "postUpdatedSuccessfully": "Post updated successfully",
+    "failedToDeletePost": "Failed to delete post",
+    "failedToUpdatePost": "Failed to update post",
+    "failedToLoadProfile": "Failed to load profile",
+    "you": "You",
+    "followers": "Followers",
+    "following": "Following",
+    "follow": "Follow",
+    "failedToLoadFollowers": "Failed to load followers",
+    "failedToLoadFollowing": "Failed to load following",
+    "userNotFound": "User not found",
+    "followedSuccessfully": "Followed successfully",
+    "unfollowedSuccessfully": "Unfollowed successfully",
+    "failedToUpdateFollowStatus": "Failed to update follow status",
+    "noFollowers": "No followers yet",
+    "noFollowing": "Not following anyone yet"
+  },
+  "peoplePage": {
+    "noConversationSelected": "No Conversation Selected",
+    "selectConversationDescription": "Please select a conversation from the list to start a conversation"
+  },
+  "downloadsPage": {
+    "downloads": "Downloads",
+    "loadingWallpapers": "Loading wallpapers...",
+    "noWallpapersAvailable": "No wallpapers available",
+    "downloading": "Downloading...",
+    "download": "Download",
+    "failedToLoadWallpapers": "Failed to load wallpapers",
+    "failedToDownload": "Failed to download"
+  },
+  "bookmarksPage": {
+    "myBookmarks": "My Bookmarks",
+    "loadingBookmarks": "Loading bookmarks...",
+    "noBookmarksYet": "No bookmarks yet",
+    "continueReading": "Continue Reading",
+    "failedToLoadBookmarks": "Failed to load bookmarks"
+  },
+  "versesPage": {
+    "verses": "Verses",
+    "loadingVerses": "Loading verses...",
+    "noVersesAvailable": "No verses available yet.",
+    "likes": "Likes",
+    "failedToLoadVerses": "Failed to load verses",
+    "failedToLikeVerse": "Failed to like verse"
+  },
+  "userProfilePage": {
+    "invalidUserId": "Invalid user ID"
+  },
+  "postViewPage": {
+    "loading": "Loading post...",
+    "invalidPostId": "Invalid post ID",
+    "postNotFound": "Post not found",
+    "failedToLoadPost": "Failed to load post"
+  },
+  "prayerRequestViewPage": {
+    "loading": "Loading prayer request...",
+    "invalidRequestId": "Invalid prayer request ID",
+    "requestNotFound": "Prayer request not found",
+    "failedToLoadRequest": "Failed to load prayer request"
+  },
+  "segregatedBiblesPage": {
+    "segregatedBibles": "Segregated Bibles"
+  },
+  "bibleReaderPage": {
+    "title": "Bible Reader",
+    "loadingBooks": "Loading books...",
+    "failedToLoadBooks": "Failed to load books",
+    "noBooksFound": "No books found",
+    "noDescription": "No description available"
+  },
+  "bibleViewer": {
+    "loading": "Loading…"
+  },
+  "adminDashboard": {
+    "dashboard": "Dashboard",
+    "createPromotion": "Create Promotion",
+    "createCategory": "Create Category",
+    "welcomeAdmin": "Welcome, Admin",
+    "welcomeDescription": "Here you can manage the application content. Use the sidebar to navigate to specific management sections.",
+    "dailyVerse": "Daily Verse",
+    "dailyVerseDescription": "Update the daily quote shown to all users. This resets every 24 hours automatically.",
+    "bookManagement": "Book Management",
+    "bookManagementDescription": "Upload new books in Markdown format. The system will automatically parse chapters and verses."
+  },
+  "createBook": {
+    "books": "Books",
+    "uploadBook": "Upload Book",
+    "loadingBooks": "Loading books...",
+    "noBooksYet": "No books yet. Click \"Upload Book\" to add your first book.",
+    "failedToLoadBooks": "Failed to load books",
+    "category": "Category",
+    "ageGroup": "Age Group",
+    "language": "Language",
+    "nA": "N/A"
+  },
+  "createVerse": {
+    "verses": "Verses",
+    "createVerse": "Create Verse",
+    "loadingVerses": "Loading verses...",
+    "noVersesYet": "No verses yet. Click \"Create Verse\" to add your first verse.",
+    "failedToLoadVerses": "Failed to load verses",
+    "quoteOfTheDay": "Quote of the day",
+    "likes": "likes",
+    "created": "Created",
+    "updated": "Updated",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "confirmDelete": "Are you sure you want to delete this verse? This action cannot be undone.",
+    "deletedSuccessfully": "Verse deleted successfully",
+    "failedToDelete": "Failed to delete verse"
+  },
+  "loginPage": {
+    "logIn": "Log in",
+    "logInUsingGoogle": "Log in using Google",
+    "or": "Or",
+    "email": "Email",
+    "password": "Password",
+    "staySignedIn": "Stay signed in",
+    "forgotPassword": "Forgot password?",
+    "loggingIn": "Logging In...",
+    "login": "Login",
+    "needAnAccount": "Need an account?",
+    "createOne": "Create one",
+    "loginSuccessful": "Login successful"
+  },
+  "signupPage": {
+    "signUp": "Sign up",
+    "signUpUsingGoogle": "Sign up using Google",
+    "or": "Or",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "age": "Age",
+    "language": "Language",
+    "country": "Country",
+    "searchLanguages": "Search languages...",
+    "noLanguagesFound": "No languages found",
+    "searchCountries": "Search countries...",
+    "noCountriesFound": "No countries found",
+    "creatingAccount": "Creating Account...",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "logIn": "Log in",
+    "signupSuccessful": "Signup successful",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "forgotPassword": "Forgot password?",
+    "clickHere": "Click here"
+  },
+  "forgotPassword": {
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "otp": "OTP",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "sendOTP": "Send OTP",
+    "sending": "Sending...",
+    "resetting": "Resetting...",
+    "rememberPassword": "Remember your password?",
+    "backToLogin": "Back to Login",
+    "emailRequired": "Email is required",
+    "otpRequired": "OTP is required",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 8 characters",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "failedToSendOTP": "Failed to send OTP",
+    "failedToResetPassword": "Failed to reset password"
+  },
+  "notesPage": {
+    "title": "My Notes",
+    "loading": "Loading notes...",
+    "noNotes": "No notes found",
+    "failedToLoad": "Failed to load notes",
+    "note": "note",
+    "notes": "notes",
+    "noChapter": "No Chapter",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "edited": "Edited",
+    "updatedSuccessfully": "Note updated successfully",
+    "deletedSuccessfully": "Note deleted successfully",
+    "failedToUpdate": "Failed to update note",
+    "failedToDelete": "Failed to delete note",
+    "contentRequired": "Note content is required",
+    "confirmDelete": "Are you sure you want to delete this note? This action cannot be undone.",
+    "notePlaceholder": "Enter your note here..."
+  }
+}
+

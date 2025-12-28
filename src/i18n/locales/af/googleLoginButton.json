@@ -1,0 +1,9 @@
+{
+  "buttonText": "Gaan Voort Met Google",
+  "success": {
+    "loginSuccessful": "Teken in suksesvol"
+  },
+  "errors": {
+    "loginFailed": "Teken in het misluk"
+  }
+}

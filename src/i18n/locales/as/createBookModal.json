@@ -1,0 +1,46 @@
+{
+  "title": "কিতাপ আপলোড কৰক",
+  "labels": {
+    "sourceFile": "উৎস ফাইল (.md) *",
+    "coverImage": "কভাৰ ছবি",
+    "category": "কেটেগৰী *",
+    "ageGroup": "বয়সৰ গোট *",
+    "language": "ভাষা *",
+    "bookTitle": "শিৰোনামা *",
+    "description": "বিৱৰণ",
+    "bookOrder": "কিতাপৰ ক্ৰম"
+  },
+  "placeholders": {
+    "selectCategory": "এটা কেটেগৰী নিৰ্বাচন কৰক",
+    "selectAgeGroup": "এটা বয়সৰ গোট নিৰ্বাচন কৰক",
+    "selectLanguage": "এটা ভাষা নিৰ্বাচন কৰক",
+    "enterBookTitle": "কিতাপৰ শিৰোনামা সুমুৱাওক",
+    "enterBookDescription": "কিতাপৰ বিৱৰণ সুমুৱাওক (ঐচ্ছিক)"
+  },
+  "loading": {
+    "categories": "কেটেগৰীসমূহ ল'ড হৈছে...",
+    "ageGroups": "বয়সৰ গোটসমূহ ল'ড হৈছে...",
+    "languages": "ভাষাসমূহ ল'ড হৈছে...",
+    "uploading": "আপলোড হৈছে..."
+  },
+  "selected": "নিৰ্বাচিত:",
+  "buttons": {
+    "cancel": "বাতিল",
+    "uploadBook": "কিতাপ আপলোড কৰক"
+  },
+  "errors": {
+    "sourceFileRequired": "উৎস ফাইল আবশ্যক",
+    "titleRequired": "শিৰোনামা আবশ্যক",
+    "categoryRequired": "কেটেগৰী আবশ্যক",
+    "ageGroupRequired": "বয়সৰ গোট আবশ্যক",
+    "languageRequired": "ভাষা আবশ্যক",
+    "failedToLoadCategories": "কেটেগৰীসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToLoadAgeGroups": "বয়সৰ গোটসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToLoadLanguages": "ভাষাসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+    "failedToUploadBook": "কিতাপ আপলোড কৰিবলৈ ব্যৰ্থ",
+    "unexpectedError": "এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল"
+  },
+  "success": {
+    "bookCreated": "কিতাপ সফলভাবে সৃষ্টি কৰা হ'ল"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "বিভাজিত বাইবেলসমূহ",
+  "loadingAgeGroups": "বয়সৰ গোটসমূহ ল'ড হৈছে...",
+  "failedToLoadAgeGroups": "বয়সৰ গোটসমূহ ল'ড কৰিবলৈ ব্যৰ্থ",
+  "unexpectedErrorLoadingAgeGroups": "বয়সৰ গোটসমূহ ল'ড কৰোতে এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল",
+  "noAgeGroupsAvailable": "কোনো বয়সৰ গোট উপলব্ধ নাই",
+  "pleaseSelectCategoryFirst": "অনুগ্ৰহ কৰি প্ৰথমে এটা কেটেগৰী নিৰ্বাচন কৰক",
+  "noBooksAvailable": "এই নিৰ্বাচনৰ বাবে কোনো কিতাপ উপলব্ধ নাই",
+  "failedToFetchBooks": "কিতাপসমূহ আনিবলৈ ব্যৰ্থ",
+  "categoryNotFound": "কেটেগৰী পোৱা নগ'ল",
+  "ageGroupNotFound": "বয়সৰ গোট পোৱা নগ'ল",
+  "languageNotFound": "ভাষা পোৱা নগ'ল",
+  "unexpectedErrorFetchingBooks": "কিতাপসমূহ আনোতে এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল"
+}

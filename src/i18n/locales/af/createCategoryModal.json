@@ -1,0 +1,27 @@
+{
+  "title": "Skep Kategorie",
+  "labels": {
+    "categoryName": "Kategorie Naam *",
+    "description": "Beskrywing",
+    "displayOrder": "Vertoon Volgorde",
+    "coverImage": "Voorbladbeeld"
+  },
+  "placeholders": {
+    "selectCategoryName": "Kies 'n kategorie naam",
+    "enterDescription": "Voer kategorie beskrywing in (opsioneel)"
+  },
+  "selected": "Gekies:",
+  "buttons": {
+    "cancel": "Kanselleer",
+    "createCategory": "Skep Kategorie",
+    "creating": "Skep..."
+  },
+  "errors": {
+    "categoryNameRequired": "Kategorie naam is verpligtend",
+    "failedToCreateCategory": "Kon nie kategorie skep nie",
+    "unexpectedError": "Onverwagte fout het voorgekom"
+  },
+  "success": {
+    "categoryCreated": "Kategorie suksesvol geskep"
+  }
+}

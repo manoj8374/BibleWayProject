@@ -1,0 +1,18 @@
+{
+  "title": "Benachrichtigungen",
+  "markAllAsRead": "Alle als gelesen markieren",
+  "loading": "Benachrichtigungen werden geladen...",
+  "noNotifications": "Noch keine Benachrichtigungen",
+  "allCaughtUp": "Sie sind auf dem neuesten Stand!",
+  "justNow": "Gerade eben",
+  "minuteAgo": "vor {{count}} Minute",
+  "minutesAgo": "vor {{count}} Minuten",
+  "hourAgo": "vor {{count}} Stunde",
+  "hoursAgo": "vor {{count}} Stunden",
+  "dayAgo": "vor {{count}} Tag",
+  "daysAgo": "vor {{count}} Tagen",
+  "weekAgo": "vor {{count}} Woche",
+  "weeksAgo": "vor {{count}} Wochen",
+  "monthAgo": "vor {{count}} Monat",
+  "monthsAgo": "vor {{count}} Monaten"
+}

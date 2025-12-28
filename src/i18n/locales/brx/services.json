@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "unexpectedError": "मोनसे मानि फुंखा जाबोयि।",
+    "receivedToken": "टकेन मोनबोयि"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "प'स्ट सोमोन्दो खालामनायाव मोनसे मानि फुंखा जाबोयि।",
+    "failedToFetchPosts": "प'स्टफोर सोरगिदिंनो हाया।",
+    "failedToFetchUserPosts": "बाहायगिरिनि प'स्टफोर सोरगिदिंनो हाया।",
+    "failedToUpdatePost": "प'स्ट आपडेट खालामनो हाया",
+    "failedToDeletePost": "प'स्ट डिलिट खालामनो हाया",
+    "failedToCreateComment": "उल्था सोमोन्दो खालामनो हाया।",
+    "failedToFetchComments": "उल्थाफोर सोरगिदिंनो हाया।",
+    "failedToLikeComment": "उल्था मोजाङा खालामनो हाया।",
+    "failedToUnlikeComment": "उल्थानिफ्राय मोजाङा लांना होनाय हाया।",
+    "failedToLikePost": "प'स्ट मोजाङा खालामनो हाया।",
+    "failedToUnlikePost": "प'स्टनिफ्राय मोजाङा लांना होनाय हाया।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "बाहायगिरिनि प्र'फाइल सोरगिदिंनो हाया।",
+    "failedToFollowUser": "बाहायगिरिखौ फलो खालामनो हाया।",
+    "failedToUnfollowUser": "बाहायगिरिनिफ्राय फलो बन्द खालामनो हाया।",
+    "failedToGetRecommendedUsers": "मोजां बाहायगिरिफोर मोननो हाया।",
+    "failedToGetUserProfile": "बाहायगिरिनि प्र'फाइल मोननो हाया।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वालपेपारफोर ल'ड खालामनो हाया"
+  },
+  "verse": {
+    "failedToLoadVerses": "खोथोफोर ल'ड खालामनो हाया",
+    "failedToLikeVerse": "खोथो मोजाङा खालामनो हाया",
+    "failedToUnlikeVerse": "खोथोनिफ्राय मोजाङा लांना होनाय हाया"
+  },
+  "admin": {
+    "failedToLoadBooks": "बिब्लिफोर ल'ड खालामनो हाया"
+  }
+}

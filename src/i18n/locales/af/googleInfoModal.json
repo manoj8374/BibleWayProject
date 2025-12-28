@@ -1,0 +1,19 @@
+{
+  "title": "Voltooi Registrasie",
+  "description": "Ons benodig nog 'n paar besonderhede om jou rekening te voltooi.",
+  "labels": {
+    "age": "Ouderdom",
+    "language": "Taal",
+    "country": "Land"
+  },
+  "placeholders": {
+    "age": "bv. 25",
+    "language": "bv. Engels",
+    "country": "bv. Suid-Afrika"
+  },
+  "buttons": {
+    "cancel": "Kanselleer",
+    "continue": "Gaan Voort",
+    "creating": "Skep..."
+  }
+}

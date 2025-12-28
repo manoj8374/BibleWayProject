@@ -1,0 +1,21 @@
+{
+  "edit": "Bewerken",
+  "delete": "Verwijderen",
+  "deleteConfirm": "Dit bericht verwijderen?",
+  "cancel": "Annuleren",
+  "save": "Opslaan",
+  "likes": "Vind-ik-leuks",
+  "like": "Vind ik leuk",
+  "comments": "Reacties",
+  "comment": "Reactie",
+  "share": "Delen",
+  "shares": "Delen",
+  "writeComment": "Schrijf een reactie...",
+  "writeYourComment": "Schrijf uw reactie...",
+  "failedToComment": "Reactie plaatsen mislukt",
+  "actionFailed": "Actie mislukt",
+  "commentAdded": "Reactie succesvol toegevoegd",
+  "failedToCreateComment": "Reactie aanmaken mislukt",
+  "failedToUpdateLike": "Vind-ik-leuk status bijwerken mislukt"
+}
+

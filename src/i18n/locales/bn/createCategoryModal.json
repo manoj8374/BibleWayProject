@@ -1,0 +1,27 @@
+{
+  "title": "ক্যাটাগরি তৈরি করুন",
+  "labels": {
+    "categoryName": "ক্যাটাগরি নাম *",
+    "description": "বিবরণ",
+    "displayOrder": "প্রদর্শন ক্রম",
+    "coverImage": "কভার ছবি"
+  },
+  "placeholders": {
+    "selectCategoryName": "একটি ক্যাটাগরি নাম নির্বাচন করুন",
+    "enterDescription": "ক্যাটাগরি বিবরণ লিখুন (ঐচ্ছিক)"
+  },
+  "selected": "নির্বাচিত:",
+  "buttons": {
+    "cancel": "বাতিল",
+    "createCategory": "ক্যাটাগরি তৈরি করুন",
+    "creating": "তৈরি করা হচ্ছে..."
+  },
+  "errors": {
+    "categoryNameRequired": "ক্যাটাগরি নাম আবশ্যক",
+    "failedToCreateCategory": "ক্যাটাগরি তৈরি করতে ব্যর্থ",
+    "unexpectedError": "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে"
+  },
+  "success": {
+    "categoryCreated": "ক্যাটাগরি সফলভাবে তৈরি হয়েছে"
+  }
+}

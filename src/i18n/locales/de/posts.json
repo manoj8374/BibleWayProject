@@ -1,0 +1,20 @@
+{
+  "edit": "Bearbeiten",
+  "delete": "Löschen",
+  "deleteConfirm": "Diesen Beitrag löschen?",
+  "cancel": "Abbrechen",
+  "save": "Speichern",
+  "likes": "Gefällt mir",
+  "like": "Gefällt mir",
+  "comments": "Kommentare",
+  "comment": "Kommentar",
+  "share": "Teilen",
+  "shares": "Geteilt",
+  "writeComment": "Kommentar schreiben...",
+  "writeYourComment": "Schreiben Sie Ihren Kommentar...",
+  "failedToComment": "Kommentieren fehlgeschlagen",
+  "actionFailed": "Aktion fehlgeschlagen",
+  "commentAdded": "Kommentar erfolgreich hinzugefügt",
+  "failedToCreateComment": "Kommentar konnte nicht erstellt werden",
+  "failedToUpdateLike": "Gefällt-mir-Status konnte nicht aktualisiert werden"
+}

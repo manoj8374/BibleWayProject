@@ -1,0 +1,15 @@
+{
+  "title": "Gescheiden Bijbels",
+  "loadingAgeGroups": "Leeftijdsgroepen laden...",
+  "failedToLoadAgeGroups": "Leeftijdsgroepen laden mislukt",
+  "unexpectedErrorLoadingAgeGroups": "Er is een onverwachte fout opgetreden tijdens het laden van leeftijdsgroepen",
+  "noAgeGroupsAvailable": "Geen leeftijdsgroepen beschikbaar",
+  "pleaseSelectCategoryFirst": "Selecteer eerst een categorie",
+  "noBooksAvailable": "Geen boeken beschikbaar voor deze selectie",
+  "failedToFetchBooks": "Boeken ophalen mislukt",
+  "categoryNotFound": "Categorie niet gevonden",
+  "ageGroupNotFound": "Leeftijdsgroep niet gevonden",
+  "languageNotFound": "Taal niet gevonden",
+  "unexpectedErrorFetchingBooks": "Er is een onverwachte fout opgetreden tijdens het ophalen van boeken"
+}
+

@@ -1,0 +1,34 @@
+{
+  "title": "ملاحظات الفصل",
+  "noBookSelected": "لم يتم اختيار كتاب",
+  "selectBookMessage": "الرجاء اختيار كتاب لعرض الملاحظات",
+  "noChapterSelected": "لم يتم اختيار فصل",
+  "selectChapterMessage": "حدد فصلاً لعرض الملاحظات وإنشائها",
+  "loadingNotes": "جارٍ تحميل الملاحظات...",
+  "noNotesYet": "لا توجد ملاحظات بعد",
+  "startWritingMessage": "ابدأ في كتابة أفكارك ورؤاك حول هذا الفصل",
+  "placeholder": "اكتب ملاحظاتك هنا...",
+  "cancel": "إلغاء",
+  "saving": "جارٍ الحفظ...",
+  "updateNote": "تحديث الملاحظة",
+  "saveNote": "حفظ الملاحظة",
+  "editNote": "تحرير الملاحظة",
+  "deleteNote": "حذف الملاحظة",
+  "justNow": "الآن",
+  "note": "ملاحظة",
+  "notes": "ملاحظات",
+  "deleteConfirmation": "هل أنت متأكد أنك تريد حذف هذه الملاحظة؟",
+  "success": {
+    "noteCreated": "تم إنشاء الملاحظة بنجاح",
+    "noteUpdated": "تم تحديث الملاحظة بنجاح",
+    "noteDeleted": "تم حذف الملاحظة بنجاح"
+  },
+  "errors": {
+    "failedToLoad": "فشل تحميل الملاحظات",
+    "failedToCreate": "فشل إنشاء الملاحظة",
+    "failedToUpdate": "فشل تحديث الملاحظة",
+    "failedToDelete": "فشل حذف الملاحظة",
+    "failedToSave": "فشل حفظ الملاحظة"
+  }
+}
+

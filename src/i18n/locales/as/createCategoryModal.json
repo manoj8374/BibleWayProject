@@ -1,0 +1,27 @@
+{
+  "title": "কেটেগৰী সৃষ্টি কৰক",
+  "labels": {
+    "categoryName": "কেটেগৰীৰ নাম *",
+    "description": "বিৱৰণ",
+    "displayOrder": "প্ৰদৰ্শন ক্ৰম",
+    "coverImage": "কভাৰ ছবি"
+  },
+  "placeholders": {
+    "selectCategoryName": "এটা কেটেগৰীৰ নাম নিৰ্বাচন কৰক",
+    "enterDescription": "কেটেগৰীৰ বিৱৰণ সুমুৱাওক (ঐচ্ছিক)"
+  },
+  "selected": "নিৰ্বাচিত:",
+  "buttons": {
+    "cancel": "বাতিল",
+    "createCategory": "কেটেগৰী সৃষ্টি কৰক",
+    "creating": "সৃষ্টি কৰি আছে..."
+  },
+  "errors": {
+    "categoryNameRequired": "কেটেগৰীৰ নাম আবশ্যক",
+    "failedToCreateCategory": "কেটেগৰী সৃষ্টি কৰিবলৈ ব্যৰ্থ",
+    "unexpectedError": "এটা অনাকাংক্ষিত ত্ৰুটি ঘটিল"
+  },
+  "success": {
+    "categoryCreated": "কেটেগৰী সফলভাবে সৃষ্টি কৰা হ'ল"
+  }
+}

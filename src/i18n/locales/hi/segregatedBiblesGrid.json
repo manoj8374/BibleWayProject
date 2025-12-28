@@ -1,0 +1,14 @@
+{
+  "title": "विभाजित बाइबल",
+  "loadingAgeGroups": "आयु समूह लोड हो रहे हैं...",
+  "failedToLoadAgeGroups": "आयु समूह लोड करने में विफल",
+  "unexpectedErrorLoadingAgeGroups": "आयु समूह लोड करते समय एक अप्रत्याशित त्रुटि हुई",
+  "noAgeGroupsAvailable": "कोई आयु समूह उपलब्ध नहीं है",
+  "pleaseSelectCategoryFirst": "कृपया पहले एक श्रेणी चुनें",
+  "noBooksAvailable": "इस चयन के लिए कोई पुस्तक उपलब्ध नहीं है",
+  "failedToFetchBooks": "पुस्तकें प्राप्त करने में विफल",
+  "categoryNotFound": "श्रेणी नहीं मिली",
+  "ageGroupNotFound": "आयु समूह नहीं मिला",
+  "languageNotFound": "भाषा नहीं मिली",
+  "unexpectedErrorFetchingBooks": "पुस्तकें प्राप्त करते समय एक अप्रत्याशित त्रुटि हुई"
+}

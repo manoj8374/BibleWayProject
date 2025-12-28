@@ -1,0 +1,12 @@
+{
+  "loading": "加载评论中...",
+  "error": "加载评论失败",
+  "noComments": "暂无评论。成为第一个发言的人！",
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}}分钟前",
+    "hoursAgo": "{{count}}小时前",
+    "daysAgo": "{{count}}天前"
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "loading": "ल'ड जा़दोंगे...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute खौ ProfileProvider नि फारसे बाहायनाय जायो"
+  },
+  "testimonials": {
+    "title": "गुबुन गाहायथि गेजेर",
+    "pending": "दांखोरोआ",
+    "verified": "सोरगिदिं",
+    "all": "गासै",
+    "loading": "गुबुन गाहायथि ल'ड जा़दोंगे...",
+    "noTestimonials": "गुबुन गाहायथि मोनाखै",
+    "approve": "मान लां",
+    "reject": "गाहाय लां",
+    "processing": "जोंनाम खालामो...",
+    "approvedSuccessfully": "गुबुन गाहायथि सुस्रांनै मान लांबोयो",
+    "rejectedSuccessfully": "गुबुन गाहायथि सुस्रांनै गाहाय लांबोयो",
+    "failedToLoad": "गुबुन गाहायथि ल'ड खालामनो हादों",
+    "failedToApprove": "गुबुन गाहायथि मान लांनो हादों",
+    "failedToReject": "गुबुन गाहायथि गाहाय लांनो हादों",
+    "confirmReject": "नोंथां नागिरना नों बे गुबुन गाहायथि खौ गाहाय लांनो गोनां? बे खामानि एखेथिं लाबोनो हाया।",
+    "previous": "दिगै",
+    "next": "फारसे",
+    "pageInfo": "साहा {{current}} {{total}} निफ्राय"
+  }
+}

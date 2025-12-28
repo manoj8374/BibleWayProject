@@ -1,0 +1,31 @@
+{
+  "title": "Create Daily Quote",
+  "note": "Note: Creating a new verse will clear the existing daily quote. This action cannot be undone. The new quote will be displayed to all users starting immediately.",
+  "labels": {
+    "title": "Title (Optional)",
+    "quoteDescription": "Quote / Description (Required)"
+  },
+  "placeholders": {
+    "title": "e.g. Quote of the day",
+    "quoteDescription": "Enter the scripture or quote here..."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "publishQuote": "Publish Quote",
+    "publishing": "Publishing...",
+    "updateQuote": "Update Quote",
+    "updating": "Updating..."
+  },
+  "errors": {
+    "descriptionRequired": "Description is required",
+    "failedToCreateVerse": "Failed to create verse",
+    "failedToUpdateVerse": "Failed to update verse",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "success": {
+    "verseCreated": "Verse created successfully",
+    "verseUpdated": "Verse updated successfully"
+  },
+  "editTitle": "Edit Verse"
+}
+

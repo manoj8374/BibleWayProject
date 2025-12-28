@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "বই, নাম, লেখক খুঁজুন...",
+  "addNewPost": "নতুন পোস্ট যোগ করুন",
+  "noResultsFound": "কোনো ফলাফল পাওয়া যায়নি",
+  "languageSelector": {
+    "searchLanguages": "ভাষা খুঁজুন...",
+    "noLanguagesFound": "কোন ভাষা পাওয়া যায়নি"
+  },
+  "filter": {
+    "selectLanguage": "ভাষা নির্বাচন করুন",
+    "selectVersion": "বই নির্বাচন করুন"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "अनलाइन",
+    "offline": "अफलाइन"
+  },
+  "messages": {
+    "loading": "खबर ल'ड जा़दोंगे...",
+    "noMessages": "आजिबाव मोनसेबो खबर नङा",
+    "deleted": "बे खबरखौ डिलिट खालामबोयि",
+    "sharedImage": "शेयार खालामनाय सावगारि",
+    "viewAttachment": "एटाचमेन्ट नायना",
+    "seen": "नायबोयि",
+    "deleteMessage": "खबर डिलिट खालाम"
+  },
+  "typing": {
+    "isTyping": "टाइप जा़दोंगे...",
+    "peopleTyping": "मानसिया टाइप जा़दोंगे..."
+  },
+  "input": {
+    "placeholder": "मोनसे खबर टाइप खालाम...",
+    "pressEnterToSend": "थांनायनि थाखाय Enter खालाम"
+  },
+  "deleteModal": {
+    "title": "खबर डिलिट खालामना?",
+    "message": "नोंथां बे खबरखौ डिलिट खालामनो गोसोखैना? बे खामानि गोनांथार खालामनो हाया।",
+    "cancel": "रादायलां",
+    "delete": "डिलिट खालाम"
+  },
+  "uploadModal": {
+    "title": "फाइल थांना",
+    "uploading": "आपल'ड आरो थांदोंगे...",
+    "sendFile": "{{filename}} थांना?",
+    "sending": "थांदोंगे...",
+    "send": "थांना",
+    "cancel": "रादायलां"
+  },
+  "errors": {
+    "fetchConversation": "राव सोरगिदिंनो हाया",
+    "invalidFileType": "जाखां फाइल रोखोम। गोबां सावगारि आरो भिडिअ' जाखां।",
+    "fileSizeExceeded": "फाइलनि साइज 10MB सिमा लोगोसे लांदोंगे।",
+    "uploadFailed": "फाइल आपल'ड हाया",
+    "failedToLoadStickers": "स्टिकार ल'ड खालामनो हाया"
+  },
+  "stickers": {
+    "loading": "स्टिकार ल'ड जा़दोंगे...",
+    "noStickers": "गाहायाव मोनसेबो स्टिकार नङा"
+  }
+}

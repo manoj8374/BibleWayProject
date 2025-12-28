@@ -1,0 +1,26 @@
+{
+  "loading": "Laden...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute muss innerhalb eines ProfileProvider verwendet werden"
+  },
+  "testimonials": {
+    "title": "Testimonials-Verwaltung",
+    "pending": "Ausstehend",
+    "verified": "Verifiziert",
+    "all": "Alle",
+    "loading": "Testimonials laden...",
+    "noTestimonials": "Keine Testimonials gefunden",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "processing": "Wird verarbeitet...",
+    "approvedSuccessfully": "Testimonial erfolgreich genehmigt",
+    "rejectedSuccessfully": "Testimonial erfolgreich abgelehnt",
+    "failedToLoad": "Testimonials konnten nicht geladen werden",
+    "failedToApprove": "Testimonial konnte nicht genehmigt werden",
+    "failedToReject": "Testimonial konnte nicht abgelehnt werden",
+    "confirmReject": "Sind Sie sicher, dass Sie dieses Testimonial ablehnen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "pageInfo": "Seite {{current}} von {{total}}"
+  }
+}

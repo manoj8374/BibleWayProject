@@ -1,0 +1,14 @@
+{
+  "title": "Getrennte Bibeln",
+  "loadingAgeGroups": "Altersgruppen werden geladen...",
+  "failedToLoadAgeGroups": "Altersgruppen konnten nicht geladen werden",
+  "unexpectedErrorLoadingAgeGroups": "Ein unerwarteter Fehler ist beim Laden der Altersgruppen aufgetreten",
+  "noAgeGroupsAvailable": "Keine Altersgruppen verfügbar",
+  "pleaseSelectCategoryFirst": "Bitte wählen Sie zuerst eine Kategorie aus",
+  "noBooksAvailable": "Keine Bücher für diese Auswahl verfügbar",
+  "failedToFetchBooks": "Bücher konnten nicht abgerufen werden",
+  "categoryNotFound": "Kategorie nicht gefunden",
+  "ageGroupNotFound": "Altersgruppe nicht gefunden",
+  "languageNotFound": "Sprache nicht gefunden",
+  "unexpectedErrorFetchingBooks": "Ein unerwarteter Fehler ist beim Abrufen der Bücher aufgetreten"
+}

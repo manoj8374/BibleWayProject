@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "messages": {
+    "loading": "Loading messages...",
+    "noMessages": "No messages yet",
+    "deleted": "This message was deleted",
+    "sharedImage": "Shared image",
+    "viewAttachment": "View Attachment",
+    "seen": "Seen",
+    "deleteMessage": "Delete message"
+  },
+  "typing": {
+    "isTyping": "is typing...",
+    "peopleTyping": "people are typing..."
+  },
+  "input": {
+    "placeholder": "Type a message...",
+    "pressEnterToSend": "Press Enter to send"
+  },
+  "deleteModal": {
+    "title": "Delete Message?",
+    "message": "Are you sure you want to delete this message? This action cannot be undone.",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "uploadModal": {
+    "title": "Send File",
+    "uploading": "Uploading & Sending...",
+    "sendFile": "Send {{filename}}?",
+    "sending": "Sending...",
+    "send": "Send",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "fetchConversation": "Failed to fetch conversation",
+    "invalidFileType": "Invalid file type. Only images and videos are allowed.",
+    "fileSizeExceeded": "File size exceeds 10MB limit.",
+    "uploadFailed": "File upload failed",
+    "failedToLoadStickers": "Failed to load stickers"
+  },
+  "stickers": {
+    "loading": "Loading stickers...",
+    "noStickers": "No stickers available"
+  }
+}
+

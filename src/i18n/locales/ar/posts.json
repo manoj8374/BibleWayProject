@@ -1,0 +1,20 @@
+{
+  "edit": "تعديل",
+  "delete": "حذف",
+  "deleteConfirm": "حذف هذا المنشور؟",
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "likes": "الإعجابات",
+  "like": "إعجاب",
+  "comments": "التعليقات",
+  "comment": "تعليق",
+  "share": "مشاركة",
+  "shares": "المشاركات",
+  "writeComment": "اكتب تعليقاً...",
+  "writeYourComment": "اكتب تعليقك...",
+  "failedToComment": "فشل التعليق",
+  "actionFailed": "فشل الإجراء",
+  "commentAdded": "تمت إضافة التعليق بنجاح",
+  "failedToCreateComment": "فشل إنشاء التعليق",
+  "failedToUpdateLike": "فشل تحديث حالة الإعجاب"
+}

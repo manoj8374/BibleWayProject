@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "অনলাইন",
+    "offline": "অফলাইন"
+  },
+  "messages": {
+    "loading": "বার্তা ল'ড হৈছে...",
+    "noMessages": "এতিয়াও কোনো বার্তা নাই",
+    "deleted": "এই বার্তাটো ডিলিট কৰা হ'ল",
+    "sharedImage": "শ্বেয়াৰ কৰা ছবি",
+    "viewAttachment": "এটাচমেন্ট চাওক",
+    "seen": "দেখা হ'ল",
+    "deleteMessage": "বার্তা ডিলিট কৰক"
+  },
+  "typing": {
+    "isTyping": "টাইপ কৰি আছে...",
+    "peopleTyping": "মানুহে টাইপ কৰি আছে..."
+  },
+  "input": {
+    "placeholder": "এটা বার্তা টাইপ কৰক...",
+    "pressEnterToSend": "পঠাবলৈ Enter টিপক"
+  },
+  "deleteModal": {
+    "title": "বার্তা ডিলিট কৰিব?",
+    "message": "আপুনি নিশ্চিত যে আপুনি এই বার্তাটো ডিলিট কৰিব? এই কাৰ্য্য পুনৰুদ্ধাৰ কৰিব নোৱাৰি।",
+    "cancel": "বাতিল",
+    "delete": "ডিলিট কৰক"
+  },
+  "uploadModal": {
+    "title": "ফাইল পঠাওক",
+    "uploading": "আপলোড আৰু পঠাইছে...",
+    "sendFile": "{{filename}} পঠাব?",
+    "sending": "পঠাইছে...",
+    "send": "পঠাওক",
+    "cancel": "বাতিল"
+  },
+  "errors": {
+    "fetchConversation": "কথোপকথন আনিবলৈ ব্যৰ্থ",
+    "invalidFileType": "অবৈধ ফাইল প্ৰকাৰ। কেৱল ছবি আৰু ভিডিঅ' অনুমোদিত।",
+    "fileSizeExceeded": "ফাইলৰ আকাৰ ১০MB সীমা অতিক্ৰম কৰিছে।",
+    "uploadFailed": "ফাইল আপলোড ব্যৰ্থ",
+    "failedToLoadStickers": "ষ্টিকাৰ ল'ড কৰিবলৈ ব্যৰ্থ"
+  },
+  "stickers": {
+    "loading": "ষ্টিকাৰ ল'ড হৈছে...",
+    "noStickers": "কোনো ষ্টিকাৰ উপলব্ধ নাই"
+  }
+}

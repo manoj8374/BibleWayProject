@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  
+  /* ============================================
+     Bible Way Design Tokens v3.0
+     Luxurious White Theme - "Faithful Elegance"
+     ============================================ */
+  
+  /* Primary Colors - Faithful Elegance Palette */
+  --color-bg: #FFFFFF;
+  --color-surface: #FAFAFA;
+  --color-dark-blue: #0B1E38;
+  --color-maroon: #781C2E;
+  --color-black: #121212;
+  --color-gold: #C9A34F;
+  
+  /* Gray Scale */
+  --color-gray-100: #F5F5F5;
+  --color-gray-300: #DADADA;
+  --color-gray-700: #4E4E4E;
+  --color-gray-900: #1A1A1A;
+  
+  /* Semantic Mappings */
+  --color-white: #FFFFFF;
+  --color-border: #DADADA;
+  --color-muted: #4E4E4E;
+
+  /* Semantic Tokens */
+  --bg-primary: var(--color-bg);
+  --bg-surface: var(--color-surface);
+  --bg-surface-hover: var(--color-gray-100);
+
+  --text-primary: var(--color-black);
+  --text-on-surface: var(--color-black);
+  --text-muted: var(--color-gray-700);
+  --text-on-dark: var(--color-white);
+  --text-on-maroon: var(--color-white);
+
+  --border-default: var(--color-border);
+  --border-focus: var(--color-gold);
+  --border-maroon: var(--color-maroon);
+  --border-gold: var(--color-gold);
+
+  /* Button Tokens - Luxurious White Theme */
+  --btn-primary-bg: var(--color-maroon);
+  --btn-primary-bg-hover: var(--color-dark-blue);
+  --btn-primary-text: var(--color-white);
+  --btn-primary-outline-hover: var(--color-gold);
+  
+  --btn-secondary-bg: transparent;
+  --btn-secondary-border: var(--color-dark-blue);
+  --btn-secondary-text: var(--color-dark-blue);
+  --btn-secondary-hover-bg: rgba(11, 30, 56, 0.05);
+  --btn-secondary-hover-text: var(--color-maroon);
+  
+  --btn-ghost-text: var(--color-maroon);
+  --btn-ghost-hover-text: var(--color-gold);
+  
+  --btn-gold-bg: var(--color-gold);
+  --btn-gold-text: var(--color-black);
+  --btn-gold-hover-bg: var(--color-maroon);
+  --btn-gold-hover-text: var(--color-white);
+
+  /* Shadow Tokens - Soft & Elegant */
+  --shadow-card: 0 2px 12px rgba(18, 18, 18, 0.08);
+  --shadow-card-hover: 0 8px 24px rgba(18, 18, 18, 0.12);
+  --shadow-cta-primary: 0 4px 16px rgba(120, 28, 46, 0.15);
+  --shadow-gold-glow: 0 0 20px rgba(201, 163, 79, 0.3);
+  --shadow-maroon-ambient: 0 4px 20px rgba(120, 28, 46, 0.12);
+
+  /* Overlay */
+  --overlay-modal: rgba(11, 30, 56, 0.8);
+
+  /* Legacy Token Mapping (backward compatibility) */
+  --bg: var(--bg-primary);
+  --surface: var(--bg-surface);
+  --text: var(--text-primary);
+  --muted: var(--color-muted);
+  --primary: var(--color-maroon);
+  --accent: var(--color-gold);
+  --accent-2: var(--color-dark-blue);
+  --shadow: var(--shadow-card);
+  
+  /* Hero Tokens */
+  --hero-bg: var(--bg-primary);
+  --hero-text: var(--text-primary);
+  --hero-accent: var(--color-gold);
+  --hero-cta: var(--btn-primary-bg);
+  --hero-cta-text: var(--btn-primary-text);
+  --hero-ghost-border: var(--border-default);
+  
+  /* Typography Scale */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Shadcn UI Compatibility Tokens */
+  --background: var(--bg-primary);
+  --foreground: var(--text-primary);
+  --card: var(--bg-surface);
+  --card-foreground: var(--text-on-surface);
+  --popover: var(--bg-surface);
+  --popover-foreground: var(--text-primary);
+  --primary: var(--color-maroon);
+  --primary-foreground: var(--color-white);
+  --secondary: var(--color-dark-blue);
+  --secondary-foreground: var(--color-white);
+  --muted: var(--color-gray-100);
+  --muted-foreground: var(--color-gray-700);
+  --accent: var(--color-gold);
+  --accent-foreground: var(--color-black);
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: var(--border-default);
+  --input: var(--bg-surface);
+  --input-background: var(--color-white);
+  --switch-background: var(--color-maroon);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: var(--border-focus);
+  --chart-1: var(--color-maroon);
+  --chart-2: var(--color-dark-blue);
+  --chart-3: var(--color-gold);
+  --chart-4: var(--color-gray-700);
+  --chart-5: var(--color-gray-300);
+  --radius: 0.75rem;
+  --sidebar: var(--bg-surface);
+  --sidebar-foreground: var(--text-primary);
+  --sidebar-primary: var(--color-maroon);
+  --sidebar-primary-foreground: var(--color-white);
+  --sidebar-accent: var(--color-gray-100);
+  --sidebar-accent-foreground: var(--text-primary);
+  --sidebar-border: var(--border-default);
+  --sidebar-ring: var(--border-focus);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+  }
+  
+  .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--text-primary);
+    line-height: 1.2;
+  }
+  
+  /* Luxurious accents */
+  .gold-accent {
+    color: var(--color-gold);
+  }
+  
+  .maroon-accent {
+    color: var(--color-maroon);
+  }
+  
+  .divider-gold {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+    opacity: 0.6;
+  }
+  
+  .divider-maroon {
+    height: 1px;
+    width: 96px;
+    background: linear-gradient(90deg, transparent, var(--color-maroon), transparent);
+    opacity: 0.6;
+    margin: 0 auto;
+  }
+  
+  .section-dark {
+    background: var(--color-dark-blue);
+    color: var(--text-on-dark);
+  }
+  
+  /* Gradient text */
+  .gradient-text-maroon-gold {
+    background: linear-gradient(135deg, var(--color-maroon), var(--color-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Card premium variant */
+  .card-premium {
+    border-left: 4px solid var(--color-maroon);
+    background: linear-gradient(to right, rgba(120, 28, 46, 0.02), transparent);
+  }
+  
+  /* Smooth transitions */
+  * {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/**
+ * Base typography. This is not applied to elements which have an ancestor with a Tailwind text class.
+ */
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    label {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    button {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    input {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}

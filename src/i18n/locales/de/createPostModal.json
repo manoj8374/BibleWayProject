@@ -1,0 +1,27 @@
+{
+  "title": "Beitrag erstellen",
+  "labels": {
+    "title": "Titel",
+    "description": "Beschreibung"
+  },
+  "placeholders": {
+    "enterPostTitle": "Beitragstitel eingeben...",
+    "enterDescription": "Ich habe einen Job bei Google bekommen..."
+  },
+  "upload": {
+    "uploadFiles": "Laden Sie Ihre Dateien hier hoch (Max. 5)",
+    "addMoreFiles": "+ Weitere Dateien hinzufügen"
+  },
+  "buttons": {
+    "createPost": "Beitrag erstellen",
+    "creating": "Wird erstellt..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Sie können maximal 5 Dateien hochladen.",
+    "atLeastOneFile": "Bitte laden Sie mindestens eine Mediendatei hoch.",
+    "failedToCreatePost": "Beitrag konnte nicht erstellt werden."
+  },
+  "success": {
+    "postCreated": "Beitrag erfolgreich erstellt!"
+  }
+}

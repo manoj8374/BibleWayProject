@@ -1,0 +1,47 @@
+{
+  "title": "పుస్తకాన్ని అప్‌లోడ్ చేయండి",
+  "labels": {
+    "sourceFile": "సోర్స్ ఫైల్ (.md) *",
+    "coverImage": "కవర్ చిత్రం",
+    "category": "కేటగరీ *",
+    "ageGroup": "వయస్సు గ్రూప్ *",
+    "language": "భాష *",
+    "bookTitle": "శీర్షిక *",
+    "description": "వివరణ",
+    "bookOrder": "పుస్తక క్రమం"
+  },
+  "placeholders": {
+    "selectCategory": "కేటగరీని ఎంచుకోండి",
+    "selectAgeGroup": "వయస్సు గ్రూప్‌ను ఎంచుకోండి",
+    "selectLanguage": "భాషను ఎంచుకోండి",
+    "enterBookTitle": "పుస్తక శీర్షికను నమోదు చేయండి",
+    "enterBookDescription": "పుస్తక వివరణను నమోదు చేయండి (ఐచ్ఛికం)"
+  },
+  "loading": {
+    "categories": "కేటగరీలు లోడ్ అవుతోంది...",
+    "ageGroups": "వయస్సు గ్రూప్‌లు లోడ్ అవుతోంది...",
+    "languages": "భాషలు లోడ్ అవుతోంది...",
+    "uploading": "అప్‌లోడ్ అవుతోంది..."
+  },
+  "selected": "ఎంచుకోబడింది:",
+  "buttons": {
+    "cancel": "రద్దు చేయి",
+    "uploadBook": "పుస్తకాన్ని అప్‌లోడ్ చేయండి"
+  },
+  "errors": {
+    "sourceFileRequired": "సోర్స్ ఫైల్ అవసరం",
+    "titleRequired": "శీర్షిక అవసరం",
+    "categoryRequired": "కేటగరీ అవసరం",
+    "ageGroupRequired": "వయస్సు గ్రూప్ అవసరం",
+    "languageRequired": "భాష అవసరం",
+    "failedToLoadCategories": "కేటగరీలను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToLoadAgeGroups": "వయస్సు గ్రూప్‌లను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToLoadLanguages": "భాషలను లోడ్ చేయడంలో విఫలమైంది",
+    "failedToUploadBook": "పుస్తకాన్ని అప్‌లోడ్ చేయడంలో విఫలమైంది",
+    "unexpectedError": "అనూహ్యమైన దోషం సంభవించింది"
+  },
+  "success": {
+    "bookCreated": "పుస్తకం విజయవంతంగా సృష్టించబడింది"
+  }
+}
+

@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "متصل",
+    "offline": "غير متصل"
+  },
+  "messages": {
+    "loading": "جاري تحميل الرسائل...",
+    "noMessages": "لا توجد رسائل بعد",
+    "deleted": "تم حذف هذه الرسالة",
+    "sharedImage": "صورة مشتركة",
+    "viewAttachment": "عرض المرفق",
+    "seen": "تمت القراءة",
+    "deleteMessage": "حذف الرسالة"
+  },
+  "typing": {
+    "isTyping": "يكتب...",
+    "peopleTyping": "أشخاص يكتبون..."
+  },
+  "input": {
+    "placeholder": "اكتب رسالة...",
+    "pressEnterToSend": "اضغط Enter للإرسال"
+  },
+  "deleteModal": {
+    "title": "حذف الرسالة؟",
+    "message": "هل أنت متأكد أنك تريد حذف هذه الرسالة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "delete": "حذف"
+  },
+  "uploadModal": {
+    "title": "إرسال ملف",
+    "uploading": "جاري الرفع والإرسال...",
+    "sendFile": "إرسال {{filename}}؟",
+    "sending": "جاري الإرسال...",
+    "send": "إرسال",
+    "cancel": "إلغاء"
+  },
+  "errors": {
+    "fetchConversation": "فشل في جلب المحادثة",
+    "invalidFileType": "نوع الملف غير صالح. يُسمح بالصور والفيديوهات فقط.",
+    "fileSizeExceeded": "حجم الملف يتجاوز حد 10 ميجابايت.",
+    "uploadFailed": "فشل رفع الملف",
+    "failedToLoadStickers": "فشل تحميل الملصقات"
+  },
+  "stickers": {
+    "loading": "جاري تحميل الملصقات...",
+    "noStickers": "لا توجد ملصقات متاحة"
+  }
+}

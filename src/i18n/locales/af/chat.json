@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Aanlyn",
+    "offline": "Aflyn"
+  },
+  "messages": {
+    "loading": "Laai boodskappe...",
+    "noMessages": "Nog geen boodskappe nie",
+    "deleted": "Hierdie boodskap is uitgevee",
+    "sharedImage": "Gedeelde beeld",
+    "viewAttachment": "Bekyk Bylae",
+    "seen": "Gesien",
+    "deleteMessage": "Vee boodskap uit"
+  },
+  "typing": {
+    "isTyping": "tik...",
+    "peopleTyping": "mense tik..."
+  },
+  "input": {
+    "placeholder": "Tik 'n boodskap...",
+    "pressEnterToSend": "Druk Enter om te stuur"
+  },
+  "deleteModal": {
+    "title": "Vee Boodskap Uit?",
+    "message": "Is jy seker jy wil hierdie boodskap uitvee? Hierdie aksie kan nie ongedaan gemaak word nie.",
+    "cancel": "Kanselleer",
+    "delete": "Vee Uit"
+  },
+  "uploadModal": {
+    "title": "Stuur Lêer",
+    "uploading": "Oplaai & Stuur...",
+    "sendFile": "Stuur {{filename}}?",
+    "sending": "Stuur...",
+    "send": "Stuur",
+    "cancel": "Kanselleer"
+  },
+  "errors": {
+    "fetchConversation": "Konversasie kon nie gehaal word nie",
+    "invalidFileType": "Ongeldige lêertipe. Slegs beelde en video's word toegelaat.",
+    "fileSizeExceeded": "Lêergrootte oorskry 10MB limiet.",
+    "uploadFailed": "Lêeroplaai het misluk",
+    "failedToLoadStickers": "Kon nie plakkers laai nie"
+  },
+  "stickers": {
+    "loading": "Laai plakkers...",
+    "noStickers": "Geen plakkers beskikbaar nie"
+  }
+}

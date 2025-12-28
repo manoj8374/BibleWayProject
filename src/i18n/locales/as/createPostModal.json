@@ -1,0 +1,27 @@
+{
+  "title": "প'ষ্ট সৃষ্টি কৰক",
+  "labels": {
+    "title": "শিৰোনামা",
+    "description": "বিৱৰণ"
+  },
+  "placeholders": {
+    "enterPostTitle": "প'ষ্টৰ শিৰোনামা সুমুৱাওক...",
+    "enterDescription": "মই Google-ত চাকৰি পাইছো..."
+  },
+  "upload": {
+    "uploadFiles": "আপোনাৰ ফাইলসমূহ ইয়াত আপলোড কৰক (সৰ্বাধিক ৫)",
+    "addMoreFiles": "+ অধিক ফাইল যোগ কৰক"
+  },
+  "buttons": {
+    "createPost": "প'ষ্ট সৃষ্টি কৰক",
+    "creating": "সৃষ্টি কৰি আছে..."
+  },
+  "errors": {
+    "maxFilesExceeded": "আপুনি সৰ্বাধিক ৫টা ফাইল আপলোড কৰিব পাৰে।",
+    "atLeastOneFile": "অনুগ্ৰহ কৰি কমেও এটা মিডিয়া ফাইল আপলোড কৰক।",
+    "failedToCreatePost": "প'ষ্ট সৃষ্টি কৰিবলৈ ব্যৰ্থ।"
+  },
+  "success": {
+    "postCreated": "প'ষ্ট সফলভাবে সৃষ্টি কৰা হ'ল!"
+  }
+}
