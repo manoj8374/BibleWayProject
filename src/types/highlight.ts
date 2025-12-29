@@ -1,25 +1,32 @@
 export interface Highlight {
-  id: string;                    // UUID for highlight
+  highlight_id?: string;         // UUID for highlight (from API)
+  id?: string;                   // UUID for highlight (for compatibility)
   blockId?: string;              // Which block contains this (legacy, for backward compatibility)
-  start_block_id?: string;       // Block ID where highlight starts
-  end_block_id?: string;         // Block ID where highlight ends
-  startOffset: number;           // Character start position
-  endOffset: number;             // Character end position
+  start_block_id?: string | null;       // Block ID where highlight starts
+  end_block_id?: string | null;         // Block ID where highlight ends
+  startOffset?: number;          // Character start position (for internal use)
+  endOffset?: number;            // Character end position (for internal use)
   start_offset?: string;         // Start offset as string (from API)
   end_offset?: string;           // End offset as string (from API)
-  color: string;                 // Highlight color (#FEF08A, etc.)
-  text: string;                  // Actual highlighted text
+  color: string;                 // Highlight color (yellow, green, blue, etc.)
+  text?: string;                 // Actual highlighted text (optional, for internal use)
   note?: string;                 // Optional note
-  createdAt: string;             // ISO timestamp
-  userId: string;                // Who created it
-  chapterId: string;             // Which chapter
-  bookId: string;                // Which book
+  created_at?: string;           // ISO timestamp (from API)
+  createdAt?: string;            // ISO timestamp (for compatibility)
+  updated_at?: string;           // ISO timestamp (from API)
+  userId?: string;               // Who created it (for internal use)
+  chapter_id?: string | null;    // Which chapter (from API)
+  chapterId?: string;            // Which chapter (for compatibility)
+  book_id?: string;              // Which book (from API)
+  bookId?: string;               // Which book (for compatibility)
 }
 
 export interface CreateHighlightRequest {
   book_id: string;
   chapter_id: string;
   block_id?: string;
+  start_block_id?: string;
+  end_block_id?: string;
   start_offset: string;
   end_offset: string;
   color?: string;
@@ -48,6 +55,17 @@ export interface CreateHighlightResponse {
 export interface UpdateHighlightRequest {
   color?: string;
   note?: string;
+}
+
+export interface DeleteHighlightRequest {
+  highlight_id: string;
+}
+
+export interface DeleteHighlightResponse {
+  success: boolean;
+  message?: string;
+  error?: string;
+  error_code?: string;
 }
 
 export interface HighlightOffsets {

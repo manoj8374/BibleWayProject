@@ -470,3 +470,75 @@ export const HeaderActions = styled.div`
   margin-top: 16px;
   flex-wrap: wrap;
 `;
+
+export const HighlightButton = styled.button<{ $isActive: boolean }>`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: ${props => props.$isActive ? "#0860C4" : "transparent"};
+  color: ${props => props.$isActive ? "white" : "#0860C4"};
+  border: 1px solid #0860C4;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 16px;
+
+  &:hover {
+    background: ${props => props.$isActive ? "#0651a8" : "#0860C4"};
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+`;
+
+export const ColorPickerContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+`;
+
+export const ColorPickerLabel = styled.label`
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  white-space: nowrap;
+`;
+
+export const ColorOptions = styled.div`
+  display: flex;
+  gap: 8px;
+  align-items: center;
+`;
+
+export const ColorOption = styled.button<{ $color: string; $isSelected: boolean }>`
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 3px solid ${props => props.$isSelected ? "#0860C4" : "transparent"};
+  background-color: ${props => props.$color};
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: ${props => props.$isSelected ? "0 0 0 2px white, 0 0 0 4px #0860C4" : "0 2px 4px rgba(0, 0, 0, 0.1)"};
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+`;

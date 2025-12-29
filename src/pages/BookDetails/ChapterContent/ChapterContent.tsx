@@ -32,11 +32,13 @@ import {
   PageWrapper,
   PagePlayButton,
   LoadingSpinner,
-  LanguageDropdownContainer,
-  LanguageLabel,
-  LanguageSelect,
   BookmarkButton,
   HeaderActions,
+  HighlightButton,
+  ColorPickerContainer,
+  ColorPickerLabel,
+  ColorOptions,
+  ColorOption,
 } from "./ChapterContent.styles";
 import { markdownToHtml } from "../../../utils/markdown/markdownToHTML";
 import "github-markdown-css/github-markdown-light.css";
@@ -63,31 +65,17 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const observerRef = useRef<IntersectionObserver | null>(null);
   const progressUpdateTimeout = useRef<NodeJS.Timeout | null>(null);
 
-  const [colorWantToApply, setColorWantToApply] = useState<string>("");
-
   const { searchText } = useSearch();
   const { isBookmarked, setIsBookmarked, setBookmarkId } = useBook();
 
   const highlightQuery = searchText;
 
+  const [isHighlightMode, setIsHighlightMode] = useState(false);
   const [selectedColor, setSelectedColor] = useState<
     "yellow" | "green" | "blue"
   >("green");
   const [isBookmarking, setIsBookmarking] = useState(false);
-  const [highlights, setHighlights] = useState<Highlight[]>([
-    {
-      id: "1",
-      blockId: "1",
-      startOffset: 0,
-      endOffset: 100,
-      color: "#FEF08A",
-      text: "This is a highlight",
-      createdAt: new Date().toISOString(),
-      userId: "1",
-      chapterId: "1",
-      bookId: "1",
-    },
-  ]);
+  const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [isLoadingHighlights, setIsLoadingHighlights] = useState(false);
 
 
@@ -139,7 +127,11 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       range.setEnd(node, end);
 
       const span = document.createElement("span");
-      span.className = `highlight highlight-${color}`;
+      span.className = "highlight";
+      // Apply hex color as inline style for flexibility
+      span.style.backgroundColor = color;
+      span.style.padding = "0 2px";
+      span.style.borderRadius = "3px";
       range.surroundContents(span);
     }
   }
@@ -156,18 +148,22 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     });
   }
 
-  useEffect(() => {
-    //every 3 selecods change the color
-    // const interval = setInterval(() => {
-    //   setColorWantToApply((prev) => {
-    //     return prev === "yellow" ? "green" : prev === "green" ? "blue" : "yellow";
-    //   });
-    // }, 3000);
-    // return () => clearInterval();
-  },[colorWantToApply]);
-
   /* ---------------- Text selection highlight ---------------- */
 
+  // Load highlights from API
+  const loadHighlightsFromAPI = useCallback(async (bookId: string, chapterId: string) => {
+    setIsLoadingHighlights(true);
+    try {
+      const loadedHighlights = await highlightService.getHighlightsByChapter(bookId, chapterId);
+      setHighlights(loadedHighlights);
+    } catch (error) {
+      console.error("Error loading highlights:", error);
+      showError("Failed to load highlights");
+      setHighlights([]);
+    } finally {
+      setIsLoadingHighlights(false);
+    }
+  }, []);
 
   function highlightByBlockIds({
   startBlockId,
@@ -226,29 +222,10 @@ function getBlockTextLength(block: HTMLElement) {
   return len;
 }
 
-// useLayoutEffect(() => {
-//   const h = {
-//   "book_id": "1f0775ae-11c1-4694-8a83-2041052da052",
-//   "chapter_id": "1b867c50-eb27-4dad-b31e-62e1b4c7ebb8",
-//   "start_block_id": "block-0",
-//   "end_block_id": "block-7",
-//   "start_offset": "0",
-//   "end_offset": "12",
-//   "color": "#86EFAC"
-// }
+  const handleMouseUp = () => {
+      // Only create highlights if highlight mode is active
+      if (!isHighlightMode) return;
 
-//   highlightByBlockIds({
-//     startBlockId: h.start_block_id,
-//     endBlockId: h.end_block_id,
-//     startOffset: parseInt(h.start_offset),
-//     endOffset: parseInt(h.end_offset),
-//     color: "orange",
-//   });
-// }, [highlights, chapter]);
-
-
-
-   const handleMouseUp = () => {
       const selection = window.getSelection();
       if (!selection || selection.rangeCount === 0) return;
 
@@ -284,58 +261,58 @@ function getBlockTextLength(block: HTMLElement) {
         Math.max(startIndex, endIndex) + 1
       );
 
-      let startBlockTotalLength = 0;
+      // Calculate startOffset (relative to start block)
+      let startOffset = 0;
       const startBlockWalker = document.createTreeWalker(
         startBlock,
         NodeFilter.SHOW_TEXT,
         null
       );
+      let startOffsetCalc = 0;
       while (startBlockWalker.nextNode()) {
         const node = startBlockWalker.currentNode as Text;
-        startBlockTotalLength += node.length;
+        if (node === range.startContainer) {
+          startOffset = startOffsetCalc + range.startOffset;
+          break;
+        }
+        startOffsetCalc += node.length;
       }
 
-      let startOffset = 0;
+      // Calculate endOffset (relative to end block)
       let endOffset = 0;
-
-      orderedBlocks.forEach((block) => {
-        const walker = document.createTreeWalker(
-          block,
+      if (startBlockId === endBlockId) {
+        // Same block - calculate endOffset relative to start block
+        const endBlockWalker = document.createTreeWalker(
+          endBlock,
           NodeFilter.SHOW_TEXT,
           null
         );
-        let offset = 0;
-        let start = 0;
-        let end = 0;
-
-        while (walker.nextNode()) {
-          const node = walker.currentNode as Text;
-
-          if (block === startBlock && node === range.startContainer) {
-            start = offset + range.startOffset;
-            startOffset = start;
-          }
-
-          if (block === endBlock && node === range.endContainer) {
-            end = offset + range.endOffset;
-            if (startBlockId === endBlockId) {
-              endOffset = end;
-            } else {
-              endOffset = startBlockTotalLength;
-            }
+        let endOffsetCalc = 0;
+        while (endBlockWalker.nextNode()) {
+          const node = endBlockWalker.currentNode as Text;
+          if (node === range.endContainer) {
+            endOffset = endOffsetCalc + range.endOffset;
             break;
           }
-
-          offset += node.length;
+          endOffsetCalc += node.length;
         }
-
-        if (block !== startBlock) start = 0;
-        if (block !== endBlock) end = offset;
-
-        if (start < end) {
-          highlightByOffsets(block, start, end, colorWantToApply);
+      } else {
+        // Different blocks - calculate endOffset relative to end block
+        const endBlockWalker = document.createTreeWalker(
+          endBlock,
+          NodeFilter.SHOW_TEXT,
+          null
+        );
+        let endOffsetCalc = 0;
+        while (endBlockWalker.nextNode()) {
+          const node = endBlockWalker.currentNode as Text;
+          if (node === range.endContainer) {
+            endOffset = endOffsetCalc + range.endOffset;
+            break;
+          }
+          endOffsetCalc += node.length;
         }
-      });
+      }
 
       // Map color to hex values
       const colorMap: Record<string, string> = {
@@ -345,9 +322,9 @@ function getBlockTextLength(block: HTMLElement) {
       };
       const hexColor = colorMap[selectedColor] || colorMap.green;
 
-      // Prepare API request data
+      // Create highlight via API
       if (chapter) {
-        const highlightData = {
+        const highlightRequest = {
           book_id: chapter.book_id,
           chapter_id: chapter.chapter_id,
           start_block_id: startBlockId,
@@ -356,6 +333,31 @@ function getBlockTextLength(block: HTMLElement) {
           end_offset: endOffset.toString(),
           color: hexColor,
         };
+
+        // Save highlight to backend
+        highlightService.createHighlight(highlightRequest)
+          .then((highlightId) => {
+            if (highlightId) {
+              // Apply highlight to DOM after successful save
+              highlightByBlockIds({
+                startBlockId,
+                endBlockId,
+                startOffset,
+                endOffset,
+                color: hexColor,
+              });
+
+              // Reload highlights from API to get the complete highlight object
+              loadHighlightsFromAPI(chapter.book_id, chapter.chapter_id);
+              showSuccess("Highlight saved");
+            } else {
+              showError("Failed to save highlight");
+            }
+          })
+          .catch((error) => {
+            console.error("Error creating highlight:", error);
+            showError("Failed to save highlight");
+          });
       }
 
       selection.removeAllRanges();
@@ -364,13 +366,53 @@ function getBlockTextLength(block: HTMLElement) {
   useEffect(() => {
     document.addEventListener("mouseup", handleMouseUp);
     return () => document.removeEventListener("mouseup", handleMouseUp);
-  }, [selectedColor, chapter]);
+  }, [isHighlightMode, selectedColor, chapter, loadHighlightsFromAPI]);
 
+  // Load highlights from API when chapter changes
   useEffect(() => {
-    if (!chapter) return;
-    removeAllHighlightsFromDOM();
-    setHighlights([]);
-  }, [chapter]);
+    if (!chapter?.chapter_id || !chapter?.book_id) return;
+    loadHighlightsFromAPI(chapter.book_id, chapter.chapter_id);
+  }, [chapter?.chapter_id, chapter?.book_id, loadHighlightsFromAPI]);
+
+  const blocks =
+    (chapter?.metadata as { blocks?: Block[] } | undefined)?.blocks || [];
+
+  // Apply loaded highlights to DOM after blocks are rendered
+  useLayoutEffect(() => {
+    if (!chapter || highlights.length === 0 || blocks.length === 0) return;
+
+    // Wait for blocks to be rendered in DOM
+    const timer = setTimeout(() => {
+      removeAllHighlightsFromDOM();
+
+      highlights.forEach((highlight) => {
+        // Handle null values from API - skip if block IDs are null
+        const startBlockId = highlight.start_block_id ?? highlight.blockId ?? null;
+        const endBlockId = highlight.end_block_id ?? highlight.blockId ?? null;
+        
+        if (!startBlockId || !endBlockId) {
+          return; // Skip highlights without valid block IDs
+        }
+        
+        const startOffset = typeof highlight.startOffset === 'number' 
+          ? highlight.startOffset 
+          : parseInt(highlight.start_offset || "0", 10);
+        const endOffset = typeof highlight.endOffset === 'number'
+          ? highlight.endOffset
+          : parseInt(highlight.end_offset || "0", 10);
+
+        highlightByBlockIds({
+          startBlockId,
+          endBlockId,
+          startOffset,
+          endOffset,
+          color: highlight.color,
+        });
+      });
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [chapter, highlights, blocks]);
 
   /* ---------------- Check Bookmark Status on Chapter Load ---------------- */
   useEffect(() => {
@@ -399,9 +441,6 @@ function getBlockTextLength(block: HTMLElement) {
     checkBookmarkStatus();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapter?.book_id]);
-
-  const blocks =
-    (chapter?.metadata as { blocks?: Block[] } | undefined)?.blocks || [];
 
   const processedBlocks = useMemo(() => {
     return blocks.map((block) => {
@@ -795,6 +834,53 @@ function getBlockTextLength(block: HTMLElement) {
               ))}
             </LanguageSelect>
           </LanguageDropdownContainer> */}
+          
+          <HighlightButton
+            $isActive={isHighlightMode}
+            onClick={() => setIsHighlightMode(!isHighlightMode)}
+            title={isHighlightMode ? "Disable highlight mode" : "Enable highlight mode"}
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+              />
+            </svg>
+            <span>{isHighlightMode ? "Highlighting" : "Highlight"}</span>
+          </HighlightButton>
+
+          {isHighlightMode && (
+            <ColorPickerContainer>
+              <ColorPickerLabel>Color:</ColorPickerLabel>
+              <ColorOptions>
+                <ColorOption
+                  $color="#FEF08A"
+                  $isSelected={selectedColor === "yellow"}
+                  onClick={() => setSelectedColor("yellow")}
+                  title="Yellow"
+                />
+                <ColorOption
+                  $color="#86EFAC"
+                  $isSelected={selectedColor === "green"}
+                  onClick={() => setSelectedColor("green")}
+                  title="Green"
+                />
+                <ColorOption
+                  $color="#93C5FD"
+                  $isSelected={selectedColor === "blue"}
+                  onClick={() => setSelectedColor("blue")}
+                  title="Blue"
+                />
+              </ColorOptions>
+            </ColorPickerContainer>
+          )}
           
           <BookmarkButton
             $isBookmarked={isBookmarked}

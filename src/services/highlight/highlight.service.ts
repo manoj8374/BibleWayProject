@@ -3,9 +3,10 @@ import type {
   Highlight, 
   CreateHighlightRequest,
   CreateHighlightResponse,
-  UpdateHighlightRequest 
+  DeleteHighlightRequest,
+  DeleteHighlightResponse
 } from '../../types/highlight';
-import { CREATE_HIGHLIGHT, GET_HIGHLIGHTS_BY_CHAPTER } from '../../constants/ApiUrls';
+import { CREATE_HIGHLIGHT } from '../../constants/ApiUrls';
 
 interface GetHighlightsResponse {
   success: boolean;
@@ -15,37 +16,16 @@ interface GetHighlightsResponse {
   error_code?: string;
 }
 
-interface GetHighlightResponse {
-  success: boolean;
-  message?: string;
-  data: Highlight;
-  error?: string;
-  error_code?: string;
-}
-
-interface UpdateHighlightResponse {
-  success: boolean;
-  message?: string;
-  data: Highlight;
-  error?: string;
-  error_code?: string;
-}
-
-interface DeleteHighlightResponse {
-  success: boolean;
-  message?: string;
-  error?: string;
-  error_code?: string;
-}
 
 export const highlightService = {
   /**
-   * Get all highlights for a specific chapter
+   * Get all highlights for a specific book
+   * Note: API returns highlights for the book, filter by chapter_id on frontend if needed
    */
-  getHighlightsByChapter: async (chapterId: string): Promise<Highlight[]> => {
+  getHighlightsByBook: async (bookId: string): Promise<Highlight[]> => {
     try {
       const response = await api.get<GetHighlightsResponse>(
-        `/highlights/chapter/${chapterId}`,
+        `/highlight/book/${bookId}`,
         {
           headers: {
             'ngrok-skip-browser-warning': 'true'
@@ -54,7 +34,20 @@ export const highlightService = {
       );
 
       if (response.data.success) {
-        return response.data.data;
+        // Normalize the API response to match our Highlight interface
+        return response.data.data.map((h: any) => ({
+          ...h,
+          id: h.highlight_id || h.id,
+          highlight_id: h.highlight_id,
+          chapterId: h.chapter_id || h.chapterId,
+          bookId: h.book_id || h.bookId,
+          createdAt: h.created_at || h.createdAt,
+          startOffset: h.start_offset ? parseInt(h.start_offset, 10) : undefined,
+          endOffset: h.end_offset ? parseInt(h.end_offset, 10) : undefined,
+          // Handle null values from API
+          start_block_id: h.start_block_id ?? null,
+          end_block_id: h.end_block_id ?? null,
+        }));
       }
 
       console.error('Failed to fetch highlights:', response.data.message);
@@ -66,33 +59,25 @@ export const highlightService = {
   },
 
   /**
-   * Get all highlights for a specific book
+   * Get all highlights for a specific chapter
+   * Fetches all book highlights and filters by chapter_id
    */
-  getHighlightsByBook: async (bookId: string): Promise<Highlight[]> => {
+  getHighlightsByChapter: async (bookId: string, chapterId: string): Promise<Highlight[]> => {
     try {
-      const response = await api.get<GetHighlightsResponse>(
-        `/highlights/book/${bookId}`,
-        {
-          headers: {
-            'ngrok-skip-browser-warning': 'true'
-          }
-        }
+      const allHighlights = await highlightService.getHighlightsByBook(bookId);
+      // Filter highlights for the specific chapter
+      return allHighlights.filter(
+        (h) => h.chapter_id === chapterId || h.chapterId === chapterId
       );
-
-      if (response.data.success) {
-        return response.data.data;
-      }
-
-      console.error('Failed to fetch highlights:', response.data.message);
-      return [];
     } catch (error) {
-      console.error('Error fetching highlights:', error);
+      console.error('Error fetching highlights by chapter:', error);
       return [];
     }
   },
 
   /**
    * Create a new highlight
+   * POST /highlight/create
    */
   createHighlight: async (highlight: CreateHighlightRequest): Promise<string | null> => {
     try {
@@ -101,7 +86,7 @@ export const highlightService = {
         highlight
       );
 
-      if (response.data.success) {
+      if (response.data.success && response.data.highlight_id) {
         return response.data.highlight_id;
       }
 
@@ -114,37 +99,18 @@ export const highlightService = {
   },
 
   /**
-   * Update an existing highlight
-   */
-  updateHighlight: async (
-    highlightId: string,
-    updates: UpdateHighlightRequest
-  ): Promise<Highlight | null> => {
-    try {
-      const response = await api.patch<UpdateHighlightResponse>(
-        `/highlights/${highlightId}`,
-        updates
-      );
-
-      if (response.data.success) {
-        return response.data.data;
-      }
-
-      console.error('Failed to update highlight:', response.data.message);
-      return null;
-    } catch (error) {
-      console.error('Error updating highlight:', error);
-      return null;
-    }
-  },
-
-  /**
    * Delete a highlight
+   * DELETE /highlight/delete
    */
   deleteHighlight: async (highlightId: string): Promise<boolean> => {
     try {
       const response = await api.delete<DeleteHighlightResponse>(
-        `/highlights/${highlightId}`
+        '/highlight/delete',
+        {
+          data: {
+            highlight_id: highlightId
+          } as DeleteHighlightRequest
+        }
       );
 
       if (response.data.success) {
@@ -156,32 +122,6 @@ export const highlightService = {
     } catch (error) {
       console.error('Error deleting highlight:', error);
       return false;
-    }
-  },
-
-  /**
-   * Get a single highlight by ID
-   */
-  getHighlightById: async (highlightId: string): Promise<Highlight | null> => {
-    try {
-      const response = await api.get<GetHighlightResponse>(
-        `/highlights/${highlightId}`,
-        {
-          headers: {
-            'ngrok-skip-browser-warning': 'true'
-          }
-        }
-      );
-
-      if (response.data.success) {
-        return response.data.data;
-      }
-
-      console.error('Failed to fetch highlight:', response.data.message);
-      return null;
-    } catch (error) {
-      console.error('Error fetching highlight:', error);
-      return null;
     }
   }
 };
