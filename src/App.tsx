@@ -19,6 +19,7 @@ import PublicRoute from "./components/PublicRoute/index";
 import { ProfileProvider } from "./contexts/ProfileContext";
 import { SearchProvider } from "./contexts/SearchContext";
 import { BookProvider } from "./contexts/BookContext";
+import { RefreshProvider } from "./contexts/RefreshContext";
 import BibleViewer from "./pages/BibleViewer";
 import VersesPage from "./pages/VersesPage/VersesPage";
 import DownloadsPage from "./pages/DownloadsPage/DownloadsPage";
@@ -143,10 +144,11 @@ function App() {
           element={
             <ProtectedRoute>
                 <ProfileProvider>
-                  <WebSocketProvider>
-                    <NotificationProvider>
-                      <SearchProvider>
-                        <BookProvider>
+                  <RefreshProvider>
+                    <WebSocketProvider>
+                      <NotificationProvider>
+                        <SearchProvider>
+                          <BookProvider>
                           <Routes>
                           {/* Admin Routes */}
                           <Route
@@ -250,10 +252,11 @@ function App() {
                             }
                           />
                         </Routes>
-                        </BookProvider>
-                      </SearchProvider>
-                    </NotificationProvider>
-                  </WebSocketProvider>
+                          </BookProvider>
+                        </SearchProvider>
+                      </NotificationProvider>
+                    </WebSocketProvider>
+                  </RefreshProvider>
                 </ProfileProvider>
               
             </ProtectedRoute>

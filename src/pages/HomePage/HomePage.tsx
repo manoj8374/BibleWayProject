@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, [activeTab]);
 
-  const fetchData = async () => {
+  const fetchData = React.useCallback(async () => {
     setLoading(true);
     setPosts([]); 
 
@@ -66,15 +66,12 @@ const HomePage: React.FC = () => {
       setPosts(response.data);
     }
     setLoading(false);
-  };
-
-   React.useEffect(() => {
-      fetchData();
-  }, [refreshKey])
+  }, [activeTab]);
 
   React.useEffect(() => {
     fetchData();
-  }, [activeTab, refreshKey]);
+    console.log('refreshKey changed:', refreshKey);
+  }, [activeTab, refreshKey, fetchData]);
 
   const renderQuoteOfTheDay = () => {
     return <QuoteOfTheDay />
