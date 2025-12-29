@@ -50,6 +50,7 @@ import PrayerRequestPost from '../../components/PrayerRequestPost/PrayerRequestP
 import { useI18n } from '../../i18n/hooks';
 import LogoutConfirmationModal from '../../components/LogoutConfirmationModal/LogoutConfirmationModal';
 import FollowersFollowingModal from '../../components/FollowersFollowingModal/FollowersFollowingModal';
+import ImageCropperModal from '../../components/ImageCropperModal/ImageCropperModal';
 
 const ALL_COUNTRIES = [
   'Afghanistan', 'Albania', 'Algeria', 'Argentina', 'Australia', 'Austria',
@@ -88,6 +89,8 @@ const ProfilePage: React.FC = () => {
     const [profilePicture, setProfilePicture] = useState<File | null>(null);
     const [profilePicturePreview, setProfilePicturePreview] = useState<string | null>(null);
     const [imageError, setImageError] = useState(false);
+    const [isCropperOpen, setIsCropperOpen] = useState(false);
+    const [cropperImageSrc, setCropperImageSrc] = useState<string>('');
     const fileInputRef = useRef<HTMLInputElement>(null);
     
     // Dropdown states
@@ -251,7 +254,7 @@ const ProfilePage: React.FC = () => {
         }
     };
 
-    const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
         if (file) {
             // Validate file type
@@ -265,56 +268,73 @@ const ProfilePage: React.FC = () => {
                 return;
             }
 
-            // Create preview immediately
+            // Create image source for cropper
             const reader = new FileReader();
             reader.onloadend = () => {
-                setProfilePicturePreview(reader.result as string);
+                const imageSrc = reader.result as string;
+                setCropperImageSrc(imageSrc);
+                setIsCropperOpen(true);
             };
             reader.readAsDataURL(file);
 
-            // Automatically upload the image
-            setIsUploadingImage(true);
-            setProfilePicture(file);
+            // Reset file input to allow selecting the same file again
+            if (fileInputRef.current) {
+                fileInputRef.current.value = '';
+            }
+        }
+    };
+
+    const handleCropComplete = async (croppedImageBlob: Blob) => {
+        // Convert blob to File
+        const croppedFile = new File([croppedImageBlob], 'profile-picture.jpg', {
+            type: 'image/jpeg',
+            lastModified: Date.now()
+        });
+
+        // Create preview
+        const reader = new FileReader();
+        reader.onloadend = () => {
+            setProfilePicturePreview(reader.result as string);
+        };
+        reader.readAsDataURL(croppedFile);
+
+        // Upload the cropped image
+        setIsUploadingImage(true);
+        setProfilePicture(croppedFile);
+        
+        try {
+            const response = await userService.updateProfile({
+                profile_picture: croppedFile
+            });
             
-            try {
-                const response = await userService.updateProfile({
-                    profile_picture: file
-                });
-                
-                if (response.success) {
-                    showSuccess('Profile picture updated successfully');
-                    if (response.data) {
-                        setProfile(response.data);
-                        // Clear preview and file after successful upload
-                        setProfilePicture(null);
-                        setProfilePicturePreview(null);
-                        // Reset file input
-                        if (fileInputRef.current) {
-                            fileInputRef.current.value = '';
-                        }
-                    }
-                } else {
-                    showError(response.message || 'Failed to update profile picture');
-                    // Remove preview on error
-                    setProfilePicturePreview(null);
+            if (response.success) {
+                showSuccess('Profile picture updated successfully');
+                if (response.data) {
+                    setProfile(response.data);
+                    // Clear preview and file after successful upload
                     setProfilePicture(null);
-                    if (fileInputRef.current) {
-                        fileInputRef.current.value = '';
-                    }
+                    setProfilePicturePreview(null);
                 }
-            } catch (error) {
-                console.error('Error uploading profile picture:', error);
-                showError('Failed to update profile picture');
+            } else {
+                showError(response.message || 'Failed to update profile picture');
                 // Remove preview on error
                 setProfilePicturePreview(null);
                 setProfilePicture(null);
-                if (fileInputRef.current) {
-                    fileInputRef.current.value = '';
-                }
-            } finally {
-                setIsUploadingImage(false);
             }
+        } catch (error) {
+            console.error('Error uploading profile picture:', error);
+            showError('Failed to update profile picture');
+            // Remove preview on error
+            setProfilePicturePreview(null);
+            setProfilePicture(null);
+        } finally {
+            setIsUploadingImage(false);
         }
+    };
+
+    const handleCropperClose = () => {
+        setIsCropperOpen(false);
+        setCropperImageSrc('');
     };
 
     const handleRemovePicture = () => {
@@ -671,6 +691,15 @@ const ProfilePage: React.FC = () => {
                     setFollowersCount(followers);
                     setFollowingCount(following);
                 }}
+            />
+
+            <ImageCropperModal
+                isOpen={isCropperOpen}
+                imageSrc={cropperImageSrc}
+                onClose={handleCropperClose}
+                onCropComplete={handleCropComplete}
+                aspectRatio={1}
+                cropShape="round"
             />
 
         </ProfilePageContainer>
