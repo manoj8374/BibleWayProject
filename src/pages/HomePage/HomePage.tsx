@@ -16,6 +16,7 @@ import PrayerRequestPost from '../../components/PrayerRequestPost/PrayerRequestP
 import RecommendedPeople from '../../components/RecommendedPeople/RecommendedPeople';
 import Promotions from '../../components/Promotion/Promotion';
 import Testimonials from '../../components/Testimonials/Testimonials';
+import LanguagesVersionsCard from '../../components/LanguagesVersionsCard/LanguagesVersionsCard';
 import CreatePrayerRequestModal from '../../components/CreatePrayerRequestModal/CreatePrayerRequestModal';
 import CreatePostModal from '../../components/CreatePostModal/CreatePostModal';
 import { postService } from '../../services/post/post.service';
@@ -161,6 +162,7 @@ const HomePage: React.FC = () => {
   const renderRightPanel = () => {
     return (
       <>
+        <LanguagesVersionsCard />
         <RecommendedPeople />
         <SegmentedBibles/>
         <Promotions />
