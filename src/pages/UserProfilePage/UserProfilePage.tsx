@@ -14,7 +14,7 @@ const PageWrapper = styled.div`
   align-items: flex-start;
 
   @media (max-width: 968px) {
-    padding: 10px;
+    padding: 4px;
   }
 `;
 

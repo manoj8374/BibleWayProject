@@ -39,6 +39,7 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
 }) => {
   const { t } = useI18n();
   const { user_name, country, profile_picture_url, followers_count, following_count, posts_count, user_id, is_following } = profileData;
+  console.log(profileData);
   const [isFollowing, setIsFollowing] = useState(is_following || false);
   const [isLoading, setIsLoading] = useState(false);
 

@@ -244,6 +244,11 @@ export const StatIcon = styled.span`
 
 export const StatText = styled.span`
   font-weight: 500;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 `;
 
 export const BookmarkIcon = styled.div`

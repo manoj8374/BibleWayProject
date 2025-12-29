@@ -126,6 +126,7 @@ const Post: React.FC<PostProps> = (props) => {
   } = props;
 
 
+
   const [commentText, setCommentText] = React.useState('');
   const [shouldShowComments, setShouldShowComments] = React.useState(false);
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -317,9 +318,15 @@ const Post: React.FC<PostProps> = (props) => {
 
   const renderHeader = () => (
     <PostHeader>
-      <UserAvatar $bgColor={userAvatar || '#E74C3C'} onClick={() => navigate(`/profile/${userId}`)}>
-        {!userAvatar && userName[0]}
-      </UserAvatar>
+      {userAvatar && userAvatar !== '' ? (
+        <UserAvatar $bgColor="transparent">
+          <img src={userAvatar} alt={userName} style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
+        </UserAvatar>
+      ) : (
+        <UserAvatar $bgColor="#E74C3C">
+          {userName[0]}
+        </UserAvatar>
+      )}
 
       <UserInfo onClick={() => navigate(`/profile/${userId}`)}>
         <UserName>{userName}</UserName>

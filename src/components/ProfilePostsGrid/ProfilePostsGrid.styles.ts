@@ -9,27 +9,37 @@ export const GridContainer = styled.div`
   border-radius: 0 0 24px 24px;
   align-items: center;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding: 4px;
+  }
 `;
 
 export const CarouselWrapper = styled.div`
   position: relative;
   width: 100%;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const PostsContainer = styled.div<{ $currentIndex: number }>`
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(calc(-${props => props.$currentIndex} * 100%));
-  will-change: transform;
+
 `;
 
 export const PostWrapper = styled.div`
-  flex: 0 0 calc(50% - 8px);
-  min-width: 0;
-  max-width: 500px;
+  width: 45%;
+  min-width: 315px;
+  max-width: 700px;
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const NavigationButton = styled.button<{ position: 'left' | 'right' }>`

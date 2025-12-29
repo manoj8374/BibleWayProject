@@ -128,7 +128,7 @@ export const postService = {
     }
   },
 
-  getAllPosts: async (limit: number = 10, offset: number = 0): Promise<GetAllPostsResponse> => {
+  getAllPosts: async (limit: number = 10000, offset: number = 0): Promise<GetAllPostsResponse> => {
     try {
       const response = await api.get<GetAllPostsResponse>(GET_ALL_POSTS, {
         params: { limit, offset },

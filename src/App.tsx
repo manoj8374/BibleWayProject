@@ -86,9 +86,7 @@ function App() {
         />
 
         <Route path="/" element={ 
-          <PublicRoute>
             <LandingPage />
-          </PublicRoute>
         } />
 
         <Route path="/forgot-password" element={<StyleWrapper><ForgotPasswordPage /></StyleWrapper>} />

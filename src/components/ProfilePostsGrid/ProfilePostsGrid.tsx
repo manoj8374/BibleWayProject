@@ -8,7 +8,7 @@ import {
   PageIndicator,
   IndicatorDot
 } from './ProfilePostsGrid.styles';
-import ProfilePost from '../../components/ProfilePost/ProfilePost';
+import Post from '../../components/Post/Post';
 import { postService, type Post as PostType } from '../../services/post/post.service';
 import { showError } from '../../utils/toast';
 import type { CompleteUserProfile } from '../../services/user/user.service';
@@ -95,10 +95,11 @@ const ProfilePostsGrid: React.FC<ProfilePostsGridProps> = ({
 
             return (
               <PostWrapper key={post.post_id}>
-                <ProfilePost
+                <Post
                   id={post.post_id}
-                  userName={profileData?.user_name|| t('profile.unknownUser')}
-                  userAvatar={profileData?.profile_picture_url}
+                  userId={post.user?.user_id || userId}
+                  userName={post.user?.user_name || profileData?.user_name || t('profile.unknownUser')}
+                  userAvatar={post.user?.profile_picture_url || profileData?.profile_picture_url}
                   userTitle=""
                   content={post.description || ''}
                   mediaItems={mediaItems}
