@@ -10,6 +10,8 @@
     "failedToUpdatePost": "Failed to update post",
     "failedToDeletePost": "Failed to delete post",
     "failedToCreateComment": "Failed to create comment.",
+    "failedToUpdateComment": "Failed to update comment.",
+    "failedToDeleteComment": "Failed to delete comment.",
     "failedToFetchComments": "Failed to fetch comments.",
     "failedToLikeComment": "Failed to like comment.",
     "failedToUnlikeComment": "Failed to unlike comment.",

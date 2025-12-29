@@ -13,6 +13,8 @@ import {
     EngagementStats,
     StatItem,
     StatText,
+    StatNumber,
+    StatLabel,
     Divider,
     CommentSection,
     CommentAvatar,
@@ -100,6 +102,7 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
     const [commentRefreshKey, setCommentRefreshKey] = useState(0);
     const [isLikedPost, setIsLikedPost] = useState(isLiked);
     const [likesCount, setLikesCount] = useState(likes);
+    const [commentsCount, setCommentsCount] = useState(comments);
     const [currentSlide, setCurrentSlide] = useState(0);
     const [showShareDialog, setShowShareDialog] = useState(false);
     const navigate = useNavigate();
@@ -129,14 +132,19 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
         setLikesCount(likes);
     }, [likes]);
 
+    React.useEffect(() => {
+        setCommentsCount(comments);
+    }, [comments]);
+
     const handleCommentSubmit = async () => {
         if (commentText.trim()) {
             const response = await prayerPostService.createComment(id, commentText);
 
             if (response.success) {
                 setCommentText('');
+                setShouldShowComments(true);
+                setCommentsCount(prev => prev + 1);
                 setCommentRefreshKey(prev => prev + 1);
-                // Ideally we might want to refresh comments or notify parent
                 showSuccess(t('posts.commentAdded'));
             } else {
                 showError(response.message || t('posts.failedToCreateComment'));
@@ -271,15 +279,24 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
                         ) : (
                             <AiOutlineLike size={20} color="#94A3B8" />
                         )}
-                        <StatText>{likesCount} {likesCount === 1 ? t('posts.like') : t('posts.likes')}</StatText>
+                        <StatText>
+                            <StatNumber>{likesCount}</StatNumber>
+                            <StatLabel>{likesCount === 1 ? t('posts.like') : t('posts.likes')}</StatLabel>
+                        </StatText>
                     </StatItem>
                     <StatItem onClick={() => setShouldShowComments(!shouldShowComments)}>
                         <CommentIcon fill="#94A3B8" />
-                        <StatText>{comments} {comments === 1 ? t('posts.comment') : t('posts.comments')}</StatText>
+                        <StatText>
+                            <StatNumber>{commentsCount}</StatNumber>
+                            <StatLabel>{commentsCount === 1 ? t('posts.comment') : t('posts.comments')}</StatLabel>
+                        </StatText>
                     </StatItem>
                     <StatItem onClick={handleShare}>
                         <ShareIcon fill="#94A3B8" />
-                        <StatText>{shares} {shares === 1 ? t('posts.share') : t('posts.shares')}</StatText>
+                        <StatText>
+                            <StatNumber>{shares}</StatNumber>
+                            <StatLabel>{shares === 1 ? t('posts.share') : t('posts.shares')}</StatLabel>
+                        </StatText>
                     </StatItem>
                 </LeftSideEles>
                 <BookMarkIconWrapper>
@@ -317,7 +334,12 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
                 {renderEngagementStats()}
                 {!hideEngagementStats && <Divider />}
                 {!hideEngagementStats && shouldShowComments && (
-                    <CommentsSection postId={id} isPrayerPost={true} refreshKey={commentRefreshKey} />
+                    <CommentsSection 
+                        postId={id} 
+                        isPrayerPost={true} 
+                        refreshKey={commentRefreshKey}
+                        onCommentCountChange={(count) => setCommentsCount(count)}
+                    />
                 )}
                 {renderSendComment()}
             </PostContainer>

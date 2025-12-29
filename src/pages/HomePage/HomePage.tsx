@@ -116,7 +116,7 @@ const HomePage: React.FC = () => {
                 userName={post.user?.user_name}
                 email={post.email}
                 phone={post.phone}
-                userTitle={t('pages.homePage.member')}
+                userTitle=""
                 userAvatar={post.user?.profile_picture_url}
                 content={post.description || ''}
                 mediaItems={mediaItems}
@@ -142,7 +142,7 @@ const HomePage: React.FC = () => {
               userId={post.user?.user_id}
               userName={post.user?.user_name || t('pages.homePage.unknownUser')}
               userAvatar={post.user?.profile_picture_url}
-              userTitle={t('pages.homePage.member')}
+              userTitle=""
               content={post.description || ''}
               mediaItems={mediaItems}
               likes={post.likes_count}

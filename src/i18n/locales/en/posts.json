@@ -4,6 +4,8 @@
   "deleteConfirm": "Delete this post?",
   "cancel": "Cancel",
   "save": "Save",
+  "saving": "Saving...",
+  "deleting": "Deleting...",
   "likes": "Likes",
   "like": "Like",
   "comments": "Comments",

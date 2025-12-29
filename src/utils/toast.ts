@@ -1,7 +1,15 @@
 import { toast, type ToastOptions } from 'react-toastify';
 
-const defaultOptions: ToastOptions = {
-  position: 'bottom-right',
+// Function to get toast position based on screen width
+const getToastPosition = (): ToastOptions['position'] => {
+  if (typeof window !== 'undefined') {
+    return window.innerWidth < 1024 ? 'top-right' : 'bottom-right';
+  }
+  return 'bottom-right';
+};
+
+const getDefaultOptions = (): ToastOptions => ({
+  position: getToastPosition(),
   autoClose: 3000,
   hideProgressBar: false,
   closeOnClick: true,
@@ -9,12 +17,12 @@ const defaultOptions: ToastOptions = {
   draggable: true,
   progress: undefined,
   theme: 'colored',
-};
+});
 
 export const showSuccess = (message: string) => {
-  toast.success(message, defaultOptions);
+  toast.success(message, getDefaultOptions());
 };
 
 export const showError = (message: string) => {
-  toast.error(message, defaultOptions);
+  toast.error(message, getDefaultOptions());
 };

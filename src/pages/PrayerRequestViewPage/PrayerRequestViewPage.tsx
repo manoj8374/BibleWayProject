@@ -108,7 +108,7 @@ const PrayerRequestViewPage: React.FC = () => {
             userName={prayerRequest.user?.user_name}
             email={prayerRequest.email}
             phone={prayerRequest.phone}
-            userTitle={t('pages.homePage.member')}
+            userTitle=""
             userAvatar={prayerRequest.user?.profile_picture_url}
             content={prayerRequest.description || ''}
             likes={prayerRequest.likes_count || prayerRequest.reactions_count || 0}

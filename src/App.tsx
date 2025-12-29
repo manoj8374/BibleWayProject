@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import HomePage from "./pages/HomePage/HomePage";
@@ -41,6 +41,19 @@ import LandingPage from "./landingPage";
 import { StyleWrapper } from "./components/StyledWrapper";
 
 function App() {
+  const [toastPosition, setToastPosition] = useState<'top-right' | 'bottom-right'>(
+    typeof window !== 'undefined' && window.innerWidth < 1024 ? 'top-right' : 'bottom-right'
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setToastPosition(window.innerWidth < 1024 ? 'top-right' : 'bottom-right');
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
@@ -223,7 +236,7 @@ function App() {
 
         {/* <Route path = "/testing-websocket" element={<WebSocketConnection />} /> */}
       </Routes>
-      <ToastContainer />
+      <ToastContainer position={toastPosition} />
     </BrowserRouter>
   );
 }

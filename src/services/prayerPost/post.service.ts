@@ -5,7 +5,9 @@ import {
     GET_PRAYER_COMMENTS_DETAILS,
     GET_USER_PRAYER_REQUESTS,
     LIKE_PRAYER_REQUEST,
-    UNLIKE_PRAYER_REQUEST
+    UNLIKE_PRAYER_REQUEST,
+    UPDATE_COMMENT,
+    DELETE_COMMENT
 } from '../../constants/ApiUrls';
 import api from '../../AxiosClient';
 import type { GetAllPostsResponse, CreateCommentResponse, GetCommentsResponse } from '../post/post.service';
@@ -156,6 +158,41 @@ export const prayerPostService = {
             return {
                 success: false,
                 message: err?.message || 'Failed to unlike prayer request',
+                error_code: err?.error_code
+            };
+        }
+    },
+
+    updateComment: async (commentId: string, description: string): Promise<CreateCommentResponse> => {
+        try {
+            const response = await api.put<CreateCommentResponse>(UPDATE_COMMENT, {
+                comment_id: commentId,
+                description
+            });
+            return response.data;
+        } catch (error: unknown) {
+            const err = error as ApiError;
+            return {
+                success: false,
+                message: err?.message || 'Failed to update comment.',
+                error_code: err?.error_code
+            };
+        }
+    },
+
+    deleteComment: async (commentId: string): Promise<CreateCommentResponse> => {
+        try {
+            const response = await api.delete<CreateCommentResponse>(DELETE_COMMENT, {
+                data: {
+                    comment_id: commentId
+                }
+            });
+            return response.data;
+        } catch (error: unknown) {
+            const err = error as ApiError;
+            return {
+                success: false,
+                message: err?.message || 'Failed to delete comment.',
                 error_code: err?.error_code
             };
         }

@@ -244,11 +244,21 @@ export const StatIcon = styled.span`
 
 export const StatText = styled.span`
   font-weight: 500;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-    -webkit-line-clamp: 1; 
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+`;
+
+export const StatNumber = styled.span`
+  font-weight: 500;
+`;
+
+export const StatLabel = styled.span`
+  font-weight: 500;
+  
+  @media (max-width: 350px) {
+    display: none;
+  }
 `;
 
 export const BookmarkIcon = styled.div`
@@ -332,6 +342,10 @@ export const AddButton = styled.button`
   
   &:active {
     transform: scale(0.95);
+  }
+
+  @media (max-width: 468px) {
+    display: none;
   }
 `;
 

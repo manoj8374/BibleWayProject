@@ -142,3 +142,96 @@ export const LikeCount = styled.span`
   color: #6B7280;
   font-weight: 500;
 `;
+
+export const CommentActions = styled.div`
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 4px;
+`;
+
+export const EditButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #3B82F6;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #2563EB;
+  }
+`;
+
+export const DeleteButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #EF4444;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #DC2626;
+  }
+`;
+
+export const EditInput = styled.textarea`
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 60px;
+  margin-bottom: 8px;
+
+  &:focus {
+    outline: none;
+    border-color: #3B82F6;
+  }
+`;
+
+export const EditActions = styled.div`
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+`;
+
+export const SaveButton = styled.button`
+  background: #3B82F6;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #2563EB;
+  }
+
+  &:disabled {
+    background: #9CA3AF;
+    cursor: not-allowed;
+  }
+`;
+
+export const CancelButton = styled.button`
+  background: #F3F4F6;
+  color: #374151;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #E5E7EB;
+  }
+`;

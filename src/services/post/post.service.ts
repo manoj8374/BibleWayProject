@@ -1,4 +1,4 @@
-import { CREATE_POST, UPDATE_POST, DELETE_POST, GET_ALL_POSTS, GET_USER_POSTS, GET_SPECIFIC_USER_POSTS, CREATE_COMMENT, GET_COMMENTS_DETAILS, LIKE_COMMENT, UNLIKE_COMMENT, LIKE_POST, UNLIKE_POST } from '../../constants/ApiUrls';
+import { CREATE_POST, UPDATE_POST, DELETE_POST, GET_ALL_POSTS, GET_USER_POSTS, GET_SPECIFIC_USER_POSTS, CREATE_COMMENT, UPDATE_COMMENT, DELETE_COMMENT, GET_COMMENTS_DETAILS, LIKE_COMMENT, UNLIKE_COMMENT, LIKE_POST, UNLIKE_POST } from '../../constants/ApiUrls';
 import api from '../../AxiosClient';
 import type { ApiError } from '../../constants/Error';
 import i18n from '../../i18n/config';
@@ -323,6 +323,41 @@ export const postService = {
       return {
         success: false,
         message: err?.message || i18n.t('services.post.failedToUnlikePost'),
+        error_code: err?.error_code
+      };
+    }
+  },
+
+  updateComment: async (commentId: string, description: string): Promise<CreateCommentResponse> => {
+    try {
+      const response = await api.put<CreateCommentResponse>(UPDATE_COMMENT, {
+        comment_id: commentId,
+        description
+      });
+      return response.data;
+    } catch (error: unknown) {
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || i18n.t('services.post.failedToUpdateComment'),
+        error_code: err?.error_code
+      };
+    }
+  },
+
+  deleteComment: async (commentId: string): Promise<CreateCommentResponse> => {
+    try {
+      const response = await api.delete<CreateCommentResponse>(DELETE_COMMENT, {
+        data: {
+          comment_id: commentId
+        }
+      });
+      return response.data;
+    } catch (error: unknown) {
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || i18n.t('services.post.failedToDeleteComment'),
         error_code: err?.error_code
       };
     }

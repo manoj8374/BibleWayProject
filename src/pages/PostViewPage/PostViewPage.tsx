@@ -90,7 +90,7 @@ const PostViewPage: React.FC = () => {
             id={post.post_id}
             userId={post.user.user_id}
             userName={post.user.user_name}
-            userTitle="Member"
+            userTitle=""
             userAvatar={post.user.profile_picture_url}
             content={post.description || post.title || ''}
             mediaItems={mediaItems}

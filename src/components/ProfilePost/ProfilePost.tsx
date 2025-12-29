@@ -18,6 +18,8 @@ import {
   EngagementStats,
   StatItem,
   StatText,
+  StatNumber,
+  StatLabel,
   Divider,
   CommentSection,
   CommentAvatar,
@@ -353,17 +355,25 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
         <LeftSideEles>
           <StatItem onClick={handleLikeToggle}>
             {isLikedPost ? <FaThumbsUp color="#0860C4" size={18} /> : <AiOutlineLike size={20} />}
-            <StatText>{likesCount} {t('posts.likes')}</StatText>
+            <StatText>
+              <StatNumber>{likesCount}</StatNumber>
+              <StatLabel>{t('posts.likes')}</StatLabel>
+            </StatText>
           </StatItem>
 
           <StatItem onClick={() => setShouldShowComments(v => !v)}>
             <BiCommentDots size={20} />
-            <StatText>{commentsCount} {t('posts.comments')}</StatText>
+            <StatText>
+              <StatNumber>{commentsCount}</StatNumber>
+              <StatLabel>{t('posts.comments')}</StatLabel>
+            </StatText>
           </StatItem>
 
           <StatItem onClick={onShare}>
             <RiShareForwardLine size={20} />
-            <StatText>{t('posts.share')}</StatText>
+            <StatText>
+              <StatLabel>{t('posts.share')}</StatLabel>
+            </StatText>
           </StatItem>
         </LeftSideEles>
 
@@ -395,7 +405,13 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
       {renderMedia()}
       {renderEngagement()}
       {!hideEngagementStats && <Divider />}
-      {!hideEngagementStats && shouldShowComments && <CommentsSection postId={id} refreshKey={refreshKey} />}
+      {!hideEngagementStats && shouldShowComments && (
+        <CommentsSection 
+          postId={id} 
+          refreshKey={refreshKey}
+          onCommentCountChange={(count) => setCommentsCount(count)}
+        />
+      )}
       {renderCommentBox()}
     </PostContainer>
   );

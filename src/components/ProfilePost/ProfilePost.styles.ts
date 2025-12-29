@@ -236,6 +236,21 @@ export const StatIcon = styled.span`
 
 export const StatText = styled.span`
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+`;
+
+export const StatNumber = styled.span`
+  font-weight: 500;
+`;
+
+export const StatLabel = styled.span`
+  font-weight: 500;
+  
+  @media (max-width: 400px) {
+    display: none;
+  }
 `;
 
 export const BookmarkIcon = styled.div`
