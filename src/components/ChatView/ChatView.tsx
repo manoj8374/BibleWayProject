@@ -216,13 +216,13 @@ const ChatView: React.FC<ChatViewProps> = ({
   });
 
   useWebSocketEvent("message.sent", (eventData: WSMessageSentEvent) => {
-    if (String(eventData.data.conversation_id) !== String(currentConversationId)) {
-      return; 
-    }
+    // if (String(eventData.data.conversation_id) !== String(currentConversationId)) {
+    //   return; 
+    // }
     if (currentConversationId == "" || !currentConversationId) {
       if (eventData.data.conversation_id) {
         setCurrentConversationId(eventData.data.conversation_id);
-        joinConversation(eventData.data.conversation_id)
+        fetchConversation(eventData.data.conversation_id);
       }
     }
 
@@ -250,7 +250,8 @@ const ChatView: React.FC<ChatViewProps> = ({
     });
 
     if (!incomingMsg.isOwn && getActiveStatus(selectedPersonId)) {
-      markAsRead(incomingMsg.id);
+      const conversationIdToUse = eventData.data.conversation_id || currentConversationId;
+      markAsRead(incomingMsg.id, conversationIdToUse);
     }
   });
 
@@ -316,7 +317,6 @@ const ChatView: React.FC<ChatViewProps> = ({
 
   useWebSocketEvent("presence.updated", (data: WSPresenceUpdatedEvent) => {
     if (data.data.conversation_id === String(currentConversationId)) {
-      console.log(data);
       setPresenceMap((prev) => {
         const newMap = new Map(prev);
         const existingUser = newMap.get(data.data.user_id);
@@ -336,15 +336,16 @@ const ChatView: React.FC<ChatViewProps> = ({
     }
   });
 
-  useEffect(() => {
-    const fetchConversation = async () => {
-      if (!conversationId) return;
+  const fetchConversation = async (conversationIdParam?: string) => {
+    const conversationIdToUse = conversationIdParam || currentConversationId;
+      if (!conversationIdToUse) return;
       setLoading(true);
       try {
-        const response = await chatService.getConversation(conversationId);
+        const response = await chatService.getConversation(conversationIdToUse);
+        setCurrentConversationId(conversationIdToUse);
+        initializeConversation(conversationIdToUse);
         if (response.success && response.data) {
           const mappedMessages = response.data.messages.map(mapDtoToMessage);
-          // Sort messages by timestamp (oldest first)
           mappedMessages.sort((a, b) => {
             const timeA = a.rawTimestamp
               ? new Date(a.rawTimestamp).getTime()
@@ -357,7 +358,7 @@ const ChatView: React.FC<ChatViewProps> = ({
           setMessages(mappedMessages);
           const lastMsg = mappedMessages[mappedMessages.length - 1];
           if (lastMsg) {
-            markAsRead(lastMsg.id);
+            markAsRead(lastMsg.id, conversationIdToUse);
           }
         }
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -369,14 +370,17 @@ const ChatView: React.FC<ChatViewProps> = ({
       }
     };
 
+  useEffect(() => {
     fetchConversation();
-  }, [conversationId]);
+  }, []);
 
-  const markAsRead = (msgId?: string) => {
+  const markAsRead = (msgId?: string, conversationIdParam?: string) => {
+    const conversationIdToUse = conversationIdParam || currentConversationId;
+    if (!conversationIdToUse) return;
     wsService.send({
       action: "mark_read",
       request_id: uuidv4(),
-      conversation_id: currentConversationId,
+      conversation_id: conversationIdToUse,
       message_id: msgId,
     });
   };
@@ -423,37 +427,30 @@ const ChatView: React.FC<ChatViewProps> = ({
     });
   }, [wsService]);
 
-  useEffect(() => {
-    if (conversationId !== currentConversationId) {
-      if (currentConversationId) {
-        leaveConversation(currentConversationId);
-      }
-      setCurrentConversationId(conversationId);
+  const initializeConversation = (conversationId?: string)=>{
+    if (conversationId) {
+      joinConversation(conversationId);
+      wsService.send({
+        action: "get_presence",
+        request_id: uuidv4(),
+        conversation_id: conversationId,
+      });
+      return;
     }
-  }, [conversationId, currentConversationId, leaveConversation]);
 
-  useEffect(() => {
     if (currentConversationId) {
       joinConversation(currentConversationId);
     }
-
     wsService.send({
       action: "get_presence",
       request_id: uuidv4(),
       conversation_id: currentConversationId,
     });
-
-    return () => {
-      if (currentConversationId) {
-        leaveConversation(currentConversationId);
-      }
-    };
-  }, [currentConversationId]);
+  }
 
   useEffect(() => {
     return () => {
       if (currentConversationId) {
-        console.log("unmounting conversation", currentConversationId);
         leaveConversation(currentConversationId);
       }
     };
