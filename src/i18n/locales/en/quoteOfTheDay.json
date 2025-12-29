@@ -3,6 +3,7 @@
   "loading": "Loading...",
   "likes": "Likes",
   "addNewPost": "Add New Post",
-  "failedToUpdateLike": "Failed to update like"
+  "failedToUpdateLike": "Failed to update like",
+  "pleaseUpload": "Please upload the quote of the day"
 }
 

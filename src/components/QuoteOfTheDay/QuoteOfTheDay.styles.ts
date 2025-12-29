@@ -22,6 +22,8 @@ export const QuoteTitle = styled(HeadingThreeTag)`
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.3px;
+  color: white;
+  margin-bottom: 16px;
 `;
 
 export const QuoteText = styled.p`

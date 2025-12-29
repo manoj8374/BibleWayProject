@@ -100,35 +100,42 @@ const QuoteOfTheDay: React.FC<QuoteOfTheDayProps> = (props) => {
     }
   };
 
+  const hasQuote = verseText || props.quote;
+
   return (
     <>
-    {props.quote && (<>
       <QuoteContainer onClick={handleClick} style={{ cursor: "pointer" }}>
         <QuoteTitle>{verseTitle}</QuoteTitle>
         <QuoteText>
-          {}
-          {loading ? t("quoteOfTheDay.loading") : verseText}
+          {loading ? (
+            t("quoteOfTheDay.loading")
+          ) : hasQuote ? (
+            verseText
+          ) : (
+            t("quoteOfTheDay.pleaseUpload")
+          )}
         </QuoteText>
-        <LikesSection
-          data-likes-section
-          onClick={handleLike}
-          onMouseDown={(e) => e.stopPropagation()}
-          style={{ cursor: "pointer", userSelect: "none" }}
-        >
-          <IconWrapper>
-            <LikeIcon color={isLiked ? "#ff6b6b" : "white"} />
-          </IconWrapper>
-          <p>
-            {likesCount} {t("quoteOfTheDay.likes")}
-          </p>
-        </LikesSection>
+        {hasQuote && (
+          <LikesSection
+            data-likes-section
+            onClick={handleLike}
+            onMouseDown={(e) => e.stopPropagation()}
+            style={{ cursor: "pointer", userSelect: "none" }}
+          >
+            <IconWrapper>
+              <LikeIcon color={isLiked ? "#ff6b6b" : "white"} />
+            </IconWrapper>
+            <p>
+              {likesCount} {t("quoteOfTheDay.likes")}
+            </p>
+          </LikesSection>
+        )}
       </QuoteContainer>
       <CreatePostModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         onPostCreated={triggerRefresh}
       />
-    </>)}
     </>
   );
 };
