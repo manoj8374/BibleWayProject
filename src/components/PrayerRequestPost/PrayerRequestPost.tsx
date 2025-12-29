@@ -119,8 +119,6 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
     const handlePostClick = () => {
         if (onClick) {
             onClick();
-        } else {
-            navigate(`/prayer-request/${id}`);
         }
     };
 
