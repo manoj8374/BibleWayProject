@@ -180,6 +180,18 @@ export const FilterSelect = styled.select`
     border-color: #570000;
   }
 
+  option {
+    padding: 8px;
+    color: #333;
+  }
+
+  option:disabled {
+    color: #999;
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
   @media (max-width: 1024px) {
     padding: 8px 10px;
     padding-right: 32px;

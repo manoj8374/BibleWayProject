@@ -298,15 +298,19 @@ const Header: React.FC = () => {
     lang.toLowerCase().includes(languageSearchQuery.toLowerCase())
   );
 
-  // Fetch languages and books for filter on mount
   useEffect(() => {
     const fetchFilterData = async () => {
-      // Fetch languages
       setLoadingLanguages(true);
       try {
         const languagesResponse = await publicService.getAllLanguages();
         if (languagesResponse.success && languagesResponse.data) {
           setFilterLanguages(languagesResponse.data);
+          const englishLanguage = languagesResponse.data.find(
+            (lang) => lang.display_name === "English"
+          );
+          if (englishLanguage) {
+            setSelectedFilterLanguage(englishLanguage.language_id);
+          }
         }
       } catch (error) {
         console.error("Failed to fetch languages for filter:", error);
@@ -314,12 +318,17 @@ const Header: React.FC = () => {
         setLoadingLanguages(false);
       }
 
-      // Fetch books
       setLoadingBooks(true);
       try {
         const booksResponse = await publicService.getAllBooks();
         if (booksResponse.success && booksResponse.data) {
           setFilterBooks(booksResponse.data);
+          const americanStandardBible = booksResponse.data.find(
+            (book) => book.title === "american standard bible"
+          );
+          if (americanStandardBible) {
+            setSelectedBook(americanStandardBible.book_id);
+          }
         }
       } catch (error) {
         console.error("Failed to fetch books for filter:", error);
@@ -533,7 +542,11 @@ const Header: React.FC = () => {
                   <option value="" disabled>{t('common.loading')}</option>
                 ) : (
                   filterLanguages.map((lang) => (
-                    <option key={lang.language_id} value={lang.language_id}>
+                    <option 
+                      key={lang.language_id} 
+                      value={lang.language_id}
+                      disabled={lang.display_name !== "English"}
+                    >
                       {lang.display_name}
                     </option>
                   ))
@@ -541,7 +554,6 @@ const Header: React.FC = () => {
               </FilterSelect>
             </FilterDropdown>
             <FilterDropdown>
-              {/* <FilterLabel>{t('header.filter.selectVersion')}</FilterLabel> */}
               <FilterSelect
                 value={selectedBook}
                 onChange={(e) => setSelectedBook(e.target.value)}
@@ -775,7 +787,11 @@ const Header: React.FC = () => {
                     <option value="" disabled>{t('common.loading')}</option>
                   ) : (
                     filterLanguages.map((lang) => (
-                      <option key={lang.language_id} value={lang.language_id}>
+                      <option 
+                        key={lang.language_id} 
+                        value={lang.language_id}
+                        disabled={lang.display_name !== "English"}
+                      >
                         {lang.display_name}
                       </option>
                     ))
