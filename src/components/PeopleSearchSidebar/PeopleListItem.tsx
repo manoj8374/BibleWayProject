@@ -18,6 +18,7 @@ interface PeopleListItemProps {
   onSelect: (personId: string, conversationId: string, personName: string) => void;
   onChatClick?: (personId: string, conversationId: string, personName: string) => void;
   onViewChange: (view: 'profile' | 'chat' | 'peopleSearch') => void;
+  changePerson: (person: any) => void;
 }
 
 const PeopleListItem: React.FC<PeopleListItemProps> = ({
@@ -25,7 +26,8 @@ const PeopleListItem: React.FC<PeopleListItemProps> = ({
   isSelected,
   onSelect,
   onChatClick,
-  onViewChange
+  onViewChange,
+  changePerson
 }) => {
   const { t } = useI18n();
   const [isFollowing, setIsFollowing] = useState(person.is_following);
@@ -85,6 +87,7 @@ const PeopleListItem: React.FC<PeopleListItemProps> = ({
       <FaRegMessage fill='black' onClick={(e) => {
         e.stopPropagation();
         if (onChatClick) onChatClick(person.user_id, person.conversation_id || '', person.user_name);
+        changePerson(person);
         onViewChange('chat');
       }}/>
       </MessageIconWrapper>

@@ -5,9 +5,10 @@ import { useI18n } from '../../i18n';
 
 interface InboxComponentProps {
   onPersonSelect: (personId: string, conversationId: string, personName: string) => void;
+  changePerson: (person: any) => void;
 }
 
-const InboxComponent: React.FC<InboxComponentProps> = ({ onPersonSelect }) => {
+const InboxComponent: React.FC<InboxComponentProps> = ({ onPersonSelect, changePerson }) => {
   const { t } = useI18n();
   const [inbox, setInbox] = useState<InboxItem[]>([]);
   const [inboxLoading, setInboxLoading] = useState(false);
@@ -45,6 +46,7 @@ const InboxComponent: React.FC<InboxComponentProps> = ({ onPersonSelect }) => {
           key={item.conversation_id}
           item={item}
           onPersonSelect={onPersonSelect}
+          changePerson={changePerson}
         />
       ))}
     </>

@@ -13,6 +13,7 @@ import ProfileViewer from "../../components/ProfileViewer/ProfileViewer";
 import ChatView from "../../components/ChatView/ChatView";
 import { useI18n } from "../../i18n/hooks";
 import { webSocketService } from "../../services/websocket/websocket.service";
+import { UserProfile } from "../../services/user/user.service";
 
 const PeoplePage: React.FC = () => {
   const { t } = useI18n();
@@ -28,6 +29,8 @@ const PeoplePage: React.FC = () => {
   const [selectedPersonName, setSelectedPersonName] = useState<
     string | undefined
   >();
+
+  const [selectedPerson, setSelectedPerson] = useState<any | undefined>(undefined);
 
   const handlePersonSelect = (
     personId: string,
@@ -45,7 +48,10 @@ const PeoplePage: React.FC = () => {
     setSelectedView("peopleSearch");
   };
 
-
+  const changePerson = (person: any) => {
+    console.log("changing person", person);
+    setSelectedPerson(person);
+  };
 
 
   const leaveConversation = (id: string) => {
@@ -78,6 +84,7 @@ const PeoplePage: React.FC = () => {
           selectedPersonId={selectedPersonId}
           onPersonSelect={handlePersonSelect}
           onViewChange={changeView}
+          changePerson={changePerson}
         />
       </PeopleSearchWrapper>
 
@@ -101,6 +108,7 @@ const PeoplePage: React.FC = () => {
                 onViewChange={(view) =>
                   changeView(view as "profile" | "chat" | "peopleSearch")
                 }
+                userAvatar={selectedPerson?.profile_picture_url || ""}
               />
             </ChatViewWrapper>
           )}

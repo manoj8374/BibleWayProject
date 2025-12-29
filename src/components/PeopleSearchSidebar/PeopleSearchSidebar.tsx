@@ -18,13 +18,14 @@ interface PeopleSearchSidebarProps {
   onPersonSelect: (personId: string, conversationId: string, personName: string) => void;
   selectedPersonId?: string;
   onViewChange: (view: 'profile' | 'chat' | 'peopleSearch') => void;
-
+  changePerson: (person: any) => void;
 }
 
 const PeopleSearchSidebar: React.FC<PeopleSearchSidebarProps> = ({
   onPersonSelect,
   selectedPersonId,
-  onViewChange
+  onViewChange,
+  changePerson
 }) => {
   const { t } = useI18n();
   const [searchQuery, setSearchQuery] = useState('');
@@ -96,12 +97,13 @@ const PeopleSearchSidebar: React.FC<PeopleSearchSidebarProps> = ({
                if (onPersonSelect) {onPersonSelect(personId, conversationId, personName);};
             }}
             onViewChange={onViewChange}
+            changePerson={changePerson}
           />
         ))}
 
         {searchQuery.length < 2 && (
           <InboxContainer>
-            <InboxComponent onPersonSelect={onPersonSelect} />
+            <InboxComponent onPersonSelect={onPersonSelect} changePerson={changePerson} />
           </InboxContainer>
         )}
       </PeopleList>

@@ -18,9 +18,10 @@ import {
 interface InboxListItemProps {
   item: InboxItem;
   onPersonSelect: (personId: string, conversationId: string, personName: string) => void;
+  changePerson: (person: any) => void;
 }
 
-const InboxListItem: React.FC<InboxListItemProps> = ({ item, onPersonSelect }) => {
+const InboxListItem: React.FC<InboxListItemProps> = ({ item, onPersonSelect, changePerson }) => {
   const { t } = useI18n();
   const isDirect = item.type === 'DIRECT';
   const displayImage = isDirect ? item.other_member?.profile_picture_url : item.image;
@@ -56,6 +57,8 @@ const InboxListItem: React.FC<InboxListItemProps> = ({ item, onPersonSelect }) =
       const targetId = isDirect ? item.other_member?.user_id || '' : '';
       const personName = isDirect ? (item.other_member?.user_name || displayName) : displayName;
       onPersonSelect(targetId, item.conversation_id || '', personName);
+      changePerson(item.other_member);
+      console.log("changing person", item.other_member);
     }
     setUnReadCount(0);
   };
