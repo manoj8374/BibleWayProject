@@ -11,6 +11,7 @@ import SignupPage from "./pages/Auth/SignupPage";
 import VerifyEmailPage from "./pages/Auth/VerifyEmailPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { i18nReady } from "./i18n/config";
 import { WebSocketProvider } from "./contexts/WebSocketContext";
 import { NotificationProvider } from "./contexts/NotificationContext";
 import ProtectedRoute from "./components/ProtectedRoute/index";
@@ -44,6 +45,16 @@ function App() {
   const [toastPosition, setToastPosition] = useState<'top-right' | 'bottom-right'>(
     typeof window !== 'undefined' && window.innerWidth < 1024 ? 'top-right' : 'bottom-right'
   );
+  const [i18nLoaded, setI18nLoaded] = useState(false);
+
+  useEffect(() => {
+    i18nReady.then(() => {
+      setI18nLoaded(true);
+    }).catch((error) => {
+      console.error('Failed to load i18n:', error);
+      setI18nLoaded(true);
+    });
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -53,6 +64,21 @@ function App() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  if (!i18nLoaded) {
+    return (
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '100vh',
+        fontSize: '16px',
+        color: '#666'
+      }}>
+        Loading...
+      </div>
+    );
+  }
 
   return (
     <BrowserRouter>
