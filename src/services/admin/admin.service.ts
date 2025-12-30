@@ -16,7 +16,7 @@ import {
   ADMIN_CREATE_PROMOTION,
   GET_BOOK_CHAPTERS,
   ADMIN_UPLOAD_CHAPTERS,
-  ADMIN_DELETE_CHAPTER,
+  ADMIN_BULK_DELETE_CHAPTERS,
 } from "../../constants/ApiUrls";
 import type { ApiError } from "../../constants/Error";
 import i18n from "../../i18n/config";
@@ -258,17 +258,20 @@ export interface UploadChaptersResponse {
   error_code?: string;
 }
 
-export interface DeleteChapterRequest {
-  chapter_id: string;
+export interface BulkDeleteChaptersRequest {
+  chapter_ids: string[];
 }
 
-export interface DeleteChapterResponse {
+export interface BulkDeleteChaptersResponse {
   success: boolean;
   message?: string;
-  chapter_id?: string;
+  deleted_count: number;
+  deleted_ids: string[];
+  failed_count: number;
+  failed_ids: string[];
+  errors: string[];
   error?: string;
   error_code?: string;
-  detail?: string;
 }
 
 export const adminService = {
@@ -842,19 +845,17 @@ export const adminService = {
   //   }
   // },
 
-  deleteChapter: async (chapterId: string): Promise<DeleteChapterResponse> => {
+  bulkDeleteChapters: async (chapterIds: string[]): Promise<BulkDeleteChaptersResponse> => {
     try {
-      const response = await api.delete<DeleteChapterResponse>(
-        ADMIN_DELETE_CHAPTER,
+      const response = await api.post<BulkDeleteChaptersResponse>(
+        ADMIN_BULK_DELETE_CHAPTERS,
         {
-          data: {
-            chapter_id: chapterId,
-          },
+          chapter_ids: chapterIds,
         }
       );
       return response.data;
     } catch (error: unknown) {
-      const axiosError = error as AxiosError<DeleteChapterResponse>;
+      const axiosError = error as AxiosError<BulkDeleteChaptersResponse>;
       if (axiosError.response && axiosError.response.data) {
         return axiosError.response.data;
       }
@@ -862,9 +863,14 @@ export const adminService = {
       const err = error as ApiError;
       return {
         success: false,
-        message: err?.message || "Failed to delete chapter.",
-        error: err?.message || "Failed to delete chapter.",
+        message: err?.message || "Failed to delete chapters.",
+        error: err?.message || "Failed to delete chapters.",
         error_code: err?.error_code,
+        deleted_count: 0,
+        deleted_ids: [],
+        failed_count: chapterIds.length,
+        failed_ids: chapterIds,
+        errors: [err?.message || "Failed to delete chapters."],
       };
     }
   },
