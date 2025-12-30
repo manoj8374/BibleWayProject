@@ -36,6 +36,7 @@ import BookChapters from "./pages/Admin/Books/BookChapters";
 import AdminProtectedRoute from "./components/AdminProtectedRoute/index";
 import UserProtectedRoute from "./components/UserProtectedRoute/index";
 import NotesPage from "./pages/NotesPage/NotesPage";
+import ReadingNotesPage from "./pages/ReadingNotesPage/ReadingNotesPage";
 import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
 import TermsAndConditionsPage from "./pages/TermsAndConditionsPage/TermsAndConditionsPage";
 import AdminTestimonials from "./pages/Admin/Testimonials/AdminTestimonials";
@@ -241,9 +242,9 @@ function App() {
                                       path="/prayer-request/:requestId"
                                       element={<PrayerRequestViewPage />}
                                     />
-                                    <Route 
+                                    <Route
                                       path="/notes"
-                                      element={<NotesPage />}
+                                      element={<ReadingNotesPage />}
                                     />
                                   </Routes>
                                 </Layout>
