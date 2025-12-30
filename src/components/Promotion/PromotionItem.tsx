@@ -106,7 +106,9 @@ const PromotionItem: React.FC<PromotionItemProps> = ({ promotion }) => {
       <ContentContainer>
         <HeaderRow>
           <Title>{promotion.title}</Title>
-          <Price>${promotion.price}</Price>
+          {promotion.price && promotion.price !== 'None' && (
+            <Price>${promotion.price}</Price>
+          )}
           <ViewDetailsButton onClick={handleViewDetails}>
             {t('promotions.viewDetails')}
           </ViewDetailsButton>

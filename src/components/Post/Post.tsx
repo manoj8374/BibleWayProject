@@ -40,7 +40,7 @@ import {
 
 import CommentsSection from '../CommentsSection';
 import BookMarkIcon from '../../Icons/BookMarkIcon';
-import { postService } from '../../services/post/post.service';
+import { postService, type Post as PostType } from '../../services/post/post.service';
 import { showError } from '../../utils/toast';
 import { useI18n } from '../../i18n';
 import { ProfileContext } from '../../contexts/ProfileContextBase';
@@ -54,6 +54,7 @@ import { useNavigate } from 'react-router-dom';
 import { useProfile } from '../../contexts/useProfile';
 import ShareDialog from '../ShareDialog/ShareDialog';
 import { getShareUrl, getShareTitle } from '../../utils/share';
+import EditPostModal from '../EditPostModal/EditPostModal';
 
 
 export type MediaType = 'video' | 'audio' | 'image' | 'none';
@@ -91,7 +92,8 @@ export interface PostProps {
 
   enableEditDelete?: boolean;
   onDelete?: (id: string) => void;
-  onUpdate?: (id: string, newContent: string) => void;
+  onUpdate?: (id: string, newContent: string, mediaUrls?: string[]) => void;
+  onPostUpdated?: () => void;
 }
 
 
@@ -124,7 +126,8 @@ const Post: React.FC<PostProps> = (props) => {
 
     enableEditDelete = false,
     onDelete,
-    onUpdate
+    onUpdate,
+    onPostUpdated
   } = props;
 
 
@@ -134,8 +137,8 @@ const Post: React.FC<PostProps> = (props) => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isEditing, setIsEditing] = React.useState(false);
-  const [editContent, setEditContent] = React.useState(content);
+  const [isEditModalOpen, setIsEditModalOpen] = React.useState(false);
+  const [postData, setPostData] = React.useState<PostType | null>(null);
 
   const [isLikedPost, setIsLikedPost] = React.useState(isLiked);
   const [likesCount, setLikesCount] = React.useState(likes);
@@ -169,9 +172,6 @@ const Post: React.FC<PostProps> = (props) => {
     return () => document.removeEventListener('click', closeMenu);
   }, [isMenuOpen]);
 
-  React.useEffect(() => {
-    setEditContent(content);
-  }, [content]);
 
   React.useEffect(() => {
     setCommentsCount(comments);
@@ -226,10 +226,22 @@ const Post: React.FC<PostProps> = (props) => {
     if (!prevLiked) onLike?.();
   };
 
-  const handleEditClick = (e: React.MouseEvent) => {
+  const handleEditClick = async (e: React.MouseEvent) => {
     e.stopPropagation();
-    setIsEditing(true);
     setIsMenuOpen(false);
+    
+    // Fetch full post details to get media
+    try {
+      const response = await postService.getPostDetails(id);
+      if (response.success && response.data) {
+        setPostData(response.data);
+        setIsEditModalOpen(true);
+      } else {
+        showError(response.message || t('posts.failedToLoadPost') || 'Failed to load post');
+      }
+    } catch (error) {
+      showError(t('posts.failedToLoadPost') || 'Failed to load post');
+    }
   };
 
   const handleDeleteClick = (e: React.MouseEvent) => {
@@ -238,16 +250,14 @@ const Post: React.FC<PostProps> = (props) => {
     if (onDelete && window.confirm(t('posts.deleteConfirm'))) onDelete(id);
   };
 
-  const handleSaveEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onUpdate?.(id, editContent);
-    setIsEditing(false);
-  };
-
-  const handleCancelEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setEditContent(content);
-    setIsEditing(false);
+  const handlePostUpdated = () => {
+    // EditPostModal already handled the update, just close and trigger parent refresh
+    setIsEditModalOpen(false);
+    setPostData(null);
+    // Trigger parent refresh callback
+    if (onPostUpdated) {
+      onPostUpdated();
+    }
   };
 
   const nextSlide = (e: React.MouseEvent) => {
@@ -353,17 +363,7 @@ const Post: React.FC<PostProps> = (props) => {
 
   const renderContent = () => (
     <PostContent>
-      {isEditing ? (
-        <>
-          <PostTextArea value={editContent} onChange={(e) => setEditContent(e.target.value)} />
-          <EditActions>
-            <ActionButton variant="secondary" onClick={handleCancelEdit}>{t('posts.cancel')}</ActionButton>
-            <ActionButton variant="primary" onClick={handleSaveEdit}>{t('posts.save')}</ActionButton>
-          </EditActions>
-        </>
-      ) : (
-        <PostText>{content}</PostText>
-      )}
+      <PostText>{content}</PostText>
     </PostContent>
   );
 
@@ -449,6 +449,15 @@ const Post: React.FC<PostProps> = (props) => {
         title={getShareTitle('post')}
         url={getShareUrl(id, 'post')}
         description={content.substring(0, 100)}
+      />
+      <EditPostModal
+        isOpen={isEditModalOpen}
+        onClose={() => {
+          setIsEditModalOpen(false);
+          setPostData(null);
+        }}
+        post={postData}
+        onPostUpdated={handlePostUpdated}
       />
     </>
   );

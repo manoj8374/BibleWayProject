@@ -203,6 +203,8 @@ const AdminLayout = () => {
                 <NavItem to="/admin/create-verse" onClick={closeMenu}>Daily Verse</NavItem>
                 <NavItem to="/admin/books" onClick={closeMenu}>Books</NavItem>
                 <NavItem to="/admin/testimonials" onClick={closeMenu}>Testimonials</NavItem>
+                <NavItem to="/admin/promotions" onClick={closeMenu}>Promotions</NavItem>
+                <NavItem to="/admin/chapter-feedbacks" onClick={closeMenu}>Chapter Feedbacks</NavItem>
 
                 <LogoutBtn onClick={handleLogout}>Logout</LogoutBtn>
             </Sidebar>

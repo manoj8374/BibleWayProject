@@ -40,6 +40,8 @@ import ReadingNotesPage from "./pages/ReadingNotesPage/ReadingNotesPage";
 import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
 import TermsAndConditionsPage from "./pages/TermsAndConditionsPage/TermsAndConditionsPage";
 import AdminTestimonials from "./pages/Admin/Testimonials/AdminTestimonials";
+import AdminPromotions from "./pages/Admin/Promotions/AdminPromotions";
+import AdminChapterFeedbacks from "./pages/Admin/ChapterFeedbacks/AdminChapterFeedbacks";
 import LandingPage from "./landingPage";
 import { StyleWrapper } from "./components/StyledWrapper";
 import PostViewPage from "./pages/PostViewPage/PostViewPage";
@@ -178,6 +180,14 @@ function App() {
                                     />
                                     <Route path = "testimonials"
                                       element={<AdminTestimonials />}
+                                    />
+                                    <Route
+                                      path="promotions"
+                                      element={<AdminPromotions />}
+                                    />
+                                    <Route
+                                      path="chapter-feedbacks"
+                                      element={<AdminChapterFeedbacks />}
                                     />
                                    
                                     <Route

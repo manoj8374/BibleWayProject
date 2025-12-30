@@ -3,6 +3,7 @@ import { testimonialService, type Testimonial } from '../../../services/testimon
 import { showSuccess, showError } from '../../../utils/toast';
 import { useI18n } from '../../../i18n/hooks';
 import { getAvatarProps } from '../../../utils/avatarHelpers';
+import ConfirmationModal from '../../../components/ConfirmationModal/ConfirmationModal';
 import {
     Container,
     Header,
@@ -42,6 +43,10 @@ const AdminTestimonials: React.FC = () => {
     const [hasNext, setHasNext] = useState(false);
     const [hasPrevious, setHasPrevious] = useState(false);
     const [processingIds, setProcessingIds] = useState<Set<string>>(new Set());
+    const [rejectModal, setRejectModal] = useState<{ isOpen: boolean; testimonialId: string | null }>({
+        isOpen: false,
+        testimonialId: null
+    });
     const limit = 10;
 
     useEffect(() => {
@@ -92,14 +97,18 @@ const AdminTestimonials: React.FC = () => {
         }
     };
 
-    const handleReject = async (testimonialId: string) => {
+    const handleRejectClick = (testimonialId: string) => {
+        setRejectModal({ isOpen: true, testimonialId });
+    };
+
+    const handleRejectConfirm = async () => {
+        if (!rejectModal.testimonialId) return;
+        const testimonialId = rejectModal.testimonialId;
+
         if (processingIds.has(testimonialId)) return;
 
-        if (!window.confirm(t('admin.testimonials.confirmReject'))) {
-            return;
-        }
-
         setProcessingIds(prev => new Set(prev).add(testimonialId));
+        setRejectModal({ isOpen: false, testimonialId: null });
 
         try {
             const response = await testimonialService.rejectTestimonial(testimonialId);
@@ -120,6 +129,10 @@ const AdminTestimonials: React.FC = () => {
                 return newSet;
             });
         }
+    };
+
+    const handleRejectCancel = () => {
+        setRejectModal({ isOpen: false, testimonialId: null });
     };
 
     const handleTabChange = (tab: 'pending' | 'verified' | 'all') => {
@@ -242,7 +255,7 @@ const AdminTestimonials: React.FC = () => {
                                                         : t('admin.testimonials.approve')}
                                                 </ApproveButton>
                                                 <RejectButton
-                                                    onClick={() => handleReject(testimonial.testimonial_id)}
+                                                    onClick={() => handleRejectClick(testimonial.testimonial_id)}
                                                     disabled={isProcessing}
                                                 >
                                                     {isProcessing
@@ -281,6 +294,18 @@ const AdminTestimonials: React.FC = () => {
                     )}
                 </>
             )}
+
+            <ConfirmationModal
+                isOpen={rejectModal.isOpen}
+                title={t('admin.testimonials.reject')}
+                description={t('admin.testimonials.confirmReject')}
+                confirmText={t('admin.testimonials.reject')}
+                cancelText="Cancel"
+                onConfirm={handleRejectConfirm}
+                onCancel={handleRejectCancel}
+                loading={rejectModal.testimonialId ? processingIds.has(rejectModal.testimonialId) : false}
+                confirmButtonColor="red"
+            />
         </Container>
     );
 };

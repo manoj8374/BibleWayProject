@@ -32,6 +32,7 @@ import {
   StickerButton,
   StickerPopup,
   StickerItem,
+  StickerImage,
   TranslationControls,
   LanguageSelect,
   TranslateButton,
@@ -883,15 +884,9 @@ const ChatView: React.FC<ChatViewProps> = ({
                       </span>
                     ) : isImageUrl(msg.content) ? (
                       // Display sticker/image URL as image
-                      <img
+                      <StickerImage
                         src={msg.content}
                         alt="Sticker"
-                        style={{
-                          maxWidth: "200px",
-                          maxHeight: "200px",
-                          borderRadius: "12px",
-                          cursor: "pointer",
-                        }}
                         onClick={() => window.open(msg.content, "_blank")}
                         onError={(e) => {
                           // Fallback to text if image fails to load
