@@ -440,13 +440,6 @@ export const BookmarkButton = styled.button<{ $isBookmarked: boolean }>`
   transition: all 0.2s ease;
   margin-top: 16px;
 
-  &:hover {
-    background: ${props => props.$isBookmarked ? "#0651a8" : "#0860C4"};
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
-
   &:active {
     transform: translateY(0);
   }
@@ -478,12 +471,6 @@ export const LikeButton = styled.button<{ $isLiked: boolean }>`
   transition: all 0.2s ease;
   margin-top: 16px;
 
-  &:hover {
-    background: ${props => props.$isLiked ? "#0651a8" : "#0860C4"};
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
 
   &:active {
     transform: translateY(0);
@@ -515,13 +502,6 @@ export const FeedbackButton = styled.button`
   cursor: pointer;
   transition: all 0.2s ease;
   margin-top: 16px;
-
-  &:hover {
-    background: #0860C4;
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
 
   &:active {
     transform: translateY(0);
@@ -561,13 +541,6 @@ export const HighlightButton = styled.button<{ $isActive: boolean }>`
   cursor: pointer;
   transition: all 0.2s ease;
   margin-top: 16px;
-
-  &:hover {
-    background: ${props => props.$isActive ? "#0651a8" : "#0860C4"};
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
 
   &:active {
     transform: translateY(0);

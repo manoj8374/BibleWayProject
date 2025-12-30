@@ -1004,11 +1004,9 @@ function getBlockTextLength(block: HTMLElement) {
               height={16} 
             />
             <span>
-              {isBookmarking 
-                ? "Processing..." 
-                : isBookmarked 
-                ? "Bookmarked" 
-                : "Bookmark"}
+              { 
+                isBookmarked ? "Bookmarked" : "Bookmark"
+              }
             </span>
           </BookmarkButton>
 
