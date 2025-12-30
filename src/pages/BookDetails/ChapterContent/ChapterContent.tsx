@@ -33,6 +33,8 @@ import {
   PagePlayButton,
   LoadingSpinner,
   BookmarkButton,
+  LikeButton,
+  FeedbackButton,
   HeaderActions,
   HighlightButton,
   ColorPickerContainer,
@@ -43,6 +45,10 @@ import {
 import { markdownToHtml } from "../../../utils/markdown/markdownToHTML";
 import "github-markdown-css/github-markdown-light.css";
 import { t } from "i18next";
+import { FaThumbsUp } from 'react-icons/fa';
+import { AiOutlineLike } from 'react-icons/ai';
+import { MdFeedback } from 'react-icons/md';
+import ChapterFeedbackModal from '../../../components/ChapterFeedbackModal/ChapterFeedbackModal';
 
 interface ChapterContentProps {
   chapter: Chapter | null;
@@ -76,6 +82,10 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     "yellow" | "green" | "blue"
   >("green");
   const [isBookmarking, setIsBookmarking] = useState(false);
+  const [isLiked, setIsLiked] = useState(false);
+  const [likeCount, setLikeCount] = useState(0);
+  const [isLiking, setIsLiking] = useState(false);
+  const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false);
   const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [isLoadingHighlights, setIsLoadingHighlights] = useState(false);
   const [chapterMetadata, setChapterMetadata] = useState<Record<string, unknown> | null>(null);
@@ -379,6 +389,8 @@ function getBlockTextLength(block: HTMLElement) {
   useEffect(() => {
     if (!chapter?.chapter_id) {
       setChapterMetadata(null);
+      setIsLiked(false);
+      setLikeCount(0);
       return;
     }
 
@@ -389,13 +401,20 @@ function getBlockTextLength(block: HTMLElement) {
         if (response.success && response.data) {
           // Return empty object {} if metadata is null (as per spec)
           setChapterMetadata(response.data.metadata || {});
+          // Extract like_count and is_liked from the data object
+          setIsLiked(response.data.is_liked || false);
+          setLikeCount(response.data.like_count || 0);
         } else {
           console.error('Failed to fetch chapter metadata:', response.error || response.message);
           setChapterMetadata({});
+          setIsLiked(false);
+          setLikeCount(0);
         }
       } catch (error) {
         console.error('Error fetching chapter metadata:', error);
         setChapterMetadata({});
+        setIsLiked(false);
+        setLikeCount(0);
       } finally {
         setIsLoadingMetadata(false);
       }
@@ -547,6 +566,45 @@ function getBlockTextLength(block: HTMLElement) {
       showError("Failed to update bookmark");
     } finally {
       setIsBookmarking(false);
+    }
+  };
+
+  const handleLike = async () => {
+    if (!chapter || isLiking) return;
+
+    const prevLiked = isLiked;
+    const prevLikeCount = likeCount;
+
+    // Optimistic update
+    setIsLiked(!prevLiked);
+    setLikeCount(prevLiked ? Math.max(0, prevLikeCount - 1) : prevLikeCount + 1);
+    setIsLiking(true);
+
+    try {
+      const response = prevLiked
+        ? await bookService.unlikeChapter(chapter.chapter_id)
+        : await bookService.likeChapter(chapter.chapter_id);
+
+      if (response.success) {
+        if (prevLiked) {
+          showSuccess("Chapter unliked successfully");
+        } else {
+          showSuccess("Chapter liked successfully");
+        }
+        // State already updated optimistically
+      } else {
+        // Revert optimistic update on error
+        setIsLiked(prevLiked);
+        setLikeCount(prevLikeCount);
+        showError(response.error || response.message || "Failed to update like");
+      }
+    } catch (error) {
+      // Revert optimistic update on error
+      setIsLiked(prevLiked);
+      setLikeCount(prevLikeCount);
+      showError("Failed to update like");
+    } finally {
+      setIsLiking(false);
     }
   };
 
@@ -953,6 +1011,28 @@ function getBlockTextLength(block: HTMLElement) {
                 : "Bookmark"}
             </span>
           </BookmarkButton>
+
+          <LikeButton
+            $isLiked={isLiked}
+            onClick={handleLike}
+            disabled={isLiking}
+            title={(isLiked ? "Unlike chapter" : "Like chapter")}
+          >
+            {isLiked ? (
+              <FaThumbsUp color="white" size={16} />
+            ) : (
+              <AiOutlineLike color="#0860C4" size={16} />
+            )}
+            <span>{likeCount}</span>
+          </LikeButton>
+
+          <FeedbackButton
+            onClick={() => setIsFeedbackModalOpen(true)}
+            title="Provide feedback"
+          >
+            <MdFeedback color="#0860C4" size={16} />
+            <span>Feedback</span>
+          </FeedbackButton>
         </HeaderActions>
       </ChapterHeader>
 
@@ -1154,6 +1234,12 @@ function getBlockTextLength(block: HTMLElement) {
           ))}
         </BlocksContainer>
       </PageWrapper>
+
+      <ChapterFeedbackModal
+        isOpen={isFeedbackModalOpen}
+        onClose={() => setIsFeedbackModalOpen(false)}
+        chapterId={chapter.chapter_id}
+      />
     </ContentContainer>
   );
 };

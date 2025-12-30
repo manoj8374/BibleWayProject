@@ -89,3 +89,6 @@ export const GET_USER_FOLLOWING = "/user/following";
 export const GET_USER_FOLLOWERS = "/user/followers";
 export const GET_ALL_READING_NOTES = "/reading-note/all";
 export const GET_LATEST_CHAPTERS_BY_AGE_GROUP = "/books/segregate-bibles/latest-chapters-by-age-group";
+export const LIKE_CHAPTER = "/chapter/like";
+export const UNLIKE_CHAPTER = "/chapter/unlike";
+export const CREATE_CHAPTER_FEEDBACK = "/chapter/feedback/create";
