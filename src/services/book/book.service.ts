@@ -1,6 +1,6 @@
 import api from '../../AxiosClient';
 import type { ApiError } from '../../constants/Error';
-import { GET_BOOKS, GET_BOOK_CHAPTERS, GET_CHAPTER_METADATA, CREATE_READING_PROGRESS, GET_TOP_BOOKS, GET_LATEST_CHAPTERS_BY_AGE_GROUP } from '../../constants/ApiUrls';
+import { GET_BOOKS, GET_BOOK_CHAPTERS, GET_CHAPTER_METADATA, CREATE_READING_PROGRESS, GET_TOP_BOOKS, GET_LATEST_CHAPTERS_BY_AGE_GROUP, LIKE_CHAPTER, UNLIKE_CHAPTER, CREATE_CHAPTER_FEEDBACK } from '../../constants/ApiUrls';
 import type { AxiosError } from 'axios';
 
 export interface Book {
@@ -54,6 +54,8 @@ export interface GetChapterMetadataResponse {
   data: {
     chapter_id: string;
     metadata: Record<string, unknown> | null;
+    like_count: number;
+    is_liked: boolean;
   };
   error?: string;
   error_code?: string;
@@ -87,6 +89,40 @@ export interface CreateBookmarkResponse {
   success: boolean;
   message: string;
   bookmark_id?: string;
+  error?: string;
+  error_code?: string;
+}
+
+export interface LikeChapterResponse {
+  success: boolean;
+  message: string;
+  reaction_id?: string;
+  chapter_id: string;
+  reaction_type?: string;
+  error?: string;
+  error_code?: string;
+}
+
+export interface UnlikeChapterResponse {
+  success: boolean;
+  message: string;
+  chapter_id: string;
+  error?: string;
+  error_code?: string;
+}
+
+export interface CreateChapterFeedbackRequest {
+  chapter_id: string;
+  description: string;
+  rating: number;
+}
+
+export interface CreateChapterFeedbackResponse {
+  success: boolean;
+  message: string;
+  feedback_id?: string;
+  chapter_id: string;
+  rating?: number;
   error?: string;
   error_code?: string;
 }
@@ -293,7 +329,9 @@ export const bookService = {
           message: 'Missing or invalid chapter_id',
           data: {
             chapter_id: chapterId,
-            metadata: null
+            metadata: null,
+            like_count: 0,
+            is_liked: false
           },
           error: 'Missing or invalid chapter_id',
           error_code: 'INVALID_CHAPTER_ID'
@@ -325,7 +363,9 @@ export const bookService = {
             message: 'Missing or invalid chapter_id',
             data: {
               chapter_id: chapterId,
-              metadata: null
+              metadata: null,
+              like_count: 0,
+              is_liked: false
             },
             error: 'Missing or invalid chapter_id',
             error_code: 'INVALID_CHAPTER_ID'
@@ -338,7 +378,9 @@ export const bookService = {
             message: 'Chapter not found',
             data: {
               chapter_id: chapterId,
-              metadata: null
+              metadata: null,
+              like_count: 0,
+              is_liked: false
             },
             error: 'Chapter not found',
             error_code: 'CHAPTER_NOT_FOUND'
@@ -351,7 +393,9 @@ export const bookService = {
             message: 'Internal server error',
             data: {
               chapter_id: chapterId,
-              metadata: null
+              metadata: null,
+              like_count: 0,
+              is_liked: false
             },
             error: 'Internal server error',
             error_code: 'INTERNAL_SERVER_ERROR'
@@ -370,10 +414,228 @@ export const bookService = {
         message: err?.message || 'Failed to fetch chapter metadata.',
         data: {
           chapter_id: chapterId,
-          metadata: null
+          metadata: null,
+          like_count: 0,
+          is_liked: false
         },
         error: err?.message || 'Failed to fetch chapter metadata.',
         error_code: err?.error_code || 'UNKNOWN_ERROR'
+      };
+    }
+  },
+
+  likeChapter: async (chapterId: string): Promise<LikeChapterResponse> => {
+    try {
+      if (!chapterId || typeof chapterId !== 'string' || chapterId.trim() === '') {
+        return {
+          success: false,
+          message: 'Chapter ID is required',
+          chapter_id: chapterId,
+          error: 'Chapter ID is required',
+          error_code: 'VALIDATION_ERROR'
+        };
+      }
+
+      const response = await api.post<LikeChapterResponse>(
+        LIKE_CHAPTER,
+        {
+          chapter_id: chapterId
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<LikeChapterResponse>;
+      
+      if (axiosError.response) {
+        const status = axiosError.response.status;
+        
+        if (status === 400) {
+          return {
+            success: false,
+            message: axiosError.response.data?.error || 'Chapter ID is required',
+            chapter_id: chapterId,
+            error: axiosError.response.data?.error || 'Chapter ID is required',
+            error_code: axiosError.response.data?.error_code || 'VALIDATION_ERROR'
+          };
+        }
+        
+        if (status === 404) {
+          return {
+            success: false,
+            message: 'Chapter not found',
+            chapter_id: chapterId,
+            error: 'Chapter not found',
+            error_code: 'CHAPTER_NOT_FOUND'
+          };
+        }
+        
+        if (axiosError.response.data) {
+          return axiosError.response.data;
+        }
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to like chapter',
+        chapter_id: chapterId,
+        error: err?.message || 'Failed to like chapter',
+        error_code: err?.error_code || 'INTERNAL_ERROR'
+      };
+    }
+  },
+
+  unlikeChapter: async (chapterId: string): Promise<UnlikeChapterResponse> => {
+    try {
+      if (!chapterId || typeof chapterId !== 'string' || chapterId.trim() === '') {
+        return {
+          success: false,
+          message: 'Chapter ID is required',
+          chapter_id: chapterId,
+          error: 'Chapter ID is required',
+          error_code: 'VALIDATION_ERROR'
+        };
+      }
+
+      const response = await api.post<UnlikeChapterResponse>(
+        UNLIKE_CHAPTER,
+        {
+          chapter_id: chapterId
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<UnlikeChapterResponse>;
+      
+      if (axiosError.response) {
+        const status = axiosError.response.status;
+        
+        if (status === 400) {
+          return {
+            success: false,
+            message: axiosError.response.data?.error || 'Chapter ID is required',
+            chapter_id: chapterId,
+            error: axiosError.response.data?.error || 'Chapter ID is required',
+            error_code: axiosError.response.data?.error_code || 'VALIDATION_ERROR'
+          };
+        }
+        
+        if (status === 404) {
+          return {
+            success: false,
+            message: 'Chapter not found',
+            chapter_id: chapterId,
+            error: 'Chapter not found',
+            error_code: 'CHAPTER_NOT_FOUND'
+          };
+        }
+        
+        if (axiosError.response.data) {
+          return axiosError.response.data;
+        }
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to unlike chapter',
+        chapter_id: chapterId,
+        error: err?.message || 'Failed to unlike chapter',
+        error_code: err?.error_code || 'INTERNAL_ERROR'
+      };
+    }
+  },
+
+  createChapterFeedback: async (feedbackData: CreateChapterFeedbackRequest): Promise<CreateChapterFeedbackResponse> => {
+    try {
+      // Validation
+      if (!feedbackData.chapter_id || typeof feedbackData.chapter_id !== 'string' || feedbackData.chapter_id.trim() === '') {
+        return {
+          success: false,
+          message: 'Chapter ID is required',
+          chapter_id: feedbackData.chapter_id || '',
+          error: 'Chapter ID is required',
+          error_code: 'VALIDATION_ERROR'
+        };
+      }
+
+      if (!feedbackData.description || typeof feedbackData.description !== 'string' || feedbackData.description.trim() === '') {
+        return {
+          success: false,
+          message: 'Feedback description is required',
+          chapter_id: feedbackData.chapter_id,
+          error: 'Feedback description is required',
+          error_code: 'VALIDATION_ERROR'
+        };
+      }
+
+      if (typeof feedbackData.rating !== 'number' || feedbackData.rating < 1 || feedbackData.rating > 5) {
+        return {
+          success: false,
+          message: 'Rating must be between 1 and 5',
+          chapter_id: feedbackData.chapter_id,
+          error: 'Rating must be between 1 and 5',
+          error_code: 'INVALID_RATING'
+        };
+      }
+
+      const response = await api.post<CreateChapterFeedbackResponse>(
+        CREATE_CHAPTER_FEEDBACK,
+        feedbackData
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<CreateChapterFeedbackResponse>;
+      
+      if (axiosError.response) {
+        const status = axiosError.response.status;
+        
+        if (status === 400) {
+          // Handle validation errors
+          if (axiosError.response.data) {
+            return axiosError.response.data;
+          }
+          return {
+            success: false,
+            message: 'Validation error',
+            chapter_id: feedbackData.chapter_id,
+            error: 'Validation error',
+            error_code: 'VALIDATION_ERROR'
+          };
+        }
+        
+        if (status === 404) {
+          return {
+            success: false,
+            message: 'Chapter not found',
+            chapter_id: feedbackData.chapter_id,
+            error: 'Chapter not found',
+            error_code: 'CHAPTER_NOT_FOUND'
+          };
+        }
+        
+        if (status === 500) {
+          return {
+            success: false,
+            message: axiosError.response.data?.error || 'Failed to create feedback',
+            chapter_id: feedbackData.chapter_id,
+            error: axiosError.response.data?.error || 'Failed to create feedback',
+            error_code: axiosError.response.data?.error_code || 'INTERNAL_ERROR'
+          };
+        }
+        
+        if (axiosError.response.data) {
+          return axiosError.response.data;
+        }
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to create feedback',
+        chapter_id: feedbackData.chapter_id,
+        error: err?.message || 'Failed to create feedback',
+        error_code: err?.error_code || 'INTERNAL_ERROR'
       };
     }
   }

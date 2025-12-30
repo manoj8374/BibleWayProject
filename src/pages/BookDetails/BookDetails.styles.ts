@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   position: relative;
 `;
@@ -13,6 +13,7 @@ export const MainContent = styled.div`
   overflow-x: hidden;
   background: white;
   position: relative;
+  height: 100%;
 `;
 
 export const Sidebar = styled.div<{ $isOpen?: boolean }>`

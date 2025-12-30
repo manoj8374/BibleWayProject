@@ -3,7 +3,7 @@ import type { Chapter } from "../../../services/book/book.service";
 import { bookService } from "../../../services/book/book.service";
 import { useI18n } from '../../../i18n';
 import { toggleBookmark } from "../../../services/book/toggleBookmark";
-import { highlightContent } from "../utils/highlightUtils";
+import { highlightContent, highlightMultipleWords } from "../utils/highlightUtils";
 import { extractAllPageText } from "../utils/pageTextUtils";
 import { useSearch } from "../../../contexts/SearchContext";
 import { useBook } from "../../../contexts/BookContext";
@@ -33,6 +33,8 @@ import {
   PagePlayButton,
   LoadingSpinner,
   BookmarkButton,
+  LikeButton,
+  FeedbackButton,
   HeaderActions,
   HighlightButton,
   ColorPickerContainer,
@@ -43,6 +45,10 @@ import {
 import { markdownToHtml } from "../../../utils/markdown/markdownToHTML";
 import "github-markdown-css/github-markdown-light.css";
 import { t } from "i18next";
+import { FaThumbsUp } from 'react-icons/fa';
+import { AiOutlineLike } from 'react-icons/ai';
+import { MdFeedback } from 'react-icons/md';
+import ChapterFeedbackModal from '../../../components/ChapterFeedbackModal/ChapterFeedbackModal';
 
 interface ChapterContentProps {
   chapter: Chapter | null;
@@ -65,16 +71,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const observerRef = useRef<IntersectionObserver | null>(null);
   const progressUpdateTimeout = useRef<NodeJS.Timeout | null>(null);
 
-  const { searchText } = useSearch();
+  const { searchText, highlightWords } = useSearch();
   const { isBookmarked, setIsBookmarked, setBookmarkId } = useBook();
 
-  const highlightQuery = searchText;
+  // Use highlightWords if available, otherwise fallback to searchText
+  const highlightQuery = highlightWords.length > 0 ? null : searchText;
 
   const [isHighlightMode, setIsHighlightMode] = useState(false);
   const [selectedColor, setSelectedColor] = useState<
     "yellow" | "green" | "blue"
   >("green");
   const [isBookmarking, setIsBookmarking] = useState(false);
+  const [isLiked, setIsLiked] = useState(false);
+  const [likeCount, setLikeCount] = useState(0);
+  const [isLiking, setIsLiking] = useState(false);
+  const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false);
   const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [isLoadingHighlights, setIsLoadingHighlights] = useState(false);
   const [chapterMetadata, setChapterMetadata] = useState<Record<string, unknown> | null>(null);
@@ -378,6 +389,8 @@ function getBlockTextLength(block: HTMLElement) {
   useEffect(() => {
     if (!chapter?.chapter_id) {
       setChapterMetadata(null);
+      setIsLiked(false);
+      setLikeCount(0);
       return;
     }
 
@@ -388,13 +401,20 @@ function getBlockTextLength(block: HTMLElement) {
         if (response.success && response.data) {
           // Return empty object {} if metadata is null (as per spec)
           setChapterMetadata(response.data.metadata || {});
+          // Extract like_count and is_liked from the data object
+          setIsLiked(response.data.is_liked || false);
+          setLikeCount(response.data.like_count || 0);
         } else {
           console.error('Failed to fetch chapter metadata:', response.error || response.message);
           setChapterMetadata({});
+          setIsLiked(false);
+          setLikeCount(0);
         }
       } catch (error) {
         console.error('Error fetching chapter metadata:', error);
         setChapterMetadata({});
+        setIsLiked(false);
+        setLikeCount(0);
       } finally {
         setIsLoadingMetadata(false);
       }
@@ -474,12 +494,15 @@ function getBlockTextLength(block: HTMLElement) {
   const processedBlocks = useMemo(() => {
     return blocks.map((block) => {
       let html = markdownToHtml(block.markdown);
-      if (highlightQuery) {
+      // Use highlightWords if available, otherwise use highlightQuery (searchText)
+      if (highlightWords.length > 0) {
+        html = highlightMultipleWords(html, highlightWords);
+      } else if (highlightQuery) {
         html = highlightContent(html, highlightQuery);
       }
       return { ...block, html };
     });
-  }, [blocks, highlightQuery]);
+  }, [blocks, highlightWords, highlightQuery]);
 
   const pages = useMemo(() => {
     const groups: (typeof processedBlocks)[] = [];
@@ -507,7 +530,9 @@ function getBlockTextLength(block: HTMLElement) {
 
 
   useEffect(() => {
-    if (!highlightQuery || !chapter) return;
+    // Check if we have either highlightWords or highlightQuery to scroll to
+    const hasHighlights = highlightWords.length > 0 || highlightQuery;
+    if (!hasHighlights || !chapter) return;
 
     const timer = setTimeout(() => {
       const firstMatch = document.querySelector(".highlight-match");
@@ -515,7 +540,7 @@ function getBlockTextLength(block: HTMLElement) {
     }, 100);
 
     return () => clearTimeout(timer);
-  }, [highlightQuery, chapter]);
+  }, [highlightWords, highlightQuery, chapter]);
 
 
   const handleBookmark = async () => {
@@ -541,6 +566,45 @@ function getBlockTextLength(block: HTMLElement) {
       showError("Failed to update bookmark");
     } finally {
       setIsBookmarking(false);
+    }
+  };
+
+  const handleLike = async () => {
+    if (!chapter || isLiking) return;
+
+    const prevLiked = isLiked;
+    const prevLikeCount = likeCount;
+
+    // Optimistic update
+    setIsLiked(!prevLiked);
+    setLikeCount(prevLiked ? Math.max(0, prevLikeCount - 1) : prevLikeCount + 1);
+    setIsLiking(true);
+
+    try {
+      const response = prevLiked
+        ? await bookService.unlikeChapter(chapter.chapter_id)
+        : await bookService.likeChapter(chapter.chapter_id);
+
+      if (response.success) {
+        if (prevLiked) {
+          showSuccess("Chapter unliked successfully");
+        } else {
+          showSuccess("Chapter liked successfully");
+        }
+        // State already updated optimistically
+      } else {
+        // Revert optimistic update on error
+        setIsLiked(prevLiked);
+        setLikeCount(prevLikeCount);
+        showError(response.error || response.message || "Failed to update like");
+      }
+    } catch (error) {
+      // Revert optimistic update on error
+      setIsLiked(prevLiked);
+      setLikeCount(prevLikeCount);
+      showError("Failed to update like");
+    } finally {
+      setIsLiking(false);
     }
   };
 
@@ -940,13 +1004,33 @@ function getBlockTextLength(block: HTMLElement) {
               height={16} 
             />
             <span>
-              {isBookmarking 
-                ? "Processing..." 
-                : isBookmarked 
-                ? "Bookmarked" 
-                : "Bookmark"}
+              { 
+                isBookmarked ? "Bookmarked" : "Bookmark"
+              }
             </span>
           </BookmarkButton>
+
+          <LikeButton
+            $isLiked={isLiked}
+            onClick={handleLike}
+            disabled={isLiking}
+            title={(isLiked ? "Unlike chapter" : "Like chapter")}
+          >
+            {isLiked ? (
+              <FaThumbsUp color="white" size={16} />
+            ) : (
+              <AiOutlineLike color="#0860C4" size={16} />
+            )}
+            <span>{likeCount}</span>
+          </LikeButton>
+
+          <FeedbackButton
+            onClick={() => setIsFeedbackModalOpen(true)}
+            title="Provide feedback"
+          >
+            <MdFeedback color="#0860C4" size={16} />
+            <span>Feedback</span>
+          </FeedbackButton>
         </HeaderActions>
       </ChapterHeader>
 
@@ -1148,6 +1232,12 @@ function getBlockTextLength(block: HTMLElement) {
           ))}
         </BlocksContainer>
       </PageWrapper>
+
+      <ChapterFeedbackModal
+        isOpen={isFeedbackModalOpen}
+        onClose={() => setIsFeedbackModalOpen(false)}
+        chapterId={chapter.chapter_id}
+      />
     </ContentContainer>
   );
 };

@@ -254,10 +254,12 @@ import {
 import { ChaptersSidebar } from './ChaptersSidebar/ChaptersSidebar';
 import { ChapterContent } from './ChapterContent/ChapterContent';
 import { ChapterNotes } from './ChapterNotes';
+import { useSearch } from '../../contexts/SearchContext';
 
 const BookDetails: React.FC = () => {
   const { bookId } = useParams<{ bookId: string }>();
   const [searchParams, setSearchParams] = useSearchParams();
+  const { setHighlightWords } = useSearch();
 
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [selectedChapterId, setSelectedChapterId] = useState<string | null>(null);
@@ -274,6 +276,17 @@ const BookDetails: React.FC = () => {
   const hasInitialScrolledRef = useRef(false);
 
 
+
+  // Track previous chapter ID to detect actual changes (not initial load)
+  const prevChapterIdRef = useRef<string | null>(null);
+
+  // Clear highlight words when book changes
+  useEffect(() => {
+    if (bookId) {
+      setHighlightWords([]);
+      prevChapterIdRef.current = null; // Reset chapter tracking when book changes
+    }
+  }, [bookId, setHighlightWords]);
 
   useEffect(() => {
     const fetchChapters = async () => {
@@ -327,6 +340,12 @@ const BookDetails: React.FC = () => {
     if (chapterIdFromUrl) {
       const chapter = chapters.find(c => c.chapter_id === chapterIdFromUrl);
       if (chapter) {
+        // Clear highlight words when chapter changes (if it's actually different)
+        // Don't clear on initial load (when prevChapterIdRef.current is null)
+        if (prevChapterIdRef.current !== null && selectedChapterId !== chapter.chapter_id) {
+          setHighlightWords([]);
+        }
+        prevChapterIdRef.current = chapter.chapter_id;
         setSelectedChapterId(chapter.chapter_id);
         setSelectedChapter(chapter);
         return;
@@ -338,6 +357,7 @@ const BookDetails: React.FC = () => {
         c => c.chapter_id === readingProgress.chapter_id
       );
       if (savedChapter) {
+        prevChapterIdRef.current = savedChapter.chapter_id;
         setSelectedChapterId(savedChapter.chapter_id);
         setSelectedChapter(savedChapter);
         return;
@@ -346,6 +366,7 @@ const BookDetails: React.FC = () => {
 
     if (!selectedChapterId) {
       const firstChapter = chapters[0];
+      prevChapterIdRef.current = firstChapter.chapter_id;
       setSelectedChapterId(firstChapter.chapter_id);
       setSelectedChapter(firstChapter);
     }
@@ -355,6 +376,7 @@ const BookDetails: React.FC = () => {
     readingProgress,
     hasCheckedProgress,
     selectedChapterId,
+    setHighlightWords,
   ]);
 
   useEffect(() => {
@@ -439,6 +461,10 @@ const BookDetails: React.FC = () => {
 
   const handleChapterSelect = useCallback(
     (chapterId: string) => {
+      // Clear highlight words when user manually selects a different chapter
+      if (selectedChapterId !== chapterId) {
+        setHighlightWords([]);
+      }
       setSearchParams(prev => {
         const params = new URLSearchParams(prev);
         params.set('chapter_id', chapterId);
@@ -450,7 +476,7 @@ const BookDetails: React.FC = () => {
         setIsSidebarOpen(false);
       }
     },
-    [setSearchParams]
+    [setSearchParams, selectedChapterId, setHighlightWords]
   );
 
   const toggleSidebar = useCallback(() => {
