@@ -229,10 +229,38 @@ const ALL_LANGUAGES = [
   "Zulu",
 ];
 
+// Helper function to extract highlighted words from HTML
+function extractHighlightedWords(highlightedText: string): string[] {
+  if (!highlightedText) return [];
+  
+  try {
+    // Use DOMParser to parse the HTML string
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(highlightedText, 'text/html');
+    
+    // Find all mark tags and extract their text content
+    const markElements = doc.querySelectorAll('mark');
+    const words: string[] = [];
+    
+    markElements.forEach((mark) => {
+      const text = mark.textContent?.trim();
+      if (text) {
+        words.push(text);
+      }
+    });
+    
+    // Return unique words/phrases
+    return Array.from(new Set(words));
+  } catch (error) {
+    console.error('Error extracting highlighted words:', error);
+    return [];
+  }
+}
+
 const Header: React.FC = () => {
   const { t, changeLanguage, currentLanguage } = useI18n();
   const navigate = useNavigate();
-  const { searchText, setSearchText } = useSearch(); // Use context
+  const { searchText, setSearchText, setHighlightWords } = useSearch(); // Use context
   
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isNotificationPanelOpen, setIsNotificationPanelOpen] = useState(false);
@@ -412,6 +440,7 @@ const Header: React.FC = () => {
     if (!searchQuery.trim()) {
       setSearchResults([]);
       setShowSearchResults(false);
+      setHighlightWords([]); // Clear highlight words when search is cleared
       return;
     }
 
@@ -498,6 +527,17 @@ const Header: React.FC = () => {
     if (!bookId) {
       console.error('No book_id available for navigation');
       return;
+    }
+
+    // Extract highlighted words from the search result
+    const highlightedWords = extractHighlightedWords(result.highlighted_text || result.text || '');
+    
+    // Store highlighted words in context for use in book page
+    if (highlightedWords.length > 0) {
+      setHighlightWords(highlightedWords);
+    } else {
+      // Fallback: if no highlighted words found, use the search text as single word
+      setHighlightWords(searchText.trim() ? [searchText.trim()] : []);
     }
 
     // Build the navigation URL with query parameters

@@ -3,7 +3,7 @@ import type { Chapter } from "../../../services/book/book.service";
 import { bookService } from "../../../services/book/book.service";
 import { useI18n } from '../../../i18n';
 import { toggleBookmark } from "../../../services/book/toggleBookmark";
-import { highlightContent } from "../utils/highlightUtils";
+import { highlightContent, highlightMultipleWords } from "../utils/highlightUtils";
 import { extractAllPageText } from "../utils/pageTextUtils";
 import { useSearch } from "../../../contexts/SearchContext";
 import { useBook } from "../../../contexts/BookContext";
@@ -65,10 +65,11 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const observerRef = useRef<IntersectionObserver | null>(null);
   const progressUpdateTimeout = useRef<NodeJS.Timeout | null>(null);
 
-  const { searchText } = useSearch();
+  const { searchText, highlightWords } = useSearch();
   const { isBookmarked, setIsBookmarked, setBookmarkId } = useBook();
 
-  const highlightQuery = searchText;
+  // Use highlightWords if available, otherwise fallback to searchText
+  const highlightQuery = highlightWords.length > 0 ? null : searchText;
 
   const [isHighlightMode, setIsHighlightMode] = useState(false);
   const [selectedColor, setSelectedColor] = useState<
@@ -474,12 +475,15 @@ function getBlockTextLength(block: HTMLElement) {
   const processedBlocks = useMemo(() => {
     return blocks.map((block) => {
       let html = markdownToHtml(block.markdown);
-      if (highlightQuery) {
+      // Use highlightWords if available, otherwise use highlightQuery (searchText)
+      if (highlightWords.length > 0) {
+        html = highlightMultipleWords(html, highlightWords);
+      } else if (highlightQuery) {
         html = highlightContent(html, highlightQuery);
       }
       return { ...block, html };
     });
-  }, [blocks, highlightQuery]);
+  }, [blocks, highlightWords, highlightQuery]);
 
   const pages = useMemo(() => {
     const groups: (typeof processedBlocks)[] = [];
@@ -507,7 +511,9 @@ function getBlockTextLength(block: HTMLElement) {
 
 
   useEffect(() => {
-    if (!highlightQuery || !chapter) return;
+    // Check if we have either highlightWords or highlightQuery to scroll to
+    const hasHighlights = highlightWords.length > 0 || highlightQuery;
+    if (!hasHighlights || !chapter) return;
 
     const timer = setTimeout(() => {
       const firstMatch = document.querySelector(".highlight-match");
@@ -515,7 +521,7 @@ function getBlockTextLength(block: HTMLElement) {
     }, 100);
 
     return () => clearTimeout(timer);
-  }, [highlightQuery, chapter]);
+  }, [highlightWords, highlightQuery, chapter]);
 
 
   const handleBookmark = async () => {
