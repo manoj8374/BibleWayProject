@@ -54,6 +54,7 @@ interface ChapterContentProps {
   chapter: Chapter | null;
   chapterIndex?: number;
   totalChapters?: number;
+  categoryName?: string;
 }
 
 interface Block {
@@ -66,6 +67,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   chapter,
   chapterIndex = 0,
   totalChapters = 1,
+  categoryName,
 }) => {
   const contentRef = useRef<HTMLDivElement>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -1010,27 +1012,31 @@ function getBlockTextLength(block: HTMLElement) {
             </span>
           </BookmarkButton>
 
-          <LikeButton
-            $isLiked={isLiked}
-            onClick={handleLike}
-            disabled={isLiking}
-            title={(isLiked ? "Unlike chapter" : "Like chapter")}
-          >
-            {isLiked ? (
-              <FaThumbsUp color="white" size={16} />
-            ) : (
-              <AiOutlineLike color="#0860C4" size={16} />
-            )}
-            <span>{likeCount}</span>
-          </LikeButton>
+          {categoryName === "Segregate Bibles" && (
+            <>
+              <LikeButton
+                $isLiked={isLiked}
+                onClick={handleLike}
+                disabled={isLiking}
+                title={(isLiked ? "Unlike chapter" : "Like chapter")}
+              >
+                {isLiked ? (
+                  <FaThumbsUp color="white" size={16} />
+                ) : (
+                  <AiOutlineLike color="#0860C4" size={16} />
+                )}
+                <span>{likeCount}</span>
+              </LikeButton>
 
-          <FeedbackButton
-            onClick={() => setIsFeedbackModalOpen(true)}
-            title="Provide feedback"
-          >
-            <MdFeedback color="#0860C4" size={16} />
-            <span>Feedback</span>
-          </FeedbackButton>
+              <FeedbackButton
+                onClick={() => setIsFeedbackModalOpen(true)}
+                title="Provide feedback"
+              >
+                <MdFeedback color="#0860C4" size={16} />
+                <span>Feedback</span>
+              </FeedbackButton>
+            </>
+          )}
         </HeaderActions>
       </ChapterHeader>
 

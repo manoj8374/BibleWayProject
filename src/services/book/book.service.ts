@@ -43,6 +43,8 @@ export interface Chapter {
 export interface GetBookChaptersResponse {
   success: boolean;
   message: string;
+  category_id?: string;
+  category_name?: string;
   data: Chapter[];
   error?: string;
   error_code?: string;

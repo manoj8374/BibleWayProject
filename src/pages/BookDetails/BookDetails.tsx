@@ -267,6 +267,7 @@ const BookDetails: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'chapters' | 'notes'>('chapters');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [categoryName, setCategoryName] = useState<string | undefined>(undefined);
 
   const [readingProgress, setReadingProgress] =
     useState<GetReadingProgressResponse['data']>(null);
@@ -297,6 +298,7 @@ const BookDetails: React.FC = () => {
         const response = await bookService.getBookChapters(bookId);
         if (response.success && response.data) {
           setChapters(response.data);
+          setCategoryName(response.category_name);
         } else {
           showError(response.error || response.message || 'Failed to load chapters');
         }
@@ -504,6 +506,7 @@ const BookDetails: React.FC = () => {
             c => c.chapter_id === selectedChapter?.chapter_id
           )}
           totalChapters={chapters.length}
+          categoryName={categoryName}
         />
       </MainContent>
 
