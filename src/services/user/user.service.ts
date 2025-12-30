@@ -80,6 +80,7 @@ export interface CompleteUserProfileResponse {
 }
 
 export interface UpdateProfileData {
+    username?: string;
     profile_picture?: File;
     country?: string;
     age?: number;
@@ -251,6 +252,7 @@ export const userService = {
                 const formData = new FormData();
                 formData.append('profile_picture', data.profile_picture);
                 
+                if (data.username) formData.append('username', data.username);
                 if (data.country) formData.append('country', data.country);
                 if (data.age !== undefined) formData.append('age', data.age.toString());
                 if (data.preferred_language) formData.append('preferred_language', data.preferred_language);
@@ -260,6 +262,7 @@ export const userService = {
             } else {
                 // Use JSON for non-file updates
                 requestData = {
+                    ...(data.username && { username: data.username }),
                     ...(data.country && { country: data.country }),
                     ...(data.age !== undefined && { age: data.age }),
                     ...(data.preferred_language && { preferred_language: data.preferred_language })

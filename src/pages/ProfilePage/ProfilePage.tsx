@@ -363,12 +363,14 @@ const ProfilePage: React.FC = () => {
         setIsSaving(true);
         try {
             const updateData: {
+                username?: string;
                 country?: string;
                 age?: number;
                 preferred_language?: string;
             } = {};
 
             // Profile picture is uploaded automatically when selected, so don't include it here
+            if (username) updateData.username = username;
             if (country) updateData.country = country;
             if (age) updateData.age = typeof age === 'number' ? age : Number(age);
             if (preferredLanguage) updateData.preferred_language = preferredLanguage;
@@ -548,8 +550,8 @@ const ProfilePage: React.FC = () => {
                             <Label>{t('pages.profilePage.username')}</Label>
                             <StyledInput
                                 value={username}
-                                readOnly
-                                disabled
+                                onChange={(e) => setUsername(e.target.value)}
+                                placeholder="Username"
                             />
                         </FormGroup>
 
