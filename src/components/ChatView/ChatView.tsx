@@ -38,6 +38,8 @@ import {
   ImageModalOverlay,
   ImageModalContent,
   ImageModalCloseButton,
+  IconWrapper,
+  TranslateText,
 } from "./ChatView.styles";
 import {
   chatService,
@@ -865,8 +867,12 @@ const ChatView: React.FC<ChatViewProps> = ({
                               : "Translate"
                           }
                         >
+                          <TranslateText>Translate</TranslateText>
+                          <IconWrapper>
                           <MdOutlineTranslate />
+                          </IconWrapper>
                         </TranslateButton>
+
                       </TranslationControls>
                     )}
 

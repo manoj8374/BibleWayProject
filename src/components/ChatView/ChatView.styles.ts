@@ -161,6 +161,10 @@ export const MessageBubble = styled.div<{
   flex-direction: column;
   position: relative;
 
+  @media (max-width: 500px) {
+    max-width: 80%;
+  }
+
 
   &:hover .delete-btn,
   &.selected .delete-btn {
@@ -566,6 +570,27 @@ export const LanguageSelect = styled.select`
     border-color: #0e3a66;
   }
 `;
+
+export const IconWrapper = styled.div`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+
+  display: none;
+
+  @media (max-width: 500px) {
+    display: inline-flex;
+  }
+`;
+
+export const TranslateText = styled.span`
+  display: none;
+  @media (min-width: 500px) {
+    display: inline-flex;
+  }
+`
 
 export const TranslateButton = styled.button`
   padding: 4px 12px;
