@@ -77,8 +77,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const [isBookmarking, setIsBookmarking] = useState(false);
   const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [isLoadingHighlights, setIsLoadingHighlights] = useState(false);
-
-
+  const [chapterMetadata, setChapterMetadata] = useState<Record<string, unknown> | null>(null);
+  const [isLoadingMetadata, setIsLoadingMetadata] = useState(false);
 
   /* ---------------- Text-to-Speech State ---------------- */
   const [selectedPages, setSelectedPages] = useState<Set<number>>(new Set());
@@ -374,8 +374,37 @@ function getBlockTextLength(block: HTMLElement) {
     loadHighlightsFromAPI(chapter.book_id, chapter.chapter_id);
   }, [chapter?.chapter_id, chapter?.book_id, loadHighlightsFromAPI]);
 
+  // Load chapter metadata when chapter changes
+  useEffect(() => {
+    if (!chapter?.chapter_id) {
+      setChapterMetadata(null);
+      return;
+    }
+
+    const fetchMetadata = async () => {
+      setIsLoadingMetadata(true);
+      try {
+        const response = await bookService.getChapterMetadata(chapter.chapter_id);
+        if (response.success && response.data) {
+          // Return empty object {} if metadata is null (as per spec)
+          setChapterMetadata(response.data.metadata || {});
+        } else {
+          console.error('Failed to fetch chapter metadata:', response.error || response.message);
+          setChapterMetadata({});
+        }
+      } catch (error) {
+        console.error('Error fetching chapter metadata:', error);
+        setChapterMetadata({});
+      } finally {
+        setIsLoadingMetadata(false);
+      }
+    };
+
+    fetchMetadata();
+  }, [chapter?.chapter_id]);
+
   const blocks =
-    (chapter?.metadata as { blocks?: Block[] } | undefined)?.blocks || [];
+    (chapterMetadata as { blocks?: Block[] } | undefined)?.blocks || [];
 
   // Apply loaded highlights to DOM after blocks are rendered
   useLayoutEffect(() => {
@@ -801,6 +830,23 @@ function getBlockTextLength(block: HTMLElement) {
           <EmptyStateSubtext>
             {t('chapterSidebar.selectChapterToBegin')}
           </EmptyStateSubtext>
+        </EmptyState>
+      </ContentContainer>
+    );
+  }
+
+  if (isLoadingMetadata) {
+    return (
+      <ContentContainer>
+        <ChapterHeader>
+          <ChapterTitle>{chapter.title}</ChapterTitle>
+          {chapter.description && (
+            <ChapterDescription>{chapter.description}</ChapterDescription>
+          )}
+        </ChapterHeader>
+        <EmptyState>
+          <LoadingSpinner />
+          <EmptyStateText>Loading chapter content...</EmptyStateText>
         </EmptyState>
       </ContentContainer>
     );

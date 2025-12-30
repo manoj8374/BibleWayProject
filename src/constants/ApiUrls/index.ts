@@ -61,6 +61,7 @@ export const GET_ALL_PROMOTIONS = "/promotion/all";
 export const GET_ALL_WALLPAPERS = "/wallpapers/all";
 export const GET_BOOKS = "/books/get";
 export const GET_BOOK_CHAPTERS = "/books/chapters/get";
+export const GET_CHAPTER_METADATA = "/books/chapters/metadata";
 export const ADMIN_UPLOAD_CHAPTERS = "/admin/book/chapters/create";
 export const ADMIN_BULK_DELETE_CHAPTERS = "/admin/book/chapter/bulk-delete";
 export const CREATE_HIGHLIGHT = "/highlight/create";

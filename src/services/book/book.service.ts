@@ -1,6 +1,6 @@
 import api from '../../AxiosClient';
 import type { ApiError } from '../../constants/Error';
-import { GET_BOOKS, GET_BOOK_CHAPTERS, CREATE_READING_PROGRESS, GET_TOP_BOOKS, GET_LATEST_CHAPTERS_BY_AGE_GROUP } from '../../constants/ApiUrls';
+import { GET_BOOKS, GET_BOOK_CHAPTERS, GET_CHAPTER_METADATA, CREATE_READING_PROGRESS, GET_TOP_BOOKS, GET_LATEST_CHAPTERS_BY_AGE_GROUP } from '../../constants/ApiUrls';
 import type { AxiosError } from 'axios';
 
 export interface Book {
@@ -34,7 +34,7 @@ export interface Chapter {
   chapter_number: number;
   chapter_name: string | null;
   chapter_url: string | null;
-  metadata: Record<string, unknown>;
+  metadata?: Record<string, unknown>;
   created_at: string;
   updated_at: string;
   video_url: string | null;
@@ -44,6 +44,17 @@ export interface GetBookChaptersResponse {
   success: boolean;
   message: string;
   data: Chapter[];
+  error?: string;
+  error_code?: string;
+}
+
+export interface GetChapterMetadataResponse {
+  success: boolean;
+  message: string;
+  data: {
+    chapter_id: string;
+    metadata: Record<string, unknown> | null;
+  };
   error?: string;
   error_code?: string;
 }
@@ -272,7 +283,100 @@ export const bookService = {
       };
     }
   },
-  getLatestChaptersByAgeGroup
+  getLatestChaptersByAgeGroup,
+
+  getChapterMetadata: async (chapterId: string): Promise<GetChapterMetadataResponse> => {
+    try {
+      if (!chapterId || typeof chapterId !== 'string' || chapterId.trim() === '') {
+        return {
+          success: false,
+          message: 'Missing or invalid chapter_id',
+          data: {
+            chapter_id: chapterId,
+            metadata: null
+          },
+          error: 'Missing or invalid chapter_id',
+          error_code: 'INVALID_CHAPTER_ID'
+        };
+      }
+
+      const response = await api.post<GetChapterMetadataResponse>(
+        GET_CHAPTER_METADATA,
+        {
+          chapter_id: chapterId
+        },
+        {
+          headers: {
+            "ngrok-skip-browser-warning": "true"
+          }
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<GetChapterMetadataResponse>;
+      
+      // Handle specific HTTP status codes
+      if (axiosError.response) {
+        const status = axiosError.response.status;
+        
+        if (status === 400) {
+          return {
+            success: false,
+            message: 'Missing or invalid chapter_id',
+            data: {
+              chapter_id: chapterId,
+              metadata: null
+            },
+            error: 'Missing or invalid chapter_id',
+            error_code: 'INVALID_CHAPTER_ID'
+          };
+        }
+        
+        if (status === 404) {
+          return {
+            success: false,
+            message: 'Chapter not found',
+            data: {
+              chapter_id: chapterId,
+              metadata: null
+            },
+            error: 'Chapter not found',
+            error_code: 'CHAPTER_NOT_FOUND'
+          };
+        }
+        
+        if (status === 500) {
+          return {
+            success: false,
+            message: 'Internal server error',
+            data: {
+              chapter_id: chapterId,
+              metadata: null
+            },
+            error: 'Internal server error',
+            error_code: 'INTERNAL_SERVER_ERROR'
+          };
+        }
+        
+        // If response has data, return it
+        if (axiosError.response.data) {
+          return axiosError.response.data;
+        }
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || 'Failed to fetch chapter metadata.',
+        data: {
+          chapter_id: chapterId,
+          metadata: null
+        },
+        error: err?.message || 'Failed to fetch chapter metadata.',
+        error_code: err?.error_code || 'UNKNOWN_ERROR'
+      };
+    }
+  }
 };
 
 /**
