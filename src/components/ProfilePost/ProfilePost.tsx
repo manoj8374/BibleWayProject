@@ -40,9 +40,10 @@ import {
 
 import CommentsSection from '../CommentsSection';
 import BookMarkIcon from '../../Icons/BookMarkIcon';
-import { postService } from '../../services/post/post.service';
+import { postService, type Post as PostType } from '../../services/post/post.service';
 import { showError } from '../../utils/toast';
 import { useI18n } from '../../i18n';
+import EditPostModal from '../EditPostModal/EditPostModal';
 
 import { AiOutlineLike } from 'react-icons/ai';
 import { BiCommentDots } from 'react-icons/bi';
@@ -84,7 +85,8 @@ export interface ProfilePostProps {
 
   enableEditDelete?: boolean;
   onDelete?: (id: string) => void;
-  onUpdate?: (id: string, newContent: string) => void;
+  onUpdate?: (id: string, newContent: string, mediaUrls?: string[]) => void;
+  onPostUpdated?: () => void;
 }
 
 
@@ -116,7 +118,8 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
 
     enableEditDelete = false,
     onDelete,
-    onUpdate
+    onUpdate,
+    onPostUpdated
   } = props;
 
 
@@ -125,8 +128,8 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isEditing, setIsEditing] = React.useState(false);
-  const [editContent, setEditContent] = React.useState(content);
+  const [isEditModalOpen, setIsEditModalOpen] = React.useState(false);
+  const [postData, setPostData] = React.useState<PostType | null>(null);
 
   const [isLikedPost, setIsLikedPost] = React.useState(isLiked);
   const [likesCount, setLikesCount] = React.useState(likes);
@@ -140,9 +143,6 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
     return () => document.removeEventListener('click', closeMenu);
   }, [isMenuOpen]);
 
-  React.useEffect(() => {
-    setEditContent(content);
-  }, [content]);
 
   React.useEffect(() => {
     setCommentsCount(comments);
@@ -197,10 +197,22 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
     if (!prevLiked) onLike?.();
   };
 
-  const handleEditClick = (e: React.MouseEvent) => {
+  const handleEditClick = async (e: React.MouseEvent) => {
     e.stopPropagation();
-    setIsEditing(true);
     setIsMenuOpen(false);
+    
+    // Fetch full post details to get media
+    try {
+      const response = await postService.getPostDetails(id);
+      if (response.success && response.data) {
+        setPostData(response.data);
+        setIsEditModalOpen(true);
+      } else {
+        showError(response.message || t('posts.failedToLoadPost') || 'Failed to load post');
+      }
+    } catch (error) {
+      showError(t('posts.failedToLoadPost') || 'Failed to load post');
+    }
   };
 
   const handleDeleteClick = (e: React.MouseEvent) => {
@@ -209,16 +221,14 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
     if (onDelete && window.confirm(t('posts.deleteConfirm'))) onDelete(id);
   };
 
-  const handleSaveEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onUpdate?.(id, editContent);
-    setIsEditing(false);
-  };
-
-  const handleCancelEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setEditContent(content);
-    setIsEditing(false);
+  const handlePostUpdated = () => {
+    // EditPostModal already handled the update, just close and trigger parent refresh
+    setIsEditModalOpen(false);
+    setPostData(null);
+    // Trigger parent refresh callback
+    if (onPostUpdated) {
+      onPostUpdated();
+    }
   };
 
   const nextSlide = (e: React.MouseEvent) => {
@@ -335,17 +345,7 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
 
   const renderContent = () => (
     <PostContent>
-      {isEditing ? (
-        <>
-          <PostTextArea value={editContent} onChange={(e) => setEditContent(e.target.value)} />
-          <EditActions>
-            <ActionButton variant="secondary" onClick={handleCancelEdit}>{t('posts.cancel')}</ActionButton>
-            <ActionButton variant="primary" onClick={handleSaveEdit}>{t('posts.save')}</ActionButton>
-          </EditActions>
-        </>
-      ) : (
-        <PostText>{renderHashtags(content)}</PostText>
-      )}
+      <PostText>{renderHashtags(content)}</PostText>
     </PostContent>
   );
 
@@ -413,6 +413,15 @@ const ProfilePost: React.FC<ProfilePostProps> = (props) => {
         />
       )}
       {renderCommentBox()}
+      <EditPostModal
+        isOpen={isEditModalOpen}
+        onClose={() => {
+          setIsEditModalOpen(false);
+          setPostData(null);
+        }}
+        post={postData}
+        onPostUpdated={handlePostUpdated}
+      />
     </PostContainer>
   );
 };

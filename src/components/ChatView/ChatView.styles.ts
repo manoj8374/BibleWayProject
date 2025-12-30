@@ -494,13 +494,13 @@ export const StickerPopup = styled.div`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   padding: 12px;
   width: 420px;
+  max-width: calc(100vw - 32px);
   max-height: 400px;
   overflow-y: auto;
   z-index: 1000;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  row-gap: 80px;
+  row-gap: 52px;
   animation: fadeIn 0.2s ease-out;
 
   @keyframes fadeIn {
@@ -512,6 +512,22 @@ export const StickerPopup = styled.div`
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  @media (max-width: 768px) {
+    width: calc(100vw - 32px);
+    max-width: 320px;
+    padding: 8px;
+    row-gap: 36px;
+    max-height: 300px;
+  }
+
+  @media (max-width: 480px) {
+    width: calc(100vw - 24px);
+    max-width: 280px;
+    padding: 6px;
+    row-gap: 24px;
+    max-height: 250px;
   }
 `;
 
@@ -528,11 +544,15 @@ export const StickerItem = styled.button`
   justify-content: center;
   transition: background-color 0.2s;
   overflow: hidden;
+  min-height: 60px;
 
   img {
+    width: 100%;
+    height: 100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    display: block;
   }
 
   &:hover {
@@ -541,6 +561,45 @@ export const StickerItem = styled.button`
 
   &:active {
     transform: scale(0.95);
+  }
+
+  @media (max-width: 768px) {
+    padding: 6px;
+    min-height: 50px;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 4px;
+    min-height: 40px;
+    border-radius: 4px;
+  }
+`;
+
+export const StickerImage = styled.img`
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  object-fit: contain;
+  display: block;
+
+  @media (max-width: 768px) {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 360px) {
+    max-width: 100px;
+    max-height: 100px;
   }
 `;
 

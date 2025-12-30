@@ -6,6 +6,8 @@ export const PageContainer = styled.div`
   margin: 0 auto;
   min-height: calc(100vh - 60px);
   background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
 
   @media (max-width: 1024px) {
     padding: 20px;
@@ -13,6 +15,10 @@ export const PageContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 16px;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 12px;
   }
 `;
 
@@ -32,9 +38,16 @@ export const PageTitle = styled.h1`
   font-weight: 700;
   color: #181821;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
   @media (max-width: 768px) {
     font-size: 24px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 20px;
   }
 `;
 
@@ -52,25 +65,31 @@ export const ContentWrapper = styled.div`
 export const BooksSection = styled.div`
   flex: 1;
   min-width: 0;
+  width: 100%;
 
   @media (min-width: 1025px) {
-    max-width: 400px;
+    max-width: 100%;
   }
 `;
 
 export const BooksGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+  align-items: stretch;
 
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 16px;
   }
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
     gap: 12px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 480px) {
+    gap: 10px;
+    justify-content: stretch;
   }
 `;
 
@@ -84,16 +103,33 @@ export const BookCard = styled.div<{ $isSelected?: boolean }>`
   display: flex;
   flex-direction: column;
   gap: 12px;
-
+  flex: 0 0 calc(33.333% - 14px);
+  min-width: 280px;
+  max-width: 320px;
+  
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     border-color: #0e3a66;
   }
 
+  @media (max-width: 1024px) {
+    flex: 0 0 calc(50% - 8px);
+    min-width: 250px;
+    max-width: 100%;
+  }
+
   @media (max-width: 768px) {
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 100%;
     padding: 16px;
     gap: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 14px;
+    gap: 8px;
   }
 `;
 
@@ -112,6 +148,14 @@ export const BookName = styled.h3`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 
 export const BookInfo = styled.div`
@@ -121,16 +165,29 @@ export const BookInfo = styled.div`
   display: flex;
   align-items: center;
   gap: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+  @media (max-width: 480px) {
+    font-size: 13px;
+  }
 `;
 
 export const BookCardActions = styled.div`
   display: flex;
   gap: 8px;
-  margin-top: 4px;
+  margin-top: auto;
+  padding-top: 8px;
 
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 10px;
+    margin-top: 12px;
+  }
+  
+  @media (max-width: 480px) {
+    gap: 8px;
   }
 `;
 
@@ -145,6 +202,7 @@ export const ViewNotesButton = styled.button`
   cursor: pointer;
   transition: all 0.2s ease;
   flex: 1;
+  white-space: nowrap;
 
   &:hover {
     background-color: #059669;
@@ -175,6 +233,7 @@ export const OpenBookButton = styled.button`
   cursor: pointer;
   transition: all 0.2s ease;
   flex: 1;
+  white-space: nowrap;
 
   &:hover {
     background-color: #0a2d4d;
@@ -195,33 +254,38 @@ export const OpenBookButton = styled.button`
 `;
 
 export const NotesSection = styled.div<{ $isOpen?: boolean }>`
-  flex: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 450px;
+  max-width: 90vw;
   background: white;
-  border-radius: 12px;
-  padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  min-height: 400px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
   display: flex;
   flex-direction: column;
+  padding: 24px;
+  overflow-y: auto;
+  transform: ${(props) => (props.$isOpen ? 'translateX(0)' : 'translateX(100%)')};
+  transition: transform 0.3s ease-in-out;
+  border-left: 1px solid #e5e7eb;
 
   @media (max-width: 1024px) {
-    display: ${(props) => (props.$isOpen ? 'flex' : 'none')};
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-    border-radius: 0;
+    width: 400px;
+    max-width: 85vw;
     padding: 20px;
-    overflow-y: auto;
-    min-height: 100vh;
-    transform: ${(props) => (props.$isOpen ? 'translateX(0)' : 'translateX(100%)')};
-    transition: transform 0.3s ease-in-out;
   }
 
   @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100vw;
     padding: 16px;
+    border-left: none;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 14px;
   }
 `;
 
@@ -232,10 +296,18 @@ export const NotesHeader = styled.div`
   margin-bottom: 24px;
   padding-bottom: 16px;
   border-bottom: 2px solid #e5e7eb;
+  gap: 12px;
+  min-width: 0;
 
   @media (max-width: 768px) {
     margin-bottom: 20px;
     padding-bottom: 12px;
+  }
+  
+  @media (max-width: 480px) {
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    gap: 8px;
   }
 `;
 
@@ -244,36 +316,55 @@ export const NotesTitle = styled.h2`
   font-weight: 600;
   color: #181821;
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
 
   @media (max-width: 768px) {
     font-size: 20px;
   }
+  
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 
 export const CloseButton = styled.button`
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #f3f4f6;
+  color: #181821;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
 
-  @media (max-width: 1024px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border: none;
-    background: #f3f4f6;
-    color: #181821;
-    cursor: pointer;
-    transition: all 0.2s;
-    flex-shrink: 0;
+  &:hover {
+    background: #e5e7eb;
+  }
 
-    &:hover {
-      background: #e5e7eb;
-    }
+  &:active {
+    transform: scale(0.95);
+  }
 
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 480px) {
+    width: 32px;
+    height: 32px;
+    
     svg {
-      width: 20px;
-      height: 20px;
+      width: 18px;
+      height: 18px;
     }
   }
 `;
@@ -302,9 +393,17 @@ export const ChapterHeader = styled.h3`
   margin: 0;
   padding-bottom: 12px;
   border-bottom: 2px solid #e5e7eb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
   @media (max-width: 768px) {
     font-size: 16px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 14px;
+    padding-bottom: 10px;
   }
 `;
 
@@ -338,6 +437,22 @@ export const NoteContent = styled.p`
   margin: 0 0 12px 0;
   white-space: pre-wrap;
   word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  max-height: calc(1.6em * 5);
+  
+  @media (max-width: 768px) {
+    -webkit-line-clamp: 4;
+    max-height: calc(1.6em * 4);
+    font-size: 14px;
+  }
+  
+  @media (max-width: 480px) {
+    -webkit-line-clamp: 3;
+    max-height: calc(1.6em * 3);
+  }
 `;
 
 export const NoteTextarea = styled.textarea`
@@ -373,15 +488,31 @@ export const NoteMeta = styled.div`
   gap: 12px;
   padding-top: 12px;
   border-top: 1px solid #e5e7eb;
+  
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 `;
 
 export const NoteDate = styled.div`
   font-size: 12px;
   color: #6b7280;
   font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
 
   span {
     color: #9ca3af;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 11px;
+    width: 100%;
   }
 `;
 
@@ -502,20 +633,16 @@ export const LoadingText = styled.div`
 `;
 
 export const Overlay = styled.div<{ $isOpen?: boolean }>`
-  display: none;
-
-  @media (max-width: 1024px) {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    opacity: ${(props) => (props.$isOpen ? 1 : 0)};
-    visibility: ${(props) => (props.$isOpen ? 'visible' : 'hidden')};
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: ${(props) => (props.$isOpen ? 1 : 0)};
+  visibility: ${(props) => (props.$isOpen ? 'visible' : 'hidden')};
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  pointer-events: ${(props) => (props.$isOpen ? 'auto' : 'none')};
 `;
 

@@ -14,9 +14,11 @@ import {
   ADMIN_UPDATE_BOOK,
   GET_BOOKS,
   ADMIN_CREATE_PROMOTION,
+  ADMIN_DELETE_PROMOTION,
   GET_BOOK_CHAPTERS,
   ADMIN_UPLOAD_CHAPTERS,
   ADMIN_BULK_DELETE_CHAPTERS,
+  ADMIN_GET_CHAPTER_FEEDBACKS,
 } from "../../constants/ApiUrls";
 import type { ApiError } from "../../constants/Error";
 import i18n from "../../i18n/config";
@@ -228,6 +230,18 @@ export interface CreatePromotionResponse {
   error_code?: string;
 }
 
+export interface DeletePromotionData {
+  promotion_id: string;
+}
+
+export interface DeletePromotionResponse {
+  success: boolean;
+  message?: string;
+  promotion_id?: string;
+  error?: string;
+  error_code?: string;
+}
+
 export interface Chapter {
   chapter_id: string;
   book_id: string;
@@ -270,6 +284,52 @@ export interface BulkDeleteChaptersResponse {
   failed_count: number;
   failed_ids: string[];
   errors: string[];
+  error?: string;
+  error_code?: string;
+}
+
+export interface ChapterFeedbackUser {
+  user_id: string;
+  username: string;
+  email: string;
+  profile_picture: string | null;
+}
+
+export interface ChapterFeedback {
+  feedback_id: string;
+  user: ChapterFeedbackUser;
+  description: string;
+  rating: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ChapterWithFeedbacks {
+  chapter_id: string;
+  chapter_title: string;
+  chapter_number: number;
+  chapter_name: string;
+  total_feedbacks: number;
+  average_rating: number;
+  feedbacks: ChapterFeedback[];
+}
+
+export interface Book {
+  book_id: string;
+  book_title: string;
+  book_description: string;
+  total_feedbacks: number;
+  chapters: ChapterWithFeedbacks[];
+}
+
+export interface GetChapterFeedbacksResponse {
+  success: boolean;
+  message: string;
+  data: {
+    total_feedbacks: number;
+    total_books: number;
+    books: Book[];
+  };
   error?: string;
   error_code?: string;
 }
@@ -1085,6 +1145,61 @@ export const adminService = {
       return {
         success: false,
         error: err?.message || "Failed to update book.",
+        error_code: err?.error_code,
+      };
+    }
+  },
+
+  deletePromotion: async (data: DeletePromotionData): Promise<DeletePromotionResponse> => {
+    try {
+      const response = await api.post<DeletePromotionResponse>(
+        ADMIN_DELETE_PROMOTION,
+        data
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<DeletePromotionResponse>;
+      if (axiosError.response && axiosError.response.data) {
+        return axiosError.response.data;
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || "Failed to delete promotion.",
+        error: err?.message || "Failed to delete promotion.",
+        error_code: err?.error_code,
+      };
+    }
+  },
+
+  getChapterFeedbacks: async (): Promise<GetChapterFeedbacksResponse> => {
+    try {
+      const response = await api.get<GetChapterFeedbacksResponse>(
+        ADMIN_GET_CHAPTER_FEEDBACKS,
+        {
+          headers: {
+            "ngrok-skip-browser-warning": "true"
+          }
+        }
+      );
+      return response.data;
+    } catch (error: unknown) {
+      const axiosError = error as AxiosError<GetChapterFeedbacksResponse>;
+      if (axiosError.response && axiosError.response.data) {
+        return axiosError.response.data;
+      }
+
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || "Failed to retrieve chapter feedbacks.",
+        data: {
+          total_feedbacks: 0,
+          total_books: 0,
+          books: []
+        },
+        error: err?.message || "Failed to retrieve chapter feedbacks.",
         error_code: err?.error_code,
       };
     }

@@ -242,13 +242,27 @@ const ProfilePage: React.FC = () => {
         }
     };
 
-    const handleUpdatePost = async (postId: string, newContent: string) => {
-        const response = await postService.updatePost(postId, newContent);
+    const handleUpdatePost = async (postId: string, newContent: string, mediaUrls?: string[]) => {
+        const updateData: {
+            post_id: string;
+            description?: string;
+            media_urls?: string[];
+        } = {
+            post_id: postId
+        };
+
+        if (newContent !== undefined) {
+            updateData.description = newContent;
+        }
+        if (mediaUrls !== undefined) {
+            updateData.media_urls = mediaUrls;
+        }
+
+        const response = await postService.updatePost(updateData);
         if (response.success) {
             showSuccess(t('pages.profilePage.postUpdatedSuccessfully'));
-            setPosts(prevPosts => prevPosts.map(p =>
-                p.post_id === postId ? { ...p, description: newContent } : p
-            ));
+            // Refresh posts to get updated data
+            fetchUserContent();
         } else {
             showError(response.message || t('pages.profilePage.failedToUpdatePost'));
         }
@@ -461,6 +475,7 @@ const ProfilePage: React.FC = () => {
                             enableEditDelete={true}
                             onDelete={handleDeletePost}
                             onUpdate={handleUpdatePost}
+                            onPostUpdated={fetchUserContent}
                             isLiked={post.is_liked}
                         />
                     );

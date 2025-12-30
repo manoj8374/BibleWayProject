@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import type { Chapter } from '../../../../../services/admin/admin.service';
 import { adminService } from '../../../../../services/admin/admin.service';
 import { showSuccess, showError } from '../../../../../utils/toast';
+import ConfirmationModal from '../../../../../components/ConfirmationModal/ConfirmationModal';
 
 interface ChapterListProps {
   chapters: Chapter[];
@@ -235,6 +236,15 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
   const [deletingChapterId, setDeletingChapterId] = useState<string | null>(null);
   const [selectedChapterIds, setSelectedChapterIds] = useState<Set<string>>(new Set());
   const [isBulkDeleting, setIsBulkDeleting] = useState(false);
+  const [bulkDeleteModal, setBulkDeleteModal] = useState<{ isOpen: boolean; chapterTitles: string; count: number }>({
+    isOpen: false,
+    chapterTitles: '',
+    count: 0
+  });
+  const [deleteModal, setDeleteModal] = useState<{ isOpen: boolean; chapter: Chapter | null }>({
+    isOpen: false,
+    chapter: null
+  });
 
   const handleToggleSelect = (chapterId: string) => {
     setSelectedChapterIds(prev => {
@@ -260,17 +270,24 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
     setSelectedChapterIds(new Set());
   };
 
-  const handleBulkDelete = async () => {
+  const handleBulkDeleteClick = () => {
     if (selectedChapterIds.size === 0) return;
 
     const selectedChapters = chapters.filter(ch => selectedChapterIds.has(ch.chapter_id));
     const chapterTitles = selectedChapters.map(ch => `"${ch.title}"`).join(', ');
     
-    if (!window.confirm(`Are you sure you want to delete ${selectedChapterIds.size} chapter(s)?\n\n${chapterTitles}\n\nThis action cannot be undone.`)) {
-      return;
-    }
+    setBulkDeleteModal({
+      isOpen: true,
+      chapterTitles,
+      count: selectedChapterIds.size
+    });
+  };
+
+  const handleBulkDeleteConfirm = async () => {
+    if (selectedChapterIds.size === 0) return;
 
     setIsBulkDeleting(true);
+    setBulkDeleteModal({ isOpen: false, chapterTitles: '', count: 0 });
     try {
       const chapterIdsArray = Array.from(selectedChapterIds);
       const response = await adminService.bulkDeleteChapters(chapterIdsArray);
@@ -322,12 +339,16 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
     }
   };
 
-  const handleDelete = async (chapter: Chapter) => {
-    if (!window.confirm(`Are you sure you want to delete chapter "${chapter.title}"? This action cannot be undone.`)) {
-      return;
-    }
+  const handleDeleteClick = (chapter: Chapter) => {
+    setDeleteModal({ isOpen: true, chapter });
+  };
+
+  const handleDeleteConfirm = async () => {
+    if (!deleteModal.chapter) return;
+    const chapter = deleteModal.chapter;
 
     setDeletingChapterId(chapter.chapter_id);
+    setDeleteModal({ isOpen: false, chapter: null });
     try {
       const response = await adminService.bulkDeleteChapters([chapter.chapter_id]);
       
@@ -433,7 +454,7 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
               Clear Selection
             </ClearSelectionButton>
             <BulkDeleteButton
-              onClick={handleBulkDelete}
+              onClick={handleBulkDeleteClick}
               disabled={isBulkDeleting}
             >
               {isBulkDeleting ? (
@@ -478,7 +499,7 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
                     <ChapterTitleContainer>
                       <ChapterTitle>{chapter.title}</ChapterTitle>
                       <DeleteButton
-                        onClick={() => handleDelete(chapter)}
+                        onClick={() => handleDeleteClick(chapter)}
                         disabled={isDeleting || isBulkDeleting}
                         title="Delete chapter"
                       >
@@ -520,6 +541,30 @@ export const ChapterList: React.FC<ChapterListProps> = ({ chapters, loading, onR
           </ChapterItem>
         );
       })}
+
+      <ConfirmationModal
+        isOpen={bulkDeleteModal.isOpen}
+        title="Delete Chapters"
+        description={`Are you sure you want to delete ${bulkDeleteModal.count} chapter(s)?\n\n${bulkDeleteModal.chapterTitles}\n\nThis action cannot be undone.`}
+        confirmText="Delete"
+        cancelText="Cancel"
+        onConfirm={handleBulkDeleteConfirm}
+        onCancel={() => setBulkDeleteModal({ isOpen: false, chapterTitles: '', count: 0 })}
+        loading={isBulkDeleting}
+        confirmButtonColor="red"
+      />
+
+      <ConfirmationModal
+        isOpen={deleteModal.isOpen}
+        title="Delete Chapter"
+        description={deleteModal.chapter ? `Are you sure you want to delete chapter "${deleteModal.chapter.title}"? This action cannot be undone.` : ''}
+        confirmText="Delete"
+        cancelText="Cancel"
+        onConfirm={handleDeleteConfirm}
+        onCancel={() => setDeleteModal({ isOpen: false, chapter: null })}
+        loading={deleteModal.chapter ? deletingChapterId === deleteModal.chapter.chapter_id : false}
+        confirmButtonColor="red"
+      />
     </ListContainer>
   );
 };

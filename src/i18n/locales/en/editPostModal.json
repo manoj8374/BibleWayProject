@@ -1,0 +1,25 @@
+{
+  "title": "Edit Post",
+  "labels": {
+    "title": "Title",
+    "description": "Description",
+    "media": "Media"
+  },
+  "placeholders": {
+    "enterPostTitle": "Enter post title...",
+    "enterDescription": "Enter description..."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "updating": "Updating..."
+  },
+  "errors": {
+    "noChanges": "No changes detected",
+    "failedToUpdatePost": "Failed to update post"
+  },
+  "success": {
+    "postUpdated": "Post updated successfully"
+  }
+}
+

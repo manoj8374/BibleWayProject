@@ -22,6 +22,18 @@
     "previous": "Previous",
     "next": "Next",
     "pageInfo": "Page {{current}} of {{total}}"
+  },
+  "promotions": {
+    "title": "Promotions Management",
+    "loading": "Loading promotions...",
+    "noPromotions": "No promotions found",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "processing": "Processing...",
+    "deletedSuccessfully": "Promotion deleted successfully",
+    "failedToLoad": "Failed to load promotions",
+    "failedToDelete": "Failed to delete promotion",
+    "confirmDelete": "Are you sure you want to delete this promotion? This action cannot be undone."
   }
 }
 

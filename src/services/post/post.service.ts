@@ -50,6 +50,13 @@ export interface CreatePostData {
   media: File[];
 }
 
+export interface UpdatePostData {
+  post_id: string;
+  title?: string;
+  description?: string;
+  media_urls?: string[];
+}
+
 export interface PostUser {
   user_id: string;
   user_name: string;
@@ -218,11 +225,30 @@ export const postService = {
     }
   },
 
-  updatePost: async (postId: string, description: string): Promise<CreatePostResponse> => {
+  updatePost: async (data: UpdatePostData): Promise<CreatePostResponse> => {
     try {
-      const response = await api.put(UPDATE_POST, {
-        post_id: postId,
-        description
+      // Build request body with only provided fields
+      const requestBody: UpdatePostData = {
+        post_id: data.post_id
+      };
+
+      // Add optional fields if provided
+      if (data.title !== undefined) {
+        requestBody.title = data.title;
+      }
+      if (data.description !== undefined) {
+        requestBody.description = data.description;
+      }
+      if (data.media_urls !== undefined) {
+        // Filter out empty strings from media_urls array
+        requestBody.media_urls = data.media_urls.filter(url => url.trim() !== '');
+      }
+
+      const response = await api.put<CreatePostResponse>(UPDATE_POST, requestBody, {
+        headers: {
+          'Content-Type': 'application/json',
+          "ngrok-skip-browser-warning": "true"
+        }
       });
       return response.data;
     } catch (error: unknown) {
