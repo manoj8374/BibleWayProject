@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { HEADER_HEIGHT, MOBILE_NAVBAR_HEIGHT } from "../../constants/UI";
 
 export const breakpoints = {
   mobile: "768px",
@@ -27,8 +28,20 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   position: relative;
-  flex: 1;
-  padding-bottom: 60px;
+  height: calc(100vh - ${HEADER_HEIGHT}px);
+overflow: hidden;
+
+@supports (height: 100dvh) {
+  height: calc(100dvh - ${HEADER_HEIGHT}px);
+}
+
+@media (max-width: ${breakpoints.mobile}) {
+  height: calc(100vh - ${HEADER_HEIGHT + MOBILE_NAVBAR_HEIGHT}px);
+
+  @supports (height: 100dvh) {
+    height: calc(100dvh - ${HEADER_HEIGHT + MOBILE_NAVBAR_HEIGHT}px);
+  }
+}
 
   @media (min-width: 1025px) {
     padding-bottom: 0;

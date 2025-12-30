@@ -4,11 +4,9 @@ export const ChatContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  max-height: calc(100vh - 60px - 0px);
   position: relative;
   background-color: #e5e5e5;
   border-radius: 12px;
-  overflow: hidden;
 `;
 
 export const ChatHeader = styled.div`
@@ -20,8 +18,6 @@ export const ChatHeader = styled.div`
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   height: 60px;
-  position: sticky;
-  top: 0;
   z-index: 10;
   border-radius: 12px 12px 0 0;
 `;
@@ -84,13 +80,14 @@ export const CloseButton = styled.button`
 
 export const MessagesArea = styled.div`
   overflow-y: auto;
-  overflow-x: hidden;
   padding: 20px;
   display: flex;
   flex-direction: column;
   flex: 1;
   min-height: 0;
   gap: 8px;
+
+  height: calc(100% - ${60 + 110}px);
 
   /* Custom Scrollbar Styles */
   &::-webkit-scrollbar {
@@ -383,8 +380,6 @@ export const InputArea = styled.div`
   width: 100%;
   padding: 16px 20px;
   background: transparent;
-  position: sticky;
-  bottom: 0;
   z-index: 5;
 `;
 

@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import { HEADER_HEIGHT } from "../../constants/UI";
+import { MOBILE_NAVBAR_HEIGHT } from "../../constants/UI";
 
 export const PageContainer = styled.div`
   display: flex;
   width: 100%;
-  height: calc(100vh - 60px);
-  max-height: calc(100vh - 60px);
+  height: 100%;
   overflow: hidden;
   background-color: #f5f5f5;
 `;
@@ -63,7 +64,5 @@ export const ChatOrProfileWrapper = styled.div`
 
 export const ChatViewWrapper = styled.div`
   width: 100%;
-  flex: 1;
   height: 100%;
-  overflow: hidden;
 `;
