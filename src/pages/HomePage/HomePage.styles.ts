@@ -75,8 +75,6 @@ export const RightPanelWrapper = styled.aside`
   flex: 0 0 35%;
   max-width: 500px;
   border-left: 1px solid #e0e0e0;
-  position: sticky;
-  top: 60px;
   align-self: flex-start;
   padding: 20px;
 
