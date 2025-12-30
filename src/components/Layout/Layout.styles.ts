@@ -59,10 +59,7 @@ export const SidebarWrapper = styled.div`
   width: 80px;
   background-color: #ffffff;
   border-right: 1px solid #e0e0e0;
-  position: fixed;
-  top: 60px;
-  left: 0;
-  height: calc(100vh - 60px);
+  height: 100%;
   z-index: 10;
 
   @media (max-width: ${breakpoints.tablet}) {
@@ -93,7 +90,6 @@ export const ContentArea = styled.div`
   width: 100%;
   flex: 1;
   overflow-x: hidden;
-  margin-left: 80px;
 
   @media (max-width: ${breakpoints.tablet}) {
     width: 100%;

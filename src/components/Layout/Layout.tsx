@@ -20,10 +20,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <HeaderWrapper>
         <Header />
       </HeaderWrapper>
+      <Wrapper>
       <SidebarWrapper>
         <Sidebar />
       </SidebarWrapper>
-      <Wrapper>
         <ContentArea>{children}</ContentArea>
       </Wrapper>
       <MobileNav />
