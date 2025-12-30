@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   HeaderContainer,
   HeaderBackground,
@@ -38,7 +39,8 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
   onMessageClick
 }) => {
   const { t } = useI18n();
-  const { user_name, country, profile_picture_url, followers_count, following_count, posts_count, user_id, is_following } = profileData;
+  const navigate = useNavigate();
+  const { user_name, country, profile_picture_url, followers_count, following_count, posts_count, user_id, is_following, conversation_id } = profileData;
   console.log(profileData);
   const [isFollowing, setIsFollowing] = useState(is_following || false);
   const [isLoading, setIsLoading] = useState(false);
@@ -71,9 +73,24 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
 
   const handleMessageClick = (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (onMessageClick) {
-      onMessageClick();
+    
+    // Always navigate to people page with query params
+    const params = new URLSearchParams({
+      user_id: user_id,
+      user_name: user_name,
+    });
+    
+    // Add conversation_id if it exists
+    if (conversation_id) {
+      params.append("conversation_id", conversation_id);
     }
+    
+    // Add profile picture URL if available
+    if (profile_picture_url) {
+      params.append("profile_picture_url", profile_picture_url);
+    }
+    
+    navigate(`/people?${params.toString()}`);
   };
 
   React.useEffect(() => {
@@ -185,14 +202,9 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
           <FollowButton onClick={handleFollowToggle} disabled={isLoading}>
             {isFollowing ? t('profile.unfollow') : t('profile.follow')}
           </FollowButton>
-          {onMessageClick && (
-            <MessageButton onClick={handleMessageClick}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-              </svg>
-              {t('profile.message')}
-            </MessageButton>
-          )}
+          <MessageButton onClick={handleMessageClick}>
+            {t('profile.message')}
+          </MessageButton>
         </ActionButtonsRow>
     );
   };

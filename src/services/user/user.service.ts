@@ -69,6 +69,7 @@ export interface CompleteUserProfile {
     following_count: number;
     posts_count?: number;
     is_following?: boolean;
+    conversation_id?: string | null;
 }
 
 export interface CompleteUserProfileResponse {

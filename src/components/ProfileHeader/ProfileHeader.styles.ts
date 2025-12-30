@@ -253,31 +253,28 @@ export const FollowButton = styled.button`
 `;
 
 export const MessageButton = styled.button`
-  padding: 10px 24px;
+ padding: 10px;
+  height: 36px;
   border-radius: 8px;
   border: 2px solid white;
   background: rgba(255, 255, 255, 0.2);
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 
-  &:hover {
+  &:hover:not(:disabled) {
     background: rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.9);
   }
 
-  &:active {
+  &:active:not(:disabled) {
     transform: scale(0.98);
   }
 
-  svg {
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
 `;
