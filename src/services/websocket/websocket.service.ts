@@ -5,7 +5,7 @@ class WebSocketService {
   private listeners: Map<string, WebSocketCallback[]> = new Map();
   private reconnectAttempts: number = 0;
   private maxReconnectAttempts: number = 5;
-  private reconnectInterval: number = 3000;
+  private reconnectInterval: number = 5173;
   private url: string | null = null;
   private isConnecting: boolean = false;
 

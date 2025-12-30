@@ -1,4 +1,4 @@
-import { CREATE_POST, UPDATE_POST, DELETE_POST, GET_ALL_POSTS, GET_USER_POSTS, GET_SPECIFIC_USER_POSTS, CREATE_COMMENT, UPDATE_COMMENT, DELETE_COMMENT, GET_COMMENTS_DETAILS, LIKE_COMMENT, UNLIKE_COMMENT, LIKE_POST, UNLIKE_POST } from '../../constants/ApiUrls';
+import { CREATE_POST, UPDATE_POST, DELETE_POST, GET_ALL_POSTS, GET_POST_DETAILS, GET_USER_POSTS, GET_SPECIFIC_USER_POSTS, CREATE_COMMENT, UPDATE_COMMENT, DELETE_COMMENT, GET_COMMENTS_DETAILS, LIKE_COMMENT, UNLIKE_COMMENT, LIKE_POST, UNLIKE_POST } from '../../constants/ApiUrls';
 import api from '../../AxiosClient';
 import type { ApiError } from '../../constants/Error';
 import i18n from '../../i18n/config';
@@ -95,6 +95,14 @@ export interface GetAllPostsResponse {
   error_code?: string;
 }
 
+export interface GetPostDetailsResponse {
+  success: boolean;
+  message: string;
+  data: Post;
+  error?: string;
+  error_code?: string;
+}
+
 export const postService = {
   createPost: async (data: CreatePostData): Promise<CreatePostResponse> => {
     try {
@@ -165,6 +173,23 @@ export const postService = {
         message: err?.message || i18n.t('services.post.failedToFetchUserPosts'),
         data: [],
         pagination: { limit, offset, total_count: 0, has_next: false, has_previous: false },
+        error_code: err?.error_code
+      };
+    }
+  },
+
+  getPostDetails: async (postId: string): Promise<GetPostDetailsResponse> => {
+    try {
+      const response = await api.post<GetPostDetailsResponse>(GET_POST_DETAILS, {
+        post_id: postId
+      });
+      return response.data;
+    } catch (error: unknown) {
+      const err = error as ApiError;
+      return {
+        success: false,
+        message: err?.message || i18n.t('services.post.failedToFetchPostDetails'),
+        data: {} as Post,
         error_code: err?.error_code
       };
     }

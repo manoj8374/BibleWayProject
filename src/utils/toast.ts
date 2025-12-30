@@ -10,7 +10,7 @@ const getToastPosition = (): ToastOptions['position'] => {
 
 const getDefaultOptions = (): ToastOptions => ({
   position: getToastPosition(),
-  autoClose: 3000,
+  autoClose: 5173,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,

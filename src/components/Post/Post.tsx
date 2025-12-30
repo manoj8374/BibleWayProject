@@ -267,7 +267,7 @@ const Post: React.FC<PostProps> = (props) => {
     if (item.media_type === 'image') {
       return (
         <MediaContainer>
-          <ImageMedia src={item.url} />
+          <ImageMedia loading='lazy' src={item.url} />
         </MediaContainer>
       );
     }

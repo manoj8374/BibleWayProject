@@ -18,6 +18,7 @@ const PostViewPage: React.FC = () => {
 
   useEffect(() => {
     const fetchPost = async () => {
+      console.log(postId)
       if (!postId) {
         showError(t('pages.postViewPage.invalidPostId'));
         navigate('/home');
@@ -26,22 +27,16 @@ const PostViewPage: React.FC = () => {
 
       setLoading(true);
       try {
-        // Fetch all posts and find the one with matching ID
-        // Note: Ideally, there should be a GET /post/:postId endpoint
-        const response = await postService.getAllPosts(100, 0);
-        if (response.success) {
-          const foundPost = response.data.find((p) => p.post_id === postId);
-          if (foundPost) {
-            setPost(foundPost);
-          } else {
-            showError(t('pages.postViewPage.postNotFound'));
-            navigate('/home');
-          }
+        const response = await postService.getPostDetails(postId);
+        console.log(response)
+        if (response.success && response.data) {
+          setPost(response.data);
         } else {
-          showError(response.message || t('pages.postViewPage.failedToLoadPost'));
-          navigate('/home');
+          showError(response.message || t('pages.postViewPage.postNotFound'));
+          // navigate('/home');
         }
       } catch (error) {
+        console.error('Error fetching post details:', error);
         showError(t('pages.postViewPage.failedToLoadPost'));
         navigate('/home');
       } finally {
@@ -96,7 +91,7 @@ const PostViewPage: React.FC = () => {
             mediaItems={mediaItems}
             likes={post.likes_count}
             comments={post.comments_count}
-            isLiked={false}
+            isLiked={post.is_liked}
             onShare={handleShare}
             onClick={handlePostClick}
             hideEngagementStats={false}

@@ -7,6 +7,7 @@
     "unexpectedErrorPostCreation": "An unexpected error occurred during post creation.",
     "failedToFetchPosts": "Failed to fetch posts.",
     "failedToFetchUserPosts": "Failed to fetch user posts.",
+    "failedToFetchPostDetails": "Failed to fetch post details.",
     "failedToUpdatePost": "Failed to update post",
     "failedToDeletePost": "Failed to delete post",
     "failedToCreateComment": "Failed to create comment.",

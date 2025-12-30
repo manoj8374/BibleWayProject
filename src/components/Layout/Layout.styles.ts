@@ -33,7 +33,7 @@ overflow: hidden;
   height: calc(100dvh - ${HEADER_HEIGHT}px);
 }
 
-@media (max-width: ${breakpoints.mobile}) {
+@media (max-width: ${breakpoints.tablet}) {
   height: calc(100vh - ${HEADER_HEIGHT + MOBILE_NAVBAR_HEIGHT}px);
 
   @supports (height: 100dvh) {

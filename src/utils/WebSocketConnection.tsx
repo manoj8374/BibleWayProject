@@ -47,7 +47,7 @@ const WebSocketConnection: React.FC = () => {
         if (event.code !== 1000) {
           reconnectTimeoutRef.current = setTimeout(() => {
             connectWebSocket();
-          }, 3000);
+          }, 5173);
         }
       };
     } catch (err) {

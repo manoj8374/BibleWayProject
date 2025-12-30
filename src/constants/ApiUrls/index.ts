@@ -12,6 +12,7 @@ export const GET_ALL_PRAYER_REQUESTS = "/prayer-request/all";
 export const UPDATE_POST = "/post/update";
 export const DELETE_POST = "/post/delete";
 export const GET_ALL_POSTS = "/post/all";
+export const GET_POST_DETAILS = "/post/details";
 export const CREATE_COMMENT = "/comment/create";
 export const UPDATE_COMMENT = "/comment/update";
 export const DELETE_COMMENT = "/comment/delete";

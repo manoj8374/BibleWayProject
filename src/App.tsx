@@ -42,6 +42,7 @@ import TermsAndConditionsPage from "./pages/TermsAndConditionsPage/TermsAndCondi
 import AdminTestimonials from "./pages/Admin/Testimonials/AdminTestimonials";
 import LandingPage from "./landingPage";
 import { StyleWrapper } from "./components/StyledWrapper";
+import PostViewPage from "./pages/PostViewPage/PostViewPage";
 
 function App() {
   const [toastPosition, setToastPosition] = useState<'top-right' | 'bottom-right'>(
@@ -178,6 +179,7 @@ function App() {
                                     <Route path = "testimonials"
                                       element={<AdminTestimonials />}
                                     />
+                                   
                                     <Route
                                       path=""
                                       element={<Navigate to="dashboard" replace />}
@@ -201,6 +203,9 @@ function App() {
                                     <Route
                                       path="/people"
                                       element={<PeoplePage />}
+                                    />
+                                     <Route path = "post/:postId"
+                                      element={<PostViewPage />}
                                     />
                                     <Route
                                       path="/segregated-bibles"
