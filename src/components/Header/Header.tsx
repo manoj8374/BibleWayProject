@@ -444,6 +444,9 @@ const Header: React.FC = () => {
       return;
     }
 
+    // Note: highlightWords are cleared in the useEffect above when searchText changes
+    // They will be set again when user clicks on a search result
+    
     setIsSearching(true);
     setShowSearchResults(true);
     
@@ -484,8 +487,13 @@ const Header: React.FC = () => {
     if (!searchText.trim()) {
       setSearchResults([]);
       setShowSearchResults(false);
+      setHighlightWords([]); // Clear highlight words when search is cleared
       return;
     }
+
+    // Clear previous highlight words when starting a new search
+    // They will be set again when user clicks on a search result
+    setHighlightWords([]);
 
     const timerId = setTimeout(() => {
       handleSearch(searchText);
