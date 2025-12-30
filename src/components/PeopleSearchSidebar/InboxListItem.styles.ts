@@ -76,15 +76,18 @@ export const BottomRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
+  min-width: 0;
 `;
 
 export const LastMessage = styled.span`
   font-size: 13px;
   color: #666;
   white-space: nowrap;
-  
+  overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 140px;
+  flex: 1;
+  min-width: 0;
 `;
 
 export const UnreadBadge = styled.span`
@@ -93,9 +96,13 @@ export const UnreadBadge = styled.span`
   font-size: 10px;
   padding: 2px 6px;
   border-radius: 10px;
-  min-width: 16px;
+  min-width: 18px;
+  height: 18px;
   text-align: center;
   flex-shrink: 0;
-  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
 `;
 

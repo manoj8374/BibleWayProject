@@ -69,6 +69,7 @@ import {
 import { useProfile } from "../../contexts/useProfile";
 import { useNavigate } from "react-router-dom";
 import { useI18n } from "../../i18n";
+import { MdOutlineTranslate } from "react-icons/md";
 
 interface Message {
   id: string;
@@ -858,10 +859,13 @@ const ChatView: React.FC<ChatViewProps> = ({
                             translatingMessages.has(msg.id) ||
                             !msg.content.trim()
                           }
+                          title={
+                            translatingMessages.has(msg.id)
+                              ? "Translating..."
+                              : "Translate"
+                          }
                         >
-                          {translatingMessages.has(msg.id)
-                            ? "Translating..."
-                            : "Translate"}
+                          <MdOutlineTranslate />
                         </TranslateButton>
                       </TranslationControls>
                     )}

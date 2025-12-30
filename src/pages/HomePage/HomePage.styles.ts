@@ -19,10 +19,10 @@ export const ContentCenterWrapper = styled.div`
   display: flex;
   justify-content: center;
   background-color: #f5f5f5;
-  flex: 0 0 65%;
+  width: 65%;
+  max-width: 1200px;
   height: 100%;
   overflow-y: auto;
-  max-width: 950px;
 
   @media (max-width: ${breakpoints.tablet}) {
     flex: 0 0 100%;
@@ -72,7 +72,7 @@ export const CreatePrayerRequestButton = styled.button`
 `;
 // Right Panel Wrapper
 export const RightPanelWrapper = styled.aside`
-  flex: 0 0 35%;
+  width: 35%;
   max-width: 500px;
   border-left: 1px solid #e0e0e0;
   align-self: flex-start;

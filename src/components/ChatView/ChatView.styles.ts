@@ -161,6 +161,7 @@ export const MessageBubble = styled.div<{
   flex-direction: column;
   position: relative;
 
+
   &:hover .delete-btn,
   &.selected .delete-btn {
     opacity: 1;
@@ -365,6 +366,10 @@ export const ModalButton = styled.button<{
 export const MessageContent = styled.div<{ $isOwn: boolean }>`
   font-size: 14px;
   line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 `;
 
 export const MessageTime = styled.span<{ $isOwn: boolean }>`
@@ -572,6 +577,12 @@ export const TranslateButton = styled.button`
   cursor: pointer;
   outline: none;
   transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  min-width: fit-content;
 
   &:hover:not(:disabled) {
     opacity: 0.9;
@@ -581,5 +592,32 @@ export const TranslateButton = styled.button`
     background-color: #ccc;
     cursor: not-allowed;
     opacity: 0.6;
+  }
+
+  @media (max-width: 500px) {
+    padding: 6px 8px;
+    min-width: 36px;
+    width: 36px;
+    height: 36px;
+
+    .translate-text {
+      display: none;
+    }
+
+    .translate-icon {
+      display: block;
+    }
+  }
+
+  .translate-icon {
+    display: none;
+    width: 18px;
+    height: 18px;
+  }
+
+  @media (min-width: 501px) {
+    .translate-icon {
+      display: none;
+    }
   }
 `;
