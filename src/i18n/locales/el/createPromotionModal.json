@@ -1,0 +1,38 @@
+{
+  "title": "Δημιουργία Προώθησης",
+  "labels": {
+    "title": "Τίτλος *",
+    "description": "Περιγραφή",
+    "price": "Τιμή",
+    "redirectLink": "Σύνδεσμος ανακατεύθυνσης *",
+    "metaData": "Μεταδεδομένα (JSON)",
+    "mediaFile": "Αρχείο πολυμέσων (Εικόνα/Βίντεο/Ήχος)",
+    "images": "Εικόνες (Πολλαπλές)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Εισάγετε τον τίτλο της προώθησης",
+    "enterDescription": "Εισάγετε περιγραφή της προώθησης (προαιρετικό)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Επιλεγμένο:",
+  "buttons": {
+    "cancel": "Ακύρωση",
+    "createPromotion": "Δημιουργία Προώθησης",
+    "creating": "Δημιουργία..."
+  },
+  "errors": {
+    "titleRequired": "Ο τίτλος είναι υποχρεωτικός",
+    "priceRequired": "Η τιμή είναι υποχρεωτική",
+    "priceInvalid": "Η τιμή πρέπει να είναι έγκυρος αριθμός",
+    "redirectLinkRequired": "Ο σύνδεσμος ανακατεύθυνσης είναι υποχρεωτικός",
+    "redirectLinkInvalid": "Ο σύνδεσμος ανακατεύθυνσης πρέπει να είναι έγκυρο URL",
+    "metaDataInvalid": "Τα μεταδεδομένα πρέπει να είναι σε έγκυρη μορφή JSON",
+    "failedToCreatePromotion": "Αποτυχία δημιουργίας προώθησης",
+    "unexpectedError": "Παρουσιάστηκε ένα απροσδόκητο σφάλμα"
+  },
+  "success": {
+    "promotionCreated": "Η προώθηση δημιουργήθηκε με επιτυχία"
+  }
+}

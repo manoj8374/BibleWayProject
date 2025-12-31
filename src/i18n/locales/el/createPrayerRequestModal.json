@@ -1,0 +1,34 @@
+{
+  "title": "Αίτημα Προσευχής",
+  "labels": {
+    "description": "Περιγραφή",
+    "name": "Όνομα",
+    "email": "Email",
+    "phoneNumber": "Τηλέφωνο (προαιρετικό)",
+    "media": "Πολυμέσα (Προαιρετικό)"
+  },
+  "placeholders": {
+    "enterDescription": "Παρακαλώ προσευχηθείτε για την υγεία της οικογένειάς μου...",
+    "yourName": "Το όνομά σας",
+    "yourEmail": "Το email σας",
+    "phoneNumber": "0123456789"
+  },
+  "upload": {
+    "uploadText": "Μεταφόρτωση εικόνων ή βίντεο (Μέγιστο 5 αρχεία, 10MB το καθένα)",
+    "addMoreFiles": "+ Προσθήκη περισσότερων αρχείων"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Υποβολή Αιτήματος",
+    "submitting": "Υποβολή..."
+  },
+  "errors": {
+    "descriptionRequired": "Παρακαλώ εισάγετε μια περιγραφή για το αίτημα προσευχής σας.",
+    "failedToCreateRequest": "Αποτυχία δημιουργίας αιτήματος προσευχής.",
+    "maxFilesExceeded": "Μπορείτε να μεταφορτώσετε έως 5 αρχεία.",
+    "invalidFileType": "Μη έγκυρος τύπος αρχείου: {{filename}}. Επιτρέπονται μόνο εικόνες και βίντεο.",
+    "fileSizeExceeded": "Το μέγεθος του αρχείου υπερβαίνει το όριο των 10MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Το αίτημα προσευχής δημιουργήθηκε με επιτυχία!"
+  }
+}

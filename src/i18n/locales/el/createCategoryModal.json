@@ -1,0 +1,27 @@
+{
+  "title": "Δημιουργία Κατηγορίας",
+  "labels": {
+    "categoryName": "Όνομα Κατηγορίας *",
+    "description": "Περιγραφή",
+    "displayOrder": "Σειρά εμφάνισης",
+    "coverImage": "Εικόνα εξωφύλλου"
+  },
+  "placeholders": {
+    "selectCategoryName": "Επιλέξτε ένα όνομα κατηγορίας",
+    "enterDescription": "Εισάγετε περιγραφή κατηγορίας (προαιρετικό)"
+  },
+  "selected": "Επιλεγμένο:",
+  "buttons": {
+    "cancel": "Ακύρωση",
+    "createCategory": "Δημιουργία Κατηγορίας",
+    "creating": "Δημιουργία..."
+  },
+  "errors": {
+    "categoryNameRequired": "Το όνομα κατηγορίας είναι υποχρεωτικό",
+    "failedToCreateCategory": "Αποτυχία δημιουργίας κατηγορίας",
+    "unexpectedError": "Παρουσιάστηκε ένα απροσδόκητο σφάλμα"
+  },
+  "success": {
+    "categoryCreated": "Η κατηγορία δημιουργήθηκε με επιτυχία"
+  }
+}

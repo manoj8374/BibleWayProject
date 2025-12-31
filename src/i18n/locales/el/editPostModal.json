@@ -1,0 +1,24 @@
+{
+  "title": "Επεξεργασία Δημοσίευσης",
+  "labels": {
+    "title": "Τίτλος",
+    "description": "Περιγραφή",
+    "media": "Πολυμέσα"
+  },
+  "placeholders": {
+    "enterPostTitle": "Εισάγετε τίτλο δημοσίευσης...",
+    "enterDescription": "Εισάγετε περιγραφή..."
+  },
+  "buttons": {
+    "cancel": "Ακύρωση",
+    "save": "Αποθήκευση",
+    "updating": "Ενημέρωση..."
+  },
+  "errors": {
+    "noChanges": "Δεν εντοπίστηκαν αλλαγές",
+    "failedToUpdatePost": "Αποτυχία ενημέρωσης δημοσίευσης"
+  },
+  "success": {
+    "postUpdated": "Η δημοσίευση ενημερώθηκε με επιτυχία"
+  }
+}

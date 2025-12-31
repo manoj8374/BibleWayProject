@@ -1,0 +1,46 @@
+{
+  "title": "Μεταφόρτωση Βιβλίου",
+  "labels": {
+    "sourceFile": "Αρχείο πηγής (.md) *",
+    "coverImage": "Εικόνα εξωφύλλου",
+    "category": "Κατηγορία *",
+    "ageGroup": "Ηλικιακή Ομάδα *",
+    "language": "Γλώσσα *",
+    "bookTitle": "Τίτλος *",
+    "description": "Περιγραφή",
+    "bookOrder": "Σειρά βιβλίου"
+  },
+  "placeholders": {
+    "selectCategory": "Επιλέξτε μια κατηγορία",
+    "selectAgeGroup": "Επιλέξτε μια ηλικιακή ομάδα",
+    "selectLanguage": "Επιλέξτε μια γλώσσα",
+    "enterBookTitle": "Εισάγετε τίτλο βιβλίου",
+    "enterBookDescription": "Εισάγετε περιγραφή βιβλίου (προαιρετικό)"
+  },
+  "loading": {
+    "categories": "Φόρτωση κατηγοριών...",
+    "ageGroups": "Φόρτωση ηλικιακών ομάδων...",
+    "languages": "Φόρτωση γλωσσών...",
+    "uploading": "Μεταφόρτωση..."
+  },
+  "selected": "Επιλεγμένο:",
+  "buttons": {
+    "cancel": "Ακύρωση",
+    "uploadBook": "Μεταφόρτωση Βιβλίου"
+  },
+  "errors": {
+    "sourceFileRequired": "Το αρχείο πηγής είναι υποχρεωτικό",
+    "titleRequired": "Ο τίτλος είναι υποχρεωτικός",
+    "categoryRequired": "Η κατηγορία είναι υποχρεωτική",
+    "ageGroupRequired": "Η ηλικιακή ομάδα είναι υποχρεωτική",
+    "languageRequired": "Η γλώσσα είναι υποχρεωτική",
+    "failedToLoadCategories": "Αποτυχία φόρτωσης κατηγοριών",
+    "failedToLoadAgeGroups": "Αποτυχία φόρτωσης ηλικιακών ομάδων",
+    "failedToLoadLanguages": "Αποτυχία φόρτωσης γλωσσών",
+    "failedToUploadBook": "Αποτυχία μεταφόρτωσης βιβλίου",
+    "unexpectedError": "Παρουσιάστηκε ένα απροσδόκητο σφάλμα"
+  },
+  "success": {
+    "bookCreated": "Το βιβλίο δημιουργήθηκε με επιτυχία"
+  }
+}

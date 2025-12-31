@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Αναζήτηση βιβλίου, ονόματος, συγγραφέα...",
+  "addNewPost": "Προσθήκη Νέας Δημοσίευσης",
+  "noResultsFound": "Δεν βρέθηκαν αποτελέσματα",
+  "languageSelector": {
+    "searchLanguages": "Αναζήτηση γλωσσών...",
+    "noLanguagesFound": "Δεν βρέθηκαν γλώσσες"
+  },
+  "filter": {
+    "selectLanguage": "Επιλογή Γλώσσας",
+    "selectVersion": "Επιλογή Βιβλίου"
+  }
+}

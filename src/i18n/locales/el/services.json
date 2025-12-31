@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Παρουσιάστηκε ένα απροσδόκητο σφάλμα.",
+    "receivedToken": "Ελήφθη διακριτικό"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Παρουσιάστηκε απροσδόκητο σφάλμα κατά τη δημιουργία της δημοσίευσης.",
+    "failedToFetchPosts": "Αποτυχία λήψης δημοσιεύσεων.",
+    "failedToFetchUserPosts": "Αποτυχία λήψης δημοσιεύσεων χρήστη.",
+    "failedToFetchPostDetails": "Αποτυχία λήψης λεπτομερειών δημοσίευσης.",
+    "failedToUpdatePost": "Αποτυχία ενημέρωσης δημοσίευσης",
+    "failedToDeletePost": "Αποτυχία διαγραφής δημοσίευσης",
+    "failedToCreateComment": "Αποτυχία δημιουργίας σχολίου.",
+    "failedToUpdateComment": "Αποτυχία ενημέρωσης σχολίου.",
+    "failedToDeleteComment": "Αποτυχία διαγραφής σχολίου.",
+    "failedToFetchComments": "Αποτυχία λήψης σχολίων.",
+    "failedToLikeComment": "Αποτυχία 'μου αρέσει' στο σχόλιο.",
+    "failedToUnlikeComment": "Αποτυχία αφαίρεσης 'μου αρέσει' στο σχόλιο.",
+    "failedToLikePost": "Αποτυχία 'μου αρέσει' στη δημοσίευση.",
+    "failedToUnlikePost": "Αποτυχία αφαίρεσης 'μου αρέσει' στη δημοσίευση."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Αποτυχία λήψης προφίλ χρήστη.",
+    "failedToFollowUser": "Αποτυχία ακολουθίας χρήστη.",
+    "failedToUnfollowUser": "Αποτυχία διακοπής ακολουθίας χρήστη.",
+    "failedToGetRecommendedUsers": "Αποτυχία λήψης προτεινόμενων χρηστών.",
+    "failedToGetUserProfile": "Αποτυχία λήψης προφίλ χρήστη."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Αποτυχία φόρτωσης ταπετσαριών"
+  },
+  "verse": {
+    "failedToLoadVerses": "Αποτυχία φόρτωσης εδαφίων",
+    "failedToLikeVerse": "Αποτυχία 'μου αρέσει' στο εδάφιο",
+    "failedToUnlikeVerse": "Αποτυχία αφαίρεσης 'μου αρέσει' στο εδάφιο"
+  },
+  "admin": {
+    "failedToLoadBooks": "Αποτυχία φόρτωσης βιβλίων"
+  }
+}

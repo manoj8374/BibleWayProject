@@ -1,0 +1,9 @@
+{
+  "buttonText": "Συνέχεια με Google",
+  "success": {
+    "loginSuccessful": "Επιτυχής σύνδεση"
+  },
+  "errors": {
+    "loginFailed": "Αποτυχία σύνδεσης"
+  }
+}
