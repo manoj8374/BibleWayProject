@@ -1,0 +1,22 @@
+{
+  "chat": "च्याट",
+  "sendMessage": "सन्देश पठाउनुहोस्",
+  "typeMessage": "सन्देश टाइप गर्नुहोस्...",
+  "online": "अनलाइन",
+  "offline": "अफलाइन",
+  "participants": "सहभागीहरू",
+  "groupInfo": "समूह जानकारी",
+  "leaveGroup": "समूह छोड्नुहोस्",
+  "muteNotifications": "सूचनाहरू म्युट गर्नुहोस्",
+  "searchMessages": "सन्देशहरू खोज्नुहोस्...",
+  "noMessages": "कुनै सन्देश छैन",
+  "today": "आज",
+  "yesterday": "हिजो",
+  "typing": "टाइप गर्दै...",
+  "newMessages": "नयाँ सन्देशहरू",
+  "reply": "जवाफ दिनुहोस्",
+  "copy": "कपि",
+  "forward": "फर्वार्ड",
+  "delete": "मेटाउनुहोस्",
+  "deletedMessage": "यो सन्देश मेटाइएको छ"
+}

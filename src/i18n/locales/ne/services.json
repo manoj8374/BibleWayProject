@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "एउटा अप्रत्याशित त्रुटि भयो।",
+    "receivedToken": "टोकन प्राप्त भयो"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट सिर्जना गर्दा एउटा अप्रत्याशित त्रुटि भयो।",
+    "failedToFetchPosts": "पोस्टहरू प्राप्त गर्न असफल भयो।",
+    "failedToFetchUserPosts": "प्रयोगकर्ताका पोस्टहरू प्राप्त गर्न असफल भयो।",
+    "failedToFetchPostDetails": "पोस्ट विवरण प्राप्त गर्न असफल भयो।",
+    "failedToUpdatePost": "पोस्ट अपडेट गर्न असफल",
+    "failedToDeletePost": "पोस्ट मेटाउन असफल",
+    "failedToCreateComment": "टिप्पणी सिर्जना गर्न असफल भयो।",
+    "failedToUpdateComment": "टिप्पणी अपडेट गर्न असफल भयो।",
+    "failedToDeleteComment": "टिप्पणी मेटाउन असफल भयो।",
+    "failedToFetchComments": "टिप्पणीहरू प्राप्त गर्न असफल भयो।",
+    "failedToLikeComment": "टिप्पणी लाइक गर्न असफल भयो।",
+    "failedToUnlikeComment": "टिप्पणी अनलाइक गर्न असफल भयो।",
+    "failedToLikePost": "पोस्ट लाइक गर्न असफल भयो।",
+    "failedToUnlikePost": "पोस्ट अनलाइक गर्न असफल भयो।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "प्रयोगकर्ता प्रोफाइल प्राप्त गर्न असफल भयो।",
+    "failedToFollowUser": "प्रयोगकर्तालाई फलो गर्न असफल भयो।",
+    "failedToUnfollowUser": "प्रयोगकर्तालाई अनफलो गर्न असफल भयो।",
+    "failedToGetRecommendedUsers": "सिफारिस गरिएका प्रयोगकर्ताहरू प्राप्त गर्न असफल भयो।",
+    "failedToGetUserProfile": "प्रयोगकर्ता प्रोफाइल प्राप्त गर्न असफल भयो।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वालपेपरहरू लोड गर्न असफल"
+  },
+  "verse": {
+    "failedToLoadVerses": "पदहरू लोड गर्न असफल",
+    "failedToLikeVerse": "पद लाइक गर्न असफल",
+    "failedToUnlikeVerse": "पद अनलाइक गर्न असफल"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तकहरू लोड गर्न असफल"
+  }
+}
