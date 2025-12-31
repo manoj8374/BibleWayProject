@@ -497,6 +497,6 @@ export const SubprofilePageContainer = styled.div`
   padding: 0 24px 32px;
 
   @media (max-width: 768px) {
-    padding: 0 16px 24px;
+    padding: 0 8px 24px;
   }
 `;

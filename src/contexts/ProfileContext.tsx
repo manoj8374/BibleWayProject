@@ -36,7 +36,9 @@ export const ProfileProvider = ({ children }: { children: React.ReactNode }) => 
   }
 
   if (error) {
-    return <h1>Error: {error}</h1>;
+    return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#121212', color: '#fff' }}>
+      <h1>OOPs! Something went wrong</h1>
+    </div>
   }
   
   return (

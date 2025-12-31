@@ -72,6 +72,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const contentRef = useRef<HTMLDivElement>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
   const progressUpdateTimeout = useRef<NodeJS.Timeout | null>(null);
+  const appliedHighlightIdsRef = useRef<Set<string>>(new Set());
+  const highlightApplicationFrameRef = useRef<number | null>(null);
 
   const { searchText, highlightWords } = useSearch();
   const { isBookmarked, setIsBookmarked, setBookmarkId } = useBook();
@@ -113,8 +115,15 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     block: HTMLElement,
     startOffset: number,
     endOffset: number,
-    color: string
+    color: string,
+    highlightId?: string
   ) {
+    const blockTextLength = getBlockTextLength(block);
+    if (startOffset < 0 || endOffset < 0 || startOffset >= blockTextLength || endOffset > blockTextLength || startOffset >= endOffset) {
+      console.warn("Invalid offsets for highlight:", { startOffset, endOffset, blockTextLength });
+      return;
+    }
+
     const walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT, null);
 
     let currentOffset = 0;
@@ -135,22 +144,64 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     }
 
     for (const { node, start, end } of segments.reverse()) {
+      // Skip if start >= end (invalid range)
+      if (start >= end) continue;
+
+      // Check if the text node is already inside a highlight span
+      let currentNode: Node | null = node;
+      let isInsideHighlight = false;
+      while (currentNode && currentNode !== block) {
+        if (currentNode.nodeType === Node.ELEMENT_NODE) {
+          const element = currentNode as HTMLElement;
+          if (element.classList && element.classList.contains("highlight")) {
+            // Already inside a highlight, skip this segment
+            isInsideHighlight = true;
+            break;
+          }
+        }
+        currentNode = currentNode.parentNode;
+      }
+      
+      if (isInsideHighlight) continue;
+
       const range = document.createRange();
       range.setStart(node, start);
       range.setEnd(node, end);
 
       const span = document.createElement("span");
       span.className = "highlight";
-      // Apply hex color as inline style for flexibility
       span.style.backgroundColor = color;
       span.style.padding = "0 2px";
       span.style.borderRadius = "3px";
-      range.surroundContents(span);
+      if (highlightId) {
+        span.setAttribute("data-highlight-id", highlightId);
+      }
+
+      try {
+        range.surroundContents(span);
+      } catch (error) {
+        // Fallback for complex DOM structures (e.g., when range spans element boundaries)
+        let contents: DocumentFragment | null = null;
+        try {
+          contents = range.extractContents();
+          span.appendChild(contents);
+          range.insertNode(span);
+        } catch (fallbackError) {
+          console.warn("Failed to apply highlight:", fallbackError);
+          // Restore extracted contents if insertion failed
+          if (contents && contents.childNodes.length > 0) {
+            range.insertNode(contents);
+          }
+        }
+      }
     }
   }
 
   function removeAllHighlightsFromDOM() {
-    document.querySelectorAll(".highlight").forEach((span) => {
+    const highlights = document.querySelectorAll(".highlight");
+    const parentsToNormalize = new Set<Node>();
+    
+    highlights.forEach((span) => {
       const parent = span.parentNode;
       if (!parent) return;
 
@@ -158,6 +209,12 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         parent.insertBefore(span.firstChild, span);
       }
       parent.removeChild(span);
+      parentsToNormalize.add(parent);
+    });
+    
+    // Normalize all affected parents to merge fragmented text nodes
+    parentsToNormalize.forEach((parent) => {
+      parent.normalize();
     });
   }
 
@@ -184,12 +241,14 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   startOffset,
   endOffset,
   color,
+  highlightId,
 }: {
   startBlockId: string;
   endBlockId: string;
   startOffset: number;
   endOffset: number;
   color: string;
+  highlightId?: string;
 }) {
   const blocks = Array.from(
     document.querySelectorAll<HTMLElement>("[data-block-id]")
@@ -217,7 +276,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     if (i === ordered.length - 1) end = endOffset;
 
     if (start < end) {
-      highlightByOffsets(block, start, end, color);
+      highlightByOffsets(block, start, end, color, highlightId);
     }
   });
 }
@@ -245,6 +304,13 @@ function getBlockTextLength(block: HTMLElement) {
       const range = selection.getRangeAt(0);
       if (range.collapsed) return;
 
+      // Validate that selection contains non-whitespace characters
+      const selectedText = selection.toString().trim();
+      if (!selectedText || selectedText.length === 0) {
+        selection.removeAllRanges();
+        return;
+      }
+
       const getBlock = (node: Node) =>
         (node as HTMLElement)?.parentElement?.closest(
           "[data-block-id]"
@@ -252,14 +318,18 @@ function getBlockTextLength(block: HTMLElement) {
 
       const startBlock = getBlock(range.startContainer);
       const endBlock = getBlock(range.endContainer);
-      if (!startBlock || !endBlock) return;
+      if (!startBlock || !endBlock) {
+        selection.removeAllRanges();
+        return;
+      }
 
       const startBlockId = startBlock.getAttribute("data-block-id");
       const endBlockId = endBlock.getAttribute("data-block-id");
       
-      if (!startBlockId || !endBlockId) return;
-
-      const selectedText = selection.toString().trim();
+      if (!startBlockId || !endBlockId) {
+        selection.removeAllRanges();
+        return;
+      }
 
       const blocks = Array.from(
         document.querySelectorAll<HTMLElement>("[data-block-id]")
@@ -377,8 +447,14 @@ function getBlockTextLength(block: HTMLElement) {
     };
 
   useEffect(() => {
+    // Add both mouse and touch event listeners for mobile support
     document.addEventListener("mouseup", handleMouseUp);
-    return () => document.removeEventListener("mouseup", handleMouseUp);
+    document.addEventListener("touchend", handleMouseUp);
+    
+    return () => {
+      document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener("touchend", handleMouseUp);
+    };
   }, [isHighlightMode, selectedColor, chapter, loadHighlightsFromAPI]);
 
   // Load highlights from API when chapter changes
@@ -430,39 +506,133 @@ function getBlockTextLength(block: HTMLElement) {
 
   // Apply loaded highlights to DOM after blocks are rendered
   useLayoutEffect(() => {
-    if (!chapter || highlights.length === 0 || blocks.length === 0) return;
+    if (!chapter || blocks.length === 0) {
+      // Clear applied highlights when chapter or blocks are not available
+      appliedHighlightIdsRef.current.clear();
+      return;
+    }
 
-    // Wait for blocks to be rendered in DOM
-    const timer = setTimeout(() => {
+    if (highlights.length === 0) {
+      // Remove all highlights if no highlights exist
       removeAllHighlightsFromDOM();
+      appliedHighlightIdsRef.current.clear();
+      return;
+    }
 
-      highlights.forEach((highlight) => {
-        // Handle null values from API - skip if block IDs are null
-        const startBlockId = highlight.start_block_id ?? highlight.blockId ?? null;
-        const endBlockId = highlight.end_block_id ?? highlight.blockId ?? null;
-        
-        if (!startBlockId || !endBlockId) {
-          return; // Skip highlights without valid block IDs
-        }
-        
-        const startOffset = typeof highlight.startOffset === 'number' 
-          ? highlight.startOffset 
-          : parseInt(highlight.start_offset || "0", 10);
-        const endOffset = typeof highlight.endOffset === 'number'
-          ? highlight.endOffset
-          : parseInt(highlight.end_offset || "0", 10);
+    // Cancel any pending animation frame
+    if (highlightApplicationFrameRef.current !== null) {
+      cancelAnimationFrame(highlightApplicationFrameRef.current);
+    }
 
-        highlightByBlockIds({
-          startBlockId,
-          endBlockId,
-          startOffset,
-          endOffset,
-          color: highlight.color,
+    // Wait for blocks to be rendered in DOM, then use requestAnimationFrame for smooth updates
+    const timer = setTimeout(() => {
+      highlightApplicationFrameRef.current = requestAnimationFrame(() => {
+        // Get current highlight IDs
+        const currentHighlightIds = new Set(
+          highlights
+            .map(h => h.id || h.highlight_id)
+            .filter((id): id is string => !!id)
+        );
+
+        // Find highlights that were removed (exist in applied but not in current)
+        const removedIds = Array.from(appliedHighlightIdsRef.current).filter(
+          id => !currentHighlightIds.has(id)
+        );
+
+        // Find highlights that are new or changed (exist in current but not in applied, or changed)
+        const newOrChangedHighlights = highlights.filter(highlight => {
+          const highlightId = highlight.id || highlight.highlight_id;
+          if (!highlightId) return false;
+          
+          // Check if it's a new highlight
+          if (!appliedHighlightIdsRef.current.has(highlightId)) {
+            return true;
+          }
+
+          // Check if highlight properties changed by comparing with DOM
+          // For simplicity, we'll re-apply if it's in the current set
+          // A more sophisticated approach would compare properties
+          return currentHighlightIds.has(highlightId);
         });
+
+        // Remove highlights that no longer exist
+        if (removedIds.length > 0) {
+          removedIds.forEach(id => {
+            const highlightElements = document.querySelectorAll(`[data-highlight-id="${id}"]`);
+            highlightElements.forEach(span => {
+              const parent = span.parentNode;
+              if (!parent) return;
+              while (span.firstChild) {
+                parent.insertBefore(span.firstChild, span);
+              }
+              parent.removeChild(span);
+              parent.normalize();
+            });
+          });
+        }
+
+        // Only remove and re-apply if there are changes
+        if (removedIds.length > 0 || newOrChangedHighlights.length > 0) {
+          // Remove only the changed highlights from DOM, then re-apply
+          newOrChangedHighlights.forEach(highlight => {
+            const highlightId = highlight.id || highlight.highlight_id;
+            if (highlightId) {
+              // Remove existing highlight with this ID if it exists
+              const existingElements = document.querySelectorAll(`[data-highlight-id="${highlightId}"]`);
+              existingElements.forEach(span => {
+                const parent = span.parentNode;
+                if (!parent) return;
+                while (span.firstChild) {
+                  parent.insertBefore(span.firstChild, span);
+                }
+                parent.removeChild(span);
+                parent.normalize();
+              });
+            }
+          });
+
+          // Apply new or changed highlights
+          newOrChangedHighlights.forEach((highlight) => {
+            // Handle null values from API - skip if block IDs are null
+            const startBlockId = highlight.start_block_id ?? highlight.blockId ?? null;
+            const endBlockId = highlight.end_block_id ?? highlight.blockId ?? null;
+            
+            if (!startBlockId || !endBlockId) {
+              return; // Skip highlights without valid block IDs
+            }
+            
+            const startOffset = typeof highlight.startOffset === 'number' 
+              ? highlight.startOffset 
+              : parseInt(highlight.start_offset || "0", 10);
+            const endOffset = typeof highlight.endOffset === 'number'
+              ? highlight.endOffset
+              : parseInt(highlight.end_offset || "0", 10);
+
+            const highlightId = highlight.id || highlight.highlight_id;
+            
+            // Apply highlight with ID for tracking
+            highlightByBlockIds({
+              startBlockId,
+              endBlockId,
+              startOffset,
+              endOffset,
+              color: highlight.color,
+              highlightId: highlightId || undefined,
+            });
+          });
+
+          // Update applied highlights tracking
+          appliedHighlightIdsRef.current = new Set(currentHighlightIds);
+        }
       });
     }, 100);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      if (highlightApplicationFrameRef.current !== null) {
+        cancelAnimationFrame(highlightApplicationFrameRef.current);
+      }
+    };
   }, [chapter, highlights, blocks]);
 
   /* ---------------- Check Bookmark Status on Chapter Load ---------------- */
