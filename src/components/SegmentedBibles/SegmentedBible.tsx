@@ -216,6 +216,7 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
         return (
           <div key={bible.id}>
             <BibleCard
+              isBibleReader={isBibleReader}
               $backgroundGradient={bible.backgroundColor}
               onClick={async () => {
                 if (onBibleClick) {

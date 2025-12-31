@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 `;
 
-export const BibleCard = styled.div<{ $backgroundGradient: string }>`
+export const BibleCard = styled.div<{ $backgroundGradient: string, isBibleReader: boolean }>`
   border-radius: 12px;
   padding: 20px;
   color: white;
@@ -23,8 +23,11 @@ export const BibleCard = styled.div<{ $backgroundGradient: string }>`
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  
-  min-height: 120px;
+  height: 180px;
+  ${props => props.isBibleReader && `
+    height: 250px;
+    margin-top: 12px;
+  `}
   background: ${props => props.$backgroundGradient};
 
   &:last-child {
