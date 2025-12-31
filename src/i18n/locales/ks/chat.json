@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "آن لائن",
+    "offline": "آف لائن"
+  },
+  "messages": {
+    "loading": "پیغامات لوڈ ہو رہے ہیں...",
+    "noMessages": "ابھی تک کوئی پیغامات نہیں",
+    "deleted": "یہ پیغام حذف کر دیا گیا",
+    "sharedImage": "شیئر کی گئی تصویر",
+    "viewAttachment": "منسلکہ دیکھیں",
+    "seen": "دیکھا گیا",
+    "deleteMessage": "پیغام حذف کریں"
+  },
+  "typing": {
+    "isTyping": "ٹائپ کر رہا ہے...",
+    "peopleTyping": "لوگ ٹائپ کر رہے ہیں..."
+  },
+  "input": {
+    "placeholder": "پیغام ٹائپ کریں...",
+    "pressEnterToSend": "بھیجنے کے لیے Enter دبائیں"
+  },
+  "deleteModal": {
+    "title": "پیغام حذف کریں؟",
+    "message": "کیا آپ واقعی یہ پیغام حذف کرنا چاہتے ہیں؟ اس عمل کو واپس نہیں کیا جا سکتا۔",
+    "cancel": "منسوخ کریں",
+    "delete": "حذف کریں"
+  },
+  "uploadModal": {
+    "title": "فائل بھیجیں",
+    "uploading": "اپ لوڈ اور بھیج رہا ہے...",
+    "sendFile": "{{filename}} بھیجیں؟",
+    "sending": "بھیج رہا ہے...",
+    "send": "بھیجیں",
+    "cancel": "منسوخ کریں"
+  },
+  "errors": {
+    "fetchConversation": "بات چیت حاصل کرنے میں ناکام",
+    "invalidFileType": "غلط فائل کی قسم۔ صرف تصاویر اور ویڈیوز کی اجازت ہے۔",
+    "fileSizeExceeded": "فائل کا سائز 10MB کی حد سے زیادہ ہے۔",
+    "uploadFailed": "فائل اپ لوڈ ناکام",
+    "failedToLoadStickers": "اسٹیکرز لوڈ کرنے میں ناکام"
+  },
+  "stickers": {
+    "loading": "اسٹیکرز لوڈ ہو رہے ہیں...",
+    "noStickers": "اسٹیکرز دستیاب نہیں"
+  }
+}
+

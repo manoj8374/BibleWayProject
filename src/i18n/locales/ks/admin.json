@@ -1,0 +1,39 @@
+{
+  "loading": "لوڈ ہو رہا ہے...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute کو ProfileProvider کے اندر استعمال کیا جانا چاہیے"
+  },
+  "testimonials": {
+    "title": "شہادتوں کا انتظام",
+    "pending": "زیر التواء",
+    "verified": "تصدیق شدہ",
+    "all": "سب",
+    "loading": "شہادتیں لوڈ ہو رہی ہیں...",
+    "noTestimonials": "شہادتیں نہیں ملیں",
+    "approve": "منظور کریں",
+    "reject": "مسترد کریں",
+    "processing": "پروسیسنگ ہو رہی ہے...",
+    "approvedSuccessfully": "شہادت کامیابی سے منظور ہو گئی",
+    "rejectedSuccessfully": "شہادت کامیابی سے مسترد ہو گئی",
+    "failedToLoad": "شہادتیں لوڈ کرنے میں ناکام",
+    "failedToApprove": "شہادت منظور کرنے میں ناکام",
+    "failedToReject": "شہادت مسترد کرنے میں ناکام",
+    "confirmReject": "کیا آپ واقعی یہ شہادت مسترد کرنا چاہتے ہیں؟ اس عمل کو واپس نہیں کیا جا سکتا۔",
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "pageInfo": "صفحہ {{current}} / {{total}}"
+  },
+  "promotions": {
+    "title": "پروموشنز کا انتظام",
+    "loading": "پروموشنز لوڈ ہو رہے ہیں...",
+    "noPromotions": "پروموشنز نہیں ملے",
+    "delete": "حذف کریں",
+    "cancel": "منسوخ کریں",
+    "processing": "پروسیسنگ ہو رہی ہے...",
+    "deletedSuccessfully": "پروموشن کامیابی سے حذف ہو گیا",
+    "failedToLoad": "پروموشنز لوڈ کرنے میں ناکام",
+    "failedToDelete": "پروموشن حذف کرنے میں ناکام",
+    "confirmDelete": "کیا آپ واقعی یہ پروموشن حذف کرنا چاہتے ہیں؟ اس عمل کو واپس نہیں کیا جا سکتا۔"
+  }
+}
+

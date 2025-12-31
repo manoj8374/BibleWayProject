@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "غیر متوقع خرابی پیش آئی۔",
+    "receivedToken": "ٹوکن موصول ہوا"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "پوسٹ بناتے وقت غیر متوقع خرابی پیش آئی۔",
+    "failedToFetchPosts": "پوسٹس حاصل کرنے میں ناکام۔",
+    "failedToFetchUserPosts": "صارف کی پوسٹس حاصل کرنے میں ناکام۔",
+    "failedToFetchPostDetails": "پوسٹ کی تفصیلات حاصل کرنے میں ناکام۔",
+    "failedToUpdatePost": "پوسٹ اپ ڈیٹ کرنے میں ناکام",
+    "failedToDeletePost": "پوسٹ حذف کرنے میں ناکام",
+    "failedToCreateComment": "تبصرہ بنانے میں ناکام۔",
+    "failedToUpdateComment": "تبصرہ اپ ڈیٹ کرنے میں ناکام۔",
+    "failedToDeleteComment": "تبصرہ حذف کرنے میں ناکام۔",
+    "failedToFetchComments": "تبصرے حاصل کرنے میں ناکام۔",
+    "failedToLikeComment": "تبصرہ کو لائک کرنے میں ناکام۔",
+    "failedToUnlikeComment": "تبصرہ سے لائک ہٹانے میں ناکام۔",
+    "failedToLikePost": "پوسٹ کو لائک کرنے میں ناکام۔",
+    "failedToUnlikePost": "پوسٹ سے لائک ہٹانے میں ناکام۔"
+  },
+  "user": {
+    "failedToFetchUserProfile": "صارف کا پروفائل حاصل کرنے میں ناکام۔",
+    "failedToFollowUser": "صارف کو فالو کرنے میں ناکام۔",
+    "failedToUnfollowUser": "صارف کو ان فالو کرنے میں ناکام۔",
+    "failedToGetRecommendedUsers": "تجویز کردہ صارفین حاصل کرنے میں ناکام۔",
+    "failedToGetUserProfile": "صارف کا پروفائل حاصل کرنے میں ناکام۔"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "وال پیپرز لوڈ کرنے میں ناکام"
+  },
+  "verse": {
+    "failedToLoadVerses": "آیات لوڈ کرنے میں ناکام",
+    "failedToLikeVerse": "آیت کو لائک کرنے میں ناکام",
+    "failedToUnlikeVerse": "آیت سے لائک ہٹانے میں ناکام"
+  },
+  "admin": {
+    "failedToLoadBooks": "کتابیں لوڈ کرنے میں ناکام"
+  }
+}
+

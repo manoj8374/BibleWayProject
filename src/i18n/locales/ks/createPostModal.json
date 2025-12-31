@@ -1,0 +1,28 @@
+{
+  "title": "پوسٹ بنائیں",
+  "labels": {
+    "title": "عنوان",
+    "description": "تفصیل"
+  },
+  "placeholders": {
+    "enterPostTitle": "پوسٹ کا عنوان درج کریں...",
+    "enterDescription": "مجھے Google میں نوکری مل گئی..."
+  },
+  "upload": {
+    "uploadFiles": "اپنی فائلیں یہاں اپ لوڈ کریں (زیادہ سے زیادہ 5)",
+    "addMoreFiles": "+ مزید فائلیں شامل کریں"
+  },
+  "buttons": {
+    "createPost": "پوسٹ بنائیں",
+    "creating": "بنایا جا رہا ہے..."
+  },
+  "errors": {
+    "maxFilesExceeded": "آپ زیادہ سے زیادہ 5 فائلیں اپ لوڈ کر سکتے ہیں۔",
+    "atLeastOneFile": "براہ کرم کم از کم ایک میڈیا فائل اپ لوڈ کریں۔",
+    "failedToCreatePost": "پوسٹ بنانے میں ناکام۔"
+  },
+  "success": {
+    "postCreated": "پوسٹ کامیابی سے بن گئی!"
+  }
+}
+

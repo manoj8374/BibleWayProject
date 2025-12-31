@@ -1,0 +1,28 @@
+{
+  "title": "کیٹیگری بنائیں",
+  "labels": {
+    "categoryName": "کیٹیگری نام *",
+    "description": "تفصیل",
+    "displayOrder": "ڈسپلے ترتیب",
+    "coverImage": "کور تصویر"
+  },
+  "placeholders": {
+    "selectCategoryName": "کیٹیگری نام منتخب کریں",
+    "enterDescription": "کیٹیگری تفصیل درج کریں (اختیاری)"
+  },
+  "selected": "منتخب شدہ:",
+  "buttons": {
+    "cancel": "منسوخ کریں",
+    "createCategory": "کیٹیگری بنائیں",
+    "creating": "بنایا جا رہا ہے..."
+  },
+  "errors": {
+    "categoryNameRequired": "کیٹیگری نام ضروری ہے",
+    "failedToCreateCategory": "کیٹیگری بنانے میں ناکام",
+    "unexpectedError": "غیر متوقع خرابی پیش آئی"
+  },
+  "success": {
+    "categoryCreated": "کیٹیگری کامیابی سے بن گئی"
+  }
+}
+

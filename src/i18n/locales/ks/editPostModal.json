@@ -1,0 +1,25 @@
+{
+  "title": "پوسٹ ترمیم کریں",
+  "labels": {
+    "title": "عنوان",
+    "description": "تفصیل",
+    "media": "میڈیا"
+  },
+  "placeholders": {
+    "enterPostTitle": "پوسٹ کا عنوان درج کریں...",
+    "enterDescription": "تفصیل درج کریں..."
+  },
+  "buttons": {
+    "cancel": "منسوخ کریں",
+    "save": "محفوظ کریں",
+    "updating": "اپ ڈیٹ ہو رہا ہے..."
+  },
+  "errors": {
+    "noChanges": "کوئی تبدیلی نہیں ملی",
+    "failedToUpdatePost": "پوسٹ اپ ڈیٹ کرنے میں ناکام"
+  },
+  "success": {
+    "postUpdated": "پوسٹ کامیابی سے اپ ڈیٹ ہو گئی"
+  }
+}
+

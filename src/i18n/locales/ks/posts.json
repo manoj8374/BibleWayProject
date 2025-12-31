@@ -1,0 +1,23 @@
+{
+  "edit": "ترمیم کریں",
+  "delete": "حذف کریں",
+  "deleteConfirm": "یہ پوسٹ حذف کریں؟",
+  "cancel": "منسوخ کریں",
+  "save": "محفوظ کریں",
+  "saving": "محفوظ ہو رہا ہے...",
+  "deleting": "حذف ہو رہا ہے...",
+  "likes": "لائکس",
+  "like": "لائک",
+  "comments": "تبصرے",
+  "comment": "تبصرہ",
+  "share": "شیئر کریں",
+  "shares": "شیئرز",
+  "writeComment": "تبصرہ لکھیں...",
+  "writeYourComment": "اپنا تبصرہ لکھیں...",
+  "failedToComment": "تبصرہ کرنے میں ناکام",
+  "actionFailed": "عمل ناکام",
+  "commentAdded": "تبصرہ کامیابی سے شامل ہو گیا",
+  "failedToCreateComment": "تبصرہ بنانے میں ناکام",
+  "failedToUpdateLike": "لائک کی حالت اپ ڈیٹ کرنے میں ناکام"
+}
+

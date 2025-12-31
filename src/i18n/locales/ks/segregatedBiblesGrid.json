@@ -1,0 +1,15 @@
+{
+  "title": "درجہ بند بائبل",
+  "loadingAgeGroups": "عمر گروپس لوڈ ہو رہے ہیں...",
+  "failedToLoadAgeGroups": "عمر گروپس لوڈ کرنے میں ناکام",
+  "unexpectedErrorLoadingAgeGroups": "عمر گروپس لوڈ کرتے وقت غیر متوقع خرابی پیش آئی",
+  "noAgeGroupsAvailable": "عمر گروپس دستیاب نہیں",
+  "pleaseSelectCategoryFirst": "براہ کرم پہلے کیٹیگری منتخب کریں",
+  "noBooksAvailable": "اس انتخاب کے لیے کتابیں دستیاب نہیں",
+  "failedToFetchBooks": "کتابیں حاصل کرنے میں ناکام",
+  "categoryNotFound": "کیٹیگری نہیں ملی",
+  "ageGroupNotFound": "عمر گروپ نہیں ملا",
+  "languageNotFound": "زبان نہیں ملی",
+  "unexpectedErrorFetchingBooks": "کتابیں حاصل کرتے وقت غیر متوقع خرابی پیش آئی"
+}
+

@@ -1,0 +1,47 @@
+{
+  "title": "کتاب اپ لوڈ کریں",
+  "labels": {
+    "sourceFile": "سورس فائل (.md) *",
+    "coverImage": "کور تصویر",
+    "category": "کیٹیگری *",
+    "ageGroup": "عمر گروپ *",
+    "language": "زبان *",
+    "bookTitle": "عنوان *",
+    "description": "تفصیل",
+    "bookOrder": "کتاب کا ترتیب"
+  },
+  "placeholders": {
+    "selectCategory": "کیٹیگری منتخب کریں",
+    "selectAgeGroup": "عمر گروپ منتخب کریں",
+    "selectLanguage": "زبان منتخب کریں",
+    "enterBookTitle": "کتاب کا عنوان درج کریں",
+    "enterBookDescription": "کتاب کی تفصیل درج کریں (اختیاری)"
+  },
+  "loading": {
+    "categories": "کیٹیگریز لوڈ ہو رہی ہیں...",
+    "ageGroups": "عمر گروپس لوڈ ہو رہے ہیں...",
+    "languages": "زبانیں لوڈ ہو رہی ہیں...",
+    "uploading": "اپ لوڈ ہو رہا ہے..."
+  },
+  "selected": "منتخب شدہ:",
+  "buttons": {
+    "cancel": "منسوخ کریں",
+    "uploadBook": "کتاب اپ لوڈ کریں"
+  },
+  "errors": {
+    "sourceFileRequired": "سورس فائل ضروری ہے",
+    "titleRequired": "عنوان ضروری ہے",
+    "categoryRequired": "کیٹیگری ضروری ہے",
+    "ageGroupRequired": "عمر گروپ ضروری ہے",
+    "languageRequired": "زبان ضروری ہے",
+    "failedToLoadCategories": "کیٹیگریز لوڈ کرنے میں ناکام",
+    "failedToLoadAgeGroups": "عمر گروپس لوڈ کرنے میں ناکام",
+    "failedToLoadLanguages": "زبانیں لوڈ کرنے میں ناکام",
+    "failedToUploadBook": "کتاب اپ لوڈ کرنے میں ناکام",
+    "unexpectedError": "غیر متوقع خرابی پیش آئی"
+  },
+  "success": {
+    "bookCreated": "کتاب کامیابی سے بن گئی"
+  }
+}
+
