@@ -1,0 +1,22 @@
+{
+  "chat": "संवादः",
+  "sendMessage": "सन्देशं प्रेषयतु",
+  "typeMessage": "सन्देशं टङ्कयतु...",
+  "online": "सक्रियः",
+  "offline": "निष्क्रियः",
+  "participants": "प्रतिभागिनः",
+  "groupInfo": "समूह-विवरणम्",
+  "leaveGroup": "समूहं त्यजतु",
+  "muteNotifications": "सूचनाः मौनयतु",
+  "searchMessages": "सन्देशान् अन्विष्यतु...",
+  "noMessages": "कोऽपि सन्देशः नास्ति",
+  "today": "अद्य",
+  "yesterday": "ह्यः",
+  "typing": "टङ्कयति...",
+  "newMessages": "नूतनाः सन्देशाः",
+  "reply": "प्रत्युत्तरम्",
+  "copy": "प्रतिलिपिः",
+  "forward": "अग्रे प्रेषयतु",
+  "delete": "मार्जयतु",
+  "deletedMessage": "एषः सन्देशः मार्जितः"
+}

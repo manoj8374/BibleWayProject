@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "कश्चन अप्रत्याशितः दोषः अभवत्।",
+    "receivedToken": "टोकन् प्राप्तम्"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट-रचना समये कश्चन अप्रत्याशितः दोषः अभवत्।",
+    "failedToFetchPosts": "पोस्टानि प्राप्तुं विफलम्।",
+    "failedToFetchUserPosts": "सदस्य-पोस्टानि प्राप्तुं विफलम्।",
+    "failedToFetchPostDetails": "पोस्ट-विवरणं प्राप्तुं विफलम्।",
+    "failedToUpdatePost": "पोस्टं नवीकर्तुं विफलम्",
+    "failedToDeletePost": "पोस्टं मार्जयितुं विफलम्",
+    "failedToCreateComment": "टिप्पणीं रचयितुं विफलम्।",
+    "failedToUpdateComment": "टिप्पणीं नवीकर्तुं विफलम्।",
+    "failedToDeleteComment": "टिप्पणीं मार्जयितुं विफलम्।",
+    "failedToFetchComments": "टिप्पणीः प्राप्तुं विफलम्।",
+    "failedToLikeComment": "टिप्पणीं रोचयितुं विफलम्।",
+    "failedToUnlikeComment": "टिप्पणीं अरुचित्वं कर्तुं विफलम्।",
+    "failedToLikePost": "पोस्टं रोचयितुं विफलम्।",
+    "failedToUnlikePost": "पोस्टं अरुचित्वं कर्तुं विफलम्।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "सदस्य-परिचयं प्राप्तुं विफलम्।",
+    "failedToFollowUser": "सदस्यं अनुसर्तुं विफलम्।",
+    "failedToUnfollowUser": "सदस्यस्य अनुसरणं त्यक्तुं विफलम्।",
+    "failedToGetRecommendedUsers": "अनुशंसित-सदस्यान् प्राप्तुं विफलम्।",
+    "failedToGetUserProfile": "सदस्य-परिचयं प्राप्तुं विफलम्।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "भित्तिपत्राणि लोड करितुं विफलम्"
+  },
+  "verse": {
+    "failedToLoadVerses": "श्लोकान् लोड करितुं विफलम्",
+    "failedToLikeVerse": "श्लोकं रोचयितुं विफलम्",
+    "failedToUnlikeVerse": "श्लोकं अरुचित्वं कर्तुं विफलम्"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तकानि लोड करितुं विफलम्"
+  }
+}
