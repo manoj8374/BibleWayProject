@@ -1,0 +1,46 @@
+{
+  "title": "புத்தகத்தை பதிவேற்று",
+  "labels": {
+    "sourceFile": "மூல கோப்பு (.md) *",
+    "coverImage": "அட்டைப் படம்",
+    "category": "வகை *",
+    "ageGroup": "வயது குழு *",
+    "language": "மொழி *",
+    "bookTitle": "தலைப்பு *",
+    "description": "விளக்கம்",
+    "bookOrder": "புத்தக வரிசை"
+  },
+  "placeholders": {
+    "selectCategory": "ஒரு வகையைத் தேர்ந்தெடுக்கவும்",
+    "selectAgeGroup": "ஒரு வயது குழுவைத் தேர்ந்தெடுக்கவும்",
+    "selectLanguage": "ஒரு மொழியைத் தேர்ந்தெடுக்கவும்",
+    "enterBookTitle": "புத்தக தலைப்பை உள்ளிடவும்",
+    "enterBookDescription": "புத்தக விளக்கத்தை உள்ளிடவும் (விரும்பினால்)"
+  },
+  "loading": {
+    "categories": "வகைகளை ஏற்றுகிறது...",
+    "ageGroups": "வயது குழுக்களை ஏற்றுகிறது...",
+    "languages": "மொழிகளை ஏற்றுகிறது...",
+    "uploading": "பதிவேற்றுகிறது..."
+  },
+  "selected": "தேர்ந்தெடுக்கப்பட்டது:",
+  "buttons": {
+    "cancel": "ரத்து செய்",
+    "uploadBook": "புத்தகத்தை பதிவேற்று"
+  },
+  "errors": {
+    "sourceFileRequired": "மூல கோப்பு தேவை",
+    "titleRequired": "தலைப்பு தேவை",
+    "categoryRequired": "வகை தேவை",
+    "ageGroupRequired": "வயது குழு தேவை",
+    "languageRequired": "மொழி தேவை",
+    "failedToLoadCategories": "வகைகளை ஏற்ற முடியவில்லை",
+    "failedToLoadAgeGroups": "வயது குழுக்களை ஏற்ற முடியவில்லை",
+    "failedToLoadLanguages": "மொழிகளை ஏற்ற முடியவில்லை",
+    "failedToUploadBook": "புத்தகத்தை பதிவேற்ற முடியவில்லை",
+    "unexpectedError": "எதிர்பாராத பிழை ஏற்பட்டது"
+  },
+  "success": {
+    "bookCreated": "புத்தகம் வெற்றிகரமாக உருவாக்கப்பட்டது"
+  }
+}

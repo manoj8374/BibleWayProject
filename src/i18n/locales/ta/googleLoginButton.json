@@ -1,0 +1,9 @@
+{
+  "buttonText": "Google உடன் தொடரவும்",
+  "success": {
+    "loginSuccessful": "உள்நுழைவு வெற்றிகரமாக"
+  },
+  "errors": {
+    "loginFailed": "உள்நுழைவு தோல்வியடைந்தது"
+  }
+}

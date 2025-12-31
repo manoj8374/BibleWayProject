@@ -1,0 +1,38 @@
+{
+  "title": "விளம்பரத்தை உருவாக்கு",
+  "labels": {
+    "title": "தலைப்பு *",
+    "description": "விளக்கம்",
+    "price": "விலை",
+    "redirectLink": "திசைதிருப்பல் இணைப்பு *",
+    "metaData": "மெட்டா தரவு (JSON)",
+    "mediaFile": "ஊடக கோப்பு (படம்/வீடியோ/ஆடியோ)",
+    "images": "படங்கள் (பல)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "விளம்பர தலைப்பை உள்ளிடவும்",
+    "enterDescription": "விளம்பர விளக்கத்தை உள்ளிடவும் (விரும்பினால்)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "தேர்ந்தெடுக்கப்பட்டது:",
+  "buttons": {
+    "cancel": "ரத்து செய்",
+    "createPromotion": "விளம்பரத்தை உருவாக்கு",
+    "creating": "உருவாக்குகிறது..."
+  },
+  "errors": {
+    "titleRequired": "தலைப்பு தேவை",
+    "priceRequired": "விலை தேவை",
+    "priceInvalid": "விலை சரியான எண்ணாக இருக்க வேண்டும்",
+    "redirectLinkRequired": "திசைதிருப்பல் இணைப்பு தேவை",
+    "redirectLinkInvalid": "திசைதிருப்பல் இணைப்பு சரியான URL ஆக இருக்க வேண்டும்",
+    "metaDataInvalid": "மெட்டா தரவு சரியான JSON வடிவத்தில் இருக்க வேண்டும்",
+    "failedToCreatePromotion": "விளம்பரத்தை உருவாக்க முடியவில்லை",
+    "unexpectedError": "எதிர்பாராத பிழை ஏற்பட்டது"
+  },
+  "success": {
+    "promotionCreated": "விளம்பரம் வெற்றிகரமாக உருவாக்கப்பட்டது"
+  }
+}

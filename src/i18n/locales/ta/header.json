@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "புத்தகம், பெயர், ஆசிரியர் தேடுங்கள்...",
+  "addNewPost": "புதிய இடுகையைச் சேர்க்கவும்",
+  "noResultsFound": "முடிவுகள் எதுவும் கிடைக்கவில்லை",
+  "languageSelector": {
+    "searchLanguages": "மொழிகளைத் தேடுங்கள்...",
+    "noLanguagesFound": "மொழிகள் எதுவும் கிடைக்கவில்லை"
+  },
+  "filter": {
+    "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்",
+    "selectVersion": "புத்தகத்தைத் தேர்ந்தெடுக்கவும்"
+  }
+}

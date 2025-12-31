@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "எதிர்பாராத பிழை ஏற்பட்டது.",
+    "receivedToken": "டோக்கன் பெறப்பட்டது"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "இடுகை உருவாக்கத்தின் போது எதிர்பாராத பிழை ஏற்பட்டது.",
+    "failedToFetchPosts": "இடுகைகளைப் பெற முடியவில்லை.",
+    "failedToFetchUserPosts": "பயனர் இடுகைகளைப் பெற முடியவில்லை.",
+    "failedToFetchPostDetails": "இடுகை விவரங்களைப் பெற முடியவில்லை.",
+    "failedToUpdatePost": "இடுகையை புதுப்பிக்க முடியவில்லை",
+    "failedToDeletePost": "இடுகையை நீக்க முடியவில்லை",
+    "failedToCreateComment": "கருத்தை உருவாக்க முடியவில்லை.",
+    "failedToUpdateComment": "கருத்தை புதுப்பிக்க முடியவில்லை.",
+    "failedToDeleteComment": "கருத்தை நீக்க முடியவில்லை.",
+    "failedToFetchComments": "கருத்துகளைப் பெற முடியவில்லை.",
+    "failedToLikeComment": "கருத்தை விரும்ப முடியவில்லை.",
+    "failedToUnlikeComment": "கருத்தை விரும்பாமல் செய்ய முடியவில்லை.",
+    "failedToLikePost": "இடுகையை விரும்ப முடியவில்லை.",
+    "failedToUnlikePost": "இடுகையை விரும்பாமல் செய்ய முடியவில்லை."
+  },
+  "user": {
+    "failedToFetchUserProfile": "பயனர் சுயவிவரத்தைப் பெற முடியவில்லை.",
+    "failedToFollowUser": "பயனரைப் பின்தொடர முடியவில்லை.",
+    "failedToUnfollowUser": "பயனரைப் பின்தொடர்வதை நிறுத்த முடியவில்லை.",
+    "failedToGetRecommendedUsers": "பரிந்துரைக்கப்பட்ட பயனர்களைப் பெற முடியவில்லை.",
+    "failedToGetUserProfile": "பயனர் சுயவிவரத்தைப் பெற முடியவில்லை."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "வால்பேப்பர்களை ஏற்ற முடியவில்லை"
+  },
+  "verse": {
+    "failedToLoadVerses": "வசனங்களை ஏற்ற முடியவில்லை",
+    "failedToLikeVerse": "வசனத்தை விரும்ப முடியவில்லை",
+    "failedToUnlikeVerse": "வசனத்தை விரும்பாமல் செய்ய முடியவில்லை"
+  },
+  "admin": {
+    "failedToLoadBooks": "புத்தகங்களை ஏற்ற முடியவில்லை"
+  }
+}

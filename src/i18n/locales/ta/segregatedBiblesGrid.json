@@ -1,0 +1,14 @@
+{
+  "title": "பிரிக்கப்பட்ட பைபிள்கள்",
+  "loadingAgeGroups": "வயது குழுக்களை ஏற்றுகிறது...",
+  "failedToLoadAgeGroups": "வயது குழுக்களை ஏற்ற முடியவில்லை",
+  "unexpectedErrorLoadingAgeGroups": "வயது குழுக்களை ஏற்றும் போது எதிர்பாராத பிழை ஏற்பட்டது",
+  "noAgeGroupsAvailable": "வயது குழுக்கள் இல்லை",
+  "pleaseSelectCategoryFirst": "முதலில் ஒரு வகையைத் தேர்ந்தெடுக்கவும்",
+  "noBooksAvailable": "இந்த தேர்வுக்கு புத்தகங்கள் இல்லை",
+  "failedToFetchBooks": "புத்தகங்களைப் பெற முடியவில்லை",
+  "categoryNotFound": "வகை கிடைக்கவில்லை",
+  "ageGroupNotFound": "வயது குழு கிடைக்கவில்லை",
+  "languageNotFound": "மொழி கிடைக்கவில்லை",
+  "unexpectedErrorFetchingBooks": "புத்தகங்களைப் பெறும் போது எதிர்பாராத பிழை ஏற்பட்டது"
+}

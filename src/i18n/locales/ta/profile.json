@@ -1,0 +1,19 @@
+{
+  "back": "பின்செல்",
+  "follow": "பின்தொடர்",
+  "unfollow": "பின்தொடர்வதை நிறுத்து",
+  "message": "செய்தி",
+  "follower": "பின்தொடர்பவர்",
+  "following": "பின்தொடர்கிறது",
+  "followers": "பின்தொடர்பவர்கள்",
+  "loadingProfile": "சுயவிவரத்தை ஏற்றுகிறது...",
+  "profileNotFound": "சுயவிவரம் கிடைக்கவில்லை",
+  "loadingPosts": "இடுகைகளை ஏற்றுகிறது...",
+  "noPostsYet": "இன்னும் இடுகைகள் இல்லை",
+  "unknownUser": "அறியப்படாத பயனர்",
+  "checkOutProfile": "BibleWay இல் {{name}} இன் சுயவிவரத்தைப் பார்க்கவும்",
+  "profileTitle": "{{name}} இன் சுயவிவரம்",
+  "unfollowedSuccessfully": "வெற்றிகரமாக பின்தொடர்வதை நிறுத்தினீர்கள்",
+  "followedSuccessfully": "வெற்றிகரமாக பின்தொடர்கிறீர்கள்",
+  "failedToFetchUserPosts": "பயனர் இடுகைகளைப் பெற முடியவில்லை"
+}

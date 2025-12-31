@@ -1,0 +1,18 @@
+{
+  "title": "அறிவிப்புகள்",
+  "markAllAsRead": "அனைத்தையும் படித்ததாகக் குறிக்கவும்",
+  "loading": "அறிவிப்புகளை ஏற்றுகிறது...",
+  "noNotifications": "இன்னும் அறிவிப்புகள் இல்லை",
+  "allCaughtUp": "நீங்கள் அனைத்தையும் பார்த்துவிட்டீர்கள்!",
+  "justNow": "இப்போதுதான்",
+  "minuteAgo": "{{count}} நிமிடம் முன்",
+  "minutesAgo": "{{count}} நிமிடங்கள் முன்",
+  "hourAgo": "{{count}} மணி நேரம் முன்",
+  "hoursAgo": "{{count}} மணி நேரங்கள் முன்",
+  "dayAgo": "{{count}} நாள் முன்",
+  "daysAgo": "{{count}} நாட்கள் முன்",
+  "weekAgo": "{{count}} வாரம் முன்",
+  "weeksAgo": "{{count}} வாரங்கள் முன்",
+  "monthAgo": "{{count}} மாதம் முன்",
+  "monthsAgo": "{{count}} மாதங்கள் முன்"
+}

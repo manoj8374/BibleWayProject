@@ -281,7 +281,7 @@ i18n
     resources: {},
     lng: initialLanguage, // Set the language immediately
     fallbackLng: 'en',
-    supportedLngs: ['en', 'te', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl'],
+    supportedLngs: ['en', 'te', 'ta', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl'],
     debug: false,
     interpolation: {
       escapeValue: false, // React already escapes values

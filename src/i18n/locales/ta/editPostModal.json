@@ -1,0 +1,24 @@
+{
+  "title": "இடுகையை திருத்து",
+  "labels": {
+    "title": "தலைப்பு",
+    "description": "விளக்கம்",
+    "media": "ஊடகம்"
+  },
+  "placeholders": {
+    "enterPostTitle": "இடுகை தலைப்பை உள்ளிடவும்...",
+    "enterDescription": "விளக்கத்தை உள்ளிடவும்..."
+  },
+  "buttons": {
+    "cancel": "ரத்து செய்",
+    "save": "சேமி",
+    "updating": "புதுப்பிக்கிறது..."
+  },
+  "errors": {
+    "noChanges": "மாற்றங்கள் எதுவும் கண்டறியப்படவில்லை",
+    "failedToUpdatePost": "இடுகையை புதுப்பிக்க முடியவில்லை"
+  },
+  "success": {
+    "postUpdated": "இடுகை வெற்றிகரமாக புதுப்பிக்கப்பட்டது"
+  }
+}

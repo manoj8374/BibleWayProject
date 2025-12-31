@@ -1,0 +1,27 @@
+{
+  "title": "வகையை உருவாக்கு",
+  "labels": {
+    "categoryName": "வகை பெயர் *",
+    "description": "விளக்கம்",
+    "displayOrder": "காட்சி வரிசை",
+    "coverImage": "அட்டைப் படம்"
+  },
+  "placeholders": {
+    "selectCategoryName": "ஒரு வகை பெயரைத் தேர்ந்தெடுக்கவும்",
+    "enterDescription": "வகை விளக்கத்தை உள்ளிடவும் (விரும்பினால்)"
+  },
+  "selected": "தேர்ந்தெடுக்கப்பட்டது:",
+  "buttons": {
+    "cancel": "ரத்து செய்",
+    "createCategory": "வகையை உருவாக்கு",
+    "creating": "உருவாக்குகிறது..."
+  },
+  "errors": {
+    "categoryNameRequired": "வகை பெயர் தேவை",
+    "failedToCreateCategory": "வகையை உருவாக்க முடியவில்லை",
+    "unexpectedError": "எதிர்பாராத பிழை ஏற்பட்டது"
+  },
+  "success": {
+    "categoryCreated": "வகை வெற்றிகரமாக உருவாக்கப்பட்டது"
+  }
+}
