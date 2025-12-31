@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Sök personer",
+  "searchPeoplePlaceholder": "Sök personer...",
+  "searching": "Söker...",
+  "noUsersFound": "Inga användare hittades",
+  "follow": "Följ",
+  "following": "Följer",
+  "failedToUpdateFollowStatus": "Misslyckades med att uppdatera följ-status",
+  "loadingInbox": "Laddar inkorg...",
+  "noMessages": "Inga meddelanden",
+  "you": "Du: ",
+  "attachment": "Bilaga",
+  "noMessagesText": "Inga meddelanden",
+  "sticker": "📷 Klistermärke"
+}

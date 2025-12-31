@@ -1,0 +1,46 @@
+{
+  "title": "Ladda upp bok",
+  "labels": {
+    "sourceFile": "Källfil (.md) *",
+    "coverImage": "Omslagsbild",
+    "category": "Kategori *",
+    "ageGroup": "Åldersgrupp *",
+    "language": "Språk *",
+    "bookTitle": "Titel *",
+    "description": "Beskrivning",
+    "bookOrder": "Bokordning"
+  },
+  "placeholders": {
+    "selectCategory": "Välj en kategori",
+    "selectAgeGroup": "Välj en åldersgrupp",
+    "selectLanguage": "Välj ett språk",
+    "enterBookTitle": "Ange boktitel",
+    "enterBookDescription": "Ange bokbeskrivning (valfritt)"
+  },
+  "loading": {
+    "categories": "Laddar kategorier...",
+    "ageGroups": "Laddar åldersgrupper...",
+    "languages": "Laddar språk...",
+    "uploading": "Laddar upp..."
+  },
+  "selected": "Vald:",
+  "buttons": {
+    "cancel": "Avbryt",
+    "uploadBook": "Ladda upp bok"
+  },
+  "errors": {
+    "sourceFileRequired": "Källfil krävs",
+    "titleRequired": "Titel krävs",
+    "categoryRequired": "Kategori krävs",
+    "ageGroupRequired": "Åldersgrupp krävs",
+    "languageRequired": "Språk krävs",
+    "failedToLoadCategories": "Misslyckades med att ladda kategorier",
+    "failedToLoadAgeGroups": "Misslyckades med att ladda åldersgrupper",
+    "failedToLoadLanguages": "Misslyckades med att ladda språk",
+    "failedToUploadBook": "Misslyckades med att ladda upp bok",
+    "unexpectedError": "Ett oväntat fel inträffade"
+  },
+  "success": {
+    "bookCreated": "Bok skapad"
+  }
+}

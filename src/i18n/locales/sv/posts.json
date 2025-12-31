@@ -1,0 +1,22 @@
+{
+  "edit": "Redigera",
+  "delete": "Ta bort",
+  "deleteConfirm": "Ta bort detta inlägg?",
+  "cancel": "Avbryt",
+  "save": "Spara",
+  "saving": "Sparar...",
+  "deleting": "Tar bort...",
+  "likes": "Gilla-markeringar",
+  "like": "Gilla",
+  "comments": "Kommentarer",
+  "comment": "Kommentera",
+  "share": "Dela",
+  "shares": "Delningar",
+  "writeComment": "Skriv en kommentar...",
+  "writeYourComment": "Skriv din kommentar...",
+  "failedToComment": "Misslyckades med att kommentera",
+  "actionFailed": "Åtgärd misslyckades",
+  "commentAdded": "Kommentar tillagd",
+  "failedToCreateComment": "Misslyckades med att skapa kommentar",
+  "failedToUpdateLike": "Misslyckades med att uppdatera gilla-markering"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Skapa inlägg",
+  "labels": {
+    "title": "Titel",
+    "description": "Beskrivning"
+  },
+  "placeholders": {
+    "enterPostTitle": "Ange inläggets titel...",
+    "enterDescription": "Jag fick jobb på Google..."
+  },
+  "upload": {
+    "uploadFiles": "Ladda upp dina filer här (Max 5)",
+    "addMoreFiles": "+ Lägg till fler filer"
+  },
+  "buttons": {
+    "createPost": "Skapa inlägg",
+    "creating": "Skapar..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Du kan ladda upp maximalt 5 filer.",
+    "atLeastOneFile": "Ladda upp minst en mediefil.",
+    "failedToCreatePost": "Misslyckades med att skapa inlägg."
+  },
+  "success": {
+    "postCreated": "Inlägg skapat!"
+  }
+}

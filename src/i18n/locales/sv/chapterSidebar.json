@@ -1,0 +1,10 @@
+{
+  "list": "Lista",
+  "bookmark": "Bokmärke",
+  "quickNote": "Snabbanteckning",
+  "noChaptersAvailable": "Inga kapitel tillgängliga",
+  "chapter": "Kapitel",
+  "noChapterSelected": "Inget kapitel valt",
+  "selectChapterToBegin": "Välj ett kapitel från sidofältet för att börja läsa",
+  "ttsLanguage": "TTS-språk:"
+}

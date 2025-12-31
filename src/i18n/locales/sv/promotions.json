@@ -1,0 +1,8 @@
+{
+  "title": "Kampanjer",
+  "loading": "Laddar kampanjer...",
+  "noPromotionsAvailable": "Inga kampanjer tillgängliga",
+  "viewDetails": "Visa detaljer",
+  "buyNow": "Köp nu",
+  "failedToLoad": "Misslyckades med att ladda kampanjer"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Skapa kategori",
+  "labels": {
+    "categoryName": "Kategorinamn *",
+    "description": "Beskrivning",
+    "displayOrder": "Visningsordning",
+    "coverImage": "Omslagsbild"
+  },
+  "placeholders": {
+    "selectCategoryName": "Välj ett kategorinamn",
+    "enterDescription": "Ange kategoribeskrivning (valfritt)"
+  },
+  "selected": "Vald:",
+  "buttons": {
+    "cancel": "Avbryt",
+    "createCategory": "Skapa kategori",
+    "creating": "Skapar..."
+  },
+  "errors": {
+    "categoryNameRequired": "Kategorinamn krävs",
+    "failedToCreateCategory": "Misslyckades med att skapa kategori",
+    "unexpectedError": "Ett oväntat fel inträffade"
+  },
+  "success": {
+    "categoryCreated": "Kategori skapad"
+  }
+}

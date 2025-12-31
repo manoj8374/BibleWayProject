@@ -1,0 +1,9 @@
+{
+  "buttonText": "Fortsätt med Google",
+  "success": {
+    "loginSuccessful": "Inloggning lyckades"
+  },
+  "errors": {
+    "loginFailed": "Inloggning misslyckades"
+  }
+}

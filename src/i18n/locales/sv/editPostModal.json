@@ -1,0 +1,24 @@
+{
+  "title": "Redigera inlägg",
+  "labels": {
+    "title": "Titel",
+    "description": "Beskrivning",
+    "media": "Media"
+  },
+  "placeholders": {
+    "enterPostTitle": "Ange inläggets titel...",
+    "enterDescription": "Ange beskrivning..."
+  },
+  "buttons": {
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "updating": "Uppdaterar..."
+  },
+  "errors": {
+    "noChanges": "Inga ändringar upptäcktes",
+    "failedToUpdatePost": "Misslyckades med att uppdatera inlägg"
+  },
+  "success": {
+    "postUpdated": "Inlägg uppdaterat"
+  }
+}

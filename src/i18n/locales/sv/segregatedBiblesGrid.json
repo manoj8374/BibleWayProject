@@ -1,0 +1,14 @@
+{
+  "title": "Uppdelade biblar",
+  "loadingAgeGroups": "Laddar åldersgrupper...",
+  "failedToLoadAgeGroups": "Misslyckades med att ladda åldersgrupper",
+  "unexpectedErrorLoadingAgeGroups": "Ett oväntat fel inträffade vid laddning av åldersgrupper",
+  "noAgeGroupsAvailable": "Inga åldersgrupper tillgängliga",
+  "pleaseSelectCategoryFirst": "Vänligen välj en kategori först",
+  "noBooksAvailable": "Inga böcker tillgängliga för detta val",
+  "failedToFetchBooks": "Misslyckades med att hämta böcker",
+  "categoryNotFound": "Kategori hittades inte",
+  "ageGroupNotFound": "Åldersgrupp hittades inte",
+  "languageNotFound": "Språk hittades inte",
+  "unexpectedErrorFetchingBooks": "Ett oväntat fel inträffade vid hämtning av böcker"
+}
