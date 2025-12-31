@@ -1,0 +1,25 @@
+{
+  "title": "Редактировать запись",
+  "labels": {
+    "title": "Заголовок",
+    "description": "Описание",
+    "media": "Медиа"
+  },
+  "placeholders": {
+    "enterPostTitle": "Введите заголовок записи...",
+    "enterDescription": "Введите описание..."
+  },
+  "buttons": {
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "updating": "Обновление..."
+  },
+  "errors": {
+    "noChanges": "Изменения не обнаружены",
+    "failedToUpdatePost": "Не удалось обновить запись"
+  },
+  "success": {
+    "postUpdated": "Запись успешно обновлена"
+  }
+}
+

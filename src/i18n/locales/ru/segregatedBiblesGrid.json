@@ -1,0 +1,15 @@
+{
+  "title": "Классифицированные Библии",
+  "loadingAgeGroups": "Загрузка возрастных групп...",
+  "failedToLoadAgeGroups": "Не удалось загрузить возрастные группы",
+  "unexpectedErrorLoadingAgeGroups": "Произошла непредвиденная ошибка при загрузке возрастных групп",
+  "noAgeGroupsAvailable": "Возрастные группы недоступны",
+  "pleaseSelectCategoryFirst": "Пожалуйста, сначала выберите категорию",
+  "noBooksAvailable": "Книги недоступны для этого выбора",
+  "failedToFetchBooks": "Не удалось получить книги",
+  "categoryNotFound": "Категория не найдена",
+  "ageGroupNotFound": "Возрастная группа не найдена",
+  "languageNotFound": "Язык не найден",
+  "unexpectedErrorFetchingBooks": "Произошла непредвиденная ошибка при получении книг"
+}
+

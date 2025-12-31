@@ -1,0 +1,28 @@
+{
+  "title": "Создать запись",
+  "labels": {
+    "title": "Заголовок",
+    "description": "Описание"
+  },
+  "placeholders": {
+    "enterPostTitle": "Введите заголовок записи...",
+    "enterDescription": "Я получил работу в Google..."
+  },
+  "upload": {
+    "uploadFiles": "Загрузите ваши файлы здесь (Макс. 5)",
+    "addMoreFiles": "+ Добавить еще файлы"
+  },
+  "buttons": {
+    "createPost": "Создать запись",
+    "creating": "Создание..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Вы можете загрузить максимум 5 файлов.",
+    "atLeastOneFile": "Пожалуйста, загрузите хотя бы один медиафайл.",
+    "failedToCreatePost": "Не удалось создать запись."
+  },
+  "success": {
+    "postCreated": "Запись успешно создана!"
+  }
+}
+

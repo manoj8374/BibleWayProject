@@ -1,0 +1,47 @@
+{
+  "title": "Загрузить книгу",
+  "labels": {
+    "sourceFile": "Исходный файл (.md) *",
+    "coverImage": "Обложка",
+    "category": "Категория *",
+    "ageGroup": "Возрастная группа *",
+    "language": "Язык *",
+    "bookTitle": "Заголовок *",
+    "description": "Описание",
+    "bookOrder": "Порядок книги"
+  },
+  "placeholders": {
+    "selectCategory": "Выберите категорию",
+    "selectAgeGroup": "Выберите возрастную группу",
+    "selectLanguage": "Выберите язык",
+    "enterBookTitle": "Введите заголовок книги",
+    "enterBookDescription": "Введите описание книги (необязательно)"
+  },
+  "loading": {
+    "categories": "Загрузка категорий...",
+    "ageGroups": "Загрузка возрастных групп...",
+    "languages": "Загрузка языков...",
+    "uploading": "Загрузка..."
+  },
+  "selected": "Выбрано:",
+  "buttons": {
+    "cancel": "Отмена",
+    "uploadBook": "Загрузить книгу"
+  },
+  "errors": {
+    "sourceFileRequired": "Исходный файл обязателен",
+    "titleRequired": "Заголовок обязателен",
+    "categoryRequired": "Категория обязательна",
+    "ageGroupRequired": "Возрастная группа обязательна",
+    "languageRequired": "Язык обязателен",
+    "failedToLoadCategories": "Не удалось загрузить категории",
+    "failedToLoadAgeGroups": "Не удалось загрузить возрастные группы",
+    "failedToLoadLanguages": "Не удалось загрузить языки",
+    "failedToUploadBook": "Не удалось загрузить книгу",
+    "unexpectedError": "Произошла непредвиденная ошибка"
+  },
+  "success": {
+    "bookCreated": "Книга успешно создана"
+  }
+}
+

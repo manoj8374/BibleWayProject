@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "Произошла непредвиденная ошибка.",
+    "receivedToken": "Получен токен"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Произошла непредвиденная ошибка при создании записи.",
+    "failedToFetchPosts": "Не удалось получить записи.",
+    "failedToFetchUserPosts": "Не удалось получить записи пользователя.",
+    "failedToFetchPostDetails": "Не удалось получить детали записи.",
+    "failedToUpdatePost": "Не удалось обновить запись",
+    "failedToDeletePost": "Не удалось удалить запись",
+    "failedToCreateComment": "Не удалось создать комментарий.",
+    "failedToUpdateComment": "Не удалось обновить комментарий.",
+    "failedToDeleteComment": "Не удалось удалить комментарий.",
+    "failedToFetchComments": "Не удалось получить комментарии.",
+    "failedToLikeComment": "Не удалось поставить лайк комментарию.",
+    "failedToUnlikeComment": "Не удалось убрать лайк с комментария.",
+    "failedToLikePost": "Не удалось поставить лайк записи.",
+    "failedToUnlikePost": "Не удалось убрать лайк с записи."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Не удалось получить профиль пользователя.",
+    "failedToFollowUser": "Не удалось подписаться на пользователя.",
+    "failedToUnfollowUser": "Не удалось отписаться от пользователя.",
+    "failedToGetRecommendedUsers": "Не удалось получить рекомендуемых пользователей.",
+    "failedToGetUserProfile": "Не удалось получить профиль пользователя."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Не удалось загрузить обои"
+  },
+  "verse": {
+    "failedToLoadVerses": "Не удалось загрузить стихи",
+    "failedToLikeVerse": "Не удалось поставить лайк стиху",
+    "failedToUnlikeVerse": "Не удалось убрать лайк со стиха"
+  },
+  "admin": {
+    "failedToLoadBooks": "Не удалось загрузить книги"
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "list": "Список",
+  "bookmark": "Закладка",
+  "quickNote": "Быстрая заметка",
+  "noChaptersAvailable": "Главы недоступны",
+  "chapter": "Глава",
+  "noChapterSelected": "Глава не выбрана",
+  "selectChapterToBegin": "Выберите главу из боковой панели, чтобы начать чтение",
+  "ttsLanguage": "Язык преобразования текста в речь:"
+}
+

@@ -1,0 +1,28 @@
+{
+  "title": "Создать категорию",
+  "labels": {
+    "categoryName": "Название категории *",
+    "description": "Описание",
+    "displayOrder": "Порядок отображения",
+    "coverImage": "Обложка"
+  },
+  "placeholders": {
+    "selectCategoryName": "Выберите название категории",
+    "enterDescription": "Введите описание категории (необязательно)"
+  },
+  "selected": "Выбрано:",
+  "buttons": {
+    "cancel": "Отмена",
+    "createCategory": "Создать категорию",
+    "creating": "Создание..."
+  },
+  "errors": {
+    "categoryNameRequired": "Название категории обязательно",
+    "failedToCreateCategory": "Не удалось создать категорию",
+    "unexpectedError": "Произошла непредвиденная ошибка"
+  },
+  "success": {
+    "categoryCreated": "Категория успешно создана"
+  }
+}
+

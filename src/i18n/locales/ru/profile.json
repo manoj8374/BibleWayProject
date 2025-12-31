@@ -1,0 +1,20 @@
+{
+  "back": "Назад",
+  "follow": "Подписаться",
+  "unfollow": "Отписаться",
+  "message": "Сообщение",
+  "follower": "Подписчик",
+  "following": "Подписки",
+  "followers": "Подписчики",
+  "loadingProfile": "Загрузка профиля...",
+  "profileNotFound": "Профиль не найден",
+  "loadingPosts": "Загрузка записей...",
+  "noPostsYet": "Пока нет записей",
+  "unknownUser": "Неизвестный пользователь",
+  "checkOutProfile": "Посмотрите профиль {{name}} на BibleWay",
+  "profileTitle": "Профиль {{name}}",
+  "unfollowedSuccessfully": "Успешно отписались",
+  "followedSuccessfully": "Успешно подписались",
+  "failedToFetchUserPosts": "Не удалось получить записи пользователя"
+}
+

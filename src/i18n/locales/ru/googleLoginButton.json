@@ -1,0 +1,10 @@
+{
+  "buttonText": "Продолжить с Google",
+  "success": {
+    "loginSuccessful": "Вход выполнен успешно"
+  },
+  "errors": {
+    "loginFailed": "Вход не выполнен"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "loading": "Загрузка...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute должен использоваться внутри ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Управление отзывами",
+    "pending": "Ожидает",
+    "verified": "Проверено",
+    "all": "Все",
+    "loading": "Загрузка отзывов...",
+    "noTestimonials": "Отзывы не найдены",
+    "approve": "Одобрить",
+    "reject": "Отклонить",
+    "processing": "Обработка...",
+    "approvedSuccessfully": "Отзыв успешно одобрен",
+    "rejectedSuccessfully": "Отзыв успешно отклонен",
+    "failedToLoad": "Не удалось загрузить отзывы",
+    "failedToApprove": "Не удалось одобрить отзыв",
+    "failedToReject": "Не удалось отклонить отзыв",
+    "confirmReject": "Вы уверены, что хотите отклонить этот отзыв? Это действие нельзя отменить.",
+    "previous": "Предыдущая",
+    "next": "Следующая",
+    "pageInfo": "Страница {{current}} из {{total}}"
+  },
+  "promotions": {
+    "title": "Управление акциями",
+    "loading": "Загрузка акций...",
+    "noPromotions": "Акции не найдены",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "processing": "Обработка...",
+    "deletedSuccessfully": "Акция успешно удалена",
+    "failedToLoad": "Не удалось загрузить акции",
+    "failedToDelete": "Не удалось удалить акцию",
+    "confirmDelete": "Вы уверены, что хотите удалить эту акцию? Это действие нельзя отменить."
+  }
+}
+

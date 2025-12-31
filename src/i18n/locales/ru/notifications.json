@@ -1,0 +1,19 @@
+{
+  "title": "Уведомления",
+  "markAllAsRead": "Отметить все как прочитанные",
+  "loading": "Загрузка уведомлений...",
+  "noNotifications": "Пока нет уведомлений",
+  "allCaughtUp": "Вы все наверстали!",
+  "justNow": "Только что",
+  "minuteAgo": "{{count}} минуту назад",
+  "minutesAgo": "{{count}} минут назад",
+  "hourAgo": "{{count}} час назад",
+  "hoursAgo": "{{count}} часов назад",
+  "dayAgo": "{{count}} день назад",
+  "daysAgo": "{{count}} дней назад",
+  "weekAgo": "{{count}} неделю назад",
+  "weeksAgo": "{{count}} недель назад",
+  "monthAgo": "{{count}} месяц назад",
+  "monthsAgo": "{{count}} месяцев назад"
+}
+

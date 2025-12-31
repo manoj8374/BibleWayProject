@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Поиск книги, имени, автора...",
+  "addNewPost": "Добавить новую запись",
+  "noResultsFound": "Результаты не найдены",
+  "languageSelector": {
+    "searchLanguages": "Поиск языков...",
+    "noLanguagesFound": "Языки не найдены"
+  },
+  "filter": {
+    "selectLanguage": "Выберите язык",
+    "selectVersion": "Выберите книгу"
+  }
+}
+

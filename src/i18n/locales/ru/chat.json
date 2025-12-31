@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "В сети",
+    "offline": "Не в сети"
+  },
+  "messages": {
+    "loading": "Загрузка сообщений...",
+    "noMessages": "Пока нет сообщений",
+    "deleted": "Это сообщение было удалено",
+    "sharedImage": "Общая картинка",
+    "viewAttachment": "Просмотреть вложение",
+    "seen": "Прочитано",
+    "deleteMessage": "Удалить сообщение"
+  },
+  "typing": {
+    "isTyping": "печатает...",
+    "peopleTyping": "человек печатают..."
+  },
+  "input": {
+    "placeholder": "Введите сообщение...",
+    "pressEnterToSend": "Нажмите Enter для отправки"
+  },
+  "deleteModal": {
+    "title": "Удалить сообщение?",
+    "message": "Вы уверены, что хотите удалить это сообщение? Это действие нельзя отменить.",
+    "cancel": "Отмена",
+    "delete": "Удалить"
+  },
+  "uploadModal": {
+    "title": "Отправить файл",
+    "uploading": "Загрузка и отправка...",
+    "sendFile": "Отправить {{filename}}?",
+    "sending": "Отправка...",
+    "send": "Отправить",
+    "cancel": "Отмена"
+  },
+  "errors": {
+    "fetchConversation": "Не удалось получить беседу",
+    "invalidFileType": "Недопустимый тип файла. Разрешены только изображения и видео.",
+    "fileSizeExceeded": "Размер файла превышает лимит 10 МБ.",
+    "uploadFailed": "Не удалось загрузить файл",
+    "failedToLoadStickers": "Не удалось загрузить стикеры"
+  },
+  "stickers": {
+    "loading": "Загрузка стикеров...",
+    "noStickers": "Стикеры недоступны"
+  }
+}
+

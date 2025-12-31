@@ -1,0 +1,39 @@
+{
+  "title": "Создать акцию",
+  "labels": {
+    "title": "Заголовок *",
+    "description": "Описание",
+    "price": "Цена",
+    "redirectLink": "Ссылка для перенаправления *",
+    "metaData": "Метаданные (JSON)",
+    "mediaFile": "Медиафайл (Изображение/Видео/Аудио)",
+    "images": "Изображения (Несколько)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Введите заголовок акции",
+    "enterDescription": "Введите описание акции (необязательно)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Выбрано:",
+  "buttons": {
+    "cancel": "Отмена",
+    "createPromotion": "Создать акцию",
+    "creating": "Создание..."
+  },
+  "errors": {
+    "titleRequired": "Заголовок обязателен",
+    "priceRequired": "Цена обязательна",
+    "priceInvalid": "Цена должна быть действительным числом",
+    "redirectLinkRequired": "Ссылка для перенаправления обязательна",
+    "redirectLinkInvalid": "Ссылка для перенаправления должна быть действительным URL",
+    "metaDataInvalid": "Метаданные должны быть в допустимом формате JSON",
+    "failedToCreatePromotion": "Не удалось создать акцию",
+    "unexpectedError": "Произошла непредвиденная ошибка"
+  },
+  "success": {
+    "promotionCreated": "Акция успешно создана"
+  }
+}
+
