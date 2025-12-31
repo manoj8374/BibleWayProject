@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "ਇੱਕ ਅਣਜਾਣ ਗਲਤੀ ਆਈ ਹੈ।",
+    "receivedToken": "ਟੋਕਨ ਪ੍ਰਾਪਤ ਹੋਇਆ"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "ਪੋਸਟ ਬਣਾਉਣ ਦੌਰਾਨ ਇੱਕ ਅਣਜਾਣ ਗਲਤੀ ਆਈ ਹੈ।",
+    "failedToFetchPosts": "ਪੋਸਟਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToFetchUserPosts": "ਯੂਜ਼ਰ ਪੋਸਟਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToFetchPostDetails": "ਪੋਸਟ ਵੇਰਵੇ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToUpdatePost": "ਪੋਸਟ ਅੱਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "failedToDeletePost": "ਪੋਸਟ ਹਟਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "failedToCreateComment": "ਟਿੱਪਣੀ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToUpdateComment": "ਟਿੱਪਣੀ ਅੱਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToDeleteComment": "ਟਿੱਪਣੀ ਹਟਾਉਣ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToFetchComments": "ਟਿੱਪਣੀਆਂ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToLikeComment": "ਟਿੱਪਣੀ ਨੂੰ ਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToUnlikeComment": "ਟਿੱਪਣੀ ਨੂੰ ਨਾਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToLikePost": "ਪੋਸਟ ਨੂੰ ਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToUnlikePost": "ਪੋਸਟ ਨੂੰ ਨਾਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "ਯੂਜ਼ਰ ਪ੍ਰੋਫਾਈਲ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToFollowUser": "ਯੂਜ਼ਰ ਨੂੰ ਫਾਲੋ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToUnfollowUser": "ਯੂਜ਼ਰ ਨੂੰ ਅਨਫਾਲੋ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToGetRecommendedUsers": "ਸਿਫਾਰਸ਼ ਕੀਤੇ ਯੂਜ਼ਰ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToGetUserProfile": "ਯੂਜ਼ਰ ਪ੍ਰੋਫਾਈਲ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ਵਾਲਪੇਪਰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+  },
+  "verse": {
+    "failedToLoadVerses": "ਆਇਤਾਂ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "failedToLikeVerse": "ਆਇਤ ਨੂੰ ਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "failedToUnlikeVerse": "ਆਇਤ ਨੂੰ ਨਾਪਸੰਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+  },
+  "admin": {
+    "failedToLoadBooks": "ਕਿਤਾਬਾਂ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "chat": "ਗੱਲਬਾਤ",
+  "sendMessage": "ਸੁਨੇਹਾ ਭੇਜੋ",
+  "typeMessage": "ਸੁਨੇਹਾ ਲਿਖੋ...",
+  "online": "ਔਨਲਾਈਨ",
+  "offline": "ਹੋਫਲਾਈਨ",
+  "participants": "ਭਾਗੀਦਾਰ",
+  "groupInfo": "ਗਰੁੱਪ ਜਾਣਕਾਰੀ",
+  "leaveGroup": "ਗਰੁੱਪ ਛੱਡੋ",
+  "muteNotifications": "ਨੋਟੀਫਿਕੇਸ਼ਨ ਬੰਦ ਕਰੋ",
+  "searchMessages": "ਸੁਨੇਹੇ ਖੋਜੋ...",
+  "noMessages": "ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ",
+  "today": "ਅੱਜ",
+  "yesterday": "ਕੱਲ੍ਹ",
+  "typing": "ਲਿਖ ਰਿਹਾ ਹੈ...",
+  "newMessages": "ਨਵੇਂ ਸੁਨੇਹੇ",
+  "reply": "ਜਵਾਬ ਦਿਓ",
+  "copy": "ਕਾਪੀ",
+  "forward": "ਅੱਗੇ ਭੇਜੋ",
+  "delete": "ਹਟਾਓ",
+  "deletedMessage": "ਇਹ ਸੁਨੇਹਾ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ"
+}
