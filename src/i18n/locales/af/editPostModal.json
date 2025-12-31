@@ -1,0 +1,22 @@
+{
+  "title": "Wysig Plasing",
+  "labels": {
+    "title": "Titel",
+    "description": "Beskrywing"
+  },
+  "placeholders": {
+    "enterPostTitle": "Voer plasingstitel in...",
+    "enterDescription": "Wysig jou beskrywing hier..."
+  },
+  "buttons": {
+    "saveChanges": "Stoor Veranderinge",
+    "saving": "Stoor tans...",
+    "cancel": "Kanselleer"
+  },
+  "errors": {
+    "failedToUpdatePost": "Kon nie plasing bywerk nie."
+  },
+  "success": {
+    "postUpdated": "Plasing suksesvol bygewerk!"
+  }
+}
