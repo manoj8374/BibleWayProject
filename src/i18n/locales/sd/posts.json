@@ -1,0 +1,22 @@
+{
+  "edit": "تبديل ڪريو",
+  "delete": "ختم ڪريو",
+  "deleteConfirm": "هن پوسٽ کي ختم ڪيو وڃي؟",
+  "cancel": "منسوخ ڪريو",
+  "save": "محفوظ ڪريو",
+  "saving": "محفوظ ٿي رهيو آهي...",
+  "deleting": "ختم ٿي رهيو آهي...",
+  "likes": "پسنديدگيون",
+  "like": "پسند ڪريو",
+  "comments": "رايا",
+  "comment": "راءِ ڏيو",
+  "share": "شيئر ڪريو",
+  "shares": "شيئر ڪيل",
+  "writeComment": "راءِ لکو...",
+  "writeYourComment": "پنهنجي راءِ لکو...",
+  "failedToComment": "راءِ ڏيڻ ۾ ناڪامي",
+  "actionFailed": "عمل ناڪام ويو",
+  "commentAdded": "راءِ ڪاميابي سان شامل ڪئي وئي",
+  "failedToCreateComment": "راءِ ٺاهڻ ۾ ناڪامي",
+  "failedToUpdateLike": "پسند جي حيثيت اپڊيٽ ڪرڻ ۾ ناڪامي"
+}

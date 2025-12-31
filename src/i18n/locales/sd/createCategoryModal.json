@@ -1,0 +1,27 @@
+{
+  "title": "زمرو ٺاهيو",
+  "labels": {
+    "categoryName": "زمري جو نالو *",
+    "description": "تفصيل",
+    "displayOrder": "ظاهري ترتيب",
+    "coverImage": "ڪور تصوير"
+  },
+  "placeholders": {
+    "selectCategoryName": "هڪ زمري جو نالو چونڊيو",
+    "enterDescription": "زمري جو تفصيل داخل ڪريو (اختياري)"
+  },
+  "selected": "چونڊيل:",
+  "buttons": {
+    "cancel": "منسوخ ڪريو",
+    "createCategory": "زمرو ٺاهيو",
+    "creating": "ٺهي رهيو آهي..."
+  },
+  "errors": {
+    "categoryNameRequired": "زمري جو نالو لازمي آهي",
+    "failedToCreateCategory": "زمرو ٺاهڻ ۾ ناڪامي",
+    "unexpectedError": "هڪ غير متوقع غلطي پيش آئي"
+  },
+  "success": {
+    "categoryCreated": "زمرو ڪاميابي سان ٺاهيو ويو"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "ڪتاب اپلوڊ ڪريو",
+  "labels": {
+    "sourceFile": "ذريعو فائل (.md) *",
+    "coverImage": "ڪور تصوير",
+    "category": "زمرو *",
+    "ageGroup": "عمر جو گروپ *",
+    "language": "ٻولي *",
+    "bookTitle": "عنوان *",
+    "description": "تفصيل",
+    "bookOrder": "ڪتاب جي ترتيب"
+  },
+  "placeholders": {
+    "selectCategory": "هڪ زمرو چونڊيو",
+    "selectAgeGroup": "هڪ عمر جو گروپ چونڊيو",
+    "selectLanguage": "هڪ ٻولي چونڊيو",
+    "enterBookTitle": "ڪتاب جو عنوان داخل ڪريو",
+    "enterBookDescription": "ڪتاب جو تفصيل داخل ڪريو (اختياري)"
+  },
+  "loading": {
+    "categories": "زمرا لوڊ ٿي رهيا آهن...",
+    "ageGroups": "عمر جا گروپ لوڊ ٿي رهيا آهن...",
+    "languages": "ٻوليون لوڊ ٿي رهيون آهن...",
+    "uploading": "اپلوڊ ٿي رهيو آهي..."
+  },
+  "selected": "چونڊيل:",
+  "buttons": {
+    "cancel": "منسوخ ڪريو",
+    "uploadBook": "ڪتاب اپلوڊ ڪريو"
+  },
+  "errors": {
+    "sourceFileRequired": "ذريعو فائل لازمي آهي",
+    "titleRequired": "عنوان لازمي آهي",
+    "categoryRequired": "زمرو لازمي آهي",
+    "ageGroupRequired": "عمر جو گروپ لازمي آهي",
+    "languageRequired": "ٻولي لازمي آهي",
+    "failedToLoadCategories": "زمرا لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToLoadAgeGroups": "عمر جا گروپ لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToLoadLanguages": "ٻوليون لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToUploadBook": "ڪتاب اپلوڊ ڪرڻ ۾ ناڪامي",
+    "unexpectedError": "هڪ غير متوقع غلطي پيش آئي"
+  },
+  "success": {
+    "bookCreated": "ڪتاب ڪاميابي سان ٺاهيو ويو"
+  }
+}

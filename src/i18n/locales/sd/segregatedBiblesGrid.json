@@ -1,0 +1,14 @@
+{
+  "title": "الڳ ٿيل بائيبلون",
+  "loadingAgeGroups": "عمر جا گروپ لوڊ ٿي رهيا آهن...",
+  "failedToLoadAgeGroups": "عمر جا گروپ لوڊ ڪرڻ ۾ ناڪامي",
+  "unexpectedErrorLoadingAgeGroups": "عمر جا گروپ لوڊ ڪرڻ دوران هڪ غير متوقع غلطي پيش آئي",
+  "noAgeGroupsAvailable": "ڪو عمر جو گروپ موجود ناهي",
+  "pleaseSelectCategoryFirst": "مھرباني ڪري پهرين هڪ زمرو چونڊيو",
+  "noBooksAvailable": "هن چونڊ لاءِ ڪو به ڪتاب موجود ناهي",
+  "failedToFetchBooks": "ڪتاب حاصل ڪرڻ ۾ ناڪامي",
+  "categoryNotFound": "زمرو نه مليو",
+  "ageGroupNotFound": "عمر جو گروپ نه مليو",
+  "languageNotFound": "ٻولي نه ملي",
+  "unexpectedErrorFetchingBooks": "ڪتاب حاصل ڪرڻ دوران هڪ غير متوقع غلطي پيش آئي"
+}

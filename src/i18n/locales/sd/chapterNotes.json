@@ -1,0 +1,33 @@
+{
+  "title": "باب جا نوٽس",
+  "noBookSelected": "ڪو به ڪتاب چونڊيل ناهي",
+  "selectBookMessage": "مھرباني ڪري نوٽس ڏسڻ لاءِ ڪتاب چونڊيو",
+  "noChapterSelected": "ڪو به باب چونڊيل ناهي",
+  "selectChapterMessage": "نوٽس ڏسڻ ۽ ٺاهڻ لاءِ باب چونڊيو",
+  "loadingNotes": "نوٽس لوڊ ٿي رهيا آهن...",
+  "noNotesYet": "اڃا تائين ڪو به نوٽ ناهي",
+  "startWritingMessage": "هن باب بابت پنهنجا خيال ۽ بصيرت لکڻ شروع ڪريو",
+  "placeholder": "هتي پنهنجا نوٽس لکو...",
+  "cancel": "منسوخ ڪريو",
+  "saving": "محفوظ ٿي رهيو آهي...",
+  "updateNote": "نوٽ اپڊيٽ ڪريو",
+  "saveNote": "نوٽ محفوظ ڪريو",
+  "editNote": "نوٽ تبديل ڪريو",
+  "deleteNote": "نوٽ ختم ڪريو",
+  "justNow": "هاڻي ئي",
+  "note": "نوٽ",
+  "notes": "نوٽس",
+  "deleteConfirmation": "ڇا توهان پڪ سان هن نوٽ کي ختم ڪرڻ چاهيو ٿا؟",
+  "success": {
+    "noteCreated": "نوٽ ڪاميابي سان ٺاهيو ويو",
+    "noteUpdated": "نوٽ ڪاميابي سان اپڊيٽ ڪيو ويو",
+    "noteDeleted": "نوٽ ڪاميابي سان ختم ڪيو ويو"
+  },
+  "errors": {
+    "failedToLoad": "نوٽس لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToCreate": "نوٽ ٺاهڻ ۾ ناڪامي",
+    "failedToUpdate": "نوٽ اپڊيٽ ڪرڻ ۾ ناڪامي",
+    "failedToDelete": "نوٽ ختم ڪرڻ ۾ ناڪامي",
+    "failedToSave": "نوٽ محفوظ ڪرڻ ۾ ناڪامي"
+  }
+}

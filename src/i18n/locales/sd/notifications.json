@@ -1,0 +1,18 @@
+{
+  "title": "نوٽيفڪيشنز",
+  "markAllAsRead": "سڀني کي پڙهيل طور نشان لڳايو",
+  "loading": "نوٽيفڪيشنز لوڊ ٿي رهيا آهن...",
+  "noNotifications": "اڃا تائين ڪو به نوٽيفڪيشن ناهي",
+  "allCaughtUp": "توهان سڀ ڪجهہ ڏسي ورتو آهي!",
+  "justNow": "هاڻي ئي",
+  "minuteAgo": "{{count}} منٽ اڳ",
+  "minutesAgo": "{{count}} منٽ اڳ",
+  "hourAgo": "{{count}} ڪلاڪ اڳ",
+  "hoursAgo": "{{count}} ڪلاڪ اڳ",
+  "dayAgo": "{{count}} ڏينهن اڳ",
+  "daysAgo": "{{count}} ڏينهن اڳ",
+  "weekAgo": "{{count}} هفتو اڳ",
+  "weeksAgo": "{{count}} هفتا اڳ",
+  "monthAgo": "{{count}} مهينو اڳ",
+  "monthsAgo": "{{count}} مهينا اڳ"
+}

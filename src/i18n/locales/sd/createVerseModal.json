@@ -1,0 +1,30 @@
+{
+  "title": "روزاني قول ٺاهيو",
+  "note": "نوٽ: نئين آيت ٺاهڻ سان موجوده روزاني قول ختم ٿي ويندو. هي عمل واپس نٿو ڪري سگهجي. نئون قول فوري طور تي سڀني واپرائيندڙن کي ڏيکاريو ويندو.",
+  "labels": {
+    "title": "عنوان (اختياري)",
+    "quoteDescription": "قول / تفصيل (لازمي)"
+  },
+  "placeholders": {
+    "title": "مثال طور: ڏينهن جو قول",
+    "quoteDescription": "هتي قول يا لکت داخل ڪريو..."
+  },
+  "buttons": {
+    "cancel": "منسوخ ڪريو",
+    "publishQuote": "قول شايع ڪريو",
+    "publishing": "شايع ٿي رهيو آهي...",
+    "updateQuote": "قول اپڊيٽ ڪريو",
+    "updating": "اپڊيٽ ٿي رهيو آهي..."
+  },
+  "errors": {
+    "descriptionRequired": "تفصيل لازمي آهي",
+    "failedToCreateVerse": "آيت ٺاهڻ ۾ ناڪامي",
+    "failedToUpdateVerse": "آيت اپڊيٽ ڪرڻ ۾ ناڪامي",
+    "unexpectedError": "هڪ غير متوقع غلطي پيش آئي"
+  },
+  "success": {
+    "verseCreated": "آيت ڪاميابي سان ٺاهي وئي",
+    "verseUpdated": "آيت ڪاميابي سان اپڊيٽ ڪئي وئي"
+  },
+  "editTitle": "آيت تبديل ڪريو"
+}

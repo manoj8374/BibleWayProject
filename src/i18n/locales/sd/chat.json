@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "آن لائن",
+    "offline": "آف لائن"
+  },
+  "messages": {
+    "loading": "نياپا لوڊ ٿي رهيا آهن...",
+    "noMessages": "اڃا تائين ڪو نياپو ناهي",
+    "deleted": "هي نياپو ختم ڪيو ويو هو",
+    "sharedImage": "شيئر ڪيل تصوير",
+    "viewAttachment": "منسلڪ فائل ڏسو",
+    "seen": "ڏٺو ويو",
+    "deleteMessage": "نياپو ختم ڪريو"
+  },
+  "typing": {
+    "isTyping": "ٽائپ ڪري رهيو آهي...",
+    "peopleTyping": "ماڻهو ٽائپ ڪري رهيا آهن..."
+  },
+  "input": {
+    "placeholder": "نياپو ٽائپ ڪريو...",
+    "pressEnterToSend": "موڪلڻ لاءِ Enter دٻايو"
+  },
+  "deleteModal": {
+    "title": "نياپو ختم ڪريو؟",
+    "message": "ڇا توهان پڪ سان هي نياپو ختم ڪرڻ چاهيو ٿا؟ هي عمل واپس نٿو ڪري سگهجي.",
+    "cancel": "منسوخ ڪريو",
+    "delete": "ختم ڪريو"
+  },
+  "uploadModal": {
+    "title": "فائل موڪليو",
+    "uploading": "اپلوڊ ۽ موڪليو پيو وڃي...",
+    "sendFile": "ڇا {{filename}} موڪليو وڃي؟",
+    "sending": "موڪليو پيو وڃي...",
+    "send": "موڪليو",
+    "cancel": "منسوخ ڪريو"
+  },
+  "errors": {
+    "fetchConversation": "گفتگو حاصل ڪرڻ ۾ ناڪامي",
+    "invalidFileType": "غلط فائل قسم. صرف تصويرون ۽ وڊيوز جي اجازت آهي.",
+    "fileSizeExceeded": "فائل جي سائيز 10MB جي حد کان وڌيڪ آهي.",
+    "uploadFailed": "فائل اپلوڊ ڪرڻ ۾ ناڪامي",
+    "failedToLoadStickers": "اسٽيڪرز لوڊ ڪرڻ ۾ ناڪامي"
+  },
+  "stickers": {
+    "loading": "اسٽيڪرز لوڊ ٿي رهيا آهن...",
+    "noStickers": "ڪو به اسٽيڪر موجود ناهي"
+  }
+}

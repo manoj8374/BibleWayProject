@@ -1,0 +1,27 @@
+{
+  "title": "پوسٽ ٺاهيو",
+  "labels": {
+    "title": "عنوان",
+    "description": "تفصيل"
+  },
+  "placeholders": {
+    "enterPostTitle": "پوسٽ جو عنوان داخل ڪريو...",
+    "enterDescription": "مان گوگل ۾ نوڪري حاصل ڪئي آهي..."
+  },
+  "upload": {
+    "uploadFiles": "پنهنجون فائلون هتي اپلوڊ ڪريو (وڌ ۾ وڌ 5)",
+    "addMoreFiles": "+ وڌيڪ فائلون شامل ڪريو"
+  },
+  "buttons": {
+    "createPost": "پوسٽ ٺاهيو",
+    "creating": "ٺهي رهيو آهي..."
+  },
+  "errors": {
+    "maxFilesExceeded": "توهان وڌ ۾ وڌ 5 فائلون اپلوڊ ڪري سگهو ٿا.",
+    "atLeastOneFile": "مھرباني ڪري گھٽ ۾ گھٽ ھڪڙي ميڊيا فائل اپلوڊ ڪريو.",
+    "failedToCreatePost": "پوسٽ ٺاهڻ ۾ ناڪامي."
+  },
+  "success": {
+    "postCreated": "پوسٽ ڪاميابي سان ٺاهي وئي!"
+  }
+}

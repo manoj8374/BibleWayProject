@@ -1,0 +1,38 @@
+{
+  "loading": "لوڊ ٿي رهيو آهي...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute لازمي طور ProfileProvider اندر استعمال ڪيو وڃي"
+  },
+  "testimonials": {
+    "title": "تاثرات جو انتظام",
+    "pending": "غور هيٺ",
+    "verified": "تصديق ٿيل",
+    "all": "سڀ",
+    "loading": "تاثرات لوڊ ٿي رهيا آهن...",
+    "noTestimonials": "ڪو به تاثر نه مليو",
+    "approve": "منظور ڪريو",
+    "reject": "رد ڪريو",
+    "processing": "عمل ٿي رهيو آهي...",
+    "approvedSuccessfully": "تاثر ڪاميابي سان منظور ڪيو ويو",
+    "rejectedSuccessfully": "تاثر ڪاميابي سان رد ڪيو ويو",
+    "failedToLoad": "تاثرات لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToApprove": "تاثر منظور ڪرڻ ۾ ناڪامي",
+    "failedToReject": "تاثر رد ڪرڻ ۾ ناڪامي",
+    "confirmReject": "ڇا توهان پڪ سان هن تاثر کي رد ڪرڻ چاهيو ٿا؟ هي عمل واپس نٿو ڪري سگهجي.",
+    "previous": "پويون",
+    "next": "ايندڙ",
+    "pageInfo": "صفحو {{current}} مان {{total}}"
+  },
+  "promotions": {
+    "title": "پروموشنز جو انتظام",
+    "loading": "پروموشنز لوڊ ٿي رهيون آهن...",
+    "noPromotions": "ڪا به پروموشن نه ملي",
+    "delete": "ختم ڪريو",
+    "cancel": "منسوخ ڪريو",
+    "processing": "عمل ٿي رهيو آهي...",
+    "deletedSuccessfully": "پروموشن ڪاميابي سان ختم ڪئي وئي",
+    "failedToLoad": "پروموشنز لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToDelete": "پروموشن ختم ڪرڻ ۾ ناڪامي",
+    "confirmDelete": "ڇا توهان پڪ سان هيءَ پروموشن ختم ڪرڻ چاهيو ٿا؟ هي عمل واپس نٿو ڪري سگهجي."
+  }
+}

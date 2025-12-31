@@ -1,0 +1,38 @@
+{
+  "title": "پروموشن ٺاهيو",
+  "labels": {
+    "title": "عنوان *",
+    "description": "تفصيل",
+    "price": "قيمت",
+    "redirectLink": "ريڊائريڪٽ لنڪ *",
+    "metaData": "ميٽا ڊيٽا (JSON)",
+    "mediaFile": "ميڊيا فائل (تصوير/وڊيو/آڊيو)",
+    "images": "تصويرون (گهڻيون)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "پروموشن جو عنوان داخل ڪريو",
+    "enterDescription": "پروموشن جو تفصيل داخل ڪريو (اختياري)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "چونڊيل:",
+  "buttons": {
+    "cancel": "منسوخ ڪريو",
+    "createPromotion": "پروموشن ٺاهيو",
+    "creating": "ٺهي رهيو آهي..."
+  },
+  "errors": {
+    "titleRequired": "عنوان لازمي آهي",
+    "priceRequired": "قيمت لازمي آهي",
+    "priceInvalid": "قيمت هڪ صحيح نمبر هجڻ گهرجي",
+    "redirectLinkRequired": "ريڊائريڪٽ لنڪ لازمي آهي",
+    "redirectLinkInvalid": "ريڊائريڪٽ لنڪ هڪ صحيح يو آر ايل هجڻ گهرجي",
+    "metaDataInvalid": "ميٽا ڊيٽا صحيح JSON فارميٽ ۾ هجڻ گهرجن",
+    "failedToCreatePromotion": "پروموشن ٺاهڻ ۾ ناڪامي",
+    "unexpectedError": "هڪ غير متوقع غلطي پيش آئي"
+  },
+  "success": {
+    "promotionCreated": "پروموشن ڪاميابي سان ٺاهي وئي"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "دعا جي درخواست",
+  "labels": {
+    "description": "تفصيل",
+    "name": "نالو",
+    "email": "اي ميل",
+    "phoneNumber": "فون نمبر (اختياري)",
+    "media": "ميڊيا (اختياري)"
+  },
+  "placeholders": {
+    "enterDescription": "مھرباني ڪري منھنجي خاندان جي صحت لاءِ دعا ڪريو...",
+    "yourName": "توهان جو نالو",
+    "yourEmail": "توهان جي اي ميل ايڊريس",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "تصويرون يا وڊيوز اپلوڊ ڪريو (وڌ ۾ وڌ 5 فائلون، هر هڪ 10MB)",
+    "addMoreFiles": "+ وڌيڪ فائلون شامل ڪريو"
+  },
+  "buttons": {
+    "submitPrayerRequest": "دعا جي درخواست جمع ڪرايو",
+    "submitting": "جمع ڪرايو پيو وڃي..."
+  },
+  "errors": {
+    "descriptionRequired": "مھرباني ڪري پنھنجي دعا جي درخواست لاءِ تفصيل داخل ڪريو.",
+    "failedToCreateRequest": "دعا جي درخواست ٺاهڻ ۾ ناڪامي.",
+    "maxFilesExceeded": "توهان وڌ ۾ وڌ 5 فائلون اپلوڊ ڪري سگهو ٿا.",
+    "invalidFileType": "غلط فائل قسم: {{filename}}. صرف تصويرون ۽ وڊيوز جي اجازت آهي.",
+    "fileSizeExceeded": "فائل جي سائيز 10MB کان وڌيڪ آهي: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "دعا جي درخواست ڪاميابي سان ٺاهي وئي!"
+  }
+}

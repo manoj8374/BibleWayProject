@@ -1,0 +1,25 @@
+{
+  "loading": "Comments لوڊ ٿي رهيا آهن...",
+  "error": "Comments لوڊ ڪرڻ ۾ ناڪامي",
+  "noComments": "اڃا تائين ڪا به راءِ ناهي. پهرين ڪجهه چوڻ وارا ٿيو!",
+  "emptyComment": "راءِ خالي نٿي ٿي سگهي",
+  "commentUpdated": "راءِ ڪاميابي سان اپڊيٽ ٿي وئي",
+  "failedToUpdate": "راءِ اپڊيٽ ڪرڻ ۾ ناڪامي",
+  "deleteConfirm": "ڇا توهان پڪ سان هيءَ راءِ ختم ڪرڻ چاهيو ٿا؟",
+  "commentDeleted": "راءِ ڪاميابي سان ختم ڪئي وئي",
+  "failedToDelete": "راءِ ختم ڪرڻ ۾ ناڪامي",
+  "writeComment": "راءِ لکو...",
+  "deleteModal": {
+    "title": "راءِ ختم ڪريو",
+    "description": "ڇا توهان پڪ سان هي راءِ ختم ڪرڻ چاهيو ٿا؟ هي عمل واپس نٿو ڪري سگهجي.",
+    "cancel": "منسوخ ڪريو",
+    "delete": "ختم ڪريو",
+    "deleting": "ختم ٿي رهيو آهي..."
+  },
+  "time": {
+    "justNow": "هاڻي ئي",
+    "minutesAgo": "{{count}} منٽ اڳ",
+    "hoursAgo": "{{count}} ڪلاڪ اڳ",
+    "daysAgo": "{{count}} ڏينهن اڳ"
+  }
+}

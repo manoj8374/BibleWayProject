@@ -1,0 +1,22 @@
+{
+  "title": "پوسٽ تبديل ڪريو",
+  "labels": {
+    "title": "عنوان",
+    "description": "تفصيل"
+  },
+  "placeholders": {
+    "enterPostTitle": "پوسٽ جو عنوان داخل ڪريو...",
+    "enterDescription": "پنهنجي تفصيل کي هتي تبديل ڪريو..."
+  },
+  "buttons": {
+    "saveChanges": "تبديليون محفوظ ڪريو",
+    "saving": "محفوظ ٿي رهيو آهي...",
+    "cancel": "منسوخ ڪريو"
+  },
+  "errors": {
+    "failedToUpdatePost": "پوسٽ اپڊيٽ ڪرڻ ۾ ناڪامي."
+  },
+  "success": {
+    "postUpdated": "پوسٽ ڪاميابي سان اپڊيٽ ٿي وئي!"
+  }
+}

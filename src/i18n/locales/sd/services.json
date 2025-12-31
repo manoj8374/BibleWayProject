@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "هڪ غير متوقع غلطي پيش آئي آهي.",
+    "receivedToken": "ٽوڪن حاصل ڪيو ويو"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "پوسٽ ٺاهڻ دوران هڪ غير متوقع غلطي پيش آئي.",
+    "failedToFetchPosts": "پوسٽون حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToFetchUserPosts": "واپرائيندڙ جون پوسٽون حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToFetchPostDetails": "پوسٽ جا تفصيل حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToUpdatePost": "پوسٽ اپڊيٽ ڪرڻ ۾ ناڪامي",
+    "failedToDeletePost": "پوسٽ ختم ڪرڻ ۾ ناڪامي",
+    "failedToCreateComment": "راءِ ٺاهڻ ۾ ناڪامي.",
+    "failedToUpdateComment": "راءِ اپڊيٽ ڪرڻ ۾ ناڪامي.",
+    "failedToDeleteComment": "راءِ ختم ڪرڻ ۾ ناڪامي.",
+    "failedToFetchComments": "رايا حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToLikeComment": "راءِ کي پسند ڪرڻ ۾ ناڪامي.",
+    "failedToUnlikeComment": "راءِ کي ناپسند ڪرڻ ۾ ناڪامي.",
+    "failedToLikePost": "پوسٽ کي پسند ڪرڻ ۾ ناڪامي.",
+    "failedToUnlikePost": "پوسٽ کي ناپسند ڪرڻ ۾ ناڪامي."
+  },
+  "user": {
+    "failedToFetchUserProfile": "واپرائيندڙ جو پروفائل حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToFollowUser": "واپرائيندڙ جي پيروي ڪرڻ ۾ ناڪامي.",
+    "failedToUnfollowUser": "واپرائيندڙ جي پيروي ختم ڪرڻ ۾ ناڪامي.",
+    "failedToGetRecommendedUsers": "سفارش ڪيل واپرائيندڙ حاصل ڪرڻ ۾ ناڪامي.",
+    "failedToGetUserProfile": "واپرائيندڙ جو پروفائل حاصل ڪرڻ ۾ ناڪامي."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "وال پيپر لوڊ ڪرڻ ۾ ناڪامي"
+  },
+  "verse": {
+    "failedToLoadVerses": "آيتون لوڊ ڪرڻ ۾ ناڪامي",
+    "failedToLikeVerse": "آيت کي پسند ڪرڻ ۾ ناڪامي",
+    "failedToUnlikeVerse": "آيت کي ناپسند ڪرڻ ۾ ناڪامي"
+  },
+  "admin": {
+    "failedToLoadBooks": "ڪتاب لوڊ ڪرڻ ۾ ناڪامي"
+  }
+}
