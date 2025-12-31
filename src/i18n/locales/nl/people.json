@@ -1,16 +1,15 @@
 {
-  "searchPeople": "Zoek personen",
+  "searchPeople": "Personen Zoeken",
   "searchPeoplePlaceholder": "Zoek personen...",
   "searching": "Zoeken...",
   "noUsersFound": "Geen gebruikers gevonden",
   "follow": "Volgen",
   "following": "Volgend",
-  "failedToUpdateFollowStatus": "Volgstatus bijwerken mislukt",
+  "failedToUpdateFollowStatus": "Bijwerken van volgstatus mislukt",
   "loadingInbox": "Inbox laden...",
   "noMessages": "Geen berichten",
-  "you": "U: ",
+  "you": "Jij: ",
   "attachment": "Bijlage",
   "noMessagesText": "Geen berichten",
   "sticker": "📷 Sticker"
 }
-

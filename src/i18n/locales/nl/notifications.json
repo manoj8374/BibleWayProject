@@ -1,9 +1,9 @@
 {
   "title": "Meldingen",
-  "markAllAsRead": "Markeer alles als gelezen",
+  "markAllAsRead": "Alles als gelezen markeren",
   "loading": "Meldingen laden...",
   "noNotifications": "Nog geen meldingen",
-  "allCaughtUp": "U bent helemaal bij!",
+  "allCaughtUp": "Helemaal bij!",
   "justNow": "Zojuist",
   "minuteAgo": "{{count}} minuut geleden",
   "minutesAgo": "{{count}} minuten geleden",
@@ -16,4 +16,3 @@
   "monthAgo": "{{count}} maand geleden",
   "monthsAgo": "{{count}} maanden geleden"
 }
-

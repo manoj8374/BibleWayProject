@@ -1,20 +1,19 @@
 {
-  "title": "Registratie voltooien",
-  "description": "We hebben nog enkele details nodig om uw account aan te maken.",
+  "title": "Registratie Voltooien",
+  "description": "We hebben nog een paar details nodig om het aanmaken van je account te voltooien.",
   "labels": {
     "age": "Leeftijd",
     "language": "Taal",
     "country": "Land"
   },
   "placeholders": {
-    "age": "bijv. 25",
-    "language": "bijv. Engels",
-    "country": "bijv. India"
+    "age": "bv. 25",
+    "language": "bv. Nederlands",
+    "country": "bv. Nederland"
   },
   "buttons": {
     "cancel": "Annuleren",
     "continue": "Doorgaan",
-    "creating": "Aanmaken..."
+    "creating": "Maken..."
   }
 }
-

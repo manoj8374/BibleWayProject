@@ -2,16 +2,20 @@
   "homePage": {
     "posts": "Berichten",
     "prayerRequest": "Gebedsverzoek",
-    "categories": "Categorieën",
-    "createPrayerRequest": "Gebedsverzoek aanmaken",
+    "categories": "Boeken",
+    "createPrayerRequest": "Gebedsverzoek Maken",
     "loading": "Laden...",
     "noItemsFound": "Geen items gevonden.",
-    "unknownUser": "Onbekende gebruiker",
-    "member": "Lid"
+    "unknownUser": "Onbekende Gebruiker",
+    "member": "Lid",
+    "languagesVersions": {
+      "title": "Talen en Versies",
+      "description": "Binnenkort beschikbaar"
+    }
   },
   "profilePage": {
-    "myPosts": "Mijn berichten",
-    "myPrayerRequests": "Mijn gebedsverzoeken",
+    "myPosts": "Mijn Berichten",
+    "myPrayerRequests": "Mijn Gebedsverzoeken",
     "loadingContent": "Inhoud laden...",
     "noItemsFound": "Geen items gevonden.",
     "username": "Gebruikersnaam",
@@ -23,25 +27,25 @@
     "loading": "Laden...",
     "postDeletedSuccessfully": "Bericht succesvol verwijderd",
     "postUpdatedSuccessfully": "Bericht succesvol bijgewerkt",
-    "failedToDeletePost": "Bericht verwijderen mislukt",
-    "failedToUpdatePost": "Bericht bijwerken mislukt",
-    "failedToLoadProfile": "Profiel laden mislukt",
-    "you": "U",
+    "failedToDeletePost": "Verwijderen van bericht mislukt",
+    "failedToUpdatePost": "Bijwerken van bericht mislukt",
+    "failedToLoadProfile": "Laden van profiel mislukt",
+    "you": "Jij",
     "followers": "Volgers",
     "following": "Volgend",
     "follow": "Volgen",
-    "failedToLoadFollowers": "Volgers laden mislukt",
-    "failedToLoadFollowing": "Volgend laden mislukt",
+    "failedToLoadFollowers": "Laden van volgers mislukt",
+    "failedToLoadFollowing": "Laden van volgend mislukt",
     "userNotFound": "Gebruiker niet gevonden",
     "followedSuccessfully": "Succesvol gevolgd",
     "unfollowedSuccessfully": "Succesvol ontvolgd",
-    "failedToUpdateFollowStatus": "Volgstatus bijwerken mislukt",
+    "failedToUpdateFollowStatus": "Bijwerken van volgstatus mislukt",
     "noFollowers": "Nog geen volgers",
     "noFollowing": "Volgt nog niemand"
   },
   "peoplePage": {
-    "noConversationSelected": "Geen gesprek geselecteerd",
-    "selectConversationDescription": "Selecteer een gesprek uit de lijst om een gesprek te beginnen"
+    "noConversationSelected": "Geen Gesprek Geselecteerd",
+    "selectConversationDescription": "Selecteer een gesprek uit de lijst om te beginnen met chatten"
   },
   "downloadsPage": {
     "downloads": "Downloads",
@@ -49,77 +53,90 @@
     "noWallpapersAvailable": "Geen achtergronden beschikbaar",
     "downloading": "Downloaden...",
     "download": "Downloaden",
-    "failedToLoadWallpapers": "Achtergronden laden mislukt",
+    "failedToLoadWallpapers": "Laden van achtergronden mislukt",
     "failedToDownload": "Downloaden mislukt"
   },
   "bookmarksPage": {
-    "myBookmarks": "Mijn bladwijzers",
+    "myBookmarks": "Mijn Bladwijzers",
     "loadingBookmarks": "Bladwijzers laden...",
     "noBookmarksYet": "Nog geen bladwijzers",
-    "continueReading": "Verder lezen",
-    "failedToLoadBookmarks": "Bladwijzers laden mislukt"
+    "continueReading": "Verder Lezen",
+    "failedToLoadBookmarks": "Laden van bladwijzers mislukt"
   },
   "versesPage": {
-    "verses": "Versregels",
-    "loadingVerses": "Versregels laden...",
-    "noVersesAvailable": "Nog geen versregels beschikbaar.",
-    "likes": "Vind-ik-leuks",
-    "failedToLoadVerses": "Versregels laden mislukt",
-    "failedToLikeVerse": "Versregel leuk vinden mislukt"
+    "verses": "Verzen",
+    "loadingVerses": "Verzen laden...",
+    "noVersesAvailable": "Nog geen verzen beschikbaar.",
+    "likes": "vind-ik-leuks",
+    "failedToLoadVerses": "Laden van verzen mislukt",
+    "failedToLikeVerse": "Vind-ik-leuk op vers mislukt"
   },
   "userProfilePage": {
-    "invalidUserId": "Ongeldig gebruikers-ID"
+    "invalidUserId": "Ongeldige Gebruikers-ID"
   },
   "postViewPage": {
     "loading": "Bericht laden...",
-    "invalidPostId": "Ongeldig bericht-ID",
+    "invalidPostId": "Ongeldige Bericht-ID",
     "postNotFound": "Bericht niet gevonden",
-    "failedToLoadPost": "Bericht laden mislukt"
+    "failedToLoadPost": "Laden van bericht mislukt"
   },
   "prayerRequestViewPage": {
     "loading": "Gebedsverzoek laden...",
-    "invalidRequestId": "Ongeldig gebedsverzoek-ID",
+    "invalidRequestId": "Ongeldige Verzoek-ID",
     "requestNotFound": "Gebedsverzoek niet gevonden",
-    "failedToLoadRequest": "Gebedsverzoek laden mislukt"
+    "failedToLoadRequest": "Laden van gebedsverzoek mislukt"
   },
   "segregatedBiblesPage": {
-    "segregatedBibles": "Gescheiden Bijbels"
+    "segregatedBibles": "Gesegregeerde Bijbels"
+  },
+  "bibleReaderPage": {
+    "title": "Bijbellezer",
+    "loadingBooks": "Boeken laden...",
+    "failedToLoadBooks": "Laden van boeken mislukt",
+    "noBooksFound": "Geen boeken gevonden",
+    "noDescription": "Geen beschrijving beschikbaar"
   },
   "bibleViewer": {
     "loading": "Laden…"
   },
   "adminDashboard": {
     "dashboard": "Dashboard",
-    "createPromotion": "Promotie aanmaken",
-    "createCategory": "Categorie aanmaken",
+    "createPromotion": "Promotie Maken",
+    "createCategory": "Categorie Maken",
     "welcomeAdmin": "Welkom, Admin",
-    "welcomeDescription": "Hier kunt u de applicatie-inhoud beheren. Gebruik de zijbalk om naar specifieke beheersecties te navigeren.",
-    "dailyVerse": "Dagelijkse versregel",
-    "dailyVerseDescription": "Werk de dagelijkse quote bij die aan alle gebruikers wordt getoond. Dit wordt elke 24 uur automatisch gereset.",
-    "bookManagement": "Boekenbeheer",
-    "bookManagementDescription": "Upload nieuwe boeken in Markdown-formaat. Het systeem zal automatisch hoofdstukken en versregels parseren."
+    "welcomeDescription": "Hier kun je de inhoud van de app beheren. Gebruik de zijbalk om naar specifieke beheersecties te navigeren.",
+    "dailyVerse": "Dagelijks Vers",
+    "dailyVerseDescription": "Werk het citaat van de dag bij dat aan alle gebruikers wordt getoond. Dit reset automatisch elke 24 uur.",
+    "bookManagement": "Boekbeheer",
+    "bookManagementDescription": "Upload nieuwe boeken in Markdown-formaat. Het systeem zal hoofdstukken en verzen automatisch parsen."
   },
   "createBook": {
     "books": "Boeken",
-    "uploadBook": "Boek uploaden",
+    "uploadBook": "Boek Uploaden",
     "loadingBooks": "Boeken laden...",
-    "noBooksYet": "Nog geen boeken. Klik op \"Boek uploaden\" om uw eerste boek toe te voegen.",
-    "failedToLoadBooks": "Boeken laden mislukt",
+    "noBooksYet": "Nog geen boeken. Klik op \"Boek Uploaden\" om je eerste boek toe te voegen.",
+    "failedToLoadBooks": "Laden van boeken mislukt",
     "category": "Categorie",
     "ageGroup": "Leeftijdsgroep",
     "language": "Taal",
     "nA": "N.v.t."
   },
   "createVerse": {
-    "verses": "Versregels",
-    "createVerse": "Versregel aanmaken",
-    "loadingVerses": "Versregels laden...",
-    "noVersesYet": "Nog geen versregels. Klik op \"Versregel aanmaken\" om uw eerste versregel toe te voegen.",
-    "failedToLoadVerses": "Versregels laden mislukt",
-    "quoteOfTheDay": "Quote van de dag",
+    "verses": "Verzen",
+    "createVerse": "Vers Maken",
+    "loadingVerses": "Verzen laden...",
+    "noVersesYet": "Nog geen verzen. Klik op \"Vers Maken\" om je eerste vers toe te voegen.",
+    "failedToLoadVerses": "Laden van verzen mislukt",
+    "quoteOfTheDay": "Citaat van de dag",
     "likes": "vind-ik-leuks",
-    "created": "Aangemaakt",
-    "updated": "Bijgewerkt"
+    "created": "Gemaakt",
+    "updated": "Bijgewerkt",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "deleting": "Verwijderen...",
+    "confirmDelete": "Weet je zeker dat je dit vers wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "deletedSuccessfully": "Vers succesvol verwijderd",
+    "failedToDelete": "Verwijderen van vers mislukt"
   },
   "loginPage": {
     "logIn": "Inloggen",
@@ -131,18 +148,18 @@
     "forgotPassword": "Wachtwoord vergeten?",
     "loggingIn": "Inloggen...",
     "login": "Inloggen",
-    "needAnAccount": "Heeft u een account nodig?",
+    "needAnAccount": "Heb je een account nodig?",
     "createOne": "Maak er een aan",
-    "loginSuccessful": "Inloggen succesvol"
+    "loginSuccessful": "Inloggen geslaagd"
   },
   "signupPage": {
-    "signUp": "Registreren",
-    "signUpUsingGoogle": "Registreren met Google",
+    "signUp": "Aanmelden",
+    "signUpUsingGoogle": "Aanmelden met Google",
     "or": "Of",
     "username": "Gebruikersnaam",
     "email": "E-mail",
     "password": "Wachtwoord",
-    "confirmPassword": "Bevestig wachtwoord",
+    "confirmPassword": "Wachtwoord bevestigen",
     "age": "Leeftijd",
     "language": "Taal",
     "country": "Land",
@@ -151,20 +168,42 @@
     "searchCountries": "Zoek landen...",
     "noCountriesFound": "Geen landen gevonden",
     "creatingAccount": "Account aanmaken...",
-    "signUpButton": "Registreren",
-    "alreadyHaveAccount": "Heeft u al een account?",
+    "signUpButton": "Aanmelden",
+    "alreadyHaveAccount": "Heb je al een account?",
     "logIn": "Inloggen",
-    "signupSuccessful": "Registratie succesvol",
-    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen"
+    "signupSuccessful": "Aanmelden geslaagd",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "clickHere": "Klik hier"
+  },
+  "forgotPassword": {
+    "forgotPassword": "Wachtwoord Vergeten",
+    "resetPassword": "Wachtwoord Resetten",
+    "email": "E-mail",
+    "otp": "OTP",
+    "newPassword": "Nieuw Wachtwoord",
+    "confirmPassword": "Wachtwoord Bevestigen",
+    "sendOTP": "OTP Verzenden",
+    "sending": "Verzenden...",
+    "resetting": "Resetten...",
+    "rememberPassword": "Weet je je wachtwoord weer?",
+    "backToLogin": "Terug naar inloggen",
+    "emailRequired": "E-mail is verplicht",
+    "otpRequired": "OTP is verplicht",
+    "passwordRequired": "Wachtwoord is verplicht",
+    "passwordMinLength": "Wachtwoord moet minimaal 8 tekens lang zijn",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "failedToSendOTP": "Verzenden van OTP mislukt",
+    "failedToResetPassword": "Wachtwoord resetten mislukt"
   },
   "notesPage": {
-    "title": "Mijn notities",
+    "title": "Mijn Notities",
     "loading": "Notities laden...",
     "noNotes": "Geen notities gevonden",
-    "failedToLoad": "Notities laden mislukt",
+    "failedToLoad": "Laden van notities mislukt",
     "note": "notitie",
     "notes": "notities",
-    "noChapter": "Geen hoofdstuk",
+    "noChapter": "Geen Hoofdstuk",
     "edit": "Bewerken",
     "delete": "Verwijderen",
     "save": "Opslaan",
@@ -173,10 +212,35 @@
     "edited": "Bewerkt",
     "updatedSuccessfully": "Notitie succesvol bijgewerkt",
     "deletedSuccessfully": "Notitie succesvol verwijderd",
-    "failedToUpdate": "Notitie bijwerken mislukt",
-    "failedToDelete": "Notitie verwijderen mislukt",
-    "contentRequired": "Notitie-inhoud is vereist",
-    "confirmDelete": "Weet u zeker dat u deze notitie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
-    "notePlaceholder": "Voer uw notitie hier in..."
+    "failedToUpdate": "Bijwerken van notitie mislukt",
+    "failedToDelete": "Verwijderen van notitie mislukt",
+    "contentRequired": "Notitie-inhoud is verplicht",
+    "confirmDelete": "Weet je zeker dat je deze notitie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "notePlaceholder": "Voer je notitie hier in..."
+  },
+  "readingNotesPage": {
+    "title": "Leesnotities",
+    "loading": "Jouw notities laden...",
+    "noNotes": "Je hebt nog geen notities gemaakt",
+    "noNotesForBook": "Geen notities gevonden voor dit boek",
+    "failedToLoad": "Laden van notities mislukt",
+    "note": "notitie",
+    "notes": "notities",
+    "noChapter": "Geen Hoofdstuk",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "saving": "Opslaan...",
+    "edited": "Bewerkt",
+    "updatedSuccessfully": "Notitie succesvol bijgewerkt",
+    "deletedSuccessfully": "Notitie succesvol verwijderd",
+    "failedToUpdate": "Bijwerken van notitie mislukt",
+    "failedToDelete": "Verwijderen van notitie mislukt",
+    "contentRequired": "Notitie-inhoud is verplicht",
+    "confirmDelete": "Weet je zeker dat je deze notitie wilt verwijderen?",
+    "notePlaceholder": "Voer je notitie hier in...",
+    "openBook": "Boek Openen",
+    "viewNotes": "Notities Bekijken"
   }
 }

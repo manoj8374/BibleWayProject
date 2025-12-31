@@ -1,6 +1,5 @@
 {
   "loading": "Laden...",
-  "failedToLoadCategories": "Categorieën laden mislukt",
+  "failedToLoadCategories": "Laden van categorieën mislukt",
   "noCategoriesAvailable": "Geen categorieën beschikbaar"
 }
-

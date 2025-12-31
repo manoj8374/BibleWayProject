@@ -1,39 +1,38 @@
 {
-  "title": "Promotie aanmaken",
+  "title": "Promotie Maken",
   "labels": {
     "title": "Titel *",
     "description": "Beschrijving",
     "price": "Prijs",
-    "redirectLink": "Doorverwijslink *",
+    "redirectLink": "Omleidingslink *",
     "metaData": "Metadata (JSON)",
     "mediaFile": "Mediabestand (Afbeelding/Video/Audio)",
     "images": "Afbeeldingen (Meerdere)"
   },
   "placeholders": {
-    "enterPromotionTitle": "Voer promotietitel in",
-    "enterDescription": "Voer promotiebeschrijving in (optioneel)",
+    "enterPromotionTitle": "Voer de promotietitel in",
+    "enterDescription": "Voer de promotiebeschrijving in (optioneel)",
     "price": "0.00",
-    "redirectLink": "https://example.com",
-    "metaData": "{\"key\": \"value\"}"
+    "redirectLink": "https://voorbeeld.nl",
+    "metaData": "{\"sleutel\": \"waarde\"}"
   },
   "selected": "Geselecteerd:",
   "buttons": {
     "cancel": "Annuleren",
-    "createPromotion": "Promotie aanmaken",
-    "creating": "Aanmaken..."
+    "createPromotion": "Promotie Maken",
+    "creating": "Maken..."
   },
   "errors": {
-    "titleRequired": "Titel is vereist",
-    "priceRequired": "Prijs is vereist",
+    "titleRequired": "Titel is verplicht",
+    "priceRequired": "Prijs is verplicht",
     "priceInvalid": "Prijs moet een geldig nummer zijn",
-    "redirectLinkRequired": "Doorverwijslink is vereist",
-    "redirectLinkInvalid": "Doorverwijslink moet een geldige URL zijn",
-    "metaDataInvalid": "Metadata moet geldig JSON formaat zijn",
-    "failedToCreatePromotion": "Promotie aanmaken mislukt",
+    "redirectLinkRequired": "Omleidingslink is verplicht",
+    "redirectLinkInvalid": "Omleidingslink moet een geldige URL zijn",
+    "metaDataInvalid": "Metadata moet een geldig JSON-formaat zijn",
+    "failedToCreatePromotion": "Maken van promotie mislukt",
     "unexpectedError": "Er is een onverwachte fout opgetreden"
   },
   "success": {
     "promotionCreated": "Promotie succesvol aangemaakt"
   }
 }
-

@@ -1,22 +1,21 @@
 {
   "welcome": "Welkom",
   "login": "Inloggen",
-  "signup": "Registreren",
+  "signup": "Aanmelden",
   "logout": "Uitloggen",
-  "home": "Startpagina",
+  "home": "Home",
   "profile": "Profiel",
   "settings": "Instellingen",
   "save": "Opslaan",
   "cancel": "Annuleren",
   "delete": "Verwijderen",
   "edit": "Bewerken",
-  "submit": "Indienen",
+  "submit": "Verzenden",
   "loading": "Laden...",
   "error": "Fout",
   "success": "Succes",
   "linkCopied": "Link gekopieerd naar klembord!",
   "failedToCopy": "Link kopiëren mislukt",
-  "sharePost": "Deel bericht",
-  "sharePrayerRequest": "Deel gebedsverzoek"
+  "sharePost": "Bericht delen",
+  "sharePrayerRequest": "Gebedsverzoek delen"
 }
-

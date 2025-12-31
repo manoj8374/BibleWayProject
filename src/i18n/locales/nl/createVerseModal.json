@@ -1,26 +1,30 @@
 {
-  "title": "Dagelijkse quote aanmaken",
-  "note": "Opmerking: Het aanmaken van een nieuwe versregel wist de bestaande dagelijkse quote. Deze actie kan niet ongedaan worden gemaakt. De nieuwe quote wordt onmiddellijk aan alle gebruikers getoond.",
+  "title": "Citaat van de Dag Maken",
+  "note": "Opmerking: Het maken van een nieuw vers wist het bestaande citaat van de dag. Deze actie kan niet ongedaan worden gemaakt. Het nieuwe citaat wordt direct aan alle gebruikers getoond.",
   "labels": {
     "title": "Titel (Optioneel)",
-    "quoteDescription": "Quote / Beschrijving (Vereist)"
+    "quoteDescription": "Citaat / Beschrijving (Verplicht)"
   },
   "placeholders": {
-    "title": "bijv. Quote van de dag",
-    "quoteDescription": "Voer hier de schrift of quote in..."
+    "title": "bv. Citaat van de Dag",
+    "quoteDescription": "Voer de tekst of het citaat hier in..."
   },
   "buttons": {
     "cancel": "Annuleren",
-    "publishQuote": "Quote publiceren",
-    "publishing": "Publiceren..."
+    "publishQuote": "Citaat Publiceren",
+    "publishing": "Publiceren...",
+    "updateQuote": "Citaat Bijwerken",
+    "updating": "Bijwerken..."
   },
   "errors": {
-    "descriptionRequired": "Beschrijving is vereist",
-    "failedToCreateVerse": "Versregel aanmaken mislukt",
+    "descriptionRequired": "Beschrijving is verplicht",
+    "failedToCreateVerse": "Maken van vers mislukt",
+    "failedToUpdateVerse": "Bijwerken van vers mislukt",
     "unexpectedError": "Er is een onverwachte fout opgetreden"
   },
   "success": {
-    "verseCreated": "Versregel succesvol aangemaakt"
-  }
+    "verseCreated": "Vers succesvol aangemaakt",
+    "verseUpdated": "Vers succesvol bijgewerkt"
+  },
+  "editTitle": "Vers Bewerken"
 }
-

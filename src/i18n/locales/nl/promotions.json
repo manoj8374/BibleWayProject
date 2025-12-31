@@ -2,8 +2,7 @@
   "title": "Promoties",
   "loading": "Promoties laden...",
   "noPromotionsAvailable": "Geen promoties beschikbaar",
-  "viewDetails": "Details bekijken",
-  "buyNow": "Nu kopen",
-  "failedToLoad": "Promoties laden mislukt"
+  "viewDetails": "Details Bekijken",
+  "buyNow": "Nu Kopen",
+  "failedToLoad": "Laden van promoties mislukt"
 }
-

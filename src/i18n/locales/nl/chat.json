@@ -7,14 +7,14 @@
     "loading": "Berichten laden...",
     "noMessages": "Nog geen berichten",
     "deleted": "Dit bericht is verwijderd",
-    "sharedImage": "Gedeelde afbeelding",
-    "viewAttachment": "Bijlage bekijken",
-    "seen": "Gezien",
+    "sharedImage": "Afbeelding gedeeld",
+    "viewAttachment": "Bekijk bijlage",
+    "seen": "Gelezen",
     "deleteMessage": "Bericht verwijderen"
   },
   "typing": {
     "isTyping": "is aan het typen...",
-    "peopleTyping": "personen zijn aan het typen..."
+    "peopleTyping": "mensen zijn aan het typen..."
   },
   "input": {
     "placeholder": "Typ een bericht...",
@@ -22,28 +22,27 @@
   },
   "deleteModal": {
     "title": "Bericht verwijderen?",
-    "message": "Weet u zeker dat u dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "message": "Weet je zeker dat je dit bericht wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
     "cancel": "Annuleren",
     "delete": "Verwijderen"
   },
   "uploadModal": {
-    "title": "Bestand verzenden",
-    "uploading": "Uploaden & Verzenden...",
-    "sendFile": "{{filename}} verzenden?",
+    "title": "Bestand uploaden",
+    "uploading": "Uploaden...",
+    "sendFile": "Verstuur {{filename}}?",
     "sending": "Verzenden...",
     "send": "Verzenden",
     "cancel": "Annuleren"
   },
   "errors": {
-    "fetchConversation": "Conversatie ophalen mislukt",
+    "fetchConversation": "Ophalen van gesprek mislukt",
     "invalidFileType": "Ongeldig bestandstype. Alleen afbeeldingen en video's zijn toegestaan.",
-    "fileSizeExceeded": "Bestandsgrootte overschrijdt 10MB limiet.",
-    "uploadFailed": "Bestandsupload mislukt",
-    "failedToLoadStickers": "Stickers laden mislukt"
+    "fileSizeExceeded": "Bestandsgrootte overschrijdt de limiet van 10MB.",
+    "uploadFailed": "Uploaden van bestand mislukt",
+    "failedToLoadStickers": "Laden van stickers mislukt"
   },
   "stickers": {
     "loading": "Stickers laden...",
     "noStickers": "Geen stickers beschikbaar"
   }
 }
-

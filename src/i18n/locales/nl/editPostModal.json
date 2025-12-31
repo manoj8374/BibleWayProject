@@ -1,0 +1,24 @@
+{
+  "title": "Bericht Bewerken",
+  "labels": {
+    "title": "Titel",
+    "description": "Beschrijving",
+    "media": "Media"
+  },
+  "placeholders": {
+    "enterPostTitle": "Voer de berichttitel in...",
+    "enterDescription": "Voer de beschrijving in..."
+  },
+  "buttons": {
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "updating": "Bijwerken..."
+  },
+  "errors": {
+    "noChanges": "Geen wijzigingen gedetecteerd",
+    "failedToUpdatePost": "Bijwerken van bericht mislukt"
+  },
+  "success": {
+    "postUpdated": "Bericht succesvol bijgewerkt"
+  }
+}

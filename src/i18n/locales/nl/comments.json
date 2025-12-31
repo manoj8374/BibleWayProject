@@ -1,12 +1,25 @@
 {
   "loading": "Reacties laden...",
-  "error": "Reacties laden mislukt",
+  "error": "Laden van reacties mislukt",
   "noComments": "Nog geen reacties. Wees de eerste om iets te zeggen!",
+  "emptyComment": "Reactie mag niet leeg zijn",
+  "commentUpdated": "Reactie succesvol bijgewerkt",
+  "failedToUpdate": "Bijwerken van reactie mislukt",
+  "deleteConfirm": "Weet je zeker dat je deze reactie wilt verwijderen?",
+  "commentDeleted": "Reactie succesvol verwijderd",
+  "failedToDelete": "Verwijderen van reactie mislukt",
+  "writeComment": "Schrijf een reactie...",
+  "deleteModal": {
+    "title": "Reactie verwijderen",
+    "description": "Weet je zeker dat je deze reactie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "deleting": "Verwijderen..."
+  },
   "time": {
     "justNow": "Zojuist",
-    "minutesAgo": "{{count}} min geleden",
-    "hoursAgo": "{{count}} u geleden",
-    "daysAgo": "{{count}} d geleden"
+    "minutesAgo": "{{count}}m geleden",
+    "hoursAgo": "{{count}}u geleden",
+    "daysAgo": "{{count}}d geleden"
   }
 }
-

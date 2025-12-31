@@ -1,5 +1,5 @@
 {
-  "title": "Boek uploaden",
+  "title": "Boek Uploaden",
   "labels": {
     "sourceFile": "Bronbestand (.md) *",
     "coverImage": "Omslagafbeelding",
@@ -8,14 +8,14 @@
     "language": "Taal *",
     "bookTitle": "Titel *",
     "description": "Beschrijving",
-    "bookOrder": "Boekvolgorde"
+    "bookOrder": "Boek volgorde"
   },
   "placeholders": {
     "selectCategory": "Selecteer een categorie",
     "selectAgeGroup": "Selecteer een leeftijdsgroep",
     "selectLanguage": "Selecteer een taal",
-    "enterBookTitle": "Voer boektitel in",
-    "enterBookDescription": "Voer boekbeschrijving in (optioneel)"
+    "enterBookTitle": "Voer de boektitel in",
+    "enterBookDescription": "Voer de boekbeschrijving in (optioneel)"
   },
   "loading": {
     "categories": "Categorieën laden...",
@@ -26,22 +26,21 @@
   "selected": "Geselecteerd:",
   "buttons": {
     "cancel": "Annuleren",
-    "uploadBook": "Boek uploaden"
+    "uploadBook": "Boek Uploaden"
   },
   "errors": {
-    "sourceFileRequired": "Bronbestand is vereist",
-    "titleRequired": "Titel is vereist",
-    "categoryRequired": "Categorie is vereist",
-    "ageGroupRequired": "Leeftijdsgroep is vereist",
-    "languageRequired": "Taal is vereist",
-    "failedToLoadCategories": "Categorieën laden mislukt",
-    "failedToLoadAgeGroups": "Leeftijdsgroepen laden mislukt",
-    "failedToLoadLanguages": "Talen laden mislukt",
-    "failedToUploadBook": "Boek uploaden mislukt",
+    "sourceFileRequired": "Bronbestand is verplicht",
+    "titleRequired": "Titel is verplicht",
+    "categoryRequired": "Categorie is verplicht",
+    "ageGroupRequired": "Leeftijdsgroep is verplicht",
+    "languageRequired": "Taal is verplicht",
+    "failedToLoadCategories": "Laden van categorieën mislukt",
+    "failedToLoadAgeGroups": "Laden van leeftijdsgroepen mislukt",
+    "failedToLoadLanguages": "Laden van talen mislukt",
+    "failedToUploadBook": "Uploaden van boek mislukt",
     "unexpectedError": "Er is een onverwachte fout opgetreden"
   },
   "success": {
     "bookCreated": "Boek succesvol aangemaakt"
   }
 }
-

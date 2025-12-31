@@ -10,11 +10,10 @@
   "profileNotFound": "Profiel niet gevonden",
   "loadingPosts": "Berichten laden...",
   "noPostsYet": "Nog geen berichten",
-  "unknownUser": "Onbekende gebruiker",
-  "checkOutProfile": "Bekijk {{name}}'s profiel op BibleWay",
-  "profileTitle": "{{name}}'s Profiel",
+  "unknownUser": "Onbekende Gebruiker",
+  "checkOutProfile": "Bekijk het profiel van {{name}} op BibleWay",
+  "profileTitle": "Profiel van {{name}}",
   "unfollowedSuccessfully": "Succesvol ontvolgd",
   "followedSuccessfully": "Succesvol gevolgd",
-  "failedToFetchUserPosts": "Gebruikersberichten ophalen mislukt"
+  "failedToFetchUserPosts": "Ophalen van gebruikersberichten mislukt"
 }
-

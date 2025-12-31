@@ -1,8 +1,8 @@
 {
-  "title": "Quote van de dag",
+  "title": "Citaat van de Dag",
   "loading": "Laden...",
   "likes": "Vind-ik-leuks",
-  "addNewPost": "Nieuw bericht toevoegen",
-  "failedToUpdateLike": "Vind-ik-leuk bijwerken mislukt"
+  "addNewPost": "Nieuw Bericht Toevoegen",
+  "failedToUpdateLike": "Bijwerken van vind-ik-leuk mislukt",
+  "pleaseUpload": "Nog geen citaat van de dag geüpload"
 }
-

@@ -4,8 +4,8 @@
     "mustBeInProfileProvider": "AdminProtectedRoute moet worden gebruikt binnen een ProfileProvider"
   },
   "testimonials": {
-    "title": "Getuigenissenbeheer",
-    "pending": "In behandeling",
+    "title": "Getuigenis Beheer",
+    "pending": "In afwachting",
     "verified": "Geverifieerd",
     "all": "Alle",
     "loading": "Getuigenissen laden...",
@@ -15,13 +15,24 @@
     "processing": "Verwerken...",
     "approvedSuccessfully": "Getuigenis succesvol goedgekeurd",
     "rejectedSuccessfully": "Getuigenis succesvol afgewezen",
-    "failedToLoad": "Getuigenissen laden mislukt",
-    "failedToApprove": "Getuigenis goedkeuren mislukt",
-    "failedToReject": "Getuigenis afwijzen mislukt",
-    "confirmReject": "Weet u zeker dat u dit getuigenis wilt afwijzen? Deze actie kan niet ongedaan worden gemaakt.",
+    "failedToLoad": "Laden van getuigenissen mislukt",
+    "failedToApprove": "Goedkeuren van getuigenis mislukt",
+    "failedToReject": "Afwijzen van getuigenis mislukt",
+    "confirmReject": "Weet je zeker dat je deze getuigenis wilt afwijzen? Deze actie kan niet ongedaan worden gemaakt.",
     "previous": "Vorige",
     "next": "Volgende",
     "pageInfo": "Pagina {{current}} van {{total}}"
+  },
+  "promotions": {
+    "title": "Promotie Beheer",
+    "loading": "Promoties laden...",
+    "noPromotions": "Geen promoties gevonden",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren",
+    "processing": "Verwerken...",
+    "deletedSuccessfully": "Promotie succesvol verwijderd",
+    "failedToLoad": "Laden van promoties mislukt",
+    "failedToDelete": "Verwijderen van promotie mislukt",
+    "confirmDelete": "Weet je zeker dat je deze promotie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
   }
 }
-

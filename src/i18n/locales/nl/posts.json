@@ -4,18 +4,19 @@
   "deleteConfirm": "Dit bericht verwijderen?",
   "cancel": "Annuleren",
   "save": "Opslaan",
+  "saving": "Opslaan...",
+  "deleting": "Verwijderen...",
   "likes": "Vind-ik-leuks",
-  "like": "Vind ik leuk",
+  "like": "Vind-ik-leuk",
   "comments": "Reacties",
-  "comment": "Reactie",
+  "comment": "Reageren",
   "share": "Delen",
-  "shares": "Delen",
+  "shares": "Gedeeld",
   "writeComment": "Schrijf een reactie...",
-  "writeYourComment": "Schrijf uw reactie...",
-  "failedToComment": "Reactie plaatsen mislukt",
+  "writeYourComment": "Schrijf je reactie...",
+  "failedToComment": "Reageren mislukt",
   "actionFailed": "Actie mislukt",
   "commentAdded": "Reactie succesvol toegevoegd",
-  "failedToCreateComment": "Reactie aanmaken mislukt",
-  "failedToUpdateLike": "Vind-ik-leuk status bijwerken mislukt"
+  "failedToCreateComment": "Maken van reactie mislukt",
+  "failedToUpdateLike": "Bijwerken van vind-ik-leuk mislukt"
 }
-

@@ -1,8 +1,7 @@
 {
   "required": "Dit veld is verplicht",
   "invalidEmail": "Voer een geldig e-mailadres in",
-  "passwordTooShort": "Wachtwoord moet minimaal 8 tekens lang zijn",
+  "passwordTooShort": "Wachtwoord moet minimaal 8 tekens bevatten",
   "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
   "somethingWentWrong": "Er is iets misgegaan. Probeer het opnieuw."
 }
-
