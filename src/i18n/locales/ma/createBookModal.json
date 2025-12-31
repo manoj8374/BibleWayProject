@@ -1,0 +1,47 @@
+{
+  "title": "പുസ്തകം അപ്‌ലോഡ് ചെയ്യുക",
+  "labels": {
+    "sourceFile": "സോഴ്‌സ് ഫയൽ (.md) *",
+    "coverImage": "കവർ ഇമേജ്",
+    "category": "വിഭാഗം *",
+    "ageGroup": "വയസ്സ് ഗ്രൂപ്പ് *",
+    "language": "ഭാഷ *",
+    "bookTitle": "തലക്കെട്ട് *",
+    "description": "വിവരണം",
+    "bookOrder": "പുസ്തക ക്രമം"
+  },
+  "placeholders": {
+    "selectCategory": "ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക",
+    "selectAgeGroup": "ഒരു വയസ്സ് ഗ്രൂപ്പ് തിരഞ്ഞെടുക്കുക",
+    "selectLanguage": "ഒരു ഭാഷ തിരഞ്ഞെടുക്കുക",
+    "enterBookTitle": "പുസ്തക തലക്കെട്ട് നൽകുക",
+    "enterBookDescription": "പുസ്തക വിവരണം നൽകുക (ഓപ്‌ഷണൽ)"
+  },
+  "loading": {
+    "categories": "വിഭാഗങ്ങൾ ലോഡ് ചെയ്യുന്നു...",
+    "ageGroups": "വയസ്സ് ഗ്രൂപ്പുകൾ ലോഡ് ചെയ്യുന്നു...",
+    "languages": "ഭാഷകൾ ലോഡ് ചെയ്യുന്നു...",
+    "uploading": "അപ്‌ലോഡ് ചെയ്യുന്നു..."
+  },
+  "selected": "തിരഞ്ഞെടുത്തത്:",
+  "buttons": {
+    "cancel": "റദ്ദാക്കുക",
+    "uploadBook": "പുസ്തകം അപ്‌ലോഡ് ചെയ്യുക"
+  },
+  "errors": {
+    "sourceFileRequired": "സോഴ്‌സ് ഫയൽ ആവശ്യമാണ്",
+    "titleRequired": "തലക്കെട്ട് ആവശ്യമാണ്",
+    "categoryRequired": "വിഭാഗം ആവശ്യമാണ്",
+    "ageGroupRequired": "വയസ്സ് ഗ്രൂപ്പ് ആവശ്യമാണ്",
+    "languageRequired": "ഭാഷ ആവശ്യമാണ്",
+    "failedToLoadCategories": "വിഭാഗങ്ങൾ ലോഡ് ചെയ്യാനായില്ല",
+    "failedToLoadAgeGroups": "വയസ്സ് ഗ്രൂപ്പുകൾ ലോഡ് ചെയ്യാനായില്ല",
+    "failedToLoadLanguages": "ഭാഷകൾ ലോഡ് ചെയ്യാനായില്ല",
+    "failedToUploadBook": "പുസ്തകം അപ്‌ലോഡ് ചെയ്യാനായില്ല",
+    "unexpectedError": "അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു"
+  },
+  "success": {
+    "bookCreated": "പുസ്തകം വിജയകരമായി സൃഷ്ടിച്ചു"
+  }
+}
+

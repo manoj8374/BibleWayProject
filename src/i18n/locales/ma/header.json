@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "പുസ്തകം, പേര്, രചയിതാവ് തിരയുക...",
+  "addNewPost": "പുതിയ പോസ്റ്റ് ചേർക്കുക",
+  "noResultsFound": "ഫലങ്ങൾ കണ്ടെത്തിയില്ല",
+  "languageSelector": {
+    "searchLanguages": "ഭാഷകൾ തിരയുക...",
+    "noLanguagesFound": "ഭാഷകൾ കണ്ടെത്തിയില്ല"
+  },
+  "filter": {
+    "selectLanguage": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+    "selectVersion": "പുസ്തകം തിരഞ്ഞെടുക്കുക"
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "title": "വിഭാഗം സൃഷ്ടിക്കുക",
+  "labels": {
+    "categoryName": "വിഭാഗം പേര് *",
+    "description": "വിവരണം",
+    "displayOrder": "ഡിസ്പ്ലേ ക്രമം",
+    "coverImage": "കവർ ഇമേജ്"
+  },
+  "placeholders": {
+    "selectCategoryName": "ഒരു വിഭാഗം പേര് തിരഞ്ഞെടുക്കുക",
+    "enterDescription": "വിഭാഗം വിവരണം നൽകുക (ഓപ്‌ഷണൽ)"
+  },
+  "selected": "തിരഞ്ഞെടുത്തത്:",
+  "buttons": {
+    "cancel": "റദ്ദാക്കുക",
+    "createCategory": "വിഭാഗം സൃഷ്ടിക്കുക",
+    "creating": "സൃഷ്ടിക്കുന്നു..."
+  },
+  "errors": {
+    "categoryNameRequired": "വിഭാഗം പേര് ആവശ്യമാണ്",
+    "failedToCreateCategory": "വിഭാഗം സൃഷ്ടിക്കാനായില്ല",
+    "unexpectedError": "അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു"
+  },
+  "success": {
+    "categoryCreated": "വിഭാഗം വിജയകരമായി സൃഷ്ടിച്ചു"
+  }
+}
+

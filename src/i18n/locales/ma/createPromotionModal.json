@@ -1,0 +1,39 @@
+{
+  "title": "പ്രമോഷൻ സൃഷ്ടിക്കുക",
+  "labels": {
+    "title": "തലക്കെട്ട് *",
+    "description": "വിവരണം",
+    "price": "വില",
+    "redirectLink": "റീഡയറക്ട് ലിങ്ക് *",
+    "metaData": "മെറ്റാ ഡാറ്റ (JSON)",
+    "mediaFile": "മീഡിയ ഫയൽ (ഇമേജ്/വീഡിയോ/ഓഡിയോ)",
+    "images": "ഇമേജുകൾ (ഒന്നിലധികം)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "പ്രമോഷൻ തലക്കെട്ട് നൽകുക",
+    "enterDescription": "പ്രമോഷൻ വിവരണം നൽകുക (ഓപ്‌ഷണൽ)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "തിരഞ്ഞെടുത്തത്:",
+  "buttons": {
+    "cancel": "റദ്ദാക്കുക",
+    "createPromotion": "പ്രമോഷൻ സൃഷ്ടിക്കുക",
+    "creating": "സൃഷ്ടിക്കുന്നു..."
+  },
+  "errors": {
+    "titleRequired": "തലക്കെട്ട് ആവശ്യമാണ്",
+    "priceRequired": "വില ആവശ്യമാണ്",
+    "priceInvalid": "വില സാധുവായ സംഖ്യയായിരിക്കണം",
+    "redirectLinkRequired": "റീഡയറക്ട് ലിങ്ക് ആവശ്യമാണ്",
+    "redirectLinkInvalid": "റീഡയറക്ട് ലിങ്ക് സാധുവായ URL ആയിരിക്കണം",
+    "metaDataInvalid": "മെറ്റാ ഡാറ്റ സാധുവായ JSON ഫോർമാറ്റ് ആയിരിക്കണം",
+    "failedToCreatePromotion": "പ്രമോഷൻ സൃഷ്ടിക്കാനായില്ല",
+    "unexpectedError": "അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു"
+  },
+  "success": {
+    "promotionCreated": "പ്രമോഷൻ വിജയകരമായി സൃഷ്ടിച്ചു"
+  }
+}
+

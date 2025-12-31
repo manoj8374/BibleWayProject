@@ -1,0 +1,20 @@
+{
+  "back": "തിരികെ",
+  "follow": "ഫോളോ ചെയ്യുക",
+  "unfollow": "അൺഫോളോ ചെയ്യുക",
+  "message": "സന്ദേശം",
+  "follower": "ഫോളോവർ",
+  "following": "ഫോളോ ചെയ്യുന്നു",
+  "followers": "ഫോളോവേഴ്‌സ്",
+  "loadingProfile": "പ്രൊഫൈൽ ലോഡ് ചെയ്യുന്നു...",
+  "profileNotFound": "പ്രൊഫൈൽ കണ്ടെത്തിയില്ല",
+  "loadingPosts": "പോസ്റ്റുകൾ ലോഡ് ചെയ്യുന്നു...",
+  "noPostsYet": "ഇതുവരെ പോസ്റ്റുകൾ ഇല്ല",
+  "unknownUser": "അജ്ഞാത ഉപയോക്താവ്",
+  "checkOutProfile": "BibleWay-ൽ {{name}}-ന്റെ പ്രൊഫൈൽ പരിശോധിക്കുക",
+  "profileTitle": "{{name}}-ന്റെ പ്രൊഫൈൽ",
+  "unfollowedSuccessfully": "വിജയകരമായി അൺഫോളോ ചെയ്തു",
+  "followedSuccessfully": "വിജയകരമായി ഫോളോ ചെയ്തു",
+  "failedToFetchUserPosts": "ഉപയോക്തൃ പോസ്റ്റുകൾ എടുക്കാനായില്ല"
+}
+

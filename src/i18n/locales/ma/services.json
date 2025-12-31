@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു.",
+    "receivedToken": "ടോക്കൺ ലഭിച്ചു"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "പോസ്റ്റ് സൃഷ്ടിക്കുന്ന സമയത്ത് അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു.",
+    "failedToFetchPosts": "പോസ്റ്റുകൾ എടുക്കാനായില്ല.",
+    "failedToFetchUserPosts": "ഉപയോക്തൃ പോസ്റ്റുകൾ എടുക്കാനായില്ല.",
+    "failedToFetchPostDetails": "പോസ്റ്റ് വിശദാംശങ്ങൾ എടുക്കാനായില്ല.",
+    "failedToUpdatePost": "പോസ്റ്റ് അപ്ഡേറ്റ് ചെയ്യാനായില്ല",
+    "failedToDeletePost": "പോസ്റ്റ് ഇല്ലാതാക്കാനായില്ല",
+    "failedToCreateComment": "കമെന്റ് സൃഷ്ടിക്കാനായില്ല.",
+    "failedToUpdateComment": "കമെന്റ് അപ്ഡേറ്റ് ചെയ്യാനായില്ല.",
+    "failedToDeleteComment": "കമെന്റ് ഇല്ലാതാക്കാനായില്ല.",
+    "failedToFetchComments": "കമെന്റുകൾ എടുക്കാനായില്ല.",
+    "failedToLikeComment": "കമെന്റ് ലൈക്ക് ചെയ്യാനായില്ല.",
+    "failedToUnlikeComment": "കമെന്റ് അൺലൈക്ക് ചെയ്യാനായില്ല.",
+    "failedToLikePost": "പോസ്റ്റ് ലൈക്ക് ചെയ്യാനായില്ല.",
+    "failedToUnlikePost": "പോസ്റ്റ് അൺലൈക്ക് ചെയ്യാനായില്ല."
+  },
+  "user": {
+    "failedToFetchUserProfile": "ഉപയോക്തൃ പ്രൊഫൈൽ എടുക്കാനായില്ല.",
+    "failedToFollowUser": "ഉപയോക്താവിനെ ഫോളോ ചെയ്യാനായില്ല.",
+    "failedToUnfollowUser": "ഉപയോക്താവിനെ അൺഫോളോ ചെയ്യാനായില്ല.",
+    "failedToGetRecommendedUsers": "ശുപാർശ ചെയ്ത ഉപയോക്താക്കളെ ലഭിക്കാനായില്ല.",
+    "failedToGetUserProfile": "ഉപയോക്തൃ പ്രൊഫൈൽ ലഭിക്കാനായില്ല."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "വാൾപേപ്പറുകൾ ലോഡ് ചെയ്യാനായില്ല"
+  },
+  "verse": {
+    "failedToLoadVerses": "വാക്യങ്ങൾ ലോഡ് ചെയ്യാനായില്ല",
+    "failedToLikeVerse": "വാക്യം ലൈക്ക് ചെയ്യാനായില്ല",
+    "failedToUnlikeVerse": "വാക്യം അൺലൈക്ക് ചെയ്യാനായില്ല"
+  },
+  "admin": {
+    "failedToLoadBooks": "പുസ്തകങ്ങൾ ലോഡ് ചെയ്യാനായില്ല"
+  }
+}
+

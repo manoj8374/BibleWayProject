@@ -1,0 +1,25 @@
+{
+  "title": "പോസ്റ്റ് എഡിറ്റ് ചെയ്യുക",
+  "labels": {
+    "title": "തലക്കെട്ട്",
+    "description": "വിവരണം",
+    "media": "മീഡിയ"
+  },
+  "placeholders": {
+    "enterPostTitle": "പോസ്റ്റ് തലക്കെട്ട് നൽകുക...",
+    "enterDescription": "വിവരണം നൽകുക..."
+  },
+  "buttons": {
+    "cancel": "റദ്ദാക്കുക",
+    "save": "സേവ്",
+    "updating": "അപ്ഡേറ്റ് ചെയ്യുന്നു..."
+  },
+  "errors": {
+    "noChanges": "മാറ്റങ്ങൾ കണ്ടെത്തിയില്ല",
+    "failedToUpdatePost": "പോസ്റ്റ് അപ്ഡേറ്റ് ചെയ്യാനായില്ല"
+  },
+  "success": {
+    "postUpdated": "പോസ്റ്റ് വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു"
+  }
+}
+

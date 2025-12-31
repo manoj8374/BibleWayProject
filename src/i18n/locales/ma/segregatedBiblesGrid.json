@@ -1,0 +1,15 @@
+{
+  "title": "വിഭജിത ബൈബിളുകൾ",
+  "loadingAgeGroups": "വയസ്സ് ഗ്രൂപ്പുകൾ ലോഡ് ചെയ്യുന്നു...",
+  "failedToLoadAgeGroups": "വയസ്സ് ഗ്രൂപ്പുകൾ ലോഡ് ചെയ്യാനായില്ല",
+  "unexpectedErrorLoadingAgeGroups": "വയസ്സ് ഗ്രൂപ്പുകൾ ലോഡ് ചെയ്യുമ്പോൾ അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു",
+  "noAgeGroupsAvailable": "വയസ്സ് ഗ്രൂപ്പുകൾ ലഭ്യമല്ല",
+  "pleaseSelectCategoryFirst": "ദയവായി ആദ്യം ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക",
+  "noBooksAvailable": "ഈ തിരഞ്ഞെടുപ്പിന് പുസ്തകങ്ങൾ ലഭ്യമല്ല",
+  "failedToFetchBooks": "പുസ്തകങ്ങൾ എടുക്കാനായില്ല",
+  "categoryNotFound": "വിഭാഗം കണ്ടെത്തിയില്ല",
+  "ageGroupNotFound": "വയസ്സ് ഗ്രൂപ്പ് കണ്ടെത്തിയില്ല",
+  "languageNotFound": "ഭാഷ കണ്ടെത്തിയില്ല",
+  "unexpectedErrorFetchingBooks": "പുസ്തകങ്ങൾ എടുക്കുമ്പോൾ അപ്രതീക്ഷിതമായ പിശക് സംഭവിച്ചു"
+}
+

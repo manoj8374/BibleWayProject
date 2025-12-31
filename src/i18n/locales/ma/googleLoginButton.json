@@ -1,0 +1,10 @@
+{
+  "buttonText": "Google-ൽ തുടരുക",
+  "success": {
+    "loginSuccessful": "ലോഗിൻ വിജയകരമായി"
+  },
+  "errors": {
+    "loginFailed": "ലോഗിൻ പരാജയപ്പെട്ടു"
+  }
+}
+

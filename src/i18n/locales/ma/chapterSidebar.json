@@ -1,0 +1,11 @@
+{
+  "list": "ലിസ്റ്റ്",
+  "bookmark": "ബുക്ക്‌മാർക്ക്",
+  "quickNote": "ക്വിക്ക് നോട്ട്",
+  "noChaptersAvailable": "അധ്യായങ്ങൾ ലഭ്യമല്ല",
+  "chapter": "അധ്യായം",
+  "noChapterSelected": "അധ്യായം തിരഞ്ഞെടുത്തിട്ടില്ല",
+  "selectChapterToBegin": "വായന ആരംഭിക്കാൻ സൈഡ്‌ബാറിൽ നിന്ന് ഒരു അധ്യായം തിരഞ്ഞെടുക്കുക",
+  "ttsLanguage": "TTS ഭാഷ:"
+}
+
