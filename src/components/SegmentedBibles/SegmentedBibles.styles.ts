@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 `;
 
-export const BibleCard = styled.div<{ $backgroundImage?: string; $backgroundGradient: string }>`
+export const BibleCard = styled.div<{ $backgroundGradient: string }>`
   border-radius: 12px;
   padding: 20px;
   color: white;
@@ -22,15 +22,10 @@ export const BibleCard = styled.div<{ $backgroundImage?: string; $backgroundGrad
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
+  overflow: hidden;
   
   min-height: 120px;
   background: ${props => props.$backgroundGradient};
-  ${props => props.$backgroundImage && `
-    background-image: url(${props.$backgroundImage});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  `}
 
   &:last-child {
     margin-bottom: 0;
@@ -43,11 +38,9 @@ export const BibleCard = styled.div<{ $backgroundImage?: string; $backgroundGrad
     left: 0;
     right: 0;
     bottom: 0;
-    background: ${props => props.$backgroundImage 
-      ? 'rgba(0, 0, 0, 0.4)' 
-      : 'rgba(255, 255, 255, 0)'};
+    background: rgba(0, 0, 0, 0);
     transition: background 0.3s ease;
-    z-index: 0;
+    z-index: 1;
   }
 
   &:hover {
@@ -55,9 +48,7 @@ export const BibleCard = styled.div<{ $backgroundImage?: string; $backgroundGrad
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
     &::before {
-      background: ${props => props.$backgroundImage 
-        ? 'rgba(0, 0, 0, 0.5)' 
-        : 'rgba(255, 255, 255, 0.1)'};
+      background: rgba(255, 255, 255, 0.1);
     }
   }
 
@@ -73,6 +64,31 @@ export const BibleCard = styled.div<{ $backgroundImage?: string; $backgroundGrad
   }
 `;
 
+export const BibleCardImage = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+`;
+
+export const BibleCardOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease;
+  z-index: 1;
+
+  ${BibleCard}:hover & {
+    background: rgba(0, 0, 0, 0.5);
+  }
+`;
+
 export const PromotionIcon = styled.div`
   font-size: 32px;
   margin-bottom: 8px;
@@ -83,9 +99,8 @@ export const BibleTitle = styled.h4`
   margin-bottom: 8px;
   font-weight: 600;
   position: relative;
-  z-index: 1;
-  color: White;
-
+  z-index: 2;
+  color: white;
 
   @media (max-width: 768px) {
     font-size: 16px;
@@ -98,7 +113,7 @@ export const BibleDescription = styled.p`
   line-height: 1.5;
   opacity: 0.95;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -115,6 +130,8 @@ export const BibleViewAllButton = styled.button`
   cursor: pointer;
   margin-top: 16px;
   border-radius: 8px;
+  position: relative;
+  z-index: 2;
 `;
 
 export const CarouselContainer = styled.div`
@@ -171,7 +188,7 @@ export const CarouselScrollContainer = styled.div`
   }
 `;
 
-export const CarouselBookCard = styled.div<{ $coverImage?: string | null }>`
+export const CarouselBookCard = styled.div`
   min-width: 160px;
   width: 160px;
   height: 220px;
@@ -180,26 +197,8 @@ export const CarouselBookCard = styled.div<{ $coverImage?: string | null }>`
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  background: ${props => props.$coverImage 
-    ? `url(${props.$coverImage})` 
-    : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'};
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: ${props => props.$coverImage 
-      ? 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%)' 
-      : 'rgba(0, 0, 0, 0.3)'};
-    z-index: 1;
-  }
 
   &:hover {
     transform: translateY(-4px);
@@ -215,6 +214,26 @@ export const CarouselBookCard = styled.div<{ $coverImage?: string | null }>`
     width: 140px;
     height: 200px;
   }
+`;
+
+export const CarouselBookImage = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+`;
+
+export const CarouselBookOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+  z-index: 1;
 `;
 
 export const CarouselBookContent = styled.div`
@@ -237,6 +256,7 @@ export const CarouselBookTitle = styled.h4`
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: white;
 
   @media (max-width: 768px) {
     font-size: 13px;

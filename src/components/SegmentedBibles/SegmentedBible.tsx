@@ -2,12 +2,16 @@ import React, { useState, useEffect } from 'react';
 import {
   Container,
   BibleCard,
+  BibleCardImage,
+  BibleCardOverlay,
   BibleDescription,
   BibleTitle,
   CarouselContainer,
   CarouselTitle,
   CarouselScrollContainer,
   CarouselBookCard,
+  CarouselBookImage,
+  CarouselBookOverlay,
   CarouselBookContent,
   CarouselBookTitle,
   CarouselBookAgeGroup,
@@ -212,7 +216,6 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
         return (
           <div key={bible.id}>
             <BibleCard
-              $backgroundImage={bible.coverImageUrl}
               $backgroundGradient={bible.backgroundColor}
               onClick={async () => {
                 if (onBibleClick) {
@@ -248,6 +251,19 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
                 // For SEGREGATE_BIBLES, don't navigate on card click - show carousel instead
               }}
             >
+              {bible.coverImageUrl && (
+                <>
+                  <BibleCardImage 
+                    src={bible.coverImageUrl} 
+                    alt={bible.title}
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                  />
+                  <BibleCardOverlay />
+                </>
+              )}
               <BibleTitle>{bible.title}</BibleTitle>
               <BibleDescription>{bible.description}</BibleDescription>
               {isSegregateBibles && (
@@ -270,9 +286,21 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
                       .map((item) => (
                         <CarouselBookCard
                           key={`${item.age_group_id}-${item.book_id}`}
-                          $coverImage={item.cover_image_url}
                           onClick={() => item.book_id && handleBookClick(item.book_id)}
                         >
+                          {item.cover_image_url && (
+                            <>
+                              <CarouselBookImage 
+                                src={item.cover_image_url} 
+                                alt={item.title || ''}
+                                onError={(e) => {
+                                  const target = e.target as HTMLImageElement;
+                                  target.style.display = 'none';
+                                }}
+                              />
+                              <CarouselBookOverlay />
+                            </>
+                          )}
                           <CarouselBookContent>
                             <CarouselBookTitle>{item.title}</CarouselBookTitle>
                             <CarouselBookAgeGroup>{item.display_name}</CarouselBookAgeGroup>
