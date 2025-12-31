@@ -1,0 +1,33 @@
+{
+  "title": "Bayanan Babi",
+  "noBookSelected": "Babu littafin da aka zaɓa",
+  "selectBookMessage": "Da fatan za a zaɓi littafi don ganin bayanan",
+  "noChapterSelected": "Babu babin da aka zaɓa",
+  "selectChapterMessage": "Zaɓi babi don gani da rubuta bayanan",
+  "loadingNotes": "Ana loda bayanan...",
+  "noNotesYet": "Babu wasu bayanai tukuna",
+  "startWritingMessage": "Fara rubuta tunaninka da fahimtarka game da wannan babi",
+  "placeholder": "Rubuta bayananka a nan...",
+  "cancel": "Soke",
+  "saving": "Ana ajiye...",
+  "updateNote": "Sabunta Bayani",
+  "saveNote": "Ajiye Bayani",
+  "editNote": "Gyara Bayani",
+  "deleteNote": "Share Bayani",
+  "justNow": "Yanzu-yanzu",
+  "note": "bayani",
+  "notes": "bayanai",
+  "deleteConfirmation": "Shin kun tabbata kuna son share wannan bayanin?",
+  "success": {
+    "noteCreated": "An ƙirƙiri bayani cikin nasara",
+    "noteUpdated": "An sabunta bayani cikin nasara",
+    "noteDeleted": "An share bayani cikin nasara"
+  },
+  "errors": {
+    "failedToLoad": "An kasa loda bayanan",
+    "failedToCreate": "An kasa ƙirƙirar bayani",
+    "failedToUpdate": "An kasa sabunta bayani",
+    "failedToDelete": "An kasa share bayani",
+    "failedToSave": "An kasa ajiye bayani"
+  }
+}

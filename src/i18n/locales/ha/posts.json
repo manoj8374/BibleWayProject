@@ -1,0 +1,22 @@
+{
+  "edit": "Gyara",
+  "delete": "Share",
+  "deleteConfirm": "Share wannan rubutu?",
+  "cancel": "Soke",
+  "save": "Ajiye",
+  "saving": "Ana ajiye...",
+  "deleting": "Ana sharewa...",
+  "likes": "An so",
+  "like": "So",
+  "comments": "Sharhi",
+  "comment": "Sharhi",
+  "share": "Raba",
+  "shares": "Raba",
+  "writeComment": "Rubuta sharhi...",
+  "writeYourComment": "Rubuta sharhinka...",
+  "failedToComment": "An kasa yin sharhi",
+  "actionFailed": "Aiki ya kasa",
+  "commentAdded": "An ƙara sharhi cikin nasara",
+  "failedToCreateComment": "An kasa ƙirƙirar sharhi",
+  "failedToUpdateLike": "An kasa sabunta yanayin so"
+}

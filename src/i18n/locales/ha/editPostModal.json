@@ -1,0 +1,22 @@
+{
+  "title": "Gyara Rubutu",
+  "labels": {
+    "title": "Take",
+    "description": "Bayani"
+  },
+  "placeholders": {
+    "enterPostTitle": "Shigar da taken rubutu...",
+    "enterDescription": "Gyara bayaninka a nan..."
+  },
+  "buttons": {
+    "saveChanges": "Ajiye Canje-canje",
+    "saving": "Ana ajiye...",
+    "cancel": "Soke"
+  },
+  "errors": {
+    "failedToUpdatePost": "An kasa sabunta rubutu."
+  },
+  "success": {
+    "postUpdated": "An sabunta rubutu cikin nasara!"
+  }
+}

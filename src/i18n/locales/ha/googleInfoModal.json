@@ -1,0 +1,14 @@
+{
+  "title": "Ana Buƙatar Bayanan Google",
+  "description": "Wannan ne karon farko da kuka shiga da Google. Da fatan za a bayar da waɗannan bayanan don kammala asusunku.",
+  "labels": {
+    "age": "Shekaru",
+    "language": "Harshen da aka zaɓa",
+    "country": "Ƙasa"
+  },
+  "buttons": {
+    "completeProfile": "Kammala Bayanan Martaba",
+    "completing": "Ana kammalawa...",
+    "cancel": "Soke"
+  }
+}

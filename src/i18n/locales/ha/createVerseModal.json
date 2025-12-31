@@ -1,0 +1,30 @@
+{
+  "title": "Ƙirƙiri Maganan Kullum",
+  "note": "Lura: Ƙirƙirar sabon magana zai maye gurbin maganan kullum da ake dashi. Ba za a iya soke wannan ba. Za a nuna sabon magana ga dukkan masu amfani nan take.",
+  "labels": {
+    "title": "Take (zaɓi)",
+    "quoteDescription": "Magana / Bayani (Ana buƙata)"
+  },
+  "placeholders": {
+    "title": "Misali: Maganan Rana",
+    "quoteDescription": "Shigar da magana ko rubutu anan..."
+  },
+  "buttons": {
+    "cancel": "Soke",
+    "publishQuote": "Buga Magana",
+    "publishing": "Ana bugawa...",
+    "updateQuote": "Sabunta Magana",
+    "updating": "Ana sabuntawa..."
+  },
+  "errors": {
+    "descriptionRequired": "Ana buƙatar bayani",
+    "failedToCreateVerse": "An kasa ƙirƙirar aya",
+    "failedToUpdateVerse": "An kasa sabunta aya",
+    "unexpectedError": "Kuskuren da ba a tsammata ba ya faru"
+  },
+  "success": {
+    "verseCreated": "An ƙirƙiri aya cikin nasara",
+    "verseUpdated": "An sabunta aya cikin nasara"
+  },
+  "editTitle": "Gyara Aya"
+}

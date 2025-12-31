@@ -1,0 +1,38 @@
+{
+  "title": "Ƙirƙiri Talla",
+  "labels": {
+    "title": "Take *",
+    "description": "Bayani",
+    "price": "Farashi",
+    "redirectLink": "Mahaɗin karkatarwa *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "Fayil na Media (Hoto/Bidiyo/Sauti)",
+    "images": "Hotuna (Da yawa)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Shigar da taken talla",
+    "enterDescription": "Shigar da bayanin talla (zaɓi)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Wanda aka zaɓa:",
+  "buttons": {
+    "cancel": "Soke",
+    "createPromotion": "Ƙirƙiri Talla",
+    "creating": "Ana ƙirƙira..."
+  },
+  "errors": {
+    "titleRequired": "Ana buƙatar lake",
+    "priceRequired": "Ana buƙatar farashi",
+    "priceInvalid": "Farashi dole ne ya zama lambar da ta dace",
+    "redirectLinkRequired": "Ana buƙatar mahaɗin karkatarwa",
+    "redirectLinkInvalid": "Mahaɗin karkatarwa dole ne ya zama URL mai inganci",
+    "metaDataInvalid": "Meta data dole ne su zama ingantaccen JSON",
+    "failedToCreatePromotion": "An kasa ƙirƙirar talla",
+    "unexpectedError": "Kuskuren da ba a tsammata ba ya faru"
+  },
+  "success": {
+    "promotionCreated": "An ƙirƙiri talla cikin nasara"
+  }
+}

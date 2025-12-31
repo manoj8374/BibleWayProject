@@ -1,0 +1,27 @@
+{
+  "title": "Ƙirƙiri Rukuni",
+  "labels": {
+    "categoryName": "Sunan Rukuni *",
+    "description": "Bayani",
+    "displayOrder": "Tsarin Nuni",
+    "coverImage": "Hoton bango"
+  },
+  "placeholders": {
+    "selectCategoryName": "Zaɓi sunan rukuni",
+    "enterDescription": "Shigar da bayanin rukuni (zaɓi)"
+  },
+  "selected": "Wanda aka zaɓa:",
+  "buttons": {
+    "cancel": "Soke",
+    "createCategory": "Ƙirƙiri Rukuni",
+    "creating": "Ana ƙirƙira..."
+  },
+  "errors": {
+    "categoryNameRequired": "Ana buƙatar sunan rukuni",
+    "failedToCreateCategory": "An kasa ƙirƙirar rukuni",
+    "unexpectedError": "Kuskuren da ba a tsammata ba ya faru"
+  },
+  "success": {
+    "categoryCreated": "An ƙirƙiri rukuni cikin nasara"
+  }
+}

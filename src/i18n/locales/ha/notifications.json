@@ -1,0 +1,18 @@
+{
+  "title": "Sanarwa",
+  "markAllAsRead": "Sanya duka a matsayin an karanta",
+  "loading": "Ana loda sanarwa...",
+  "noNotifications": "Babu sanarwa tukuna",
+  "allCaughtUp": "Kun cimma duka!",
+  "justNow": "Yanzu-yanzu",
+  "minuteAgo": "minti {{count}} da ya wuce",
+  "minutesAgo": "minti {{count}} da suka wuce",
+  "hourAgo": "awa {{count}} da ya wuce",
+  "hoursAgo": "awa {{count}} da suka wuce",
+  "dayAgo": "kwana {{count}} da ya wuce",
+  "daysAgo": "kwana {{count}} da suka wuce",
+  "weekAgo": "sati {{count}} da ya wuce",
+  "weeksAgo": "sati {{count}} da suka wuce",
+  "monthAgo": "wata {{count}} da ya wuce",
+  "monthsAgo": "wata {{count}} da suka wuce"
+}

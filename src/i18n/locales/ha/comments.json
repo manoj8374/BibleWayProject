@@ -1,0 +1,25 @@
+{
+  "loading": "Ana loda sharhi...",
+  "error": "An kasa loda sharhi",
+  "noComments": "Babu sharhi tukuna. Kasance na farko da zai faɗi wani abu!",
+  "emptyComment": "Sharhi ba zai iya zama fanko ba",
+  "commentUpdated": "An sabunta sharhi cikin nasara",
+  "failedToUpdate": "An kasa sabunta sharhi",
+  "deleteConfirm": "Shin kun tabbata kuna son share wannan sharhin?",
+  "commentDeleted": "An share sharhi cikin nasara",
+  "failedToDelete": "An kasa share sharhi",
+  "writeComment": "Rubuta sharhi...",
+  "deleteModal": {
+    "title": "Share Sharhi",
+    "description": "Shin kun tabbata kuna son share wannan sharhin? Ba za a iya dawo da shi ba.",
+    "cancel": "Soke",
+    "delete": "Share",
+    "deleting": "Ana sharewa..."
+  },
+  "time": {
+    "justNow": "Yanzu-yanzu",
+    "minutesAgo": "minti {{count}} da suka wuce",
+    "hoursAgo": "awa {{count}} da suka wuce",
+    "daysAgo": "kwana {{count}} da suka wuce"
+  }
+}

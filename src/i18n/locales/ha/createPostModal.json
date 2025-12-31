@@ -1,0 +1,27 @@
+{
+  "title": "Ƙirƙiri Rubutu",
+  "labels": {
+    "title": "Take",
+    "description": "Bayani"
+  },
+  "placeholders": {
+    "enterPostTitle": "Shigar da taken rubutu...",
+    "enterDescription": "Na sami aiki a Google..."
+  },
+  "upload": {
+    "uploadFiles": "Loda fayilolinku a nan (Abinda ya fi yawa 5)",
+    "addMoreFiles": "+ Ƙara wasu fayiloli"
+  },
+  "buttons": {
+    "createPost": "Ƙirƙiri Rubutu",
+    "creating": "Ana ƙirƙira..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Kuna iya loda fayiloli har guda 5 kawai.",
+    "atLeastOneFile": "Da fatan za a loda aƙalla fayil guda ɗaya.",
+    "failedToCreatePost": "An kasa ƙirƙirar rubutu."
+  },
+  "success": {
+    "postCreated": "An ƙirƙiri rubutu cikin nasara!"
+  }
+}

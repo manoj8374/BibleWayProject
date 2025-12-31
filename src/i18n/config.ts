@@ -277,7 +277,7 @@ i18n
     resources: {},
     lng: initialLanguage,
     fallbackLng: 'en',
-    supportedLngs: ['en', 'te', 'ta', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl', 'fr', 'it', 'pt', 'pl', 'sv', 'el', 'ne', 'pa', 'ml', 'or', 'kn', 'ru', 'mr', 'sa', 'ur', 'sat', 'gu', 'kok', 'mai', 'mni', 'ks', 'sd', 'sw'],
+    supportedLngs: ['en', 'te', 'ta', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl', 'fr', 'it', 'pt', 'pl', 'sv', 'el', 'ne', 'pa', 'ml', 'or', 'kn', 'ru', 'mr', 'sa', 'ur', 'sat', 'gu', 'kok', 'mai', 'mni', 'ks', 'sd', 'sw', 'ha'],
     debug: false,
     interpolation: {
       escapeValue: false, // React already escapes values

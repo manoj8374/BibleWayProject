@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Yana nan",
+    "offline": "Ba ya nan"
+  },
+  "messages": {
+    "loading": "Ana loda saƙonni...",
+    "noMessages": "Babu saƙonni tukuna",
+    "deleted": "An share wannan saƙon",
+    "sharedImage": "Hoton da aka raba",
+    "viewAttachment": "Duba mahaɗin",
+    "seen": "An gani",
+    "deleteMessage": "Share saƙo"
+  },
+  "typing": {
+    "isTyping": "yana rubutu...",
+    "peopleTyping": "mutane suna rubutu..."
+  },
+  "input": {
+    "placeholder": "Rubuta saƙo...",
+    "pressEnterToSend": "Latsa Enter don aikawa"
+  },
+  "deleteModal": {
+    "title": "Share saƙo?",
+    "message": "Shin kun tabbata kuna son share wannan saƙon? Ba za a iya dawo da shi ba.",
+    "cancel": "Soke",
+    "delete": "Share"
+  },
+  "uploadModal": {
+    "title": "Aika Fayil",
+    "uploading": "Ana loda da aikawa...",
+    "sendFile": "Shin za a aika {{filename}}?",
+    "sending": "Ana aikawa...",
+    "send": "Aika",
+    "cancel": "Soke"
+  },
+  "errors": {
+    "fetchConversation": "An kasa samun tattaunawa",
+    "invalidFileType": "Nau'in fayil ɗin bai dace ba. Hotuna da bidiyoyi ne kawai aka yarda dasu.",
+    "fileSizeExceeded": "Girman fayil ɗin ya wuce 10MB.",
+    "uploadFailed": "An kasa loda fayil ɗin",
+    "failedToLoadStickers": "An kasa loda sitika"
+  },
+  "stickers": {
+    "loading": "Ana loda sitika...",
+    "noStickers": "Babu sitika da ake dasu"
+  }
+}

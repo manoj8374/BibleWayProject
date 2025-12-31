@@ -1,0 +1,34 @@
+{
+  "title": "Bukatar Addu'a",
+  "labels": {
+    "description": "Bayani",
+    "name": "Suna",
+    "email": "Imel",
+    "phoneNumber": "Lambar waya (zaɓi)",
+    "media": "Media (zaɓi)"
+  },
+  "placeholders": {
+    "enterDescription": "Da fatan za a yi addu'a don lafiyar iyalina...",
+    "yourName": "Sunanka",
+    "yourEmail": "Imel ɗinka",
+    "phoneNumber": "08012345678"
+  },
+  "upload": {
+    "uploadText": "Loda hoto ko bidiyo (Max fayiloli 5, 10MB kowane)",
+    "addMoreFiles": "+ Ƙara wasu fayiloli"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Aika Bukatar Addu'a",
+    "submitting": "Ana aikawa..."
+  },
+  "errors": {
+    "descriptionRequired": "Da fatan za a shigar da bayanin bukatar addu'arka.",
+    "failedToCreateRequest": "An kasa ƙirƙirar bukatar addu'a.",
+    "maxFilesExceeded": "Kuna iya loda fayiloli har guda 5 kawai.",
+    "invalidFileType": "Nau'in fayil ɗin bai dace ba: {{filename}}. Hotuna da bidiyoyi ne kawai aka yarda dasu.",
+    "fileSizeExceeded": "Girman fayil ya wuce 10MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "An ƙirƙiri bukatar addu'a cikin nasara!"
+  }
+}

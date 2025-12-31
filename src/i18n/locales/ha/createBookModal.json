@@ -1,0 +1,46 @@
+{
+  "title": "Loda Littafi",
+  "labels": {
+    "sourceFile": "Fayil na asali (.md) *",
+    "coverImage": "Hoton bangon littafi",
+    "category": "Rukuni *",
+    "ageGroup": "Rukunin Shekaru *",
+    "language": "Harshe *",
+    "bookTitle": "Taken littafi *",
+    "description": "Bayani",
+    "bookOrder": "Tsarin Littafi"
+  },
+  "placeholders": {
+    "selectCategory": "Zaɓi rukuni",
+    "selectAgeGroup": "Zaɓi rukunin shekaru",
+    "selectLanguage": "Zaɓi harshe",
+    "enterBookTitle": "Shigar da taken littafi",
+    "enterBookDescription": "Shigar da bayanin littafi (zaɓi)"
+  },
+  "loading": {
+    "categories": "Ana loda rukunai...",
+    "ageGroups": "Ana loda rukunin shekaru...",
+    "languages": "Ana loda harsuna...",
+    "uploading": "Ana lodawa..."
+  },
+  "selected": "Wanda aka zaɓa:",
+  "buttons": {
+    "cancel": "Soke",
+    "uploadBook": "Loda Littafi"
+  },
+  "errors": {
+    "sourceFileRequired": "Ana buƙatar fayil na asali",
+    "titleRequired": "Ana buƙatar taken littafi",
+    "categoryRequired": "Ana buƙatar rukuni",
+    "ageGroupRequired": "Ana buƙatar rukunin shekaru",
+    "languageRequired": "Ana buƙatar harshe",
+    "failedToLoadCategories": "An kasa loda rukunai",
+    "failedToLoadAgeGroups": "An kasa loda rukunin shekaru",
+    "failedToLoadLanguages": "An kasa loda harsuna",
+    "failedToUploadBook": "An kasa loda littafin",
+    "unexpectedError": "Kuskuren da ba a tsammata ba ya faru"
+  },
+  "success": {
+    "bookCreated": "An ƙirƙiri littafi cikin nasara"
+  }
+}

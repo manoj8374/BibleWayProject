@@ -1,0 +1,21 @@
+{
+  "welcome": "Sannu da zuwa",
+  "login": "Shiga",
+  "signup": "Yi rajista",
+  "logout": "Fita",
+  "home": "Gida",
+  "profile": "Bayanin martaba",
+  "settings": "Saituna",
+  "save": "Ajiye",
+  "cancel": "Soke",
+  "delete": "Share",
+  "edit": "Gyara",
+  "submit": "Aika",
+  "loading": "Yana lodawa...",
+  "error": "Kuskure",
+  "success": "Nasara",
+  "linkCopied": "An kwafi hanyar lamba!",
+  "failedToCopy": "An kasa kwafo hanyar lamba",
+  "sharePost": "Raba Rubutu",
+  "sharePrayerRequest": "Raba Bukatar Addu'a"
+}

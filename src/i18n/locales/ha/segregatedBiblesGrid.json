@@ -1,0 +1,14 @@
+{
+  "title": "Littafi Mai Tsarki da aka raba",
+  "loadingAgeGroups": "Ana loda rukunin shekaru...",
+  "failedToLoadAgeGroups": "An kasa loda rukunin shekaru",
+  "unexpectedErrorLoadingAgeGroups": "Kuskuren da ba a tsammata ba yayin loda rukunin shekaru",
+  "noAgeGroupsAvailable": "Babu rukunin shekaru da ake dasu",
+  "pleaseSelectCategoryFirst": "Da fatan za a fara zaɓar rukuni",
+  "noBooksAvailable": "Babu littattafai da ake dasu a wannan zaɓin",
+  "failedToFetchBooks": "An kasa samun littattafai",
+  "categoryNotFound": "Ba a sami rukunin ba",
+  "ageGroupNotFound": "Ba a sami rukunin shekarun ba",
+  "languageNotFound": "Ba a sami harshen ba",
+  "unexpectedErrorFetchingBooks": "Kuskuren da ba a tsammata ba yayin samun littattafai"
+}

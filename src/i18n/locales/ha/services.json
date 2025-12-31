@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Kuskuren da ba a zata ba ya faru.",
+    "receivedToken": "An sami token"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Kuskuren da ba a zata ba ya faru yayin ƙirƙirar rubutu.",
+    "failedToFetchPosts": "An kasa samun rubutu.",
+    "failedToFetchUserPosts": "An kasa samun rubutun mai amfani.",
+    "failedToFetchPostDetails": "An kasa samun bayanan rubutu.",
+    "failedToUpdatePost": "An kasa sabunta rubutu",
+    "failedToDeletePost": "An kasa share rubutu",
+    "failedToCreateComment": "An kasa ƙirƙirar sharhi.",
+    "failedToUpdateComment": "An kasa sabunta sharhi.",
+    "failedToDeleteComment": "An kasa share sharhi.",
+    "failedToFetchComments": "An kasa samun sharhi.",
+    "failedToLikeComment": "An kasa son sharhi.",
+    "failedToUnlikeComment": "An kasa daina son sharhi.",
+    "failedToLikePost": "An kasa son rubutu.",
+    "failedToUnlikePost": "An kasa daina son rubutu."
+  },
+  "user": {
+    "failedToFetchUserProfile": "An kasa samun bayanin martaba mai amfani.",
+    "failedToFollowUser": "An kasa bin mai amfani.",
+    "failedToUnfollowUser": "An kasa daina bin mai amfani.",
+    "failedToGetRecommendedUsers": "An kasa samun masu amfani da aka ba da shawarar.",
+    "failedToGetUserProfile": "An kasa samun bayanin martaba mai amfani."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "An kasa loda hotunan bango"
+  },
+  "verse": {
+    "failedToLoadVerses": "An kasa loda ayoyi",
+    "failedToLikeVerse": "An kasa son aya",
+    "failedToUnlikeVerse": "An kasa daina son aya"
+  },
+  "admin": {
+    "failedToLoadBooks": "An kasa loda littattafai"
+  }
+}

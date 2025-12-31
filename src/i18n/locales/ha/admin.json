@@ -1,0 +1,38 @@
+{
+  "loading": "Yana lodawa...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute dole ne a yi amfani dashi a cikin ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Sarrafa Shaida",
+    "pending": "Yana jiran aiki",
+    "verified": "An tabbatar",
+    "all": "Duka",
+    "loading": "Ana loda shaidu...",
+    "noTestimonials": "Ba a sami wasu shaidu ba",
+    "approve": "Yardarda",
+    "reject": "Ƙi yarda",
+    "processing": "Ana sarrafawa...",
+    "approvedSuccessfully": "An yarda da shaida cikin nasara",
+    "rejectedSuccessfully": "An ƙi yarda da shaida cikin nasara",
+    "failedToLoad": "An kasa loda shaidu",
+    "failedToApprove": "An kasa yarda da shaida",
+    "failedToReject": "An kasa ƙi yarda da shaida",
+    "confirmReject": "Shin kun tabbata kuna son ƙi yarda da wannan shaidar? Ba za a iya dawo da ita ba.",
+    "previous": "Na baya",
+    "next": "Na gaba",
+    "pageInfo": "Shafi {{current}} na {{total}}"
+  },
+  "promotions": {
+    "title": "Sarrafa Talla",
+    "loading": "Ana loda talla...",
+    "noPromotions": "Ba a sami wasu talla ba",
+    "delete": "Share",
+    "cancel": "Soke",
+    "processing": "Ana sarrafawa...",
+    "deletedSuccessfully": "An share talla cikin nasara",
+    "failedToLoad": "An kasa loda talla",
+    "failedToDelete": "An kasa share talla",
+    "confirmDelete": "Shin kun tabbata kuna son share wannan tallan? Ba za a iya dawo da shi ba."
+  }
+}
