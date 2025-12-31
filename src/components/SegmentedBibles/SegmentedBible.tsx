@@ -116,6 +116,7 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
           return a.category_name.localeCompare(b.category_name);
         });
 
+
         const mappedBibles = sortedCategories.map(mapCategoryToBible);
         setBibles(mappedBibles);
       } else {

@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 180px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;

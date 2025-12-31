@@ -250,13 +250,23 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
 
     const renderHeader = () => {
         // Priority: name -> userName
+        const avatarProps = getAvatarProps(
+         userAvatar,
+         userName
+    );
         const displayName = name || userName || t('profile.unknownUser');
 
         return (
             <PostHeader $isPrayerPost={true} onClick={() => navigate(`/profile/${userId}`)}>
-                <UserAvatar $bgColor={userAvatar || '#E74C3C'}>
-                    {!userAvatar && displayName.charAt(0).toUpperCase()}
-                </UserAvatar>
+                {userAvatar && userAvatar !== '' ? (
+                        <UserAvatar $bgColor="transparent">
+                          <img src={userAvatar} alt={userName} style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
+                        </UserAvatar>
+                      ) : (
+                        <UserAvatar $bgColor="#E74C3C">
+                          {displayName.charAt(0).toUpperCase()}
+                        </UserAvatar>
+                      )}
                 <UserInfo>
                     <UserName $isPrayerPost={true}>{displayName}</UserName>
                     <UserTitle $isPrayerPost={true}>{userTitle}</UserTitle>
