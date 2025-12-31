@@ -1,0 +1,47 @@
+{
+  "title": "पुस्तक अपलोड करात",
+  "labels": {
+    "sourceFile": "स्रोत फायल (.md) *",
+    "coverImage": "कव्हर प्रतिमा",
+    "category": "वर्ग *",
+    "ageGroup": "वय गट *",
+    "language": "भास *",
+    "bookTitle": "शीर्षक *",
+    "description": "वर्णन",
+    "bookOrder": "पुस्तक क्रम"
+  },
+  "placeholders": {
+    "selectCategory": "वर्ग निवडात",
+    "selectAgeGroup": "वय गट निवडात",
+    "selectLanguage": "भास निवडात",
+    "enterBookTitle": "पुस्तक शीर्षक घालात",
+    "enterBookDescription": "पुस्तक वर्णन घालात (वैकल्पिक)"
+  },
+  "loading": {
+    "categories": "वर्ग लोड जातात...",
+    "ageGroups": "वय गट लोड जातात...",
+    "languages": "भासो लोड जातात...",
+    "uploading": "अपलोड जाता..."
+  },
+  "selected": "निवडलें:",
+  "buttons": {
+    "cancel": "रद्द",
+    "uploadBook": "पुस्तक अपलोड करात"
+  },
+  "errors": {
+    "sourceFileRequired": "स्रोत फायल गरजेची",
+    "titleRequired": "शीर्षक गरजेचें",
+    "categoryRequired": "वर्ग गरजेचो",
+    "ageGroupRequired": "वय गट गरजेचो",
+    "languageRequired": "भास गरजेची",
+    "failedToLoadCategories": "वर्ग लोड करपांत अपयश",
+    "failedToLoadAgeGroups": "वय गट लोड करपांत अपयश",
+    "failedToLoadLanguages": "भासो लोड करपांत अपयश",
+    "failedToUploadBook": "पुस्तक अपलोड करपांत अपयश",
+    "unexpectedError": "अनपेक्षित त्रुटी आयली"
+  },
+  "success": {
+    "bookCreated": "पुस्तक यशस्वीपणान तयार जालें"
+  }
+}
+

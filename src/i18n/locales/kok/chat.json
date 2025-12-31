@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन"
+  },
+  "messages": {
+    "loading": "संदेश लोड जातात...",
+    "noMessages": "आयजेर संदेश नात",
+    "deleted": "हो संदेश काडलो",
+    "sharedImage": "शेअर केल्ली प्रतिमा",
+    "viewAttachment": "अटॅचमेंट पळयात",
+    "seen": "पळयलें",
+    "deleteMessage": "संदेश काडात"
+  },
+  "typing": {
+    "isTyping": "टायप करता...",
+    "peopleTyping": "लोक टायप करतात..."
+  },
+  "input": {
+    "placeholder": "संदेश टायप करात...",
+    "pressEnterToSend": "पाठोवपाखातीर Enter दाबात"
+  },
+  "deleteModal": {
+    "title": "संदेश काडात?",
+    "message": "तुमी खरेंच हो संदेश काडपाक सोदतात? ही कृती परत करूंक शकना.",
+    "cancel": "रद्द",
+    "delete": "काडात"
+  },
+  "uploadModal": {
+    "title": "फायल पाठोवात",
+    "uploading": "अपलोड आनी पाठोवता...",
+    "sendFile": "{{filename}} पाठोवात?",
+    "sending": "पाठोवता...",
+    "send": "पाठोवात",
+    "cancel": "रद्द"
+  },
+  "errors": {
+    "fetchConversation": "संवाद मेळोवपांत अपयश",
+    "invalidFileType": "अवैध फायल प्रकार. फकत प्रतिमा आनी व्हिडिओ मान्य.",
+    "fileSizeExceeded": "फायलचो आकार १०MB मर्यादेपरस चड.",
+    "uploadFailed": "फायल अपलोड अपयशी",
+    "failedToLoadStickers": "स्टिकर्स लोड करपांत अपयश"
+  },
+  "stickers": {
+    "loading": "स्टिकर्स लोड जातात...",
+    "noStickers": "स्टिकर्स उपलब्ध नात"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "पुस्तक, नांव, लेखक शोधात...",
+  "addNewPost": "नवो पोस्ट जोडात",
+  "noResultsFound": "परिणाम मेळ्ळे नात",
+  "languageSelector": {
+    "searchLanguages": "भासो शोधात...",
+    "noLanguagesFound": "भासो मेळ्ळ्यो नात"
+  },
+  "filter": {
+    "selectLanguage": "भास निवडात",
+    "selectVersion": "पुस्तक निवडात"
+  }
+}
+

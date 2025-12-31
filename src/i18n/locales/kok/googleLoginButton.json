@@ -1,0 +1,10 @@
+{
+  "buttonText": "Google वांगडा चालू दवरात",
+  "success": {
+    "loginSuccessful": "लॉगिन यशस्वी"
+  },
+  "errors": {
+    "loginFailed": "लॉगिन अपयशी"
+  }
+}
+

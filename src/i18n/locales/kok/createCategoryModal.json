@@ -1,0 +1,28 @@
+{
+  "title": "वर्ग तयार करात",
+  "labels": {
+    "categoryName": "वर्ग नांव *",
+    "description": "वर्णन",
+    "displayOrder": "प्रदर्शन क्रम",
+    "coverImage": "कव्हर प्रतिमा"
+  },
+  "placeholders": {
+    "selectCategoryName": "वर्ग नांव निवडात",
+    "enterDescription": "वर्ग वर्णन घालात (वैकल्पिक)"
+  },
+  "selected": "निवडलें:",
+  "buttons": {
+    "cancel": "रद्द",
+    "createCategory": "वर्ग तयार करात",
+    "creating": "तयार जाता..."
+  },
+  "errors": {
+    "categoryNameRequired": "वर्ग नांव गरजेचें",
+    "failedToCreateCategory": "वर्ग तयार करपांत अपयश",
+    "unexpectedError": "अनपेक्षित त्रुटी आयली"
+  },
+  "success": {
+    "categoryCreated": "वर्ग यशस्वीपणान तयार जालो"
+  }
+}
+

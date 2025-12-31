@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "अनपेक्षित त्रुटी आयली.",
+    "receivedToken": "टोकन मेळ्ळो"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट तयार करताना अनपेक्षित त्रुटी आयली.",
+    "failedToFetchPosts": "पोस्ट्स मेळोवपांत अपयश.",
+    "failedToFetchUserPosts": "वापरकर्त्याच्यो पोस्ट्स मेळोवपांत अपयश.",
+    "failedToFetchPostDetails": "पोस्ट वेगळ्यो म्हायती मेळोवपांत अपयश.",
+    "failedToUpdatePost": "पोस्ट अपडेट करपांत अपयश",
+    "failedToDeletePost": "पोस्ट काडपांत अपयश",
+    "failedToCreateComment": "टिप्पणी तयार करपांत अपयश.",
+    "failedToUpdateComment": "टिप्पणी अपडेट करपांत अपयश.",
+    "failedToDeleteComment": "टिप्पणी काडपांत अपयश.",
+    "failedToFetchComments": "टिप्पण्यो मेळोवपांत अपयश.",
+    "failedToLikeComment": "टिप्पणीक लाइक करपांत अपयश.",
+    "failedToUnlikeComment": "टिप्पणीतल्यान लाइक काडपांत अपयश.",
+    "failedToLikePost": "पोस्टक लाइक करपांत अपयश.",
+    "failedToUnlikePost": "पोस्टांतल्यान लाइक काडपांत अपयश."
+  },
+  "user": {
+    "failedToFetchUserProfile": "वापरकर्त्याचो प्रोफाइल मेळोवपांत अपयश.",
+    "failedToFollowUser": "वापरकर्त्याक फॉलो करपांत अपयश.",
+    "failedToUnfollowUser": "वापरकर्त्याक अनफॉलो करपांत अपयश.",
+    "failedToGetRecommendedUsers": "शिफारस केल्ले वापरकर्ते मेळोवपांत अपयश.",
+    "failedToGetUserProfile": "वापरकर्त्याचो प्रोफाइल मेळोवपांत अपयश."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वॉलपेपर्स लोड करपांत अपयश"
+  },
+  "verse": {
+    "failedToLoadVerses": "वचनां लोड करपांत अपयश",
+    "failedToLikeVerse": "वचनाक लाइक करपांत अपयश",
+    "failedToUnlikeVerse": "वचनांतल्यान लाइक काडपांत अपयश"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तकां लोड करपांत अपयश"
+  }
+}
+

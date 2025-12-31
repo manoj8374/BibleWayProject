@@ -1,0 +1,19 @@
+{
+  "title": "सूचना",
+  "markAllAsRead": "सगळ्यांक वाचलें म्हूण चिन्ह द्यात",
+  "loading": "सूचना लोड जातात...",
+  "noNotifications": "आयजेर सूचना नात",
+  "allCaughtUp": "तुमी सगळें पुराय केलांत!",
+  "justNow": "आयजेच",
+  "minuteAgo": "{{count}} मिनिटां आदीं",
+  "minutesAgo": "{{count}} मिनिटां आदीं",
+  "hourAgo": "{{count}} तासां आदीं",
+  "hoursAgo": "{{count}} तासां आदीं",
+  "dayAgo": "{{count}} दीसां आदीं",
+  "daysAgo": "{{count}} दीसां आदीं",
+  "weekAgo": "{{count}} आठवड्यां आदीं",
+  "weeksAgo": "{{count}} आठवड्यां आदीं",
+  "monthAgo": "{{count}} म्हयन्यां आदीं",
+  "monthsAgo": "{{count}} म्हयन्यां आदीं"
+}
+

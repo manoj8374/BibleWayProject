@@ -1,0 +1,34 @@
+{
+  "title": "अध्याय नोंदी",
+  "noBookSelected": "पुस्तक निवडलें ना",
+  "selectBookMessage": "कृपा करून नोंदी पळोवपाखातीर पुस्तक निवडात",
+  "noChapterSelected": "अध्याय निवडलो ना",
+  "selectChapterMessage": "नोंदी पळोवप आनी तयार करपाखातीर अध्याय निवडात",
+  "loadingNotes": "नोंदी लोड जातात...",
+  "noNotesYet": "आयजेर नोंदी नात",
+  "startWritingMessage": "ह्या अध्यायाविशीं तुमचे विचार आनी अंतर्दृष्टी बरोवपाक सुरवात करात",
+  "placeholder": "तुमच्यो नोंदी हांगा बरयात...",
+  "cancel": "रद्द",
+  "saving": "साठवता...",
+  "updateNote": "नोंद अपडेट करात",
+  "saveNote": "नोंद साठवात",
+  "editNote": "नोंद संपादन करात",
+  "deleteNote": "नोंद काडात",
+  "justNow": "आयजेच",
+  "note": "नोंद",
+  "notes": "नोंदी",
+  "deleteConfirmation": "तुमी खरेंच ही नोंद काडपाक सोदतात?",
+  "success": {
+    "noteCreated": "नोंद यशस्वीपणान तयार जाली",
+    "noteUpdated": "नोंद यशस्वीपणान अपडेट जाली",
+    "noteDeleted": "नोंद यशस्वीपणान काडली"
+  },
+  "errors": {
+    "failedToLoad": "नोंदी लोड करपांत अपयश",
+    "failedToCreate": "नोंद तयार करपांत अपयश",
+    "failedToUpdate": "नोंद अपडेट करपांत अपयश",
+    "failedToDelete": "नोंद काडपांत अपयश",
+    "failedToSave": "नोंद साठवपांत अपयश"
+  }
+}
+

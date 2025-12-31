@@ -1,0 +1,39 @@
+{
+  "loading": "लोड जाता...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute चो ProfileProvider अंतरगत वापर जावंक जाय"
+  },
+  "testimonials": {
+    "title": "प्रमाणपत्र व्यवस्थापन",
+    "pending": "प्रलंबित",
+    "verified": "पडताळिल्लें",
+    "all": "सगळें",
+    "loading": "प्रमाणपत्रां लोड जातात...",
+    "noTestimonials": "प्रमाणपत्रां मेळ्ळीं नात",
+    "approve": "मान्य करात",
+    "reject": "नाकारात",
+    "processing": "प्रक्रिया जाता...",
+    "approvedSuccessfully": "प्रमाणपत्र यशस्वीपणान मान्य जालें",
+    "rejectedSuccessfully": "प्रमाणपत्र यशस्वीपणान नाकारलें",
+    "failedToLoad": "प्रमाणपत्रां लोड करपांत अपयश",
+    "failedToApprove": "प्रमाणपत्र मान्य करपांत अपयश",
+    "failedToReject": "प्रमाणपत्र नाकारपांत अपयश",
+    "confirmReject": "तुमी खरेंच हें प्रमाणपत्र नाकारपाक सोदतात? ही कृती परत करूंक शकना.",
+    "previous": "पयलीं",
+    "next": "फुडें",
+    "pageInfo": "पान {{current}} / {{total}}"
+  },
+  "promotions": {
+    "title": "प्रचार व्यवस्थापन",
+    "loading": "प्रचार लोड जातात...",
+    "noPromotions": "प्रचार मेळ्ळे नात",
+    "delete": "काडात",
+    "cancel": "रद्द",
+    "processing": "प्रक्रिया जाता...",
+    "deletedSuccessfully": "प्रचार यशस्वीपणान काडलो",
+    "failedToLoad": "प्रचार लोड करपांत अपयश",
+    "failedToDelete": "प्रचार काडपांत अपयश",
+    "confirmDelete": "तुमी खरेंच हो प्रचार काडपाक सोदतात? ही कृती परत करूंक शकना."
+  }
+}
+
