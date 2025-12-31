@@ -1,0 +1,35 @@
+{
+  "title": "प्रार्थना अनुरोध",
+  "labels": {
+    "description": "विवरण",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phoneNumber": "फोन नंबर (वैकल्पिक)",
+    "media": "मीडिया (वैकल्पिक)"
+  },
+  "placeholders": {
+    "enterDescription": "कृपया हमार परिवारक स्वास्थ्य लेल प्रार्थना करब...",
+    "yourName": "अहाँक नाम",
+    "yourEmail": "अहाँक ईमेल पता",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "छवि वा वीडियो अपलोड करब (अधिकतम ५ फाइल, प्रत्येक १०MB)",
+    "addMoreFiles": "+ बेसी फाइल जोड़ब"
+  },
+  "buttons": {
+    "submitPrayerRequest": "प्रार्थना अनुरोध जमा करब",
+    "submitting": "जमा करि रहल अछि..."
+  },
+  "errors": {
+    "descriptionRequired": "कृपया अपन प्रार्थना अनुरोध लेल विवरण दर्ज करब।",
+    "failedToCreateRequest": "प्रार्थना अनुरोध बनाब मे असफल।",
+    "maxFilesExceeded": "अहाँ अधिकतम ५ फाइल अपलोड कए सकैत छी।",
+    "invalidFileType": "अवैध फाइल प्रकार: {{filename}}। केवल छवि आरू वीडियो अनुमतित अछि।",
+    "fileSizeExceeded": "फाइल आकार १०MB सीमा सँ अधिक अछि: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "प्रार्थना अनुरोध सफलतापूर्वक बनाओल गेल!"
+  }
+}
+

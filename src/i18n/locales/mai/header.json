@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "पुस्तक, नाम, लेखक खोजब...",
+  "addNewPost": "नव पोस्ट जोड़ब",
+  "noResultsFound": "परिणाम नहि मिलल",
+  "languageSelector": {
+    "searchLanguages": "भाषा खोजब...",
+    "noLanguagesFound": "भाषा नहि मिलल"
+  },
+  "filter": {
+    "selectLanguage": "भाषा चुनब",
+    "selectVersion": "पुस्तक चुनब"
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "title": "पुस्तक अपलोड करब",
+  "labels": {
+    "sourceFile": "स्रोत फाइल (.md) *",
+    "coverImage": "कवर छवि",
+    "category": "श्रेणी *",
+    "ageGroup": "आयु समूह *",
+    "language": "भाषा *",
+    "bookTitle": "शीर्षक *",
+    "description": "विवरण",
+    "bookOrder": "पुस्तक क्रम"
+  },
+  "placeholders": {
+    "selectCategory": "श्रेणी चुनब",
+    "selectAgeGroup": "आयु समूह चुनब",
+    "selectLanguage": "भाषा चुनब",
+    "enterBookTitle": "पुस्तक शीर्षक दर्ज करब",
+    "enterBookDescription": "पुस्तक विवरण दर्ज करब (वैकल्पिक)"
+  },
+  "loading": {
+    "categories": "श्रेणी लोड होइत अछि...",
+    "ageGroups": "आयु समूह लोड होइत अछि...",
+    "languages": "भाषा लोड होइत अछि...",
+    "uploading": "अपलोड होइत अछि..."
+  },
+  "selected": "चुनल गेल:",
+  "buttons": {
+    "cancel": "रद्द",
+    "uploadBook": "पुस्तक अपलोड करब"
+  },
+  "errors": {
+    "sourceFileRequired": "स्रोत फाइल जरूरी अछि",
+    "titleRequired": "शीर्षक जरूरी अछि",
+    "categoryRequired": "श्रेणी जरूरी अछि",
+    "ageGroupRequired": "आयु समूह जरूरी अछि",
+    "languageRequired": "भाषा जरूरी अछि",
+    "failedToLoadCategories": "श्रेणी लोड करब मे असफल",
+    "failedToLoadAgeGroups": "आयु समूह लोड करब मे असफल",
+    "failedToLoadLanguages": "भाषा लोड करब मे असफल",
+    "failedToUploadBook": "पुस्तक अपलोड करब मे असफल",
+    "unexpectedError": "एक अप्रत्याशित त्रुटि आएल"
+  },
+  "success": {
+    "bookCreated": "पुस्तक सफलतापूर्वक बनाओल गेल"
+  }
+}
+

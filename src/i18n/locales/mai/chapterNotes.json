@@ -1,0 +1,34 @@
+{
+  "title": "अध्याय नोट",
+  "noBookSelected": "कोनो पुस्तक नहि चुनल गेल",
+  "selectBookMessage": "नोट देखब लेल कृपया पुस्तक चुनब",
+  "noChapterSelected": "कोनो अध्याय नहि चुनल गेल",
+  "selectChapterMessage": "नोट देखब आरू बनाब लेल अध्याय चुनब",
+  "loadingNotes": "नोट लोड होइत अछि...",
+  "noNotesYet": "अखन धरि कोनो नोट नहि",
+  "startWritingMessage": "एहि अध्याय केर बारे मे अपन विचार आरू अंतर्दृष्टि लिखब शुरू करब",
+  "placeholder": "अपन नोट हाँगा लिखब...",
+  "cancel": "रद्द",
+  "saving": "सहेज रहल अछि...",
+  "updateNote": "नोट अपडेट करब",
+  "saveNote": "नोट सहेज",
+  "editNote": "नोट सम्पादन करब",
+  "deleteNote": "नोट मेटाब",
+  "justNow": "अखन",
+  "note": "नोट",
+  "notes": "नोट",
+  "deleteConfirmation": "की अहाँ निश्चित छी जे अहाँ एहि नोट मेटाब चाहैत छी?",
+  "success": {
+    "noteCreated": "नोट सफलतापूर्वक बनाओल गेल",
+    "noteUpdated": "नोट सफलतापूर्वक अपडेट भेल",
+    "noteDeleted": "नोट सफलतापूर्वक मेटाओल गेल"
+  },
+  "errors": {
+    "failedToLoad": "नोट लोड करब मे असफल",
+    "failedToCreate": "नोट बनाब मे असफल",
+    "failedToUpdate": "नोट अपडेट करब मे असफल",
+    "failedToDelete": "नोट मेटाब मे असफल",
+    "failedToSave": "नोट सहेज मे असफल"
+  }
+}
+

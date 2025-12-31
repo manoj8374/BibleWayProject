@@ -1,0 +1,25 @@
+{
+  "title": "पोस्ट सम्पादन करब",
+  "labels": {
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "media": "मीडिया"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट शीर्षक दर्ज करब...",
+    "enterDescription": "विवरण दर्ज करब..."
+  },
+  "buttons": {
+    "cancel": "रद्द",
+    "save": "सहेज",
+    "updating": "अपडेट करि रहल अछि..."
+  },
+  "errors": {
+    "noChanges": "कोनो बदलाव नहि मिलल",
+    "failedToUpdatePost": "पोस्ट अपडेट करब मे असफल"
+  },
+  "success": {
+    "postUpdated": "पोस्ट सफलतापूर्वक अपडेट भेल"
+  }
+}
+

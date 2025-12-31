@@ -1,0 +1,8 @@
+{
+  "required": "एहि फील्ड जरूरी अछि",
+  "invalidEmail": "कृपया वैध ईमेल पता दर्ज करब",
+  "passwordTooShort": "पासवर्ड कम सँ कम ८ अक्षरक होनाइ चाही",
+  "passwordsDoNotMatch": "पासवर्ड मेल नहि खाइत",
+  "somethingWentWrong": "किछु गलत भेल। कृपया फेर कोशिश करब।"
+}
+

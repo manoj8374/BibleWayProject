@@ -1,0 +1,15 @@
+{
+  "title": "वर्गीकृत बाइबल",
+  "loadingAgeGroups": "आयु समूह लोड होइत अछि...",
+  "failedToLoadAgeGroups": "आयु समूह लोड करब मे असफल",
+  "unexpectedErrorLoadingAgeGroups": "आयु समूह लोड करब के दौरान एक अप्रत्याशित त्रुटि आएल",
+  "noAgeGroupsAvailable": "आयु समूह उपलब्ध नहि",
+  "pleaseSelectCategoryFirst": "कृपया पहिले श्रेणी चुनब",
+  "noBooksAvailable": "एहि चयन लेल पुस्तक उपलब्ध नहि",
+  "failedToFetchBooks": "पुस्तक प्राप्त करब मे असफल",
+  "categoryNotFound": "श्रेणी नहि मिलल",
+  "ageGroupNotFound": "आयु समूह नहि मिलल",
+  "languageNotFound": "भाषा नहि मिलल",
+  "unexpectedErrorFetchingBooks": "पुस्तक प्राप्त करब के दौरान एक अप्रत्याशित त्रुटि आएल"
+}
+

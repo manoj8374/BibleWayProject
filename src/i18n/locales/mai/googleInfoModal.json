@@ -1,0 +1,20 @@
+{
+  "title": "साइन अप पूरा करब",
+  "description": "अहाँक खाता बनाब लेल हमरा किछु बेसी विवरण चाही।",
+  "labels": {
+    "age": "आयु",
+    "language": "भाषा",
+    "country": "देश"
+  },
+  "placeholders": {
+    "age": "उदा. २५",
+    "language": "उदा. अंग्रेजी",
+    "country": "उदा. भारत"
+  },
+  "buttons": {
+    "cancel": "रद्द",
+    "continue": "जारी रखब",
+    "creating": "बनाब रहल अछि..."
+  }
+}
+

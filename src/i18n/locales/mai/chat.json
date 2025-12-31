@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन"
+  },
+  "messages": {
+    "loading": "संदेश लोड होइत अछि...",
+    "noMessages": "अखन धरि कोनो संदेश नहि",
+    "deleted": "एहि संदेश मेटाओल गेल",
+    "sharedImage": "साझा कएल गेल छवि",
+    "viewAttachment": "अटैचमेंट देखब",
+    "seen": "देखल गेल",
+    "deleteMessage": "संदेश मेटाब"
+  },
+  "typing": {
+    "isTyping": "टाइप करि रहल अछि...",
+    "peopleTyping": "लोक टाइप करि रहल अछि..."
+  },
+  "input": {
+    "placeholder": "संदेश टाइप करब...",
+    "pressEnterToSend": "भेजबाक लेल Enter दबाब"
+  },
+  "deleteModal": {
+    "title": "संदेश मेटाब?",
+    "message": "की अहाँ निश्चित छी जे अहाँ एहि संदेश मेटाब चाहैत छी? एहि क्रिया पूर्ववत नहि कएल जाए सकैत अछि।",
+    "cancel": "रद्द",
+    "delete": "मेटाब"
+  },
+  "uploadModal": {
+    "title": "फाइल भेजब",
+    "uploading": "अपलोड आरू भेजि रहल अछि...",
+    "sendFile": "{{filename}} भेजब?",
+    "sending": "भेजि रहल अछि...",
+    "send": "भेजब",
+    "cancel": "रद्द"
+  },
+  "errors": {
+    "fetchConversation": "बातचीत प्राप्त करब मे असफल",
+    "invalidFileType": "अवैध फाइल प्रकार। केवल छवि आरू वीडियो अनुमतित अछि।",
+    "fileSizeExceeded": "फाइल आकार 10MB सीमा सँ अधिक अछि।",
+    "uploadFailed": "फाइल अपलोड असफल",
+    "failedToLoadStickers": "स्टिकर लोड करब मे असफल"
+  },
+  "stickers": {
+    "loading": "स्टिकर लोड होइत अछि...",
+    "noStickers": "स्टिकर उपलब्ध नहि"
+  }
+}
+

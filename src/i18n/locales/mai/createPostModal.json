@@ -1,0 +1,28 @@
+{
+  "title": "पोस्ट बनाब",
+  "labels": {
+    "title": "शीर्षक",
+    "description": "विवरण"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट शीर्षक दर्ज करब...",
+    "enterDescription": "हम Google मे नौकरी पाएलहुँ..."
+  },
+  "upload": {
+    "uploadFiles": "अपन फाइल हाँगा अपलोड करब (अधिकतम ५)",
+    "addMoreFiles": "+ बेसी फाइल जोड़ब"
+  },
+  "buttons": {
+    "createPost": "पोस्ट बनाब",
+    "creating": "बनाब रहल अछि..."
+  },
+  "errors": {
+    "maxFilesExceeded": "अहाँ अधिकतम ५ फाइल अपलोड कए सकैत छी।",
+    "atLeastOneFile": "कृपया कम सँ कम एक मीडिया फाइल अपलोड करब।",
+    "failedToCreatePost": "पोस्ट बनाब मे असफल।"
+  },
+  "success": {
+    "postCreated": "पोस्ट सफलतापूर्वक बनाओल गेल!"
+  }
+}
+

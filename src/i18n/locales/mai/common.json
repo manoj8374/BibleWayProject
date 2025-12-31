@@ -1,0 +1,22 @@
+{
+  "welcome": "स्वागत छ",
+  "login": "लॉगिन",
+  "signup": "साइन अप",
+  "logout": "लॉगआउट",
+  "home": "घर",
+  "profile": "प्रोफाइल",
+  "settings": "सेटिंग्स",
+  "save": "सहेज",
+  "cancel": "रद्द",
+  "delete": "मेटाब",
+  "edit": "सम्पादन",
+  "submit": "जमा करब",
+  "loading": "लोड होइत अछि...",
+  "error": "त्रुटि",
+  "success": "सफल",
+  "linkCopied": "लिंक क्लिपबोर्ड मे कॉपी भेल!",
+  "failedToCopy": "लिंक कॉपी करब मे असफल",
+  "sharePost": "पोस्ट साझा करब",
+  "sharePrayerRequest": "प्रार्थना अनुरोध साझा करब"
+}
+

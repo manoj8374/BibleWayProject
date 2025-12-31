@@ -1,0 +1,39 @@
+{
+  "loading": "लोड होइत अछि...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute के ProfileProvider के भीतर उपयोग कएल जाएनाइ चाही"
+  },
+  "testimonials": {
+    "title": "प्रमाणपत्र प्रबंधन",
+    "pending": "लंबित",
+    "verified": "सत्यापित",
+    "all": "सब",
+    "loading": "प्रमाणपत्र लोड होइत अछि...",
+    "noTestimonials": "प्रमाणपत्र नहि मिलल",
+    "approve": "अनुमोदन करब",
+    "reject": "अस्वीकार करब",
+    "processing": "प्रसंस्करण होइत अछि...",
+    "approvedSuccessfully": "प्रमाणपत्र सफलतापूर्वक अनुमोदित भेल",
+    "rejectedSuccessfully": "प्रमाणपत्र सफलतापूर्वक अस्वीकार भेल",
+    "failedToLoad": "प्रमाणपत्र लोड करब मे असफल",
+    "failedToApprove": "प्रमाणपत्र अनुमोदन करब मे असफल",
+    "failedToReject": "प्रमाणपत्र अस्वीकार करब मे असफल",
+    "confirmReject": "की अहाँ निश्चित छी जे अहाँ एहि प्रमाणपत्र अस्वीकार करब चाहैत छी? एहि क्रिया पूर्ववत नहि कएल जाए सकैत अछि।",
+    "previous": "पिछला",
+    "next": "अगला",
+    "pageInfo": "पृष्ठ {{current}} / {{total}}"
+  },
+  "promotions": {
+    "title": "प्रचार प्रबंधन",
+    "loading": "प्रचार लोड होइत अछि...",
+    "noPromotions": "प्रचार नहि मिलल",
+    "delete": "मेटाब",
+    "cancel": "रद्द",
+    "processing": "प्रसंस्करण होइत अछि...",
+    "deletedSuccessfully": "प्रचार सफलतापूर्वक मेटाओल गेल",
+    "failedToLoad": "प्रचार लोड करब मे असफल",
+    "failedToDelete": "प्रचार मेटाब मे असफल",
+    "confirmDelete": "की अहाँ निश्चित छी जे अहाँ एहि प्रचार मेटाब चाहैत छी? एहि क्रिया पूर्ववत नहि कएल जाए सकैत अछि।"
+  }
+}
+

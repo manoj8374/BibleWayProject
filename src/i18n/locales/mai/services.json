@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "एक अप्रत्याशित त्रुटि आएल।",
+    "receivedToken": "टोकन प्राप्त भेल"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट बनाब के दौरान एक अप्रत्याशित त्रुटि आएल।",
+    "failedToFetchPosts": "पोस्ट प्राप्त करब मे असफल।",
+    "failedToFetchUserPosts": "उपयोगकर्ता पोस्ट प्राप्त करब मे असफल।",
+    "failedToFetchPostDetails": "पोस्ट विवरण प्राप्त करब मे असफल।",
+    "failedToUpdatePost": "पोस्ट अपडेट करब मे असफल",
+    "failedToDeletePost": "पोस्ट मेटाब मे असफल",
+    "failedToCreateComment": "टिप्पणी बनाब मे असफल।",
+    "failedToUpdateComment": "टिप्पणी अपडेट करब मे असफल।",
+    "failedToDeleteComment": "टिप्पणी मेटाब मे असफल।",
+    "failedToFetchComments": "टिप्पणी प्राप्त करब मे असफल।",
+    "failedToLikeComment": "टिप्पणी लाइक करब मे असफल।",
+    "failedToUnlikeComment": "टिप्पणी अनलाइक करब मे असफल।",
+    "failedToLikePost": "पोस्ट लाइक करब मे असफल।",
+    "failedToUnlikePost": "पोस्ट अनलाइक करब मे असफल।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "उपयोगकर्ता प्रोफाइल प्राप्त करब मे असफल।",
+    "failedToFollowUser": "उपयोगकर्ता फॉलो करब मे असफल।",
+    "failedToUnfollowUser": "उपयोगकर्ता अनफॉलो करब मे असफल।",
+    "failedToGetRecommendedUsers": "सुझाव देल गेल उपयोगकर्ता प्राप्त करब मे असफल।",
+    "failedToGetUserProfile": "उपयोगकर्ता प्रोफाइल प्राप्त करब मे असफल।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वॉलपेपर लोड करब मे असफल"
+  },
+  "verse": {
+    "failedToLoadVerses": "वचन लोड करब मे असफल",
+    "failedToLikeVerse": "वचन लाइक करब मे असफल",
+    "failedToUnlikeVerse": "वचन अनलाइक करब मे असफल"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तक लोड करब मे असफल"
+  }
+}
+

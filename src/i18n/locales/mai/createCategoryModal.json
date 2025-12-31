@@ -1,0 +1,28 @@
+{
+  "title": "श्रेणी बनाब",
+  "labels": {
+    "categoryName": "श्रेणी नाम *",
+    "description": "विवरण",
+    "displayOrder": "प्रदर्शन क्रम",
+    "coverImage": "कवर छवि"
+  },
+  "placeholders": {
+    "selectCategoryName": "श्रेणी नाम चुनब",
+    "enterDescription": "श्रेणी विवरण दर्ज करब (वैकल्पिक)"
+  },
+  "selected": "चुनल गेल:",
+  "buttons": {
+    "cancel": "रद्द",
+    "createCategory": "श्रेणी बनाब",
+    "creating": "बनाब रहल अछि..."
+  },
+  "errors": {
+    "categoryNameRequired": "श्रेणी नाम जरूरी अछि",
+    "failedToCreateCategory": "श्रेणी बनाब मे असफल",
+    "unexpectedError": "एक अप्रत्याशित त्रुटि आएल"
+  },
+  "success": {
+    "categoryCreated": "श्रेणी सफलतापूर्वक बनाओल गेल"
+  }
+}
+

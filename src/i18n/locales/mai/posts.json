@@ -1,0 +1,23 @@
+{
+  "edit": "सम्पादन",
+  "delete": "मेटाब",
+  "deleteConfirm": "एहि पोस्ट मेटाब?",
+  "cancel": "रद्द",
+  "save": "सहेज",
+  "saving": "सहेज रहल अछि...",
+  "deleting": "मेटाब रहल अछि...",
+  "likes": "लाइक्स",
+  "like": "लाइक",
+  "comments": "टिप्पणी",
+  "comment": "टिप्पणी",
+  "share": "साझा करब",
+  "shares": "साझा",
+  "writeComment": "टिप्पणी लिखब...",
+  "writeYourComment": "अपन टिप्पणी लिखब...",
+  "failedToComment": "टिप्पणी करब मे असफल",
+  "actionFailed": "क्रिया असफल",
+  "commentAdded": "टिप्पणी सफलतापूर्वक जोड़ल गेल",
+  "failedToCreateComment": "टिप्पणी बनाब मे असफल",
+  "failedToUpdateLike": "लाइक स्थिति अपडेट करब मे असफल"
+}
+
