@@ -1,11 +1,10 @@
 {
-  "list": "List",
-  "bookmark": "Bookmark",
-  "quickNote": "Quick note",
-  "noChaptersAvailable": "No chapters available",
-  "chapter": "Chapter",
-  "noChapterSelected": "No chapter selected",
-  "selectChapterToBegin": "Select a chapter from the sidebar to begin reading",
-  "ttsLanguage": "TTS Language:"
+  "list": "Lista",
+  "bookmark": "Zakładka",
+  "quickNote": "Szybka notatka",
+  "noChaptersAvailable": "Brak dostępnych rozdziałów",
+  "chapter": "Rozdział",
+  "noChapterSelected": "Nie wybrano rozdziału",
+  "selectChapterToBegin": "Wybierz rozdział z paska bocznego, aby rozpocząć czytanie",
+  "ttsLanguage": "Język TTS:"
 }
-

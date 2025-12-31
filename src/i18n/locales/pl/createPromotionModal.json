@@ -1,39 +1,38 @@
 {
-  "title": "Create Promotion",
+  "title": "Utwórz promocję",
   "labels": {
-    "title": "Title *",
-    "description": "Description",
-    "price": "Price",
-    "redirectLink": "Redirect Link *",
-    "metaData": "Meta Data (JSON)",
-    "mediaFile": "Media File (Image/Video/Audio)",
-    "images": "Images (Multiple)"
+    "title": "Tytuł *",
+    "description": "Opis",
+    "price": "Cena",
+    "redirectLink": "Link przekierowania *",
+    "metaData": "Meta dane (JSON)",
+    "mediaFile": "Plik multimedialny (obraz/wideo/audio)",
+    "images": "Obrazy (wiele)"
   },
   "placeholders": {
-    "enterPromotionTitle": "Enter promotion title",
-    "enterDescription": "Enter promotion description (optional)",
+    "enterPromotionTitle": "Wprowadź tytuł promocji",
+    "enterDescription": "Wprowadź opis promocji (opcjonalnie)",
     "price": "0.00",
     "redirectLink": "https://example.com",
     "metaData": "{\"key\": \"value\"}"
   },
-  "selected": "Selected:",
+  "selected": "Wybrano:",
   "buttons": {
-    "cancel": "Cancel",
-    "createPromotion": "Create Promotion",
-    "creating": "Creating..."
+    "cancel": "Anuluj",
+    "createPromotion": "Utwórz promocję",
+    "creating": "Tworzenie..."
   },
   "errors": {
-    "titleRequired": "Title is required",
-    "priceRequired": "Price is required",
-    "priceInvalid": "Price must be a valid number",
-    "redirectLinkRequired": "Redirect link is required",
-    "redirectLinkInvalid": "Redirect link must be a valid URL",
-    "metaDataInvalid": "Meta data must be valid JSON format",
-    "failedToCreatePromotion": "Failed to create promotion",
-    "unexpectedError": "An unexpected error occurred"
+    "titleRequired": "Tytuł jest wymagany",
+    "priceRequired": "Cena jest wymagana",
+    "priceInvalid": "Cena musi być prawidłową liczbą",
+    "redirectLinkRequired": "Link przekierowania jest wymagany",
+    "redirectLinkInvalid": "Link przekierowania musi być prawidłowym adresem URL",
+    "metaDataInvalid": "Meta dane muszą być w prawidłowym formacie JSON",
+    "failedToCreatePromotion": "Nie udało się utworzyć promocji",
+    "unexpectedError": "Wystąpił nieoczekiwany błąd"
   },
   "success": {
-    "promotionCreated": "Promotion created successfully"
+    "promotionCreated": "Promocja utworzona pomyślnie"
   }
 }
-

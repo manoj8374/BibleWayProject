@@ -1,20 +1,19 @@
 {
-  "title": "Complete Signup",
-  "description": "We need a few more details to finish creating your account.",
+  "title": "Uzupełnij rejestrację",
+  "description": "Potrzebujemy jeszcze kilku szczegółów, aby dokończyć tworzenie konta.",
   "labels": {
-    "age": "Age",
-    "language": "Language",
-    "country": "Country"
+    "age": "Wiek",
+    "language": "Język",
+    "country": "Kraj"
   },
   "placeholders": {
-    "age": "e.g. 25",
-    "language": "e.g. English",
-    "country": "e.g. India"
+    "age": "np. 25",
+    "language": "np. Polski",
+    "country": "np. Polska"
   },
   "buttons": {
-    "cancel": "Cancel",
-    "continue": "Continue",
-    "creating": "Creating..."
+    "cancel": "Anuluj",
+    "continue": "Kontynuuj",
+    "creating": "Tworzenie..."
   }
 }
-

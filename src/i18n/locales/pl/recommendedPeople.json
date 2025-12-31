@@ -1,9 +1,8 @@
 {
-  "title": "Recommended People",
-  "searchPlaceholder": "Search book, name, author...",
-  "noResultsFound": "No results found",
-  "noRecommendationsAvailable": "No recommendations available",
-  "following": "Following",
-  "follow": "+ Follow"
+  "title": "Rekomendowani ludzie",
+  "searchPlaceholder": "Szukaj książki, nazwy, autora...",
+  "noResultsFound": "Nie znaleziono wyników",
+  "noRecommendationsAvailable": "Brak dostępnych rekomendacji",
+  "following": "Obserwowani",
+  "follow": "+ Obserwuj"
 }
-

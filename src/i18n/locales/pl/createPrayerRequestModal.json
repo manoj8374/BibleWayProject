@@ -1,35 +1,34 @@
 {
-  "title": "Prayer Request",
+  "title": "Prośba o modlitwę",
   "labels": {
-    "description": "Description",
-    "name": "Name",
-    "email": "Email",
-    "phoneNumber": "Phone Number(optional)",
-    "media": "Media (Optional)"
+    "description": "Opis",
+    "name": "Imię",
+    "email": "E-mail",
+    "phoneNumber": "Numer telefonu (opcjonalnie)",
+    "media": "Media (opcjonalnie)"
   },
   "placeholders": {
-    "enterDescription": "Please pray for my family's health...",
-    "yourName": "Your Name",
-    "yourEmail": "Your Email Address",
+    "enterDescription": "Proszę o modlitwę za zdrowie mojej rodziny...",
+    "yourName": "Twoje imię",
+    "yourEmail": "Twój adres e-mail",
     "phoneNumber": "8023456789"
   },
   "upload": {
-    "uploadText": "Upload images or videos (Max 5 files, 10MB each)",
-    "addMoreFiles": "+ Add more files"
+    "uploadText": "Prześlij zdjęcia lub filmy (Maks. 5 plików, 10 MB każdy)",
+    "addMoreFiles": "+ Dodaj więcej plików"
   },
   "buttons": {
-    "submitPrayerRequest": "Submit Prayer Request",
-    "submitting": "Submitting..."
+    "submitPrayerRequest": "Wyślij prośbę o modlitwę",
+    "submitting": "Wysyłanie..."
   },
   "errors": {
-    "descriptionRequired": "Please enter a description for your prayer request.",
-    "failedToCreateRequest": "Failed to create prayer request.",
-    "maxFilesExceeded": "You can upload a maximum of 5 files.",
-    "invalidFileType": "Invalid file type: {{filename}}. Only images and videos are allowed.",
-    "fileSizeExceeded": "File size exceeds 10MB limit: {{filename}}"
+    "descriptionRequired": "Wprowadź opis swojej prośby o modlitwę.",
+    "failedToCreateRequest": "Nie udało się utworzyć prośby o modlitwę.",
+    "maxFilesExceeded": "Możesz przesłać maksymalnie 5 plików.",
+    "invalidFileType": "Nieprawidłowy typ pliku: {{filename}}. Dozwolone są tylko obrazy i filmy.",
+    "fileSizeExceeded": "Rozmiar pliku przekracza limit 10 MB: {{filename}}"
   },
   "success": {
-    "requestCreated": "Prayer request created successfully!"
+    "requestCreated": "Prośba o modlitwę utworzona pomyślnie!"
   }
 }
-

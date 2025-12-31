@@ -1,9 +1,8 @@
 {
-  "title": "Promotions",
-  "loading": "Loading promotions...",
-  "noPromotionsAvailable": "No promotions available",
-  "viewDetails": "View Details",
-  "buyNow": "Buy Now",
-  "failedToLoad": "Failed to load promotions"
+  "title": "Promocje",
+  "loading": "Ładowanie promocji...",
+  "noPromotionsAvailable": "Brak dostępnych promocji",
+  "viewDetails": "Zobacz szczegóły",
+  "buyNow": "Kup teraz",
+  "failedToLoad": "Nie udało się załadować promocji"
 }
-

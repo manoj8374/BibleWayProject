@@ -1,15 +1,14 @@
 {
-  "title": "Segregated Bibles",
-  "loadingAgeGroups": "Loading age groups...",
-  "failedToLoadAgeGroups": "Failed to load age groups",
-  "unexpectedErrorLoadingAgeGroups": "An unexpected error occurred while loading age groups",
-  "noAgeGroupsAvailable": "No age groups available",
-  "pleaseSelectCategoryFirst": "Please select a category first",
-  "noBooksAvailable": "No books available for this selection",
-  "failedToFetchBooks": "Failed to fetch books",
-  "categoryNotFound": "Category not found",
-  "ageGroupNotFound": "Age group not found",
-  "languageNotFound": "Language not found",
-  "unexpectedErrorFetchingBooks": "An unexpected error occurred while fetching books"
+  "title": "Segregowane Biblie",
+  "loadingAgeGroups": "Ładowanie grup wiekowych...",
+  "failedToLoadAgeGroups": "Nie udało się załadować grup wiekowych",
+  "unexpectedErrorLoadingAgeGroups": "Wystąpił nieoczekiwany błąd podczas ładowania grup wiekowych",
+  "noAgeGroupsAvailable": "Brak dostępnych grup wiekowych",
+  "pleaseSelectCategoryFirst": "Najpierw wybierz kategorię",
+  "noBooksAvailable": "Brak dostępnych książek dla tego wyboru",
+  "failedToFetchBooks": "Nie udało się pobrać książek",
+  "categoryNotFound": "Nie znaleziono kategorii",
+  "ageGroupNotFound": "Nie znaleziono grupy wiekowej",
+  "languageNotFound": "Nie znaleziono języka",
+  "unexpectedErrorFetchingBooks": "Wystąpił nieoczekiwany błąd podczas pobierania książek"
 }
-

@@ -1,16 +1,15 @@
 {
-  "searchPeople": "Search People",
-  "searchPeoplePlaceholder": "Search people...",
-  "searching": "Searching...",
-  "noUsersFound": "No users found",
-  "follow": "Follow",
-  "following": "Following",
-  "failedToUpdateFollowStatus": "Failed to update follow status",
-  "loadingInbox": "Loading inbox...",
-  "noMessages": "No messages",
-  "you": "You: ",
-  "attachment": "Attachment",
-  "noMessagesText": "No messages",
-  "sticker": "📷 Sticker"
+  "searchPeople": "Szukaj ludzi",
+  "searchPeoplePlaceholder": "Szukaj ludzi...",
+  "searching": "Wyszukiwanie...",
+  "noUsersFound": "Nie znaleziono użytkowników",
+  "follow": "Obserwuj",
+  "following": "Obserwowani",
+  "failedToUpdateFollowStatus": "Nie udało się zaktualizować statusu obserwowania",
+  "loadingInbox": "Ładowanie skrzynki odbiorczej...",
+  "noMessages": "Brak wiadomości",
+  "you": "Ty: ",
+  "attachment": "Załącznik",
+  "noMessagesText": "Brak wiadomości",
+  "sticker": "📷 Naklejka"
 }
-

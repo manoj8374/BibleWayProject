@@ -1,10 +1,9 @@
 {
-  "buttonText": "Continue With Google",
+  "buttonText": "Kontynuuj z Google",
   "success": {
-    "loginSuccessful": "Login successful"
+    "loginSuccessful": "Logowanie udane"
   },
   "errors": {
-    "loginFailed": "Login failed"
+    "loginFailed": "Logowanie nie powiodło się"
   }
 }
-

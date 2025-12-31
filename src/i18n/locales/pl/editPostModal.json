@@ -1,25 +1,24 @@
 {
-  "title": "Edit Post",
+  "title": "Edytuj post",
   "labels": {
-    "title": "Title",
-    "description": "Description",
+    "title": "Tytuł",
+    "description": "Opis",
     "media": "Media"
   },
   "placeholders": {
-    "enterPostTitle": "Enter post title...",
-    "enterDescription": "Enter description..."
+    "enterPostTitle": "Wprowadź tytuł postu...",
+    "enterDescription": "Wprowadź opis..."
   },
   "buttons": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "updating": "Updating..."
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "updating": "Aktualizowanie..."
   },
   "errors": {
-    "noChanges": "No changes detected",
-    "failedToUpdatePost": "Failed to update post"
+    "noChanges": "Nie wykryto zmian",
+    "failedToUpdatePost": "Nie udało się zaktualizować postu"
   },
   "success": {
-    "postUpdated": "Post updated successfully"
+    "postUpdated": "Post zaktualizowany pomyślnie"
   }
 }
-

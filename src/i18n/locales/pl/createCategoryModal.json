@@ -1,28 +1,27 @@
 {
-  "title": "Create Category",
+  "title": "Utwórz kategorię",
   "labels": {
-    "categoryName": "Category Name *",
-    "description": "Description",
-    "displayOrder": "Display Order",
-    "coverImage": "Cover Image"
+    "categoryName": "Nazwa kategorii *",
+    "description": "Opis",
+    "displayOrder": "Kolejność wyświetlania",
+    "coverImage": "Obraz okładki"
   },
   "placeholders": {
-    "selectCategoryName": "Select a category name",
-    "enterDescription": "Enter category description (optional)"
+    "selectCategoryName": "Wybierz nazwę kategorii",
+    "enterDescription": "Wprowadź opis kategorii (opcjonalnie)"
   },
-  "selected": "Selected:",
+  "selected": "Wybrano:",
   "buttons": {
-    "cancel": "Cancel",
-    "createCategory": "Create Category",
-    "creating": "Creating..."
+    "cancel": "Anuluj",
+    "createCategory": "Utwórz kategorię",
+    "creating": "Tworzenie..."
   },
   "errors": {
-    "categoryNameRequired": "Category name is required",
-    "failedToCreateCategory": "Failed to create category",
-    "unexpectedError": "An unexpected error occurred"
+    "categoryNameRequired": "Nazwa kategorii jest wymagana",
+    "failedToCreateCategory": "Nie udało się utworzyć kategorii",
+    "unexpectedError": "Wystąpił nieoczekiwany błąd"
   },
   "success": {
-    "categoryCreated": "Category created successfully"
+    "categoryCreated": "Kategoria utworzona pomyślnie"
   }
 }
-

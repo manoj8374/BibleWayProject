@@ -1,47 +1,46 @@
 {
-  "title": "Upload Book",
+  "title": "Prześlij książkę",
   "labels": {
-    "sourceFile": "Source File (.md) *",
-    "coverImage": "Cover Image",
-    "category": "Category *",
-    "ageGroup": "Age Group *",
-    "language": "Language *",
-    "bookTitle": "Title *",
-    "description": "Description",
-    "bookOrder": "Book Order"
+    "sourceFile": "Plik źródłowy (.md) *",
+    "coverImage": "Obraz okładki",
+    "category": "Kategoria *",
+    "ageGroup": "Grupa wiekowa *",
+    "language": "Język *",
+    "bookTitle": "Tytuł *",
+    "description": "Opis",
+    "bookOrder": "Kolejność książki"
   },
   "placeholders": {
-    "selectCategory": "Select a category",
-    "selectAgeGroup": "Select an age group",
-    "selectLanguage": "Select a language",
-    "enterBookTitle": "Enter book title",
-    "enterBookDescription": "Enter book description (optional)"
+    "selectCategory": "Wybierz kategorię",
+    "selectAgeGroup": "Wybierz grupę wiekową",
+    "selectLanguage": "Wybierz język",
+    "enterBookTitle": "Wprowadź tytuł książki",
+    "enterBookDescription": "Wprowadź opis książki (opcjonalnie)"
   },
   "loading": {
-    "categories": "Loading categories...",
-    "ageGroups": "Loading age groups...",
-    "languages": "Loading languages...",
-    "uploading": "Uploading..."
+    "categories": "Ładowanie kategorii...",
+    "ageGroups": "Ładowanie grup wiekowych...",
+    "languages": "Ładowanie języków...",
+    "uploading": "Przesyłanie..."
   },
-  "selected": "Selected:",
+  "selected": "Wybrano:",
   "buttons": {
-    "cancel": "Cancel",
-    "uploadBook": "Upload Book"
+    "cancel": "Anuluj",
+    "uploadBook": "Prześlij książkę"
   },
   "errors": {
-    "sourceFileRequired": "Source file is required",
-    "titleRequired": "Title is required",
-    "categoryRequired": "Category is required",
-    "ageGroupRequired": "Age group is required",
-    "languageRequired": "Language is required",
-    "failedToLoadCategories": "Failed to load categories",
-    "failedToLoadAgeGroups": "Failed to load age groups",
-    "failedToLoadLanguages": "Failed to load languages",
-    "failedToUploadBook": "Failed to upload book",
-    "unexpectedError": "An unexpected error occurred"
+    "sourceFileRequired": "Plik źródłowy jest wymagany",
+    "titleRequired": "Tytuł jest wymagany",
+    "categoryRequired": "Kategoria jest wymagana",
+    "ageGroupRequired": "Grupa wiekowa jest wymagana",
+    "languageRequired": "Język jest wymagany",
+    "failedToLoadCategories": "Nie udało się załadować kategorii",
+    "failedToLoadAgeGroups": "Nie udało się załadować grup wiekowych",
+    "failedToLoadLanguages": "Nie udało się załadować języków",
+    "failedToUploadBook": "Nie udało się przesłać książki",
+    "unexpectedError": "Wystąpił nieoczekiwany błąd"
   },
   "success": {
-    "bookCreated": "Book created successfully"
+    "bookCreated": "Książka utworzona pomyślnie"
   }
 }
-

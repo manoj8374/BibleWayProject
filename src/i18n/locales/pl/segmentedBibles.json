@@ -1,6 +1,5 @@
 {
-  "loading": "Loading...",
-  "failedToLoadCategories": "Failed to load categories",
-  "noCategoriesAvailable": "No categories available"
+  "loading": "Ładowanie...",
+  "failedToLoadCategories": "Nie udało się załadować kategorii",
+  "noCategoriesAvailable": "Brak dostępnych kategorii"
 }
-
