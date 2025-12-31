@@ -1,0 +1,33 @@
+{
+  "title": "Vidokezo vya Sura",
+  "noBookSelected": "Hakuna kitabu kilichochaguliwa",
+  "selectBookMessage": "Tafadhali chagua kitabu ili uone vidokezo",
+  "noChapterSelected": "Hakuna sura iliyochaguliwa",
+  "selectChapterMessage": "Chagua sura ili uone na uandike vidokezo",
+  "loadingNotes": "Inapakia vidokezo...",
+  "noNotesYet": "Bado hakuna vidokezo",
+  "startWritingMessage": "Anza kuandika mawazo na ufahamu wako kuhusu sura hii",
+  "placeholder": "Andika vidokezo vyako hapa...",
+  "cancel": "Ghairi",
+  "saving": "Inahifadhi...",
+  "updateNote": "Sasisha Kidokezo",
+  "saveNote": "Hifadhi Kidokezo",
+  "editNote": "Hariri Kidokezo",
+  "deleteNote": "Futa Kidokezo",
+  "justNow": "Sasa hivi",
+  "note": "kidokezo",
+  "notes": "vidokezo",
+  "deleteConfirmation": "Je, una uhakika unataka kufuta kidokezo hiki?",
+  "success": {
+    "noteCreated": "Kidokezo kimeundwa kwa mafanikio",
+    "noteUpdated": "Kidokezo kimesasishwa kwa mafanikio",
+    "noteDeleted": "Kidokezo kifutwa kwa mafanikio"
+  },
+  "errors": {
+    "failedToLoad": "Imeshindwa kupakia vidokezo",
+    "failedToCreate": "Imeshindwa kuunda kidokezo",
+    "failedToUpdate": "Imeshindwa kusasisha kidokezo",
+    "failedToDelete": "Imeshindwa kufuta kidokezo",
+    "failedToSave": "Imeshindwa kuhifadhi kidokezo"
+  }
+}

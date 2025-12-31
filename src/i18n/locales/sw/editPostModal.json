@@ -1,0 +1,22 @@
+{
+  "title": "Hariri Chapisho",
+  "labels": {
+    "title": "Kichwa",
+    "description": "Maelezo"
+  },
+  "placeholders": {
+    "enterPostTitle": "Ingiza kichwa cha chapisho...",
+    "enterDescription": "Hariri maelezo yako hapa..."
+  },
+  "buttons": {
+    "saveChanges": "Hifadhi Mabadiliko",
+    "saving": "Inahifadhi...",
+    "cancel": "Ghairi"
+  },
+  "errors": {
+    "failedToUpdatePost": "Imeshindwa kusasisha chapisho."
+  },
+  "success": {
+    "postUpdated": "Chapisho limesasishwa kwa mafanikio!"
+  }
+}

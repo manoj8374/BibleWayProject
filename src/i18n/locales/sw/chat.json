@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Yuko mkondoni",
+    "offline": "Hayuko mkondoni"
+  },
+  "messages": {
+    "loading": "Inapakia ujumbe...",
+    "noMessages": "Bado hakuna ujumbe",
+    "deleted": "Ujumbe huu ulifutwa",
+    "sharedImage": "Picha iliyoshirikiwa",
+    "viewAttachment": "Angalia kiambatisho",
+    "seen": "Imeonekana",
+    "deleteMessage": "Futa ujumbe"
+  },
+  "typing": {
+    "isTyping": "anaandika...",
+    "peopleTyping": "watu wanaandika..."
+  },
+  "input": {
+    "placeholder": "Andika ujumbe...",
+    "pressEnterToSend": "Bonyeza Enter ili kutuma"
+  },
+  "deleteModal": {
+    "title": "Futa ujumbe?",
+    "message": "Je, una uhakika unataka kufuta ujumbe huu? Hatua hii haiwezi kutenguliwa.",
+    "cancel": "Ghairi",
+    "delete": "Futa"
+  },
+  "uploadModal": {
+    "title": "Tuma Faili",
+    "uploading": "Inapakia na kutuma...",
+    "sendFile": "Je, utume {{filename}}?",
+    "sending": "Inatuma...",
+    "send": "Tuma",
+    "cancel": "Ghairi"
+  },
+  "errors": {
+    "fetchConversation": "Imeshindwa kupata mazungumzo",
+    "invalidFileType": "Aina ya faili batili. Picha na video pekee ndizo zinazoruhusiwa.",
+    "fileSizeExceeded": "Ukubwa wa faili umezidi kikomo cha 10MB.",
+    "uploadFailed": "Imeshindwa kupakia faili",
+    "failedToLoadStickers": "Imeshindwa kupakia vibandiko"
+  },
+  "stickers": {
+    "loading": "Inapakia vibandiko...",
+    "noStickers": "Hakuna vibandiko vinavyopatikana"
+  }
+}

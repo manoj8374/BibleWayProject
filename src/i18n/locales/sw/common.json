@@ -1,0 +1,21 @@
+{
+  "welcome": "Karibu",
+  "login": "Ingia",
+  "signup": "Jiunge",
+  "logout": "Ondoka",
+  "home": "Nyumbani",
+  "profile": "Wasifu",
+  "settings": "Mipangilio",
+  "save": "Hifadhi",
+  "cancel": "Ghairi",
+  "delete": "Futa",
+  "edit": "Hariri",
+  "submit": "Wasilisha",
+  "loading": "Inapakia...",
+  "error": "Hitilafu",
+  "success": "Mafanikio",
+  "linkCopied": "Kiungo kimenakiliwa!",
+  "failedToCopy": "Imeshindwa kunakili kiungo",
+  "sharePost": "Shiriki Chapisho",
+  "sharePrayerRequest": "Shiriki Ombi la Maombi"
+}

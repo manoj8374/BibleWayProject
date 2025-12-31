@@ -1,0 +1,14 @@
+{
+  "title": "Biblia Zilizogawanywa",
+  "loadingAgeGroups": "Inapakia vikundi vya umri...",
+  "failedToLoadAgeGroups": "Imeshindwa kupakia vikundi vya umri",
+  "unexpectedErrorLoadingAgeGroups": "Hitilafu isiyotarajiwa imetokea wakati wa kupakia vikundi vya umri",
+  "noAgeGroupsAvailable": "Hakuna vikundi vya umri vinavyopatikana",
+  "pleaseSelectCategoryFirst": "Tafadhali chagua jamii kwanza",
+  "noBooksAvailable": "Hakuna vitabu vinavyopatikana kwa chaguo hili",
+  "failedToFetchBooks": "Imeshindwa kupata vitabu",
+  "categoryNotFound": "Jamii haijapatikana",
+  "ageGroupNotFound": "Kikundi cha umri hakijapatikana",
+  "languageNotFound": "Lugha haijapatikana",
+  "unexpectedErrorFetchingBooks": "Hitilafu isiyotarajiwa imetokea wakati wa kupata vitabu"
+}

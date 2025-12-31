@@ -1,0 +1,46 @@
+{
+  "title": "Pakia Kitabu",
+  "labels": {
+    "sourceFile": "Faili ya Chanzo (.md) *",
+    "coverImage": "Picha ya Jalada",
+    "category": "Jamii *",
+    "ageGroup": "Kikundi cha Umri *",
+    "language": "Lugha *",
+    "bookTitle": "Kichwa *",
+    "description": "Maelezo",
+    "bookOrder": "Mpangilio wa Kitabu"
+  },
+  "placeholders": {
+    "selectCategory": "Chagua jamii",
+    "selectAgeGroup": "Chagua kikundi cha umri",
+    "selectLanguage": "Chagua lugha",
+    "enterBookTitle": "Ingiza kichwa cha kitabu",
+    "enterBookDescription": "Ingiza maelezo ya kitabu (hiari)"
+  },
+  "loading": {
+    "categories": "Inapakia jamii...",
+    "ageGroups": "Inapakia vikundi vya umri...",
+    "languages": "Inapakia lugha...",
+    "uploading": "Inapakia..."
+  },
+  "selected": "Iliyochaguliwa:",
+  "buttons": {
+    "cancel": "Ghairi",
+    "uploadBook": "Pakia Kitabu"
+  },
+  "errors": {
+    "sourceFileRequired": "Faili ya chanzo inahitajika",
+    "titleRequired": "Kichwa kinahitajika",
+    "categoryRequired": "Jamii inahitajika",
+    "ageGroupRequired": "Kikundi cha umri kinahitajika",
+    "languageRequired": "Lugha inahitajika",
+    "failedToLoadCategories": "Imeshindwa kupakia jamii",
+    "failedToLoadAgeGroups": "Imeshindwa kupakia vikundi vya umri",
+    "failedToLoadLanguages": "Imeshindwa kupakia lugha",
+    "failedToUploadBook": "Imeshindwa kupakia kitabu",
+    "unexpectedError": "Hitilafu isiyotarajiwa imetokea"
+  },
+  "success": {
+    "bookCreated": "Kitabu kimeundwa kwa mafanikio"
+  }
+}

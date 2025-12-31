@@ -1,0 +1,22 @@
+{
+  "edit": "Hariri",
+  "delete": "Futa",
+  "deleteConfirm": "Futa chapisho hili?",
+  "cancel": "Ghairi",
+  "save": "Hifadhi",
+  "saving": "Inahifadhi...",
+  "deleting": "Inafuta...",
+  "likes": "Anapenda",
+  "like": "Penda",
+  "comments": "Maoni",
+  "comment": "Maoni",
+  "share": "Shiriki",
+  "shares": "Shiriki",
+  "writeComment": "Andika maoni...",
+  "writeYourComment": "Andika maoni yako...",
+  "failedToComment": "Imeshindwa kutoa maoni",
+  "actionFailed": "Hatua imeshindwa",
+  "commentAdded": "Maoni yameongezwa kwa mafanikio",
+  "failedToCreateComment": "Imeshindwa kuunda maoni",
+  "failedToUpdateLike": "Imeshindwa kusasisha hali ya kupenda"
+}

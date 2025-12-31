@@ -1,0 +1,25 @@
+{
+  "loading": "Inapakia maoni...",
+  "error": "Imeshindwa kupakia maoni",
+  "noComments": "Bado hakuna maoni. Kuwa wa kwanza kusema kitu!",
+  "emptyComment": "Maoni hayawezi kuwa tupu",
+  "commentUpdated": "Maoni yamesasishwa kwa mafanikio",
+  "failedToUpdate": "Imeshindwa kusasisha maoni",
+  "deleteConfirm": "Je, una uhakika unataka kufuta maoni haya?",
+  "commentDeleted": "Maoni yamefutwa kwa mafanikio",
+  "failedToDelete": "Imeshindwa kufuta maoni",
+  "writeComment": "Andika maoni...",
+  "deleteModal": {
+    "title": "Futa Maoni",
+    "description": "Je, una uhakika unataka kufuta maoni haya? Hatua hii haiwezi kutenguliwa.",
+    "cancel": "Ghairi",
+    "delete": "Futa",
+    "deleting": "Inafuta..."
+  },
+  "time": {
+    "justNow": "Sasa hivi",
+    "minutesAgo": "dakika {{count}} zilizopita",
+    "hoursAgo": "saa {{count}} zilizopita",
+    "daysAgo": "siku {{count}} zilizopita"
+  }
+}

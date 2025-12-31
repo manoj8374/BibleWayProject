@@ -74,9 +74,9 @@ const SegregatedBiblesPage: React.FC = () => {
   return (
     <PageContainer>
       <ContentWrapper>
-        <h1>{t('pages.segregatedBiblesPage.segregatedBibles')}</h1>
+        {/* <h1>{t('pages.segregatedBiblesPage.segregatedBibles')}</h1> */}
         {/* bread crumbs */}
-        {loading ? (
+        {/* {loading ? (
           <div style={{ padding: '40px 20px', textAlign: 'center', color: '#666' }}>
             Loading...
           </div>
@@ -86,7 +86,7 @@ const SegregatedBiblesPage: React.FC = () => {
           </div>
         ) : topBooks.length > 0 ? (
           <ContinueReading books={topBooks} onContinueReading={handleContinueReading} />
-        ) : null}
+        ) : null} */}
         <SegregatedBiblesGrid onCategoryClick={handleCategoryClick} />
       </ContentWrapper>
     </PageContainer>

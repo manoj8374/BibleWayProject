@@ -1,0 +1,34 @@
+{
+  "title": "Ombi la Maombi",
+  "labels": {
+    "description": "Maelezo",
+    "name": "Jina",
+    "email": "Barua pepe",
+    "phoneNumber": "Nambari ya Simu (hiari)",
+    "media": "Media (hiari)"
+  },
+  "placeholders": {
+    "enterDescription": "Tafadhali omba kwa ajili ya afya ya familia yangu...",
+    "yourName": "Jina lako",
+    "yourEmail": "Barua pepe yako",
+    "phoneNumber": "0712345678"
+  },
+  "upload": {
+    "uploadText": "Pakia picha au video (Max faili 5, 10MB kila moja)",
+    "addMoreFiles": "+ Ongeza faili zaidi"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Wasilisha Ombi la Maombi",
+    "submitting": "Inawasilisha..."
+  },
+  "errors": {
+    "descriptionRequired": "Tafadhali ingiza maelezo kwa ajili ya ombi lako la maombi.",
+    "failedToCreateRequest": "Imeshindwa kuunda ombi la maombi.",
+    "maxFilesExceeded": "Unaweza kupakia hadi faili 5 pekee.",
+    "invalidFileType": "Aina ya faili batili: {{filename}}. Picha na video pekee ndizo zinazoruhusiwa.",
+    "fileSizeExceeded": "Ukubwa wa faili umezidi 10MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Ombi la maombi limeundwa kwa mafanikio!"
+  }
+}

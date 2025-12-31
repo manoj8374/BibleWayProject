@@ -1,0 +1,38 @@
+{
+  "title": "Unda Tangazo",
+  "labels": {
+    "title": "Kichwa *",
+    "description": "Maelezo",
+    "price": "Bei",
+    "redirectLink": "Kiungo cha kuelekeza *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "Faili ya Media (Picha/Video/Sauti)",
+    "images": "Picha (Nyingi)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Ingiza kichwa cha tangazo",
+    "enterDescription": "Ingiza maelezo ya tangazo (hiari)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Iliyochaguliwa:",
+  "buttons": {
+    "cancel": "Ghairi",
+    "createPromotion": "Unda Tangazo",
+    "creating": "Inaunda..."
+  },
+  "errors": {
+    "titleRequired": "Kichwa kinahitajika",
+    "priceRequired": "Bei inahitajika",
+    "priceInvalid": "Bei lazima iwe nambari sahihi",
+    "redirectLinkRequired": "Kiungo cha kuelekeza kinahitajika",
+    "redirectLinkInvalid": "Kiungo cha kuelekeza lazima kiwe URL sahihi",
+    "metaDataInvalid": "Meta data lazima ziwe katika mfumo sahihi wa JSON",
+    "failedToCreatePromotion": "Imeshindwa kuunda tangazo",
+    "unexpectedError": "Hitilafu isiyotarajiwa imetokea"
+  },
+  "success": {
+    "promotionCreated": "Tangazo limeundwa kwa mafanikio"
+  }
+}

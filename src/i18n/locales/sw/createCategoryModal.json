@@ -1,0 +1,27 @@
+{
+  "title": "Unda Jamii",
+  "labels": {
+    "categoryName": "Jina la Jamii *",
+    "description": "Maelezo",
+    "displayOrder": "Mpangilio wa Onyesho",
+    "coverImage": "Picha ya Jalada"
+  },
+  "placeholders": {
+    "selectCategoryName": "Chagua jina la jamii",
+    "enterDescription": "Ingiza maelezo ya jamii (hiari)"
+  },
+  "selected": "Iliyochaguliwa:",
+  "buttons": {
+    "cancel": "Ghairi",
+    "createCategory": "Unda Jamii",
+    "creating": "Inaunda..."
+  },
+  "errors": {
+    "categoryNameRequired": "Jina la jamii linahitajika",
+    "failedToCreateCategory": "Imeshindwa kuunda jamii",
+    "unexpectedError": "Hitilafu isiyotarajiwa imetokea"
+  },
+  "success": {
+    "categoryCreated": "Jamii imeundwa kwa mafanikio"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Unda Nukuu ya Kila Siku",
+  "note": "Kumbuka: Kuunda nukuu mpya kutachukua nafasi ya nukuu ya kila siku iliyopo. Hatua hii haiwezi kutenguliwa. Nukuu mpya itaonyeshwa kwa watumiaji wote mara moja.",
+  "labels": {
+    "title": "Kichwa (hiari)",
+    "quoteDescription": "Nukuu / Maelezo (Inahitajika)"
+  },
+  "placeholders": {
+    "title": "Mfano: Nukuu ya Siku",
+    "quoteDescription": "Ingiza nukuu au maandishi hapa..."
+  },
+  "buttons": {
+    "cancel": "Ghairi",
+    "publishQuote": "Chapisha Nukuu",
+    "publishing": "Inachapisha...",
+    "updateQuote": "Sasisha Nukuu",
+    "updating": "Inasasisha..."
+  },
+  "errors": {
+    "descriptionRequired": "Maelezo yanahitajika",
+    "failedToCreateVerse": "Imeshindwa kuunda mstari",
+    "failedToUpdateVerse": "Imeshindwa kusasisha mstari",
+    "unexpectedError": "Hitilafu isiyotarajiwa imetokea"
+  },
+  "success": {
+    "verseCreated": "Mstari umeundwa kwa mafanikio",
+    "verseUpdated": "Mstari umesasishwa kwa mafanikio"
+  },
+  "editTitle": "Hariri Mstari"
+}

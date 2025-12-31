@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Tafuta Watu",
+  "searchPeoplePlaceholder": "Tafuta watu...",
+  "searching": "Inatafuta...",
+  "noUsersFound": "Hakuna watumiaji waliopatikana",
+  "follow": "Fuata",
+  "following": "Wanaofuatwa",
+  "failedToUpdateFollowStatus": "Imeshindwa kusasisha hali ya kufuata",
+  "loadingInbox": "Inapakia sanduku la barua...",
+  "noMessages": "Hakuna ujumbe",
+  "you": "Wewe: ",
+  "attachment": "Kiambatisho",
+  "noMessagesText": "Hakuna ujumbe",
+  "sticker": "📷 Kibandiko"
+}

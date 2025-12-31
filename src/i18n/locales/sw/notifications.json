@@ -1,0 +1,18 @@
+{
+  "title": "Arifa",
+  "markAllAsRead": "Weka zote kuwa zimesomwa",
+  "loading": "Inapakia arifa...",
+  "noNotifications": "Bado hakuna arifa",
+  "allCaughtUp": "Umemaliza kuona zote!",
+  "justNow": "Sasa hivi",
+  "minuteAgo": "dakika {{count}} iliyopita",
+  "minutesAgo": "dakika {{count}} zilizopita",
+  "hourAgo": "saa {{count}} iliyopita",
+  "hoursAgo": "saa {{count}} zilizopita",
+  "dayAgo": "siku {{count}} iliyopita",
+  "daysAgo": "siku {{count}} zilizopita",
+  "weekAgo": "wiki {{count}} iliyopita",
+  "weeksAgo": "wiki {{count}} zilizopita",
+  "monthAgo": "mwezi {{count}} uliopita",
+  "monthsAgo": "miezi {{count}} iliyopita"
+}

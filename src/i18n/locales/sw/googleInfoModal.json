@@ -1,0 +1,14 @@
+{
+  "title": "Maelezo ya Google yanahitajika",
+  "description": "Hii ni mara yako ya kwanza kuingia na Google. Tafadhali toa maelezo yafuatayo ili kukamilisha akaunti yako.",
+  "labels": {
+    "age": "Umri",
+    "language": "Lugha Inayopendwa",
+    "country": "Nchi"
+  },
+  "buttons": {
+    "completeProfile": "Kamilisha Wasifu",
+    "completing": "Inakamilisha...",
+    "cancel": "Ghairi"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Unda Chapisho",
+  "labels": {
+    "title": "Kichwa",
+    "description": "Maelezo"
+  },
+  "placeholders": {
+    "enterPostTitle": "Ingiza kichwa cha chapisho...",
+    "enterDescription": "Nilipata kazi Google..."
+  },
+  "upload": {
+    "uploadFiles": "Pakia faili zako hapa (Max 5)",
+    "addMoreFiles": "+ Ongeza faili zaidi"
+  },
+  "buttons": {
+    "createPost": "Unda Chapisho",
+    "creating": "Inaunda..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Unaweza kupakia hadi faili 5 pekee.",
+    "atLeastOneFile": "Tafadhali pakia angalau faili moja ya media.",
+    "failedToCreatePost": "Imeshindwa kuunda chapisho."
+  },
+  "success": {
+    "postCreated": "Chapisho limeundwa kwa mafanikio!"
+  }
+}

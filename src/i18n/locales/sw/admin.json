@@ -1,0 +1,38 @@
+{
+  "loading": "Inapakia...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute lazima itumike ndani ya ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Usimamizi wa Shuhuda",
+    "pending": "Inasubiri",
+    "verified": "Imethibitishwa",
+    "all": "Zote",
+    "loading": "Inapakia shuhuda...",
+    "noTestimonials": "Hakuna shuhuda zilizopatikana",
+    "approve": "Idhinisha",
+    "reject": "Kataa",
+    "processing": "Inashughulikia...",
+    "approvedSuccessfully": "Ushuhuda umeidhinishwa kwa mafanikio",
+    "rejectedSuccessfully": "Ushuhuda umekataliwa kwa mafanikio",
+    "failedToLoad": "Imeshindwa kupakia shuhuda",
+    "failedToApprove": "Imeshindwa kuidhinisha ushuhuda",
+    "failedToReject": "Imeshindwa kukataa ushuhuda",
+    "confirmReject": "Je, una uhakika unataka kukataa ushuhuda huu? Hatua hii haiwezi kutenguliwa.",
+    "previous": "Iliyopita",
+    "next": "Inayofuata",
+    "pageInfo": "Ukurasa {{current}} wa {{total}}"
+  },
+  "promotions": {
+    "title": "Usimamizi wa Matangazo",
+    "loading": "Inapakia matangazo...",
+    "noPromotions": "Hakuna matangazo yaliyopatikana",
+    "delete": "Futa",
+    "cancel": "Ghairi",
+    "processing": "Inashughulikia...",
+    "deletedSuccessfully": "Tangazo limefutwa kwa mafanikio",
+    "failedToLoad": "Imeshindwa kupakia matangazo",
+    "failedToDelete": "Imeshindwa kufuta tangazo",
+    "confirmDelete": "Je, una uhakika unataka kufuta tangazo hili? Hatua hii haiwezi kutenguliwa."
+  }
+}

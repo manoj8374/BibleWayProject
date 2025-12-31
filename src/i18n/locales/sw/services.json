@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Hitilafu isiyotarajiwa imetokea.",
+    "receivedToken": "Tokeni imepokelewa"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Hitilafu isiyotarajiwa imetokea wakati wa kuunda chapisho.",
+    "failedToFetchPosts": "Imeshindwa kupata machapisho.",
+    "failedToFetchUserPosts": "Imeshindwa kupata machapisho ya mtumiaji.",
+    "failedToFetchPostDetails": "Imeshindwa kupata maelezo ya chapisho.",
+    "failedToUpdatePost": "Imeshindwa kusasisha chapisho",
+    "failedToDeletePost": "Imeshindwa kufuta chapisho",
+    "failedToCreateComment": "Imeshindwa kuunda maoni.",
+    "failedToUpdateComment": "Imeshindwa kusasisha maoni.",
+    "failedToDeleteComment": "Imeshindwa kufuta maoni.",
+    "failedToFetchComments": "Imeshindwa kupata maoni.",
+    "failedToLikeComment": "Imeshindwa kupenda maoni.",
+    "failedToUnlikeComment": "Imeshindwa kutopenda maoni.",
+    "failedToLikePost": "Imeshindwa kupenda chapisho.",
+    "failedToUnlikePost": "Imeshindwa kutopenda chapisho."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Imeshindwa kupata wasifu wa mtumiaji.",
+    "failedToFollowUser": "Imeshindwa kumfuata mtumiaji.",
+    "failedToUnfollowUser": "Imeshindwa kuacha kumfuata mtumiaji.",
+    "failedToGetRecommendedUsers": "Imeshindwa kupata watumiaji wanaopendekezwa.",
+    "failedToGetUserProfile": "Imeshindwa kupata wasifu wa mtumiaji."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Imeshindwa kupakia mandhari"
+  },
+  "verse": {
+    "failedToLoadVerses": "Imeshindwa kupakia mistari",
+    "failedToLikeVerse": "Imeshindwa kupenda mstari",
+    "failedToUnlikeVerse": "Imeshindwa kutopenda mstari"
+  },
+  "admin": {
+    "failedToLoadBooks": "Imeshindwa kupakia vitabu"
+  }
+}
