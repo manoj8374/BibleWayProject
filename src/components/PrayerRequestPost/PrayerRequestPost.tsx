@@ -297,9 +297,6 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
                         </StatText>
                     </StatItem>
                 </LeftSideEles>
-                <BookMarkIconWrapper>
-                    <BookMarkIcon />
-                </BookMarkIconWrapper>
             </EngagementStats>
         );
     };

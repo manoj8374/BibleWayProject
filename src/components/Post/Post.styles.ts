@@ -256,7 +256,7 @@ export const StatNumber = styled.span`
 export const StatLabel = styled.span`
   font-weight: 500;
   
-  @media (max-width: 350px) {
+  @media (max-width: 500px) {
     display: none;
   }
 `;
