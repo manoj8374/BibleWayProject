@@ -160,8 +160,9 @@ const HomePage: React.FC = () => {
     return (
       <>
         <LanguagesVersionsCard />
-        <RecommendedPeople />
         <SegmentedBibles/>
+
+        <RecommendedPeople />
         <Promotions />
         <Testimonials />
       </>

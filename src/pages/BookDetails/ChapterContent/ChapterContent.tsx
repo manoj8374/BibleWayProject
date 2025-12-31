@@ -108,6 +108,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const audioUrlRef = useRef<string | null>(null);
   const generationAbortControllerRef = useRef<AbortController | null>(null);
+  const textChunksRef = useRef<string[]>([]);
+  const currentChunkIndexRef = useRef<number>(0);
 
   const BLOCKS_PER_PAGE = 16;
 
@@ -809,7 +811,7 @@ function getBlockTextLength(block: HTMLElement) {
     { code: "ko-KR", name: "Korean (Korea)" },
   ];
 
-  const playAudioFromBase64 = (base64Data: string): Promise<void> => {
+  const playAudioFromBase64 = (base64Data: string, isLastChunk: boolean = true): Promise<void> => {
     return new Promise((resolve, reject) => {
       try {
         const base64String = base64Data.includes(",")
@@ -830,9 +832,19 @@ function getBlockTextLength(block: HTMLElement) {
         audioRef.current = audio;
 
         audio.onended = () => {
-          setCurrentPlayingPage(null);
-          setIsPaused(false);
-          cleanupAudio();
+          // Clean up this audio URL
+          if (audioUrlRef.current) {
+            URL.revokeObjectURL(audioUrlRef.current);
+            audioUrlRef.current = null;
+          }
+          audioRef.current = null;
+          
+          // If this is the last chunk, reset all state
+          if (isLastChunk) {
+            setCurrentPlayingPage(null);
+            setIsPaused(false);
+            cleanupAudio();
+          }
           resolve();
         };
 
@@ -865,6 +877,75 @@ function getBlockTextLength(block: HTMLElement) {
   };
 
   /**
+   * Splits text into chunks that fit within the byte limit
+   * Tries to split at sentence boundaries when possible
+   */
+  const splitTextIntoChunks = (text: string, maxBytes: number): string[] => {
+    const encoder = new TextEncoder();
+    const chunks: string[] = [];
+    
+    // If text fits in one chunk, return it
+    if (encoder.encode(text).length <= maxBytes) {
+      return [text];
+    }
+    
+    // Split by sentences first (period, exclamation, question mark followed by space)
+    const sentences = text.split(/([.!?]\s+)/);
+    let currentChunk = '';
+    
+    for (let i = 0; i < sentences.length; i++) {
+      const sentence = sentences[i];
+      const testChunk = currentChunk + sentence;
+      const testBytes = encoder.encode(testChunk).length;
+      
+      if (testBytes <= maxBytes) {
+        currentChunk = testChunk;
+      } else {
+        // Current chunk is full, save it and start new one
+        if (currentChunk.trim()) {
+          chunks.push(currentChunk.trim());
+        }
+        
+        // If single sentence is too long, split by words
+        const sentenceBytes = encoder.encode(sentence).length;
+        if (sentenceBytes > maxBytes) {
+          const words = sentence.split(/(\s+)/);
+          let wordChunk = '';
+          
+          for (const word of words) {
+            const testWordChunk = wordChunk + word;
+            const testWordBytes = encoder.encode(testWordChunk).length;
+            
+            if (testWordBytes <= maxBytes) {
+              wordChunk = testWordChunk;
+            } else {
+              if (wordChunk.trim()) {
+                chunks.push(wordChunk.trim());
+              }
+              wordChunk = word;
+            }
+          }
+          
+          if (wordChunk.trim()) {
+            currentChunk = wordChunk.trim();
+          } else {
+            currentChunk = '';
+          }
+        } else {
+          currentChunk = sentence;
+        }
+      }
+    }
+    
+    // Add remaining chunk
+    if (currentChunk.trim()) {
+      chunks.push(currentChunk.trim());
+    }
+    
+    return chunks.filter(chunk => chunk.length > 0);
+  };
+
+  /**
    * Cleans up audio resources
    */
   const cleanupAudio = () => {
@@ -876,6 +957,8 @@ function getBlockTextLength(block: HTMLElement) {
       URL.revokeObjectURL(audioUrlRef.current);
       audioUrlRef.current = null;
     }
+    textChunksRef.current = [];
+    currentChunkIndexRef.current = 0;
   };
 
   /**
@@ -886,17 +969,32 @@ function getBlockTextLength(block: HTMLElement) {
       generationAbortControllerRef.current.abort();
       generationAbortControllerRef.current = null;
     }
+    // Also stop any playing audio
+    cleanupAudio();
+    setCurrentPlayingPage(null);
+    setIsPaused(false);
     setIsGenerating(false);
     setGeneratingPage(null);
+    textChunksRef.current = [];
+    currentChunkIndexRef.current = 0;
   };
 
   /**
    * Stops current audio playback
    */
   const stopAudio = () => {
+    // Cancel any ongoing generation
+    if (generationAbortControllerRef.current) {
+      generationAbortControllerRef.current.abort();
+      generationAbortControllerRef.current = null;
+    }
     cleanupAudio();
     setCurrentPlayingPage(null);
     setIsPaused(false);
+    setIsGenerating(false);
+    setGeneratingPage(null);
+    textChunksRef.current = [];
+    currentChunkIndexRef.current = 0;
   };
 
   /**
@@ -922,14 +1020,102 @@ function getBlockTextLength(block: HTMLElement) {
     }
   };
 
+  /**
+   * Plays a single text chunk and handles continuation to next chunk
+   */
+  const playTextChunk = async (
+    pageIndex: number,
+    chunkIndex: number,
+    chunks: string[],
+    abortController: AbortController
+  ): Promise<void> => {
+    if (chunkIndex >= chunks.length) {
+      // All chunks played
+      setIsGenerating(false);
+      setGeneratingPage(null);
+      setCurrentPlayingPage(null);
+      setIsPaused(false);
+      generationAbortControllerRef.current = null;
+      textChunksRef.current = [];
+      currentChunkIndexRef.current = 0;
+      return;
+    }
+
+    if (abortController.signal.aborted) {
+      return;
+    }
+
+    const chunk = chunks[chunkIndex];
+    const isLastChunk = chunkIndex === chunks.length - 1;
+    currentChunkIndexRef.current = chunkIndex;
+
+    try {
+      const response = await textToSpeechService.generateSpeech({
+        text: chunk,
+        language: selectedTTSLanguage,
+      });
+
+      if (abortController.signal.aborted) {
+        return;
+      }
+
+      if (response.success && response.audio) {
+        // Set playing state on first chunk
+        if (chunkIndex === 0) {
+          setCurrentPlayingPage(pageIndex);
+          setIsPaused(false);
+        }
+
+        // Play the audio chunk
+        await playAudioFromBase64(response.audio, isLastChunk);
+
+        // If not aborted and not last chunk, play next chunk
+        if (!abortController.signal.aborted && !isLastChunk) {
+          await playTextChunk(pageIndex, chunkIndex + 1, chunks, abortController);
+        } else if (isLastChunk) {
+          // Last chunk finished
+          setIsGenerating(false);
+          setGeneratingPage(null);
+          generationAbortControllerRef.current = null;
+          textChunksRef.current = [];
+          currentChunkIndexRef.current = 0;
+        }
+      } else {
+        showError(
+          response.error || response.message || "Failed to generate speech"
+        );
+        setIsGenerating(false);
+        setGeneratingPage(null);
+        setCurrentPlayingPage(null);
+        generationAbortControllerRef.current = null;
+        textChunksRef.current = [];
+        currentChunkIndexRef.current = 0;
+      }
+    } catch (error) {
+      if (abortController.signal.aborted) {
+        return;
+      }
+      console.error("TTS error:", error);
+      showError("Failed to generate or play speech");
+      setIsGenerating(false);
+      setGeneratingPage(null);
+      setCurrentPlayingPage(null);
+      generationAbortControllerRef.current = null;
+      textChunksRef.current = [];
+      currentChunkIndexRef.current = 0;
+    }
+  };
+
   const handlePlayPage = async (pageIndex: number) => {
     if (!pageTexts[pageIndex]) return;
 
+    // Handle cancel generation if clicking the same page that's generating
     if (generatingPage === pageIndex && isGenerating) {
       cancelGeneration();
       return;
     }
 
+    // Handle play/pause if clicking the same page that's playing
     if (currentPlayingPage === pageIndex && audioRef.current) {
       if (audioRef.current.paused || isPaused) {
         resumeAudio();
@@ -939,18 +1125,28 @@ function getBlockTextLength(block: HTMLElement) {
       return;
     }
 
-    if (currentPlayingPage !== null && currentPlayingPage !== pageIndex) {
+    // Stop any current audio/generation before starting new one
+    if (currentPlayingPage !== null || isGenerating) {
       stopAudio();
     }
 
-    if (currentPlayingPage === pageIndex && isPaused) {
-      resumeAudio();
+    // Validate page data before starting generation
+    const pageData = pageTexts[pageIndex];
+    if (!pageData?.text?.trim()) {
+      showError("No text content available for this page");
       return;
     }
 
-    if (isGenerating) {
-      cancelGeneration();
-    }
+    // Split text into chunks if needed (4900 bytes limit)
+    const MAX_TEXT_SIZE = 4900;
+    const textChunks = splitTextIntoChunks(pageData.text, MAX_TEXT_SIZE);
+    textChunksRef.current = textChunks;
+    currentChunkIndexRef.current = 0;
+
+    // // If text was split, show info message
+    // if (textChunks.length > 1) {
+    //   showSuccess(`Text will be played in ${textChunks.length} parts`);
+    // }
 
     setGeneratingPage(pageIndex);
     setIsGenerating(true);
@@ -958,44 +1154,8 @@ function getBlockTextLength(block: HTMLElement) {
     const abortController = new AbortController();
     generationAbortControllerRef.current = abortController;
 
-    try {
-      const pageData = pageTexts[pageIndex];
-      if (!pageData.text.trim()) {
-        showError("No text content available for this page");
-        return;
-      }
-
-      const response = await textToSpeechService.generateSpeech({
-        text: pageData.text,
-        language: selectedTTSLanguage,
-      });
-
-      if (abortController.signal.aborted) {
-        return;
-      }
-
-      if (response.success && response.audio) {
-        setCurrentPlayingPage(pageIndex);
-        setIsPaused(false);
-        await playAudioFromBase64(response.audio);
-      } else {
-        showError(
-          response.error || response.message || "Failed to generate speech"
-        );
-      }
-    } catch (error) {
-      if (abortController.signal.aborted) {
-        return;
-      }
-      console.error("TTS error:", error);
-      showError("Failed to generate or play speech");
-    } finally {
-      if (!abortController.signal.aborted) {
-        setIsGenerating(false);
-        setGeneratingPage(null);
-      }
-      generationAbortControllerRef.current = null;
-    }
+    // Start playing chunks sequentially
+    await playTextChunk(pageIndex, 0, textChunks, abortController);
   };
 
   useEffect(() => {
@@ -1003,6 +1163,26 @@ function getBlockTextLength(block: HTMLElement) {
       cleanupAudio();
     };
   }, []);
+
+  // Stop audio and cancel generation when chapter changes
+  useEffect(() => {
+    const stopAllAudio = () => {
+      if (generationAbortControllerRef.current) {
+        generationAbortControllerRef.current.abort();
+        generationAbortControllerRef.current = null;
+      }
+      cleanupAudio();
+      setIsGenerating(false);
+      setGeneratingPage(null);
+      setCurrentPlayingPage(null);
+      setIsPaused(false);
+    };
+
+    // Only stop if chapter actually changed (not on initial mount)
+    if (chapter?.chapter_id) {
+      stopAllAudio();
+    }
+  }, [chapter?.chapter_id]);
 
   useEffect(() => {
     if (!chapter || blocks.length === 0) return;
