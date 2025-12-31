@@ -1,5 +1,5 @@
 {
-  "buttonText": "المتابعة مع Google",
+  "buttonText": "المتابعة باستخدام Google",
   "success": {
     "loginSuccessful": "تم تسجيل الدخول بنجاح"
   },
@@ -7,3 +7,4 @@
     "loginFailed": "فشل تسجيل الدخول"
   }
 }
+

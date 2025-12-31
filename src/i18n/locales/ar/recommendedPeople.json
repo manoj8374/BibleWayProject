@@ -1,8 +1,9 @@
 {
-  "title": "أشخاص موصى بهم",
+  "title": "الأشخاص الموصى بهم",
   "searchPlaceholder": "البحث عن كتاب، اسم، مؤلف...",
   "noResultsFound": "لم يتم العثور على نتائج",
   "noRecommendationsAvailable": "لا توجد توصيات متاحة",
   "following": "متابع",
   "follow": "+ متابعة"
 }
+

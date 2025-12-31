@@ -1,15 +1,18 @@
 {
   "auth": {
     "unexpectedError": "حدث خطأ غير متوقع.",
-    "receivedToken": "تم استلام الرمز المميز"
+    "receivedToken": "تم استلام الرمز"
   },
   "post": {
     "unexpectedErrorPostCreation": "حدث خطأ غير متوقع أثناء إنشاء المنشور.",
     "failedToFetchPosts": "فشل جلب المنشورات.",
     "failedToFetchUserPosts": "فشل جلب منشورات المستخدم.",
+    "failedToFetchPostDetails": "فشل جلب تفاصيل المنشور.",
     "failedToUpdatePost": "فشل تحديث المنشور",
     "failedToDeletePost": "فشل حذف المنشور",
     "failedToCreateComment": "فشل إنشاء التعليق.",
+    "failedToUpdateComment": "فشل تحديث التعليق.",
+    "failedToDeleteComment": "فشل حذف التعليق.",
     "failedToFetchComments": "فشل جلب التعليقات.",
     "failedToLikeComment": "فشل الإعجاب بالتعليق.",
     "failedToUnlikeComment": "فشل إلغاء الإعجاب بالتعليق.",
@@ -35,3 +38,4 @@
     "failedToLoadBooks": "فشل تحميل الكتب"
   }
 }
+

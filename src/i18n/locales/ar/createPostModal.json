@@ -9,7 +9,7 @@
     "enterDescription": "حصلت على وظيفة في Google..."
   },
   "upload": {
-    "uploadFiles": "قم برفع ملفاتك هنا (حد أقصى 5)",
+    "uploadFiles": "ارفع ملفاتك هنا (حد أقصى 5)",
     "addMoreFiles": "+ إضافة المزيد من الملفات"
   },
   "buttons": {
@@ -25,3 +25,4 @@
     "postCreated": "تم إنشاء المنشور بنجاح!"
   }
 }
+

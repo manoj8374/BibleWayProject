@@ -26,7 +26,7 @@
   "selected": "المحدد:",
   "buttons": {
     "cancel": "إلغاء",
-    "uploadBook": "رفع الكتاب"
+    "uploadBook": "رفع كتاب"
   },
   "errors": {
     "sourceFileRequired": "الملف المصدر مطلوب",
@@ -44,3 +44,4 @@
     "bookCreated": "تم إنشاء الكتاب بنجاح"
   }
 }
+

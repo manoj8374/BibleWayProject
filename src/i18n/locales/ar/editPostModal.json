@@ -1,0 +1,25 @@
+{
+  "title": "تعديل المنشور",
+  "labels": {
+    "title": "العنوان",
+    "description": "الوصف",
+    "media": "الوسائط"
+  },
+  "placeholders": {
+    "enterPostTitle": "أدخل عنوان المنشور...",
+    "enterDescription": "أدخل الوصف..."
+  },
+  "buttons": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "updating": "جاري التحديث..."
+  },
+  "errors": {
+    "noChanges": "لم يتم اكتشاف أي تغييرات",
+    "failedToUpdatePost": "فشل تحديث المنشور"
+  },
+  "success": {
+    "postUpdated": "تم تحديث المنشور بنجاح"
+  }
+}
+

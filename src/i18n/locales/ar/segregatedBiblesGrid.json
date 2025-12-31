@@ -1,5 +1,5 @@
 {
-  "title": "الكتب المقدسة المقسمة",
+  "title": "الكتاب المقدس المصنف",
   "loadingAgeGroups": "جاري تحميل الفئات العمرية...",
   "failedToLoadAgeGroups": "فشل تحميل الفئات العمرية",
   "unexpectedErrorLoadingAgeGroups": "حدث خطأ غير متوقع أثناء تحميل الفئات العمرية",
@@ -12,3 +12,4 @@
   "languageNotFound": "لم يتم العثور على اللغة",
   "unexpectedErrorFetchingBooks": "حدث خطأ غير متوقع أثناء جلب الكتب"
 }
+

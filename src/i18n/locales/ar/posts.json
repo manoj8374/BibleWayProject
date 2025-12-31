@@ -4,6 +4,8 @@
   "deleteConfirm": "حذف هذا المنشور؟",
   "cancel": "إلغاء",
   "save": "حفظ",
+  "saving": "جاري الحفظ...",
+  "deleting": "جاري الحذف...",
   "likes": "الإعجابات",
   "like": "إعجاب",
   "comments": "التعليقات",
@@ -13,8 +15,9 @@
   "writeComment": "اكتب تعليقاً...",
   "writeYourComment": "اكتب تعليقك...",
   "failedToComment": "فشل التعليق",
-  "actionFailed": "فشل الإجراء",
+  "actionFailed": "فشلت العملية",
   "commentAdded": "تمت إضافة التعليق بنجاح",
   "failedToCreateComment": "فشل إنشاء التعليق",
   "failedToUpdateLike": "فشل تحديث حالة الإعجاب"
 }
+

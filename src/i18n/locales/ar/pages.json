@@ -2,11 +2,16 @@
   "homePage": {
     "posts": "المنشورات",
     "prayerRequest": "طلب الصلاة",
+    "categories": "الكتب",
     "createPrayerRequest": "إنشاء طلب صلاة",
     "loading": "جاري التحميل...",
     "noItemsFound": "لم يتم العثور على عناصر.",
     "unknownUser": "مستخدم غير معروف",
-    "member": "عضو"
+    "member": "عضو",
+    "languagesVersions": {
+      "title": "اللغات والإصدارات",
+      "description": "قريباً"
+    }
   },
   "profilePage": {
     "myPosts": "منشوراتي",
@@ -15,7 +20,7 @@
     "noItemsFound": "لم يتم العثور على عناصر.",
     "username": "اسم المستخدم",
     "email": "البريد الإلكتروني",
-    "country": "البلد",
+    "country": "الدولة",
     "age": "العمر",
     "preferredLanguage": "اللغة المفضلة",
     "logOut": "تسجيل الخروج",
@@ -25,23 +30,34 @@
     "failedToDeletePost": "فشل حذف المنشور",
     "failedToUpdatePost": "فشل تحديث المنشور",
     "failedToLoadProfile": "فشل تحميل الملف الشخصي",
-    "you": "أنت"
+    "you": "أنت",
+    "followers": "المتابعون",
+    "following": "متابع",
+    "follow": "متابعة",
+    "failedToLoadFollowers": "فشل تحميل المتابعين",
+    "failedToLoadFollowing": "فشل تحميل قائمة المتابعة",
+    "userNotFound": "لم يتم العثور على المستخدم",
+    "followedSuccessfully": "تمت المتابعة بنجاح",
+    "unfollowedSuccessfully": "تم إلغاء المتابعة بنجاح",
+    "failedToUpdateFollowStatus": "فشل تحديث حالة المتابعة",
+    "noFollowers": "لا يوجد متابعون بعد",
+    "noFollowing": "لا تتابع أحداً بعد"
   },
   "peoplePage": {
     "noConversationSelected": "لم يتم اختيار محادثة",
-    "selectConversationDescription": "يرجى اختيار محادثة من القائمة لبدء محادثة"
+    "selectConversationDescription": "يرجى اختيار محادثة من القائمة لبدء المحادثة"
   },
   "downloadsPage": {
     "downloads": "التنزيلات",
     "loadingWallpapers": "جاري تحميل خلفيات الشاشة...",
-    "noWallpapersAvailable": "لا توجد خلفيات شاشة متاحة",
+    "noWallpapersAvailable": "لا توجد خلفيات متاحة",
     "downloading": "جاري التنزيل...",
     "download": "تنزيل",
     "failedToLoadWallpapers": "فشل تحميل خلفيات الشاشة",
     "failedToDownload": "فشل التنزيل"
   },
   "bookmarksPage": {
-    "myBookmarks": "إشاراتي المرجعية",
+    "myBookmarks": "الإشارات المرجعية الخاصة بي",
     "loadingBookmarks": "جاري تحميل الإشارات المرجعية...",
     "noBookmarksYet": "لا توجد إشارات مرجعية بعد",
     "continueReading": "متابعة القراءة",
@@ -56,22 +72,29 @@
     "failedToLikeVerse": "فشل الإعجاب بالآية"
   },
   "userProfilePage": {
-    "invalidUserId": "معرف المستخدم غير صالح"
+    "invalidUserId": "معرف مستخدم غير صحيح"
   },
   "postViewPage": {
     "loading": "جاري تحميل المنشور...",
-    "invalidPostId": "معرف المنشور غير صالح",
+    "invalidPostId": "معرف منشور غير صحيح",
     "postNotFound": "لم يتم العثور على المنشور",
     "failedToLoadPost": "فشل تحميل المنشور"
   },
   "prayerRequestViewPage": {
     "loading": "جاري تحميل طلب الصلاة...",
-    "invalidRequestId": "معرف طلب الصلاة غير صالح",
+    "invalidRequestId": "معرف طلب صلاة غير صحيح",
     "requestNotFound": "لم يتم العثور على طلب الصلاة",
     "failedToLoadRequest": "فشل تحميل طلب الصلاة"
   },
   "segregatedBiblesPage": {
-    "segregatedBibles": "الكتب المقدسة المقسمة"
+    "segregatedBibles": "الكتاب المقدس المصنف"
+  },
+  "bibleReaderPage": {
+    "title": "قارئ الكتاب المقدس",
+    "loadingBooks": "جاري تحميل الكتب...",
+    "failedToLoadBooks": "فشل تحميل الكتب",
+    "noBooksFound": "لم يتم العثور على كتب",
+    "noDescription": "لا يوجد وصف"
   },
   "bibleViewer": {
     "loading": "جاري التحميل…"
@@ -81,7 +104,7 @@
     "createPromotion": "إنشاء عرض ترويجي",
     "createCategory": "إنشاء فئة",
     "welcomeAdmin": "مرحباً، المشرف",
-    "welcomeDescription": "هنا يمكنك إدارة محتوى التطبيق. استخدم الشريط الجانبي للتنقل إلى أقسام الإدارة المحددة.",
+    "welcomeDescription": "هنا يمكنك إدارة محتوى التطبيق. استخدم الشريط الجانبي للانتقال إلى أقسام الإدارة المحددة.",
     "dailyVerse": "الآية اليومية",
     "dailyVerseDescription": "تحديث الاقتباس اليومي المعروض لجميع المستخدمين. يتم إعادة تعيين هذا تلقائياً كل 24 ساعة.",
     "bookManagement": "إدارة الكتب",
@@ -105,9 +128,15 @@
     "noVersesYet": "لا توجد آيات بعد. انقر على \"إنشاء آية\" لإضافة آيتك الأولى.",
     "failedToLoadVerses": "فشل تحميل الآيات",
     "quoteOfTheDay": "اقتباس اليوم",
-    "likes": "إعجابات",
+    "likes": "الإعجابات",
     "created": "تم الإنشاء",
-    "updated": "تم التحديث"
+    "updated": "تم التحديث",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "deleting": "جاري الحذف...",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الآية؟ لا يمكن التراجع عن هذا الإجراء.",
+    "deletedSuccessfully": "تم حذف الآية بنجاح",
+    "failedToDelete": "فشل حذف الآية"
   },
   "loginPage": {
     "logIn": "تسجيل الدخول",
@@ -133,16 +162,86 @@
     "confirmPassword": "تأكيد كلمة المرور",
     "age": "العمر",
     "language": "اللغة",
-    "country": "البلد",
+    "country": "الدولة",
     "searchLanguages": "البحث عن اللغات...",
     "noLanguagesFound": "لم يتم العثور على لغات",
-    "searchCountries": "البحث عن البلدان...",
-    "noCountriesFound": "لم يتم العثور على بلدان",
+    "searchCountries": "البحث عن الدول...",
+    "noCountriesFound": "لم يتم العثور على دول",
     "creatingAccount": "جاري إنشاء الحساب...",
     "signUpButton": "إنشاء حساب",
-    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
     "logIn": "تسجيل الدخول",
     "signupSuccessful": "تم إنشاء الحساب بنجاح",
-    "passwordsDoNotMatch": "كلمات المرور غير متطابقة"
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "clickHere": "انقر هنا"
+  },
+  "forgotPassword": {
+    "forgotPassword": "نسيت كلمة المرور",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "otp": "رمز التحقق",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "sendOTP": "إرسال رمز التحقق",
+    "sending": "جاري الإرسال...",
+    "resetting": "جاري إعادة التعيين...",
+    "rememberPassword": "تتذكر كلمة المرور؟",
+    "backToLogin": "العودة إلى تسجيل الدخول",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "otpRequired": "رمز التحقق مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordMinLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+    "failedToSendOTP": "فشل إرسال رمز التحقق",
+    "failedToResetPassword": "فشل إعادة تعيين كلمة المرور"
+  },
+  "notesPage": {
+    "title": "ملاحظاتي",
+    "loading": "جاري تحميل الملاحظات...",
+    "noNotes": "لم يتم العثور على ملاحظات",
+    "failedToLoad": "فشل تحميل الملاحظات",
+    "note": "ملاحظة",
+    "notes": "ملاحظات",
+    "noChapter": "لا يوجد فصل",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "saving": "جاري الحفظ...",
+    "edited": "تم التعديل",
+    "updatedSuccessfully": "تم تحديث الملاحظة بنجاح",
+    "deletedSuccessfully": "تم حذف الملاحظة بنجاح",
+    "failedToUpdate": "فشل تحديث الملاحظة",
+    "failedToDelete": "فشل حذف الملاحظة",
+    "contentRequired": "محتوى الملاحظة مطلوب",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الملاحظة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "notePlaceholder": "أدخل ملاحظتك هنا..."
+  },
+  "readingNotesPage": {
+    "title": "ملاحظات القراءة",
+    "loading": "جاري تحميل ملاحظاتك...",
+    "noNotes": "لم تقم بإنشاء أي ملاحظات بعد",
+    "noNotesForBook": "لم يتم العثور على ملاحظات لهذا الكتاب",
+    "failedToLoad": "فشل تحميل الملاحظات",
+    "note": "ملاحظة",
+    "notes": "ملاحظات",
+    "noChapter": "لا يوجد فصل",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "saving": "جاري الحفظ...",
+    "edited": "تم التعديل",
+    "updatedSuccessfully": "تم تحديث الملاحظة بنجاح",
+    "deletedSuccessfully": "تم حذف الملاحظة بنجاح",
+    "failedToUpdate": "فشل تحديث الملاحظة",
+    "failedToDelete": "فشل حذف الملاحظة",
+    "contentRequired": "محتوى الملاحظة مطلوب",
+    "confirmDelete": "هل أنت متأكد من حذف هذه الملاحظة؟",
+    "notePlaceholder": "أدخل ملاحظتك هنا...",
+    "openBook": "فتح الكتاب",
+    "viewNotes": "عرض الملاحظات"
   }
 }
+

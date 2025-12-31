@@ -25,10 +25,11 @@
     "descriptionRequired": "يرجى إدخال وصف لطلب الصلاة الخاص بك.",
     "failedToCreateRequest": "فشل إنشاء طلب الصلاة.",
     "maxFilesExceeded": "يمكنك رفع حد أقصى 5 ملفات.",
-    "invalidFileType": "نوع الملف غير صالح: {{filename}}. يُسمح بالصور والفيديوهات فقط.",
+    "invalidFileType": "نوع الملف غير صحيح: {{filename}}. يُسمح بالصور والفيديوهات فقط.",
     "fileSizeExceeded": "حجم الملف يتجاوز حد 10 ميجابايت: {{filename}}"
   },
   "success": {
     "requestCreated": "تم إنشاء طلب الصلاة بنجاح!"
   }
 }
+

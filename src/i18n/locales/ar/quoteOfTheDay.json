@@ -3,5 +3,7 @@
   "loading": "جاري التحميل...",
   "likes": "الإعجابات",
   "addNewPost": "إضافة منشور جديد",
-  "failedToUpdateLike": "فشل تحديث الإعجاب"
+  "failedToUpdateLike": "فشل تحديث الإعجاب",
+  "pleaseUpload": "لم يتم رفع اقتباس اليوم بعد"
 }
+

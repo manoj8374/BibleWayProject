@@ -6,21 +6,34 @@
   "testimonials": {
     "title": "إدارة الشهادات",
     "pending": "قيد الانتظار",
-    "verified": "م verified",
+    "verified": "تم التحقق",
     "all": "الكل",
     "loading": "جاري تحميل الشهادات...",
     "noTestimonials": "لم يتم العثور على شهادات",
     "approve": "الموافقة",
-    "reject": "رفض",
+    "reject": "الرفض",
     "processing": "جاري المعالجة...",
     "approvedSuccessfully": "تمت الموافقة على الشهادة بنجاح",
     "rejectedSuccessfully": "تم رفض الشهادة بنجاح",
     "failedToLoad": "فشل تحميل الشهادات",
-    "failedToApprove": "فشلت الموافقة على الشهادة",
+    "failedToApprove": "فشل الموافقة على الشهادة",
     "failedToReject": "فشل رفض الشهادة",
-    "confirmReject": "هل أنت متأكد أنك تريد رفض هذه الشهادة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "confirmReject": "هل أنت متأكد من رفض هذه الشهادة؟ لا يمكن التراجع عن هذا الإجراء.",
     "previous": "السابق",
     "next": "التالي",
     "pageInfo": "الصفحة {{current}} من {{total}}"
+  },
+  "promotions": {
+    "title": "إدارة العروض الترويجية",
+    "loading": "جاري تحميل العروض الترويجية...",
+    "noPromotions": "لم يتم العثور على عروض ترويجية",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "processing": "جاري المعالجة...",
+    "deletedSuccessfully": "تم حذف العرض الترويجي بنجاح",
+    "failedToLoad": "فشل تحميل العروض الترويجية",
+    "failedToDelete": "فشل حذف العرض الترويجي",
+    "confirmDelete": "هل أنت متأكد من حذف هذا العرض الترويجي؟ لا يمكن التراجع عن هذا الإجراء."
   }
 }
+

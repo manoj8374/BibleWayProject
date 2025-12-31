@@ -2,10 +2,25 @@
   "loading": "جاري تحميل التعليقات...",
   "error": "فشل تحميل التعليقات",
   "noComments": "لا توجد تعليقات بعد. كن أول من يعلق!",
+  "emptyComment": "لا يمكن أن يكون التعليق فارغاً",
+  "commentUpdated": "تم تحديث التعليق بنجاح",
+  "failedToUpdate": "فشل تحديث التعليق",
+  "deleteConfirm": "هل أنت متأكد من حذف هذا التعليق؟",
+  "commentDeleted": "تم حذف التعليق بنجاح",
+  "failedToDelete": "فشل حذف التعليق",
+  "writeComment": "اكتب تعليقاً...",
+  "deleteModal": {
+    "title": "حذف التعليق",
+    "description": "هل أنت متأكد من حذف هذا التعليق؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "deleting": "جاري الحذف..."
+  },
   "time": {
     "justNow": "الآن",
-    "minutesAgo": "منذ {{count}} د",
-    "hoursAgo": "منذ {{count}} س",
-    "daysAgo": "منذ {{count}} ي"
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "daysAgo": "منذ {{count}} يوم"
   }
 }
+
