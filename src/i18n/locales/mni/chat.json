@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "ꯑꯣꯟꯂꯥꯏꯟ",
+    "offline": "ꯑꯐꯂꯥꯏꯟ"
+  },
+  "messages": {
+    "loading": "ꯁꯟꯗꯦꯁ ꯂꯣꯗ ꯍꯣꯏꯇ ꯑꯆꯤ...",
+    "noMessages": "ꯑꯆꯤꯅ ꯗꯥꯔꯤ ꯀꯣꯅꯣ ꯁꯟꯗꯦꯁ ꯅꯍꯤ",
+    "deleted": "ꯑꯦꯍꯤ ꯁꯟꯗꯦꯁ ꯃꯦꯇꯥꯑꯣꯜ ꯒꯦꯜ",
+    "sharedImage": "ꯁꯥꯖꯥ ꯀꯦꯜ ꯒꯦꯜ ꯆꯚꯤ",
+    "viewAttachment": "ꯑꯇꯦꯆꯃꯦꯟꯇ ꯗꯦꯈꯕ",
+    "seen": "ꯗꯦꯈꯂꯥ ꯒꯦꯜ",
+    "deleteMessage": "ꯁꯟꯗꯦꯁ ꯃꯦꯇꯥꯕ"
+  },
+  "typing": {
+    "isTyping": "ꯇꯥꯏꯄ ꯀꯔꯤ ꯔꯥꯍꯜ ꯑꯆꯤ...",
+    "peopleTyping": "ꯂꯣꯀ ꯇꯥꯏꯄ ꯀꯔꯤ ꯔꯥꯍꯜ ꯑꯆꯤ..."
+  },
+  "input": {
+    "placeholder": "ꯁꯟꯗꯦꯁ ꯇꯥꯏꯄ ꯀꯔꯕ...",
+    "pressEnterToSend": "ꯕꯦꯖꯕꯥꯀ ꯂꯦꯜ ꯑꯦꯟꯇꯔ ꯗꯕꯥꯏꯕ"
+  },
+  "deleteModal": {
+    "title": "ꯁꯟꯗꯦꯁ ꯃꯦꯇꯥꯕ?",
+    "message": "ꯀꯤ ꯑꯥ ꯋꯥꯔꯆꯤꯠ ꯑꯆꯤ ꯖꯦ ꯑꯥ ꯑꯦꯍꯤ ꯁꯟꯗꯦꯁ ꯃꯦꯇꯥꯕ ꯆꯥꯍꯤꯠ ꯑꯆꯤ? ꯑꯦꯍꯤ ꯀ꯭ꯔꯤꯌꯥ ꯄꯨꯔꯕꯥꯠ ꯅꯍꯤ ꯀꯦꯜ ꯖꯥꯏ ꯁꯥꯀꯤꯇ ꯑꯆꯤ꯫",
+    "cancel": "ꯔꯗꯗ",
+    "delete": "ꯃꯦꯇꯥꯕ"
+  },
+  "uploadModal": {
+    "title": "ꯐꯥꯏꯜ ꯕꯦꯖꯕ",
+    "uploading": "ꯑꯄꯂꯣꯗ ꯑꯥꯟꯗ ꯕꯦꯖꯤ ꯔꯥꯍꯜ ꯑꯆꯤ...",
+    "sendFile": "{{filename}} ꯕꯦꯖꯕ?",
+    "sending": "ꯕꯦꯖꯤ ꯔꯥꯍꯜ ꯑꯆꯤ...",
+    "send": "ꯕꯦꯖꯕ",
+    "cancel": "ꯔꯗꯗ"
+  },
+  "errors": {
+    "fetchConversation": "ꯕꯥꯇꯆꯤꯇ ꯄ꯭ꯔꯥꯄꯇ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+    "invalidFileType": "ꯑꯚꯥꯏꯗ ꯐꯥꯏꯜ ꯇꯥꯏꯄ꯫ ꯁꯦꯕꯥꯜ ꯆꯚꯤ ꯑꯥꯟꯗ ꯚꯤꯗꯤꯑꯣ ꯃꯥꯅꯌ꯫",
+    "fileSizeExceeded": "ꯐꯥꯏꯜ ꯑꯥꯀꯥꯔ ꯱꯰ꯃꯤꯕ ꯀꯤ ꯂꯤꯃꯤꯇ ꯁꯝ ꯑꯗꯤꯛ ꯑꯆꯤ꯫",
+    "uploadFailed": "ꯐꯥꯏꯜ ꯑꯄꯂꯣꯗ ꯑꯁꯐꯜ",
+    "failedToLoadStickers": "ꯁꯇꯤꯀꯔꯁ ꯂꯣꯗ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ"
+  },
+  "stickers": {
+    "loading": "ꯁꯇꯤꯀꯔꯁ ꯂꯣꯗ ꯖꯥꯇꯥꯠ...",
+    "noStickers": "ꯁꯇꯤꯀꯔꯁ ꯑꯨꯄꯂꯥꯕꯗ ꯅꯍꯤ"
+  }
+}
+

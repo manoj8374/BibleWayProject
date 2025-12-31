@@ -1,0 +1,10 @@
+{
+  "buttonText": "ꯒꯣꯑꯣꯒꯂꯦ ꯁꯝ ꯆꯥꯂꯨ ꯔꯥꯈꯕ",
+  "success": {
+    "loginSuccessful": "ꯂꯣꯒ ꯏꯟ ꯁꯐꯜ"
+  },
+  "errors": {
+    "loginFailed": "ꯂꯣꯒ ꯏꯟ ꯑꯁꯐꯜ"
+  }
+}
+

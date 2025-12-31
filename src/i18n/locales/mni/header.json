@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "ꯄꯨꯁꯇꯀ, ꯅꯥꯝ, ꯂꯦꯈꯀ ꯈꯣꯖꯕ...",
+  "addNewPost": "ꯅꯚ ꯄꯣꯁꯠ ꯖꯣꯗꯕ",
+  "noResultsFound": "ꯄꯔꯤꯟꯃ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+  "languageSelector": {
+    "searchLanguages": "ꯕꯥꯁꯥ ꯈꯣꯖꯕ...",
+    "noLanguagesFound": "ꯕꯥꯁꯥ ꯅꯍꯤ ꯃꯤꯜꯂꯥ"
+  },
+  "filter": {
+    "selectLanguage": "ꯕꯥꯁꯥ ꯆꯨꯟꯕ",
+    "selectVersion": "ꯄꯨꯁꯇꯀ ꯆꯨꯟꯕ"
+  }
+}
+

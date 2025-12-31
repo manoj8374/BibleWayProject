@@ -1,0 +1,8 @@
+{
+  "required": "ꯑꯦꯍꯤ ꯐꯤꯜꯗ ꯖꯔꯨꯔꯤ ꯑꯆꯤ",
+  "invalidEmail": "ꯀ꯭ꯔꯨꯄꯥꯌꯥ ꯚꯥꯏꯗ ꯏꯃꯦꯜ ꯄꯥꯇꯥ ꯗꯔꯖ ꯀꯔꯕ",
+  "passwordTooShort": "ꯄꯥꯁꯕꯔꯗ ꯀꯝ ꯁꯝ ꯀꯝ ꯸ ꯑꯀꯁꯔꯀ ꯍꯣꯏꯅꯥꯏ ꯆꯥꯍꯤ",
+  "passwordsDoNotMatch": "ꯄꯥꯁꯕꯔꯗ ꯃꯦꯜ ꯅꯍꯤ ꯈꯥꯏꯇ",
+  "somethingWentWrong": "ꯀꯤꯆꯨ ꯒꯜꯇ ꯕꯦꯜ꯫ ꯀ꯭ꯔꯨꯄꯥꯌꯥ ꯐꯦꯔ ꯀꯣꯁꯤꯁ ꯀꯔꯕ꯫"
+}
+

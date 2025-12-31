@@ -1,0 +1,34 @@
+{
+  "title": "ꯑꯆꯤꯇꯥꯔ ꯅꯣꯇ",
+  "noBookSelected": "ꯀꯣꯅꯣ ꯄꯨꯁꯇꯀ ꯅꯍꯤ ꯆꯨꯟꯂꯥ ꯒꯦꯜ",
+  "selectBookMessage": "ꯅꯣꯇ ꯗꯦꯈꯕ ꯂꯦꯜ ꯀ꯭ꯔꯨꯄꯥꯌꯥ ꯄꯨꯁꯇꯀ ꯆꯨꯟꯕ",
+  "noChapterSelected": "ꯀꯣꯅꯣ ꯑꯆꯤꯇꯥꯔ ꯅꯍꯤ ꯆꯨꯟꯂꯥ ꯒꯦꯜ",
+  "selectChapterMessage": "ꯅꯣꯇ ꯗꯦꯈꯕ ꯑꯥꯟꯗ ꯕꯅꯥꯕ ꯂꯦꯜ ꯑꯆꯤꯇꯥꯔ ꯆꯨꯟꯕ",
+  "loadingNotes": "ꯅꯣꯇ ꯂꯣꯗ ꯖꯥꯇꯥꯠ...",
+  "noNotesYet": "ꯑꯆꯤꯅ ꯗꯥꯔꯤ ꯀꯣꯅꯣ ꯅꯣꯇ ꯅꯍꯤ",
+  "startWritingMessage": "ꯑꯦꯍꯤ ꯑꯆꯤꯇꯥꯔ ꯀꯦ ꯕꯥꯔꯦ ꯃꯦ ꯑꯄꯟ ꯚꯤꯆꯥꯔ ꯑꯥꯟꯗ ꯑꯟꯇꯔꯗꯤꯁꯇꯤ ꯂꯤꯈꯕ ꯁꯨꯔꯨ ꯀꯔꯕ",
+  "placeholder": "ꯑꯄꯟ ꯅꯣꯇ ꯍꯥꯡꯥ ꯂꯤꯈꯕ...",
+  "cancel": "ꯔꯗꯗ",
+  "saving": "ꯁꯦꯚ ꯔꯥꯍꯜ ꯑꯆꯤ...",
+  "updateNote": "ꯅꯣꯇ ꯑꯄꯗꯦꯇ ꯀꯔꯕ",
+  "saveNote": "ꯅꯣꯇ ꯁꯦꯚ",
+  "editNote": "ꯅꯣꯇ ꯁꯝꯄꯥꯗꯟ ꯀꯔꯕ",
+  "deleteNote": "ꯅꯣꯇ ꯃꯦꯇꯥꯕ",
+  "justNow": "ꯑꯆꯤꯅ",
+  "note": "ꯅꯣꯇ",
+  "notes": "ꯅꯣꯇ",
+  "deleteConfirmation": "ꯀꯤ ꯑꯥ ꯋꯥꯔꯆꯤꯠ ꯑꯆꯤ ꯖꯦ ꯑꯥ ꯑꯦꯍꯤ ꯅꯣꯇ ꯃꯦꯇꯥꯕ ꯆꯥꯍꯤꯠ ꯑꯆꯤ?",
+  "success": {
+    "noteCreated": "ꯅꯣꯇ ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯕꯅꯥꯑꯣꯜ ꯒꯦꯜ",
+    "noteUpdated": "ꯅꯣꯇ ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯑꯄꯗꯦꯇ ꯕꯦꯜ",
+    "noteDeleted": "ꯅꯣꯇ ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯃꯦꯇꯥꯑꯣꯜ ꯒꯦꯜ"
+  },
+  "errors": {
+    "failedToLoad": "ꯅꯣꯇ ꯂꯣꯗ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+    "failedToCreate": "ꯅꯣꯇ ꯕꯅꯥꯕ ꯃꯦ ꯑꯁꯐꯜ",
+    "failedToUpdate": "ꯅꯣꯇ ꯑꯄꯗꯦꯇ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+    "failedToDelete": "ꯅꯣꯇ ꯃꯦꯇꯥꯕ ꯃꯦ ꯑꯁꯐꯜ",
+    "failedToSave": "ꯅꯣꯇ ꯁꯦꯚ ꯃꯦ ꯑꯁꯐꯜ"
+  }
+}
+

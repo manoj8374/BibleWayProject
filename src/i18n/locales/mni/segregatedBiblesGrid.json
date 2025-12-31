@@ -1,0 +1,15 @@
+{
+  "title": "ꯚꯔꯒꯤꯀ꯭ꯔꯨꯇ ꯕꯥꯏꯕꯜ",
+  "loadingAgeGroups": "ꯑꯥꯌꯨ ꯁꯝꯑꯨꯄ ꯂꯣꯗ ꯖꯥꯇꯥꯠ...",
+  "failedToLoadAgeGroups": "ꯑꯥꯌꯨ ꯁꯝꯑꯨꯄ ꯂꯣꯗ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+  "unexpectedErrorLoadingAgeGroups": "ꯑꯥꯌꯨ ꯁꯝꯑꯨꯄ ꯂꯣꯗ ꯀꯔꯇꯥꯅ ꯑꯦꯀ ꯑꯄ꯭ꯔꯇꯤꯌꯥꯁꯤꯇ ꯇ꯭ꯔꯨꯇꯤ ꯑꯥꯏꯦꯜ",
+  "noAgeGroupsAvailable": "ꯑꯥꯌꯨ ꯁꯝꯑꯨꯄ ꯑꯨꯄꯂꯥꯕꯗ ꯅꯍꯤ",
+  "pleaseSelectCategoryFirst": "ꯀ꯭ꯔꯨꯄꯥꯌꯥ ꯄꯍꯤꯂꯦ ꯁ꯭ꯔꯦꯟꯤ ꯆꯨꯟꯕ",
+  "noBooksAvailable": "ꯑꯦꯍꯤ ꯆꯨꯟꯂꯥꯅ ꯂꯦꯜ ꯄꯨꯁꯇꯀ ꯑꯨꯄꯂꯥꯕꯗ ꯅꯍꯤ",
+  "failedToFetchBooks": "ꯄꯨꯁꯇꯀ ꯄ꯭ꯔꯥꯄꯇ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+  "categoryNotFound": "ꯁ꯭ꯔꯦꯟꯤ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+  "ageGroupNotFound": "ꯑꯥꯌꯨ ꯁꯝꯑꯨꯄ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+  "languageNotFound": "ꯕꯥꯁꯥ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+  "unexpectedErrorFetchingBooks": "ꯄꯨꯁꯇꯀ ꯄ꯭ꯔꯥꯄꯇ ꯀꯔꯇꯥꯅ ꯑꯦꯀ ꯑꯄ꯭ꯔꯇꯤꯌꯥꯁꯤꯇ ꯇ꯭ꯔꯨꯇꯤ ꯑꯥꯏꯦꯜ"
+}
+

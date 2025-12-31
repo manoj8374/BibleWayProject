@@ -1,0 +1,22 @@
+{
+  "welcome": "ꯂꯣꯏꯅꯕꯥ ꯑꯣꯏꯈꯤ꯫",
+  "login": "ꯂꯣꯒ ꯏꯟ",
+  "signup": "ꯁꯥꯏꯟ ꯑꯄꯥ",
+  "logout": "ꯂꯣꯒ ꯑꯥꯎꯠ",
+  "home": "ꯍꯣꯝ",
+  "profile": "ꯄ꯭ꯔꯣꯐꯥꯏꯜ",
+  "settings": "ꯁꯦꯇꯤꯡꯁ",
+  "save": "ꯁꯦꯚ",
+  "cancel": "ꯔꯗꯗ",
+  "delete": "ꯃꯦꯇꯥꯕ",
+  "edit": "ꯁꯝꯄꯥꯗꯟ",
+  "submit": "ꯖꯃꯥ ꯀꯔꯕ",
+  "loading": "ꯂꯣꯗ ꯍꯣꯏꯇ ꯑꯆꯤ꯫",
+  "error": "ꯇ꯭ꯔꯨꯇꯤ",
+  "success": "ꯁꯐꯜ",
+  "linkCopied": "ꯂꯤꯟꯛ ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗ ꯃꯦ ꯀꯣꯄꯤ ꯕꯦꯜ!",
+  "failedToCopy": "ꯂꯤꯟꯛ ꯀꯣꯄꯤ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ",
+  "sharePost": "ꯄꯣꯁꯠ ꯁꯥꯖꯥ ꯀꯔꯕ",
+  "sharePrayerRequest": "ꯄ꯭ꯔꯥꯔꯊꯅꯥ ꯑꯅꯨꯔꯣꯗ ꯁꯥꯖꯥ ꯀꯔꯕ"
+}
+

@@ -1,0 +1,28 @@
+{
+  "title": "ꯄꯣꯁꯠ ꯕꯅꯥꯕ",
+  "labels": {
+    "title": "ꯁꯤꯔꯁꯀ",
+    "description": "ꯚꯤꯚꯔꯟ"
+  },
+  "placeholders": {
+    "enterPostTitle": "ꯄꯣꯁꯠ ꯁꯤꯔꯁꯀ ꯗꯔꯖ ꯀꯔꯕ...",
+    "enterDescription": "ꯍꯝ ꯒꯣꯑꯣꯒꯂꯦ ꯃꯦ ꯅꯑꯨꯀꯔꯤ ꯄꯥꯏꯦꯜꯍꯨꯝ..."
+  },
+  "upload": {
+    "uploadFiles": "ꯑꯄꯟ ꯐꯥꯏꯜ ꯍꯥꯡꯥ ꯑꯄꯂꯣꯗ ꯀꯔꯕ (ꯃꯥꯛꯁ ꯵)",
+    "addMoreFiles": "+ ꯕꯦꯁꯤ ꯐꯥꯏꯜ ꯖꯣꯗꯕ"
+  },
+  "buttons": {
+    "createPost": "ꯄꯣꯁꯠ ꯕꯅꯥꯕ",
+    "creating": "ꯕꯅꯥꯕ ꯔꯥꯍꯜ ꯑꯆꯤ..."
+  },
+  "errors": {
+    "maxFilesExceeded": "ꯑꯥ ꯃꯥꯛꯁꯤꯃꯝ ꯵ ꯐꯥꯏꯜ ꯑꯄꯂꯣꯗ ꯀꯦ ꯁꯥꯀꯤꯇ ꯑꯆꯤ꯫",
+    "atLeastOneFile": "ꯀ꯭ꯔꯨꯄꯥꯌꯥ ꯀꯝ ꯁꯝ ꯀꯝ ꯑꯦꯀ ꯃꯤꯗꯤꯌꯥ ꯐꯥꯏꯜ ꯑꯄꯂꯣꯗ ꯀꯔꯕ꯫",
+    "failedToCreatePost": "ꯄꯣꯁꯠ ꯕꯅꯥꯕ ꯃꯦ ꯑꯁꯐꯜ꯫"
+  },
+  "success": {
+    "postCreated": "ꯄꯣꯁꯠ ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯕꯅꯥꯑꯣꯜ ꯒꯦꯜ!"
+  }
+}
+

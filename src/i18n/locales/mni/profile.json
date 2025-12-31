@@ -1,0 +1,20 @@
+{
+  "back": "ꯄꯤꯆꯥ",
+  "follow": "ꯐꯣꯂꯣ ꯀꯔꯕ",
+  "unfollow": "ꯑꯅꯐꯣꯂꯣ ꯀꯔꯕ",
+  "message": "ꯁꯟꯗꯦꯁ",
+  "follower": "ꯐꯣꯂꯣꯑꯔ",
+  "following": "ꯐꯣꯂꯣ ꯀꯔꯤ ꯔꯥꯍꯜ ꯑꯆꯤ",
+  "followers": "ꯐꯣꯂꯣꯑꯔꯁ",
+  "loadingProfile": "ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯂꯣꯗ ꯖꯥꯇꯥ...",
+  "profileNotFound": "ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+  "loadingPosts": "ꯄꯣꯁꯠꯁ ꯂꯣꯗ ꯖꯥꯇꯥꯠ...",
+  "noPostsYet": "ꯑꯆꯤꯅ ꯗꯥꯔꯤ ꯀꯣꯅꯣ ꯄꯣꯁꯠꯁ ꯅꯍꯤ",
+  "unknownUser": "ꯑꯖꯅꯥꯠ ꯑꯨꯄꯌꯣꯒꯀꯥꯔꯇꯥ",
+  "checkOutProfile": "BibleWay ꯄꯔ {{name}} ꯀꯦ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯗꯦꯈꯕ",
+  "profileTitle": "{{name}} ꯀꯦ ꯄ꯭ꯔꯣꯐꯥꯏꯜ",
+  "unfollowedSuccessfully": "ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯑꯅꯐꯣꯂꯣ ꯀꯦꯜ ꯒꯦꯜ",
+  "followedSuccessfully": "ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯐꯣꯂꯣ ꯀꯦꯜ ꯒꯦꯜ",
+  "failedToFetchUserPosts": "ꯑꯨꯄꯌꯣꯒꯀꯥꯔꯇꯥ ꯀꯤ ꯄꯣꯁꯠꯁ ꯄ꯭ꯔꯥꯄꯇ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ"
+}
+

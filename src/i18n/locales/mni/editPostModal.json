@@ -1,0 +1,25 @@
+{
+  "title": "ꯄꯣꯁꯠ ꯁꯝꯄꯥꯗꯟ ꯀꯔꯕ",
+  "labels": {
+    "title": "ꯁꯤꯔꯁꯀ",
+    "description": "ꯚꯤꯚꯔꯟ",
+    "media": "ꯃꯤꯗꯤꯌꯥ"
+  },
+  "placeholders": {
+    "enterPostTitle": "ꯄꯣꯁꯠ ꯁꯤꯔꯁꯀ ꯗꯔꯖ ꯀꯔꯕ...",
+    "enterDescription": "ꯚꯤꯚꯔꯟ ꯗꯔꯖ ꯀꯔꯕ..."
+  },
+  "buttons": {
+    "cancel": "ꯔꯗꯗ",
+    "save": "ꯁꯦꯚ",
+    "updating": "ꯑꯄꯗꯦꯇ ꯍꯣꯏ ꯔꯥꯍꯜ ꯑꯆꯤ..."
+  },
+  "errors": {
+    "noChanges": "ꯀꯣꯅꯣ ꯕꯗꯂꯥꯚ ꯅꯍꯤ ꯃꯤꯜꯂꯥ",
+    "failedToUpdatePost": "ꯄꯣꯁꯠ ꯑꯄꯗꯦꯇ ꯀꯔꯕ ꯃꯦ ꯑꯁꯐꯜ"
+  },
+  "success": {
+    "postUpdated": "ꯄꯣꯁꯠ ꯁꯐꯜꯇꯥꯄꯨꯔꯕ ꯑꯄꯗꯦꯇ ꯕꯦꯜ"
+  }
+}
+
