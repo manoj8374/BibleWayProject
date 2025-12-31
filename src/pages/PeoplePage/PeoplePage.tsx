@@ -40,7 +40,7 @@ const PeoplePage: React.FC = () => {
   // Initialize from query parameters on mount
   useEffect(() => {
     // Only run once on mount
-    if (hasInitializedFromParams.current) return;
+    // if (hasInitializedFromParams.current) return;
     
     const conversationId = searchParams.get("conversation_id");
     const userId = searchParams.get("user_id");
