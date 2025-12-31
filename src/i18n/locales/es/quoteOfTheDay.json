@@ -1,0 +1,8 @@
+{
+  "title": "Cita del día",
+  "loading": "Cargando...",
+  "likes": "Me gusta",
+  "addNewPost": "Agregar Nueva Publicación",
+  "failedToUpdateLike": "Error al actualizar me gusta",
+  "pleaseUpload": "Aún no se ha subido una cita del día"
+}

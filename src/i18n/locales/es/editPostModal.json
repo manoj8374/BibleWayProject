@@ -1,0 +1,24 @@
+{
+  "title": "Editar Publicación",
+  "labels": {
+    "title": "Título",
+    "description": "Descripción",
+    "media": "Medios"
+  },
+  "placeholders": {
+    "enterPostTitle": "Ingresa el título de la publicación...",
+    "enterDescription": "Ingresa la descripción..."
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "updating": "Actualizando..."
+  },
+  "errors": {
+    "noChanges": "No se detectaron cambios",
+    "failedToUpdatePost": "Error al actualizar la publicación"
+  },
+  "success": {
+    "postUpdated": "Publicación actualizada con éxito"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Crear Cita Diaria",
+  "note": "Nota: Crear un nuevo versículo borrará la cita diaria existente. Esta acción no se puede deshacer. La nueva cita se mostrará a todos los usuarios inmediatamente.",
+  "labels": {
+    "title": "Título (Opcional)",
+    "quoteDescription": "Cita / Descripción (Requerido)"
+  },
+  "placeholders": {
+    "title": "ej. Cita del día",
+    "quoteDescription": "Ingresa la escritura o cita aquí..."
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "publishQuote": "Publicar Cita",
+    "publishing": "Publicando...",
+    "updateQuote": "Actualizar Cita",
+    "updating": "Actualizando..."
+  },
+  "errors": {
+    "descriptionRequired": "La descripción es obligatoria",
+    "failedToCreateVerse": "Error al crear el versículo",
+    "failedToUpdateVerse": "Error al actualizar el versículo",
+    "unexpectedError": "Ocurrió un error inesperado"
+  },
+  "success": {
+    "verseCreated": "Versículo creado con éxito",
+    "verseUpdated": "Versículo actualizado con éxito"
+  },
+  "editTitle": "Editar Versículo"
+}

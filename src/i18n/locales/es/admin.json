@@ -1,0 +1,38 @@
+{
+  "loading": "Cargando...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute debe usarse dentro de un ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Gestión de Testimonios",
+    "pending": "Pendiente",
+    "verified": "Verificado",
+    "all": "Todos",
+    "loading": "Cargando testimonios...",
+    "noTestimonials": "No se encontraron testimonios",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "processing": "Procesando...",
+    "approvedSuccessfully": "Testimonio aprobado con éxito",
+    "rejectedSuccessfully": "Testimonio rechazado con éxito",
+    "failedToLoad": "Error al cargar testimonios",
+    "failedToApprove": "Error al aprobar testimonio",
+    "failedToReject": "Error al rechazar testimonio",
+    "confirmReject": "¿Estás seguro de que quieres rechazar este testimonio? Esta acción no se puede deshacer.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "pageInfo": "Página {{current}} de {{total}}"
+  },
+  "promotions": {
+    "title": "Gestión de Promociones",
+    "loading": "Cargando promociones...",
+    "noPromotions": "No se encontraron promociones",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "processing": "Procesando...",
+    "deletedSuccessfully": "Promoción eliminada con éxito",
+    "failedToLoad": "Error al cargar promociones",
+    "failedToDelete": "Error al eliminar promoción",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta promoción? Esta acción no se puede deshacer."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "En línea",
+    "offline": "Desconectado"
+  },
+  "messages": {
+    "loading": "Cargando mensajes...",
+    "noMessages": "Aún no hay mensajes",
+    "deleted": "Este mensaje fue eliminado",
+    "sharedImage": "Imagen compartida",
+    "viewAttachment": "Ver adjunto",
+    "seen": "Visto",
+    "deleteMessage": "Eliminar mensaje"
+  },
+  "typing": {
+    "isTyping": "está escribiendo...",
+    "peopleTyping": "personas están escribiendo..."
+  },
+  "input": {
+    "placeholder": "Escribe un mensaje...",
+    "pressEnterToSend": "Presiona Enter para enviar"
+  },
+  "deleteModal": {
+    "title": "¿Eliminar mensaje?",
+    "message": "¿Estás seguro de que quieres eliminar este mensaje? Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+  "uploadModal": {
+    "title": "Enviar archivo",
+    "uploading": "Subiendo y enviando...",
+    "sendFile": "¿Enviar {{filename}}?",
+    "sending": "Enviando...",
+    "send": "Enviar",
+    "cancel": "Cancelar"
+  },
+  "errors": {
+    "fetchConversation": "Error al recuperar la conversación",
+    "invalidFileType": "Tipo de archivo no válido. Solo se permiten imágenes y videos.",
+    "fileSizeExceeded": "El tamaño del archivo excede el límite de 10 MB.",
+    "uploadFailed": "Error al subir el archivo",
+    "failedToLoadStickers": "Error al cargar stickers"
+  },
+  "stickers": {
+    "loading": "Cargando stickers...",
+    "noStickers": "No hay stickers disponibles"
+  }
+}

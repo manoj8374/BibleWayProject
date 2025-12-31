@@ -138,10 +138,6 @@ export const loadLanguage = async (lng: string): Promise<void> => {
         notifications: notifications.default,
         logoutConfirmation: logoutConfirmation.default,
       };
-    } else if (lng === 'es') {
-      // Special case for Spanish (single file)
-      const esTranslations = await import(`./locales/es.json`);
-      translations = esTranslations.default;
     } else {
       // For other languages, dynamically import all translation files
       const [

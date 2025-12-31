@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Buscar Personas",
+  "searchPeoplePlaceholder": "Buscar personas...",
+  "searching": "Buscando...",
+  "noUsersFound": "No se encontraron usuarios",
+  "follow": "Seguir",
+  "following": "Siguiendo",
+  "failedToUpdateFollowStatus": "Error al actualizar el estado de seguimiento",
+  "loadingInbox": "Cargando bandeja de entrada...",
+  "noMessages": "No hay mensajes",
+  "you": "Tú: ",
+  "attachment": "Adjunto",
+  "noMessagesText": "No hay mensajes",
+  "sticker": "📷 Sticker"
+}

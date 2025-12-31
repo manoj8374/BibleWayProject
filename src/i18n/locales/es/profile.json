@@ -1,0 +1,19 @@
+{
+  "back": "Atrás",
+  "follow": "Seguir",
+  "unfollow": "Dejar de seguir",
+  "message": "Mensaje",
+  "follower": "Seguidor",
+  "following": "Siguiendo",
+  "followers": "Seguidores",
+  "loadingProfile": "Cargando perfil...",
+  "profileNotFound": "Perfil no encontrado",
+  "loadingPosts": "Cargando publicaciones...",
+  "noPostsYet": "Aún no hay publicaciones",
+  "unknownUser": "Usuario Desconocido",
+  "checkOutProfile": "Mira el perfil de {{name}} en BibleWay",
+  "profileTitle": "Perfil de {{name}}",
+  "unfollowedSuccessfully": "Dejó de seguir con éxito",
+  "followedSuccessfully": "Siguiendo con éxito",
+  "failedToFetchUserPosts": "Error al recuperar publicaciones del usuario"
+}

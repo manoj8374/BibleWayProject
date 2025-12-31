@@ -1,0 +1,7 @@
+{
+  "required": "Este campo es obligatorio",
+  "invalidEmail": "Por favor, introduce un correo electrónico válido",
+  "passwordTooShort": "La contraseña debe tener al menos 8 caracteres",
+  "passwordsDoNotMatch": "Las contraseñas no coinciden",
+  "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo."
+}

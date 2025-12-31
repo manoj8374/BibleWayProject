@@ -1,0 +1,9 @@
+{
+  "title": "Confirmar Cierre de Sesión",
+  "description": "¿Estás seguro de que deseas cerrar sesión? Tendrás que iniciar sesión nuevamente para acceder a tu cuenta.",
+  "buttons": {
+    "cancel": "Cancelar",
+    "confirm": "Cerrar Sesión",
+    "loggingOut": "Cerrando sesión..."
+  }
+}

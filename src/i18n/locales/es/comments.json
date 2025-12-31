@@ -1,0 +1,25 @@
+{
+  "loading": "Cargando comentarios...",
+  "error": "Error al cargar comentarios",
+  "noComments": "Aún no hay comentarios. ¡Sé el primero en decir algo!",
+  "emptyComment": "El comentario no puede estar vacío",
+  "commentUpdated": "Comentario actualizado con éxito",
+  "failedToUpdate": "Error al actualizar comentario",
+  "deleteConfirm": "¿Estás seguro de que quieres eliminar este comentario?",
+  "commentDeleted": "Comentario eliminado con éxito",
+  "failedToDelete": "Error al eliminar comentario",
+  "writeComment": "Escribe un comentario...",
+  "deleteModal": {
+    "title": "Eliminar comentario",
+    "description": "¿Estás seguro de que quieres eliminar este comentario? Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "deleting": "Eliminando..."
+  },
+  "time": {
+    "justNow": "Justo ahora",
+    "minutesAgo": "hace {{count}}m",
+    "hoursAgo": "hace {{count}}h",
+    "daysAgo": "hace {{count}}d"
+  }
+}

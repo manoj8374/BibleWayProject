@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Ocurrió un error inesperado.",
+    "receivedToken": "Token Recibido"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Ocurrió un error inesperado durante la creación de la publicación.",
+    "failedToFetchPosts": "Error al recuperar publicaciones.",
+    "failedToFetchUserPosts": "Error al recuperar publicaciones del usuario.",
+    "failedToFetchPostDetails": "Error al recuperar detalles de la publicación.",
+    "failedToUpdatePost": "Error al actualizar publicación",
+    "failedToDeletePost": "Error al eliminar publicación",
+    "failedToCreateComment": "Error al crear comentario.",
+    "failedToUpdateComment": "Error al actualizar comentario.",
+    "failedToDeleteComment": "Error al eliminar comentario.",
+    "failedToFetchComments": "Error al recuperar comentarios.",
+    "failedToLikeComment": "Error al dar me gusta al comentario.",
+    "failedToUnlikeComment": "Error al quitar me gusta del comentario.",
+    "failedToLikePost": "Error al dar me gusta a la publicación.",
+    "failedToUnlikePost": "Error al quitar me gusta de la publicación."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Error al recuperar perfil de usuario.",
+    "failedToFollowUser": "Error al seguir usuario.",
+    "failedToUnfollowUser": "Error al dejar de seguir usuario.",
+    "failedToGetRecommendedUsers": "Error al obtener usuarios recomendados.",
+    "failedToGetUserProfile": "Error al obtener perfil de usuario."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Error al cargar fondos de pantalla"
+  },
+  "verse": {
+    "failedToLoadVerses": "Error al cargar versículos",
+    "failedToLikeVerse": "Error al dar me gusta al versículo",
+    "failedToUnlikeVerse": "Error al quitar me gusta del versículo"
+  },
+  "admin": {
+    "failedToLoadBooks": "Error al cargar libros"
+  }
+}

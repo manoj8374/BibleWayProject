@@ -1,0 +1,14 @@
+{
+  "title": "Biblias Segregadas",
+  "loadingAgeGroups": "Cargando grupos de edad...",
+  "failedToLoadAgeGroups": "Error al cargar grupos de edad",
+  "unexpectedErrorLoadingAgeGroups": "Ocurrió un error inesperado al cargar grupos de edad",
+  "noAgeGroupsAvailable": "No hay grupos de edad disponibles",
+  "pleaseSelectCategoryFirst": "Por favor, selecciona una categoría primero",
+  "noBooksAvailable": "No hay libros disponibles para esta selección",
+  "failedToFetchBooks": "Error al recuperar libros",
+  "categoryNotFound": "Categoría no encontrada",
+  "ageGroupNotFound": "Grupo de edad no encontrado",
+  "languageNotFound": "Idioma no encontrado",
+  "unexpectedErrorFetchingBooks": "Ocurrió un error inesperado al recuperar libros"
+}
