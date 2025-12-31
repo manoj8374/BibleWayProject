@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Szukaj książki, nazwy, autora...",
+  "addNewPost": "Dodaj nowy post",
+  "noResultsFound": "Nie znaleziono wyników",
+  "languageSelector": {
+    "searchLanguages": "Szukaj języków...",
+    "noLanguagesFound": "Nie znaleziono języków"
+  },
+  "filter": {
+    "selectLanguage": "Wybierz język",
+    "selectVersion": "Wybierz książkę"
+  }
+}

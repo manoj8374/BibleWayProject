@@ -1,0 +1,35 @@
+{
+  "title": "Prayer Request",
+  "labels": {
+    "description": "Description",
+    "name": "Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number(optional)",
+    "media": "Media (Optional)"
+  },
+  "placeholders": {
+    "enterDescription": "Please pray for my family's health...",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email Address",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "Upload images or videos (Max 5 files, 10MB each)",
+    "addMoreFiles": "+ Add more files"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Submit Prayer Request",
+    "submitting": "Submitting..."
+  },
+  "errors": {
+    "descriptionRequired": "Please enter a description for your prayer request.",
+    "failedToCreateRequest": "Failed to create prayer request.",
+    "maxFilesExceeded": "You can upload a maximum of 5 files.",
+    "invalidFileType": "Invalid file type: {{filename}}. Only images and videos are allowed.",
+    "fileSizeExceeded": "File size exceeds 10MB limit: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Prayer request created successfully!"
+  }
+}
+

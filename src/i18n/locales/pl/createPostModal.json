@@ -1,0 +1,27 @@
+{
+  "title": "Utwórz post",
+  "labels": {
+    "title": "Tytuł",
+    "description": "Opis"
+  },
+  "placeholders": {
+    "enterPostTitle": "Wprowadź tytuł postu...",
+    "enterDescription": "Dostałem pracę w Google..."
+  },
+  "upload": {
+    "uploadFiles": "Prześlij swoje pliki tutaj (Maks. 5)",
+    "addMoreFiles": "+ Dodaj więcej plików"
+  },
+  "buttons": {
+    "createPost": "Utwórz post",
+    "creating": "Tworzenie..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Możesz przesłać maksymalnie 5 plików.",
+    "atLeastOneFile": "Prześlij co najmniej jeden plik multimedialny.",
+    "failedToCreatePost": "Nie udało się utworzyć postu."
+  },
+  "success": {
+    "postCreated": "Post utworzony pomyślnie!"
+  }
+}

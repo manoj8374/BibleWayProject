@@ -1,0 +1,22 @@
+{
+  "edit": "Edytuj",
+  "delete": "Usuń",
+  "deleteConfirm": "Usunąć ten post?",
+  "cancel": "Anuluj",
+  "save": "Zapisz",
+  "saving": "Zapisywanie...",
+  "deleting": "Usuwanie...",
+  "likes": "Polubienia",
+  "like": "Lubię to",
+  "comments": "Komentarze",
+  "comment": "Komentarz",
+  "share": "Udostępnij",
+  "shares": "Udostępnienia",
+  "writeComment": "Napisz komentarz...",
+  "writeYourComment": "Napisz swój komentarz...",
+  "failedToComment": "Nie udało się dodać komentarza",
+  "actionFailed": "Akcja nie powiodła się",
+  "commentAdded": "Komentarz dodany pomyślnie",
+  "failedToCreateComment": "Nie udało się utworzyć komentarza",
+  "failedToUpdateLike": "Nie udało się zaktualizować polubienia"
+}

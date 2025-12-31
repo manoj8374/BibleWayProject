@@ -1,0 +1,15 @@
+{
+  "title": "Segregated Bibles",
+  "loadingAgeGroups": "Loading age groups...",
+  "failedToLoadAgeGroups": "Failed to load age groups",
+  "unexpectedErrorLoadingAgeGroups": "An unexpected error occurred while loading age groups",
+  "noAgeGroupsAvailable": "No age groups available",
+  "pleaseSelectCategoryFirst": "Please select a category first",
+  "noBooksAvailable": "No books available for this selection",
+  "failedToFetchBooks": "Failed to fetch books",
+  "categoryNotFound": "Category not found",
+  "ageGroupNotFound": "Age group not found",
+  "languageNotFound": "Language not found",
+  "unexpectedErrorFetchingBooks": "An unexpected error occurred while fetching books"
+}
+

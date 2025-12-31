@@ -1,0 +1,25 @@
+{
+  "loading": "Ładowanie komentarzy...",
+  "error": "Nie udało się załadować komentarzy",
+  "noComments": "Brak komentarzy. Bądź pierwszy i dodaj komentarz!",
+  "emptyComment": "Komentarz nie może być pusty",
+  "commentUpdated": "Komentarz zaktualizowany pomyślnie",
+  "failedToUpdate": "Nie udało się zaktualizować komentarza",
+  "deleteConfirm": "Czy na pewno chcesz usunąć ten komentarz?",
+  "commentDeleted": "Komentarz usunięty pomyślnie",
+  "failedToDelete": "Nie udało się usunąć komentarza",
+  "writeComment": "Napisz komentarz...",
+  "deleteModal": {
+    "title": "Usuń komentarz",
+    "description": "Czy na pewno chcesz usunąć ten komentarz? Tej akcji nie można cofnąć.",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "deleting": "Usuwanie..."
+  },
+  "time": {
+    "justNow": "Przed chwilą",
+    "minutesAgo": "{{count}}m temu",
+    "hoursAgo": "{{count}}h temu",
+    "daysAgo": "{{count}}d temu"
+  }
+}

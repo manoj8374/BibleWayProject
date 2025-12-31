@@ -1,0 +1,9 @@
+{
+  "title": "Potwierdź wylogowanie",
+  "description": "Czy na pewno chcesz się wylogować? Będziesz musiał zalogować się ponownie, aby uzyskać dostęp do swojego konta.",
+  "buttons": {
+    "cancel": "Anuluj",
+    "confirm": "Wyloguj się",
+    "loggingOut": "Wylogowywanie..."
+  }
+}

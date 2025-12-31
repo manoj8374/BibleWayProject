@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "An unexpected error occurred.",
+    "receivedToken": "Received Token"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "An unexpected error occurred during post creation.",
+    "failedToFetchPosts": "Failed to fetch posts.",
+    "failedToFetchUserPosts": "Failed to fetch user posts.",
+    "failedToFetchPostDetails": "Failed to fetch post details.",
+    "failedToUpdatePost": "Failed to update post",
+    "failedToDeletePost": "Failed to delete post",
+    "failedToCreateComment": "Failed to create comment.",
+    "failedToUpdateComment": "Failed to update comment.",
+    "failedToDeleteComment": "Failed to delete comment.",
+    "failedToFetchComments": "Failed to fetch comments.",
+    "failedToLikeComment": "Failed to like comment.",
+    "failedToUnlikeComment": "Failed to unlike comment.",
+    "failedToLikePost": "Failed to like post.",
+    "failedToUnlikePost": "Failed to unlike post."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Failed to fetch user profile.",
+    "failedToFollowUser": "Failed to follow user.",
+    "failedToUnfollowUser": "Failed to unfollow user.",
+    "failedToGetRecommendedUsers": "Failed to get recommended users.",
+    "failedToGetUserProfile": "Failed to get user profile."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Failed to load wallpapers"
+  },
+  "verse": {
+    "failedToLoadVerses": "Failed to load verses",
+    "failedToLikeVerse": "Failed to like verse",
+    "failedToUnlikeVerse": "Failed to unlike verse"
+  },
+  "admin": {
+    "failedToLoadBooks": "Failed to load books"
+  }
+}
+

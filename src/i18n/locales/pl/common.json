@@ -1,0 +1,21 @@
+{
+  "welcome": "Witamy",
+  "login": "Zaloguj się",
+  "signup": "Zarejestruj się",
+  "logout": "Wyloguj się",
+  "home": "Strona główna",
+  "profile": "Profil",
+  "settings": "Ustawienia",
+  "save": "Zapisz",
+  "cancel": "Anuluj",
+  "delete": "Usuń",
+  "edit": "Edytuj",
+  "submit": "Wyślij",
+  "loading": "Ładowanie...",
+  "error": "Błąd",
+  "success": "Sukces",
+  "linkCopied": "Link skopiowany do schowka!",
+  "failedToCopy": "Nie udało się skopiować linku",
+  "sharePost": "Udostępnij post",
+  "sharePrayerRequest": "Udostępnij prośbę o modlitwę"
+}

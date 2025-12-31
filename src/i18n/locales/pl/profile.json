@@ -1,0 +1,19 @@
+{
+  "back": "Wstecz",
+  "follow": "Obserwuj",
+  "unfollow": "Przestań obserwować",
+  "message": "Wiadomość",
+  "follower": "Obserwujący",
+  "following": "Obserwowani",
+  "followers": "Obserwujący",
+  "loadingProfile": "Ładowanie profilu...",
+  "profileNotFound": "Profil nie został znaleziony",
+  "loadingPosts": "Ładowanie postów...",
+  "noPostsYet": "Brak postów",
+  "unknownUser": "Nieznany użytkownik",
+  "checkOutProfile": "Zobacz profil {{name}} na BibleWay",
+  "profileTitle": "Profil {{name}}",
+  "unfollowedSuccessfully": "Przestałeś obserwować",
+  "followedSuccessfully": "Zaobserwowano pomyślnie",
+  "failedToFetchUserPosts": "Nie udało się pobrać postów użytkownika"
+}

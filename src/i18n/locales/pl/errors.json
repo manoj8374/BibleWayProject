@@ -1,0 +1,7 @@
+{
+  "required": "To pole jest wymagane",
+  "invalidEmail": "Wprowadź prawidłowy adres e-mail",
+  "passwordTooShort": "Hasło musi mieć co najmniej 8 znaków",
+  "passwordsDoNotMatch": "Hasła nie są zgodne",
+  "somethingWentWrong": "Coś poszło nie tak. Spróbuj ponownie."
+}

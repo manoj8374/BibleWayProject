@@ -1,0 +1,39 @@
+{
+  "loading": "Loading...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute must be used within a ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Testimonials Management",
+    "pending": "Pending",
+    "verified": "Verified",
+    "all": "All",
+    "loading": "Loading testimonials...",
+    "noTestimonials": "No testimonials found",
+    "approve": "Approve",
+    "reject": "Reject",
+    "processing": "Processing...",
+    "approvedSuccessfully": "Testimonial approved successfully",
+    "rejectedSuccessfully": "Testimonial rejected successfully",
+    "failedToLoad": "Failed to load testimonials",
+    "failedToApprove": "Failed to approve testimonial",
+    "failedToReject": "Failed to reject testimonial",
+    "confirmReject": "Are you sure you want to reject this testimonial? This action cannot be undone.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {{current}} of {{total}}"
+  },
+  "promotions": {
+    "title": "Promotions Management",
+    "loading": "Loading promotions...",
+    "noPromotions": "No promotions found",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "processing": "Processing...",
+    "deletedSuccessfully": "Promotion deleted successfully",
+    "failedToLoad": "Failed to load promotions",
+    "failedToDelete": "Failed to delete promotion",
+    "confirmDelete": "Are you sure you want to delete this promotion? This action cannot be undone."
+  }
+}
+

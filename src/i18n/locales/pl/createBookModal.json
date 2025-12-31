@@ -1,0 +1,47 @@
+{
+  "title": "Upload Book",
+  "labels": {
+    "sourceFile": "Source File (.md) *",
+    "coverImage": "Cover Image",
+    "category": "Category *",
+    "ageGroup": "Age Group *",
+    "language": "Language *",
+    "bookTitle": "Title *",
+    "description": "Description",
+    "bookOrder": "Book Order"
+  },
+  "placeholders": {
+    "selectCategory": "Select a category",
+    "selectAgeGroup": "Select an age group",
+    "selectLanguage": "Select a language",
+    "enterBookTitle": "Enter book title",
+    "enterBookDescription": "Enter book description (optional)"
+  },
+  "loading": {
+    "categories": "Loading categories...",
+    "ageGroups": "Loading age groups...",
+    "languages": "Loading languages...",
+    "uploading": "Uploading..."
+  },
+  "selected": "Selected:",
+  "buttons": {
+    "cancel": "Cancel",
+    "uploadBook": "Upload Book"
+  },
+  "errors": {
+    "sourceFileRequired": "Source file is required",
+    "titleRequired": "Title is required",
+    "categoryRequired": "Category is required",
+    "ageGroupRequired": "Age group is required",
+    "languageRequired": "Language is required",
+    "failedToLoadCategories": "Failed to load categories",
+    "failedToLoadAgeGroups": "Failed to load age groups",
+    "failedToLoadLanguages": "Failed to load languages",
+    "failedToUploadBook": "Failed to upload book",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "success": {
+    "bookCreated": "Book created successfully"
+  }
+}
+

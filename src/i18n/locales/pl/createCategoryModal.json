@@ -1,0 +1,28 @@
+{
+  "title": "Create Category",
+  "labels": {
+    "categoryName": "Category Name *",
+    "description": "Description",
+    "displayOrder": "Display Order",
+    "coverImage": "Cover Image"
+  },
+  "placeholders": {
+    "selectCategoryName": "Select a category name",
+    "enterDescription": "Enter category description (optional)"
+  },
+  "selected": "Selected:",
+  "buttons": {
+    "cancel": "Cancel",
+    "createCategory": "Create Category",
+    "creating": "Creating..."
+  },
+  "errors": {
+    "categoryNameRequired": "Category name is required",
+    "failedToCreateCategory": "Failed to create category",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "success": {
+    "categoryCreated": "Category created successfully"
+  }
+}
+
