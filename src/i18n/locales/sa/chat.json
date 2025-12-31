@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "सक्रिय",
+    "offline": "निष्क्रिय"
+  },
+  "messages": {
+    "loading": "सन्देशाः लोड् भवन्ति...",
+    "noMessages": "कोऽपि सन्देशः नास्ति",
+    "deleted": "एषः सन्देशः मार्जितः",
+    "sharedImage": "साझा चित्रम्",
+    "viewAttachment": "संलग्नकं पश्यतु",
+    "seen": "दृष्टम्",
+    "deleteMessage": "सन्देशं मार्जयतु"
+  },
+  "typing": {
+    "isTyping": "टंकयति...",
+    "peopleTyping": "जनाः टंकयन्ति..."
+  },
+  "input": {
+    "placeholder": "सन्देशं टंकयतु...",
+    "pressEnterToSend": "प्रेषयितुं Enter नुदतु"
+  },
+  "deleteModal": {
+    "title": "सन्देशं मार्जयतु?",
+    "message": "किं भवान् एतं सन्देशं मार्जयितुं इच्छति? एतत् कार्यं पुनः पूर्ववत कर्तुं न शक्यते।",
+    "cancel": "निरस्तीकुरु",
+    "delete": "मार्जयतु"
+  },
+  "uploadModal": {
+    "title": "सञ्चिकां प्रेषयतु",
+    "uploading": "अपलोड् प्रेषण च भवति...",
+    "sendFile": "प्रेषयतु {{filename}}?",
+    "sending": "प्रेष्यते...",
+    "send": "प्रेषयतु",
+    "cancel": "निरस्तीकुरु"
+  },
+  "errors": {
+    "fetchConversation": "सम्भाषणं प्राप्तुं असफलम्",
+    "invalidFileType": "अमान्यः सञ्चिका प्रकारः। केवलं चित्राणि चलचित्राणि च अनुमतानि।",
+    "fileSizeExceeded": "सञ्चिकायाः आकारः 10MB पर्यन्तम्।",
+    "uploadFailed": "सञ्चिका अपलोड् असफलम्",
+    "failedToLoadStickers": "स्टिकर्स् लोड् कर्तुं असफलम्"
+  },
+  "stickers": {
+    "loading": "स्टिकर्स् लोड् भवन्ति...",
+    "noStickers": "कोऽपि स्टिकर् उपलब्धः नास्ति"
+  }
+}

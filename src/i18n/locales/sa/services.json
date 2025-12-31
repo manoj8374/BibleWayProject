@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "एका अनपेक्षित त्रुटिः अभवत्।",
+    "receivedToken": "टोकन प्राप्तम्"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट रचना समये एका अनपेक्षित त्रुटिः अभवत्।",
+    "failedToFetchPosts": "पोस्ट् प्राप्तुं असफलम्।",
+    "failedToFetchUserPosts": "उपयोक्तृ पोस्ट् प्राप्तुं असफलम्।",
+    "failedToFetchPostDetails": "पोस्ट विवरणं प्राप्तुं असफलम्।",
+    "failedToUpdatePost": "पोस्ट अद्यतनं कर्तुं असफलम्",
+    "failedToDeletePost": "पोस्ट मार्जयितुं असफलम्",
+    "failedToCreateComment": "टिप्पणी रचयितुं असफलम्।",
+    "failedToUpdateComment": "टिप्पणी अद्यतनं कर्तुं असफलम्।",
+    "failedToDeleteComment": "टिप्पणी मार्जयितुं असफलम्।",
+    "failedToFetchComments": "टिप्पणीः प्राप्तुं असफलम्।",
+    "failedToLikeComment": "टिप्पणी इष्टं कर्तुं असफलम्।",
+    "failedToUnlikeComment": "टिप्पणी इष्टं न कर्तुं असफलम्।",
+    "failedToLikePost": "पोस्ट इष्टं कर्तुं असफलम्।",
+    "failedToUnlikePost": "पोस्ट इष्टं न कर्तुं असफलम्।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "उपयोक्तृ प्रोफाइल प्राप्तुं असफलम्।",
+    "failedToFollowUser": "उपयोक्तारं अनुसर्तुं असफलम्।",
+    "failedToUnfollowUser": "उपयोक्तृ अनुसरण रद्दं कर्तुं असफलम्।",
+    "failedToGetRecommendedUsers": "अनुशंसित उपयोक्तृन् प्राप्तुं असफलम्।",
+    "failedToGetUserProfile": "उपयोक्तृ प्रोफाइल प्राप्तुं असफलम्।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "भित्तिचित्राणि लोड् कर्तुं असफलम्"
+  },
+  "verse": {
+    "failedToLoadVerses": "वचनानि लोड् कर्तुं असफलम्",
+    "failedToLikeVerse": "वचनं इष्टं कर्तुं असफलम्",
+    "failedToUnlikeVerse": "वचनं इष्टं न कर्तुं असफलम्"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तकानि लोड् कर्तुं असफलम्"
+  }
+}

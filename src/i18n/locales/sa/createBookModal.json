@@ -1,0 +1,46 @@
+{
+  "title": "पुस्तकं अपलोड् कुरु",
+  "labels": {
+    "sourceFile": "मूल सञ्चिका (.md) *",
+    "coverImage": "आवरण चित्रम्",
+    "category": "श्रेणी *",
+    "ageGroup": "वयोवर्गः *",
+    "language": "भाषा *",
+    "bookTitle": "शीर्षकम् *",
+    "description": "विवरणम्",
+    "bookOrder": "पुस्तक क्रमः"
+  },
+  "placeholders": {
+    "selectCategory": "श्रेणीं चिनोतु",
+    "selectAgeGroup": "वयोवर्गं चिनोतु",
+    "selectLanguage": "भाषां चिनोतु",
+    "enterBookTitle": "पुस्तकस्य शीर्षकं टंकयतु",
+    "enterBookDescription": "पुस्तकस्य विवरणं टंकयतु (वैकल्पिक)"
+  },
+  "loading": {
+    "categories": "श्रेण्यः लोड् भवन्ति...",
+    "ageGroups": "वयोवर्गाः लोड् भवन्ति...",
+    "languages": "भाषाः लोड् भवन्ति...",
+    "uploading": "अपलोड् भवति..."
+  },
+  "selected": "चयनितः:",
+  "buttons": {
+    "cancel": "निरस्तीकुरु",
+    "uploadBook": "पुस्तकं अपलोड् कुरु"
+  },
+  "errors": {
+    "sourceFileRequired": "मूल सञ्चिका आवश्यकी",
+    "titleRequired": "शीर्षकं आवश्यकम्",
+    "categoryRequired": "श्रेणी आवश्यकी",
+    "ageGroupRequired": "वयोवर्गः आवश्यकः",
+    "languageRequired": "भाषा आवश्यकी",
+    "failedToLoadCategories": "श्रेणीः लोड् कर्तुं असफलम्",
+    "failedToLoadAgeGroups": "वयोवर्गान् लोड् कर्तुं असफलम्",
+    "failedToLoadLanguages": "भाषाः लोड् कर्तुं असफलम्",
+    "failedToUploadBook": "पुस्तकं अपलोड् कर्तुं असफलम्",
+    "unexpectedError": "एका अनपेक्षित त्रुटिः अभवत्"
+  },
+  "success": {
+    "bookCreated": "पुस्तकं सफलतापूर्वकम रचितम्"
+  }
+}

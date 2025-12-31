@@ -1,0 +1,38 @@
+{
+  "title": "प्रचारं रचयतु",
+  "labels": {
+    "title": "शीर्षकम् *",
+    "description": "विवरणम्",
+    "price": "मूल्यम्",
+    "redirectLink": "पुनर्निर्देशन लिंक *",
+    "metaData": "मेटा डेटा (JSON)",
+    "mediaFile": "मीडिया सञ्चिका (चित्रम्/चलचित्रम्/श्रव्यम्)",
+    "images": "चित्राणि (अनेकानि)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "प्रचार शीर्षकं टंकयतु",
+    "enterDescription": "प्रचार विवरणं टंकयतु (वैकल्पिक)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "चयनितः:",
+  "buttons": {
+    "cancel": "निरस्तीकुरु",
+    "createPromotion": "प्रचारं रचयतु",
+    "creating": "रच्यते..."
+  },
+  "errors": {
+    "titleRequired": "शीर्षकं आवश्यकम्",
+    "priceRequired": "मूल्यं आवश्यकम्",
+    "priceInvalid": "मूल्यं मान्यं अङ्कं भवेत्",
+    "redirectLinkRequired": "पुनर्निर्देशन लिंक आवश्यकम्",
+    "redirectLinkInvalid": "पुनर्निर्देशन लिंक मान्यं URL भवेत्",
+    "metaDataInvalid": "मेटा डेटा मान्यं JSON प्रारूपं भवेत्",
+    "failedToCreatePromotion": "प्रचारं रचयितुं असफलम्",
+    "unexpectedError": "एका अनपेक्षित त्रुटिः अभवत्"
+  },
+  "success": {
+    "promotionCreated": "प्रचारः सफलतापूर्वकम रचितः"
+  }
+}

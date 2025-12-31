@@ -1,0 +1,9 @@
+{
+  "buttonText": "Google इत्यनेन सह अनुवर्तयतु",
+  "success": {
+    "loginSuccessful": "प्रवेशः सफलः"
+  },
+  "errors": {
+    "loginFailed": "प्रवेशः असफलः"
+  }
+}

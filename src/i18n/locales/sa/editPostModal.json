@@ -1,0 +1,24 @@
+{
+  "title": "पोस्ट सम्पादयतु",
+  "labels": {
+    "title": "शीर्षकम्",
+    "description": "विवरणम्",
+    "media": "मीडिया"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट शीर्षकं टंकयतु...",
+    "enterDescription": "विवरणं टंकयतु..."
+  },
+  "buttons": {
+    "cancel": "निरस्तीकुरु",
+    "save": "रक्षतु",
+    "updating": "अद्यतनं भवति..."
+  },
+  "errors": {
+    "noChanges": "कोऽपि परिवर्तनं न दृष्टम्",
+    "failedToUpdatePost": "पोस्ट अद्यतनं कर्तुं असफलम्"
+  },
+  "success": {
+    "postUpdated": "पोस्ट सफलतापूर्वकम अद्यतनीकृतम्"
+  }
+}

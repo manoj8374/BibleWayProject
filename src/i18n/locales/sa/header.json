@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "पुस्तकं, नाम, रचयितारं च अन्वेषयतु...",
+  "addNewPost": "नवीनं पोस्ट योजयतु",
+  "noResultsFound": "कोऽपि परिणामः न लब्धः",
+  "languageSelector": {
+    "searchLanguages": "भाषाः अन्वेषयतु...",
+    "noLanguagesFound": "काचित् अपि भाषा न लब्धा"
+  },
+  "filter": {
+    "selectLanguage": "भाषां चिनोतु",
+    "selectVersion": "पुस्तकं चिनोतु"
+  }
+}

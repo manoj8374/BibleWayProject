@@ -1,0 +1,22 @@
+{
+  "edit": "सम्पादयतु",
+  "delete": "मार्जयतु",
+  "deleteConfirm": "एतत् पोस्ट् मार्जयितुं इच्छति?",
+  "cancel": "निरस्तीकुरु",
+  "save": "रक्षतु",
+  "saving": "रक्ष्यते...",
+  "deleting": "मार्ज्यते...",
+  "likes": "इष्टानि",
+  "like": "इष्टम्",
+  "comments": "टिप्पण्यः",
+  "comment": "टिप्पणी",
+  "share": "साझा कुरु",
+  "shares": "साक्षाः",
+  "writeComment": "टिप्पणीं लिखतु...",
+  "writeYourComment": "स्वटिप्पणीं लिखतु...",
+  "failedToComment": "टिप्पणीं कर्तुं असफलम्",
+  "actionFailed": "क्रिया असफला",
+  "commentAdded": "टिप्पणी सफलतापूर्वकम योजिता",
+  "failedToCreateComment": "टिप्पणीं रचयितुं असफलम्",
+  "failedToUpdateLike": "इष्ट स्थितिं अद्यतनं कर्तुं असफलम्"
+}

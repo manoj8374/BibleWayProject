@@ -1,0 +1,27 @@
+{
+  "title": "श्रेणीं रचयतु",
+  "labels": {
+    "categoryName": "श्रेणी नाम *",
+    "description": "विवरणम्",
+    "displayOrder": "प्रदर्शन क्रमः",
+    "coverImage": "आवरण चित्रम्"
+  },
+  "placeholders": {
+    "selectCategoryName": "श्रेणी नाम चिनोतु",
+    "enterDescription": "श्रेणी विवरणं टंकयतु (वैकल्पिक)"
+  },
+  "selected": "चयनितः:",
+  "buttons": {
+    "cancel": "निरस्तीकुरु",
+    "createCategory": "श्रेणीं रचयतु",
+    "creating": "रच्यते..."
+  },
+  "errors": {
+    "categoryNameRequired": "श्रेणी नाम आवश्यकम्",
+    "failedToCreateCategory": "श्रेणीं रचयितुं असफलम्",
+    "unexpectedError": "एका अनपेक्षित त्रुटिः अभवत्"
+  },
+  "success": {
+    "categoryCreated": "श्रेणी सफलतापूर्वकम रचिता"
+  }
+}

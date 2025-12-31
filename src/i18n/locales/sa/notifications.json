@@ -1,0 +1,18 @@
+{
+  "title": "अधिसूचनाः",
+  "markAllAsRead": "सर्वाणि पठितवत चिह्नितानि कुरु",
+  "loading": "अधिसूचनाः लोड् भवन्ति...",
+  "noNotifications": "अद्यापि काचित् अपि अधिसूचना नास्ति",
+  "allCaughtUp": "भवान् सर्वं दृष्टवान्!",
+  "justNow": "इदानीम् एव",
+  "minuteAgo": "{{count}} निमेष पूर्वम्",
+  "minutesAgo": "{{count}} निमेषाः पूर्वम्",
+  "hourAgo": "{{count}} होरा पूर्वम्",
+  "hoursAgo": "{{count}} होराः पूर्वम्",
+  "dayAgo": "{{count}} दिन पूर्वम्",
+  "daysAgo": "{{count}} दिनानि पूर्वम्",
+  "weekAgo": "{{count}} सप्ताह पूर्वम्",
+  "weeksAgo": "{{count}} सप्ताहाः पूर्वम्",
+  "monthAgo": "{{count}} मास पूर्वम्",
+  "monthsAgo": "{{count}} मासाः पूर्वम्"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "विभक्ताः बाइबिल ग्रन्थाः",
+  "loadingAgeGroups": "वयोवर्गाः लोड् भवन्ति...",
+  "failedToLoadAgeGroups": "वयोवर्गान् लोड् कर्तुं असफलम्",
+  "unexpectedErrorLoadingAgeGroups": "वयोवर्गान् लोड् कुर्वन् एकी अनपेक्षित त्रुटिः अभवत्",
+  "noAgeGroupsAvailable": "कोऽपि वयोवर्गः उपलब्धः नास्ति",
+  "pleaseSelectCategoryFirst": "कृपया प्रथमं एकां श्रेणीं चिनोतु",
+  "noBooksAvailable": "अस्य चयनस्य कृते कोऽपि पुस्तकः उपलब्धः नास्ति",
+  "failedToFetchBooks": "पुस्तकानि प्राप्तुं असफलम्",
+  "categoryNotFound": "श्रेणी न लब्धा",
+  "ageGroupNotFound": "वयोवर्गः न लब्धः",
+  "languageNotFound": "भाषा न लब्धा",
+  "unexpectedErrorFetchingBooks": "पुस्तकानि प्राप्तुं कुर्वन् एका अनपेक्षित त्रुटिः अभवत्"
+}

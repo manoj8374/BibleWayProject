@@ -1,0 +1,19 @@
+{
+  "back": "पृष्ठे",
+  "follow": "अनुसरतु",
+  "unfollow": "अनुसरणं रद्दं कुरु",
+  "message": "सन्देशं प्रेषयतु",
+  "follower": "अनुयायी",
+  "following": "अनुसरणं करोति",
+  "followers": "अनुयायिनः",
+  "loadingProfile": "प्रोफ़ाइल लोड् भवति...",
+  "profileNotFound": "प्रोफ़ाइल न लब्धः",
+  "loadingPosts": "पोस्ट् लोड् भवन्ति...",
+  "noPostsYet": "अद्यापि कानिचित् अपि पोस्ट् न सन्ति",
+  "unknownUser": "अज्ञातः उपयोक्ता",
+  "checkOutProfile": "BibleWay मध्ये {{name}} महोदयस्य प्रोफ़ाइल पश्यतु",
+  "profileTitle": "{{name}} महोदयस्य प्रोफ़ाइल",
+  "unfollowedSuccessfully": "सफलतापूर्वकम अनुसरण रद्दम्",
+  "followedSuccessfully": "सफलतापूर्वकम अनुसृतम्",
+  "failedToFetchUserPosts": "उपयोक्तृ पोस्ट् प्राप्तुं असफलम्"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "पोस्ट रचयतु",
+  "labels": {
+    "title": "शीर्षकम्",
+    "description": "विवरणम्"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट शीर्षकं टंकयतु...",
+    "enterDescription": "अहं गुगल् मध्ये कार्यं प्राप्तवान्..."
+  },
+  "upload": {
+    "uploadFiles": "अत्र सञ्चिकाः अपलोड् कुर्वन्तु (अधिकतमं ५)",
+    "addMoreFiles": "+ अधिकाः सञ्चिकाः योजयतु"
+  },
+  "buttons": {
+    "createPost": "पोस्ट रचयतु",
+    "creating": "रच्यते..."
+  },
+  "errors": {
+    "maxFilesExceeded": "भवान् अधिकतमं ५ सञ्चिकाः अपलोड् कर्तुं शक्नोति।",
+    "atLeastOneFile": "कृपया न्यूनातिन्यूनं एकां मीडिया सञ्चिकां अपलोड् कुर्वन्तु।",
+    "failedToCreatePost": "पोस्ट रचयितुं असफलम्।"
+  },
+  "success": {
+    "postCreated": "पोस्ट सफलतापूर्वकम रचितम्!"
+  }
+}

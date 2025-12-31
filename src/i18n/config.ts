@@ -275,9 +275,9 @@ i18n
   // Initialize i18next
   .init({
     resources: {},
-    lng: initialLanguage, // Set the language immediately
+    lng: initialLanguage,
     fallbackLng: 'en',
-    supportedLngs: ['en', 'te', 'ta', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl', 'fr', 'it', 'pt', 'pl', 'sv', 'el', 'ne', 'pa', 'ml', 'or', 'kn', 'ru', 'mr'],
+    supportedLngs: ['en', 'te', 'ta', 'es', 'bn', 'hi', 'de', 'af', 'ar', 'as', 'brx', 'zh', 'doi', 'nl', 'fr', 'it', 'pt', 'pl', 'sv', 'el', 'ne', 'pa', 'ml', 'or', 'kn', 'ru', 'mr', 'sa'],
     debug: false,
     interpolation: {
       escapeValue: false, // React already escapes values
