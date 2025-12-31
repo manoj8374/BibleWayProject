@@ -1,0 +1,47 @@
+{
+  "title": "ಪುಸ್ತಕ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "labels": {
+    "sourceFile": "ಮೂಲ ಫೈಲ್ (.md) *",
+    "coverImage": "ಕವರ್ ಚಿತ್ರ",
+    "category": "ವರ್ಗ *",
+    "ageGroup": "ವಯಸ್ಸಿನ ಗುಂಪು *",
+    "language": "ಭಾಷೆ *",
+    "bookTitle": "ಶೀರ್ಷಿಕೆ *",
+    "description": "ವಿವರಣೆ",
+    "bookOrder": "ಪುಸ್ತಕದ ಕ್ರಮ"
+  },
+  "placeholders": {
+    "selectCategory": "ವರ್ಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "selectAgeGroup": "ವಯಸ್ಸಿನ ಗುಂಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "selectLanguage": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "enterBookTitle": "ಪುಸ್ತಕದ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸಿ",
+    "enterBookDescription": "ಪುಸ್ತಕದ ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ (ಐಚ್ಛಿಕ)"
+  },
+  "loading": {
+    "categories": "ವರ್ಗಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "ageGroups": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "languages": "ಭಾಷೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "uploading": "ಅಪ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "selected": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ:",
+  "buttons": {
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "uploadBook": "ಪುಸ್ತಕ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "errors": {
+    "sourceFileRequired": "ಮೂಲ ಫೈಲ್ ಅಗತ್ಯವಿದೆ",
+    "titleRequired": "ಶೀರ್ಷಿಕೆ ಅಗತ್ಯವಿದೆ",
+    "categoryRequired": "ವರ್ಗ ಅಗತ್ಯವಿದೆ",
+    "ageGroupRequired": "ವಯಸ್ಸಿನ ಗುಂಪು ಅಗತ್ಯವಿದೆ",
+    "languageRequired": "ಭಾಷೆ ಅಗತ್ಯವಿದೆ",
+    "failedToLoadCategories": "ವರ್ಗಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToLoadAgeGroups": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToLoadLanguages": "ಭಾಷೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToUploadBook": "ಪುಸ್ತಕ ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "unexpectedError": "ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ"
+  },
+  "success": {
+    "bookCreated": "ಪುಸ್ತಕ ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ"
+  }
+}
+

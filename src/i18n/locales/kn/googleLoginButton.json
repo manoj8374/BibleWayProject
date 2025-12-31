@@ -1,0 +1,10 @@
+{
+  "buttonText": "Google ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
+  "success": {
+    "loginSuccessful": "ಲಾಗ್ ಇನ್ ಯಶಸ್ವಿಯಾಗಿದೆ"
+  },
+  "errors": {
+    "loginFailed": "ಲಾಗ್ ಇನ್ ವಿಫಲವಾಗಿದೆ"
+  }
+}
+

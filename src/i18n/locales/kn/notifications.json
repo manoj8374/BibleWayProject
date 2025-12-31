@@ -1,0 +1,19 @@
+{
+  "title": "ಅಧಿಸೂಚನೆಗಳು",
+  "markAllAsRead": "ಎಲ್ಲವನ್ನೂ ಓದಿದಂತೆ ಗುರುತಿಸಿ",
+  "loading": "ಅಧಿಸೂಚನೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "noNotifications": "ಇನ್ನೂ ಅಧಿಸೂಚನೆಗಳಿಲ್ಲ",
+  "allCaughtUp": "ನೀವು ಎಲ್ಲವನ್ನೂ ಮುಗಿಸಿದ್ದೀರಿ!",
+  "justNow": "ಇದೀಗ",
+  "minuteAgo": "{{count}} ನಿಮಿಷದ ಹಿಂದೆ",
+  "minutesAgo": "{{count}} ನಿಮಿಷಗಳ ಹಿಂದೆ",
+  "hourAgo": "{{count}} ಗಂಟೆಯ ಹಿಂದೆ",
+  "hoursAgo": "{{count}} ಗಂಟೆಗಳ ಹಿಂದೆ",
+  "dayAgo": "{{count}} ದಿನದ ಹಿಂದೆ",
+  "daysAgo": "{{count}} ದಿನಗಳ ಹಿಂದೆ",
+  "weekAgo": "{{count}} ವಾರದ ಹಿಂದೆ",
+  "weeksAgo": "{{count}} ವಾರಗಳ ಹಿಂದೆ",
+  "monthAgo": "{{count}} ತಿಂಗಳ ಹಿಂದೆ",
+  "monthsAgo": "{{count}} ತಿಂಗಳುಗಳ ಹಿಂದೆ"
+}
+

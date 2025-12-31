@@ -1,0 +1,15 @@
+{
+  "title": "ವಿಂಗಡಿಸಿದ ಬೈಬಲ್",
+  "loadingAgeGroups": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "failedToLoadAgeGroups": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+  "unexpectedErrorLoadingAgeGroups": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಾಗ ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ",
+  "noAgeGroupsAvailable": "ವಯಸ್ಸಿನ ಗುಂಪುಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "pleaseSelectCategoryFirst": "ದಯವಿಟ್ಟು ಮೊದಲು ವರ್ಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+  "noBooksAvailable": "ಈ ಆಯ್ಕೆಗೆ ಪುಸ್ತಕಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "failedToFetchBooks": "ಪುಸ್ತಕಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ",
+  "categoryNotFound": "ವರ್ಗ ಕಂಡುಬಂದಿಲ್ಲ",
+  "ageGroupNotFound": "ವಯಸ್ಸಿನ ಗುಂಪು ಕಂಡುಬಂದಿಲ್ಲ",
+  "languageNotFound": "ಭಾಷೆ ಕಂಡುಬಂದಿಲ್ಲ",
+  "unexpectedErrorFetchingBooks": "ಪುಸ್ತಕಗಳನ್ನು ಪಡೆಯುವಾಗ ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ"
+}
+

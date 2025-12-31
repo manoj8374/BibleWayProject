@@ -1,0 +1,25 @@
+{
+  "title": "ಪೋಸ್ಟ್ ಸಂಪಾದಿಸಿ",
+  "labels": {
+    "title": "ಶೀರ್ಷಿಕೆ",
+    "description": "ವಿವರಣೆ",
+    "media": "ಮೀಡಿಯಾ"
+  },
+  "placeholders": {
+    "enterPostTitle": "ಪೋಸ್ಟ್ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸಿ...",
+    "enterDescription": "ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ..."
+  },
+  "buttons": {
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "save": "ಉಳಿಸಿ",
+    "updating": "ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "errors": {
+    "noChanges": "ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+    "failedToUpdatePost": "ಪೋಸ್ಟ್ ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ"
+  },
+  "success": {
+    "postUpdated": "ಪೋಸ್ಟ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ"
+  }
+}
+

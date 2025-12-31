@@ -1,0 +1,39 @@
+{
+  "title": "ಪ್ರಚಾರ ರಚಿಸಿ",
+  "labels": {
+    "title": "ಶೀರ್ಷಿಕೆ *",
+    "description": "ವಿವರಣೆ",
+    "price": "ಬೆಲೆ",
+    "redirectLink": "ರೀಡೈರೆಕ್ಟ್ ಲಿಂಕ್ *",
+    "metaData": "ಮೆಟಾ ಡೇಟಾ (JSON)",
+    "mediaFile": "ಮೀಡಿಯಾ ಫೈಲ್ (ಚಿತ್ರ/ವೀಡಿಯೊ/ಆಡಿಯೊ)",
+    "images": "ಚಿತ್ರಗಳು (ಬಹು)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "ಪ್ರಚಾರ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸಿ",
+    "enterDescription": "ಪ್ರಚಾರ ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ (ಐಚ್ಛಿಕ)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ:",
+  "buttons": {
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "createPromotion": "ಪ್ರಚಾರ ರಚಿಸಿ",
+    "creating": "ರಚಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "errors": {
+    "titleRequired": "ಶೀರ್ಷಿಕೆ ಅಗತ್ಯವಿದೆ",
+    "priceRequired": "ಬೆಲೆ ಅಗತ್ಯವಿದೆ",
+    "priceInvalid": "ಬೆಲೆಯು ಮಾನ್ಯವಾದ ಸಂಖ್ಯೆಯಾಗಿರಬೇಕು",
+    "redirectLinkRequired": "ರೀಡೈರೆಕ್ಟ್ ಲಿಂಕ್ ಅಗತ್ಯವಿದೆ",
+    "redirectLinkInvalid": "ರೀಡೈರೆಕ್ಟ್ ಲಿಂಕ್ ಮಾನ್ಯವಾದ URL ಆಗಿರಬೇಕು",
+    "metaDataInvalid": "ಮೆಟಾ ಡೇಟಾ ಮಾನ್ಯವಾದ JSON ಸ್ವರೂಪದಲ್ಲಿರಬೇಕು",
+    "failedToCreatePromotion": "ಪ್ರಚಾರ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "unexpectedError": "ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ"
+  },
+  "success": {
+    "promotionCreated": "ಪ್ರಚಾರ ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ"
+  }
+}
+

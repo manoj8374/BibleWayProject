@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ.",
+    "receivedToken": "ಟೋಕನ್ ಸ್ವೀಕರಿಸಲಾಗಿದೆ"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "ಪೋಸ್ಟ್ ರಚನೆಯ ಸಮಯದಲ್ಲಿ ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ.",
+    "failedToFetchPosts": "ಪೋಸ್ಟ್‌ಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToFetchUserPosts": "ಬಳಕೆದಾರರ ಪೋಸ್ಟ್‌ಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToFetchPostDetails": "ಪೋಸ್ಟ್ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToUpdatePost": "ಪೋಸ್ಟ್ ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToDeletePost": "ಪೋಸ್ಟ್ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToCreateComment": "ಕಾಮೆಂಟ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToUpdateComment": "ಕಾಮೆಂಟ್ ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToDeleteComment": "ಕಾಮೆಂಟ್ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToFetchComments": "ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToLikeComment": "ಕಾಮೆಂಟ್‌ಗೆ ಲೈಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToUnlikeComment": "ಕಾಮೆಂಟ್‌ನಿಂದ ಲೈಕ್ ತೆಗೆದುಹಾಕಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToLikePost": "ಪೋಸ್ಟ್‌ಗೆ ಲೈಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToUnlikePost": "ಪೋಸ್ಟ್‌ನಿಂದ ಲೈಕ್ ತೆಗೆದುಹಾಕಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "user": {
+    "failedToFetchUserProfile": "ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToFollowUser": "ಬಳಕೆದಾರರನ್ನು ಅನುಸರಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToUnfollowUser": "ಬಳಕೆದಾರರನ್ನು ಅನುಸರಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToGetRecommendedUsers": "ಶಿಫಾರಸು ಮಾಡಿದ ಬಳಕೆದಾರರನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "failedToGetUserProfile": "ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ವಾಲ್‌ಪೇಪರ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
+  },
+  "verse": {
+    "failedToLoadVerses": "ವಚನಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToLikeVerse": "ವಚನಕ್ಕೆ ಲೈಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "failedToUnlikeVerse": "ವಚನದಿಂದ ಲೈಕ್ ತೆಗೆದುಹಾಕಲು ವಿಫಲವಾಗಿದೆ"
+  },
+  "admin": {
+    "failedToLoadBooks": "ಪುಸ್ತಕಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
+  }
+}
+

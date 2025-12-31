@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "ಪುಸ್ತಕ, ಹೆಸರು, ಲೇಖಕರನ್ನು ಹುಡುಕಿ...",
+  "addNewPost": "ಹೊಸ ಪೋಸ್ಟ್ ಸೇರಿಸಿ",
+  "noResultsFound": "ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+  "languageSelector": {
+    "searchLanguages": "ಭಾಷೆಗಳನ್ನು ಹುಡುಕಿ...",
+    "noLanguagesFound": "ಭಾಷೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+  },
+  "filter": {
+    "selectLanguage": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "selectVersion": "ಪುಸ್ತಕವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "title": "ಪೋಸ್ಟ್ ರಚಿಸಿ",
+  "labels": {
+    "title": "ಶೀರ್ಷಿಕೆ",
+    "description": "ವಿವರಣೆ"
+  },
+  "placeholders": {
+    "enterPostTitle": "ಪೋಸ್ಟ್ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸಿ...",
+    "enterDescription": "ನಾನು Google ನಲ್ಲಿ ಉದ್ಯೋಗವನ್ನು ಪಡೆದಿದ್ದೇನೆ..."
+  },
+  "upload": {
+    "uploadFiles": "ನಿಮ್ಮ ಫೈಲ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ (ಗರಿಷ್ಠ 5)",
+    "addMoreFiles": "+ ಹೆಚ್ಚು ಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ"
+  },
+  "buttons": {
+    "createPost": "ಪೋಸ್ಟ್ ರಚಿಸಿ",
+    "creating": "ರಚಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "errors": {
+    "maxFilesExceeded": "ನೀವು ಗರಿಷ್ಠ 5 ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದು.",
+    "atLeastOneFile": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಮೀಡಿಯಾ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "failedToCreatePost": "ಪೋಸ್ಟ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "success": {
+    "postCreated": "ಪೋಸ್ಟ್ ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ!"
+  }
+}
+

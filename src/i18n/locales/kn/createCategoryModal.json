@@ -1,0 +1,28 @@
+{
+  "title": "ವರ್ಗ ರಚಿಸಿ",
+  "labels": {
+    "categoryName": "ವರ್ಗದ ಹೆಸರು *",
+    "description": "ವಿವರಣೆ",
+    "displayOrder": "ಪ್ರದರ್ಶನ ಕ್ರಮ",
+    "coverImage": "ಕವರ್ ಚಿತ್ರ"
+  },
+  "placeholders": {
+    "selectCategoryName": "ವರ್ಗದ ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "enterDescription": "ವರ್ಗದ ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ (ಐಚ್ಛಿಕ)"
+  },
+  "selected": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ:",
+  "buttons": {
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "createCategory": "ವರ್ಗ ರಚಿಸಿ",
+    "creating": "ರಚಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "errors": {
+    "categoryNameRequired": "ವರ್ಗದ ಹೆಸರು ಅಗತ್ಯವಿದೆ",
+    "failedToCreateCategory": "ವರ್ಗ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "unexpectedError": "ಅನಿರೀಕ್ಷಿತ ದೋಷ ಸಂಭವಿಸಿದೆ"
+  },
+  "success": {
+    "categoryCreated": "ವರ್ಗ ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ"
+  }
+}
+
