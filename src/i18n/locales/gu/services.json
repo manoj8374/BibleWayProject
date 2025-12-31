@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "અનપેક્ષિત ભૂલ આવી.",
+    "receivedToken": "ટોકન પ્રાપ્ત થયું"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "પોસ્ટ બનાવતી વખતે અનપેક્ષિત ભૂલ આવી.",
+    "failedToFetchPosts": "પોસ્ટ્સ મેળવવામાં નિષ્ફળ.",
+    "failedToFetchUserPosts": "વપરાશકર્તા પોસ્ટ્સ મેળવવામાં નિષ્ફળ.",
+    "failedToFetchPostDetails": "પોસ્ટ વિગતો મેળવવામાં નિષ્ફળ.",
+    "failedToUpdatePost": "પોસ્ટ અપડેટ કરવામાં નિષ્ફળ",
+    "failedToDeletePost": "પોસ્ટ કાઢી નાખવામાં નિષ્ફળ",
+    "failedToCreateComment": "ટિપ્પણી બનાવવામાં નિષ્ફળ.",
+    "failedToUpdateComment": "ટિપ્પણી અપડેટ કરવામાં નિષ્ફળ.",
+    "failedToDeleteComment": "ટિપ્પણી કાઢી નાખવામાં નિષ્ફળ.",
+    "failedToFetchComments": "ટિપ્પણીઓ મેળવવામાં નિષ્ફળ.",
+    "failedToLikeComment": "ટિપ્પણીને લાઇક કરવામાં નિષ્ફળ.",
+    "failedToUnlikeComment": "ટિપ્પણીમાંથી લાઇક કાઢવામાં નિષ્ફળ.",
+    "failedToLikePost": "પોસ્ટને લાઇક કરવામાં નિષ્ફળ.",
+    "failedToUnlikePost": "પોસ્ટમાંથી લાઇક કાઢવામાં નિષ્ફળ."
+  },
+  "user": {
+    "failedToFetchUserProfile": "વપરાશકર્તા પ્રોફાઇલ મેળવવામાં નિષ્ફળ.",
+    "failedToFollowUser": "વપરાશકર્તાને અનુસરવામાં નિષ્ફળ.",
+    "failedToUnfollowUser": "વપરાશકર્તાને અનુસરવાનું બંધ કરવામાં નિષ્ફળ.",
+    "failedToGetRecommendedUsers": "ભલામણ કરેલા વપરાશકર્તાઓ મેળવવામાં નિષ્ફળ.",
+    "failedToGetUserProfile": "વપરાશકર્તા પ્રોફાઇલ મેળવવામાં નિષ્ફળ."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "વૉલપેપર લોડ કરવામાં નિષ્ફળ"
+  },
+  "verse": {
+    "failedToLoadVerses": "વચનો લોડ કરવામાં નિષ્ફળ",
+    "failedToLikeVerse": "વચનને લાઇક કરવામાં નિષ્ફળ",
+    "failedToUnlikeVerse": "વચનમાંથી લાઇક કાઢવામાં નિષ્ફળ"
+  },
+  "admin": {
+    "failedToLoadBooks": "પુસ્તકો લોડ કરવામાં નિષ્ફળ"
+  }
+}
+

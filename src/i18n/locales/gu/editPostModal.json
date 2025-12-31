@@ -1,0 +1,25 @@
+{
+  "title": "પોસ્ટ સંપાદન કરો",
+  "labels": {
+    "title": "શીર્ષક",
+    "description": "વર્ણન",
+    "media": "મીડિયા"
+  },
+  "placeholders": {
+    "enterPostTitle": "પોસ્ટ શીર્ષક દાખલ કરો...",
+    "enterDescription": "વર્ણન દાખલ કરો..."
+  },
+  "buttons": {
+    "cancel": "રદ કરો",
+    "save": "સાચવો",
+    "updating": "અપડેટ થઈ રહ્યું છે..."
+  },
+  "errors": {
+    "noChanges": "કોઈ ફેરફાર મળ્યા નથી",
+    "failedToUpdatePost": "પોસ્ટ અપડેટ કરવામાં નિષ્ફળ"
+  },
+  "success": {
+    "postUpdated": "પોસ્ટ સફળતાપૂર્વક અપડેટ થઈ"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "loading": "લોડ થઈ રહ્યું છે...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute ને ProfileProvider ની અંદર વપરાવી જોઈએ"
+  },
+  "testimonials": {
+    "title": "પ્રમાણપત્ર સંચાલન",
+    "pending": "પેન્ડિંગ",
+    "verified": "ચકાસાયેલ",
+    "all": "બધા",
+    "loading": "પ્રમાણપત્રો લોડ થઈ રહ્યા છે...",
+    "noTestimonials": "પ્રમાણપત્રો મળ્યા નથી",
+    "approve": "મંજૂર કરો",
+    "reject": "નકારો",
+    "processing": "પ્રક્રિયા થઈ રહ્યું છે...",
+    "approvedSuccessfully": "પ્રમાણપત્ર સફળતાપૂર્વક મંજૂર થયું",
+    "rejectedSuccessfully": "પ્રમાણપત્ર સફળતાપૂર્વક નકાર્યું",
+    "failedToLoad": "પ્રમાણપત્રો લોડ કરવામાં નિષ્ફળ",
+    "failedToApprove": "પ્રમાણપત્ર મંજૂર કરવામાં નિષ્ફળ",
+    "failedToReject": "પ્રમાણપત્ર નકારવામાં નિષ્ફળ",
+    "confirmReject": "શું તમે ખાતરી કરો છો કે તમે આ પ્રમાણપત્ર નકારવા માંગો છો? આ ક્રિયાને પૂર્વવત્ કરી શકાશે નહીં.",
+    "previous": "પહેલાં",
+    "next": "આગળ",
+    "pageInfo": "પૃષ્ઠ {{current}} / {{total}}"
+  },
+  "promotions": {
+    "title": "પ્રચાર સંચાલન",
+    "loading": "પ્રચાર લોડ થઈ રહ્યા છે...",
+    "noPromotions": "પ્રચાર મળ્યા નથી",
+    "delete": "કાઢી નાખો",
+    "cancel": "રદ કરો",
+    "processing": "પ્રક્રિયા થઈ રહ્યું છે...",
+    "deletedSuccessfully": "પ્રચાર સફળતાપૂર્વક કાઢી નાખ્યો",
+    "failedToLoad": "પ્રચાર લોડ કરવામાં નિષ્ફળ",
+    "failedToDelete": "પ્રચાર કાઢી નાખવામાં નિષ્ફળ",
+    "confirmDelete": "શું તમે ખાતરી કરો છો કે તમે આ પ્રચાર કાઢી નાખવા માંગો છો? આ ક્રિયાને પૂર્વવત્ કરી શકાશે નહીં."
+  }
+}
+

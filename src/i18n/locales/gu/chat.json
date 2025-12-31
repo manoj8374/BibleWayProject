@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "ઓનલાઇન",
+    "offline": "ઓફલાઇન"
+  },
+  "messages": {
+    "loading": "સંદેશાઓ લોડ થઈ રહ્યા છે...",
+    "noMessages": "હજુ સુધી સંદેશાઓ નથી",
+    "deleted": "આ સંદેશ કાઢી નાખ્યો છે",
+    "sharedImage": "શેર કરેલી છબી",
+    "viewAttachment": "અટેચમેન્ટ જુઓ",
+    "seen": "જોયું",
+    "deleteMessage": "સંદેશ કાઢી નાખો"
+  },
+  "typing": {
+    "isTyping": "ટાઇપ કરી રહ્યું છે...",
+    "peopleTyping": "લોકો ટાઇપ કરી રહ્યા છે..."
+  },
+  "input": {
+    "placeholder": "સંદેશ ટાઇપ કરો...",
+    "pressEnterToSend": "મોકલવા માટે Enter દબાવો"
+  },
+  "deleteModal": {
+    "title": "સંદેશ કાઢી નાખવો છે?",
+    "message": "શું તમે ખાતરી કરો છો કે તમે આ સંદેશ કાઢી નાખવા માંગો છો? આ ક્રિયાને પૂર્વવત્ કરી શકાશે નહીં.",
+    "cancel": "રદ કરો",
+    "delete": "કાઢી નાખો"
+  },
+  "uploadModal": {
+    "title": "ફાઇલ મોકલો",
+    "uploading": "અપલોડ અને મોકલી રહ્યું છે...",
+    "sendFile": "{{filename}} મોકલવું છે?",
+    "sending": "મોકલી રહ્યું છે...",
+    "send": "મોકલો",
+    "cancel": "રદ કરો"
+  },
+  "errors": {
+    "fetchConversation": "વાતચીત મેળવવામાં નિષ્ફળ",
+    "invalidFileType": "અમાન્ય ફાઇલ પ્રકાર. ફક્ત છબીઓ અને વિડિઓઝ માન્ય છે.",
+    "fileSizeExceeded": "ફાઇલનું કદ ૧૦MB મર્યાદા કરતાં વધારે છે.",
+    "uploadFailed": "ફાઇલ અપલોડ નિષ્ફળ",
+    "failedToLoadStickers": "સ્ટિકર્સ લોડ કરવામાં નિષ્ફળ"
+  },
+  "stickers": {
+    "loading": "સ્ટિકર્સ લોડ થઈ રહ્યા છે...",
+    "noStickers": "સ્ટિકર્સ ઉપલબ્ધ નથી"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "back": "પાછળ",
+  "follow": "અનુસરો",
+  "unfollow": "અનુસરવાનું બંધ કરો",
+  "message": "સંદેશ",
+  "follower": "અનુયાયી",
+  "following": "અનુસરી રહ્યા છો",
+  "followers": "અનુયાયીઓ",
+  "loadingProfile": "પ્રોફાઇલ લોડ થઈ રહ્યું છે...",
+  "profileNotFound": "પ્રોફાઇલ મળ્યું નથી",
+  "loadingPosts": "પોસ્ટ્સ લોડ થઈ રહ્યા છે...",
+  "noPostsYet": "હજુ સુધી પોસ્ટ્સ નથી",
+  "unknownUser": "અજ્ઞાત વપરાશકર્તા",
+  "checkOutProfile": "BibleWay પર {{name}} નું પ્રોફાઇલ તપાસો",
+  "profileTitle": "{{name}} નું પ્રોફાઇલ",
+  "unfollowedSuccessfully": "સફળતાપૂર્વક અનુસરવાનું બંધ કર્યું",
+  "followedSuccessfully": "સફળતાપૂર્વક અનુસર્યા",
+  "failedToFetchUserPosts": "વપરાશકર્તા પોસ્ટ્સ મેળવવામાં નિષ્ફળ"
+}
+

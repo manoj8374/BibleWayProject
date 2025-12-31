@@ -1,0 +1,19 @@
+{
+  "title": "સૂચનાઓ",
+  "markAllAsRead": "બધાને વાંચ્યું તરીકે ચિહ્નિત કરો",
+  "loading": "સૂચનાઓ લોડ થઈ રહ્યા છે...",
+  "noNotifications": "હજુ સુધી સૂચનાઓ નથી",
+  "allCaughtUp": "તમે બધું પૂર્ણ કરી દીધું છે!",
+  "justNow": "હમણાં",
+  "minuteAgo": "{{count}} મિનિટ પહેલાં",
+  "minutesAgo": "{{count}} મિનિટ પહેલાં",
+  "hourAgo": "{{count}} કલાક પહેલાં",
+  "hoursAgo": "{{count}} કલાક પહેલાં",
+  "dayAgo": "{{count}} દિવસ પહેલાં",
+  "daysAgo": "{{count}} દિવસ પહેલાં",
+  "weekAgo": "{{count}} અઠવાડિયા પહેલાં",
+  "weeksAgo": "{{count}} અઠવાડિયા પહેલાં",
+  "monthAgo": "{{count}} મહિના પહેલાં",
+  "monthsAgo": "{{count}} મહિના પહેલાં"
+}
+

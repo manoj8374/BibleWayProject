@@ -1,0 +1,47 @@
+{
+  "title": "પુસ્તક અપલોડ કરો",
+  "labels": {
+    "sourceFile": "સ્રોત ફાઇલ (.md) *",
+    "coverImage": "કવર છબી",
+    "category": "શ્રેણી *",
+    "ageGroup": "ઉંમર જૂથ *",
+    "language": "ભાષા *",
+    "bookTitle": "શીર્ષક *",
+    "description": "વર્ણન",
+    "bookOrder": "પુસ્તક ક્રમ"
+  },
+  "placeholders": {
+    "selectCategory": "શ્રેણી પસંદ કરો",
+    "selectAgeGroup": "ઉંમર જૂથ પસંદ કરો",
+    "selectLanguage": "ભાષા પસંદ કરો",
+    "enterBookTitle": "પુસ્તક શીર્ષક દાખલ કરો",
+    "enterBookDescription": "પુસ્તક વર્ણન દાખલ કરો (વૈકલ્પિક)"
+  },
+  "loading": {
+    "categories": "શ્રેણીઓ લોડ થઈ રહ્યા છે...",
+    "ageGroups": "ઉંમર જૂથો લોડ થઈ રહ્યા છે...",
+    "languages": "ભાષાઓ લોડ થઈ રહ્યા છે...",
+    "uploading": "અપલોડ થઈ રહ્યું છે..."
+  },
+  "selected": "પસંદ કરેલ:",
+  "buttons": {
+    "cancel": "રદ કરો",
+    "uploadBook": "પુસ્તક અપલોડ કરો"
+  },
+  "errors": {
+    "sourceFileRequired": "સ્રોત ફાઇલ જરૂરી છે",
+    "titleRequired": "શીર્ષક જરૂરી છે",
+    "categoryRequired": "શ્રેણી જરૂરી છે",
+    "ageGroupRequired": "ઉંમર જૂથ જરૂરી છે",
+    "languageRequired": "ભાષા જરૂરી છે",
+    "failedToLoadCategories": "શ્રેણીઓ લોડ કરવામાં નિષ્ફળ",
+    "failedToLoadAgeGroups": "ઉંમર જૂથો લોડ કરવામાં નિષ્ફળ",
+    "failedToLoadLanguages": "ભાષાઓ લોડ કરવામાં નિષ્ફળ",
+    "failedToUploadBook": "પુસ્તક અપલોડ કરવામાં નિષ્ફળ",
+    "unexpectedError": "અનપેક્ષિત ભૂલ આવી"
+  },
+  "success": {
+    "bookCreated": "પુસ્તક સફળતાપૂર્વક બનાવ્યું"
+  }
+}
+

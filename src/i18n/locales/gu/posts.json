@@ -1,0 +1,23 @@
+{
+  "edit": "સંપાદન કરો",
+  "delete": "કાઢી નાખો",
+  "deleteConfirm": "આ પોસ્ટ કાઢી નાખવી છે?",
+  "cancel": "રદ કરો",
+  "save": "સાચવો",
+  "saving": "સાચવી રહ્યું છે...",
+  "deleting": "કાઢી રહ્યું છે...",
+  "likes": "લાઇક્સ",
+  "like": "લાઇક",
+  "comments": "ટિપ્પણીઓ",
+  "comment": "ટિપ્પણી",
+  "share": "શેર કરો",
+  "shares": "શેર્સ",
+  "writeComment": "ટિપ્પણી લખો...",
+  "writeYourComment": "તમારી ટિપ્પણી લખો...",
+  "failedToComment": "ટિપ્પણી કરવામાં નિષ્ફળ",
+  "actionFailed": "ક્રિયા નિષ્ફળ",
+  "commentAdded": "ટિપ્પણી સફળતાપૂર્વક ઉમેરાઈ",
+  "failedToCreateComment": "ટિપ્પણી બનાવવામાં નિષ્ફળ",
+  "failedToUpdateLike": "લાઇક સ્થિતિ અપડેટ કરવામાં નિષ્ફળ"
+}
+

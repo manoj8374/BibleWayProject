@@ -1,0 +1,28 @@
+{
+  "title": "શ્રેણી બનાવો",
+  "labels": {
+    "categoryName": "શ્રેણી નામ *",
+    "description": "વર્ણન",
+    "displayOrder": "પ્રદર્શન ક્રમ",
+    "coverImage": "કવર છબી"
+  },
+  "placeholders": {
+    "selectCategoryName": "શ્રેણી નામ પસંદ કરો",
+    "enterDescription": "શ્રેણી વર્ણન દાખલ કરો (વૈકલ્પિક)"
+  },
+  "selected": "પસંદ કરેલ:",
+  "buttons": {
+    "cancel": "રદ કરો",
+    "createCategory": "શ્રેણી બનાવો",
+    "creating": "બનાવી રહ્યું છે..."
+  },
+  "errors": {
+    "categoryNameRequired": "શ્રેણી નામ જરૂરી છે",
+    "failedToCreateCategory": "શ્રેણી બનાવવામાં નિષ્ફળ",
+    "unexpectedError": "અનપેક્ષિત ભૂલ આવી"
+  },
+  "success": {
+    "categoryCreated": "શ્રેણી સફળતાપૂર્વક બનાવી"
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "title": "વર્ગીકૃત બાઇબલ",
+  "loadingAgeGroups": "ઉંમર જૂથો લોડ થઈ રહ્યા છે...",
+  "failedToLoadAgeGroups": "ઉંમર જૂથો લોડ કરવામાં નિષ્ફળ",
+  "unexpectedErrorLoadingAgeGroups": "ઉંમર જૂથો લોડ કરતી વખતે અનપેક્ષિત ભૂલ આવી",
+  "noAgeGroupsAvailable": "ઉંમર જૂથો ઉપલબ્ધ નથી",
+  "pleaseSelectCategoryFirst": "કૃપા કરીને પહેલા શ્રેણી પસંદ કરો",
+  "noBooksAvailable": "આ પસંદગી માટે પુસ્તકો ઉપલબ્ધ નથી",
+  "failedToFetchBooks": "પુસ્તકો મેળવવામાં નિષ્ફળ",
+  "categoryNotFound": "શ્રેણી મળી નથી",
+  "ageGroupNotFound": "ઉંમર જૂથ મળ્યું નથી",
+  "languageNotFound": "ભાષા મળી નથી",
+  "unexpectedErrorFetchingBooks": "પુસ્તકો મેળવતી વખતે અનપેક્ષિત ભૂલ આવી"
+}
+

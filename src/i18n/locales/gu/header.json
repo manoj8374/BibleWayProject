@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "પુસ્તક, નામ, લેખક શોધો...",
+  "addNewPost": "નવો પોસ્ટ ઉમેરો",
+  "noResultsFound": "પરિણામો મળ્યા નથી",
+  "languageSelector": {
+    "searchLanguages": "ભાષાઓ શોધો...",
+    "noLanguagesFound": "ભાષાઓ મળી નથી"
+  },
+  "filter": {
+    "selectLanguage": "ભાષા પસંદ કરો",
+    "selectVersion": "પુસ્તક પસંદ કરો"
+  }
+}
+
