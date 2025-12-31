@@ -1,0 +1,30 @@
+{
+  "title": "Créer une citation quotidienne",
+  "note": "Remarque : La création d'un nouveau verset effacera la citation quotidienne existante. Cette action ne peut pas être annulée. La nouvelle citation sera affichée à tous les utilisateurs immédiatement.",
+  "labels": {
+    "title": "Titre (Optionnel)",
+    "quoteDescription": "Citation / Description (Requis)"
+  },
+  "placeholders": {
+    "title": "par ex. Citation du jour",
+    "quoteDescription": "Entrez l'Écriture ou la citation ici..."
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "publishQuote": "Publier la citation",
+    "publishing": "Publication...",
+    "updateQuote": "Mettre à jour la citation",
+    "updating": "Mise à jour..."
+  },
+  "errors": {
+    "descriptionRequired": "La description est requise",
+    "failedToCreateVerse": "Échec de la création du verset",
+    "failedToUpdateVerse": "Échec de la mise à jour du verset",
+    "unexpectedError": "Une erreur inattendue s'est produite"
+  },
+  "success": {
+    "verseCreated": "Verset créé avec succès",
+    "verseUpdated": "Verset mis à jour avec succès"
+  },
+  "editTitle": "Modifier le verset"
+}

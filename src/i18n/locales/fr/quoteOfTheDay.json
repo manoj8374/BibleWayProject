@@ -1,0 +1,8 @@
+{
+  "title": "Citation du jour",
+  "loading": "Chargement...",
+  "likes": "J'aime",
+  "addNewPost": "Ajouter une nouvelle publication",
+  "failedToUpdateLike": "Échec de la mise à jour du j'aime",
+  "pleaseUpload": "Aucune citation du jour téléchargée pour le moment"
+}

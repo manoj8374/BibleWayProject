@@ -1,0 +1,8 @@
+{
+  "title": "Personnes recommandées",
+  "searchPlaceholder": "Rechercher un livre, un nom, un auteur...",
+  "noResultsFound": "Aucun résultat trouvé",
+  "noRecommendationsAvailable": "Aucune recommandation disponible",
+  "following": "Abonné",
+  "follow": "+ Suivre"
+}

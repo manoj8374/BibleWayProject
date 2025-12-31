@@ -1,0 +1,27 @@
+{
+  "title": "Créer une catégorie",
+  "labels": {
+    "categoryName": "Nom de la catégorie *",
+    "description": "Description",
+    "displayOrder": "Ordre d'affichage",
+    "coverImage": "Image de couverture"
+  },
+  "placeholders": {
+    "selectCategoryName": "Sélectionner un nom de catégorie",
+    "enterDescription": "Entrer la description de la catégorie (optionnel)"
+  },
+  "selected": "Sélectionné :",
+  "buttons": {
+    "cancel": "Annuler",
+    "createCategory": "Créer la catégorie",
+    "creating": "Création..."
+  },
+  "errors": {
+    "categoryNameRequired": "Le nom de la catégorie est requis",
+    "failedToCreateCategory": "Échec de la création de la catégorie",
+    "unexpectedError": "Une erreur inattendue s'est produite"
+  },
+  "success": {
+    "categoryCreated": "Catégorie créée avec succès"
+  }
+}

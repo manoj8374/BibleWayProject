@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "En ligne",
+    "offline": "Hors ligne"
+  },
+  "messages": {
+    "loading": "Chargement des messages...",
+    "noMessages": "Aucun message pour le moment",
+    "deleted": "Ce message a été supprimé",
+    "sharedImage": "Image partagée",
+    "viewAttachment": "Voir la pièce jointe",
+    "seen": "Vu",
+    "deleteMessage": "Supprimer le message"
+  },
+  "typing": {
+    "isTyping": "est en train d'écrire...",
+    "peopleTyping": "personnes sont en train d'écrire..."
+  },
+  "input": {
+    "placeholder": "Tapez un message...",
+    "pressEnterToSend": "Appuyez sur Entrée pour envoyer"
+  },
+  "deleteModal": {
+    "title": "Supprimer le message ?",
+    "message": "Êtes-vous sûr de vouloir supprimer ce message ? Cette action ne peut pas être annulée.",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "uploadModal": {
+    "title": "Envoyer le fichier",
+    "uploading": "Téléchargement et envoi...",
+    "sendFile": "Envoyer {{filename}} ?",
+    "sending": "Envoi...",
+    "send": "Envoyer",
+    "cancel": "Annuler"
+  },
+  "errors": {
+    "fetchConversation": "Échec de la récupération de la conversation",
+    "invalidFileType": "Type de fichier invalide. Seules les images et vidéos sont autorisées.",
+    "fileSizeExceeded": "La taille du fichier dépasse la limite de 10 Mo.",
+    "uploadFailed": "Échec du téléchargement du fichier",
+    "failedToLoadStickers": "Échec du chargement des autocollants"
+  },
+  "stickers": {
+    "loading": "Chargement des autocollants...",
+    "noStickers": "Aucun autocollant disponible"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "welcome": "Bienvenue",
+  "login": "Connexion",
+  "signup": "S'inscrire",
+  "logout": "Déconnexion",
+  "home": "Accueil",
+  "profile": "Profil",
+  "settings": "Paramètres",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "submit": "Soumettre",
+  "loading": "Chargement...",
+  "error": "Erreur",
+  "success": "Succès",
+  "linkCopied": "Lien copié dans le presse-papiers !",
+  "failedToCopy": "Échec de la copie du lien",
+  "sharePost": "Partager la publication",
+  "sharePrayerRequest": "Partager la demande de prière"
+}

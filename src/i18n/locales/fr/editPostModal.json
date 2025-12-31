@@ -1,0 +1,24 @@
+{
+  "title": "Modifier la publication",
+  "labels": {
+    "title": "Titre",
+    "description": "Description",
+    "media": "Média"
+  },
+  "placeholders": {
+    "enterPostTitle": "Entrer le titre de la publication...",
+    "enterDescription": "Entrer la description..."
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "updating": "Mise à jour..."
+  },
+  "errors": {
+    "noChanges": "Aucune modification détectée",
+    "failedToUpdatePost": "Échec de la mise à jour de la publication"
+  },
+  "success": {
+    "postUpdated": "Publication mise à jour avec succès"
+  }
+}

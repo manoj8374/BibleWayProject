@@ -1,0 +1,10 @@
+{
+  "list": "Liste",
+  "bookmark": "Signet",
+  "quickNote": "Note rapide",
+  "noChaptersAvailable": "Aucun chapitre disponible",
+  "chapter": "Chapitre",
+  "noChapterSelected": "Aucun chapitre sélectionné",
+  "selectChapterToBegin": "Sélectionnez un chapitre dans la barre latérale pour commencer la lecture",
+  "ttsLanguage": "Langue TTS :"
+}

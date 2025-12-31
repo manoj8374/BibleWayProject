@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Une erreur inattendue s'est produite.",
+    "receivedToken": "Jeton reçu"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Une erreur inattendue s'est produite lors de la création de la publication.",
+    "failedToFetchPosts": "Échec de la récupération des publications.",
+    "failedToFetchUserPosts": "Échec de la récupération des publications de l'utilisateur.",
+    "failedToFetchPostDetails": "Échec de la récupération des détails de la publication.",
+    "failedToUpdatePost": "Échec de la mise à jour de la publication",
+    "failedToDeletePost": "Échec de la suppression de la publication",
+    "failedToCreateComment": "Échec de la création du commentaire.",
+    "failedToUpdateComment": "Échec de la mise à jour du commentaire.",
+    "failedToDeleteComment": "Échec de la suppression du commentaire.",
+    "failedToFetchComments": "Échec de la récupération des commentaires.",
+    "failedToLikeComment": "Échec de l'ajout du j'aime au commentaire.",
+    "failedToUnlikeComment": "Échec du retrait du j'aime du commentaire.",
+    "failedToLikePost": "Échec de l'ajout du j'aime à la publication.",
+    "failedToUnlikePost": "Échec du retrait du j'aime de la publication."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Échec de la récupération du profil utilisateur.",
+    "failedToFollowUser": "Échec de l'abonnement à l'utilisateur.",
+    "failedToUnfollowUser": "Échec du désabonnement de l'utilisateur.",
+    "failedToGetRecommendedUsers": "Échec de la récupération des utilisateurs recommandés.",
+    "failedToGetUserProfile": "Échec de la récupération du profil utilisateur."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Échec du chargement des fonds d'écran"
+  },
+  "verse": {
+    "failedToLoadVerses": "Échec du chargement des versets",
+    "failedToLikeVerse": "Échec de l'ajout du j'aime au verset",
+    "failedToUnlikeVerse": "Échec du retrait du j'aime du verset"
+  },
+  "admin": {
+    "failedToLoadBooks": "Échec du chargement des livres"
+  }
+}

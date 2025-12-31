@@ -1,0 +1,46 @@
+{
+  "title": "Télécharger un livre",
+  "labels": {
+    "sourceFile": "Fichier source (.md) *",
+    "coverImage": "Image de couverture",
+    "category": "Catégorie *",
+    "ageGroup": "Groupe d'âge *",
+    "language": "Langue *",
+    "bookTitle": "Titre *",
+    "description": "Description",
+    "bookOrder": "Ordre du livre"
+  },
+  "placeholders": {
+    "selectCategory": "Sélectionner une catégorie",
+    "selectAgeGroup": "Sélectionner un groupe d'âge",
+    "selectLanguage": "Sélectionner une langue",
+    "enterBookTitle": "Entrer le titre du livre",
+    "enterBookDescription": "Entrer la description du livre (optionnel)"
+  },
+  "loading": {
+    "categories": "Chargement des catégories...",
+    "ageGroups": "Chargement des groupes d'âge...",
+    "languages": "Chargement des langues...",
+    "uploading": "Téléchargement..."
+  },
+  "selected": "Sélectionné :",
+  "buttons": {
+    "cancel": "Annuler",
+    "uploadBook": "Télécharger le livre"
+  },
+  "errors": {
+    "sourceFileRequired": "Le fichier source est requis",
+    "titleRequired": "Le titre est requis",
+    "categoryRequired": "La catégorie est requise",
+    "ageGroupRequired": "Le groupe d'âge est requis",
+    "languageRequired": "La langue est requise",
+    "failedToLoadCategories": "Échec du chargement des catégories",
+    "failedToLoadAgeGroups": "Échec du chargement des groupes d'âge",
+    "failedToLoadLanguages": "Échec du chargement des langues",
+    "failedToUploadBook": "Échec du téléchargement du livre",
+    "unexpectedError": "Une erreur inattendue s'est produite"
+  },
+  "success": {
+    "bookCreated": "Livre créé avec succès"
+  }
+}

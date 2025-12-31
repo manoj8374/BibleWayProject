@@ -1,0 +1,8 @@
+{
+  "title": "Promotions",
+  "loading": "Chargement des promotions...",
+  "noPromotionsAvailable": "Aucune promotion disponible",
+  "viewDetails": "Voir les détails",
+  "buyNow": "Acheter maintenant",
+  "failedToLoad": "Échec du chargement des promotions"
+}

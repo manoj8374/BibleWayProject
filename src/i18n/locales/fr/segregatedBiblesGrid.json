@@ -1,0 +1,14 @@
+{
+  "title": "Bibles segmentées",
+  "loadingAgeGroups": "Chargement des groupes d'âge...",
+  "failedToLoadAgeGroups": "Échec du chargement des groupes d'âge",
+  "unexpectedErrorLoadingAgeGroups": "Une erreur inattendue s'est produite lors du chargement des groupes d'âge",
+  "noAgeGroupsAvailable": "Aucun groupe d'âge disponible",
+  "pleaseSelectCategoryFirst": "Veuillez d'abord sélectionner une catégorie",
+  "noBooksAvailable": "Aucun livre disponible pour cette sélection",
+  "failedToFetchBooks": "Échec de la récupération des livres",
+  "categoryNotFound": "Catégorie non trouvée",
+  "ageGroupNotFound": "Groupe d'âge non trouvé",
+  "languageNotFound": "Langue non trouvée",
+  "unexpectedErrorFetchingBooks": "Une erreur inattendue s'est produite lors de la récupération des livres"
+}

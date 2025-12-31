@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Rechercher des personnes",
+  "searchPeoplePlaceholder": "Rechercher des personnes...",
+  "searching": "Recherche...",
+  "noUsersFound": "Aucun utilisateur trouvé",
+  "follow": "Suivre",
+  "following": "Abonné",
+  "failedToUpdateFollowStatus": "Échec de la mise à jour du statut d'abonnement",
+  "loadingInbox": "Chargement de la boîte de réception...",
+  "noMessages": "Aucun message",
+  "you": "Vous : ",
+  "attachment": "Pièce jointe",
+  "noMessagesText": "Aucun message",
+  "sticker": "📷 Autocollant"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Finaliser l'inscription",
+  "description": "Nous avons besoin de quelques détails supplémentaires pour terminer la création de votre compte.",
+  "labels": {
+    "age": "Âge",
+    "language": "Langue",
+    "country": "Pays"
+  },
+  "placeholders": {
+    "age": "par ex. 25",
+    "language": "par ex. Français",
+    "country": "par ex. France"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "creating": "Création..."
+  }
+}

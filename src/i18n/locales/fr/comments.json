@@ -1,0 +1,25 @@
+{
+  "loading": "Chargement des commentaires...",
+  "error": "Échec du chargement des commentaires",
+  "noComments": "Aucun commentaire pour le moment. Soyez le premier à dire quelque chose !",
+  "emptyComment": "Le commentaire ne peut pas être vide",
+  "commentUpdated": "Commentaire mis à jour avec succès",
+  "failedToUpdate": "Échec de la mise à jour du commentaire",
+  "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce commentaire ?",
+  "commentDeleted": "Commentaire supprimé avec succès",
+  "failedToDelete": "Échec de la suppression du commentaire",
+  "writeComment": "Écrire un commentaire...",
+  "deleteModal": {
+    "title": "Supprimer le commentaire",
+    "description": "Êtes-vous sûr de vouloir supprimer ce commentaire ? Cette action ne peut pas être annulée.",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "deleting": "Suppression..."
+  },
+  "time": {
+    "justNow": "À l'instant",
+    "minutesAgo": "il y a {{count}}m",
+    "hoursAgo": "il y a {{count}}h",
+    "daysAgo": "il y a {{count}}j"
+  }
+}

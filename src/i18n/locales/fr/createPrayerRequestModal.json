@@ -1,0 +1,34 @@
+{
+  "title": "Demande de prière",
+  "labels": {
+    "description": "Description",
+    "name": "Nom",
+    "email": "E-mail",
+    "phoneNumber": "Numéro de téléphone (optionnel)",
+    "media": "Média (Optionnel)"
+  },
+  "placeholders": {
+    "enterDescription": "Veuillez prier pour la santé de ma famille...",
+    "yourName": "Votre nom",
+    "yourEmail": "Votre adresse e-mail",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "Téléchargez des images ou des vidéos (Max 5 fichiers, 10 Mo chacun)",
+    "addMoreFiles": "+ Ajouter plus de fichiers"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Soumettre la demande de prière",
+    "submitting": "Soumission..."
+  },
+  "errors": {
+    "descriptionRequired": "Veuillez entrer une description pour votre demande de prière.",
+    "failedToCreateRequest": "Échec de la création de la demande de prière.",
+    "maxFilesExceeded": "Vous pouvez télécharger un maximum de 5 fichiers.",
+    "invalidFileType": "Type de fichier invalide : {{filename}}. Seules les images et vidéos sont autorisées.",
+    "fileSizeExceeded": "La taille du fichier dépasse la limite de 10 Mo : {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Demande de prière créée avec succès !"
+  }
+}

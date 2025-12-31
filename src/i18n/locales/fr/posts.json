@@ -1,0 +1,22 @@
+{
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "deleteConfirm": "Supprimer cette publication ?",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "saving": "Enregistrement...",
+  "deleting": "Suppression...",
+  "likes": "J'aime",
+  "like": "J'aime",
+  "comments": "Commentaires",
+  "comment": "Commenter",
+  "share": "Partager",
+  "shares": "Partages",
+  "writeComment": "Écrire un commentaire...",
+  "writeYourComment": "Écrivez votre commentaire...",
+  "failedToComment": "Échec du commentaire",
+  "actionFailed": "Action échouée",
+  "commentAdded": "Commentaire ajouté avec succès",
+  "failedToCreateComment": "Échec de la création du commentaire",
+  "failedToUpdateLike": "Échec de la mise à jour du statut j'aime"
+}
