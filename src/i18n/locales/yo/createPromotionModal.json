@@ -1,0 +1,38 @@
+{
+  "title": "Ṣẹ̀dá Ìpolówó",
+  "labels": {
+    "title": "Àkọ́lé *",
+    "description": "Ìjúwe",
+    "price": "Iye owó",
+    "redirectLink": "Ìlápọ̀ Ìdarí *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "Fáìlì Méìdíà (Àwòrán/Fídíò/Ìró)",
+    "images": "Àwọn Àwòrán (Púpọ̀)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Kọ àkọ́lé ìpolówó rẹ",
+    "enterDescription": "Kọ ìjúwe ìpolówó (àyànfẹ́)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Ohun tí a yàn:",
+  "buttons": {
+    "cancel": "Múkúrò",
+    "createPromotion": "Ṣẹ̀dá Ìpolówó",
+    "creating": "Ìṣẹ̀dá ń lọ lọ́wọ́..."
+  },
+  "errors": {
+    "titleRequired": "A nílò àkọ́lé",
+    "priceRequired": "A nílò iye owó",
+    "priceInvalid": "Iye owó gbọ́dọ̀ jẹ́ nọ́mbà",
+    "redirectLinkRequired": "A nílò ìlápọ̀ ìdarí",
+    "redirectLinkInvalid": "Ìlápọ̀ ìdarí gbọ́dọ̀ jẹ́ URL gidi",
+    "metaDataInvalid": "Meta data gbọ́dọ̀ jẹ́ JSON gidi",
+    "failedToCreatePromotion": "Ìṣẹ̀dá ìpolówó kùnà",
+    "unexpectedError": "Àṣìṣe kan tí a kò retí wáyé"
+  },
+  "success": {
+    "promotionCreated": "A ti ṣẹ̀dá ìpolówó dídáradára"
+  }
+}

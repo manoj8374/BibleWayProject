@@ -1,0 +1,22 @@
+{
+  "title": "Ṣàtúnṣe Ìfihàn",
+  "labels": {
+    "title": "Àkọ́lé",
+    "description": "Ìjúwe"
+  },
+  "placeholders": {
+    "enterPostTitle": "Kọ àkọ́lé ìfihàn...",
+    "enterDescription": "Ṣàtúnṣe ìjúwe rẹ síbí..."
+  },
+  "buttons": {
+    "saveChanges": "Fi Àwọn Àtúnṣe Pamọ́",
+    "saving": "Ìpamọ́ ń lọ lọ́wọ́...",
+    "cancel": "Múkúrò"
+  },
+  "errors": {
+    "failedToUpdatePost": "Àtúnṣe ìfihàn kùnà."
+  },
+  "success": {
+    "postUpdated": "A ti ṣàtúnṣe ìfihàn dídáradára!"
+  }
+}

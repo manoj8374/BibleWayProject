@@ -1,0 +1,18 @@
+{
+  "title": "Àwọn Ìfilọ̀",
+  "markAllAsRead": "Sọ gbogbo rẹ̀ di kíkà",
+  "loading": "Ìmújáde àwọn ìfilọ̀ ń lọ lọ́wọ́...",
+  "noNotifications": "Kò sí ìfilọ̀ kankan lọ́wọ́lọ́wọ́",
+  "allCaughtUp": "O ti ka gbogbo rẹ̀!",
+  "justNow": "Nísinsìnyí",
+  "minuteAgo": "ìṣẹ́jú {{count}} sẹ́yìn",
+  "minutesAgo": "ìṣẹ́jú {{count}} sẹ́yìn",
+  "hourAgo": "wákàtí {{count}} sẹ́yìn",
+  "hoursAgo": "wákàtí {{count}} sẹ́yìn",
+  "dayAgo": "ọjọ́ {{count}} sẹ́yìn",
+  "daysAgo": "ọjọ́ {{count}} sẹ́yìn",
+  "weekAgo": "ọ̀sẹ̀ {{count}} sẹ́yìn",
+  "weeksAgo": "ọ̀sẹ̀ {{count}} sẹ́yìn",
+  "monthAgo": "oṣù {{count}} sẹ́yìn",
+  "monthsAgo": "oṣù {{count}} sẹ́yìn"
+}

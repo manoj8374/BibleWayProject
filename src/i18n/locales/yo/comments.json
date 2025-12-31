@@ -1,0 +1,25 @@
+{
+  "loading": "Ìmújáde àwọn ọ̀rọ̀ ń lọ lọ́wọ́...",
+  "error": "Ìmújáde àwọn ọ̀rọ̀ kùnà",
+  "noComments": "Kò sí ọ̀rọ̀ kankan lọ́wọ́lọ́wọ́. Jẹ́ ẹni àkọ́kọ́ láti sọ nǹkan!",
+  "emptyComment": "Ọ̀rọ̀ kò le jẹ́ òfo",
+  "commentUpdated": "A ti ṣàtúnṣe ọ̀rọ̀ dídáradára",
+  "failedToUpdate": "Àtúnṣe ọ̀rọ̀ kùnà",
+  "deleteConfirm": "Ṣé ó dá ẹ lójú pé o fẹ́ pa ọ̀rọ̀ yìí rẹ́?",
+  "commentDeleted": "A ti pa ọ̀rọ̀ rẹ́ dídáradára",
+  "failedToDelete": "Ìparẹ́ ọ̀rọ̀ kùnà",
+  "writeComment": "Kọ ọ̀rọ̀ kan...",
+  "deleteModal": {
+    "title": "Pa Ọ̀rọ̀ Rẹ́",
+    "description": "Ṣé ó dá ẹ lójú pé o fẹ́ pa ọ̀rọ̀ yìí rẹ́? A kò le mú padà mọ́.",
+    "cancel": "Múkúrò",
+    "delete": "Paarẹ",
+    "deleting": "Ìparẹ́ ń lọ lọ́wọ́..."
+  },
+  "time": {
+    "justNow": "Nísinsìnyí",
+    "minutesAgo": "ìṣẹ́jú {{count}} sẹ́yìn",
+    "hoursAgo": "wákàtí {{count}} sẹ́yìn",
+    "daysAgo": "ọjọ́ {{count}} sẹ́yìn"
+  }
+}

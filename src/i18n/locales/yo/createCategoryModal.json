@@ -1,0 +1,27 @@
+{
+  "title": "Ṣẹ̀dá Ẹ̀ka",
+  "labels": {
+    "categoryName": "Orúkọ Ẹ̀ka *",
+    "description": "Ìjúwe",
+    "displayOrder": "Ètò Ìfihàn",
+    "coverImage": "Àwòrán Ìderí"
+  },
+  "placeholders": {
+    "selectCategoryName": "Yan orúkọ ẹ̀ka",
+    "enterDescription": "Kọ ìjúwe ẹ̀ka (àyànfẹ́)"
+  },
+  "selected": "Ohun tí a yàn:",
+  "buttons": {
+    "cancel": "Múkúrò",
+    "createCategory": "Ṣẹ̀dá Ẹ̀ka",
+    "creating": "Ìṣẹ̀dá ń lọ lọ́wọ́..."
+  },
+  "errors": {
+    "categoryNameRequired": "A nílò orúkọ ẹ̀ka",
+    "failedToCreateCategory": "Ìṣẹ̀dá ẹ̀ka kùnà",
+    "unexpectedError": "Àṣìṣe kan tí a kò retí wáyé"
+  },
+  "success": {
+    "categoryCreated": "A ti ṣẹ̀dá ẹ̀ka dídáradára"
+  }
+}

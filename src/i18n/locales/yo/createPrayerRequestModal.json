@@ -1,0 +1,34 @@
+{
+  "title": "Ìbéèrè Àdúrà",
+  "labels": {
+    "description": "Ìjúwe",
+    "name": "Orúkọ",
+    "email": "Imeeli",
+    "phoneNumber": "Nọ́mbà Ẹ̀rọ Ibánisọ̀rọ̀ (àyànfẹ́)",
+    "media": "Méìdíà (àyànfẹ́)"
+  },
+  "placeholders": {
+    "enterDescription": "Jọ̀wọ́ gbàdúrà fún ìlera ẹbí mi...",
+    "yourName": "Orúkọ rẹ",
+    "yourEmail": "Imeeli rẹ",
+    "phoneNumber": "08012345678"
+  },
+  "upload": {
+    "uploadText": "Gbé àwòrán tàbí fídíò sípò (Fáìlì 5 pọ̀ tán, 10MB kọ̀ọ̀kan)",
+    "addMoreFiles": "+ Fi fáìlì kún u"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Fi Ìbéèrè Àdúrà Ránṣẹ́",
+    "submitting": "Ìfifihàn ń lọ lọ́wọ́..."
+  },
+  "errors": {
+    "descriptionRequired": "Jọ̀wọ́ kọ ìjúwe ìbéèrè àdúrà rẹ.",
+    "failedToCreateRequest": "Ìṣẹ̀dá ìbéèrè àdúrà kùnà.",
+    "maxFilesExceeded": "O le gbé fáìlì 5 nìkan sípò.",
+    "invalidFileType": "Fáìlì yìí kò tọ̀nà: {{filename}}. Àwòrán àti fídíò nìkan ni a gbà láyè.",
+    "fileSizeExceeded": "Fáìlì náà ju 10MB lọ: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "A ti ṣẹ̀dá ìbéèrè àdúrà dídáradára!"
+  }
+}

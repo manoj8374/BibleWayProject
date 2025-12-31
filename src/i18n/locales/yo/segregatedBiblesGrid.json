@@ -1,0 +1,14 @@
+{
+  "title": "Grid Bíbélì Tí A Pín Sí Ìsọ̀rí",
+  "loadingAgeGroups": "Ìmújáde àkójọ ọjọ́-orí ń lọ lọ́wọ́...",
+  "failedToLoadAgeGroups": "Ìmújáde àkójọ ọjọ́-orí kùnà",
+  "unexpectedErrorLoadingAgeGroups": "Àṣìṣe kan tí a kò retí wáyé nígbà tí a ń gbé àkójọ ọjọ́-orí jáde",
+  "noAgeGroupsAvailable": "Kò sí àkójọ ọjọ́-orí kankan lọ́wọ́lọ́wọ́",
+  "pleaseSelectCategoryFirst": "Jọ̀wọ́ yan ẹ̀ka kan ná",
+  "noBooksAvailable": "Kò sí ìwé kankan fún ohun tí o yàn yìí",
+  "failedToFetchBooks": "Ìmújáde àwọn ìwé kùnà",
+  "categoryNotFound": "A kò rí ẹ̀ka náà",
+  "ageGroupNotFound": "A kò rí àkójọ ọjọ́-orí náà",
+  "languageNotFound": "A kò rí èdè náà",
+  "unexpectedErrorFetchingBooks": "Àṣìṣe kan tí a kò retí wáyé nígbà tí a ń gbé àwọn ìwé jáde"
+}

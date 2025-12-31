@@ -1,0 +1,33 @@
+{
+  "title": "Àkíyèsì Orí",
+  "noBookSelected": "Kò sí ìwé kankan tí a yàn",
+  "selectBookMessage": "Jọ̀wọ́ yan ìwé kan láti rí àkíyèsì",
+  "noChapterSelected": "Kò sí orí kankan tí a yàn",
+  "selectChapterMessage": "Yan orí kan láti rí àti láti kọ àkíyèsì",
+  "loadingNotes": "Ìkọ̀sílẹ̀ àkíyèsì ń lọ lọ́wọ́...",
+  "noNotesYet": "Kò sí àkíyèsì kankan lọ́wọ́lọ́wọ́",
+  "startWritingMessage": "Bẹ̀rẹ̀ sí ní kọ èrò rẹ àti òye rẹ nípa orí yìí",
+  "placeholder": "Kọ àkíyèsì rẹ síbí...",
+  "cancel": "Múkúrò",
+  "saving": "Ìpamọ́ ń lọ lọ́wọ́...",
+  "updateNote": "Ṣàtúnṣe Àkíyèsì",
+  "saveNote": "Pa Àkíyèsì Mọ́",
+  "editNote": "Ṣàtúnṣe Àkíyèsì",
+  "deleteNote": "Pa Àkíyèsì Rẹ́",
+  "justNow": "Nísinsìnyí",
+  "note": "àkíyèsì",
+  "notes": "àwọn àkíyèsì",
+  "deleteConfirmation": "Ṣé ó dá ẹ lójú pé o fẹ́ pa àkíyèsì yìí rẹ́?",
+  "success": {
+    "noteCreated": "A ti ṣẹ̀dá àkíyèsì dídáradára",
+    "noteUpdated": "A ti ṣàtúnṣe àkíyèsì dídáradára",
+    "noteDeleted": "A ti pa àkíyèsì rẹ́ dídáradára"
+  },
+  "errors": {
+    "failedToLoad": "Ìkọ̀sílẹ̀ àkíyèsì kùnà",
+    "failedToCreate": "Ìṣẹ̀dá àkíyèsì kùnà",
+    "failedToUpdate": "Àtúnṣe àkíyèsì kùnà",
+    "failedToDelete": "Ìparẹ́ àkíyèsì kùnà",
+    "failedToSave": "Ìpamọ́ àkíyèsì kùnà"
+  }
+}

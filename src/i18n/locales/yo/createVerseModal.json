@@ -1,0 +1,30 @@
+{
+  "title": "Ṣẹ̀dá Ọ̀rọ̀ Ọjọ́",
+  "note": "Àkíyèsì: Ṣẹ̀dá ọ̀rọ̀ tuntun yóò rọ́pò ọ̀rọ̀ ọjọ́ tí ó wà tẹ́lẹ̀. A kò le mú padà mọ́. Ọ̀rọ̀ tuntun náà yóò hàn sí gbogbo olùlo lẹ́sẹ̀kẹsẹ̀.",
+  "labels": {
+    "title": "Àkọ́lé (àyànfẹ́)",
+    "quoteDescription": "Ọ̀rọ̀ / Ìjúwe (A nílò rẹ̀)"
+  },
+  "placeholders": {
+    "title": "Àpẹẹrẹ: Ẹsẹ Ọjọ́",
+    "quoteDescription": "Kọ ọ̀rọ̀ tàbí ohun tí o fẹ́ kọ síbí..."
+  },
+  "buttons": {
+    "cancel": "Múkúrò",
+    "publishQuote": "Tẹ Ọ̀rọ̀ Jáde",
+    "publishing": "Ìtẹ̀jáde ń lọ lọ́wọ́...",
+    "updateQuote": "Ṣàtúnṣe Ọ̀rọ̀",
+    "updating": "Àtúnṣe ń lọ lọ́wọ́..."
+  },
+  "errors": {
+    "descriptionRequired": "A nílò ìjúwe",
+    "failedToCreateVerse": "Ìṣẹ̀dá ẹsẹ kùnà",
+    "failedToUpdateVerse": "Àtúnṣe ẹsẹ kùnà",
+    "unexpectedError": "Àṣìṣe kan tí a kò retí wáyé"
+  },
+  "success": {
+    "verseCreated": "A ti ṣẹ̀dá ẹsẹ dídáradára",
+    "verseUpdated": "A ti ṣàtúnṣe ẹsẹ dídáradára"
+  },
+  "editTitle": "Ṣàtúnṣe Ẹsẹ"
+}

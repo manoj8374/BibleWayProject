@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Gbajúmọ̀",
+    "offline": "Kò sí mọ́"
+  },
+  "messages": {
+    "loading": "Ìránṣẹ́ ń lọ lọ́wọ́...",
+    "noMessages": "Kò sí ìránṣẹ́ kankan lọ́wọ́lọ́wọ́",
+    "deleted": "Wọ́n ti pa ìránṣẹ́ yìí rẹ́",
+    "sharedImage": "Àwòrán tí a pín",
+    "viewAttachment": "Wo ohun tí a so pọ̀",
+    "seen": "Rí i",
+    "deleteMessage": "Pa ìránṣẹ́ rẹ́"
+  },
+  "typing": {
+    "isTyping": "ń kọ̀wé...",
+    "peopleTyping": "àwọn ènìyàn ń kọ̀wé..."
+  },
+  "input": {
+    "placeholder": "Kọ ìránṣẹ́...",
+    "pressEnterToSend": "Tẹ 'Enter' láti fi ránṣẹ́"
+  },
+  "deleteModal": {
+    "title": "Pa ìránṣẹ́ rẹ́?",
+    "message": "Ṣé ó dá ẹ lójú pé o fẹ́ pa ìránṣẹ́ yìí rẹ́? A kò le mú padà mọ́.",
+    "cancel": "Múkúrò",
+    "delete": "Paarẹ"
+  },
+  "uploadModal": {
+    "title": "Fi Fáìlì Ránṣẹ́",
+    "uploading": "Ìgbésílẹ̀ àti ìfibánṣẹ́ ń lọ lọ́wọ́...",
+    "sendFile": "Ṣé o fẹ́ fi {{filename}} ránṣẹ́?",
+    "sending": "Ìránṣẹ́ ń lọ...",
+    "send": "Fi ránṣẹ́",
+    "cancel": "Múkúrò"
+  },
+  "errors": {
+    "fetchConversation": "Ìmújáde ìjíròrò kùnà",
+    "invalidFileType": "Fáìlì yìí kò tọ̀nà. Àwòrán àti fídíò nìkan ni a gbà láyè.",
+    "fileSizeExceeded": "Fáìlì náà ju 10MB lọ.",
+    "uploadFailed": "Ìgbésílẹ̀ fáìlì kùnà",
+    "failedToLoadStickers": "Ìmújáde 'stickers' kùnà"
+  },
+  "stickers": {
+    "loading": "Àwọn 'stickers' ń lọ lọ́wọ́...",
+    "noStickers": "Kò sí 'stickers' kankan"
+  }
+}

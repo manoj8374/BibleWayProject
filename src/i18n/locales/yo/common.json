@@ -1,0 +1,21 @@
+{
+  "welcome": "Káàbọ̀",
+  "login": "Wọlé",
+  "signup": "Forúkọsílẹ̀",
+  "logout": "Jáde",
+  "home": "Ilé",
+  "profile": "Ìrísí",
+  "settings": "Ètò",
+  "save": "Fidípò",
+  "cancel": "Múkúrò",
+  "delete": "Paarẹ",
+  "edit": "Ṣàtúnṣe",
+  "submit": "Fi ránṣẹ́",
+  "loading": "Ó ń gbé jáde...",
+  "error": "Àṣìṣe",
+  "success": "Àṣeyọrí",
+  "linkCopied": "A ti dàkọ ìlápọ̀!",
+  "failedToCopy": "Ìdàkọ ìlápọ̀ kùnà",
+  "sharePost": "Pín Ìfihàn",
+  "sharePrayerRequest": "Pín Ìbéèrè Àdúrà"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Ṣẹ̀dá Ìfihàn",
+  "labels": {
+    "title": "Àkọ́lé",
+    "description": "Ìjúwe"
+  },
+  "placeholders": {
+    "enterPostTitle": "Kọ àkọ́lé ìfihàn...",
+    "enterDescription": "Mo rí iṣẹ́ ní Google..."
+  },
+  "upload": {
+    "uploadFiles": "Gbé fáìlì rẹ síbí (O pọ̀ tán 5)",
+    "addMoreFiles": "+ Fi fáìlì kún u"
+  },
+  "buttons": {
+    "createPost": "Ṣẹ̀dá Ìfihàn",
+    "creating": "Ìṣẹ̀dá ń lọ lọ́wọ́..."
+  },
+  "errors": {
+    "maxFilesExceeded": "O le gbé fáìlì 5 nìkan sípò.",
+    "atLeastOneFile": "Jọ̀wọ́ gbé fáìlì méìdíà ó kéré tán kan sípò.",
+    "failedToCreatePost": "Ìṣẹ̀dá ìfihàn kùnà."
+  },
+  "success": {
+    "postCreated": "A ti ṣẹ̀dá ìfihàn dídáradára!"
+  }
+}

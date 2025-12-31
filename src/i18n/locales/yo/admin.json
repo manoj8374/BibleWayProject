@@ -1,0 +1,38 @@
+{
+  "loading": "Ó ń gbé jáde...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute gbọ́dọ̀ wà nínú ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Ṣàkóso Ẹ̀rí",
+    "pending": "Ó kù díẹ̀",
+    "verified": "Ti fìdí múlẹ̀",
+    "all": "Gbogbo rẹ̀",
+    "loading": "Ìmújáde àwọn ẹ̀rí ń lọ lọ́wọ́...",
+    "noTestimonials": "A kò rí ẹ̀rí kankan",
+    "approve": "Gbà á mọ́",
+    "reject": "Kọ̀ ọ́",
+    "processing": "Ìṣiṣẹ́ ń lọ lọ́wọ́...",
+    "approvedSuccessfully": "A ti gba ẹ̀rí mọ́ dídáradára",
+    "rejectedSuccessfully": "A ti kọ̀ ẹ̀rí náà dídáradára",
+    "failedToLoad": "Ìmújáde àwọn ẹ̀rí kùnà",
+    "failedToApprove": "Ìgbámọ́ ẹ̀rí kùnà",
+    "failedToReject": "Ìkọ̀ ẹ̀rí kùnà",
+    "confirmReject": "Ṣé ó dá ẹ lójú pé o fẹ́ kọ̀ ẹ̀rí yìí? A kò le mú padà mọ́.",
+    "previous": "Sẹ́yìn",
+    "next": "Tẹ̀síwájú",
+    "pageInfo": "Ojú-ewé {{current}} nínú {{total}}"
+  },
+  "promotions": {
+    "title": "Ṣàkóso Ìpolówó",
+    "loading": "Ìmújáde ìpolówó ń lọ lọ́wọ́...",
+    "noPromotions": "A kò rí ìpolówó kankan",
+    "delete": "Paarẹ",
+    "cancel": "Múkúrò",
+    "processing": "Ìṣiṣẹ́ ń lọ lọ́wọ́...",
+    "deletedSuccessfully": "A ti pa ìpolówó rẹ́ dídáradára",
+    "failedToLoad": "Ìmújáde ìpolówó kùnà",
+    "failedToDelete": "Ìparẹ́ ìpolówó kùnà",
+    "confirmDelete": "Ṣé ó dá ẹ lójú pé o fẹ́ pa ìpolówó yìí rẹ́? A kò le mú padà mọ́."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Àṣìṣe kan tí a kò retí wáyé.",
+    "receivedToken": "A ti gba 'token'"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Àṣìṣe kan tí a kò retí wáyé nígbà tí a ń ṣẹ̀dá ìfihàn.",
+    "failedToFetchPosts": "Ìmújáde àwọn ìfihàn kùnà.",
+    "failedToFetchUserPosts": "Ìmújáde àwọn ìfihàn olùlo kùnà.",
+    "failedToFetchPostDetails": "Ìmújáde àwọn kúlẹ̀kúlẹ̀ ìfihàn kùnà.",
+    "failedToUpdatePost": "Àtúnṣe ìfihàn kùnà",
+    "failedToDeletePost": "Ìparẹ́ ìfihàn kùnà",
+    "failedToCreateComment": "Ìṣẹ̀dá ọ̀rọ̀ kùnà.",
+    "failedToUpdateComment": "Àtúnṣe ọ̀rọ̀ kùnà.",
+    "failedToDeleteComment": "Ìparẹ́ ọ̀rọ̀ kùnà.",
+    "failedToFetchComments": "Ìmújáde àwọn ọ̀rọ̀ kùnà.",
+    "failedToLikeComment": "Ìfẹ́ sí ọ̀rọ̀ kùnà.",
+    "failedToUnlikeComment": "Ìdẹ́kun láti fẹ́ràn ọ̀rọ̀ kùnà.",
+    "failedToLikePost": "Ìfẹ́ sí ìfihàn kùnà.",
+    "failedToUnlikePost": "Ìdẹ́kun láti fẹ́ràn ìfihàn kùnà."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Ìmújáde ìrísí olùlo kùnà.",
+    "failedToFollowUser": "Ìtẹ̀lé olùlo kùnà.",
+    "failedToUnfollowUser": "Ìdẹ́kun láti tẹ̀lé olùlo kùnà.",
+    "failedToGetRecommendedUsers": "Ìmújáde àwọn olùlo tí a dámọ̀ràn kùnà.",
+    "failedToGetUserProfile": "Ìmújáde ìrísí olùlo kùnà."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Ìmújáde àwọn àwòrán abẹ́lẹ̀ kùnà"
+  },
+  "verse": {
+    "failedToLoadVerses": "Ìmújáde àwọn ẹsẹ kùnà",
+    "failedToLikeVerse": "Ìfẹ́ sí ẹsẹ kùnà",
+    "failedToUnlikeVerse": "Ìdẹ́kun láti fẹ́ràn ẹsẹ kùnà"
+  },
+  "admin": {
+    "failedToLoadBooks": "Ìmújáde àwọn ìwé kùnà"
+  }
+}

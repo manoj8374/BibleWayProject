@@ -1,0 +1,46 @@
+{
+  "title": "Fi Ìwé Sípò",
+  "labels": {
+    "sourceFile": "Fáìlì Orísun (.md) *",
+    "coverImage": "Àwòrán Ìderí",
+    "category": "Ẹ̀ka *",
+    "ageGroup": "Àkójọ Ọjọ́-orí *",
+    "language": "Èdè *",
+    "bookTitle": "Àkọ́lé Ìwé *",
+    "description": "Ìjúwe",
+    "bookOrder": "Ètò Ìwé"
+  },
+  "placeholders": {
+    "selectCategory": "Yan ẹ̀ka",
+    "selectAgeGroup": "Yan àkójọ ọjọ́-orí",
+    "selectLanguage": "Yan èdè",
+    "enterBookTitle": "Kọ àkọ́lé ìwé rẹ",
+    "enterBookDescription": "Kọ ìjúwe ìwé (àyànfẹ́)"
+  },
+  "loading": {
+    "categories": "Ìmújáde àwọn ẹ̀ka ń lọ lọ́wọ́...",
+    "ageGroups": "Ìmújáde àkójọ ọjọ́-orí ń lọ lọ́wọ́...",
+    "languages": "Ìmújáde àwọn èdè ń lọ lọ́wọ́...",
+    "uploading": "Ìgbésílẹ̀ ń lọ lọ́wọ́..."
+  },
+  "selected": "Ohun tí a yàn:",
+  "buttons": {
+    "cancel": "Múkúrò",
+    "uploadBook": "Fi Ìwé Sípò"
+  },
+  "errors": {
+    "sourceFileRequired": "A nílò fáìlì orísun",
+    "titleRequired": "A nílò àkọ́lé ìwé",
+    "categoryRequired": "A nílò ẹ̀ka",
+    "ageGroupRequired": "A nílò àkójọ ọjọ́-orí",
+    "languageRequired": "A nílò èdè",
+    "failedToLoadCategories": "Ìmújáde àwọn ẹ̀ka kùnà",
+    "failedToLoadAgeGroups": "Ìmújáde àkójọ ọjọ́-orí kùnà",
+    "failedToLoadLanguages": "Ìmújáde àwọn èdè kùnà",
+    "failedToUploadBook": "Ìgbésílẹ̀ ìwé kùnà",
+    "unexpectedError": "Àṣìṣe kan tí a kò retí wáyé"
+  },
+  "success": {
+    "bookCreated": "A ti ṣẹ̀dá ìwé dídáradára"
+  }
+}

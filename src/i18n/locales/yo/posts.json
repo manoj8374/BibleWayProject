@@ -1,0 +1,22 @@
+{
+  "edit": "Ṣàtúnṣe",
+  "delete": "Paarẹ",
+  "deleteConfirm": "Pa ìfihàn yìí rẹ́?",
+  "cancel": "Múkúrò",
+  "save": "Fidípò",
+  "saving": "Ìpamọ́ ń lọ lọ́wọ́...",
+  "deleting": "Ìparẹ́ ń lọ lọ́wọ́...",
+  "likes": "Àwọn Ìfẹ́",
+  "like": "Fẹ́ràn",
+  "comments": "Àwọn Ọ̀rọ̀",
+  "comment": "Ọ̀rọ̀",
+  "share": "Pín nǹkan",
+  "shares": "Àwọn Ohun Tí A Pín",
+  "writeComment": "Kọ ọ̀rọ̀ kan...",
+  "writeYourComment": "Kọ ọ̀rọ̀ rẹ...",
+  "failedToComment": "Ìfọ̀rọ̀sọ kùnà",
+  "actionFailed": "Ìṣe kùnà",
+  "commentAdded": "A ti fi ọ̀rọ̀ kún u dídáradára",
+  "failedToCreateComment": "Ìṣẹ̀dá ọ̀rọ̀ kùnà",
+  "failedToUpdateLike": "Àtúnṣe ipò ìfẹ́ kùnà"
+}

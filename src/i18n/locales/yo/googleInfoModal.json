@@ -1,0 +1,14 @@
+{
+  "title": "A Nílò Àkójọ Google Rẹ",
+  "description": "Ìgbà àkọ́kọ́ rẹ nìyí láti wọlé pẹ̀lú Google. Jọ̀wọ́ kọ àwọn ìsọfúnni wọ̀nyí láti parí ìrísí rẹ.",
+  "labels": {
+    "age": "Ọjọ́-orí",
+    "language": "Èdè Tí O Fẹ́ràn",
+    "country": "Orílẹ̀-èdè"
+  },
+  "buttons": {
+    "completeProfile": "Parí Ìrísí",
+    "completing": "Ìparí ń lọ lọ́wọ́...",
+    "cancel": "Múkúrò"
+  }
+}
