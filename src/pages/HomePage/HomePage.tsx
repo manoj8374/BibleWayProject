@@ -183,6 +183,7 @@ const HomePage: React.FC = () => {
     return (
       <CategoriesWrapper>
         <SegmentedBibles />
+        <LanguagesVersionsCard />
         <RecommendedPeople />
         <Promotions />
         <Testimonials />

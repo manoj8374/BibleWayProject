@@ -16,6 +16,7 @@ import {
   ViewAllText,
   CarouselLoading,
   CarouselError,
+  BibleViewAllButton,
 } from './SegmentedBibles.styles';
 import { useNavigate } from 'react-router-dom';
 import { categoryService } from '../../services/category/category.service';
@@ -241,7 +242,7 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
                     showError('Error fetching age groups');
                     console.error('Error fetching age groups:', error);
                   }
-                } else if (!isSegregateBibles) {
+                } else if (isSegregateBibles) {
                   navigate(`${bible.navigateLink}?categoryId=${bible.id}`);
                 }
                 // For SEGREGATE_BIBLES, don't navigate on card click - show carousel instead
@@ -249,6 +250,9 @@ const SegmentedBibles: React.FC<SegmentedBiblesProps> = ({
             >
               <BibleTitle>{bible.title}</BibleTitle>
               <BibleDescription>{bible.description}</BibleDescription>
+              {isSegregateBibles && (
+                <BibleViewAllButton onClick={() => handleViewAllClick(bible.id)}>View All</BibleViewAllButton>
+              )}
             </BibleCard>
 
             {/* Carousel for SEGREGATE_BIBLES */}

@@ -79,14 +79,16 @@ export const PromotionIcon = styled.div`
 `;
 
 export const BibleTitle = styled.h4`
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 8px;
   font-weight: 600;
   position: relative;
   z-index: 1;
+  color: White;
+
 
   @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 6px;
   }
 `;
@@ -101,6 +103,18 @@ export const BibleDescription = styled.p`
   @media (max-width: 768px) {
     font-size: 12px;
   }
+`;
+
+export const BibleViewAllButton = styled.button`
+  background: none;
+  border: 2px solid white;
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  border-radius: 8px;
 `;
 
 export const CarouselContainer = styled.div`
