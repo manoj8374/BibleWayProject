@@ -1,0 +1,9 @@
+{
+  "title": "Conferma Disconnessione",
+  "description": "Sei sicuro di voler uscire? Dovrai accedere nuovamente per accedere al tuo account.",
+  "buttons": {
+    "cancel": "Annulla",
+    "confirm": "Disconnettersi",
+    "loggingOut": "Disconnessione in corso..."
+  }
+}

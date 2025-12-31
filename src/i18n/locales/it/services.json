@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Si è verificato un errore imprevisto.",
+    "receivedToken": "Token Ricevuto"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Si è verificato un errore imprevisto durante la creazione del post.",
+    "failedToFetchPosts": "Impossibile recuperare i post.",
+    "failedToFetchUserPosts": "Impossibile recuperare i post dell'utente.",
+    "failedToFetchPostDetails": "Impossibile recuperare i dettagli del post.",
+    "failedToUpdatePost": "Impossibile aggiornare il post",
+    "failedToDeletePost": "Impossibile eliminare il post",
+    "failedToCreateComment": "Impossibile creare il commento.",
+    "failedToUpdateComment": "Impossibile aggiornare il commento.",
+    "failedToDeleteComment": "Impossibile eliminare il commento.",
+    "failedToFetchComments": "Impossibile recuperare i commenti.",
+    "failedToLikeComment": "Impossibile mettere mi piace al commento.",
+    "failedToUnlikeComment": "Impossibile rimuovere mi piace dal commento.",
+    "failedToLikePost": "Impossibile mettere mi piace al post.",
+    "failedToUnlikePost": "Impossibile rimuovere mi piace dal post."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Impossibile recuperare il profilo utente.",
+    "failedToFollowUser": "Impossibile seguire l'utente.",
+    "failedToUnfollowUser": "Impossibile smettere di seguire l'utente.",
+    "failedToGetRecommendedUsers": "Impossibile ottenere utenti consigliati.",
+    "failedToGetUserProfile": "Impossibile ottenere il profilo utente."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Impossibile caricare gli sfondi"
+  },
+  "verse": {
+    "failedToLoadVerses": "Impossibile caricare i versetti",
+    "failedToLikeVerse": "Impossibile mettere mi piace al versetto",
+    "failedToUnlikeVerse": "Impossibile rimuovere mi piace dal versetto"
+  },
+  "admin": {
+    "failedToLoadBooks": "Impossibile caricare i libri"
+  }
+}

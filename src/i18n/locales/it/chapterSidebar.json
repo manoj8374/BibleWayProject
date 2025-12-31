@@ -1,0 +1,10 @@
+{
+  "list": "Elenco",
+  "bookmark": "Segnalibro",
+  "quickNote": "Nota rapida",
+  "noChaptersAvailable": "Nessun capitolo disponibile",
+  "chapter": "Capitolo",
+  "noChapterSelected": "Nessun capitolo selezionato",
+  "selectChapterToBegin": "Seleziona un capitolo dalla barra laterale per iniziare a leggere",
+  "ttsLanguage": "Lingua TTS:"
+}

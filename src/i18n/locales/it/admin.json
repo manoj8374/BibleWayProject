@@ -1,0 +1,38 @@
+{
+  "loading": "Caricamento...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute deve essere usato all'interno di un ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Gestione Testimonianze",
+    "pending": "In attesa",
+    "verified": "Verificato",
+    "all": "Tutti",
+    "loading": "Caricamento testimonianze...",
+    "noTestimonials": "Nessuna testimonianza trovata",
+    "approve": "Approva",
+    "reject": "Rifiuta",
+    "processing": "Elaborazione...",
+    "approvedSuccessfully": "Testimonianza approvata con successo",
+    "rejectedSuccessfully": "Testimonianza rifiutata con successo",
+    "failedToLoad": "Impossibile caricare le testimonianze",
+    "failedToApprove": "Impossibile approvare la testimonianza",
+    "failedToReject": "Impossibile rifiutare la testimonianza",
+    "confirmReject": "Sei sicuro di voler rifiutare questa testimonianza? Questa azione non può essere annullata.",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "pageInfo": "Pagina {{current}} di {{total}}"
+  },
+  "promotions": {
+    "title": "Gestione Promozioni",
+    "loading": "Caricamento promozioni...",
+    "noPromotions": "Nessuna promozione trovata",
+    "delete": "Elimina",
+    "cancel": "Annulla",
+    "processing": "Elaborazione...",
+    "deletedSuccessfully": "Promozione eliminata con successo",
+    "failedToLoad": "Impossibile caricare le promozioni",
+    "failedToDelete": "Impossibile eliminare la promozione",
+    "confirmDelete": "Sei sicuro di voler eliminare questa promozione? Questa azione non può essere annullata."
+  }
+}

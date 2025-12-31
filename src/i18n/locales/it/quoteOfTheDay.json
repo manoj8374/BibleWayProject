@@ -1,0 +1,8 @@
+{
+  "title": "Citazione del Giorno",
+  "loading": "Caricamento...",
+  "likes": "Mi piace",
+  "addNewPost": "Aggiungi Nuovo Post",
+  "failedToUpdateLike": "Impossibile aggiornare il mi piace",
+  "pleaseUpload": "Ancora nessuna citazione del giorno caricata"
+}

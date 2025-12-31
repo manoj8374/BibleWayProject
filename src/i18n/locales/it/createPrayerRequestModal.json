@@ -1,0 +1,34 @@
+{
+  "title": "Richiesta di Preghiera",
+  "labels": {
+    "description": "Descrizione",
+    "name": "Nome",
+    "email": "Email",
+    "phoneNumber": "Numero di telefono (opzionale)",
+    "media": "Media (Opzionale)"
+  },
+  "placeholders": {
+    "enterDescription": "Per favore pregate per la salute della mia famiglia...",
+    "yourName": "Il tuo nome",
+    "yourEmail": "Il tuo indirizzo email",
+    "phoneNumber": "0123456789"
+  },
+  "upload": {
+    "uploadText": "Carica immagini o video (Max 5 file, 10MB ciascuno)",
+    "addMoreFiles": "+ Aggiungi altri file"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Invia Richiesta",
+    "submitting": "Invio..."
+  },
+  "errors": {
+    "descriptionRequired": "Per favore inserisci una descrizione per la tua richiesta di preghiera.",
+    "failedToCreateRequest": "Impossibile creare la richiesta di preghiera.",
+    "maxFilesExceeded": "Puoi caricare un massimo di 5 file.",
+    "invalidFileType": "Tipo di file non valido: {{filename}}. Sono consentiti solo immagini e video.",
+    "fileSizeExceeded": "La dimensione del file supera il limite di 10 MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Richiesta di preghiera creata con successo!"
+  }
+}

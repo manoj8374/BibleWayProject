@@ -1,0 +1,30 @@
+{
+  "title": "Crea Citazione Giornaliera",
+  "note": "Nota: Creare un nuovo versetto cancellerà la citazione giornaliera esistente. Questa azione non può essere annullata. La nuova citazione verrà mostrata a tutti gli utenti immediatamente.",
+  "labels": {
+    "title": "Titolo (Opzionale)",
+    "quoteDescription": "Citazione / Descrizione (Richiesto)"
+  },
+  "placeholders": {
+    "title": "es. Citazione del Giorno",
+    "quoteDescription": "Inserisci la scrittura o la citazione qui..."
+  },
+  "buttons": {
+    "cancel": "Annulla",
+    "publishQuote": "Pubblica Citazione",
+    "publishing": "Pubblicazione...",
+    "updateQuote": "Aggiorna Citazione",
+    "updating": "Aggiornamento..."
+  },
+  "errors": {
+    "descriptionRequired": "La descrizione è obbligatoria",
+    "failedToCreateVerse": "Impossibile creare il versetto",
+    "failedToUpdateVerse": "Impossibile aggiornare il versetto",
+    "unexpectedError": "Si è verificato un errore imprevisto"
+  },
+  "success": {
+    "verseCreated": "Versetto creato con successo",
+    "verseUpdated": "Versetto aggiornato con successo"
+  },
+  "editTitle": "Modifica Versetto"
+}

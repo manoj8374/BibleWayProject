@@ -1,0 +1,24 @@
+{
+  "title": "Modifica Post",
+  "labels": {
+    "title": "Titolo",
+    "description": "Descrizione",
+    "media": "Media"
+  },
+  "placeholders": {
+    "enterPostTitle": "Inserisci il titolo del post...",
+    "enterDescription": "Inserisci la descrizione..."
+  },
+  "buttons": {
+    "cancel": "Annulla",
+    "save": "Salva",
+    "updating": "Aggiornamento..."
+  },
+  "errors": {
+    "noChanges": "Nessuna modifica rilevata",
+    "failedToUpdatePost": "Impossibile aggiornare il post"
+  },
+  "success": {
+    "postUpdated": "Post aggiornato con successo"
+  }
+}

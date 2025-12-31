@@ -1,0 +1,33 @@
+{
+  "title": "Note del capitolo",
+  "noBookSelected": "Nessun libro selezionato",
+  "selectBookMessage": "Per favore seleziona un libro per visualizzare le note",
+  "noChapterSelected": "Nessun capitolo selezionato",
+  "selectChapterMessage": "Seleziona un capitolo per visualizzare e creare note",
+  "loadingNotes": "Caricamento note...",
+  "noNotesYet": "Ancora nessuna nota",
+  "startWritingMessage": "Inizia a scrivere i tuoi pensieri e intuizioni su questo capitolo",
+  "placeholder": "Scrivi le tue note qui...",
+  "cancel": "Annulla",
+  "saving": "Salvataggio...",
+  "updateNote": "Aggiorna nota",
+  "saveNote": "Salva nota",
+  "editNote": "Modifica nota",
+  "deleteNote": "Elimina nota",
+  "justNow": "Proprio ora",
+  "note": "nota",
+  "notes": "note",
+  "deleteConfirmation": "Sei sicuro di voler eliminare questa nota?",
+  "success": {
+    "noteCreated": "Nota creata con successo",
+    "noteUpdated": "Nota aggiornata con successo",
+    "noteDeleted": "Nota eliminata con successo"
+  },
+  "errors": {
+    "failedToLoad": "Impossibile caricare le note",
+    "failedToCreate": "Impossibile creare la nota",
+    "failedToUpdate": "Impossibile aggiornare la nota",
+    "failedToDelete": "Impossibile eliminare la nota",
+    "failedToSave": "Impossibile salvare la nota"
+  }
+}

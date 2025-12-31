@@ -1,0 +1,9 @@
+{
+  "buttonText": "Continua con Google",
+  "success": {
+    "loginSuccessful": "Accesso effettuato con successo"
+  },
+  "errors": {
+    "loginFailed": "Accesso fallito"
+  }
+}

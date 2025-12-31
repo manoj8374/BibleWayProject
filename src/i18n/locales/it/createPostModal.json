@@ -1,0 +1,27 @@
+{
+  "title": "Crea Post",
+  "labels": {
+    "title": "Titolo",
+    "description": "Descrizione"
+  },
+  "placeholders": {
+    "enterPostTitle": "Inserisci il titolo del post...",
+    "enterDescription": "Ho ottenuto un lavoro in Google..."
+  },
+  "upload": {
+    "uploadFiles": "Carica i tuoi file qui (Max 5)",
+    "addMoreFiles": "+ Aggiungi altri file"
+  },
+  "buttons": {
+    "createPost": "Crea Post",
+    "creating": "Creazione..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Puoi caricare un massimo di 5 file.",
+    "atLeastOneFile": "Per favore carica almeno un file multimediale.",
+    "failedToCreatePost": "Impossibile creare il post."
+  },
+  "success": {
+    "postCreated": "Post creato con successo!"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Completa Registrazione",
+  "description": "Abbiamo bisogno di qualche dettaglio in più per completare la creazione del tuo account.",
+  "labels": {
+    "age": "Età",
+    "language": "Lingua",
+    "country": "Paese"
+  },
+  "placeholders": {
+    "age": "es. 25",
+    "language": "es. Italiano",
+    "country": "es. Italia"
+  },
+  "buttons": {
+    "cancel": "Annulla",
+    "continue": "Continua",
+    "creating": "Creazione..."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "messages": {
+    "loading": "Caricamento messaggi...",
+    "noMessages": "Ancora nessun messaggio",
+    "deleted": "Questo messaggio è stato eliminato",
+    "sharedImage": "Immagine condivisa",
+    "viewAttachment": "Visualizza allegato",
+    "seen": "Visto",
+    "deleteMessage": "Elimina messaggio"
+  },
+  "typing": {
+    "isTyping": "sta scrivendo...",
+    "peopleTyping": "persone stanno scrivendo..."
+  },
+  "input": {
+    "placeholder": "Scrivi un messaggio...",
+    "pressEnterToSend": "Premi Invio per inviare"
+  },
+  "deleteModal": {
+    "title": "Elimina messaggio?",
+    "message": "Sei sicuro di voler eliminare questo messaggio? Questa azione non può essere annullata.",
+    "cancel": "Annulla",
+    "delete": "Elimina"
+  },
+  "uploadModal": {
+    "title": "Invia file",
+    "uploading": "Caricamento e invio...",
+    "sendFile": "Inviare {{filename}}?",
+    "sending": "Invio...",
+    "send": "Invia",
+    "cancel": "Annulla"
+  },
+  "errors": {
+    "fetchConversation": "Impossibile recuperare la conversazione",
+    "invalidFileType": "Tipo di file non valido. Sono consentiti solo immagini e video.",
+    "fileSizeExceeded": "La dimensione del file supera il limite di 10 MB.",
+    "uploadFailed": "Caricamento del file fallito",
+    "failedToLoadStickers": "Impossibile caricare gli adesivi"
+  },
+  "stickers": {
+    "loading": "Caricamento adesivi...",
+    "noStickers": "Nessun adesivo disponibile"
+  }
+}
