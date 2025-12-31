@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା।",
+    "receivedToken": "ଟୋକେନ୍ ମିଳିଲା"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "ପୋଷ୍ଟ୍ ତିଆରି ସମୟରେ ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା।",
+    "failedToFetchPosts": "ପୋଷ୍ଟ୍ ଆଣିବାରେ ବିଫଳ।",
+    "failedToFetchUserPosts": "ଉପଯୋଗକର୍ତ୍ତା ପୋଷ୍ଟ୍ ଆଣିବାରେ ବିଫଳ।",
+    "failedToFetchPostDetails": "ପୋଷ୍ଟ୍ ବିବରଣୀ ଆଣିବାରେ ବିଫଳ।",
+    "failedToUpdatePost": "ପୋଷ୍ଟ୍ ଅପଡେଟ୍ କରିବାରେ ବିଫଳ",
+    "failedToDeletePost": "ପୋଷ୍ଟ୍ ଡିଲିଟ୍ କରିବାରେ ବିଫଳ",
+    "failedToCreateComment": "କମେଣ୍ଟ୍ ତିଆରି କରିବାରେ ବିଫଳ।",
+    "failedToUpdateComment": "କମେଣ୍ଟ୍ ଅପଡେଟ୍ କରିବାରେ ବିଫଳ।",
+    "failedToDeleteComment": "କମେଣ୍ଟ୍ ଡିଲିଟ୍ କରିବାରେ ବିଫଳ।",
+    "failedToFetchComments": "କମେଣ୍ଟ୍ ଆଣିବାରେ ବିଫଳ।",
+    "failedToLikeComment": "କମେଣ୍ଟ୍ ଲାଇକ୍ କରିବାରେ ବିଫଳ।",
+    "failedToUnlikeComment": "କମେଣ୍ଟ୍ ଅନଲାଇକ୍ କରିବାରେ ବିଫଳ।",
+    "failedToLikePost": "ପୋଷ୍ଟ୍ ଲାଇକ୍ କରିବାରେ ବିଫଳ।",
+    "failedToUnlikePost": "ପୋଷ୍ଟ୍ ଅନଲାଇକ୍ କରିବାରେ ବିଫଳ।"
+  },
+  "user": {
+    "failedToFetchUserProfile": "ଉପଯୋଗକର୍ତ୍ତା ପ୍ରୋଫାଇଲ୍ ଆଣିବାରେ ବିଫଳ।",
+    "failedToFollowUser": "ଉପଯୋଗକର୍ତ୍ତାକୁ ଅନୁସରଣ କରିବାରେ ବିଫଳ।",
+    "failedToUnfollowUser": "ଉପଯୋଗକର୍ତ୍ତାକୁ ଅନୁସରଣ ବନ୍ଦ କରିବାରେ ବିଫଳ।",
+    "failedToGetRecommendedUsers": "ସୁପାରିଶ କରାଯାଇଥିବା ଉପଯୋଗକର୍ତ୍ତା ପାଇବାରେ ବିଫଳ।",
+    "failedToGetUserProfile": "ଉପଯୋଗକର୍ତ୍ତା ପ୍ରୋଫାଇଲ୍ ପାଇବାରେ ବିଫଳ।"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ୱାଲପେପର୍ ଲୋଡ୍ କରିବାରେ ବିଫଳ"
+  },
+  "verse": {
+    "failedToLoadVerses": "ଶ୍ଳୋକ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToLikeVerse": "ଶ୍ଳୋକ ଲାଇକ୍ କରିବାରେ ବିଫଳ",
+    "failedToUnlikeVerse": "ଶ୍ଳୋକ ଅନଲାଇକ୍ କରିବାରେ ବିଫଳ"
+  },
+  "admin": {
+    "failedToLoadBooks": "ପୁସ୍ତକ ଲୋଡ୍ କରିବାରେ ବିଫଳ"
+  }
+}
+

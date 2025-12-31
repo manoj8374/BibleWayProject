@@ -1,0 +1,47 @@
+{
+  "title": "ପୁସ୍ତକ ଅପଲୋଡ୍ କରନ୍ତୁ",
+  "labels": {
+    "sourceFile": "ସୋର୍ସ ଫାଇଲ୍ (.md) *",
+    "coverImage": "କଭର୍ ଛବି",
+    "category": "ବର୍ଗ *",
+    "ageGroup": "ବୟସ ଗ୍ରୁପ୍ *",
+    "language": "ଭାଷା *",
+    "bookTitle": "ଶିରୋନାମା *",
+    "description": "ବର୍ଣ୍ଣନା",
+    "bookOrder": "ପୁସ୍ତକ କ୍ରମ"
+  },
+  "placeholders": {
+    "selectCategory": "ଏକ ବର୍ଗ ବାଛନ୍ତୁ",
+    "selectAgeGroup": "ଏକ ବୟସ ଗ୍ରୁପ୍ ବାଛନ୍ତୁ",
+    "selectLanguage": "ଏକ ଭାଷା ବାଛନ୍ତୁ",
+    "enterBookTitle": "ପୁସ୍ତକ ଶିରୋନାମା ପ୍ରବେଶ କରନ୍ତୁ",
+    "enterBookDescription": "ପୁସ୍ତକ ବର୍ଣ୍ଣନା ପ୍ରବେଶ କରନ୍ତୁ (ବିକଳ୍ପ)"
+  },
+  "loading": {
+    "categories": "ବର୍ଗ ଲୋଡ୍ ହେଉଛି...",
+    "ageGroups": "ବୟସ ଗ୍ରୁପ୍ ଲୋଡ୍ ହେଉଛି...",
+    "languages": "ଭାଷା ଲୋଡ୍ ହେଉଛି...",
+    "uploading": "ଅପଲୋଡ୍ ହେଉଛି..."
+  },
+  "selected": "ବାଛାଯାଇଛି:",
+  "buttons": {
+    "cancel": "ବାତିଲ୍",
+    "uploadBook": "ପୁସ୍ତକ ଅପଲୋଡ୍ କରନ୍ତୁ"
+  },
+  "errors": {
+    "sourceFileRequired": "ସୋର୍ସ ଫାଇଲ୍ ଆବଶ୍ୟକ",
+    "titleRequired": "ଶିରୋନାମା ଆବଶ୍ୟକ",
+    "categoryRequired": "ବର୍ଗ ଆବଶ୍ୟକ",
+    "ageGroupRequired": "ବୟସ ଗ୍ରୁପ୍ ଆବଶ୍ୟକ",
+    "languageRequired": "ଭାଷା ଆବଶ୍ୟକ",
+    "failedToLoadCategories": "ବର୍ଗ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToLoadAgeGroups": "ବୟସ ଗ୍ରୁପ୍ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToLoadLanguages": "ଭାଷା ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToUploadBook": "ପୁସ୍ତକ ଅପଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "unexpectedError": "ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା"
+  },
+  "success": {
+    "bookCreated": "ପୁସ୍ତକ ସଫଳତାର ସହିତ ତିଆରି ହୋଇଗଲା"
+  }
+}
+

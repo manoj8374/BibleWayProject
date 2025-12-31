@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "ପୁସ୍ତକ, ନାମ, ଲେଖକ ଖୋଜନ୍ତୁ...",
+  "addNewPost": "ନୂଆ ପୋଷ୍ଟ୍ ଯୋଡ଼ନ୍ତୁ",
+  "noResultsFound": "କୌଣସି ଫଳାଫଳ ମିଳିଲା ନାହିଁ",
+  "languageSelector": {
+    "searchLanguages": "ଭାଷା ଖୋଜନ୍ତୁ...",
+    "noLanguagesFound": "କୌଣସି ଭାଷା ମିଳିଲା ନାହିଁ"
+  },
+  "filter": {
+    "selectLanguage": "ଭାଷା ବାଛନ୍ତୁ",
+    "selectVersion": "ପୁସ୍ତକ ବାଛନ୍ତୁ"
+  }
+}
+

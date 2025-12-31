@@ -1,0 +1,23 @@
+{
+  "edit": "ଏଡିଟ୍",
+  "delete": "ଡିଲିଟ୍",
+  "deleteConfirm": "ଏହି ପୋଷ୍ଟ୍ ଡିଲିଟ୍ କରିବେ?",
+  "cancel": "ବାତିଲ୍",
+  "save": "ସେଭ୍",
+  "saving": "ସେଭ୍ ହେଉଛି...",
+  "deleting": "ଡିଲିଟ୍ ହେଉଛି...",
+  "likes": "ଲାଇକ୍",
+  "like": "ଲାଇକ୍",
+  "comments": "କମେଣ୍ଟ୍",
+  "comment": "କମେଣ୍ଟ୍",
+  "share": "ଶେୟାର୍",
+  "shares": "ଶେୟାର୍",
+  "writeComment": "ଏକ କମେଣ୍ଟ୍ ଲେଖନ୍ତୁ...",
+  "writeYourComment": "ଆପଣଙ୍କର କମେଣ୍ଟ୍ ଲେଖନ୍ତୁ...",
+  "failedToComment": "କମେଣ୍ଟ୍ କରିବାରେ ବିଫଳ",
+  "actionFailed": "କାର୍ଯ୍ୟ ବିଫଳ",
+  "commentAdded": "କମେଣ୍ଟ୍ ସଫଳତାର ସହିତ ଯୋଡ଼ା ଗଲା",
+  "failedToCreateComment": "କମେଣ୍ଟ୍ ତିଆରି କରିବାରେ ବିଫଳ",
+  "failedToUpdateLike": "ଲାଇକ୍ ସ୍ଥିତି ଅପଡେଟ୍ କରିବାରେ ବିଫଳ"
+}
+

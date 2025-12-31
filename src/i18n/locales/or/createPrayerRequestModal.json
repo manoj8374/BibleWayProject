@@ -1,0 +1,35 @@
+{
+  "title": "ପ୍ରାର୍ଥନା ଅନୁରୋଧ",
+  "labels": {
+    "description": "ବର୍ଣ୍ଣନା",
+    "name": "ନାମ",
+    "email": "ଇମେଲ୍",
+    "phoneNumber": "ଫୋନ୍ ନମ୍ବର (ବିକଳ୍ପ)",
+    "media": "ମିଡିଆ (ବିକଳ୍ପ)"
+  },
+  "placeholders": {
+    "enterDescription": "ମୋର ପରିବାରର ସ୍ୱାସ୍ଥ୍ୟ ପାଇଁ ଦୟାକରି ପ୍ରାର୍ଥନା କରନ୍ତୁ...",
+    "yourName": "ଆପଣଙ୍କର ନାମ",
+    "yourEmail": "ଆପଣଙ୍କର ଇମେଲ୍ ଠିକଣା",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "ଛବି ବା ଭିଡିଓ ଅପଲୋଡ୍ କରନ୍ତୁ (ସର୍ବାଧିକ 5 ଫାଇଲ୍, ପ୍ରତ୍ୟେକ 10MB)",
+    "addMoreFiles": "+ ଅଧିକ ଫାଇଲ୍ ଯୋଡ଼ନ୍ତୁ"
+  },
+  "buttons": {
+    "submitPrayerRequest": "ପ୍ରାର୍ଥନା ଅନୁରୋଧ ଦାଖଲ କରନ୍ତୁ",
+    "submitting": "ଦାଖଲ ହେଉଛି..."
+  },
+  "errors": {
+    "descriptionRequired": "ଦୟାକରି ଆପଣଙ୍କର ପ୍ରାର୍ଥନା ଅନୁରୋଧ ପାଇଁ ଏକ ବର୍ଣ୍ଣନା ପ୍ରବେଶ କରନ୍ତୁ।",
+    "failedToCreateRequest": "ପ୍ରାର୍ଥନା ଅନୁରୋଧ ତିଆରି କରିବାରେ ବିଫଳ।",
+    "maxFilesExceeded": "ଆପଣ ସର୍ବାଧିକ 5 ଫାଇଲ୍ ଅପଲୋଡ୍ କରିପାରିବେ।",
+    "invalidFileType": "ଅବୈଧ ଫାଇଲ୍ ପ୍ରକାର: {{filename}}। କେବଳ ଛବି ଏବଂ ଭିଡିଓ ଅନୁମତିପ୍ରାପ୍ତ।",
+    "fileSizeExceeded": "ଫାଇଲ୍ ସାଇଜ୍ 10MB ସୀମା ଅତିକ୍ରମ କରିଛି: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "ପ୍ରାର୍ଥନା ଅନୁରୋଧ ସଫଳତାର ସହିତ ତିଆରି ହୋଇଗଲା!"
+  }
+}
+

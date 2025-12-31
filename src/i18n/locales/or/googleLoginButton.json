@@ -1,0 +1,10 @@
+{
+  "buttonText": "Google ସହିତ ଜାରି ରଖନ୍ତୁ",
+  "success": {
+    "loginSuccessful": "ଲଗଇନ୍ ସଫଳ"
+  },
+  "errors": {
+    "loginFailed": "ଲଗଇନ୍ ବିଫଳ"
+  }
+}
+

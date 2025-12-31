@@ -1,0 +1,39 @@
+{
+  "title": "ପ୍ରମୋସନ୍ ତିଆରି କରନ୍ତୁ",
+  "labels": {
+    "title": "ଶିରୋନାମା *",
+    "description": "ବର୍ଣ୍ଣନା",
+    "price": "ମୂଲ୍ୟ",
+    "redirectLink": "ରିଡାଇରେକ୍ଟ୍ ଲିଙ୍କ୍ *",
+    "metaData": "ମେଟା ଡାଟା (JSON)",
+    "mediaFile": "ମିଡିଆ ଫାଇଲ୍ (ଛବି/ଭିଡିଓ/ଅଡିଓ)",
+    "images": "ଛବି (ଏକାଧିକ)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "ପ୍ରମୋସନ୍ ଶିରୋନାମା ପ୍ରବେଶ କରନ୍ତୁ",
+    "enterDescription": "ପ୍ରମୋସନ୍ ବର୍ଣ୍ଣନା ପ୍ରବେଶ କରନ୍ତୁ (ବିକଳ୍ପ)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "ବାଛାଯାଇଛି:",
+  "buttons": {
+    "cancel": "ବାତିଲ୍",
+    "createPromotion": "ପ୍ରମୋସନ୍ ତିଆରି କରନ୍ତୁ",
+    "creating": "ତିଆରି ହେଉଛି..."
+  },
+  "errors": {
+    "titleRequired": "ଶିରୋନାମା ଆବଶ୍ୟକ",
+    "priceRequired": "ମୂଲ୍ୟ ଆବଶ୍ୟକ",
+    "priceInvalid": "ମୂଲ୍ୟ ଏକ ବୈଧ ସଂଖ୍ୟା ହେବା ଉଚିତ୍",
+    "redirectLinkRequired": "ରିଡାଇରେକ୍ଟ୍ ଲିଙ୍କ୍ ଆବଶ୍ୟକ",
+    "redirectLinkInvalid": "ରିଡାଇରେକ୍ଟ୍ ଲିଙ୍କ୍ ଏକ ବୈଧ URL ହେବା ଉଚିତ୍",
+    "metaDataInvalid": "ମେଟା ଡାଟା ବୈଧ JSON ଫର୍ମାଟ୍ ହେବା ଉଚିତ୍",
+    "failedToCreatePromotion": "ପ୍ରମୋସନ୍ ତିଆରି କରିବାରେ ବିଫଳ",
+    "unexpectedError": "ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା"
+  },
+  "success": {
+    "promotionCreated": "ପ୍ରମୋସନ୍ ସଫଳତାର ସହିତ ତିଆରି ହୋଇଗଲା"
+  }
+}
+

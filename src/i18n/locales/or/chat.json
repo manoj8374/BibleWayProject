@@ -1,0 +1,49 @@
+{
+  "status": {
+    "online": "ଅନଲାଇନ୍",
+    "offline": "ଅଫଲାଇନ୍"
+  },
+  "messages": {
+    "loading": "ମେସେଜ୍ ଲୋଡ୍ ହେଉଛି...",
+    "noMessages": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ମେସେଜ୍ ନାହିଁ",
+    "deleted": "ଏହି ମେସେଜ୍ ଡିଲିଟ୍ ହୋଇଗଲା",
+    "sharedImage": "ଶେୟାର୍ କରାଯାଇଥିବା ଛବି",
+    "viewAttachment": "ଅଟାଚମେଣ୍ଟ୍ ଦେଖନ୍ତୁ",
+    "seen": "ଦେଖାଯାଇଛି",
+    "deleteMessage": "ମେସେଜ୍ ଡିଲିଟ୍ କରନ୍ତୁ"
+  },
+  "typing": {
+    "isTyping": "ଟାଇପ୍ ହେଉଛି...",
+    "peopleTyping": "ଲୋକ ଟାଇପ୍ ହେଉଛନ୍ତି..."
+  },
+  "input": {
+    "placeholder": "ଏକ ମେସେଜ୍ ଟାଇପ୍ କରନ୍ତୁ...",
+    "pressEnterToSend": "ପଠାଇବା ପାଇଁ Enter ଦବାନ୍ତୁ"
+  },
+  "deleteModal": {
+    "title": "ମେସେଜ୍ ଡିଲିଟ୍ କରିବେ?",
+    "message": "ଆପଣ ଏହି ମେସେଜ୍କୁ ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି? ଏହି କାର୍ଯ୍ୟକୁ ପଛକୁ ନେଇହେବ ନାହିଁ।",
+    "cancel": "ବାତିଲ୍",
+    "delete": "ଡିଲିଟ୍"
+  },
+  "uploadModal": {
+    "title": "ଫାଇଲ୍ ପଠାନ୍ତୁ",
+    "uploading": "ଅପଲୋଡ୍ ଏବଂ ପଠାଉଛି...",
+    "sendFile": "{{filename}} ପଠାଇବେ?",
+    "sending": "ପଠାଉଛି...",
+    "send": "ପଠାନ୍ତୁ",
+    "cancel": "ବାତିଲ୍"
+  },
+  "errors": {
+    "fetchConversation": "କଥୋପକଥନ ଆଣିବାରେ ବିଫଳ",
+    "invalidFileType": "ଅବୈଧ ଫାଇଲ୍ ପ୍ରକାର। କେବଳ ଛବି ଏବଂ ଭିଡିଓ ଅନୁମତିପ୍ରାପ୍ତ।",
+    "fileSizeExceeded": "ଫାଇଲ୍ ସାଇଜ୍ 10MB ସୀମା ଅତିକ୍ରମ କରିଛି।",
+    "uploadFailed": "ଫାଇଲ୍ ଅପଲୋଡ୍ ବିଫଳ",
+    "failedToLoadStickers": "ଷ୍ଟିକର୍ ଲୋଡ୍ କରିବାରେ ବିଫଳ"
+  },
+  "stickers": {
+    "loading": "ଷ୍ଟିକର୍ ଲୋଡ୍ ହେଉଛି...",
+    "noStickers": "କୌଣସି ଷ୍ଟିକର୍ ଉପଲବ୍ଧ ନାହିଁ"
+  }
+}
+

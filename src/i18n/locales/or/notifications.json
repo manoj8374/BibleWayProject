@@ -1,0 +1,19 @@
+{
+  "title": "ବିଜ୍ଞପ୍ତି",
+  "markAllAsRead": "ସମସ୍ତକୁ ପଢ଼ା ହୋଇଛି ଭାବରେ ଚିହ୍ନିତ କରନ୍ତୁ",
+  "loading": "ବିଜ୍ଞପ୍ତି ଲୋଡ୍ ହେଉଛି...",
+  "noNotifications": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ବିଜ୍ଞପ୍ତି ନାହିଁ",
+  "allCaughtUp": "ଆପଣ ସମସ୍ତ ପୂର୍ଣ୍ଣ କରିଛନ୍ତି!",
+  "justNow": "ଏବେ",
+  "minuteAgo": "{{count}} ମିନିଟ୍ ପୂର୍ବେ",
+  "minutesAgo": "{{count}} ମିନିଟ୍ ପୂର୍ବେ",
+  "hourAgo": "{{count}} ଘଣ୍ଟା ପୂର୍ବେ",
+  "hoursAgo": "{{count}} ଘଣ୍ଟା ପୂର୍ବେ",
+  "dayAgo": "{{count}} ଦିନ ପୂର୍ବେ",
+  "daysAgo": "{{count}} ଦିନ ପୂର୍ବେ",
+  "weekAgo": "{{count}} ସପ୍ତାହ ପୂର୍ବେ",
+  "weeksAgo": "{{count}} ସପ୍ତାହ ପୂର୍ବେ",
+  "monthAgo": "{{count}} ମାସ ପୂର୍ବେ",
+  "monthsAgo": "{{count}} ମାସ ପୂର୍ବେ"
+}
+

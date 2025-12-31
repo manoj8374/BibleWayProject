@@ -1,0 +1,15 @@
+{
+  "title": "ପୃଥକ୍ ବାଇବଲ୍",
+  "loadingAgeGroups": "ବୟସ ଗ୍ରୁପ୍ ଲୋଡ୍ ହେଉଛି...",
+  "failedToLoadAgeGroups": "ବୟସ ଗ୍ରୁପ୍ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+  "unexpectedErrorLoadingAgeGroups": "ବୟସ ଗ୍ରୁପ୍ ଲୋଡ୍ କରିବା ସମୟରେ ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା",
+  "noAgeGroupsAvailable": "କୌଣସି ବୟସ ଗ୍ରୁପ୍ ଉପଲବ୍ଧ ନାହିଁ",
+  "pleaseSelectCategoryFirst": "ଦୟାକରି ଆଦୌ ଏକ ବର୍ଗ ବାଛନ୍ତୁ",
+  "noBooksAvailable": "ଏହି ବାଛିବା ପାଇଁ କୌଣସି ପୁସ୍ତକ ଉପଲବ୍ଧ ନାହିଁ",
+  "failedToFetchBooks": "ପୁସ୍ତକ ଆଣିବାରେ ବିଫଳ",
+  "categoryNotFound": "ବର୍ଗ ମିଳିଲା ନାହିଁ",
+  "ageGroupNotFound": "ବୟସ ଗ୍ରୁପ୍ ମିଳିଲା ନାହିଁ",
+  "languageNotFound": "ଭାଷା ମିଳିଲା ନାହିଁ",
+  "unexpectedErrorFetchingBooks": "ପୁସ୍ତକ ଆଣିବା ସମୟରେ ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା"
+}
+

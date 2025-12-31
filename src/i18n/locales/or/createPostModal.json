@@ -1,0 +1,28 @@
+{
+  "title": "ପୋଷ୍ଟ୍ ତିଆରି କରନ୍ତୁ",
+  "labels": {
+    "title": "ଶିରୋନାମା",
+    "description": "ବର୍ଣ୍ଣନା"
+  },
+  "placeholders": {
+    "enterPostTitle": "ପୋଷ୍ଟ୍ ଶିରୋନାମା ପ୍ରବେଶ କରନ୍ତୁ...",
+    "enterDescription": "ମୁଁ Googleରେ ଏକ ଚାକିରି ପାଇଲି..."
+  },
+  "upload": {
+    "uploadFiles": "ଆପଣଙ୍କର ଫାଇଲ୍ ଏଠାରେ ଅପଲୋଡ୍ କରନ୍ତୁ (ସର୍ବାଧିକ 5)",
+    "addMoreFiles": "+ ଅଧିକ ଫାଇଲ୍ ଯୋଡ଼ନ୍ତୁ"
+  },
+  "buttons": {
+    "createPost": "ପୋଷ୍ଟ୍ ତିଆରି କରନ୍ତୁ",
+    "creating": "ତିଆରି ହେଉଛି..."
+  },
+  "errors": {
+    "maxFilesExceeded": "ଆପଣ ସର୍ବାଧିକ 5 ଫାଇଲ୍ ଅପଲୋଡ୍ କରିପାରିବେ।",
+    "atLeastOneFile": "ଦୟାକରି ଅତିକମରେ ଏକ ମିଡିଆ ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ।",
+    "failedToCreatePost": "ପୋଷ୍ଟ୍ ତିଆରି କରିବାରେ ବିଫଳ।"
+  },
+  "success": {
+    "postCreated": "ପୋଷ୍ଟ୍ ସଫଳତାର ସହିତ ତିଆରି ହୋଇଗଲା!"
+  }
+}
+

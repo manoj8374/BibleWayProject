@@ -1,0 +1,28 @@
+{
+  "title": "ବର୍ଗ ତିଆରି କରନ୍ତୁ",
+  "labels": {
+    "categoryName": "ବର୍ଗ ନାମ *",
+    "description": "ବର୍ଣ୍ଣନା",
+    "displayOrder": "ପ୍ରଦର୍ଶନ କ୍ରମ",
+    "coverImage": "କଭର୍ ଛବି"
+  },
+  "placeholders": {
+    "selectCategoryName": "ଏକ ବର୍ଗ ନାମ ବାଛନ୍ତୁ",
+    "enterDescription": "ବର୍ଗ ବର୍ଣ୍ଣନା ପ୍ରବେଶ କରନ୍ତୁ (ବିକଳ୍ପ)"
+  },
+  "selected": "ବାଛାଯାଇଛି:",
+  "buttons": {
+    "cancel": "ବାତିଲ୍",
+    "createCategory": "ବର୍ଗ ତିଆରି କରନ୍ତୁ",
+    "creating": "ତିଆରି ହେଉଛି..."
+  },
+  "errors": {
+    "categoryNameRequired": "ବର୍ଗ ନାମ ଆବଶ୍ୟକ",
+    "failedToCreateCategory": "ବର୍ଗ ତିଆରି କରିବାରେ ବିଫଳ",
+    "unexpectedError": "ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା"
+  },
+  "success": {
+    "categoryCreated": "ବର୍ଗ ସଫଳତାର ସହିତ ତିଆରି ହୋଇଗଲା"
+  }
+}
+

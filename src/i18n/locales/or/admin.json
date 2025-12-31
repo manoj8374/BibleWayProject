@@ -1,0 +1,39 @@
+{
+  "loading": "ଲୋଡ୍ ହେଉଛି...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute ProfileProvider ଭିତରେ ବ୍ୟବହାର କରାଯିବା ଉଚିତ୍"
+  },
+  "testimonials": {
+    "title": "ସାକ୍ଷ୍ୟ ପରିଚାଳନା",
+    "pending": "ବିଚାରାଧୀନ",
+    "verified": "ନିଶ୍ଚିତ",
+    "all": "ସମସ୍ତ",
+    "loading": "ସାକ୍ଷ୍ୟ ଲୋଡ୍ ହେଉଛି...",
+    "noTestimonials": "କୌଣସି ସାକ୍ଷ୍ୟ ମିଳିଲା ନାହିଁ",
+    "approve": "ଅନୁମୋଦନ କରନ୍ତୁ",
+    "reject": "ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ",
+    "processing": "ପ୍ରକ୍ରିୟାକରଣ...",
+    "approvedSuccessfully": "ସାକ୍ଷ୍ୟ ସଫଳତାର ସହିତ ଅନୁମୋଦିତ",
+    "rejectedSuccessfully": "ସାକ୍ଷ୍ୟ ସଫଳତାର ସହିତ ପ୍ରତ୍ୟାଖ୍ୟାନ",
+    "failedToLoad": "ସାକ୍ଷ୍ୟ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToApprove": "ସାକ୍ଷ୍ୟ ଅନୁମୋଦନ କରିବାରେ ବିଫଳ",
+    "failedToReject": "ସାକ୍ଷ୍ୟ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବାରେ ବିଫଳ",
+    "confirmReject": "ଆପଣ ଏହି ସାକ୍ଷ୍ୟକୁ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବାକୁ ଚାହୁଁଛନ୍ତି? ଏହି କାର୍ଯ୍ୟକୁ ପଛକୁ ନେଇହେବ ନାହିଁ।",
+    "previous": "ପୂର୍ବବର୍ତ୍ତୀ",
+    "next": "ପରବର୍ତ୍ତୀ",
+    "pageInfo": "{{current}} / {{total}} ପୃଷ୍ଠା"
+  },
+  "promotions": {
+    "title": "ପ୍ରମୋସନ୍ ପରିଚାଳନା",
+    "loading": "ପ୍ରମୋସନ୍ ଲୋଡ୍ ହେଉଛି...",
+    "noPromotions": "କୌଣସି ପ୍ରମୋସନ୍ ମିଳିଲା ନାହିଁ",
+    "delete": "ଡିଲିଟ୍",
+    "cancel": "ବାତିଲ୍",
+    "processing": "ପ୍ରକ୍ରିୟାକରଣ...",
+    "deletedSuccessfully": "ପ୍ରମୋସନ୍ ସଫଳତାର ସହିତ ଡିଲିଟ୍ ହୋଇଗଲା",
+    "failedToLoad": "ପ୍ରମୋସନ୍ ଲୋଡ୍ କରିବାରେ ବିଫଳ",
+    "failedToDelete": "ପ୍ରମୋସନ୍ ଡିଲିଟ୍ କରିବାରେ ବିଫଳ",
+    "confirmDelete": "ଆପଣ ଏହି ପ୍ରମୋସନ୍କୁ ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି? ଏହି କାର୍ଯ୍ୟକୁ ପଛକୁ ନେଇହେବ ନାହିଁ।"
+  }
+}
+

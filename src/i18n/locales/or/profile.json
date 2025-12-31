@@ -1,0 +1,20 @@
+{
+  "back": "ପଛକୁ",
+  "follow": "ଅନୁସରଣ କରନ୍ତୁ",
+  "unfollow": "ଅନୁସରଣ ବନ୍ଦ କରନ୍ତୁ",
+  "message": "ମେସେଜ୍",
+  "follower": "ଅନୁସରଣକାରୀ",
+  "following": "ଅନୁସରଣ କରୁଛନ୍ତି",
+  "followers": "ଅନୁସରଣକାରୀ",
+  "loadingProfile": "ପ୍ରୋଫାଇଲ୍ ଲୋଡ୍ ହେଉଛି...",
+  "profileNotFound": "ପ୍ରୋଫାଇଲ୍ ମିଳିଲା ନାହିଁ",
+  "loadingPosts": "ପୋଷ୍ଟ୍ ଲୋଡ୍ ହେଉଛି...",
+  "noPostsYet": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପୋଷ୍ଟ୍ ନାହିଁ",
+  "unknownUser": "ଅଜଣା ଉପଯୋଗକର୍ତ୍ତା",
+  "checkOutProfile": "BibleWayରେ {{name}}ର ପ୍ରୋଫାଇଲ୍ ଦେଖନ୍ତୁ",
+  "profileTitle": "{{name}}ର ପ୍ରୋଫାଇଲ୍",
+  "unfollowedSuccessfully": "ସଫଳତାର ସହିତ ଅନୁସରଣ ବନ୍ଦ କରାଗଲା",
+  "followedSuccessfully": "ସଫଳତାର ସହିତ ଅନୁସରଣ କରାଗଲା",
+  "failedToFetchUserPosts": "ଉପଯୋଗକର୍ତ୍ତା ପୋଷ୍ଟ୍ ଆଣିବାରେ ବିଫଳ"
+}
+

@@ -1,0 +1,25 @@
+{
+  "title": "ପୋଷ୍ଟ୍ ଏଡିଟ୍ କରନ୍ତୁ",
+  "labels": {
+    "title": "ଶିରୋନାମା",
+    "description": "ବର୍ଣ୍ଣନା",
+    "media": "ମିଡିଆ"
+  },
+  "placeholders": {
+    "enterPostTitle": "ପୋଷ୍ଟ୍ ଶିରୋନାମା ପ୍ରବେଶ କରନ୍ତୁ...",
+    "enterDescription": "ବର୍ଣ୍ଣନା ପ୍ରବେଶ କରନ୍ତୁ..."
+  },
+  "buttons": {
+    "cancel": "ବାତିଲ୍",
+    "save": "ସେଭ୍",
+    "updating": "ଅପଡେଟ୍ ହେଉଛି..."
+  },
+  "errors": {
+    "noChanges": "କୌଣସି ପରିବର୍ତ୍ତନ ମିଳିଲା ନାହିଁ",
+    "failedToUpdatePost": "ପୋଷ୍ଟ୍ ଅପଡେଟ୍ କରିବାରେ ବିଫଳ"
+  },
+  "success": {
+    "postUpdated": "ପୋଷ୍ଟ୍ ସଫଳତାର ସହିତ ଅପଡେଟ୍ ହୋଇଗଲା"
+  }
+}
+
