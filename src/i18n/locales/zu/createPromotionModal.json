@@ -1,0 +1,38 @@
+{
+  "title": "Dala Iphromoshini",
+  "labels": {
+    "title": "Isihloko *",
+    "description": "Incazelo",
+    "price": "Intengo",
+    "redirectLink": "Isixhumanisi Sokuqondisa Kabusha *",
+    "metaData": "Idatha ye-Meta (JSON)",
+    "mediaFile": "Ifayela Lemidiya (Isithombe/Ividiyo/Umsindo)",
+    "images": "Izithombe (Eziningi)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Faka isihloko sephromoshini",
+    "enterDescription": "Faka incazelo yephromoshini (ngokuzikhethela)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "Okukhethiwe:",
+  "buttons": {
+    "cancel": "Khansela",
+    "createPromotion": "Dala Iphromoshini",
+    "creating": "Iyadala..."
+  },
+  "errors": {
+    "titleRequired": "Isihloko siyadingeka",
+    "priceRequired": "Intengo iyadingeka",
+    "priceInvalid": "Intengo kufanele ibe inombolo evumelekile",
+    "redirectLinkRequired": "Isixhumanisi sokuqondisa kabusha siyadingeka",
+    "redirectLinkInvalid": "Isixhumanisi sokuqondisa kabusha kufanele sibe yi-URL evumelekile",
+    "metaDataInvalid": "Idatha ye-Meta kufanele ibe yi-JSON evumelekile",
+    "failedToCreatePromotion": "Yehlulwe ukudala iphromoshini",
+    "unexpectedError": "Kwenzeke iphutha elingalindelekile"
+  },
+  "success": {
+    "promotionCreated": "Iphromoshini idaliwe ngempumelelo"
+  }
+}

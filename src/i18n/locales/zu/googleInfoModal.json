@@ -1,0 +1,14 @@
+{
+  "title": "Imininingwane Ye-Google Iyadingeka",
+  "description": "Lona yisikhathi sakho sokuqala ungena nge-Google. Sicela unikeze le mininingwane elandelayo ukuze uqedele iphrofayela yakho.",
+  "labels": {
+    "age": "Iminyaka",
+    "language": "Ulimi Olukhethiwe",
+    "country": "Izwe"
+  },
+  "buttons": {
+    "completeProfile": "Qedela Iphrofayela",
+    "completing": "Iyaqedela...",
+    "cancel": "Khansela"
+  }
+}

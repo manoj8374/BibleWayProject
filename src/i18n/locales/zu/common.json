@@ -1,0 +1,21 @@
+{
+  "welcome": "Siyakwamukela",
+  "login": "Ngena",
+  "signup": "Bhalisa",
+  "logout": "Phuma",
+  "home": "Ikhaya",
+  "profile": "Iphrofayela",
+  "settings": "Izilungiselelo",
+  "save": "Londoloza",
+  "cancel": "Khansela",
+  "delete": "Susa",
+  "edit": "Hlela",
+  "submit": "Thumela",
+  "loading": "Iyaloda...",
+  "error": "Iphutha",
+  "success": "Impumelelo",
+  "linkCopied": "Isixhumanisi sikopishiwe!",
+  "failedToCopy": "Yehlulwe ukukopisha isixhumanisi",
+  "sharePost": "Yabelana Ngokuthunyelwe",
+  "sharePrayerRequest": "Yabelana Ngesicelo Somthandazo"
+}

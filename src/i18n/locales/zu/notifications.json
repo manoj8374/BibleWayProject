@@ -1,0 +1,18 @@
+{
+  "title": "Izaziso",
+  "markAllAsRead": "Faka konke njengokufundiwe",
+  "loading": "Iloda izaziso...",
+  "noNotifications": "Azikho izaziso okwamanje",
+  "allCaughtUp": "Usufike ekugcineni!",
+  "justNow": "Manje",
+  "minuteAgo": "umzuzu o-{{count}} edlule",
+  "minutesAgo": "imizuzu engu-{{count}} edlule",
+  "hourAgo": "ihora eli-{{count}} edlule",
+  "hoursAgo": "amahora angu-{{count}} edlule",
+  "dayAgo": "izinsuku ezi-{{count}} edlule",
+  "daysAgo": "izinsuku ezingu-{{count}} edlule",
+  "weekAgo": "iviki eli-{{count}} edlule",
+  "weeksAgo": "amaviki angu-{{count}} edlule",
+  "monthAgo": "inyanga e-{{count}} edlule",
+  "monthsAgo": "izinyanga ezingu-{{count}} edlule"
+}

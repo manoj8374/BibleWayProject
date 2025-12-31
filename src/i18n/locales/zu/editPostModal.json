@@ -1,0 +1,22 @@
+{
+  "title": "Hlela Okuthunyelwe",
+  "labels": {
+    "title": "Isihloko",
+    "description": "Incazelo"
+  },
+  "placeholders": {
+    "enterPostTitle": "Faka isihloko sokuthunyelwe...",
+    "enterDescription": "Hlela incazelo yakho lapha..."
+  },
+  "buttons": {
+    "saveChanges": "Londoloza Izinguquko",
+    "saving": "Iyalondoloza...",
+    "cancel": "Khansela"
+  },
+  "errors": {
+    "failedToUpdatePost": "Yehlulwe ukubuyekeza okuthunyelwe."
+  },
+  "success": {
+    "postUpdated": "Okuthunyelwe kubuyekezwe ngempumelelo!"
+  }
+}

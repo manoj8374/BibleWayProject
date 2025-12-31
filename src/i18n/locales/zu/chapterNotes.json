@@ -1,0 +1,33 @@
+{
+  "title": "Amanothi Esahluko",
+  "noBookSelected": "Alikho ibhuku elikhethiwe",
+  "selectBookMessage": "Sicela ukhethe ibhuku ukuze ubone amanothi",
+  "noChapterSelected": "Azikho isahluko esikhethiwe",
+  "selectChapterMessage": "Khetha isahluko ukuze ubone futhi ubhale amanothi",
+  "loadingNotes": "Iloda amanothi...",
+  "noNotesYet": "Awekho amanothi okwamanje",
+  "startWritingMessage": "Qala ukubhala imicabango yakho nokuqonda kwakho ngalesi sahluko",
+  "placeholder": "Bhala amanothi akho lapha...",
+  "cancel": "Khansela",
+  "saving": "Iyalondoloza...",
+  "updateNote": "Buyekeza Inothi",
+  "saveNote": "Londoloza Inothi",
+  "editNote": "Hlela Inothi",
+  "deleteNote": "Susa Inothi",
+  "justNow": "Manje",
+  "note": "inothi",
+  "notes": "amanothi",
+  "deleteConfirmation": "Uqinisekile ukuthi ufuna ukususa leli nothi?",
+  "success": {
+    "noteCreated": "Inothi lidaliwe ngempumelelo",
+    "noteUpdated": "Inothi libuyekezwe ngempumelelo",
+    "noteDeleted": "Inothi lisusiwe ngempumelelo"
+  },
+  "errors": {
+    "failedToLoad": "Yehlulwe ukuloda amanothi",
+    "failedToCreate": "Yehlulwe ukudala inothi",
+    "failedToUpdate": "Yehlulwe ukubuyekeza inothi",
+    "failedToDelete": "Yehlulwe ukususa inothi",
+    "failedToSave": "Yehlulwe ukulondoloza inothi"
+  }
+}

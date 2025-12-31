@@ -1,0 +1,27 @@
+{
+  "title": "Dala Isigaba",
+  "labels": {
+    "categoryName": "Igama Lesigaba *",
+    "description": "Incazelo",
+    "displayOrder": "Ukuhleleka Kokubonisa",
+    "coverImage": "Isithombe Sekhava"
+  },
+  "placeholders": {
+    "selectCategoryName": "Khetha igama lesigaba",
+    "enterDescription": "Faka incazelo yesigaba (ngokuzikhethela)"
+  },
+  "selected": "Okukhethiwe:",
+  "buttons": {
+    "cancel": "Khansela",
+    "createCategory": "Dala Isigaba",
+    "creating": "Iyadala..."
+  },
+  "errors": {
+    "categoryNameRequired": "Igama lesigaba liyadingeka",
+    "failedToCreateCategory": "Yehlulwe ukudala isigaba",
+    "unexpectedError": "Kwenzeke iphutha elingalindelekile"
+  },
+  "success": {
+    "categoryCreated": "Isigaba sidaliwe ngempumelelo"
+  }
+}

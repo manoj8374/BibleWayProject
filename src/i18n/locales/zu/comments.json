@@ -1,0 +1,25 @@
+{
+  "loading": "Iloda amazwana...",
+  "error": "Yehlulwe ukuloda amazwana",
+  "noComments": "Awekho amazwana okwamanje. Iba ngowokuqala ukusho okuthile!",
+  "emptyComment": "Iphawu ngeke libe yize",
+  "commentUpdated": "Amazwana abuyekezwe ngempumelelo",
+  "failedToUpdate": "Yehlulwe ukubuyekeza amazwana",
+  "deleteConfirm": "Uqinisekile ukuthi ufuna ukususa lawa mazwana?",
+  "commentDeleted": "Amazwana asusiwe ngempumelelo",
+  "failedToDelete": "Yehlulwe ukususa amazwana",
+  "writeComment": "Bhala amazwana...",
+  "deleteModal": {
+    "title": "Susa Amazwana",
+    "description": "Uqinisekile ukuthi ufuna ukususa lawa mazwana? Lokhu ngeke kuhlehliswe.",
+    "cancel": "Khansela",
+    "delete": "Susa",
+    "deleting": "Iyasusa..."
+  },
+  "time": {
+    "justNow": "Manje",
+    "minutesAgo": "imizuzu engu-{{count}} edlule",
+    "hoursAgo": "amahora angu-{{count}} edlule",
+    "daysAgo": "izinsuku ezingu-{{count}} edlule"
+  }
+}

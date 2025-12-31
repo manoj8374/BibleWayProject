@@ -1,0 +1,14 @@
+{
+  "title": "Izibonisi ZeBhayibheli Ahlukanisiwe",
+  "loadingAgeGroups": "Iloda amaqoqo eminyaka...",
+  "failedToLoadAgeGroups": "Yehlulwe ukuloda amaqoqo eminyaka",
+  "unexpectedErrorLoadingAgeGroups": "Kwenzeke iphutha elingalindelekile ngenkathi kudawuniloda amaqoqo eminyaka",
+  "noAgeGroupsAvailable": "Awekho amaqoqo eminyaka akhona",
+  "pleaseSelectCategoryFirst": "Sicela ukhethe isigaba kuqala",
+  "noBooksAvailable": "Azikho izincwadi ezikhona kulokhu kukhetha",
+  "failedToFetchBooks": "Yehlulwe ukulanda izincwadi",
+  "categoryNotFound": "Isigaba asitholakalanga",
+  "ageGroupNotFound": "Iqoqo leminyaka alitholakalanga",
+  "languageNotFound": "Ulimi alutholakalanga",
+  "unexpectedErrorFetchingBooks": "Kwenzeke iphutha elingalindelekile ngenkathi kudawuniloda izincwadi"
+}

@@ -1,0 +1,22 @@
+{
+  "edit": "Hlela",
+  "delete": "Susa",
+  "deleteConfirm": "Susa lokhu okuthunyelwe?",
+  "cancel": "Khansela",
+  "save": "Londoloza",
+  "saving": "Iyalondoloza...",
+  "deleting": "Iyasusa...",
+  "likes": "Okuthandwayo",
+  "like": "Thanda",
+  "comments": "Amazwana",
+  "comment": "Amazwana",
+  "share": "Yabelana",
+  "shares": "Abelemiswe",
+  "writeComment": "Bhala amazwana...",
+  "writeYourComment": "Bhala amazwana akho...",
+  "failedToComment": "Yehlulwe ukubhala amazwana",
+  "actionFailed": "Isenzo sehlulekile",
+  "commentAdded": "Amazwana angezwe ngempumelelo",
+  "failedToCreateComment": "Yehlulwe ukudala amazwana",
+  "failedToUpdateLike": "Yehlulwe ukubuyekeza isimo sokuthanda"
+}

@@ -1,0 +1,38 @@
+{
+  "loading": "Iyaloda...",
+  "error": {
+    "mustBeInProfileProvider": "I-AdminProtectedRoute kufanele isetshenziswe ngaphakathi kwe-ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Phatha Ubufakazi",
+    "pending": "Okusalindile",
+    "verified": "Okuqinisekisiwe",
+    "all": "Konke",
+    "loading": "Iloda ubufakazi...",
+    "noTestimonials": "Abukho ubufakazi obutholakele",
+    "approve": "Gunyaza",
+    "reject": "Nqaba",
+    "processing": "Iyaprosesa...",
+    "approvedSuccessfully": "Ubufakazi bugunyazwe ngempumelelo",
+    "rejectedSuccessfully": "Ubufakazi bunqatshwe ngempumelelo",
+    "failedToLoad": "Yehlulwe ukuloda ubufakazi",
+    "failedToApprove": "Yehlulwe ukugunyaza ubufakazi",
+    "failedToReject": "Yehlulwe ukunqaba ubufakazi",
+    "confirmReject": "Uqinisekile ukuthi ufuna ukunqaba lobu bufakazi? Lokhu ngeke kuhlehliswe.",
+    "previous": "Okwedlule",
+    "next": "Okulandelayo",
+    "pageInfo": "Ikhasi {{current}} phakathi kwa-{{total}}"
+  },
+  "promotions": {
+    "title": "Phatha Iziphromoshini",
+    "loading": "Iloda iziphromoshini...",
+    "noPromotions": "Azikho iziphromoshini ezitholakele",
+    "delete": "Susa",
+    "cancel": "Khansela",
+    "processing": "Iyaprosesa...",
+    "deletedSuccessfully": "Iphromoshini isuswe ngempumelelo",
+    "failedToLoad": "Yehlulwe ukuloda iziphromoshini",
+    "failedToDelete": "Yehlulwe ukususa iphromoshini",
+    "confirmDelete": "Uqinisekile ukuthi ufuna ukususa le phromoshini? Lokhu ngeke kuhlehliswe."
+  }
+}

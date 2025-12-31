@@ -1,0 +1,27 @@
+{
+  "title": "Dala Okuthunyelwe",
+  "labels": {
+    "title": "Isihloko",
+    "description": "Incazelo"
+  },
+  "placeholders": {
+    "enterPostTitle": "Faka isihloko sokuthunyelwe...",
+    "enterDescription": "Ngithole umsebenzi ku-Google..."
+  },
+  "upload": {
+    "uploadFiles": "Faka amafayela akho lapha (Ubuningi bungu-5)",
+    "addMoreFiles": "+ Engeza amafayela engeziwe"
+  },
+  "buttons": {
+    "createPost": "Dala Okuthunyelwe",
+    "creating": "Iyadala..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Ungafaka amafayela afika kwangu-5 kuphela.",
+    "atLeastOneFile": "Sicela ufake okungenani ifayela elilodwa lemidiya.",
+    "failedToCreatePost": "Yehlulwe ukudala okuthunyelwe."
+  },
+  "success": {
+    "postCreated": "Okuthunyelwe kudaliwe ngempumelelo!"
+  }
+}

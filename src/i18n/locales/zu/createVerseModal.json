@@ -1,0 +1,30 @@
+{
+  "title": "Dala Isicashunwa Sesuku",
+  "note": "Qaphela: Ukudala isicashunwa esisha kuzongena esikhundleni sesicashunwa sansuku zonke esikhona. Lokhu ngeke kuhlehliswe. Isicashunwa esisha sizoboniswa kubo bonke abasebenzisi ngokushesha.",
+  "labels": {
+    "title": "Isihloko (ngokuzikhethela)",
+    "quoteDescription": "Isicashunwa / Incazelo (Iyadingeka)"
+  },
+  "placeholders": {
+    "title": "Isibonelo: Ivesi Losuku",
+    "quoteDescription": "Faka isicashunwa noma umbhalo lapha..."
+  },
+  "buttons": {
+    "cancel": "Khansela",
+    "publishQuote": "Shicilela Isicashunwa",
+    "publishing": "Iyashicilela...",
+    "updateQuote": "Buyekeza Isicashunwa",
+    "updating": "Iyabuyekeza..."
+  },
+  "errors": {
+    "descriptionRequired": "Incazelo iyadingeka",
+    "failedToCreateVerse": "Yehlulwe ukudala ivesi",
+    "failedToUpdateVerse": "Yehlulwe ukubuyekeza ivesi",
+    "unexpectedError": "Kwenzeke iphutha elingalindelekile"
+  },
+  "success": {
+    "verseCreated": "Ivesi lidaliwe ngempumelelo",
+    "verseUpdated": "Ivesi libuyekezwe ngempumelelo"
+  },
+  "editTitle": "Hlela Ivesi"
+}

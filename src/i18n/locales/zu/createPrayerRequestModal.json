@@ -1,0 +1,34 @@
+{
+  "title": "Isicelo Somthandazo",
+  "labels": {
+    "description": "Incazelo",
+    "name": "Igama",
+    "email": "I-imeyili",
+    "phoneNumber": "Inombolo yocingo (ngokuzikhethela)",
+    "media": "Imidiya (ngokuzikhethela)"
+  },
+  "placeholders": {
+    "enterDescription": "Sicela nithandazele impilo yomndeni wami...",
+    "yourName": "Igama lakho",
+    "yourEmail": "I-imeyili yakho",
+    "phoneNumber": "0801234567"
+  },
+  "upload": {
+    "uploadText": "Faka isithombe noma ividiyo (Ubuningi bamafayela angu-5, 10MB lilinye)",
+    "addMoreFiles": "+ Engeza amafayela engeziwe"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Thumela Isicelo Somthandazo",
+    "submitting": "Iyathumela..."
+  },
+  "errors": {
+    "descriptionRequired": "Sicela ufake incazelo yesicelo sakho somthandazo.",
+    "failedToCreateRequest": "Yehlulwe ukudala isicelo somthandazo.",
+    "maxFilesExceeded": "Ungafaka amafayela afika kwangu-5 kuphela.",
+    "invalidFileType": "Uhlobo lwefayela olungafanele: {{filename}}. Izithombe namavidiyo kuphela avunyelwe.",
+    "fileSizeExceeded": "Usayizi wefayela ungaphezu kuka-10MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Isicelo somthandazo sidaliwe ngempumelelo!"
+  }
+}

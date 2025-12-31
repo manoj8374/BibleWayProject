@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Uxhumekile",
+    "offline": "Akaxhumekile"
+  },
+  "messages": {
+    "loading": "Iloda imilayezo...",
+    "noMessages": "Abekho imilayezo okwamanje",
+    "deleted": "Lo mlayezo ususiwe",
+    "sharedImage": "Isithombe ekwabelwana ngaso",
+    "viewAttachment": "Buka okunamathiselwe",
+    "seen": "Iboniwe",
+    "deleteMessage": "Susa umlayezo"
+  },
+  "typing": {
+    "isTyping": "uyabhala...",
+    "peopleTyping": "abantu bayabhala..."
+  },
+  "input": {
+    "placeholder": "Bhala umlayezo...",
+    "pressEnterToSend": "Cindezela u-Enter ukuze uthumele"
+  },
+  "deleteModal": {
+    "title": "Susa umlayezo?",
+    "message": "Uqinisekile ukuthi ufuna ukususa lo mlayezo? Lokhu ngeke kuhlehliswe.",
+    "cancel": "Khansela",
+    "delete": "Susa"
+  },
+  "uploadModal": {
+    "title": "Thumela Ifayela",
+    "uploading": "Iyaloda futhi ithumela...",
+    "sendFile": "Thumela {{filename}}?",
+    "sending": "Iyathumela...",
+    "send": "Thumela",
+    "cancel": "Khansela"
+  },
+  "errors": {
+    "fetchConversation": "Yehlulwe ukulanda inkhulumo",
+    "invalidFileType": "Uhlobo lwefayela olungafanele. Izithombe namavidiyo kuphela avunyelwe.",
+    "fileSizeExceeded": "Usayizi wefayela ungaphezu kuka-10MB.",
+    "uploadFailed": "Yehlulwe ukufaka ifayela",
+    "failedToLoadStickers": "Yehlulwe ukuloda izitika"
+  },
+  "stickers": {
+    "loading": "Iloda izitika...",
+    "noStickers": "Azikho izitika ezikhona"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Faka Ibhuku",
+  "labels": {
+    "sourceFile": "Ifayela Lomthombo (.md) *",
+    "coverImage": "Isithombe Sekhava",
+    "category": "Isigaba *",
+    "ageGroup": "Iqoqo Leminyaka *",
+    "language": "Ulimi *",
+    "bookTitle": "Isihloko *",
+    "description": "Incazelo",
+    "bookOrder": "Ukuhleleka Kwebhuku"
+  },
+  "placeholders": {
+    "selectCategory": "Khetha isigaba",
+    "selectAgeGroup": "Khetha iqoqo leminyaka",
+    "selectLanguage": "Khetha ulimi",
+    "enterBookTitle": "Faka isihloko sebhuku",
+    "enterBookDescription": "Faka incazelo yebhuku (ngokuzikhethela)"
+  },
+  "loading": {
+    "categories": "Iloda izigaba...",
+    "ageGroups": "Iloda amaqoqo eminyaka...",
+    "languages": "Iloda izilimi...",
+    "uploading": "Iyafaka..."
+  },
+  "selected": "Okukhethiwe:",
+  "buttons": {
+    "cancel": "Khansela",
+    "uploadBook": "Faka Ibhuku"
+  },
+  "errors": {
+    "sourceFileRequired": "Ifayela lomthombo liyadingeka",
+    "titleRequired": "Isihloko siyadingeka",
+    "categoryRequired": "Isigaba siyadingeka",
+    "ageGroupRequired": "Iqoqo leminyaka liyadingeka",
+    "languageRequired": "Ulimi luyadingeka",
+    "failedToLoadCategories": "Yehlulwe ukuloda izigaba",
+    "failedToLoadAgeGroups": "Yehlulwe ukuloda amaqoqo eminyaka",
+    "failedToLoadLanguages": "Yehlulwe ukuloda izilimi",
+    "failedToUploadBook": "Yehlulwe ukufaka ibhuku",
+    "unexpectedError": "Kwenzeke iphutha elingalindelekile"
+  },
+  "success": {
+    "bookCreated": "Ibhuku lidaliwe ngempumelelo"
+  }
+}

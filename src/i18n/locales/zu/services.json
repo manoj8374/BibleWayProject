@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Kwenzeke iphutha elingalindelekile.",
+    "receivedToken": "Ithokheni itholiwe"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Kwenzeke iphutha elingalindelekile ngenkathi kudala okuthunyelwe.",
+    "failedToFetchPosts": "Yehlulwe ukulanda okuthunyelwe.",
+    "failedToFetchUserPosts": "Yehlulwe ukulanda okuthunyelwe komsebenzisi.",
+    "failedToFetchPostDetails": "Yehlulwe ukulanda imininingwane yokuthunyelwe.",
+    "failedToUpdatePost": "Yehlulwe ukubuyekeza okuthunyelwe",
+    "failedToDeletePost": "Yehlulwe ukususa okuthunyelwe",
+    "failedToCreateComment": "Yehlulwe ukudala amazwana.",
+    "failedToUpdateComment": "Yehlulwe ukubuyekeza amazwana.",
+    "failedToDeleteComment": "Yehlulwe ukususa amazwana.",
+    "failedToFetchComments": "Yehlulwe ukulanda amazwana.",
+    "failedToLikeComment": "Yehlulwe ukuthanda amazwana.",
+    "failedToUnlikeComment": "Yehlulwe ukuyeka ukuthanda amazwana.",
+    "failedToLikePost": "Yehlulwe ukuthanda okuthunyelwe.",
+    "failedToUnlikePost": "Yehlulwe ukuyeka ukuthanda okuthunyelwe."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Yehlulwe ukulanda iphrofayela yomsebenzisi.",
+    "failedToFollowUser": "Yehlulwe ukulandela umsebenzisi.",
+    "failedToUnfollowUser": "Yehlulwe ukuyeka ukulandela umsebenzisi.",
+    "failedToGetRecommendedUsers": "Yehlulwe ukulanda abasebenzisi abaphakanyisiwe.",
+    "failedToGetUserProfile": "Yehlulwe ukulanda iphrofayela yomsebenzisi."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Yehlulwe ukuloda amaphephadonga"
+  },
+  "verse": {
+    "failedToLoadVerses": "Yehlulwe ukuloda amavesi",
+    "failedToLikeVerse": "Yehlulwe ukuthanda ivesi",
+    "failedToUnlikeVerse": "Yehlulwe ukuyeka ukuthanda ivesi"
+  },
+  "admin": {
+    "failedToLoadBooks": "Yehlulwe ukuloda izincwadi"
+  }
+}

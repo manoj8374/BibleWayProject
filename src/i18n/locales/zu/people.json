@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Sesha Abantu",
+  "searchPeoplePlaceholder": "Sesha abantu...",
+  "searching": "Iyasesha...",
+  "noUsersFound": "Abekho abasebenzisi abatholakele",
+  "follow": "Landela",
+  "following": "Abalandelwayo",
+  "failedToUpdateFollowStatus": "Yehlulwe ukubuyekeza isimo sokulandela",
+  "loadingInbox": "Iloda i-inbox...",
+  "noMessages": "Abekho imilayezo",
+  "you": "Wena: ",
+  "attachment": "Okunamathiselwe",
+  "noMessagesText": "Abekho imilayezo",
+  "sticker": "📷 Isitika"
+}
