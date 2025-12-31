@@ -1,0 +1,34 @@
+{
+  "title": "ᱠᱚᱭ ᱱᱮᱦᱚᱨ",
+  "labels": {
+    "description": "ᱵᱤᱵᱚᱨᱚᱱ",
+    "name": "ᱧᱩᱛᱩᱢ",
+    "email": "ᱤᱢᱮᱞ",
+    "phoneNumber": "ᱯᱷᱳᱱ ᱱᱚᱢᱵᱚᱨ (ᱢᱚᱱᱮ ᱞᱮᱠᱷᱟᱱ)",
+    "media": "ᱢᱤᱰᱤᱭᱟ (ᱢᱚᱱᱮ ᱞᱮᱠᱷᱟᱱ)"
+  },
+  "placeholders": {
+    "enterDescription": "ᱫᱚᱭᱟ ᱠᱟᱛᱮ ᱤᱧᱟᱜ ᱜᱷᱟᱨᱚᱸᱡᱽ ᱨᱮᱱᱟᱜ ᱦᱚᱲᱢᱚ ᱞᱟᱹᱜᱤᱫ ᱠᱚᱭ ᱯᱮ...",
+    "yourName": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ",
+    "yourEmail": "ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱴᱷᱟᱶ",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "ᱪᱤᱛᱟᱹᱨ ᱟᱨᱵᱟᱝ ᱵᱷᱤᱰᱤᱭᱳ ᱠᱚ ᱟᱯᱞᱳᱰ ᱢᱮ (ᱰᱷᱮᱨ ᱛᱮ ᱕ ᱯᱷᱟᱭᱤᱞ, ᱑᱐ MB ᱠᱟᱛᱮ)",
+    "addMoreFiles": "+ ᱟᱨᱦᱚᱸ ᱯᱷᱟᱭᱤᱞ ᱥᱮᱞᱮᱫ ᱢᱮ"
+  },
+  "buttons": {
+    "submitPrayerRequest": "ᱠᱚᱭ ᱱᱮᱦᱚᱨ ᱮᱢ ᱢᱮ",
+    "submitting": "ᱮᱢ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ..."
+  },
+  "errors": {
+    "descriptionRequired": "ᱫᱚᱭᱟ ᱠᱟᱛᱮ ᱟᱢᱟᱜ ᱠᱚᱭ ᱱᱮᱦᱚᱨ ᱞᱟᱹᱜᱤᱫ ᱵᱤᱵᱚᱨᱚᱱ ᱚᱞ ᱢᱮ ᱾",
+    "failedToCreateRequest": "ᱠᱚᱭ ᱱᱮᱦᱚᱨ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "maxFilesExceeded": "ᱟᱢ ᱰᱷᱮᱨ ᱛᱮ ᱕ ᱜᱚᱴᱟᱝ ᱯᱷᱟᱭᱤᱞ ᱜᱮᱢ ᱟᱯᱞᱳᱰ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+    "invalidFileType": "ᱵᱟᱹᱲᱤᱡ ᱯᱷᱟᱭᱤᱞ ᱞᱮᱠᱟᱱ: {{filename}} ᱾ ᱠᱷᱟᱹᱞᱤ ᱪᱤᱛᱟᱹᱨ ᱟᱨ ᱵᱷᱤᱰᱤᱭᱳ ᱜᱮ ᱥᱟᱱᱟ ᱾",
+    "fileSizeExceeded": "ᱯᱷᱟᱭᱤᱞ ᱑᱐ MB ᱠᱷᱚᱱ ᱰᱮᱦᱮᱨ ᱜᱮᱭᱟ: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "ᱠᱚᱭ ᱱᱮᱦᱚᱨ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱮᱱᱟᱣ ᱮᱱᱟ!"
+  }
+}

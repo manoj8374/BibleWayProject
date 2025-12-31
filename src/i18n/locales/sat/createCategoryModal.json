@@ -1,0 +1,27 @@
+{
+  "title": "ᱛᱷᱚᱠ ᱵᱮᱱᱟᱣ ᱢᱮ",
+  "labels": {
+    "categoryName": "ᱛᱷᱚᱠ ᱧᱩᱛᱩᱢ *",
+    "description": "ᱵᱤᱵᱚᱨᱚᱱ",
+    "displayOrder": "ᱩᱫᱩᱜ ᱥᱟᱡᱟᱣ",
+    "coverImage": "ᱵᱟᱦᱨᱮ ᱪᱤᱛᱟᱹᱨ"
+  },
+  "placeholders": {
+    "selectCategoryName": "ᱢᱤᱫᱴᱟᱹᱝ ᱛᱷᱚᱠ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "enterDescription": "ᱛᱷᱚᱠ ᱵᱤᱵᱚᱨᱚᱱ ᱚᱞ ᱢᱮ (ᱢᱚᱱᱮ ᱞᱮᱠᱷᱟᱱ)"
+  },
+  "selected": "ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ:",
+  "buttons": {
+    "cancel": "ᱵᱟᱹᱛᱤᱞ",
+    "createCategory": "ᱛᱷᱚᱠ ᱵᱮᱱᱟᱣ ᱢᱮ",
+    "creating": "ᱵᱮᱱᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ..."
+  },
+  "errors": {
+    "categoryNameRequired": "ᱛᱷᱚᱠ ᱧᱩᱛᱩᱢ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "failedToCreateCategory": "ᱛᱷᱚᱠ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "unexpectedError": "ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝ ᱟᱥᱟ ᱟᱠᱟᱱ ᱵᱷᱩᱞ ᱦᱩᱭ ᱮᱱᱟ"
+  },
+  "success": {
+    "categoryCreated": "ᱛᱷᱚᱠ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱮᱱᱟᱣ ᱮᱱᱟ"
+  }
+}

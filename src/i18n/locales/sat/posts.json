@@ -1,0 +1,22 @@
+{
+  "edit": "ᱥᱟᱯᱲᱟᱣ",
+  "delete": "ᱢᱮᱴᱟᱣ",
+  "deleteConfirm": "ᱱᱚᱣᱟ ᱯᱳᱥᱴ ᱢᱮᱴᱟᱣᱟᱢ?",
+  "cancel": "ᱵᱟᱹᱛᱤᱞ",
+  "save": "ᱥᱟᱸᱪᱟᱣ",
+  "saving": "ᱥᱟᱸᱪᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+  "deleting": "ᱢᱮᱴᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+  "likes": "ᱞᱟᱭᱤᱠ ᱠᱚ",
+  "like": "ᱞᱟᱭᱤᱠ",
+  "comments": "ᱠᱚᱢᱮᱱᱴ ᱠᱚ",
+  "comment": "ᱠᱚᱢᱮᱱᱴ",
+  "share": "ᱦᱟᱹᱴᱤᱧ",
+  "shares": "ᱦᱟᱹᱴᱤᱧ ᱠᱚ",
+  "writeComment": "ᱢᱤᱫᱴᱟᱹᱝ ᱠᱚᱢᱮᱱᱴ ᱚᱞ ᱢᱮ...",
+  "writeYourComment": "ᱟᱢᱟᱜ ᱠᱚᱢᱮᱱᱴ ᱚᱞ ᱢᱮ...",
+  "failedToComment": "ᱠᱚᱢᱮᱱᱴ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+  "actionFailed": "ᱠᱟᱹᱢᱤ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+  "commentAdded": "ᱠᱚᱢᱮᱱᱴ ᱱᱟᱯᱟᱭ ᱛᱮ ᱥᱮᱞᱮᱫ ᱮᱱᱟ",
+  "failedToCreateComment": "ᱠᱚᱢᱮᱱᱴ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+  "failedToUpdateLike": "ᱞᱟᱭᱤᱠ ᱨᱮᱱᱟᱜ ᱵᱤᱵᱚᱨᱚᱱ ᱟᱯᱰᱮᱴ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ"
+}

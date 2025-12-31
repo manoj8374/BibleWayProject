@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝ ᱟᱥᱟ ᱟᱠᱟᱱ ᱵᱷᱩᱞ ᱦᱩᱭ ᱮᱱᱟ ᱾",
+    "receivedToken": "ᱴᱳᱠᱮᱱ ᱧᱟᱢ ᱮᱱᱟ"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "ᱯᱳᱥᱴ ᱵᱮᱱᱟᱣ ᱚᱠᱛᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝ ᱟᱥᱟ ᱟᱠᱟᱱ ᱵᱷᱩᱞ ᱦᱩᱭ ᱮᱱᱟ ᱾",
+    "failedToFetchPosts": "ᱯᱳᱥᱴ ᱠᱚ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToFetchUserPosts": "ᱭᱩᱡᱟᱨ ᱯᱳᱥᱴ ᱠᱚ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToFetchPostDetails": "ᱯᱳᱥᱴ ᱨᱮᱱᱟᱜ ᱵᱤᱵᱚᱨᱚᱱ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToUpdatePost": "ᱯᱳᱥᱴ ᱟᱯᱰᱮᱴ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToDeletePost": "ᱯᱳᱥᱴ ᱢᱮᱴᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToCreateComment": "ᱠᱚᱢᱮᱱᱴ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToUpdateComment": "ᱠᱚᱢᱮᱱᱴ ᱟᱯᱰᱮᱴ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToDeleteComment": "ᱠᱚᱢᱮᱱᱴ ᱢᱮᱴᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToFetchComments": "ᱠᱚᱢᱮᱱᱴ ᱠᱚ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToLikeComment": "ᱠᱚᱢᱮᱱᱴ ᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToUnlikeComment": "ᱠᱚᱢᱮᱱᱴ ᱟᱱᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToLikePost": "ᱯᱳᱥᱴ ᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToUnlikePost": "ᱯᱳᱥᱴ ᱟᱱᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾"
+  },
+  "user": {
+    "failedToFetchUserProfile": "ᱭᱩᱡᱟᱨ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToFollowUser": "ᱦᱚᱲ ᱯᱟᱸᱡᱟ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToUnfollowUser": "ᱦᱚᱲ ᱯᱟᱸᱡᱟ ᱵᱟᱹᱜᱤ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToGetRecommendedUsers": "ᱵᱟᱪᱷᱟᱣ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱛᱟᱹᱞᱠᱟᱹ ᱟᱹᱜᱩ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾",
+    "failedToGetUserProfile": "ᱭᱩᱡᱟᱨ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱧᱟᱢ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾"
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "ᱪᱤᱛᱟᱹᱨ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ"
+  },
+  "verse": {
+    "failedToLoadVerses": "ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToLikeVerse": "ᱟᱹᱭᱟᱹᱛ ᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToUnlikeVerse": "ᱟᱹᱭᱟᱹᱛ ᱟᱱᱞᱟᱭᱤᱠ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ"
+  },
+  "admin": {
+    "failedToLoadBooks": "ᱯᱩᱛᱷᱤ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ"
+  }
+}

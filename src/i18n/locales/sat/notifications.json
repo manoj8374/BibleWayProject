@@ -1,0 +1,18 @@
+{
+  "title": "ᱱᱳᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱠᱚ",
+  "markAllAsRead": "ᱡᱚᱛᱚ ᱯᱟᱲᱦᱟᱣ ᱟᱠᱟᱱ ᱞᱮᱠᱟ ᱪᱤᱱᱦᱟᱹ ᱢᱮ",
+  "loading": "ᱱᱳᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+  "noNotifications": "ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱪᱮᱫ ᱱᱳᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ",
+  "allCaughtUp": "ᱟᱢ ᱡᱚᱛᱚᱣᱟᱜ ᱮᱢ ᱧᱮᱞ ᱟᱠᱟᱫᱟ!",
+  "justNow": "ᱱᱤᱛᱚᱜ ᱜᱮ",
+  "minuteAgo": "{{count}} ᱴᱤᱬᱤᱡ ᱞᱟᱦᱟ",
+  "minutesAgo": "{{count}} ᱴᱤᱬᱤᱡ ᱞᱟᱦᱟ",
+  "hourAgo": "{{count}} ᱴᱟᱲᱟᱝ ᱞᱟᱦᱟ",
+  "hoursAgo": "{{count}} ᱴᱟᱲᱟᱝ ᱞᱟᱦᱟ",
+  "dayAgo": "{{count}} ᱢᱟᱦᱟᱸ ᱞᱟᱦᱟ",
+  "daysAgo": "{{count}} ᱢᱟᱦᱟᱸ ᱞᱟᱦᱟ",
+  "weekAgo": "{{count}} ᱦᱟᱯᱛᱟ ᱞᱟᱦᱟ",
+  "weeksAgo": "{{count}} ᱦᱟᱯᱛᱟ ᱞᱟᱦᱟ",
+  "monthAgo": "{{count}} ᱪᱟᱸᱫᱚ ᱞᱟᱦᱟ",
+  "monthsAgo": "{{count}} ᱪᱟᱸᱫᱚ ᱞᱟᱦᱟ"
+}

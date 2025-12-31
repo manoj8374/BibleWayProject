@@ -1,0 +1,38 @@
+{
+  "loading": "ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute ᱫᱚ ProfileProvider ᱵᱷᱤᱛᱤᱨ ᱨᱮ ᱵᱮᱵᱷᱟᱨ ᱦᱩᱭ ᱞᱟᱹᱠᱛᱤ"
+  },
+  "testimonials": {
+    "title": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱪᱟᱪᱞᱟᱣ",
+    "pending": "ᱵᱟᱹᱠᱤ",
+    "verified": "ᱥᱟᱹᱠᱷᱭᱟᱹᱛ ᱟᱠᱟᱱ",
+    "all": "ᱡᱚᱛᱚ",
+    "loading": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "noTestimonials": "ᱪᱮᱫ ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱦᱚᱸ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ",
+    "approve": "ᱥᱟᱹᱠᱷᱭᱟᱹᱛ ᱢᱮ",
+    "reject": "ᱵᱟᱹᱛᱤᱞ ᱢᱮ",
+    "processing": "ᱠᱟᱹᱢᱤ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "approvedSuccessfully": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱱᱟᱯᱟᱭ ᱛᱮ ᱥᱟᱹᱠᱷᱭᱟᱹᱛ ᱮᱱᱟ",
+    "rejectedSuccessfully": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱟᱹᱛᱤᱞ ᱮᱱᱟ",
+    "failedToLoad": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToApprove": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱥᱟᱹᱠᱷᱭᱟᱹᱛ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToReject": "ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱵᱟᱹᱛᱤᱞ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "confirmReject": "ᱟᱢ ᱪᱮᱫ ᱥᱟᱹᱨᱤ ᱜᱮ ᱱᱚᱣᱟ ᱴᱮᱥᱴᱤᱢᱳᱱᱤᱭᱟᱞ ᱵᱟᱹᱛᱤᱞ ᱥᱟᱱᱟ ᱢᱮᱭᱟ? ᱱᱚᱣᱟ ᱫᱚ ᱵᱟᱝ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+    "previous": "ᱞᱟᱦᱟ ᱛᱮᱱᱟᱜ",
+    "next": "ᱛᱟᱭᱚᱢ ᱛᱮᱱᱟᱜ",
+    "pageInfo": "ᱥᱟᱠᱟᱢ {{current}} (ᱡᱚᱛᱚ {{total}} ᱠᱷᱚᱱ)"
+  },
+  "promotions": {
+    "title": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱪᱟᱪᱞᱟᱣ",
+    "loading": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "noPromotions": "ᱪᱮᱫ ᱯᱨᱳᱢᱳᱥᱚᱱ ᱦᱚᱸ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ",
+    "delete": "ᱢᱮᱴᱟᱣ",
+    "cancel": "ᱵᱟᱹᱛᱤᱞ",
+    "processing": "ᱠᱟᱹᱢᱤ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "deletedSuccessfully": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱱᱟᱯᱟᱭ ᱛᱮ ᱢᱮᱴᱟᱣ ᱮᱱᱟ",
+    "failedToLoad": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToDelete": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱢᱮᱴᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "confirmDelete": "ᱟᱢ ᱪᱮᱫ ᱥᱟᱹᱨᱤ ᱜᱮ ᱱᱚᱣᱟ ᱯᱨᱳᱢᱳᱥᱚᱱ ᱢᱮᱴᱟᱣ ᱥᱟᱱᱟ ᱢᱮᱭᱟ? ᱱᱚᱣᱟ ᱫᱚ ᱵᱟᱝ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾"
+  }
+}

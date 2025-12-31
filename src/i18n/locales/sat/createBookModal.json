@@ -1,0 +1,46 @@
+{
+  "title": "ᱯᱩᱛᱷᱤ ᱟᱯᱞᱳᱰ ᱢᱮ",
+  "labels": {
+    "sourceFile": "ᱢᱩᱬᱩᱛ ᱯᱷᱟᱭᱤᱞ (.md) *",
+    "coverImage": "ᱵᱟᱦᱨᱮ ᱪᱤᱛᱟᱹᱨ",
+    "category": "ᱛᱷᱚᱠ *",
+    "ageGroup": "ᱩᱢᱮᱨ ᱛᱷᱚᱠ *",
+    "language": "ᱯᱟᱹᱨᱥᱤ *",
+    "bookTitle": "ᱧᱩᱛᱩᱢ *",
+    "description": "ᱵᱤᱵᱚᱨᱚᱱ",
+    "bookOrder": "ᱯᱩᱛᱷᱤ ᱥᱟᱡᱟᱣ"
+  },
+  "placeholders": {
+    "selectCategory": "ᱢᱤᱫᱴᱟᱹᱝ ᱛᱷᱚᱠ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "selectAgeGroup": "ᱢᱤᱫᱴᱟᱹᱝ ᱩᱢᱮᱨ ᱛᱷᱚᱠ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "selectLanguage": "ᱢᱤᱫᱴᱟᱹᱝ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "enterBookTitle": "ᱯᱩᱛᱷᱤ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ",
+    "enterBookDescription": "ᱯᱩᱛᱷᱤ ᱵᱤᱵᱚᱨᱚᱱ ᱚᱞ ᱢᱮ (ᱢᱚᱱᱮ ᱞᱮᱠᱷᱟᱱ)"
+  },
+  "loading": {
+    "categories": "ᱛᱷᱚᱠ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "ageGroups": "ᱩᱢᱮᱨ ᱛᱷᱚᱠ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "languages": "ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "uploading": "ᱟᱯᱞᱳᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ..."
+  },
+  "selected": "ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ:",
+  "buttons": {
+    "cancel": "ᱵᱟᱹᱛᱤᱞ",
+    "uploadBook": "ᱯᱩᱛᱷᱤ ᱟᱯᱞᱳᱰ ᱢᱮ"
+  },
+  "errors": {
+    "sourceFileRequired": "ᱢᱩᱬᱩᱛ ᱯᱷᱟᱭᱤᱞ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "titleRequired": "ᱧᱩᱛᱩᱢ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "categoryRequired": "ᱛᱷᱚᱠ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "ageGroupRequired": "ᱩᱢᱮᱨ ᱛᱷᱚᱠ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "languageRequired": "ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "failedToLoadCategories": "ᱛᱷᱚᱠ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToLoadAgeGroups": "ᱩᱢᱮᱨ ᱛᱷᱚᱠ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToLoadLanguages": "ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "failedToUploadBook": "ᱯᱩᱛᱷᱤ ᱟᱯᱞᱳᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "unexpectedError": "ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝ ᱟᱥᱟ ᱟᱠᱟᱱ ᱵᱷᱩᱞ ᱦᱩᱭ ᱮᱱᱟ"
+  },
+  "success": {
+    "bookCreated": "ᱯᱩᱛᱷᱤ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱮᱱᱟᱣ ᱮᱱᱟ"
+  }
+}

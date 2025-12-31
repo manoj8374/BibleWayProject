@@ -1,0 +1,38 @@
+{
+  "title": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱵᱮᱱᱟᱣ ᱢᱮ",
+  "labels": {
+    "title": "ᱧᱩᱛᱩᱢ *",
+    "description": "ᱵᱤᱵᱚᱨᱚᱱ",
+    "price": "ᱜᱚᱱᱚᱝ",
+    "redirectLink": "ᱨᱤᱰᱟᱭᱨᱮᱠᱴ ᱞᱤᱝᱠ *",
+    "metaData": "Meta Data (JSON)",
+    "mediaFile": "ᱢᱤᱰᱤᱭᱟ ᱯᱷᱟᱭᱤᱞ (ᱪᱤᱛᱟᱹᱨ/ᱵᱷᱤᱰᱤᱭᱳ/ᱟᱰᱤᱭᱳ)",
+    "images": "ᱪᱤᱛᱟᱹᱨ ᱠᱚ (ᱟᱭᱢᱟ)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ",
+    "enterDescription": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱵᱤᱵᱚᱨᱚᱱ ᱚᱞ ᱢᱮ (ᱢᱚᱱᱮ ᱞᱮᱠᱷᱟᱱ)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ:",
+  "buttons": {
+    "cancel": "ᱵᱟᱹᱛᱤᱞ",
+    "createPromotion": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱵᱮᱱᱟᱣ ᱢᱮ",
+    "creating": "ᱵᱮᱱᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ..."
+  },
+  "errors": {
+    "titleRequired": "ᱧᱩᱛᱩᱢ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "priceRequired": "ᱜᱚᱱᱚᱝ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "priceInvalid": "ᱜᱚᱱᱚᱝ ᱫᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱥᱟᱹᱨᱤ ᱮᱞ ᱞᱟᱹᱠᱛᱤ",
+    "redirectLinkRequired": "ᱨᱤᱰᱟᱭᱨᱮᱠᱴ ᱞᱤᱝᱠ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱜᱮᱭᱟ",
+    "redirectLinkInvalid": "ᱨᱤᱰᱟᱭᱨᱮᱠᱴ ᱞᱤᱝᱠ ᱫᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱥᱟᱹᱨᱤ URL ᱦᱩᱭ ᱞᱟᱹᱠᱛᱤ",
+    "metaDataInvalid": "Meta data ᱫᱚ ᱥᱟᱹᱨᱤ JSON ᱯᱷᱚᱨᱢᱟᱴ ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱞᱟᱹᱠᱛᱤ",
+    "failedToCreatePromotion": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ",
+    "unexpectedError": "ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝ ᱟᱥᱟ ᱟᱠᱟᱱ ᱵᱷᱩᱞ ᱦᱩᱭ ᱮᱱᱟ"
+  },
+  "success": {
+    "promotionCreated": "ᱯᱨᱳᱢᱳᱥᱚᱱ ᱱᱟᱯᱟᱭ ᱛᱮ ᱵᱮᱱᱟᱣ ᱮᱱᱟ"
+  }
+}
