@@ -4,12 +4,12 @@
   "selectBookMessage": "Bitte wählen Sie ein Buch aus, um Notizen anzuzeigen",
   "noChapterSelected": "Kein Kapitel ausgewählt",
   "selectChapterMessage": "Wählen Sie ein Kapitel aus, um Notizen anzuzeigen und zu erstellen",
-  "loadingNotes": "Notizen werden geladen...",
+  "loadingNotes": "Lade Notizen...",
   "noNotesYet": "Noch keine Notizen",
-  "startWritingMessage": "Beginnen Sie, Ihre Gedanken und Erkenntnisse zu diesem Kapitel zu schreiben",
+  "startWritingMessage": "Beginnen Sie, Ihre Gedanken und Erkenntnisse zu diesem Kapitel aufzuschreiben",
   "placeholder": "Schreiben Sie Ihre Notizen hier...",
   "cancel": "Abbrechen",
-  "saving": "Wird gespeichert...",
+  "saving": "Speichern...",
   "updateNote": "Notiz aktualisieren",
   "saveNote": "Notiz speichern",
   "editNote": "Notiz bearbeiten",
@@ -31,4 +31,3 @@
     "failedToSave": "Notiz konnte nicht gespeichert werden"
   }
 }
-

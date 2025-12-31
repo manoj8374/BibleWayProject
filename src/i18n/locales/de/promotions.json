@@ -1,8 +1,8 @@
 {
-  "title": "Aktionen",
-  "loading": "Aktionen werden geladen...",
-  "noPromotionsAvailable": "Keine Aktionen verfügbar",
+  "title": "Werbeaktionen",
+  "loading": "Lade Werbeaktionen...",
+  "noPromotionsAvailable": "Keine Werbeaktionen verfügbar",
   "viewDetails": "Details anzeigen",
   "buyNow": "Jetzt kaufen",
-  "failedToLoad": "Aktionen konnten nicht geladen werden"
+  "failedToLoad": "Werbeaktionen konnten nicht geladen werden"
 }

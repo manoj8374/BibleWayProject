@@ -1,8 +1,8 @@
 {
   "title": "Empfohlene Personen",
-  "searchPlaceholder": "Buch, Name, Autor suchen...",
+  "searchPlaceholder": "Suche Buch, Name, Autor...",
   "noResultsFound": "Keine Ergebnisse gefunden",
   "noRecommendationsAvailable": "Keine Empfehlungen verfügbar",
-  "following": "Folge ich",
+  "following": "Folgend",
   "follow": "+ Folgen"
 }

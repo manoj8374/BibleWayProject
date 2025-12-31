@@ -7,14 +7,14 @@
     "coverImage": "Titelbild"
   },
   "placeholders": {
-    "selectCategoryName": "Kategoriename auswählen",
+    "selectCategoryName": "Wählen Sie einen Kategorienamen",
     "enterDescription": "Kategoriebeschreibung eingeben (optional)"
   },
   "selected": "Ausgewählt:",
   "buttons": {
     "cancel": "Abbrechen",
     "createCategory": "Kategorie erstellen",
-    "creating": "Wird erstellt..."
+    "creating": "Erstellen..."
   },
   "errors": {
     "categoryNameRequired": "Kategoriename ist erforderlich",

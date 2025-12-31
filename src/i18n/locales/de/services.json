@@ -1,20 +1,23 @@
 {
   "auth": {
     "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten.",
-    "receivedToken": "Token erhalten"
+    "receivedToken": "Token empfangen"
   },
   "post": {
-    "unexpectedErrorPostCreation": "Ein unerwarteter Fehler ist beim Erstellen des Beitrags aufgetreten.",
+    "unexpectedErrorPostCreation": "Ein unerwarteter Fehler ist während der Beitragserstellung aufgetreten.",
     "failedToFetchPosts": "Beiträge konnten nicht abgerufen werden.",
     "failedToFetchUserPosts": "Benutzerbeiträge konnten nicht abgerufen werden.",
+    "failedToFetchPostDetails": "Beitragsdetails konnten nicht abgerufen werden.",
     "failedToUpdatePost": "Beitrag konnte nicht aktualisiert werden",
     "failedToDeletePost": "Beitrag konnte nicht gelöscht werden",
     "failedToCreateComment": "Kommentar konnte nicht erstellt werden.",
+    "failedToUpdateComment": "Kommentar konnte nicht aktualisiert werden.",
+    "failedToDeleteComment": "Kommentar konnte nicht gelöscht werden.",
     "failedToFetchComments": "Kommentare konnten nicht abgerufen werden.",
-    "failedToLikeComment": "Kommentar gefällt mir konnte nicht gesetzt werden.",
-    "failedToUnlikeComment": "Gefällt mir bei Kommentar konnte nicht entfernt werden.",
-    "failedToLikePost": "Beitrag gefällt mir konnte nicht gesetzt werden.",
-    "failedToUnlikePost": "Gefällt mir bei Beitrag konnte nicht entfernt werden."
+    "failedToLikeComment": "Kommentar konnte nicht geliked werden.",
+    "failedToUnlikeComment": "Like vom Kommentar konnte nicht entfernt werden.",
+    "failedToLikePost": "Beitrag konnte nicht geliked werden.",
+    "failedToUnlikePost": "Like vom Beitrag konnte nicht entfernt werden."
   },
   "user": {
     "failedToFetchUserProfile": "Benutzerprofil konnte nicht abgerufen werden.",
@@ -28,8 +31,8 @@
   },
   "verse": {
     "failedToLoadVerses": "Verse konnten nicht geladen werden",
-    "failedToLikeVerse": "Vers gefällt mir konnte nicht gesetzt werden",
-    "failedToUnlikeVerse": "Gefällt mir bei Vers konnte nicht entfernt werden"
+    "failedToLikeVerse": "Vers konnte nicht geliked werden",
+    "failedToUnlikeVerse": "Like vom Vers konnte nicht entfernt werden"
   },
   "admin": {
     "failedToLoadBooks": "Bücher konnten nicht geladen werden"

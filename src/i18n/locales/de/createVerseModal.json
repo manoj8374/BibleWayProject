@@ -1,6 +1,6 @@
 {
-  "title": "Täglich Zitat erstellen",
-  "note": "Hinweis: Das Erstellen eines neuen Verses löscht das vorhandene tägliche Zitat. Diese Aktion kann nicht rückgängig gemacht werden. Das neue Zitat wird sofort allen Benutzern angezeigt.",
+  "title": "Tageszitat erstellen",
+  "note": "Hinweis: Das Erstellen eines neuen Verses löscht das bestehende Tageszitat. Diese Aktion kann nicht rückgängig gemacht werden. Das neue Zitat wird allen Benutzern sofort angezeigt.",
   "labels": {
     "title": "Titel (Optional)",
     "quoteDescription": "Zitat / Beschreibung (Erforderlich)"
@@ -12,14 +12,19 @@
   "buttons": {
     "cancel": "Abbrechen",
     "publishQuote": "Zitat veröffentlichen",
-    "publishing": "Wird veröffentlicht..."
+    "publishing": "Veröffentlichen...",
+    "updateQuote": "Zitat aktualisieren",
+    "updating": "Aktualisieren..."
   },
   "errors": {
     "descriptionRequired": "Beschreibung ist erforderlich",
     "failedToCreateVerse": "Vers konnte nicht erstellt werden",
+    "failedToUpdateVerse": "Vers konnte nicht aktualisiert werden",
     "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten"
   },
   "success": {
-    "verseCreated": "Vers erfolgreich erstellt"
-  }
+    "verseCreated": "Vers erfolgreich erstellt",
+    "verseUpdated": "Vers erfolgreich aktualisiert"
+  },
+  "editTitle": "Vers bearbeiten"
 }

@@ -4,17 +4,19 @@
   "deleteConfirm": "Diesen Beitrag löschen?",
   "cancel": "Abbrechen",
   "save": "Speichern",
+  "saving": "Speichern...",
+  "deleting": "Löschen...",
   "likes": "Gefällt mir",
   "like": "Gefällt mir",
   "comments": "Kommentare",
-  "comment": "Kommentar",
+  "comment": "Kommentieren",
   "share": "Teilen",
   "shares": "Geteilt",
-  "writeComment": "Kommentar schreiben...",
+  "writeComment": "Schreiben Sie einen Kommentar...",
   "writeYourComment": "Schreiben Sie Ihren Kommentar...",
   "failedToComment": "Kommentieren fehlgeschlagen",
   "actionFailed": "Aktion fehlgeschlagen",
   "commentAdded": "Kommentar erfolgreich hinzugefügt",
   "failedToCreateComment": "Kommentar konnte nicht erstellt werden",
-  "failedToUpdateLike": "Gefällt-mir-Status konnte nicht aktualisiert werden"
+  "failedToUpdateLike": "Gefällt mir Status konnte nicht aktualisiert werden"
 }

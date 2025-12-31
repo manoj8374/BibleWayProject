@@ -1,10 +1,10 @@
 {
   "list": "Liste",
   "bookmark": "Lesezeichen",
-  "quickNote": "Schnellnotiz",
+  "quickNote": "Kurznotiz",
   "noChaptersAvailable": "Keine Kapitel verfügbar",
   "chapter": "Kapitel",
   "noChapterSelected": "Kein Kapitel ausgewählt",
-  "selectChapterToBegin": "Wählen Sie ein Kapitel aus der Seitenleiste aus, um mit dem Lesen zu beginnen",
+  "selectChapterToBegin": "Wählen Sie ein Kapitel aus der Seitenleiste, um mit dem Lesen zu beginnen",
   "ttsLanguage": "TTS-Sprache:"
 }

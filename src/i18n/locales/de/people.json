@@ -1,14 +1,14 @@
 {
   "searchPeople": "Personen suchen",
   "searchPeoplePlaceholder": "Personen suchen...",
-  "searching": "Suche...",
+  "searching": "Suchen...",
   "noUsersFound": "Keine Benutzer gefunden",
   "follow": "Folgen",
-  "following": "Folge ich",
+  "following": "Folgend",
   "failedToUpdateFollowStatus": "Follow-Status konnte nicht aktualisiert werden",
-  "loadingInbox": "Posteingang wird geladen...",
+  "loadingInbox": "Lade Posteingang...",
   "noMessages": "Keine Nachrichten",
-  "you": "Sie: ",
+  "you": "Du: ",
   "attachment": "Anhang",
   "noMessagesText": "Keine Nachrichten",
   "sticker": "📷 Sticker"

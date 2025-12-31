@@ -1,55 +1,71 @@
 {
   "homePage": {
     "posts": "Beiträge",
-    "prayerRequest": "Gebetsanfrage",
-    "createPrayerRequest": "Gebetsanfrage erstellen",
+    "prayerRequest": "Gebetsanliegen",
+    "categories": "Bücher",
+    "createPrayerRequest": "Gebetsanliegen erstellen",
     "loading": "Laden...",
-    "noItemsFound": "Keine Einträge gefunden.",
+    "noItemsFound": "Keine Elemente gefunden.",
     "unknownUser": "Unbekannter Benutzer",
-    "member": "Mitglied"
+    "member": "Mitglied",
+    "languagesVersions": {
+      "title": "Sprachen & Versionen",
+      "description": "Demnächst verfügbar"
+    }
   },
   "profilePage": {
     "myPosts": "Meine Beiträge",
-    "myPrayerRequests": "Meine Gebetsanfragen",
-    "loadingContent": "Inhalt wird geladen...",
-    "noItemsFound": "Keine Einträge gefunden.",
+    "myPrayerRequests": "Meine Gebetsanliegen",
+    "loadingContent": "Lade Inhalt...",
+    "noItemsFound": "Keine Elemente gefunden.",
     "username": "Benutzername",
     "email": "E-Mail",
     "country": "Land",
     "age": "Alter",
     "preferredLanguage": "Bevorzugte Sprache",
-    "logOut": "abmelden",
+    "logOut": "Abmelden",
     "loading": "Laden...",
     "postDeletedSuccessfully": "Beitrag erfolgreich gelöscht",
     "postUpdatedSuccessfully": "Beitrag erfolgreich aktualisiert",
     "failedToDeletePost": "Beitrag konnte nicht gelöscht werden",
     "failedToUpdatePost": "Beitrag konnte nicht aktualisiert werden",
     "failedToLoadProfile": "Profil konnte nicht geladen werden",
-    "you": "Sie"
+    "you": "Du",
+    "followers": "Follower",
+    "following": "Folgend",
+    "follow": "Folgen",
+    "failedToLoadFollowers": "Follower konnten nicht geladen werden",
+    "failedToLoadFollowing": "Gefolgte konnten nicht geladen werden",
+    "userNotFound": "Benutzer nicht gefunden",
+    "followedSuccessfully": "Erfolgreich gefolgt",
+    "unfollowedSuccessfully": "Erfolgreich entfolgt",
+    "failedToUpdateFollowStatus": "Follow-Status konnte nicht aktualisiert werden",
+    "noFollowers": "Noch keine Follower",
+    "noFollowing": "Du folgst noch niemandem"
   },
   "peoplePage": {
-    "noConversationSelected": "Keine Konversation ausgewählt",
-    "selectConversationDescription": "Bitte wählen Sie eine Konversation aus der Liste aus, um eine Unterhaltung zu beginnen"
+    "noConversationSelected": "Keine Unterhaltung ausgewählt",
+    "selectConversationDescription": "Bitte wählen Sie eine Unterhaltung aus der Liste, um zu chatten"
   },
   "downloadsPage": {
     "downloads": "Downloads",
-    "loadingWallpapers": "Hintergrundbilder werden geladen...",
+    "loadingWallpapers": "Lade Hintergrundbilder...",
     "noWallpapersAvailable": "Keine Hintergrundbilder verfügbar",
-    "downloading": "Wird heruntergeladen...",
+    "downloading": "Herunterladen...",
     "download": "Herunterladen",
     "failedToLoadWallpapers": "Hintergrundbilder konnten nicht geladen werden",
     "failedToDownload": "Download fehlgeschlagen"
   },
   "bookmarksPage": {
     "myBookmarks": "Meine Lesezeichen",
-    "loadingBookmarks": "Lesezeichen werden geladen...",
+    "loadingBookmarks": "Lade Lesezeichen...",
     "noBookmarksYet": "Noch keine Lesezeichen",
     "continueReading": "Weiterlesen",
     "failedToLoadBookmarks": "Lesezeichen konnten nicht geladen werden"
   },
   "versesPage": {
     "verses": "Verse",
-    "loadingVerses": "Verse werden geladen...",
+    "loadingVerses": "Lade Verse...",
     "noVersesAvailable": "Noch keine Verse verfügbar.",
     "likes": "Gefällt mir",
     "failedToLoadVerses": "Verse konnten nicht geladen werden",
@@ -59,38 +75,45 @@
     "invalidUserId": "Ungültige Benutzer-ID"
   },
   "postViewPage": {
-    "loading": "Beitrag wird geladen...",
+    "loading": "Lade Beitrag...",
     "invalidPostId": "Ungültige Beitrags-ID",
     "postNotFound": "Beitrag nicht gefunden",
     "failedToLoadPost": "Beitrag konnte nicht geladen werden"
   },
   "prayerRequestViewPage": {
-    "loading": "Gebetsanfrage wird geladen...",
-    "invalidRequestId": "Ungültige Gebetsanfrage-ID",
-    "requestNotFound": "Gebetsanfrage nicht gefunden",
-    "failedToLoadRequest": "Gebetsanfrage konnte nicht geladen werden"
+    "loading": "Lade Gebetsanliegen...",
+    "invalidRequestId": "Ungültige Anfrage-ID",
+    "requestNotFound": "Gebetsanliegen nicht gefunden",
+    "failedToLoadRequest": "Gebetsanliegen konnte nicht geladen werden"
   },
   "segregatedBiblesPage": {
     "segregatedBibles": "Getrennte Bibeln"
   },
+  "bibleReaderPage": {
+    "title": "Bibel-Reader",
+    "loadingBooks": "Lade Bücher...",
+    "failedToLoadBooks": "Bücher konnten nicht geladen werden",
+    "noBooksFound": "Keine Bücher gefunden",
+    "noDescription": "Keine Beschreibung verfügbar"
+  },
   "bibleViewer": {
-    "loading": "Wird geladen…"
+    "loading": "Laden…"
   },
   "adminDashboard": {
     "dashboard": "Dashboard",
-    "createPromotion": "Aktion erstellen",
+    "createPromotion": "Werbeaktion erstellen",
     "createCategory": "Kategorie erstellen",
     "welcomeAdmin": "Willkommen, Admin",
-    "welcomeDescription": "Hier können Sie den Anwendungsinhalt verwalten. Verwenden Sie die Seitenleiste, um zu bestimmten Verwaltungsbereichen zu navigieren.",
+    "welcomeDescription": "Hier können Sie den App-Inhalt verwalten. Verwenden Sie die Seitenleiste, um zu bestimmten Verwaltungsbereichen zu navigieren.",
     "dailyVerse": "Tagesvers",
-    "dailyVerseDescription": "Aktualisieren Sie den Tagesvers, der allen Benutzern angezeigt wird. Dies wird automatisch alle 24 Stunden zurückgesetzt.",
+    "dailyVerseDescription": "Aktualisieren Sie das Tageszitat, das allen Benutzern angezeigt wird. Dies wird alle 24 Stunden automatisch zurückgesetzt.",
     "bookManagement": "Buchverwaltung",
-    "bookManagementDescription": "Laden Sie neue Bücher im Markdown-Format hoch. Das System analysiert automatisch Kapitel und Verse."
+    "bookManagementDescription": "Laden Sie neue Bücher im Markdown-Format hoch. Das System parst Kapitel und Verse automatisch."
   },
   "createBook": {
     "books": "Bücher",
     "uploadBook": "Buch hochladen",
-    "loadingBooks": "Bücher werden geladen...",
+    "loadingBooks": "Lade Bücher...",
     "noBooksYet": "Noch keine Bücher. Klicken Sie auf \"Buch hochladen\", um Ihr erstes Buch hinzuzufügen.",
     "failedToLoadBooks": "Bücher konnten nicht geladen werden",
     "category": "Kategorie",
@@ -101,13 +124,19 @@
   "createVerse": {
     "verses": "Verse",
     "createVerse": "Vers erstellen",
-    "loadingVerses": "Verse werden geladen...",
+    "loadingVerses": "Lade Verse...",
     "noVersesYet": "Noch keine Verse. Klicken Sie auf \"Vers erstellen\", um Ihren ersten Vers hinzuzufügen.",
     "failedToLoadVerses": "Verse konnten nicht geladen werden",
-    "quoteOfTheDay": "Vers des Tages",
+    "quoteOfTheDay": "Zitat des Tages",
     "likes": "Gefällt mir",
     "created": "Erstellt",
-    "updated": "Aktualisiert"
+    "updated": "Aktualisiert",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "deleting": "Löschen...",
+    "confirmDelete": "Sind Sie sicher, dass Sie diesen Vers löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deletedSuccessfully": "Vers erfolgreich gelöscht",
+    "failedToDelete": "Vers konnte nicht gelöscht werden"
   },
   "loginPage": {
     "logIn": "Anmelden",
@@ -117,9 +146,9 @@
     "password": "Passwort",
     "staySignedIn": "Angemeldet bleiben",
     "forgotPassword": "Passwort vergessen?",
-    "loggingIn": "Wird angemeldet...",
+    "loggingIn": "Anmelden...",
     "login": "Anmelden",
-    "needAnAccount": "Benötigen Sie ein Konto?",
+    "needAnAccount": "Brauchen Sie ein Konto?",
     "createOne": "Erstellen",
     "loginSuccessful": "Anmeldung erfolgreich"
   },
@@ -138,12 +167,80 @@
     "noLanguagesFound": "Keine Sprachen gefunden",
     "searchCountries": "Länder suchen...",
     "noCountriesFound": "Keine Länder gefunden",
-    "creatingAccount": "Konto wird erstellt...",
+    "creatingAccount": "Erstelle Konto...",
     "signUpButton": "Registrieren",
-    "alreadyHaveAccount": "Bereits ein Konto?",
+    "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
     "logIn": "Anmelden",
     "signupSuccessful": "Registrierung erfolgreich",
-    "passwordsDoNotMatch": "Die Passwörter stimmen nicht überein"
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+    "forgotPassword": "Passwort vergessen?",
+    "clickHere": "Klicken Sie hier"
+  },
+  "forgotPassword": {
+    "forgotPassword": "Passwort vergessen",
+    "resetPassword": "Passwort zurücksetzen",
+    "email": "E-Mail",
+    "otp": "OTP",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "sendOTP": "OTP senden",
+    "sending": "Senden...",
+    "resetting": "Zurücksetzen...",
+    "rememberPassword": "Passwort eingefallen?",
+    "backToLogin": "Zurück zur Anmeldung",
+    "emailRequired": "E-Mail ist erforderlich",
+    "otpRequired": "OTP ist erforderlich",
+    "passwordRequired": "Passwort ist erforderlich",
+    "passwordMinLength": "Das Passwort muss mindestens 8 Zeichen lang sein",
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+    "failedToSendOTP": "OTP konnte nicht gesendet werden",
+    "failedToResetPassword": "Passwort konnte nicht zurückgesetzt werden"
+  },
+  "notesPage": {
+    "title": "Meine Notizen",
+    "loading": "Lade Notizen...",
+    "noNotes": "Keine Notizen gefunden",
+    "failedToLoad": "Notizen konnten nicht geladen werden",
+    "note": "Notiz",
+    "notes": "Notizen",
+    "noChapter": "Kein Kapitel",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "saving": "Speichern...",
+    "edited": "Bearbeitet",
+    "updatedSuccessfully": "Notiz erfolgreich aktualisiert",
+    "deletedSuccessfully": "Notiz erfolgreich gelöscht",
+    "failedToUpdate": "Notiz konnte nicht aktualisiert werden",
+    "failedToDelete": "Notiz konnte nicht gelöscht werden",
+    "contentRequired": "Notizinhalt ist erforderlich",
+    "confirmDelete": "Sind Sie sicher, dass Sie diese Notiz löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "notePlaceholder": "Geben Sie Ihre Notiz hier ein..."
+  },
+  "readingNotesPage": {
+    "title": "Lesehinweise",
+    "loading": "Lade Ihre Notizen...",
+    "noNotes": "Sie haben noch keine Notizen erstellt",
+    "noNotesForBook": "Keine Notizen für dieses Buch gefunden",
+    "failedToLoad": "Notizen konnten nicht geladen werden",
+    "note": "Notiz",
+    "notes": "Notizen",
+    "noChapter": "Kein Kapitel",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "saving": "Speichern...",
+    "edited": "Bearbeitet",
+    "updatedSuccessfully": "Notiz erfolgreich aktualisiert",
+    "deletedSuccessfully": "Notiz erfolgreich gelöscht",
+    "failedToUpdate": "Notiz konnte nicht aktualisiert werden",
+    "failedToDelete": "Notiz konnte nicht gelöscht werden",
+    "contentRequired": "Notizinhalt ist erforderlich",
+    "confirmDelete": "Sind Sie sicher, dass Sie diese Notiz löschen möchten?",
+    "notePlaceholder": "Geben Sie Ihre Notiz hier ein...",
+    "openBook": "Buch öffnen",
+    "viewNotes": "Notizen ansehen"
   }
 }
-

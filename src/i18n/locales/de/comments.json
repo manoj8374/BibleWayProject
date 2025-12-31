@@ -1,11 +1,25 @@
 {
-  "loading": "Kommentare werden geladen...",
+  "loading": "Lade Kommentare...",
   "error": "Kommentare konnten nicht geladen werden",
   "noComments": "Noch keine Kommentare. Seien Sie der Erste, der etwas sagt!",
+  "emptyComment": "Kommentar darf nicht leer sein",
+  "commentUpdated": "Kommentar erfolgreich aktualisiert",
+  "failedToUpdate": "Kommentar konnte nicht aktualisiert werden",
+  "deleteConfirm": "Sind Sie sicher, dass Sie diesen Kommentar löschen möchten?",
+  "commentDeleted": "Kommentar erfolgreich gelöscht",
+  "failedToDelete": "Kommentar konnte nicht gelöscht werden",
+  "writeComment": "Schreiben Sie einen Kommentar...",
+  "deleteModal": {
+    "title": "Kommentar löschen",
+    "description": "Sind Sie sicher, dass Sie diesen Kommentar löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "deleting": "Löschen..."
+  },
   "time": {
     "justNow": "Gerade eben",
     "minutesAgo": "vor {{count}} Min.",
     "hoursAgo": "vor {{count}} Std.",
-    "daysAgo": "vor {{count}} Tag"
+    "daysAgo": "vor {{count}} Tagen"
   }
 }

@@ -8,20 +8,20 @@
     "language": "Sprache *",
     "bookTitle": "Titel *",
     "description": "Beschreibung",
-    "bookOrder": "Buchreihenfolge"
+    "bookOrder": "Buchbestellung"
   },
   "placeholders": {
-    "selectCategory": "Kategorie auswählen",
-    "selectAgeGroup": "Altersgruppe auswählen",
-    "selectLanguage": "Sprache auswählen",
+    "selectCategory": "Wählen Sie eine Kategorie",
+    "selectAgeGroup": "Wählen Sie eine Altersgruppe",
+    "selectLanguage": "Wählen Sie eine Sprache",
     "enterBookTitle": "Buchtitel eingeben",
     "enterBookDescription": "Buchbeschreibung eingeben (optional)"
   },
   "loading": {
-    "categories": "Kategorien werden geladen...",
-    "ageGroups": "Altersgruppen werden geladen...",
-    "languages": "Sprachen werden geladen...",
-    "uploading": "Wird hochgeladen..."
+    "categories": "Lade Kategorien...",
+    "ageGroups": "Lade Altersgruppen...",
+    "languages": "Lade Sprachen...",
+    "uploading": "Hochladen..."
   },
   "selected": "Ausgewählt:",
   "buttons": {

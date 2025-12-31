@@ -1,26 +1,26 @@
 {
-  "title": "Aktion erstellen",
+  "title": "Werbeaktion erstellen",
   "labels": {
     "title": "Titel *",
     "description": "Beschreibung",
-    "price": "Preis *",
+    "price": "Preis",
     "redirectLink": "Weiterleitungslink *",
     "metaData": "Metadaten (JSON)",
     "mediaFile": "Mediendatei (Bild/Video/Audio)",
-    "images": "Bilder (Mehrfach)"
+    "images": "Bilder (Mehrere)"
   },
   "placeholders": {
-    "enterPromotionTitle": "Aktionstitel eingeben",
-    "enterDescription": "Aktionsbeschreibung eingeben (optional)",
+    "enterPromotionTitle": "Werbetitel eingeben",
+    "enterDescription": "Werbebeschreibung eingeben (optional)",
     "price": "0.00",
-    "redirectLink": "https://example.com",
-    "metaData": "{\"key\": \"value\"}"
+    "redirectLink": "https://beispiel.de",
+    "metaData": "{\"schluessel\": \"wert\"}"
   },
   "selected": "Ausgewählt:",
   "buttons": {
     "cancel": "Abbrechen",
-    "createPromotion": "Aktion erstellen",
-    "creating": "Wird erstellt..."
+    "createPromotion": "Werbeaktion erstellen",
+    "creating": "Erstellen..."
   },
   "errors": {
     "titleRequired": "Titel ist erforderlich",
@@ -28,11 +28,11 @@
     "priceInvalid": "Preis muss eine gültige Zahl sein",
     "redirectLinkRequired": "Weiterleitungslink ist erforderlich",
     "redirectLinkInvalid": "Weiterleitungslink muss eine gültige URL sein",
-    "metaDataInvalid": "Metadaten müssen im gültigen JSON-Format sein",
-    "failedToCreatePromotion": "Aktion konnte nicht erstellt werden",
+    "metaDataInvalid": "Metadaten müssen im gültigen JSON-Format vorliegen",
+    "failedToCreatePromotion": "Werbeaktion konnte nicht erstellt werden",
     "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten"
   },
   "success": {
-    "promotionCreated": "Aktion erfolgreich erstellt"
+    "promotionCreated": "Werbeaktion erfolgreich erstellt"
   }
 }

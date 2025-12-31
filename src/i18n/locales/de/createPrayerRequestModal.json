@@ -1,5 +1,5 @@
 {
-  "title": "Gebetsanfrage",
+  "title": "Gebetsanliegen",
   "labels": {
     "description": "Beschreibung",
     "name": "Name",
@@ -11,24 +11,24 @@
     "enterDescription": "Bitte beten Sie für die Gesundheit meiner Familie...",
     "yourName": "Ihr Name",
     "yourEmail": "Ihre E-Mail-Adresse",
-    "phoneNumber": "8023456789"
+    "phoneNumber": "0123456789"
   },
   "upload": {
-    "uploadText": "Bilder oder Videos hochladen (Max. 5 Dateien, je 10MB)",
+    "uploadText": "Bilder oder Videos hochladen (Max. 5 Dateien, je 10 MB)",
     "addMoreFiles": "+ Weitere Dateien hinzufügen"
   },
   "buttons": {
-    "submitPrayerRequest": "Gebetsanfrage absenden",
-    "submitting": "Wird gesendet..."
+    "submitPrayerRequest": "Gebetsanliegen absenden",
+    "submitting": "Absenden..."
   },
   "errors": {
-    "descriptionRequired": "Bitte geben Sie eine Beschreibung für Ihre Gebetsanfrage ein.",
-    "failedToCreateRequest": "Gebetsanfrage konnte nicht erstellt werden.",
+    "descriptionRequired": "Bitte geben Sie eine Beschreibung für Ihr Gebetsanliegen ein.",
+    "failedToCreateRequest": "Gebetsanliegen konnte nicht erstellt werden.",
     "maxFilesExceeded": "Sie können maximal 5 Dateien hochladen.",
     "invalidFileType": "Ungültiger Dateityp: {{filename}}. Nur Bilder und Videos sind erlaubt.",
-    "fileSizeExceeded": "Dateigröße überschreitet das Limit von 10MB: {{filename}}"
+    "fileSizeExceeded": "Dateigröße überschreitet das Limit von 10 MB: {{filename}}"
   },
   "success": {
-    "requestCreated": "Gebetsanfrage erfolgreich erstellt!"
+    "requestCreated": "Gebetsanliegen erfolgreich erstellt!"
   }
 }

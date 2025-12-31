@@ -1,0 +1,24 @@
+{
+  "title": "Beitrag bearbeiten",
+  "labels": {
+    "title": "Titel",
+    "description": "Beschreibung",
+    "media": "Medien"
+  },
+  "placeholders": {
+    "enterPostTitle": "Beitragstitel eingeben...",
+    "enterDescription": "Beschreibung eingeben..."
+  },
+  "buttons": {
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "updating": "Aktualisieren..."
+  },
+  "errors": {
+    "noChanges": "Keine Änderungen erkannt",
+    "failedToUpdatePost": "Beitrag konnte nicht aktualisiert werden"
+  },
+  "success": {
+    "postUpdated": "Beitrag erfolgreich aktualisiert"
+  }
+}

@@ -14,7 +14,7 @@
   },
   "buttons": {
     "createPost": "Beitrag erstellen",
-    "creating": "Wird erstellt..."
+    "creating": "Erstellen..."
   },
   "errors": {
     "maxFilesExceeded": "Sie können maximal 5 Dateien hochladen.",
