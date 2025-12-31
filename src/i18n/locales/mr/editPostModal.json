@@ -1,0 +1,25 @@
+{
+  "title": "पोस्ट संपादन करा",
+  "labels": {
+    "title": "शीर्षक",
+    "description": "वर्णन",
+    "media": "मीडिया"
+  },
+  "placeholders": {
+    "enterPostTitle": "पोस्ट शीर्षक प्रविष्ट करा...",
+    "enterDescription": "वर्णन प्रविष्ट करा..."
+  },
+  "buttons": {
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "updating": "अपडेट होत आहे..."
+  },
+  "errors": {
+    "noChanges": "कोणतेही बदल आढळले नाहीत",
+    "failedToUpdatePost": "पोस्ट अपडेट करण्यात अयशस्वी"
+  },
+  "success": {
+    "postUpdated": "पोस्ट यशस्वीरित्या अपडेट झाला"
+  }
+}
+

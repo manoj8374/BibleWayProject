@@ -1,0 +1,19 @@
+{
+  "title": "सूचना",
+  "markAllAsRead": "सर्व वाचले म्हणून चिन्हांकित करा",
+  "loading": "सूचना लोड होत आहेत...",
+  "noNotifications": "अजून सूचना नाहीत",
+  "allCaughtUp": "तुम्ही सर्व पूर्ण केले!",
+  "justNow": "आत्ता",
+  "minuteAgo": "{{count}} मिनिटापूर्वी",
+  "minutesAgo": "{{count}} मिनिटांपूर्वी",
+  "hourAgo": "{{count}} तासापूर्वी",
+  "hoursAgo": "{{count}} तासांपूर्वी",
+  "dayAgo": "{{count}} दिवसापूर्वी",
+  "daysAgo": "{{count}} दिवसांपूर्वी",
+  "weekAgo": "{{count}} आठवड्यापूर्वी",
+  "weeksAgo": "{{count}} आठवड्यांपूर्वी",
+  "monthAgo": "{{count}} महिन्यापूर्वी",
+  "monthsAgo": "{{count}} महिन्यांपूर्वी"
+}
+

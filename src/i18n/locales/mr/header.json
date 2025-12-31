@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "पुस्तक, नाव, लेखक शोधा...",
+  "addNewPost": "नवीन पोस्ट जोडा",
+  "noResultsFound": "निकाल सापडले नाहीत",
+  "languageSelector": {
+    "searchLanguages": "भाषा शोधा...",
+    "noLanguagesFound": "भाषा सापडल्या नाहीत"
+  },
+  "filter": {
+    "selectLanguage": "भाषा निवडा",
+    "selectVersion": "पुस्तक निवडा"
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "title": "प्रार्थना विनंती",
+  "labels": {
+    "description": "वर्णन",
+    "name": "नाव",
+    "email": "ईमेल",
+    "phoneNumber": "फोन नंबर (पर्यायी)",
+    "media": "मीडिया (पर्यायी)"
+  },
+  "placeholders": {
+    "enterDescription": "कृपया माझ्या कुटुंबाच्या आरोग्यासाठी प्रार्थना करा...",
+    "yourName": "तुमचे नाव",
+    "yourEmail": "तुमचा ईमेल पत्ता",
+    "phoneNumber": "8023456789"
+  },
+  "upload": {
+    "uploadText": "प्रतिमा किंवा व्हिडिओ अपलोड करा (कमाल ५ फाइल, प्रत्येकी १०MB)",
+    "addMoreFiles": "+ अधिक फाइल जोडा"
+  },
+  "buttons": {
+    "submitPrayerRequest": "प्रार्थना विनंती सबमिट करा",
+    "submitting": "सबमिट होत आहे..."
+  },
+  "errors": {
+    "descriptionRequired": "कृपया तुमच्या प्रार्थना विनंतीसाठी वर्णन प्रविष्ट करा.",
+    "failedToCreateRequest": "प्रार्थना विनंती तयार करण्यात अयशस्वी.",
+    "maxFilesExceeded": "तुम्ही कमाल ५ फाइल अपलोड करू शकता.",
+    "invalidFileType": "अवैध फाइल प्रकार: {{filename}}. फक्त प्रतिमा आणि व्हिडिओ परवानगी आहेत.",
+    "fileSizeExceeded": "फाइल आकार १०MB मर्यादेपेक्षा जास्त आहे: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "प्रार्थना विनंती यशस्वीरित्या तयार झाली!"
+  }
+}
+

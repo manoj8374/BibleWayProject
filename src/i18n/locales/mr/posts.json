@@ -1,0 +1,23 @@
+{
+  "edit": "संपादन करा",
+  "delete": "हटवा",
+  "deleteConfirm": "हे पोस्ट हटवायचे?",
+  "cancel": "रद्द करा",
+  "save": "जतन करा",
+  "saving": "जतन होत आहे...",
+  "deleting": "हटवत आहे...",
+  "likes": "लाइक्स",
+  "like": "लाइक",
+  "comments": "टिप्पण्या",
+  "comment": "टिप्पणी",
+  "share": "शेअर करा",
+  "shares": "शेअर्स",
+  "writeComment": "टिप्पणी लिहा...",
+  "writeYourComment": "आपली टिप्पणी लिहा...",
+  "failedToComment": "टिप्पणी करण्यात अयशस्वी",
+  "actionFailed": "क्रिया अयशस्वी",
+  "commentAdded": "टिप्पणी यशस्वीरित्या जोडली",
+  "failedToCreateComment": "टिप्पणी तयार करण्यात अयशस्वी",
+  "failedToUpdateLike": "लाइक स्थिती अपडेट करण्यात अयशस्वी"
+}
+

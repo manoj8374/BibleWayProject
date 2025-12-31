@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "unexpectedError": "अनपेक्षित त्रुटी आली.",
+    "receivedToken": "टोकन प्राप्त झाले"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "पोस्ट तयार करताना अनपेक्षित त्रुटी आली.",
+    "failedToFetchPosts": "पोस्ट मिळवण्यात अयशस्वी.",
+    "failedToFetchUserPosts": "वापरकर्ता पोस्ट मिळवण्यात अयशस्वी.",
+    "failedToFetchPostDetails": "पोस्ट तपशील मिळवण्यात अयशस्वी.",
+    "failedToUpdatePost": "पोस्ट अपडेट करण्यात अयशस्वी",
+    "failedToDeletePost": "पोस्ट हटवण्यात अयशस्वी",
+    "failedToCreateComment": "टिप्पणी तयार करण्यात अयशस्वी.",
+    "failedToUpdateComment": "टिप्पणी अपडेट करण्यात अयशस्वी.",
+    "failedToDeleteComment": "टिप्पणी हटवण्यात अयशस्वी.",
+    "failedToFetchComments": "टिप्पण्या मिळवण्यात अयशस्वी.",
+    "failedToLikeComment": "टिप्पणीला लाइक करण्यात अयशस्वी.",
+    "failedToUnlikeComment": "टिप्पणीतून लाइक काढण्यात अयशस्वी.",
+    "failedToLikePost": "पोस्टला लाइक करण्यात अयशस्वी.",
+    "failedToUnlikePost": "पोस्टमधून लाइक काढण्यात अयशस्वी."
+  },
+  "user": {
+    "failedToFetchUserProfile": "वापरकर्ता प्रोफाइल मिळवण्यात अयशस्वी.",
+    "failedToFollowUser": "वापरकर्त्याला फॉलो करण्यात अयशस्वी.",
+    "failedToUnfollowUser": "वापरकर्त्याला अनफॉलो करण्यात अयशस्वी.",
+    "failedToGetRecommendedUsers": "शिफारस केलेले वापरकर्ते मिळवण्यात अयशस्वी.",
+    "failedToGetUserProfile": "वापरकर्ता प्रोफाइल मिळवण्यात अयशस्वी."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "वॉलपेपर लोड करण्यात अयशस्वी"
+  },
+  "verse": {
+    "failedToLoadVerses": "वचने लोड करण्यात अयशस्वी",
+    "failedToLikeVerse": "वचनाला लाइक करण्यात अयशस्वी",
+    "failedToUnlikeVerse": "वचनातून लाइक काढण्यात अयशस्वी"
+  },
+  "admin": {
+    "failedToLoadBooks": "पुस्तके लोड करण्यात अयशस्वी"
+  }
+}
+

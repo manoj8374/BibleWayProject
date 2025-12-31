@@ -1,0 +1,10 @@
+{
+  "buttonText": "Google सह सुरू ठेवा",
+  "success": {
+    "loginSuccessful": "लॉगिन यशस्वी"
+  },
+  "errors": {
+    "loginFailed": "लॉगिन अयशस्वी"
+  }
+}
+

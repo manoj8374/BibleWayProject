@@ -1,0 +1,39 @@
+{
+  "loading": "लोड होत आहे...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute ProfileProvider च्या आत वापरले जाणे आवश्यक आहे"
+  },
+  "testimonials": {
+    "title": "प्रमाणपत्र व्यवस्थापन",
+    "pending": "प्रलंबित",
+    "verified": "सत्यापित",
+    "all": "सर्व",
+    "loading": "प्रमाणपत्रे लोड होत आहेत...",
+    "noTestimonials": "प्रमाणपत्रे सापडली नाहीत",
+    "approve": "मंजूर करा",
+    "reject": "नाकारा",
+    "processing": "प्रक्रिया होत आहे...",
+    "approvedSuccessfully": "प्रमाणपत्र यशस्वीरित्या मंजूर झाले",
+    "rejectedSuccessfully": "प्रमाणपत्र यशस्वीरित्या नाकारले",
+    "failedToLoad": "प्रमाणपत्रे लोड करण्यात अयशस्वी",
+    "failedToApprove": "प्रमाणपत्र मंजूर करण्यात अयशस्वी",
+    "failedToReject": "प्रमाणपत्र नाकारण्यात अयशस्वी",
+    "confirmReject": "तुम्हाला खात्री आहे की तुम्ही हे प्रमाणपत्र नाकारू इच्छिता? ही क्रिया पूर्ववत करता येणार नाही.",
+    "previous": "मागील",
+    "next": "पुढील",
+    "pageInfo": "पृष्ठ {{current}} / {{total}}"
+  },
+  "promotions": {
+    "title": "प्रचार व्यवस्थापन",
+    "loading": "प्रचार लोड होत आहेत...",
+    "noPromotions": "प्रचार सापडले नाहीत",
+    "delete": "हटवा",
+    "cancel": "रद्द करा",
+    "processing": "प्रक्रिया होत आहे...",
+    "deletedSuccessfully": "प्रचार यशस्वीरित्या हटवला",
+    "failedToLoad": "प्रचार लोड करण्यात अयशस्वी",
+    "failedToDelete": "प्रचार हटवण्यात अयशस्वी",
+    "confirmDelete": "तुम्हाला खात्री आहे की तुम्ही हा प्रचार हटवू इच्छिता? ही क्रिया पूर्ववत करता येणार नाही."
+  }
+}
+
