@@ -1,0 +1,24 @@
+{
+  "title": "পোস্ট সম্পাদনা করুন",
+  "labels": {
+    "title": "শিরোনাম",
+    "description": "বিবরণ",
+    "media": "মিডিয়া"
+  },
+  "placeholders": {
+    "enterPostTitle": "পোস্টের শিরোনাম লিখুন...",
+    "enterDescription": "বিবরণ লিখুন..."
+  },
+  "buttons": {
+    "cancel": "বাতিল",
+    "save": "সংরক্ষণ করুন",
+    "updating": "আপডেট করা হচ্ছে..."
+  },
+  "errors": {
+    "noChanges": "কোন পরিবর্তন শনাক্ত হয়নি",
+    "failedToUpdatePost": "পোস্ট আপডেট করতে ব্যর্থ"
+  },
+  "success": {
+    "postUpdated": "পোস্ট সফলভাবে আপডেট করা হয়েছে"
+  }
+}
