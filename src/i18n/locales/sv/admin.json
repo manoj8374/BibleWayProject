@@ -1,0 +1,38 @@
+{
+  "loading": "Laddar...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute måste användas inom en ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Hantering av vittnesbörd",
+    "pending": "Väntande",
+    "verified": "Verifierad",
+    "all": "Alla",
+    "loading": "Laddar vittnesbörd...",
+    "noTestimonials": "Inga vittnesbörd hittades",
+    "approve": "Godkänn",
+    "reject": "Avvisa",
+    "processing": "Bearbetar...",
+    "approvedSuccessfully": "Vittnesbörd godkänt",
+    "rejectedSuccessfully": "Vittnesbörd avvisat",
+    "failedToLoad": "Misslyckades med att ladda vittnesbörd",
+    "failedToApprove": "Misslyckades med att godkänna vittnesbörd",
+    "failedToReject": "Misslyckades med att avvisa vittnesbörd",
+    "confirmReject": "Är du säker på att du vill avvisa detta vittnesbörd? Denna åtgärd kan inte ångras.",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "pageInfo": "Sida {{current}} av {{total}}"
+  },
+  "promotions": {
+    "title": "Kampanjhantering",
+    "loading": "Laddar kampanjer...",
+    "noPromotions": "Inga kampanjer hittades",
+    "delete": "Ta bort",
+    "cancel": "Avbryt",
+    "processing": "Bearbetar...",
+    "deletedSuccessfully": "Kampanj borttagen",
+    "failedToLoad": "Misslyckades med att ladda kampanjer",
+    "failedToDelete": "Misslyckades med att ta bort kampanj",
+    "confirmDelete": "Är du säker på att du vill ta bort denna kampanj? Denna åtgärd kan inte ångras."
+  }
+}

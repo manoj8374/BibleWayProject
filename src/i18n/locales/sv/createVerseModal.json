@@ -1,0 +1,30 @@
+{
+  "title": "Skapa dagens citat",
+  "note": "Obs: Att skapa en ny vers raderar det befintliga dagens citat. Denna åtgärd kan inte ångras. Det nya citatet kommer att visas för alla användare omedelbart.",
+  "labels": {
+    "title": "Titel (Valfritt)",
+    "quoteDescription": "Citat / Beskrivning (Krävs)"
+  },
+  "placeholders": {
+    "title": "t.ex. Dagens citat",
+    "quoteDescription": "Ange skriften eller citatet här..."
+  },
+  "buttons": {
+    "cancel": "Avbryt",
+    "publishQuote": "Publicera citat",
+    "publishing": "Publicerar...",
+    "updateQuote": "Uppdatera citat",
+    "updating": "Uppdaterar..."
+  },
+  "errors": {
+    "descriptionRequired": "Beskrivning krävs",
+    "failedToCreateVerse": "Misslyckades med att skapa vers",
+    "failedToUpdateVerse": "Misslyckades med att uppdatera vers",
+    "unexpectedError": "Ett oväntat fel inträffade"
+  },
+  "success": {
+    "verseCreated": "Vers skapad",
+    "verseUpdated": "Vers uppdaterad"
+  },
+  "editTitle": "Redigera vers"
+}

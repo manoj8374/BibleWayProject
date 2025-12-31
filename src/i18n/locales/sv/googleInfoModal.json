@@ -1,0 +1,19 @@
+{
+  "title": "Slutför registrering",
+  "description": "Vi behöver några fler detaljer för att slutföra ditt konto.",
+  "labels": {
+    "age": "Ålder",
+    "language": "Språk",
+    "country": "Land"
+  },
+  "placeholders": {
+    "age": "t.ex. 25",
+    "language": "t.ex. Svenska",
+    "country": "t.ex. Sverige"
+  },
+  "buttons": {
+    "cancel": "Avbryt",
+    "continue": "Fortsätt",
+    "creating": "Skapar..."
+  }
+}

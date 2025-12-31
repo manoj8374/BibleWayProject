@@ -1,0 +1,33 @@
+{
+  "title": "Kapitelanteckningar",
+  "noBookSelected": "Inget bok vald",
+  "selectBookMessage": "Välj en bok för att se anteckningar",
+  "noChapterSelected": "Inget kapitel valt",
+  "selectChapterMessage": "Välj ett kapitel för att se och skapa anteckningar",
+  "loadingNotes": "Laddar anteckningar...",
+  "noNotesYet": "Inga anteckningar än",
+  "startWritingMessage": "Börja skriva dina tankar och insikter om detta kapitel",
+  "placeholder": "Skriv dina anteckningar här...",
+  "cancel": "Avbryt",
+  "saving": "Sparar...",
+  "updateNote": "Uppdatera anteckning",
+  "saveNote": "Spara anteckning",
+  "editNote": "Redigera anteckning",
+  "deleteNote": "Ta bort anteckning",
+  "justNow": "Just nu",
+  "note": "anteckning",
+  "notes": "anteckningar",
+  "deleteConfirmation": "Är du säker på att du vill ta bort denna anteckning?",
+  "success": {
+    "noteCreated": "Anteckning skapad",
+    "noteUpdated": "Anteckning uppdaterad",
+    "noteDeleted": "Anteckning borttagen"
+  },
+  "errors": {
+    "failedToLoad": "Misslyckades med att ladda anteckningar",
+    "failedToCreate": "Misslyckades med att skapa anteckning",
+    "failedToUpdate": "Misslyckades med att uppdatera anteckning",
+    "failedToDelete": "Misslyckades med att ta bort anteckning",
+    "failedToSave": "Misslyckades med att spara anteckning"
+  }
+}

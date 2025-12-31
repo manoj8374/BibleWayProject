@@ -1,0 +1,8 @@
+{
+  "title": "Dagens citat",
+  "loading": "Laddar...",
+  "likes": "Gilla-markeringar",
+  "addNewPost": "Lägg till nytt inlägg",
+  "failedToUpdateLike": "Misslyckades med att uppdatera gilla-markering",
+  "pleaseUpload": "Inget dagens citat uppladdat än"
+}

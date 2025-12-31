@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Sök bok, namn, författare...",
+  "addNewPost": "Lägg till nytt inlägg",
+  "noResultsFound": "Inga resultat hittades",
+  "languageSelector": {
+    "searchLanguages": "Sök språk...",
+    "noLanguagesFound": "Inga språk hittades"
+  },
+  "filter": {
+    "selectLanguage": "Välj språk",
+    "selectVersion": "Välj bok"
+  }
+}

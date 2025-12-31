@@ -1,0 +1,18 @@
+{
+  "title": "Aviseringar",
+  "markAllAsRead": "Markera alla som lästa",
+  "loading": "Laddar aviseringar...",
+  "noNotifications": "Inga aviseringar än",
+  "allCaughtUp": "Allt är uppdaterat!",
+  "justNow": "Just nu",
+  "minuteAgo": "{{count}} minut sedan",
+  "minutesAgo": "{{count}} minuter sedan",
+  "hourAgo": "{{count}} timme sedan",
+  "hoursAgo": "{{count}} timmar sedan",
+  "dayAgo": "{{count}} dag sedan",
+  "daysAgo": "{{count}} dagar sedan",
+  "weekAgo": "{{count}} vecka sedan",
+  "weeksAgo": "{{count}} veckor sedan",
+  "monthAgo": "{{count}} månad sedan",
+  "monthsAgo": "{{count}} månader sedan"
+}

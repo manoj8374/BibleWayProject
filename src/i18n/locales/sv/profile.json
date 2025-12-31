@@ -1,0 +1,19 @@
+{
+  "back": "Tillbaka",
+  "follow": "Följ",
+  "unfollow": "Sluta följ",
+  "message": "Meddelande",
+  "follower": "Följare",
+  "following": "Följer",
+  "followers": "Följare",
+  "loadingProfile": "Laddar profil...",
+  "profileNotFound": "Profil hittades inte",
+  "loadingPosts": "Laddar inlägg...",
+  "noPostsYet": "Inga inlägg än",
+  "unknownUser": "Okänd användare",
+  "checkOutProfile": "Kolla in {{name}}s profil på BibleWay",
+  "profileTitle": "Profil för {{name}}",
+  "unfollowedSuccessfully": "Slutade följa framgångsrikt",
+  "followedSuccessfully": "Följer framgångsrikt",
+  "failedToFetchUserPosts": "Misslyckades med att hämta användarinlägg"
+}

@@ -1,0 +1,48 @@
+{
+  "status": {
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "messages": {
+    "loading": "Laddar meddelanden...",
+    "noMessages": "Inga meddelanden än",
+    "deleted": "Detta meddelande har tagits bort",
+    "sharedImage": "Delad bild",
+    "viewAttachment": "Visa bilaga",
+    "seen": "Sett",
+    "deleteMessage": "Ta bort meddelande"
+  },
+  "typing": {
+    "isTyping": "skriver...",
+    "peopleTyping": "personer skriver..."
+  },
+  "input": {
+    "placeholder": "Skriv ett meddelande...",
+    "pressEnterToSend": "Tryck på Enter för att skicka"
+  },
+  "deleteModal": {
+    "title": "Ta bort meddelande?",
+    "message": "Är du säker på att du vill ta bort detta meddelande? Denna åtgärd kan inte ångras.",
+    "cancel": "Avbryt",
+    "delete": "Ta bort"
+  },
+  "uploadModal": {
+    "title": "Ladda upp fil",
+    "uploading": "Laddar upp...",
+    "sendFile": "Skicka {{filename}}?",
+    "sending": "Skickar...",
+    "send": "Skicka",
+    "cancel": "Avbryt"
+  },
+  "errors": {
+    "fetchConversation": "Misslyckades med att hämta konversation",
+    "invalidFileType": "Ogiltig filtyp. Endast bilder och videor är tillåtna.",
+    "fileSizeExceeded": "Filstorleken överstiger gränsen på 10MB.",
+    "uploadFailed": "Misslyckades med att ladda upp fil",
+    "failedToLoadStickers": "Misslyckades med att ladda klistermärken"
+  },
+  "stickers": {
+    "loading": "Laddar klistermärken...",
+    "noStickers": "Inga klistermärken tillgängliga"
+  }
+}

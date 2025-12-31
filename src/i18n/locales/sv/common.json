@@ -1,0 +1,21 @@
+{
+  "welcome": "Välkommen",
+  "login": "Logga in",
+  "signup": "Registrera dig",
+  "logout": "Logga ut",
+  "home": "Hem",
+  "profile": "Profil",
+  "settings": "Inställningar",
+  "save": "Spara",
+  "cancel": "Avbryt",
+  "delete": "Ta bort",
+  "edit": "Redigera",
+  "submit": "Skicka",
+  "loading": "Laddar...",
+  "error": "Fel",
+  "success": "Lyckades",
+  "linkCopied": "Länk kopierad till urklipp!",
+  "failedToCopy": "Misslyckades med att kopiera länk",
+  "sharePost": "Dela inlägg",
+  "sharePrayerRequest": "Dela böneämne"
+}

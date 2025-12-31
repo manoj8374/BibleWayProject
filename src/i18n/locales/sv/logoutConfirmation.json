@@ -1,0 +1,9 @@
+{
+  "title": "Bekräfta utloggning",
+  "description": "Är du säker på att du vill logga ut? Du måste logga in igen för att komma åt ditt konto.",
+  "buttons": {
+    "cancel": "Avbryt",
+    "confirm": "Logga ut",
+    "loggingOut": "Loggar ut..."
+  }
+}

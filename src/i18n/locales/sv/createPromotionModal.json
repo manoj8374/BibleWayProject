@@ -1,0 +1,38 @@
+{
+  "title": "Skapa kampanj",
+  "labels": {
+    "title": "Titel *",
+    "description": "Beskrivning",
+    "price": "Pris",
+    "redirectLink": "Omdirigeringslänk *",
+    "metaData": "Metadata (JSON)",
+    "mediaFile": "Mediefil (Bild/Video/Ljud)",
+    "images": "Bilder (Flera)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "Ange kampanjtitel",
+    "enterDescription": "Ange kampanjbeskrivning (valfritt)",
+    "price": "0.00",
+    "redirectLink": "https://exempel.se",
+    "metaData": "{\"nyckel\": \"värde\"}"
+  },
+  "selected": "Vald:",
+  "buttons": {
+    "cancel": "Avbryt",
+    "createPromotion": "Skapa kampanj",
+    "creating": "Skapar..."
+  },
+  "errors": {
+    "titleRequired": "Titel krävs",
+    "priceRequired": "Pris krävs",
+    "priceInvalid": "Priset måste vara ett giltigt nummer",
+    "redirectLinkRequired": "Omdirigeringslänk krävs",
+    "redirectLinkInvalid": "Omdirigeringslänk måste vara en giltig URL",
+    "metaDataInvalid": "Metadata måste vara i giltigt JSON-format",
+    "failedToCreatePromotion": "Misslyckades med att skapa kampanj",
+    "unexpectedError": "Ett oväntat fel inträffade"
+  },
+  "success": {
+    "promotionCreated": "Kampanj skapad"
+  }
+}

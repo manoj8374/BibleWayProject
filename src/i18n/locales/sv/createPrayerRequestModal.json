@@ -1,0 +1,34 @@
+{
+  "title": "Böneämne",
+  "labels": {
+    "description": "Beskrivning",
+    "name": "Namn",
+    "email": "E-post",
+    "phoneNumber": "Telefonnummer (valfritt)",
+    "media": "Media (Valfritt)"
+  },
+  "placeholders": {
+    "enterDescription": "Be för min familjs hälsa...",
+    "yourName": "Ditt namn",
+    "yourEmail": "Din e-postadress",
+    "phoneNumber": "0123456789"
+  },
+  "upload": {
+    "uploadText": "Ladda upp bilder eller videor (Max 5 filer, 10MB vardera)",
+    "addMoreFiles": "+ Lägg till fler filer"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Skicka böneämne",
+    "submitting": "Skickar..."
+  },
+  "errors": {
+    "descriptionRequired": "Ange en beskrivning för ditt böneämne.",
+    "failedToCreateRequest": "Misslyckades med att skapa böneämne.",
+    "maxFilesExceeded": "Du kan ladda upp maximalt 5 filer.",
+    "invalidFileType": "Ogiltig filtyp: {{filename}}. Endast bilder och videor är tillåtna.",
+    "fileSizeExceeded": "Filstorleken överstiger gränsen på 10MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Böneämne skapat!"
+  }
+}

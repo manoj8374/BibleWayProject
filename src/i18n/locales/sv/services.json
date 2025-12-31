@@ -1,0 +1,40 @@
+{
+  "auth": {
+    "unexpectedError": "Ett oväntat fel inträffade.",
+    "receivedToken": "Token mottaget"
+  },
+  "post": {
+    "unexpectedErrorPostCreation": "Ett oväntat fel inträffade när inlägget skapades.",
+    "failedToFetchPosts": "Misslyckades med att hämta inlägg.",
+    "failedToFetchUserPosts": "Misslyckades med att hämta användarinlägg.",
+    "failedToFetchPostDetails": "Misslyckades med att hämta inläggsinfo.",
+    "failedToUpdatePost": "Misslyckades med att uppdatera inlägg",
+    "failedToDeletePost": "Misslyckades med att ta bort inlägg",
+    "failedToCreateComment": "Misslyckades med att skapa kommentar.",
+    "failedToUpdateComment": "Misslyckades med att uppdatera kommentar.",
+    "failedToDeleteComment": "Misslyckades med att ta bort kommentar.",
+    "failedToFetchComments": "Misslyckades med att hämta kommentarer.",
+    "failedToLikeComment": "Misslyckades med att gilla kommentar.",
+    "failedToUnlikeComment": "Misslyckades med att ta bort gilla på kommentar.",
+    "failedToLikePost": "Misslyckades med att gilla inlägg.",
+    "failedToUnlikePost": "Misslyckades med att ta bort gilla på inlägg."
+  },
+  "user": {
+    "failedToFetchUserProfile": "Misslyckades med att hämta användarprofil.",
+    "failedToFollowUser": "Misslyckades med att följa användare.",
+    "failedToUnfollowUser": "Misslyckades med att sluta följa användare.",
+    "failedToGetRecommendedUsers": "Misslyckades med att hämta rekommenderade användare.",
+    "failedToGetUserProfile": "Misslyckades med att hämta användarprofil."
+  },
+  "wallpaper": {
+    "failedToLoadWallpapers": "Misslyckades med att ladda bakgrundsbilder"
+  },
+  "verse": {
+    "failedToLoadVerses": "Misslyckades med att ladda verser",
+    "failedToLikeVerse": "Misslyckades med att gilla vers",
+    "failedToUnlikeVerse": "Misslyckades med att ta bort gilla på vers"
+  },
+  "admin": {
+    "failedToLoadBooks": "Misslyckades med att ladda böcker"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "loading": "Laddar kommentarer...",
+  "error": "Misslyckades med att ladda kommentarer",
+  "noComments": "Inga kommentarer än. Bli den första att säga något!",
+  "emptyComment": "Kommentaren får inte vara tom",
+  "commentUpdated": "Kommentar uppdaterad",
+  "failedToUpdate": "Misslyckades med att uppdatera kommentar",
+  "deleteConfirm": "Är du säker på att du vill ta bort denna kommentar?",
+  "commentDeleted": "Kommentar borttagen",
+  "failedToDelete": "Misslyckades med att ta bort kommentar",
+  "writeComment": "Skriv en kommentar...",
+  "deleteModal": {
+    "title": "Ta bort kommentar",
+    "description": "Är du säker på att du vill ta bort denna kommentar? Denna åtgärd kan inte ångras.",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "deleting": "Tar bort..."
+  },
+  "time": {
+    "justNow": "Just nu",
+    "minutesAgo": "{{count}}m sedan",
+    "hoursAgo": "{{count}}h sedan",
+    "daysAgo": "{{count}}d sedan"
+  }
+}
