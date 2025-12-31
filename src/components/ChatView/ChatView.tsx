@@ -213,7 +213,7 @@ const ChatView: React.FC<ChatViewProps> = ({
     timestamp: formatTime(dto.created_at),
     rawTimestamp: dto.created_at,
     isOwn: dto.is_sent_by_me,
-    status: "sent",
+    status: dto.is_sent_by_me && dto.is_seen ? "read" : "sent",
     is_deleted_for_everyone: dto.is_deleted_for_everyone,
     file: dto.file,
     shared_post: dto.shared_post,
@@ -392,6 +392,14 @@ const ChatView: React.FC<ChatViewProps> = ({
   useWebSocketEvent(
     "read_receipt.updated",
     (event: WSReadReceiptUpdatedEvent) => {
+      if (String(event.data.conversation_id) !== String(currentConversationId)) {
+        return;
+      }
+
+      if(profile?.user_id === event.data.user_id) {
+        return;
+      }
+
       setMessages((prev) => {
         const lastReadTime = new Date(event.data.last_read_at).getTime();
         return prev.map((msg) => {
@@ -755,7 +763,7 @@ const ChatView: React.FC<ChatViewProps> = ({
         </CloseButton>
       </ChatHeader>
 
-      <MessagesArea onClick={() => setSelectedMessageId(null)}>
+      <MessagesArea onClick={() => { setSelectedMessageId(null) }}>
         {loading ? (
           <div style={{ padding: "20px", textAlign: "center", color: "#666" }}>
             {t("chat.messages.loading")}
@@ -783,6 +791,7 @@ const ChatView: React.FC<ChatViewProps> = ({
                   isDeletedForEveryone={msg.is_deleted_for_everyone}
                   className={selectedMessageId === msg.id ? "selected" : ""}
                   onClick={(e) => {
+                    console.log(messages);
                     if (msg.isOwn && !msg.is_deleted_for_everyone) {
                       e.stopPropagation();
                       setSelectedMessageId((prev) =>

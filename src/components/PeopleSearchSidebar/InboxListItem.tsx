@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { type InboxItem } from '../../services/chat/chat.service';
 import { useI18n } from '../../i18n';
 import {
@@ -27,13 +27,11 @@ const InboxListItem: React.FC<InboxListItemProps> = ({ item, onPersonSelect, cha
   const displayImage = isDirect ? item.other_member?.profile_picture_url : item.image;
   const displayName = isDirect ? (item.other_member?.user_name || item.name || 'Unknown') : (item.name || 'Unknown');
   
-  // Handle last message display
   let lastMsg = '';
   if (item.last_message) {
     if (item.last_message.file) {
       lastMsg = t('people.attachment');
     } else if (item.last_message.text) {
-      // Check if it's a sticker/image URL
       const isImageUrl = item.last_message.text.startsWith('http') && 
                         (item.last_message.text.includes('image') || 
                          item.last_message.text.includes('sticker') ||
@@ -51,6 +49,14 @@ const InboxListItem: React.FC<InboxListItemProps> = ({ item, onPersonSelect, cha
     : '';
 
   const [unReadCount, setUnReadCount] = useState(item.unread_count);
+  const prevUnreadCountPropRef = useRef(item.unread_count);
+
+  useEffect(() => {
+    if (item.unread_count !== prevUnreadCountPropRef.current) {
+      setUnReadCount(item.unread_count);
+      prevUnreadCountPropRef.current = item.unread_count;
+    }
+  }, [item.unread_count]);
 
   const handleClick = () => {
     if (onPersonSelect) {

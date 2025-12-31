@@ -24,6 +24,7 @@ export interface MessageDTO {
   edited_at: string | null;
   is_deleted_for_everyone: boolean;
   is_sent_by_me: boolean;
+  is_seen?: boolean;
 }
 
 export interface SharedPostMedia {
@@ -203,6 +204,33 @@ export interface WSPresenceUpdatedEvent {
   };
 }
 
+export interface WSInboxUpdatedEvent {
+  type: 'inbox.updated';
+  data: {
+    conversation_id: string;
+    unread_count: number;
+    last_message: {
+      message_id: string;
+      text: string;
+      sender: MessageSender;
+      file: {
+        url: string;
+        type: 'IMAGE' | 'VIDEO' | 'AUDIO';
+        size: number;
+        name: string;
+      } | null;
+      created_at: string;
+      is_sent_by_me: boolean;
+      is_seen: boolean;
+    };
+    type: 'DIRECT' | 'GROUP';
+    other_member?: MessageSender;
+    members: MessageSender[];
+    members_count: number;
+    last_activity_at: string;
+  };
+}
+
 export interface InboxItem {
   conversation_id: string;
   type: string;
@@ -223,6 +251,53 @@ export interface InboxResponse {
   data: InboxItem[];
   message?: string
 }
+export const mapInboxUpdatedToInboxItem = (eventData: WSInboxUpdatedEvent['data']): InboxItem | null => {
+  try {
+    if (!eventData.conversation_id || !eventData.last_message) {
+      console.warn('Invalid inbox.updated event data: missing required fields');
+      return null;
+    }
+
+    const lastMessage: MessageDTO = {
+      message_id: eventData.last_message.message_id,
+      sender: eventData.last_message.sender,
+      text: eventData.last_message.text || '',
+      file: eventData.last_message.file,
+      reply_to_id: null, // Not provided in inbox.updated event
+      shared_post: null, // Not provided in inbox.updated event
+      created_at: eventData.last_message.created_at,
+      edited_at: null, // Not provided in inbox.updated event
+      is_deleted_for_everyone: false, // Default value
+      is_sent_by_me: eventData.last_message.is_sent_by_me,
+    };
+
+    // Determine name and image based on conversation type
+    const isDirect = eventData.type === 'DIRECT';
+    const name = isDirect ? (eventData.other_member?.user_name || 'Unknown') : '';
+    const image = isDirect ? (eventData.other_member?.profile_picture_url || '') : '';
+
+    // Create InboxItem with all mapped fields
+    const inboxItem: InboxItem = {
+      conversation_id: eventData.conversation_id,
+      type: eventData.type,
+      name,
+      description: '', // Not provided in inbox.updated event
+      image,
+      is_active: true, // Default to active
+      last_message: lastMessage,
+      other_member: eventData.other_member,
+      members: eventData.members || [],
+      members_count: eventData.members_count || 0,
+      unread_count: Math.max(0, eventData.unread_count || 0), // Clamp to 0 minimum
+      last_activity_at: eventData.last_activity_at,
+    };
+
+    return inboxItem;
+  } catch (error) {
+    console.error('Error mapping inbox.updated event to InboxItem:', error);
+    return null;
+  }
+};
 
 export const chatService = {
   getConversation: async (conversationId: string): Promise<ApiResponse<ConversationDTO>> => {
