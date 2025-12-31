@@ -1,0 +1,22 @@
+{
+  "edit": "Editar",
+  "delete": "Excluir",
+  "deleteConfirm": "Excluir esta publicação?",
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "saving": "Salvando...",
+  "deleting": "Excluindo...",
+  "likes": "Curtidas",
+  "like": "Curtir",
+  "comments": "Comentários",
+  "comment": "Comentar",
+  "share": "Compartilhar",
+  "shares": "Compartilhamentos",
+  "writeComment": "Escreva um comentário...",
+  "writeYourComment": "Escreva seu comentário...",
+  "failedToComment": "Falha ao comentar",
+  "actionFailed": "Ação falhou",
+  "commentAdded": "Comentário adicionado com sucesso",
+  "failedToCreateComment": "Falha ao criar comentário",
+  "failedToUpdateLike": "Falha ao atualizar curtida"
+}

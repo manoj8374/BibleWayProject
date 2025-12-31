@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "Pesquisar livro, nome, autor...",
+  "addNewPost": "Adicionar Nova Publicação",
+  "noResultsFound": "Nenhum resultado encontrado",
+  "languageSelector": {
+    "searchLanguages": "Pesquisar idiomas...",
+    "noLanguagesFound": "Nenhum idioma encontrado"
+  },
+  "filter": {
+    "selectLanguage": "Selecionar Idioma",
+    "selectVersion": "Selecionar Livro"
+  }
+}

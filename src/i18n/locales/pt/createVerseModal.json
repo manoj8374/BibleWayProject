@@ -1,0 +1,30 @@
+{
+  "title": "Criar Citação do Dia",
+  "note": "Nota: Criar um novo versículo apagará a citação do dia existente. Esta ação não pode ser desfeita. A nova citação será mostrada a todos os usuários imediatamente.",
+  "labels": {
+    "title": "Título (Opcional)",
+    "quoteDescription": "Citação / Descrição (Obrigatório)"
+  },
+  "placeholders": {
+    "title": "ex. Citação do Dia",
+    "quoteDescription": "Insira a escritura ou citação aqui..."
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "publishQuote": "Publicar Citação",
+    "publishing": "Publicando...",
+    "updateQuote": "Atualizar Citação",
+    "updating": "Atualizando..."
+  },
+  "errors": {
+    "descriptionRequired": "A descrição é obrigatória",
+    "failedToCreateVerse": "Falha ao criar versículo",
+    "failedToUpdateVerse": "Falha ao atualizar versículo",
+    "unexpectedError": "Ocorreu um erro inesperado"
+  },
+  "success": {
+    "verseCreated": "Versículo criado com sucesso",
+    "verseUpdated": "Versículo atualizado com sucesso"
+  },
+  "editTitle": "Editar Versículo"
+}

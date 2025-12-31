@@ -1,0 +1,34 @@
+{
+  "title": "Pedido de Oração",
+  "labels": {
+    "description": "Descrição",
+    "name": "Nome",
+    "email": "E-mail",
+    "phoneNumber": "Número de telefone (opcional)",
+    "media": "Mídia (Opcional)"
+  },
+  "placeholders": {
+    "enterDescription": "Por favor, orem pela saúde da minha família...",
+    "yourName": "Seu nome",
+    "yourEmail": "Seu endereço de e-mail",
+    "phoneNumber": "0123456789"
+  },
+  "upload": {
+    "uploadText": "Enviar imagens ou vídeos (Máx 5 arquivos, 10MB cada)",
+    "addMoreFiles": "+ Adicionar mais arquivos"
+  },
+  "buttons": {
+    "submitPrayerRequest": "Enviar Pedido",
+    "submitting": "Enviando..."
+  },
+  "errors": {
+    "descriptionRequired": "Por favor, insira uma descrição para o seu pedido de oração.",
+    "failedToCreateRequest": "Falha ao criar pedido de oração.",
+    "maxFilesExceeded": "Você pode enviar no máximo 5 arquivos.",
+    "invalidFileType": "Tipo de arquivo inválido: {{filename}}. Apenas imagens e vídeos são permitidos.",
+    "fileSizeExceeded": "O tamanho do arquivo excede o limite de 10 MB: {{filename}}"
+  },
+  "success": {
+    "requestCreated": "Pedido de oração criado com sucesso!"
+  }
+}

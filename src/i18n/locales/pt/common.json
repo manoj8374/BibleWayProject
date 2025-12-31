@@ -1,0 +1,21 @@
+{
+  "welcome": "Bem-vindo",
+  "login": "Entrar",
+  "signup": "Inscrever-se",
+  "logout": "Sair",
+  "home": "Início",
+  "profile": "Perfil",
+  "settings": "Configurações",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "delete": "Excluir",
+  "edit": "Editar",
+  "submit": "Enviar",
+  "loading": "Carregando...",
+  "error": "Erro",
+  "success": "Sucesso",
+  "linkCopied": "Link copiado para a área de transferência!",
+  "failedToCopy": "Falha ao copiar link",
+  "sharePost": "Compartilhar publicação",
+  "sharePrayerRequest": "Compartilhar pedido de oração"
+}

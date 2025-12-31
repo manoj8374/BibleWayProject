@@ -1,0 +1,25 @@
+{
+  "loading": "Carregando comentários...",
+  "error": "Falha ao carregar comentários",
+  "noComments": "Nenhum comentário ainda. Seja o primeiro a dizer algo!",
+  "emptyComment": "O comentário não pode estar vazio",
+  "commentUpdated": "Comentário atualizado com sucesso",
+  "failedToUpdate": "Falha ao atualizar comentário",
+  "deleteConfirm": "Tem certeza de que deseja excluir este comentário?",
+  "commentDeleted": "Comentário excluído com sucesso",
+  "failedToDelete": "Falha ao excluir comentário",
+  "writeComment": "Escreva um comentário...",
+  "deleteModal": {
+    "title": "Excluir comentário",
+    "description": "Tem certeza de que deseja excluir este comentário? Esta ação não pode ser desfeita.",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "deleting": "Excluindo..."
+  },
+  "time": {
+    "justNow": "Agora mesmo",
+    "minutesAgo": "{{count}}m atrás",
+    "hoursAgo": "{{count}}h atrás",
+    "daysAgo": "{{count}}d atrás"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Bíblias Segregadas",
+  "loadingAgeGroups": "Carregando faixas etárias...",
+  "failedToLoadAgeGroups": "Falha ao carregar faixas etárias",
+  "unexpectedErrorLoadingAgeGroups": "Ocorreu um erro inesperado ao carregar faixas etárias",
+  "noAgeGroupsAvailable": "Nenhuma faixa etária disponível",
+  "pleaseSelectCategoryFirst": "Por favor, selecione uma categoria primeiro",
+  "noBooksAvailable": "Nenhum livro disponível para esta seleção",
+  "failedToFetchBooks": "Falha ao buscar livros",
+  "categoryNotFound": "Categoria não encontrada",
+  "ageGroupNotFound": "Faixa etária não encontrada",
+  "languageNotFound": "Idioma não encontrado",
+  "unexpectedErrorFetchingBooks": "Ocorreu um erro inesperado ao buscar livros"
+}

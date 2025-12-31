@@ -1,0 +1,18 @@
+{
+  "title": "Notificações",
+  "markAllAsRead": "Marcar todas como lidas",
+  "loading": "Carregando notificações...",
+  "noNotifications": "Nenhuma notificação ainda",
+  "allCaughtUp": "Tudo atualizado!",
+  "justNow": "Agora mesmo",
+  "minuteAgo": "{{count}} minuto atrás",
+  "minutesAgo": "{{count}} minutos atrás",
+  "hourAgo": "{{count}} hora atrás",
+  "hoursAgo": "{{count}} horas atrás",
+  "dayAgo": "{{count}} dia atrás",
+  "daysAgo": "{{count}} dias atrás",
+  "weekAgo": "{{count}} semana atrás",
+  "weeksAgo": "{{count}} semanas atrás",
+  "monthAgo": "{{count}} mês atrás",
+  "monthsAgo": "{{count}} meses atrás"
+}

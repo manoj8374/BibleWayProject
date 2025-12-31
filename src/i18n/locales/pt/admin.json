@@ -1,0 +1,38 @@
+{
+  "loading": "Carregando...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute deve ser usado dentro de um ProfileProvider"
+  },
+  "testimonials": {
+    "title": "Gerenciamento de Testemunhos",
+    "pending": "Pendente",
+    "verified": "Verificado",
+    "all": "Todos",
+    "loading": "Carregando testemunhos...",
+    "noTestimonials": "Nenhum testemunho encontrado",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "processing": "Processando...",
+    "approvedSuccessfully": "Testemunho aprovado com sucesso",
+    "rejectedSuccessfully": "Testemunho rejeitado com sucesso",
+    "failedToLoad": "Falha ao carregar testemunhos",
+    "failedToApprove": "Falha ao aprovar testemunho",
+    "failedToReject": "Falha ao rejeitar testemunho",
+    "confirmReject": "Tem certeza de que deseja rejeitar este testemunho? Esta ação não pode ser desfeita.",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "pageInfo": "Página {{current}} de {{total}}"
+  },
+  "promotions": {
+    "title": "Gerenciamento de Promoções",
+    "loading": "Carregando promoções...",
+    "noPromotions": "Nenhuma promoção encontrada",
+    "delete": "Excluir",
+    "cancel": "Cancelar",
+    "processing": "Processando...",
+    "deletedSuccessfully": "Promoção excluída com sucesso",
+    "failedToLoad": "Falha ao carregar promoções",
+    "failedToDelete": "Falha ao excluir promoção",
+    "confirmDelete": "Tem certeza de que deseja excluir esta promoção? Esta ação não pode ser desfeita."
+  }
+}

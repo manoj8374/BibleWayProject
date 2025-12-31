@@ -1,0 +1,15 @@
+{
+  "searchPeople": "Pesquisar Pessoas",
+  "searchPeoplePlaceholder": "Pesquisar pessoas...",
+  "searching": "Pesquisando...",
+  "noUsersFound": "Nenhum usuário encontrado",
+  "follow": "Seguir",
+  "following": "Seguindo",
+  "failedToUpdateFollowStatus": "Falha ao atualizar status de seguir",
+  "loadingInbox": "Carregando caixa de entrada...",
+  "noMessages": "Nenhuma mensagem",
+  "you": "Você: ",
+  "attachment": "Anexo",
+  "noMessagesText": "Nenhuma mensagem",
+  "sticker": "📷 Adesivo"
+}

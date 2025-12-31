@@ -1,0 +1,27 @@
+{
+  "title": "Criar Publicação",
+  "labels": {
+    "title": "Título",
+    "description": "Descrição"
+  },
+  "placeholders": {
+    "enterPostTitle": "Digite o título da publicação...",
+    "enterDescription": "Consegui um emprego no Google..."
+  },
+  "upload": {
+    "uploadFiles": "Envie seus arquivos aqui (Máx 5)",
+    "addMoreFiles": "+ Adicionar mais arquivos"
+  },
+  "buttons": {
+    "createPost": "Criar Publicação",
+    "creating": "Criando..."
+  },
+  "errors": {
+    "maxFilesExceeded": "Você pode enviar no máximo 5 arquivos.",
+    "atLeastOneFile": "Por favor, envie pelo menos um arquivo de mídia.",
+    "failedToCreatePost": "Falha ao criar publicação."
+  },
+  "success": {
+    "postCreated": "Publicação criada com sucesso!"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Notas do Capítulo",
+  "noBookSelected": "Nenhum livro selecionado",
+  "selectBookMessage": "Por favor, selecione um livro para ver as notas",
+  "noChapterSelected": "Nenhum capítulo selecionado",
+  "selectChapterMessage": "Selecione um capítulo para ver e criar notas",
+  "loadingNotes": "Carregando notas...",
+  "noNotesYet": "Nenhuma nota ainda",
+  "startWritingMessage": "Comece a escrever seus pensamentos e percepções sobre este capítulo",
+  "placeholder": "Escreva suas notas aqui...",
+  "cancel": "Cancelar",
+  "saving": "Salvando...",
+  "updateNote": "Atualizar Nota",
+  "saveNote": "Salvar Nota",
+  "editNote": "Editar nota",
+  "deleteNote": "Excluir nota",
+  "justNow": "Agora mesmo",
+  "note": "nota",
+  "notes": "notas",
+  "deleteConfirmation": "Tem certeza de que deseja excluir esta nota?",
+  "success": {
+    "noteCreated": "Nota criada com sucesso",
+    "noteUpdated": "Nota atualizada com sucesso",
+    "noteDeleted": "Nota excluída com sucesso"
+  },
+  "errors": {
+    "failedToLoad": "Falha ao carregar notas",
+    "failedToCreate": "Falha ao criar nota",
+    "failedToUpdate": "Falha ao atualizar nota",
+    "failedToDelete": "Falha ao excluir nota",
+    "failedToSave": "Falha ao salvar nota"
+  }
+}

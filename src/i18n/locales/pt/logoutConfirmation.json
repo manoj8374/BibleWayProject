@@ -1,0 +1,9 @@
+{
+  "title": "Confirmar Saída",
+  "description": "Tem certeza de que deseja sair? Você precisará fazer login novamente para acessar sua conta.",
+  "buttons": {
+    "cancel": "Cancelar",
+    "confirm": "Sair",
+    "loggingOut": "Saindo..."
+  }
+}

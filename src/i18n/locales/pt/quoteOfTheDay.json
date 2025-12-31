@@ -1,0 +1,8 @@
+{
+  "title": "Citação do Dia",
+  "loading": "Carregando...",
+  "likes": "Curtidas",
+  "addNewPost": "Adicionar Nova Publicação",
+  "failedToUpdateLike": "Falha ao atualizar curtida",
+  "pleaseUpload": "Nenhuma citação do dia carregada ainda"
+}

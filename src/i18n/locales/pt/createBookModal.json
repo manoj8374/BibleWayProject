@@ -1,0 +1,46 @@
+{
+  "title": "Enviar Livro",
+  "labels": {
+    "sourceFile": "Arquivo fonte (.md) *",
+    "coverImage": "Imagem da capa",
+    "category": "Categoria *",
+    "ageGroup": "Faixa Etária *",
+    "language": "Idioma *",
+    "bookTitle": "Título *",
+    "description": "Descrição",
+    "bookOrder": "Ordem do livro"
+  },
+  "placeholders": {
+    "selectCategory": "Selecione uma categoria",
+    "selectAgeGroup": "Selecione uma faixa etária",
+    "selectLanguage": "Selecione um idioma",
+    "enterBookTitle": "Digite o título do livro",
+    "enterBookDescription": "Digite a descrição do livro (opcional)"
+  },
+  "loading": {
+    "categories": "Carregando categorias...",
+    "ageGroups": "Carregando faixas etárias...",
+    "languages": "Carregando idiomas...",
+    "uploading": "Enviando..."
+  },
+  "selected": "Selecionado:",
+  "buttons": {
+    "cancel": "Cancelar",
+    "uploadBook": "Enviar Livro"
+  },
+  "errors": {
+    "sourceFileRequired": "O arquivo fonte é obrigatório",
+    "titleRequired": "O título é obrigatório",
+    "categoryRequired": "A categoria é obrigatória",
+    "ageGroupRequired": "A faixa etária é obrigatória",
+    "languageRequired": "O idioma é obrigatório",
+    "failedToLoadCategories": "Falha ao carregar categorias",
+    "failedToLoadAgeGroups": "Falha ao carregar faixas etárias",
+    "failedToLoadLanguages": "Falha ao carregar idiomas",
+    "failedToUploadBook": "Falha ao enviar livro",
+    "unexpectedError": "Ocorreu um erro inesperado"
+  },
+  "success": {
+    "bookCreated": "Livro criado com sucesso"
+  }
+}

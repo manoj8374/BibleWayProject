@@ -1,0 +1,19 @@
+{
+  "title": "Concluir Inscrição",
+  "description": "Precisamos de mais alguns detalhes para terminar de criar sua conta.",
+  "labels": {
+    "age": "Idade",
+    "language": "Idioma",
+    "country": "País"
+  },
+  "placeholders": {
+    "age": "ex. 25",
+    "language": "ex. Português",
+    "country": "ex. Brasil"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "continue": "Continuar",
+    "creating": "Criando..."
+  }
+}
