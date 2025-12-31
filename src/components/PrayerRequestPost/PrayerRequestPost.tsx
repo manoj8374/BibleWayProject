@@ -42,6 +42,8 @@ import { useNavigate } from 'react-router-dom';
 import { useI18n } from '../../i18n/hooks';
 import ShareDialog from '../ShareDialog/ShareDialog';
 import { getShareUrl, getShareTitle } from '../../utils/share';
+import { getAvatarProps } from '../../utils/avatarHelpers';
+import { useProfile } from '../../contexts/useProfile';
 
 export type MediaType = 'video' | 'audio' | 'image' | 'none';
 
@@ -301,11 +303,20 @@ const PrayerRequestPost: React.FC<PrayerRequestPostProps> = (props: PrayerReques
         );
     };
 
+    const {profile} = useProfile();
+
     const renderSendComment = () => {
         if (hideEngagementStats) return null;
+
+        const avatarProps = getAvatarProps(
+      profile?.profile_picture_url,
+      profile?.user_name
+    );
         return (
             <CommentSection onClick={(e) => e.stopPropagation()}>
-                <CommentAvatar $bgColor="#666" />
+                <CommentAvatar $bgColor={avatarProps.bgColor} src={avatarProps.imageUrl}>
+          {avatarProps.displayText}
+        </CommentAvatar>
                 <CommentInput
                     type="text"
                     placeholder={t('posts.writeYourComment')}
