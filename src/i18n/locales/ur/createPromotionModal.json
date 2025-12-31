@@ -1,0 +1,38 @@
+{
+  "title": "پروموشن بنائیں",
+  "labels": {
+    "title": "عنوان *",
+    "description": "تفصیل",
+    "price": "قیمت",
+    "redirectLink": "ری ڈائریکٹ لنک *",
+    "metaData": "میٹا ڈیٹا (JSON)",
+    "mediaFile": "میڈیا فائل (تصویر/ویڈیو/آڈیو)",
+    "images": "تصاویر (متعدد)"
+  },
+  "placeholders": {
+    "enterPromotionTitle": "پروموشن کا عنوان درج کریں",
+    "enterDescription": "پروموشن کی تفصیل درج کریں (اختیاری)",
+    "price": "0.00",
+    "redirectLink": "https://example.com",
+    "metaData": "{\"key\": \"value\"}"
+  },
+  "selected": "منتخب شدہ:",
+  "buttons": {
+    "cancel": "منسوخ کریں",
+    "createPromotion": "پروموشن بنائیں",
+    "creating": "بنایا جا رہا ہے..."
+  },
+  "errors": {
+    "titleRequired": "عنوان ضروری ہے",
+    "priceRequired": "قیمت ضروری ہے",
+    "priceInvalid": "قیمت ایک درست نمبر ہونی چاہیے",
+    "redirectLinkRequired": "ری ڈائریکٹ لنک ضروری ہے",
+    "redirectLinkInvalid": "ری ڈائریکٹ لنک ایک درست URL ہونا چاہیے",
+    "metaDataInvalid": "میٹا ڈیٹا درست JSON فارمیٹ ہونا چاہیے",
+    "failedToCreatePromotion": "پروموشن بنانے میں ناکامی",
+    "unexpectedError": "ایک غیر متوقع خرابی پیش آگئی"
+  },
+  "success": {
+    "promotionCreated": "پروموشن کامیابی سے بنائی گئی"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "الگ بائبل",
+  "loadingAgeGroups": "عمر کے گروپس لوڈ ہو رہے ہیں...",
+  "failedToLoadAgeGroups": "عمر کے گروپس لوڈ کرنے میں ناکامی",
+  "unexpectedErrorLoadingAgeGroups": "عمر کے گروپس لوڈ کرتے وقت ایک غیر متوقع خرابی پیش آگئی",
+  "noAgeGroupsAvailable": "کوئی عمر کا گروپ دستیاب نہیں",
+  "pleaseSelectCategoryFirst": "براہ کرم پہلے ایک زمرہ منتخب کریں",
+  "noBooksAvailable": "اس انتخاب کے لیے کوئی کتاب دستیاب نہیں",
+  "failedToFetchBooks": "کتابیں حاصل کرنے میں ناکامی",
+  "categoryNotFound": "زمرہ نہیں ملا",
+  "ageGroupNotFound": "عمر کا گروپ نہیں ملا",
+  "languageNotFound": "زبان نہیں ملی",
+  "unexpectedErrorFetchingBooks": "کتابیں حاصل کرتے وقت ایک غیر متوقع خرابی پیش آگئی"
+}

@@ -1,0 +1,19 @@
+{
+  "back": "واپس",
+  "follow": "پیروی کریں",
+  "unfollow": "پیروی ختم کریں",
+  "message": "پیغام",
+  "follower": "پیروکار",
+  "following": "پیروی کر رہے ہیں",
+  "followers": "پیروکار",
+  "loadingProfile": "پروفائل لوڈ ہو رہا ہے...",
+  "profileNotFound": "پروفائل نہیں ملا",
+  "loadingPosts": "پوسٹس لوڈ ہو رہی ہیں...",
+  "noPostsYet": "ابھی تک کوئی پوسٹ نہیں",
+  "unknownUser": "نامعلوم صارف",
+  "checkOutProfile": "BibleWay پر {{name}} کا پروفائل دیکھیں",
+  "profileTitle": "{{name}} کا پروفائل",
+  "unfollowedSuccessfully": "کامیابی سے پیروی ختم ہوئی",
+  "followedSuccessfully": "کامیابی سے پیروی کی گئی",
+  "failedToFetchUserPosts": "صارف کی پوسٹس لانے میں ناکامی"
+}

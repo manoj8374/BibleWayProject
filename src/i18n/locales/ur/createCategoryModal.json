@@ -1,0 +1,27 @@
+{
+  "title": "زمرہ بنائیں",
+  "labels": {
+    "categoryName": "زمرہ کا نام *",
+    "description": "تفصیل",
+    "displayOrder": "ظاہر کرنے کی ترتیب",
+    "coverImage": "کور تصویر"
+  },
+  "placeholders": {
+    "selectCategoryName": "ایک زمرہ کا نام منتخب کریں",
+    "enterDescription": "زمرہ کی تفصیل درج کریں (اختیاری)"
+  },
+  "selected": "منتخب شدہ:",
+  "buttons": {
+    "cancel": "منسوخ کریں",
+    "createCategory": "زمرہ بنائیں",
+    "creating": "بنایا جا رہا ہے..."
+  },
+  "errors": {
+    "categoryNameRequired": "زمرہ کا نام ضروری ہے",
+    "failedToCreateCategory": "زمرہ بنانے میں ناکامی",
+    "unexpectedError": "ایک غیر متوقع خرابی پیش آگئی"
+  },
+  "success": {
+    "categoryCreated": "زمرہ کامیابی سے بنایا گیا"
+  }
+}

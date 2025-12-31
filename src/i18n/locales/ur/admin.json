@@ -1,0 +1,38 @@
+{
+  "loading": "لوڈ ہو رہا ہے...",
+  "error": {
+    "mustBeInProfileProvider": "AdminProtectedRoute کو ProfileProvider کے اندر استعمال کیا جانا چاہیے"
+  },
+  "testimonials": {
+    "title": "تعریفات کا انتظام",
+    "pending": "زیر التواء",
+    "verified": "تصدیق شدہ",
+    "all": "تمام",
+    "loading": "تعریفات لوڈ ہو رہی ہیں...",
+    "noTestimonials": "کوئی تعریف نہیں ملی",
+    "approve": "منظور کریں",
+    "reject": "مسترد کریں",
+    "processing": "عمل کاری...",
+    "approvedSuccessfully": "تعریف کامیابی سے منظور ہو گئی",
+    "rejectedSuccessfully": "تعریف کامیابی سے مسترد ہو گئی",
+    "failedToLoad": "تعریفات لوڈ کرنے میں ناکامی",
+    "failedToApprove": "تعریف منظور کرنے میں ناکامی",
+    "failedToReject": "تعریف مسترد کرنے میں ناکامی",
+    "confirmReject": "کیا آپ واقعی اس تعریف کو مسترد کرنا چاہتے ہیں؟ یہ عمل واپس نہیں کیا جا سکتا۔",
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "pageInfo": "صفحہ {{current}} از {{total}}"
+  },
+  "promotions": {
+    "title": "پروموشنز کا انتظام",
+    "loading": "پروموشنز لوڈ ہو رہی ہیں...",
+    "noPromotions": "کوئی پروموشن نہیں ملی",
+    "delete": "حذف کریں",
+    "cancel": "منسوخ کریں",
+    "processing": "عمل کاری...",
+    "deletedSuccessfully": "پروموشن کامیابی سے حذف ہو گئی",
+    "failedToLoad": "پروموشنز لوڈ کرنے میں ناکامی",
+    "failedToDelete": "پروموشن حذف کرنے میں ناکامی",
+    "confirmDelete": "کیا آپ واقعی اس پروموشن کو حذف کرنا چاہتے ہیں؟ یہ عمل واپس نہیں کیا جا سکتا۔"
+  }
+}

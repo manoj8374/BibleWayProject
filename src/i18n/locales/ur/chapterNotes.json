@@ -1,0 +1,33 @@
+{
+  "title": "باب کے نوٹس",
+  "noBookSelected": "کوئی کتاب منتخب نہیں",
+  "selectBookMessage": "نوٹس دیکھنے کے لیے براہ کرم ایک کتاب منتخب کریں",
+  "noChapterSelected": "کوئی باب منتخب نہیں",
+  "selectChapterMessage": "نوٹس دیکھنے اور بنانے کے لیے ایک باب منتخب کریں",
+  "loadingNotes": "نوٹس لوڈ ہو رہے ہیں...",
+  "noNotesYet": "ابھی تک کوئی نوٹس نہیں",
+  "startWritingMessage": "اس باب کے بارے میں اپنے خیالات اور بصیرت لکھنا شروع کریں",
+  "placeholder": "اپنے نوٹس یہاں لکھیں...",
+  "cancel": "منسوخ کریں",
+  "saving": "محفوظ ہو رہا ہے...",
+  "updateNote": "نوٹ اپ ڈیٹ کریں",
+  "saveNote": "نوٹ محفوظ کریں",
+  "editNote": "نوٹ میں ترمیم کریں",
+  "deleteNote": "نوٹ حذف کریں",
+  "justNow": "ابھی",
+  "note": "نوٹ",
+  "notes": "نوٹس",
+  "deleteConfirmation": "کیا آپ واقعی اس نوٹ کو حذف کرنا چاہتے ہیں؟",
+  "success": {
+    "noteCreated": "نوٹ کامیابی سے بنایا گیا",
+    "noteUpdated": "نوٹ کامیابی سے اپ ڈیٹ ہو گیا",
+    "noteDeleted": "نوٹ کامیابی سے حذف ہو گیا"
+  },
+  "errors": {
+    "failedToLoad": "نوٹس لوڈ کرنے میں ناکامی",
+    "failedToCreate": "نوٹ بنانے میں ناکامی",
+    "failedToUpdate": "نوٹ اپ ڈیٹ کرنے میں ناکامی",
+    "failedToDelete": "نوٹ حذف کرنے میں ناکامی",
+    "failedToSave": "نوٹ محفوظ کرنے میں ناکامی"
+  }
+}

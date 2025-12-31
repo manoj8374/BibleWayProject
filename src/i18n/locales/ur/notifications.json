@@ -1,0 +1,18 @@
+{
+  "title": "نوٹیفیکیشنز",
+  "markAllAsRead": "سب کو پڑھا ہوا نشان زد کریں",
+  "loading": "نوٹیفیکیشنز لوڈ ہو رہے ہیں...",
+  "noNotifications": "ابھی تک کوئی نوٹیفیکیشن نہیں",
+  "allCaughtUp": "آپ سب دیکھ چکے ہیں!",
+  "justNow": "ابھی",
+  "minuteAgo": "{{count}} منٹ پہلے",
+  "minutesAgo": "{{count}} منٹ پہلے",
+  "hourAgo": "{{count}} گھنٹہ پہلے",
+  "hoursAgo": "{{count}} گھنٹے پہلے",
+  "dayAgo": "{{count}} دن پہلے",
+  "daysAgo": "{{count}} دن پہلے",
+  "weekAgo": "{{count}} ہفتہ پہلے",
+  "weeksAgo": "{{count}} ہفتے پہلے",
+  "monthAgo": "{{count}} مہینہ پہلے",
+  "monthsAgo": "{{count}} مہینے پہلے"
+}

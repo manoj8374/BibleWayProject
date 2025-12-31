@@ -1,0 +1,13 @@
+{
+  "searchPlaceholder": "کتاب، نام، مصنف تلاش کریں...",
+  "addNewPost": "نئی پوسٹ شامل کریں",
+  "noResultsFound": "کوئی نتیجہ نہیں ملا",
+  "languageSelector": {
+    "searchLanguages": "زبانیں تلاش کریں...",
+    "noLanguagesFound": "کوئی زبان نہیں ملی"
+  },
+  "filter": {
+    "selectLanguage": "زبان منتخب کریں",
+    "selectVersion": "کتاب منتخب کریں"
+  }
+}
