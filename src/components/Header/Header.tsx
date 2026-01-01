@@ -287,6 +287,7 @@ const Header: React.FC = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [showSearchResults, setShowSearchResults] = useState(false);
   const searchResultsRef = useRef<HTMLDivElement>(null);
+  const mobileSearchResultsRef = useRef<HTMLDivElement>(null);
   const { triggerRefresh } = useRefresh();
   const searchHeaderRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -352,10 +353,13 @@ const Header: React.FC = () => {
         if (booksResponse.success && booksResponse.data) {
           setFilterBooks(booksResponse.data);
           const americanStandardBible = booksResponse.data.find(
-            (book) => book.title === "american standard bible"
+            (book) => book.title === "The American Standard Bible"
           );
           if (americanStandardBible) {
             setSelectedBook(americanStandardBible.book_id);
+          } else if (booksResponse.data.length > 0) {
+            // If "The American Standard Bible" doesn't exist, select the first book
+            setSelectedBook(booksResponse.data[0].book_id);
           }
         }
       } catch (error) {
@@ -419,6 +423,7 @@ const Header: React.FC = () => {
 
   const handleCloseSearch = () => {
     setIsSearchOpen(false);
+    setShowSearchResults(false);
   };
 
   const handleLanguageSelect = async (language: string) => {
@@ -512,8 +517,12 @@ const Header: React.FC = () => {
       if (
         searchResultsRef.current &&
         !searchResultsRef.current.contains(target) &&
+        mobileSearchResultsRef.current &&
+        !mobileSearchResultsRef.current.contains(target) &&
         mainSearchInputRef.current &&
-        !mainSearchInputRef.current.contains(target)
+        !mainSearchInputRef.current.contains(target) &&
+        searchInputRef.current &&
+        !searchInputRef.current.contains(target)
       ) {
         setShowSearchResults(false);
       }
@@ -887,8 +896,60 @@ const Header: React.FC = () => {
                 onChange={(e) => {
                   setSearchHeaderText(e.target.value);
                   setSearchText(e.target.value); // Sync with main search
+                  if (e.target.value.trim()) {
+                    setShowSearchResults(true);
+                  } else {
+                    setShowSearchResults(false);
+                    setSearchResults([]);
+                  }
+                }}
+                onFocus={() => {
+                  if (searchHeaderText.trim() && searchResults.length > 0) {
+                    setShowSearchResults(true);
+                  }
                 }}
               />
+              {showSearchResults && (
+                <SearchResultsPopup ref={mobileSearchResultsRef}>
+                  {isSearching ? (
+                    <SearchLoadingState>{t('common.loading')}</SearchLoadingState>
+                  ) : searchResults.length > 0 ? (
+                    searchResults.map((result, index) => (
+                      <SearchResultItem
+                        key={result.block_id || index}
+                        onClick={() => handleResultClick(result)}
+                      >
+                        <SearchResultContent>
+                          <SearchResultTitle>
+                            {result.chapter_name || result.text.split('\n').filter(line => line.trim())[0] || 'Untitled'}
+                          </SearchResultTitle>
+                          <SearchResultSnippet
+                            dangerouslySetInnerHTML={{
+                              __html: result.highlighted_text || result.text || ''
+                            }}
+                          />
+                        </SearchResultContent>
+                        <SearchResultArrow>
+                          <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                          </svg>
+                        </SearchResultArrow>
+                      </SearchResultItem>
+                    ))
+                  ) : searchHeaderText.trim() ? (
+                    <SearchEmptyState>{t('header.noResultsFound')}</SearchEmptyState>
+                  ) : null}
+                </SearchResultsPopup>
+              )}
             </SearchInputWrapper>
             <CloseButton onClick={handleCloseSearch}>
               <svg

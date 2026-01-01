@@ -218,6 +218,11 @@ export const SearchResultsPopup = styled.div`
   overflow-y: auto;
   z-index: 1000;
   margin-top: 4px;
+
+  @media (max-width: 1024px) {
+    max-height: 300px;
+    top: calc(100% + 4px);
+  }
 `;
 
 export const SearchResultItem = styled.div`
